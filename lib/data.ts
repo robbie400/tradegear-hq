@@ -1,12 +1,13 @@
 export type Product = { role:string; brand:string; model:string; url:string };
+export type Hub = { slug:string; name:string; blurb:string; image:string };
 export type Guide = { trade:string; tradeName:string; slug:string; title:string; keyword:string; meta:string; cluster:string; products:Product[] };
 
-export const hubs = [
-  {slug:"electricians", name:"Electricians", blurb:"Meters, testers, wire tools, lighting, storage and jobsite essentials."},
-  {slug:"plumbers", name:"Plumbers", blurb:"Inspection, drain, pipe, leak detection, pumps and service-call gear."},
-  {slug:"hvac", name:"HVAC Technicians", blurb:"Manifolds, vacuum tools, leak detection, meters and recovery equipment."},
-  {slug:"home-inspectors", name:"Home Inspectors", blurb:"Thermal imaging, moisture, electrical, gas, ladders and inspection tools."}
-] as const;
+export const hubs: Hub[] = [
+  {slug:"electricians", name:"Electricians", blurb:"Meters, testers, wire tools, lighting, storage and jobsite essentials.", image:"https://images.pexels.com/photos/29491360/pexels-photo-29491360.jpeg?cs=srgb&dl=pexels-elvan-lam-1105439946-29491360.jpg&fm=jpg"},
+  {slug:"plumbers", name:"Plumbers", blurb:"Inspection, drain, pipe, leak detection, pumps and service-call gear.", image:"https://images.pexels.com/photos/16509869/pexels-photo-16509869.jpeg?cs=srgb&dl=pexels-ar-abnoy-536397811-16509869.jpg&fm=jpg"},
+  {slug:"hvac", name:"HVAC Technicians", blurb:"Manifolds, vacuum tools, leak detection, meters and recovery equipment.", image:"https://images.pexels.com/photos/5463582/pexels-photo-5463582.jpeg?cs=srgb&dl=pexels-jose-andres-pacheco-cortes-3641213-5463582.jpg&fm=jpg"},
+  {slug:"home-inspectors", name:"Home Inspectors", blurb:"Thermal imaging, moisture, electrical, gas, ladders and inspection tools.", image:"https://images.pexels.com/photos/8293640/pexels-photo-8293640.jpeg?cs=srgb&dl=pexels-rdne-8293640.jpg&fm=jpg"}
+];
 
 export const guides: Guide[] = [
  {trade:"electricians",tradeName:"Electricians",slug:"best-multimeters-for-electricians",title:"Best Multimeters for Electricians",keyword:"electrician multimeter",meta:"Compare five strong multimeter candidates for US electricians, with a fast shortlist and clear trade-specific buying criteria.",cluster:"Testing & Measurement",products:[
