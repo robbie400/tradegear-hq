@@ -1,44 +1,32 @@
 # TradeGear HQ
 
-US-focused affiliate comparison and buyer-guide website for professional tradespeople.
+US-focused tool research and affiliate buying guides for professional tradespeople.
 
-## First build
+## Current editorial cluster
 
-This repository now contains a Vercel-ready Next.js frontend with:
+- Four trade hubs and four five-product buying guides.
+- Twenty standalone, research-based product reviews with manufacturer references.
+- One electrician service-call workflow, linked to its category guide and reviews.
+- Editorial methodology, compact affiliate disclosures and sponsored link attributes.
+- Unique metadata, absolute canonical URLs, article and breadcrumb structured data.
+- Global noindex and robots blocking by default while the launch set is incomplete.
 
-- Premium navy/orange/green TradeGear HQ visual system
-- Four trade hubs
-- One working buyer-guide route per launch trade
-- Five mapped Amazon product candidates per demo guide
-- Affiliate disclosure and sponsored link attributes
-- Per-guide metadata and canonical URLs
-- `noindex` by default while editorial/product verification is incomplete
-- Responsive product cards, comparison blocks and Q&A sections
+## Stack and development
 
-## Stack
+Next.js App Router, TypeScript, React and CSS. Run `npm ci`, `npm run build`, then `npm start` to check the production build. GitHub main deploys automatically to Vercel.
 
-- Next.js App Router
-- TypeScript
-- CSS design system
-- Vercel-ready
+## Environment
 
-## Vercel environment variables
+Keep `NEXT_PUBLIC_INDEX_SITE=false` until launch approval. `NEXT_PUBLIC_SITE_URL` defaults to https://tradegear-hq.vercel.app; set it to the real canonical domain when connected. The sitemap is empty while indexing is disabled; when enabled it lists the finished hubs, guides, reviews, workflow and methodology page.
 
-For the preview build, set:
+Amazon US tag: `robbieom0e-20`. Credentials must be stored privately as Vercel environment variables. No Amazon prices, review scores or scraped product images are stored.
 
-```text
-NEXT_PUBLIC_INDEX_SITE=false
-```
+## Editorial rules
 
-Later, when a real domain is connected and every page is verified, set:
+Product cards use stable `reviewSlug` keys. Review additions live in trade-specific data modules, with shared fields derived from the buying guide. Check exact manufacturer models and kit variants before writing claims. Recommendations are research-based; do not imply hands-on testing. Review dates should represent an editorial check, not update automatically with every build.
 
-```text
-NEXT_PUBLIC_SITE_URL=https://yourdomain.com
-NEXT_PUBLIC_INDEX_SITE=true
-```
+The MM720 replaces discontinued MM600; TITANMAX 40881 replaces discontinued P51-870. Milwaukee 2323-21 and CPS BMD200A resolve earlier ambiguous shortlist entries. Do not mix hardware generations or app compatibility across related models.
 
-## Next phase
+## Next work
 
-The master blueprint contains 50 launch guides, 206 product candidates and 250 product placements. This first commit establishes the frontend/component pattern before loading the complete catalogue and doing source-verified editorial content.
-
-Amazon US tracking ID: `robbieom0e-20`
+Build service workflows for the remaining trades, expand well-sourced category guides, and add meaningful head-to-head comparisons. The long-term blueprint is 50 category guides plus workflow and review clusters; publish substantive pages rather than empty routes.

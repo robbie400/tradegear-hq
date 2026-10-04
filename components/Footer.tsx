@@ -1,2 +1,24 @@
 import Link from "next/link";
-export function Footer(){return <footer className="footer"><div className="shell footerGrid"><div><div className="footerBrand">TRADEGEAR <span>HQ</span></div><p>Trade-specific buying guides for US professionals.</p><small>As an Amazon Associate I earn from qualifying purchases.</small></div><div><b>Editorial</b><Link href="/">Home</Link><Link href="/#trades">Trade Guides</Link></div></div></footer>}
+export function Footer() {
+  return (
+    <footer className="footer">
+      <div className="shell footerGrid">
+        <div>
+          <div className="footerBrand">
+            TRADEGEAR <span>HQ</span>
+          </div>
+          <p>Trade-specific buying guides for US professionals.</p>
+          <small>
+            As an Amazon Associate I earn from qualifying purchases.
+          </small>
+        </div>
+        <div>
+          <b>Editorial</b>
+          <Link href="/">Home</Link>
+          <Link href="/#trades">Trade Guides</Link>
+          <Link href="/how-we-choose/">How We Choose Tools</Link>
+        </div>
+      </div>
+    </footer>
+  );
+}

@@ -1,0 +1,170 @@
+.editorialByline {
+  font-size: 13px !important;
+  line-height: 1.8 !important;
+  color: #667482;
+  margin: 0 0 24px !important;
+}
+.editorialByline a,
+.methodNote a,
+.relatedBox a,
+.visibleAnswer a {
+  color: #145b8d;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.reviewHero .editorialByline,
+.reviewHero .affiliateDisclosure {
+  color: #c6d3df;
+}
+.reviewHero .editorialByline a {
+  color: #f8b86b;
+}
+.affiliateDisclosure {
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  color: #667482;
+  margin: 12px 0 20px !important;
+}
+.articleNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  border-bottom: 1px solid #dce3e8;
+  padding: 0 0 24px;
+  margin-bottom: 38px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.articleNav a {
+  color: #263442;
+}
+.editorialNote {
+  font-size: 14px;
+  color: #667482;
+  line-height: 1.8;
+  border-left: 3px solid #f28c28;
+  padding: 4px 0 4px 20px;
+  margin: 28px 0;
+}
+.criteriaGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 28px 0;
+}
+.criteriaGrid h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 12px;
+}
+.criteriaGrid p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0;
+}
+.methodNote {
+  font-size: 14px !important;
+}
+.pickSpecs {
+  margin: 24px 0;
+  border-top: 1px solid #dce3e8;
+}
+.pickSpecs > div {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid #dce3e8;
+  font-size: 14px;
+}
+.pickSpecs dt {
+  color: #667482;
+}
+.pickSpecs dd {
+  margin: 0;
+  font-weight: 600;
+}
+.visibleAnswer {
+  padding: 20px 0;
+  border-bottom: 1px solid #dce3e8;
+}
+.visibleAnswer h3 {
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+.visibleAnswer p {
+  margin: 0;
+  line-height: 1.8;
+  color: #667482;
+}
+.compareActions .micro {
+  max-width: 150px;
+  line-height: 1.5;
+  font-size: 10px;
+  margin-top: 6px;
+}
+.relatedBox li {
+  line-height: 1.8;
+  margin: 10px 0;
+}
+.sourceBox li {
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+}
+.sourceBox p {
+  line-height: 1.8;
+}
+.reviewProductPanel p {
+  line-height: 1.6;
+}
+.methodology {
+  max-width: 850px;
+}
+.methodology h1 {
+  font-size: clamp(36px, 6vw, 58px);
+  line-height: 1.1;
+}
+.methodology h2 {
+  margin-top: 42px;
+}
+.methodology p,
+.methodology li {
+  line-height: 1.9;
+}
+.productCopy,
+.compareRow > div,
+.reviewLeadGrid > div {
+  min-width: 0;
+}
+article[id],
+section[id],
+div[id] {
+  scroll-margin-top: 100px;
+}
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #f28c28;
+  outline-offset: 5px;
+}
+.micro {
+  display: block;
+}
+@media (max-width: 650px) {
+  .criteriaGrid {
+    grid-template-columns: 1fr;
+  }
+  .compareActions .micro {
+    max-width: none;
+  }
+  .pickSpecs > div {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .articleNav {
+    gap: 14px;
+  }
+  .reviewProductPanel h2 {
+    overflow-wrap: anywhere;
+  }
+}
