@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getHub,guides,hubs } from "@/lib/data";
+import { getTradeWorkflows } from "@/lib/workflows";
 
 export function generateStaticParams(){return hubs.map(h=>({trade:h.slug}))}
 
@@ -9,21 +10,29 @@ export default async function TradePage({params}:{params:Promise<{trade:string}>
   const hub=getHub(trade);
   if(!hub)notFound();
   const items=guides.filter(g=>g.trade===trade);
+  const workflows=getTradeWorkflows(trade);
   return <>
     <section className="tradeHero">
       <img src={hub.image} alt={`${hub.name} professional at work`} />
       <div className="tradeHeroShade" />
       <div className="shell tradeHeroInner"><span className="eyebrow">{hub.name.toUpperCase()} TOOL GUIDES</span><h1>Tools & Gear for {hub.name}</h1><p>{hub.blurb}</p></div>
     </section>
-    <section className="section">
+
+    {workflows.length>0&&<section className="section workflowHubSection"><div className="shell">
+      <span className="eyebrow orange">SHOP BY THE WORK YOU DO</span>
+      <div className="sectionHeading"><h2>Start with the job, then choose the tools.</h2><p>Workflow guides organize the kit around real service, diagnostic and installation tasks instead of dumping a catalogue of products on you.</p></div>
+      <div className="workflowHubGrid">{workflows.map(w=><Link key={w.slug} className="workflowHubCard" href={`/${trade}/workflows/${w.slug}/`}><div><span>WORKFLOW GUIDE</span><h3>{w.title}</h3><p>{w.summary}</p></div><b>Build the service-call kit →</b></Link>)}</div>
+    </div></section>}
+
+    <section className="section light">
       <div className="shell">
-        <span className="eyebrow orange">BUYING GUIDES</span>
-        <div className="sectionHeading"><h2>Start with the job you're trying to solve.</h2><p>Open a guide to compare a short list of products, see the tradeoffs and then check the current Amazon offer when you're ready.</p></div>
+        <span className="eyebrow orange">PRODUCT BUYING GUIDES</span>
+        <div className="sectionHeading"><h2>Compare the strongest options by tool type.</h2><p>Use these when you already know the category you need and want a tight shortlist, detailed reviews and a current Amazon route.</p></div>
         <div className="hubGuideGrid">{items.map(g=><Link className="hubGuideCard" key={g.slug} href={`/${trade}/${g.slug}/`}>
           <div className="hubGuideTop"><span>{g.cluster}</span><strong>5 picks</strong></div>
           <h3>{g.title}</h3><p>{g.meta}</p><b>Open comparison →</b>
         </Link>)}</div>
-        <div className="coming"><b>More guides are being loaded from the master plan.</b> This hub is designed to expand into multiple SEO clusters rather than one giant product list.</div>
+        <div className="coming"><b>More guides are being loaded from the master plan.</b> The finished hub will combine workflow pages, category comparisons, individual reviews and head-to-head comparisons.</div>
       </div>
     </section>
   </>
