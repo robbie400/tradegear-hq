@@ -1,0 +1,5 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { getHub,guides,hubs } from "@/lib/data";
+export function generateStaticParams(){return hubs.map(h=>({trade:h.slug}))}
+export default async function TradePage({params}:{params:Promise<{trade:string}>}){const {trade}=await params;const hub=getHub(trade);if(!hub)notFound();const items=guides.filter(g=>g.trade===trade);return <><section className="subHero"><div className="shell"><span className="eyebrow">{hub.name.toUpperCase()} TOOL GUIDES</span><h1>Tools & Gear for {hub.name}</h1><p>{hub.blurb}</p></div></section><section className="section"><div className="shell"><h2>Start here</h2><div className="guideGrid">{items.map(g=><Link className="guideCard" key={g.slug} href={`/${trade}/${g.slug}/`}><span>{g.cluster}</span><h3>{g.title}</h3><p>{g.meta}</p><b>Open guide →</b></Link>)}</div><div className="coming"><b>Master architecture ready:</b> the full blueprint expands each trade hub into multiple SEO clusters and 50 launch guides.</div></div></section></>}

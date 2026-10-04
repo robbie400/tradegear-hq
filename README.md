@@ -1,31 +1,44 @@
 # TradeGear HQ
 
-TradeGear HQ is a US-focused affiliate comparison and buyer-guide website for professional tradespeople.
+US-focused affiliate comparison and buyer-guide website for professional tradespeople.
 
-## Launch audience
+## First build
 
-- Electricians
-- Plumbers
-- HVAC technicians
-- Home inspectors
+This repository now contains a Vercel-ready Next.js frontend with:
 
-## Product model
+- Premium navy/orange/green TradeGear HQ visual system
+- Four trade hubs
+- One working buyer-guide route per launch trade
+- Five mapped Amazon product candidates per demo guide
+- Affiliate disclosure and sponsored link attributes
+- Per-guide metadata and canonical URLs
+- `noindex` by default while editorial/product verification is incomplete
+- Responsive product cards, comparison blocks and Q&A sections
 
-The site is an independent editorial discovery and comparison publication. Visitors compare tools and equipment, then click through to Amazon.com using the Associates tracking ID `robbieom0e-20`.
+## Stack
 
-## Planned stack
-
-- Next.js
+- Next.js App Router
 - TypeScript
-- Tailwind CSS
-- Data-driven reusable guide/product components
-- SEO-first page generation
-- Amazon Product Links / Creators API integration when available
+- CSS design system
+- Vercel-ready
 
-## Design direction
+## Vercel environment variables
 
-Premium industrial / modern jobsite. Dark navy and charcoal structure, warm orange editorial accents, green outbound Amazon CTAs, light editorial content canvas.
+For the preview build, set:
 
-## Status
+```text
+NEXT_PUBLIC_INDEX_SITE=false
+```
 
-Initial repository scaffold in progress.
+Later, when a real domain is connected and every page is verified, set:
+
+```text
+NEXT_PUBLIC_SITE_URL=https://yourdomain.com
+NEXT_PUBLIC_INDEX_SITE=true
+```
+
+## Next phase
+
+The master blueprint contains 50 launch guides, 206 product candidates and 250 product placements. This first commit establishes the frontend/component pattern before loading the complete catalogue and doing source-verified editorial content.
+
+Amazon US tracking ID: `robbieom0e-20`
