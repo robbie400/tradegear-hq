@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 import { getReview, reviews } from "@/lib/reviews";
 import { getTradeWorkflows } from "@/lib/workflows";
 import {
-  AffiliateDisclosure,
   EditorialByline,
   PageSchema,
 } from "@/components/Editorial";
@@ -69,7 +68,6 @@ export default async function ReviewPage({
           <h1>{r.title}</h1>
           <p>{r.meta}</p>
           <EditorialByline />
-          <AffiliateDisclosure />
           <div className="reviewHeroActions">
             <a
               className="amazonBtn"
@@ -83,9 +81,6 @@ export default async function ReviewPage({
               Back to comparison
             </Link>
           </div>
-          <small className="micro lightText">
-            Paid link — we may earn a commission.
-          </small>
           </div>
           {photo && <ProductPhoto photo={photo} className="reviewHeroPhoto" priority credit />}
         </div>
@@ -195,9 +190,6 @@ export default async function ReviewPage({
                 Confirm the exact model, kit contents and seller. The link may
                 open a product search; prices and availability can change.
               </p>
-              <small className="micro lightText">
-                Paid link — we may earn a commission.
-              </small>
             </div>
             <a
               className="amazonBtn"

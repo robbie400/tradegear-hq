@@ -5,7 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getWorkflow, workflows } from "@/lib/workflows";
 import { guides } from "@/lib/data";
-import { AffiliateDisclosure, EditorialByline, PageSchema } from "@/components/Editorial";
+import { EditorialByline, PageSchema } from "@/components/Editorial";
 
 export function generateStaticParams() {
   return workflows.map((w) => ({ trade: w.trade, slug: w.slug }));
@@ -99,7 +99,6 @@ export default async function WorkflowPage({
 
           {w.notes && <aside className="relatedBox"><b>Confirm the complete job requirements</b>{w.notes.map(n=><p key={n}>{n}</p>)}</aside>}
           <p className="methodNote">Research-based tool selection from manufacturer documentation. We have not hands-on tested these products. <Link href="/how-we-choose/">How we choose tools →</Link></p>
-          <AffiliateDisclosure />
           <div className="workflowToolGrid">
             {w.tools.map((t) => (
               <article className="workflowTool" key={t.name}>
@@ -129,9 +128,6 @@ export default async function WorkflowPage({
                     Check Price on Amazon
                   </a>
                 </div>
-                <small className="micro">
-                  Paid link — we may earn a commission.
-                </small>
               </article>
             ))}
           </div>
@@ -191,11 +187,6 @@ export default async function WorkflowPage({
               ))}
           </aside>
 
-          <div className="affiliateFooter">
-            <b>Affiliate disclosure:</b> TradeGear HQ may earn a commission from
-            qualifying purchases made through links on this page. As an Amazon
-            Associate I earn from qualifying purchases.
-          </div>
         </div>
       </section>
     </>

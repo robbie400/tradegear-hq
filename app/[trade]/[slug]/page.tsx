@@ -9,7 +9,6 @@ import { getReview } from "@/lib/reviews";
 import { guideEditorial } from "@/lib/guide-editorial";
 import { getTradeWorkflows } from "@/lib/workflows";
 import {
-  AffiliateDisclosure,
   EditorialByline,
   PageSchema,
 } from "@/components/Editorial";
@@ -97,7 +96,6 @@ export default async function Guide({
               Choose by the task. Read the detailed buying assessment and available full reviews before checking the retailer offer.
             </p>
           </div>
-          <AffiliateDisclosure />
           <div className="compare">
             {g.products.map((p, i) => (
               <div className="compareRow" key={p.productId || p.reviewSlug}>
@@ -128,9 +126,6 @@ export default async function Guide({
                     >
                       Amazon →
                     </a>
-                    <small className="micro">
-                      Paid link — we may earn a commission.
-                    </small>
                   </div>
                 </div>
               </div>
@@ -240,8 +235,7 @@ export default async function Guide({
                       </a>
                     </div>
                     <small className="micro">
-                      Paid link — we may earn a commission. Check the exact
-                      model and kit in the listing.
+                      Check the exact model and kit in the listing.
                     </small>
                   </div>
                 </article>

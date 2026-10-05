@@ -50,9 +50,7 @@ export default function Methodology() {
         </p>
         <h2>How affiliate links work</h2>
         <p>
-          We may earn a commission from purchases made through links on this
-          site. As an Amazon Associate I earn from qualifying purchases. Amazon
-          links may open a search result rather than an exact product. Confirm
+          Amazon links may open a search result rather than an exact product. Confirm
           the model, kit and seller before ordering. We do not publish fixed
           Amazon prices or customer-review scores.
         </p>

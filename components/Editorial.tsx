@@ -11,14 +11,6 @@ export function EditorialByline() {
     </p>
   );
 }
-export function AffiliateDisclosure() {
-  return (
-    <p className="affiliateDisclosure">
-      Affiliate disclosure: We may earn a commission from purchases made through
-      links on this page.
-    </p>
-  );
-}
 export function PageSchema({
   title,
   path,
