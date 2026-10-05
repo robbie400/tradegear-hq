@@ -1,3 +1,4 @@
+import {plumberCatalogGuides} from './plumber-catalog';
 import type {Assessment} from "./electrician-catalog-types";
 import {electricianCatalogGuides} from "./electrician-catalog";
 export type Product = {
@@ -72,7 +73,7 @@ export const guides: Guide[] = [
         role: "Best for everyday service",
         brand: "Fluke",
         model: "117 Electrician's Multimeter",
-        url: "https://www.amazon.com/dp/B01IH41CUW/ref=nosim?tag=robbieom0e-20",
+        url: "https://www.amazon.com/dp/B000O3LUEI/ref=nosim?tag=robbieom0e-20",
         reviewSlug: "fluke-117-review",
       },
       {
@@ -245,7 +246,9 @@ export const guides: Guide[] = [
   },
 ];
 
-guides.push(...electricianCatalogGuides);
+guides.push(...electricianCatalogGuides, ...plumberCatalogGuides);
+const inspectionGuide = guides.find(g=>g.trade === "plumbers");
+if (inspectionGuide) inspectionGuide.workflowSlugs = ["plumber-residential-service-call-tool-kit", "plumber-leak-detection-tool-kit", "plumber-drain-clearing-tool-kit"];
 
 export function getHub(slug: string) {
   return hubs.find((h) => h.slug === slug);

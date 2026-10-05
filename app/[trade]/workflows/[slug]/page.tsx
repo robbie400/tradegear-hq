@@ -72,7 +72,7 @@ export default async function WorkflowPage({
             <p>{w.summary}</p>
           </div>
 
-          {trade === "electricians" && <div className="kitPhotoStrip" aria-label="Tools from this job kit">{w.tools.filter(t => getProductImage(t.name)).slice(0,3).map(t => <div key={t.name}><ProductPhoto photo={getProductImage(t.name)} className="kitStripPhoto" /><p>{t.name}</p></div>)}</div>}
+          {["electricians", "plumbers"].includes(trade) && <div className="kitPhotoStrip" aria-label="Tools from this job kit">{w.tools.filter(t => getProductImage(t.name)).slice(0,3).map(t => <div key={t.name}><ProductPhoto photo={getProductImage(t.name)} className="kitStripPhoto" /><p>{t.name}</p></div>)}</div>}
 
           <div className="workflowStages">
             {w.stages.map((s, i) => (

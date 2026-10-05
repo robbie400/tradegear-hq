@@ -1,3 +1,4 @@
+import {plumberWorkflows} from './plumber-workflows';
 import {additionalElectricianWorkflows} from "./electrician-workflows";
 import {guides} from "./data";
 export type WorkflowTool = {
@@ -44,7 +45,7 @@ export const workflows:Workflow[] = [
       {name:"5. Verify",description:"Retest the circuit, confirm operation and leave the customer with a clear explanation of what was found and changed."}
     ],
     tools:[
-      {stage:"Make safe / diagnose",type:"Digital multimeter",name:"Fluke 117 Electrician’s Multimeter",why:"A strong everyday electrical meter for service work where voltage, continuity, resistance, capacitance and frequency measurements are part of the diagnosis.",amazonUrl:"https://www.amazon.com/dp/B01IH41CUW/ref=nosim?tag=robbieom0e-20",reviewUrl:"/reviews/fluke-117-review/",priority:"Core"},
+      {stage:"Make safe / diagnose",type:"Digital multimeter",name:"Fluke 117 Electrician’s Multimeter",why:"A strong everyday electrical meter for service work where voltage, continuity, resistance, capacitance and frequency measurements are part of the diagnosis.",amazonUrl:"https://www.amazon.com/dp/B000O3LUEI/ref=nosim?tag=robbieom0e-20",reviewUrl:"/reviews/fluke-117-review/",priority:"Core"},
       {stage:"Make safe",type:"Non-contact voltage tester",name:"Klein Tools NCVT-3P",why:"Fast first-pass voltage indication and a useful pocket tool before deeper testing. It does not replace proper absence-of-voltage verification where that is required.",amazonUrl:"https://www.amazon.com/s?k=Klein+NCVT-3P&tag=robbieom0e-20",priority:"Core"},
       {stage:"Diagnose",type:"Clamp meter",name:"Fluke 323 True-RMS Clamp Meter",why:"Lets a technician check current without breaking the circuit, useful when the complaint is load-related or intermittent.",amazonUrl:"https://www.amazon.com/s?k=Fluke+323+True-RMS+Clamp+Meter&tag=robbieom0e-20",priority:"Core"},
       {stage:"Identify",type:"Circuit breaker finder",name:"Klein Tools ET310 Circuit Breaker Finder",why:"Useful when panel labels are poor or the customer cannot identify the circuit, reducing trial-and-error at the panel.",amazonUrl:"https://www.amazon.com/s?k=Klein+ET310+Circuit+Breaker+Finder&tag=robbieom0e-20",priority:"Useful"},
@@ -73,3 +74,5 @@ service.notes=["Confirm employer-required PPE, isolation equipment, measuring an
 
 export function getWorkflow(trade:string,slug:string){return workflows.find(w=>w.trade===trade&&w.slug===slug)}
 export function getTradeWorkflows(trade:string){return workflows.filter(w=>w.trade===trade)}
+
+workflows.push(...plumberWorkflows);

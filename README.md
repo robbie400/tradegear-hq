@@ -37,7 +37,7 @@ Primary and secondary query themes are editorial intent hypotheses, not measured
 
 ## Next work
 
-Build service workflows for the remaining trades, expand well-sourced category guides, and add meaningful head-to-head comparisons. The long-term blueprint is 50 category guides plus workflow and review clusters; publish substantive pages rather than empty routes.
+The plumbing expansion adds 19 category guides with 95 distinct products and eight job kits. See `docs/plumbing-release-status.md` for the verification results and outstanding release gates. Build service workflows for HVAC and home inspectors, expand well-sourced category guides, and add meaningful head-to-head comparisons. The long-term blueprint is 50 category guides plus workflow and review clusters; publish substantive pages rather than empty routes.
 
 ## Product imagery
 

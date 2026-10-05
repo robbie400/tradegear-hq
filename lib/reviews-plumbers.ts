@@ -151,7 +151,7 @@ export const plumberReviews = [
   makeReview("plumbers", 3, {
     title: "DEPSTECH DS520 Review: Dual Views for Localized Inspection",
     meta: "DEPSTECH DS520 dual-lens buying advice: 7.9 mm probe, standalone screen, split view, cable variants and why it is not automatically a sewer survey tool.",
-    sourceUrl: "https://depstech.com/products/ds520-borescope-camera-cable",
+    sourceUrl: "https://depstech.com/products/endoscope-with-screen-ds520",
     extraSources: [
       {
         label: "DS520 dual-lens monitor/product family",

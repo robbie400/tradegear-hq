@@ -1,3 +1,4 @@
+import {plumberCatalogReviews} from './plumber-catalog';
 import {electricianCatalogReviews} from "./electrician-catalog";
 import { guides } from "./data";
 import { electricianReviews } from "./reviews-electricians";
@@ -44,7 +45,7 @@ const initialReviews: ProductReview[] = [
     meta: "A practical review of the Fluke 117 for US electricians, covering True-RMS measurement, non-contact voltage detection, LoZ, safety rating, workflow and tradeoffs.",
     role: "Best Overall",
     amazonUrl:
-      "https://www.amazon.com/dp/B01IH41CUW/ref=nosim?tag=robbieom0e-20",
+      "https://www.amazon.com/dp/B000O3LUEI/ref=nosim?tag=robbieom0e-20",
     sourceUrl:
       "https://www.fluke.com/en/product/electrical-testing/digital-multimeters/fluke-117",
     intro:
@@ -392,6 +393,7 @@ export const reviews: ProductReview[] = [
   ...electricianReviews,
   ...electricianCatalogReviews,
   ...plumberReviews,
+  ...plumberCatalogReviews,
   ...hvacReviews,
   ...inspectorReviews,
 ];
