@@ -1,3 +1,79 @@
 import type { NextConfig } from "next";
-const nextConfig: NextConfig = { reactStrictMode: true };
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  images: { remotePatterns: [
+  {
+    "protocol": "https",
+    "hostname": "assets.unilogcorp.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "cdn-reichelt.de"
+  },
+  {
+    "protocol": "https",
+    "hostname": "cpcireland.farnell.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "d3501hjdis3g5w.cloudfront.net"
+  },
+  {
+    "protocol": "https",
+    "hostname": "d3cacd5apmg13r.cloudfront.net"
+  },
+  {
+    "protocol": "https",
+    "hostname": "data.kleintools.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "hausoftools.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "images.salsify.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "media.fluke.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "res.cloudinary.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "toolup.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "vetopropac.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "www.acmetools.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "www.contractortool.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "www.extech.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "www.milwaukeetool.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "www.streamlight.com"
+  },
+  {
+    "protocol": "https",
+    "hostname": "www.wihatools.com"
+  }
+] },
+};
 export default nextConfig;

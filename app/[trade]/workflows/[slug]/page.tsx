@@ -1,3 +1,5 @@
+import { ProductPhoto } from "@/components/ProductPhoto";
+import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -70,6 +72,8 @@ export default async function WorkflowPage({
             <p>{w.summary}</p>
           </div>
 
+          {trade === "electricians" && <div className="kitPhotoStrip" aria-label="Tools from this job kit">{w.tools.filter(t => getProductImage(t.name)).slice(0,3).map(t => <div key={t.name}><ProductPhoto photo={getProductImage(t.name)} className="kitStripPhoto" /><p>{t.name}</p></div>)}</div>}
+
           <div className="workflowStages">
             {w.stages.map((s, i) => (
               <article key={s.name}>
@@ -105,6 +109,7 @@ export default async function WorkflowPage({
                   </span>
                   <span>{t.stage}</span>
                 </div>
+                <ProductPhoto photo={getProductImage(t.name)} className="workflowProductPhoto" />
                 <p className="toolType">{t.type}</p>
                 <h3>{t.name}</h3>
                 <p>{t.why}</p>

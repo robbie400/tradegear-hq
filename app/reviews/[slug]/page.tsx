@@ -1,3 +1,5 @@
+import { ProductPhoto } from "@/components/ProductPhoto";
+import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -34,6 +36,7 @@ export default async function ReviewPage({
   const { slug } = await params;
   const r = getReview(slug);
   if (!r) notFound();
+  const photo = getProductImage(r.slug);
   const alternatives = reviews.filter(
     (x) => x.trade === r.trade && x.guideSlug === r.guideSlug && x.slug !== r.slug,
   );
@@ -52,7 +55,8 @@ export default async function ReviewPage({
         ]}
       />
       <section className="reviewHero">
-        <div className="shell reviewShell">
+        <div className={`shell reviewShell${photo ? " reviewHeroWithPhoto" : ""}`}>
+          <div className="reviewHeroCopy">
           <div className="crumb">
             <Link href="/">Home</Link> /{" "}
             <Link href={`/${r.trade}/`}>{r.tradeName}</Link> /{" "}
@@ -82,6 +86,8 @@ export default async function ReviewPage({
           <small className="micro lightText">
             Paid link — we may earn a commission.
           </small>
+          </div>
+          {photo && <ProductPhoto photo={photo} className="reviewHeroPhoto" priority credit />}
         </div>
       </section>
       <section className="section">

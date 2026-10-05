@@ -1,3 +1,5 @@
+import { ProductPhoto } from "@/components/ProductPhoto";
+import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -95,13 +97,16 @@ export default async function Guide({
             {g.products.map((p, i) => (
               <div className="compareRow" key={p.productId || p.reviewSlug}>
                 <b className="rank">{String(i + 1).padStart(2, "0")}</b>
-                <div>
+                <div className="compareIdentity">
+                  <ProductPhoto photo={getProductImage(p.productId || p.reviewSlug || `${p.brand} ${p.model}`)} className="comparePhoto" />
+                  <div>
                   <span>{p.role}</span>
                   <Link href={`#pick-${i + 1}`} className="productJump">
                     <strong>
                       {p.brand} {p.model}
                     </strong>
                   </Link>
+                  </div>
                 </div>
                 <div className="compareActions">
                   <Link
@@ -176,9 +181,9 @@ export default async function Guide({
                   id={`pick-${i + 1}`}
                   key={p.productId || p.reviewSlug}
                 >
-                  <div className="rankPanel">
+                  <div className={`rankPanel${getProductImage(p.productId || p.reviewSlug || `${p.brand} ${p.model}`) ? " rankPanelWithPhoto" : ""}`}>
                     <span>OPTION {i + 1}</span>
-                    <b>{String(i + 1).padStart(2, "0")}</b>
+                    {getProductImage(p.productId || p.reviewSlug || `${p.brand} ${p.model}`) ? <ProductPhoto photo={getProductImage(p.productId || p.reviewSlug || `${p.brand} ${p.model}`)} className="pickPhoto" credit /> : <b>{String(i + 1).padStart(2, "0")}</b>}
                     <small>{p.role}</small>
                   </div>
                   <div className="productCopy">

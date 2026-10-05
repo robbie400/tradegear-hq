@@ -1,3 +1,5 @@
+import { ProductPhoto } from "@/components/ProductPhoto";
+import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -68,6 +70,7 @@ export default async function TradePage({
                   className="workflowHubCard"
                   href={`/${trade}/workflows/${w.slug}/`}
                 >
+                  {trade === "electricians" && <div className="workflowCardPhotos" aria-hidden="true">{w.tools.filter(t=>getProductImage(t.name)).slice(0,3).map(t=><ProductPhoto key={t.name} photo={getProductImage(t.name)} />)}</div>}
                   <div>
                     <span>WORKFLOW GUIDE</span>
                     <h3>{w.title}</h3>
@@ -100,9 +103,10 @@ export default async function TradePage({
                 key={g.slug}
                 href={`/${trade}/${g.slug}/`}
               >
+                <ProductPhoto photo={getProductImage(g.products[0].productId || g.products[0].reviewSlug || `${g.products[0].brand} ${g.products[0].model}`)} className="hubProductPhoto" />
                 <div className="hubGuideTop">
                   <span>{g.cluster}</span>
-                  <strong>5 picks</strong>
+                  <strong>{g.products.length} picks</strong>
                 </div>
                 <h3>{g.title}</h3>
                 <p>{g.meta}</p>
