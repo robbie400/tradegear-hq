@@ -40,3 +40,9 @@ All 165 tagged Amazon product destinations were submitted for verification. None
 Before launch: replace provisional searches with verified matching listings, record the selected package and seller, check current stock for every product in both trades, verify deployed image delivery, and complete desktop/mobile browser checks of the expanded pages. Stock is time-sensitive and must be checked again near launch.
 
 Production publication remains held under the user's instruction to complete browser checks before pushing. The authorized preview provides a review target once access is resolved; do not enable indexing or mark the release verified while these gates remain open.
+
+## Resumed whole-site Amazon audit — 5 October 2026
+
+`amazon-link-check-2026-10-05.json` records a fresh check of all 175 distinct Amazon destinations across all trades. Rendered HTML contains 595 Amazon buttons on 101 pages; all use HTTPS, Amazon.com, the correct `robbieom0e-20` tag, a new-tab target and sponsored/nofollow/noopener attributes. No malformed URL or missing tag was found.
+
+Of these destinations, 174 are search-results URLs and only one is a direct product listing. A search URL is not a verified exact-model or package listing. The Fluke 117 tagged listing returned HTTP 200 with an Amazon title naming Fluke 117; that verifies the model in the response title, but does not verify the selected package, seller, current stock or affiliate attribution. The other 174 destinations returned 138 access-blocked responses and 36 timeouts. Those results are inconclusive, rather than evidence of broken listings. Exact-listing and stock gates therefore remain open.

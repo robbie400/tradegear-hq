@@ -1,0 +1,3431 @@
+{
+  "checkedAt": "2026-10-05T17:18:05.278228+00:00",
+  "scope": "All distinct Amazon destinations in guide, review and workflow data. URL formatting is validated separately; responses alone do not prove product or package match, stock, or affiliate attribution.",
+  "summary": {
+    "uniqueDestinations": 175,
+    "fetchResults": {
+      "response_received_unverified": 1,
+      "access_blocked": 138,
+      "timeout": 36
+    },
+    "fullyVerifiedPurchasableDestinations": 0
+  },
+  "destinations": [
+    {
+      "url": "https://www.amazon.com/dp/B000O3LUEI/ref=nosim?tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-multimeters-for-electricians",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/reviews/fluke-117-review",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Fluke 117 Electrician's Multimeter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Fluke 117 Electrician's Multimeter"
+        }
+      ],
+      "httpStatus": "200",
+      "fetchStatus": "response_received_unverified",
+      "title": "Fluke 117 Digital Multimeter, Non-Contact AC Voltage Detection, Measures Resistance/Continuity/Frequency/Capacitance/Min Max Average, Automatic AC/DC Selection, Low Impedance Mode - Stud Finders And Scanning Tools - Amazon.com",
+      "error": null,
+      "listingMatch": "model_matches_response_title",
+      "stock": "unverified",
+      "packageMatch": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke+115+Compact+True-RMS+Digital+Multimeter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-multimeters-for-electricians",
+          "product": "Fluke 115 Compact True-RMS Digital Multimeter"
+        },
+        {
+          "page": "/reviews/fluke-115-review",
+          "product": "Fluke 115 Compact True-RMS Digital Multimeter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein+Tools+MM720&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-multimeters-for-electricians",
+          "product": "Klein Tools MM720 TRMS Auto-Ranging Multimeter"
+        },
+        {
+          "page": "/reviews/klein-mm720-review",
+          "product": "Klein Tools MM720 TRMS Auto-Ranging Multimeter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein+Tools+MM450+Slim+TRMS+Multimeter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-multimeters-for-electricians",
+          "product": "Klein Tools MM450 Slim TRMS Multimeter"
+        },
+        {
+          "page": "/reviews/klein-mm450-review",
+          "product": "Klein Tools MM450 Slim TRMS Multimeter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Southwire+14090T+TechnicianPRO+Bluetooth+Multimeter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-multimeters-for-electricians",
+          "product": "Southwire 14090T TechnicianPRO Bluetooth Multimeter"
+        },
+        {
+          "page": "/reviews/southwire-14090t-review",
+          "product": "Southwire 14090T TechnicianPRO Bluetooth Multimeter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID+micro+CA-25+Handheld+Inspection+Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-inspection-cameras-for-plumbers",
+          "product": "RIDGID micro CA-25 Handheld Inspection Camera"
+        },
+        {
+          "page": "/reviews/ridgid-micro-ca25-review",
+          "product": "RIDGID micro CA-25 Handheld Inspection Camera"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "RIDGID micro CA-25 Handheld Inspection Camera"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-leak-detection-tool-kit",
+          "product": "RIDGID micro CA-25 Handheld Inspection Camera"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein+Tools+ET20+WiFi+Borescope&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-inspection-cameras-for-plumbers",
+          "product": "Klein Tools ET20 WiFi Borescope"
+        },
+        {
+          "page": "/reviews/klein-et20-review",
+          "product": "Klein Tools ET20 WiFi Borescope"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "500 - Amazon.com",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Teslong+NTS300+Industrial+Endoscope&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-inspection-cameras-for-plumbers",
+          "product": "Teslong NTS300 Industrial Endoscope"
+        },
+        {
+          "page": "/reviews/teslong-nts300-review",
+          "product": "Teslong NTS300 Industrial Endoscope"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DEPSTECH+DS520+Dual-Lens+Inspection+Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-inspection-cameras-for-plumbers",
+          "product": "DEPSTECH DS520 Dual-Lens Inspection Camera"
+        },
+        {
+          "page": "/reviews/depstech-ds520-review",
+          "product": "DEPSTECH DS520 Dual-Lens Inspection Camera"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee+2323-21+M12+M-SPECTOR+360&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-inspection-cameras-for-plumbers",
+          "product": "Milwaukee 2323-21 M12 M-SPECTOR 360 4-Foot Inspection Camera Kit"
+        },
+        {
+          "page": "/reviews/milwaukee-m12-mspector-360-review",
+          "product": "Milwaukee 2323-21 M12 M-SPECTOR 360 4-Foot Inspection Camera Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fieldpiece+SM480V+SMAN+Digital+Manifold+and+Micron+Gauge&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/hvac/best-digital-manifolds-for-hvac",
+          "product": "Fieldpiece SM480V SMAN Digital Manifold and Micron Gauge"
+        },
+        {
+          "page": "/reviews/fieldpiece-sm480v-review",
+          "product": "Fieldpiece SM480V SMAN Digital Manifold and Micron Gauge"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Testo+550s+Digital+Manifold+Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/hvac/best-digital-manifolds-for-hvac",
+          "product": "Testo 550s Digital Manifold Kit"
+        },
+        {
+          "page": "/reviews/testo-550s-review",
+          "product": "Testo 550s Digital Manifold Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "500 - Amazon.com",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Yellow+Jacket+TITANMAX+40881&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/hvac/best-digital-manifolds-for-hvac",
+          "product": "Yellow Jacket TITANMAX Digital Manifold 40881"
+        },
+        {
+          "page": "/reviews/yellow-jacket-titanmax-review",
+          "product": "Yellow Jacket TITANMAX Digital Manifold 40881"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Elitech+EMG-40V+Digital+Manifold&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/hvac/best-digital-manifolds-for-hvac",
+          "product": "Elitech EMG-40V Digital Manifold"
+        },
+        {
+          "page": "/reviews/elitech-emg40v-review",
+          "product": "Elitech EMG-40V Digital Manifold"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CPS+BMD200A+BLACKMAX&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/hvac/best-digital-manifolds-for-hvac",
+          "product": "CPS BMD200A BLACKMAX Wireless Digital Manifold"
+        },
+        {
+          "page": "/reviews/cps-blackmax-bmd200a-review",
+          "product": "CPS BMD200A BLACKMAX Wireless Digital Manifold"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=FLIR+C5+Compact+Thermal+Imaging+Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/home-inspectors/best-thermal-cameras-for-home-inspectors",
+          "product": "FLIR C5 Compact Thermal Imaging Camera"
+        },
+        {
+          "page": "/reviews/flir-c5-review",
+          "product": "FLIR C5 Compact Thermal Imaging Camera"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=HIKMICRO+B01+Handheld+Thermal+Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/home-inspectors/best-thermal-cameras-for-home-inspectors",
+          "product": "HIKMICRO B01 Handheld Thermal Camera"
+        },
+        {
+          "page": "/reviews/hikmicro-b01-review",
+          "product": "HIKMICRO B01 Handheld Thermal Camera"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein+Tools+TI250+Rechargeable+Thermal+Imager&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/home-inspectors/best-thermal-cameras-for-home-inspectors",
+          "product": "Klein Tools TI250 Rechargeable Thermal Imager"
+        },
+        {
+          "page": "/reviews/klein-ti250-review",
+          "product": "Klein Tools TI250 Rechargeable Thermal Imager"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=TOPDON+TC001+Thermal+Imaging+Camera+for+Android&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/home-inspectors/best-thermal-cameras-for-home-inspectors",
+          "product": "TOPDON TC001 Thermal Imaging Camera for Android"
+        },
+        {
+          "page": "/reviews/topdon-tc001-review",
+          "product": "TOPDON TC001 Thermal Imaging Camera for Android"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=FLIR+TG165-X+MSX+Thermal+Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/home-inspectors/best-thermal-cameras-for-home-inspectors",
+          "product": "FLIR TG165-X MSX Thermal Camera"
+        },
+        {
+          "page": "/reviews/flir-tg165x-review",
+          "product": "FLIR TG165-X MSX Thermal Camera"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke%20323%20True-RMS%20Clamp%20Meter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-clamp-meters-for-electricians",
+          "product": "Fluke 323 True-RMS Clamp Meter"
+        },
+        {
+          "page": "/reviews/fluke-323-review",
+          "product": "Fluke 323 True-RMS Clamp Meter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Fluke 323 True-RMS Clamp Meter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Fluke 323 True-RMS Clamp Meter"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Fluke 323 True-RMS Clamp Meter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Fluke 323 True-RMS Clamp Meter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Fluke 323 True-RMS Clamp Meter"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke%20325%20True-RMS%20Clamp%20Meter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-clamp-meters-for-electricians",
+          "product": "Fluke 325 True-RMS Clamp Meter"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20CL390%20TRMS%20AC%2FDC%20Clamp%20Meter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-clamp-meters-for-electricians",
+          "product": "Klein Tools CL390 TRMS AC/DC Clamp Meter"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20CL810%20TRMS%20Clamp%20Meter%20with%20Worklight&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-clamp-meters-for-electricians",
+          "product": "Klein Tools CL810 TRMS Clamp Meter with Worklight"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20CL220%20AC%20Clamp%20Meter%20with%20Temperature&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-clamp-meters-for-electricians",
+          "product": "Klein Tools CL220 AC Clamp Meter with Temperature"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20NCVT-3P%20Dual-Range%20Voltage%20Tester&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-voltage-testers-for-electricians",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/reviews/klein-ncvt-3p-review",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Klein Tools NCVT-3P Dual-Range Voltage Tester"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke%201AC%20II%20VoltAlert&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-voltage-testers-for-electricians",
+          "product": "Fluke 1AC II VoltAlert"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20NCVT-1P%20Voltage%20Tester&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-voltage-testers-for-electricians",
+          "product": "Klein Tools NCVT-1P Voltage Tester"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20ET60%20Electronic%20AC%2FDC%20Voltage%20Tester&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-voltage-testers-for-electricians",
+          "product": "Klein Tools ET60 Electronic AC/DC Voltage Tester"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke%20T5-600%20Electrical%20Tester&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-voltage-testers-for-electricians",
+          "product": "Fluke T5-600 Electrical Tester"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20ET310%20Digital%20Circuit%20Breaker%20Finder&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-breaker-finders-for-electricians",
+          "product": "Klein Tools ET310 Digital Circuit Breaker Finder"
+        },
+        {
+          "page": "/reviews/klein-et310-review",
+          "product": "Klein Tools ET310 Digital Circuit Breaker Finder"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Klein Tools ET310 Digital Circuit Breaker Finder"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Klein Tools ET310 Digital Circuit Breaker Finder"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Klein Tools ET310 Digital Circuit Breaker Finder"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20ET350%204-in-1%20Circuit%20Breaker%20Finder&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-breaker-finders-for-electricians",
+          "product": "Klein Tools ET350 4-in-1 Circuit Breaker Finder"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=IDEAL%2061-534%20Digital%20Circuit%20Breaker%20Finder&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-breaker-finders-for-electricians",
+          "product": "IDEAL 61-534 Digital Circuit Breaker Finder"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Extech%20CB10%20Circuit%20Breaker%20Finder&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-breaker-finders-for-electricians",
+          "product": "Extech CB10 Circuit Breaker Finder"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Southwire%2041210S%20Circuit%20Breaker%20Finder%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-breaker-finders-for-electricians",
+          "product": "Southwire 41210S Circuit Breaker Finder Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20ET450%20Advanced%20Circuit%20Tracer%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-tracers-for-electricians",
+          "product": "Klein Tools ET450 Advanced Circuit Tracer Kit"
+        },
+        {
+          "page": "/reviews/klein-et450-review",
+          "product": "Klein Tools ET450 Advanced Circuit Tracer Kit"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Klein Tools ET450 Advanced Circuit Tracer Kit"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Klein Tools ET450 Advanced Circuit Tracer Kit"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Klein Tools ET450 Advanced Circuit Tracer Kit"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Klein Tools ET450 Advanced Circuit Tracer Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke%202052%20Advanced%20Wire%20Tracer%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-tracers-for-electricians",
+          "product": "Fluke 2052 Advanced Wire Tracer Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke%202062%20Advanced%20Pro%20Wire%20Tracer%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-tracers-for-electricians",
+          "product": "Fluke 2062 Advanced Pro Wire Tracer Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Amprobe%20AT-6020%20Advanced%20Wire%20Tracer%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-tracers-for-electricians",
+          "product": "Amprobe AT-6020 Advanced Wire Tracer Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Amprobe%20AT-6030%20Advanced%20Wire%20Tracer%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-circuit-tracers-for-electricians",
+          "product": "Amprobe AT-6030 Advanced Wire Tracer Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20RT250%20GFCI%20Receptacle%20Tester%20with%20LCD&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-receptacle-testers-for-electricians",
+          "product": "Klein Tools RT250 GFCI Receptacle Tester with LCD"
+        },
+        {
+          "page": "/reviews/klein-rt250-review",
+          "product": "Klein Tools RT250 GFCI Receptacle Tester with LCD"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Klein Tools RT250 GFCI Receptacle Tester with LCD"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Klein Tools RT250 GFCI Receptacle Tester with LCD"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Klein Tools RT250 GFCI Receptacle Tester with LCD"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Klein Tools RT250 GFCI Receptacle Tester with LCD"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20RT210%20GFCI%20Outlet%20Tester&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-receptacle-testers-for-electricians",
+          "product": "Klein Tools RT210 GFCI Outlet Tester"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20RT390%20Circuit%20Analyzer&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-receptacle-testers-for-electricians",
+          "product": "Klein Tools RT390 Circuit Analyzer"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fluke%20ST120%20GFCI%20Socket%20Tester&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-receptacle-testers-for-electricians",
+          "product": "Fluke ST120 GFCI Socket Tester"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=IDEAL%2061-501%20GFCI%20Receptacle%20Tester&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-receptacle-testers-for-electricians",
+          "product": "IDEAL 61-501 GFCI Receptacle Tester"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2011055%20Klein-Kurve%20Wire%20Stripper%2FCutter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-wire-strippers-for-electricians",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/reviews/klein-11055-review",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Klein Tools 11055 Klein-Kurve Wire Stripper/Cutter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2011061%20Self-Adjusting%20Wire%20Stripper%2FCutter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-wire-strippers-for-electricians",
+          "product": "Klein Tools 11061 Self-Adjusting Wire Stripper/Cutter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2011063W%20Katapult%20Wire%20Stripper%2FCutter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-wire-strippers-for-electricians",
+          "product": "Klein Tools 11063W Katapult Wire Stripper/Cutter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2013%2072%208%20WireStripper&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-wire-strippers-for-electricians",
+          "product": "KNIPEX 13 72 8 WireStripper"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=IDEAL%2045-092%20Stripmaster%2010%E2%80%9322%20AWG&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-wire-strippers-for-electricians",
+          "product": "IDEAL 45-092 Stripmaster 10\u201322 AWG"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20J2000-9NE%20Journeyman%20Lineman%E2%80%99s%20Pliers&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-linemans-pliers-for-electricians",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/reviews/klein-j2000-9ne-review",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Klein Tools J2000-9NE Journeyman Lineman\u2019s Pliers"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2009%2012%20240%20Lineman%E2%80%99s%20Pliers&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-linemans-pliers-for-electricians",
+          "product": "KNIPEX 09 12 240 Lineman\u2019s Pliers"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-6100%20Lineman%E2%80%99s%20Pliers%20with%20Crimper&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-linemans-pliers-for-electricians",
+          "product": "Milwaukee 48-22-6100 Lineman\u2019s Pliers with Crimper"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CHANNELLOCK%20369%20XLT%20Linemen%E2%80%99s%20Pliers&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-linemans-pliers-for-electricians",
+          "product": "CHANNELLOCK 369 XLT Linemen\u2019s Pliers"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CHANNELLOCK%20369CR%20XLT%20Linemen%E2%80%99s%20Pliers%20with%20Crimper&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-linemans-pliers-for-electricians",
+          "product": "CHANNELLOCK 369CR XLT Linemen\u2019s Pliers with Crimper"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2032288%20Insulated%20Interchangeable%20Screwdriver%20Set&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-screwdrivers-for-electricians",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/reviews/klein-32288-review",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Klein Tools 32288 Insulated Interchangeable Screwdriver Set"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2032500HD%20Impact-Rated%2011-in-1%20Driver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-screwdrivers-for-electricians",
+          "product": "Klein Tools 32500HD Impact-Rated 11-in-1 Driver"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wiha%2028345%20Insulated%20PocketMax%20SlimLine&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-screwdrivers-for-electricians",
+          "product": "Wiha 28345 Insulated PocketMax SlimLine"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2000%2020%2012%20V02%20VDE%20Screwdriver%20Set&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-screwdrivers-for-electricians",
+          "product": "KNIPEX 00 20 12 V02 VDE Screwdriver Set"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wera%20Kraftform%20Kompakt%2027%20RA%201&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-screwdrivers-for-electricians",
+          "product": "Wera Kraftform Kompakt 27 RA 1"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10001 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202505-20%20M12%20FUEL%20Installation%20Drill%2FDriver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-cordless-drills-for-electricians",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        },
+        {
+          "page": "/reviews/milwaukee-2505-20-review",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Milwaukee 2505-20 M12 FUEL Installation Drill/Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%203404-20%20M12%20FUEL%20Hammer%20Drill%2FDriver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-cordless-drills-for-electricians",
+          "product": "Milwaukee 3404-20 M12 FUEL Hammer Drill/Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202904-20%20M18%20FUEL%20Hammer%20Drill%2FDriver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-cordless-drills-for-electricians",
+          "product": "Milwaukee 2904-20 M18 FUEL Hammer Drill/Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DeWalt%20DCD805B%2020V%20MAX%20XR%20Hammer%20Drill%2FDriver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-cordless-drills-for-electricians",
+          "product": "DeWalt DCD805B 20V MAX XR Hammer Drill/Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Makita%20XPH14Z%2018V%20LXT%20Hammer%20Driver-Drill&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-cordless-drills-for-electricians",
+          "product": "Makita XPH14Z 18V LXT Hammer Driver-Drill"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%203453-20%20M12%20FUEL%201%2F4-inch%20Hex%20Impact%20Driver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-impact-drivers-for-electricians",
+          "product": "Milwaukee 3453-20 M12 FUEL 1/4-inch Hex Impact Driver"
+        },
+        {
+          "page": "/reviews/milwaukee-3453-20-review",
+          "product": "Milwaukee 3453-20 M12 FUEL 1/4-inch Hex Impact Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Milwaukee 3453-20 M12 FUEL 1/4-inch Hex Impact Driver"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Milwaukee 3453-20 M12 FUEL 1/4-inch Hex Impact Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Milwaukee 3453-20 M12 FUEL 1/4-inch Hex Impact Driver"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Milwaukee 3453-20 M12 FUEL 1/4-inch Hex Impact Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202953-20%20M18%20FUEL%201%2F4-inch%20Hex%20Impact%20Driver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-impact-drivers-for-electricians",
+          "product": "Milwaukee 2953-20 M18 FUEL 1/4-inch Hex Impact Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DeWalt%20DCF850B%20ATOMIC%203-Speed%20Impact%20Driver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-impact-drivers-for-electricians",
+          "product": "DeWalt DCF850B ATOMIC 3-Speed Impact Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "500 - Amazon.com",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DeWalt%20DCF860B%20XR%203-Speed%20Impact%20Driver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-impact-drivers-for-electricians",
+          "product": "DeWalt DCF860B XR 3-Speed Impact Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Makita%20XDT19Z%2018V%20LXT%204-Speed%20Impact%20Driver&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-impact-drivers-for-electricians",
+          "product": "Makita XDT19Z 18V LXT 4-Speed Impact Driver"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2056331%20Steel%20Fish%20Tape%2C%2050-Foot&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-fish-tapes-for-electricians",
+          "product": "Klein Tools 56331 Steel Fish Tape, 50-Foot"
+        },
+        {
+          "page": "/reviews/klein-56331-review",
+          "product": "Klein Tools 56331 Steel Fish Tape, 50-Foot"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Klein Tools 56331 Steel Fish Tape, 50-Foot"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Klein Tools 56331 Steel Fish Tape, 50-Foot"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Klein Tools 56331 Steel Fish Tape, 50-Foot"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Klein Tools 56331 Steel Fish Tape, 50-Foot"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2056380%20Fiberglass%20Fish%20Tape%2C%20100-Foot&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-fish-tapes-for-electricians",
+          "product": "Klein Tools 56380 Fiberglass Fish Tape, 100-Foot"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-4165%20Polyester%20Fish%20Tape%2C%20100-Foot&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-fish-tapes-for-electricians",
+          "product": "Milwaukee 48-22-4165 Polyester Fish Tape, 100-Foot"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Southwire%20FTSP45-125NCT%20SIMpull%20Fish%20Tape&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-fish-tapes-for-electricians",
+          "product": "Southwire FTSP45-125NCT SIMpull Fish Tape"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-4152%20Mid-Flex%20Fish%20Stick%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-fish-tapes-for-electricians",
+          "product": "Milwaukee 48-22-4152 Mid-Flex Fish Stick Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202367-20%20M12%20ROVER%20Service%20%26%20Repair%20Flood%20Light&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-work-lights-for-electricians",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/reviews/milwaukee-2367-20-review",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/electrician-panel-work-tool-kit",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/electrician-lighting-controls-tool-kit",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Milwaukee 2367-20 M12 ROVER Service & Repair Flood Light"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202351-20%20M12%20Stick%20Light&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-work-lights-for-electricians",
+          "product": "Milwaukee 2351-20 M12 Stick Light"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DeWalt%20DCL050%2020V%20MAX%20Hand-Held%20Area%20Light&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-work-lights-for-electricians",
+          "product": "DeWalt DCL050 20V MAX Hand-Held Area Light"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Makita%20DML811%2018V%20LXT%20Corded%2FCordless%20Work%20Light&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-work-lights-for-electricians",
+          "product": "Makita DML811 18V LXT Corded/Cordless Work Light"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Streamlight%20The%20Siege%2044931%20Lantern&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-work-lights-for-electricians",
+          "product": "Streamlight The Siege 44931 Lantern"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Veto%20Pro%20Pac%20TECH%20PAC%20Tool%20Backpack&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-tool-backpacks-for-electricians",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        },
+        {
+          "page": "/reviews/veto-tech-pac-review",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        },
+        {
+          "page": "/electricians/workflows/electrician-service-call-tool-kit",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        },
+        {
+          "page": "/electricians/workflows/electrician-residential-rewire-tool-kit",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        },
+        {
+          "page": "/electricians/workflows/commercial-electrician-tool-kit",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        },
+        {
+          "page": "/electricians/workflows/electrician-cable-pulling-tool-kit",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        },
+        {
+          "page": "/electricians/workflows/electrician-apprentice-starter-kit",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        },
+        {
+          "page": "/electricians/workflows/electrician-van-tool-bag-setup",
+          "product": "Veto Pro Pac TECH PAC Tool Backpack"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2055421BP14%20Tradesman%20Pro%20Backpack&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-tool-backpacks-for-electricians",
+          "product": "Klein Tools 55421BP14 Tradesman Pro Backpack"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2062800BP%20Tradesman%20Pro%20XL%20Backpack&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-tool-backpacks-for-electricians",
+          "product": "Klein Tools 62800BP Tradesman Pro XL Backpack"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-8200%20Jobsite%20Backpack&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-tool-backpacks-for-electricians",
+          "product": "Milwaukee 48-22-8200 Jobsite Backpack"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CLC%201134%20Deluxe%20Tool%20Backpack&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/electricians/best-tool-backpacks-for-electricians",
+          "product": "CLC 1134 Deluxe Tool Backpack"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%2031020%2014-Inch%20Heavy-Duty%20Straight%20Pipe%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pipe-wrenches-for-plumbers",
+          "product": "RIDGID 31020 14-Inch Heavy-Duty Straight Pipe Wrench"
+        },
+        {
+          "page": "/reviews/ridgid-31020-review",
+          "product": "RIDGID 31020 14-Inch Heavy-Duty Straight Pipe Wrench"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "RIDGID 31020 14-Inch Heavy-Duty Straight Pipe Wrench"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "RIDGID 31020 14-Inch Heavy-Duty Straight Pipe Wrench"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "RIDGID 31020 14-Inch Heavy-Duty Straight Pipe Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%2031015%2012-Inch%20Heavy-Duty%20Straight%20Pipe%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pipe-wrenches-for-plumbers",
+          "product": "RIDGID 31015 12-Inch Heavy-Duty Straight Pipe Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%2031100%2018-Inch%20Aluminum%20Straight%20Pipe%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pipe-wrenches-for-plumbers",
+          "product": "RIDGID 31100 18-Inch Aluminum Straight Pipe Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-7214%2014-Inch%20Aluminum%20Pipe%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pipe-wrenches-for-plumbers",
+          "product": "Milwaukee 48-22-7214 14-Inch Aluminum Pipe Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Crescent%20CAPW14%2014-Inch%20Aluminum%20K9%20Jaw%20Pipe%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pipe-wrenches-for-plumbers",
+          "product": "Crescent CAPW14 14-Inch Aluminum K9 Jaw Pipe Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2087%2001%20250%20Cobra%20Water%20Pump%20Pliers&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pliers-for-plumbers",
+          "product": "KNIPEX 87 01 250 Cobra Water Pump Pliers"
+        },
+        {
+          "page": "/reviews/knipex-8701250-review",
+          "product": "KNIPEX 87 01 250 Cobra Water Pump Pliers"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "KNIPEX 87 01 250 Cobra Water Pump Pliers"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "KNIPEX 87 01 250 Cobra Water Pump Pliers"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "KNIPEX 87 01 250 Cobra Water Pump Pliers"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CHANNELLOCK%20440%2012-Inch%20Straight%20Jaw%20Tongue%20%26%20Groove%20Pliers&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pliers-for-plumbers",
+          "product": "CHANNELLOCK 440 12-Inch Straight Jaw Tongue & Groove Pliers"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CHANNELLOCK%20442%2012-Inch%20V-Jaw%20Tongue%20%26%20Groove%20Pliers&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pliers-for-plumbers",
+          "product": "CHANNELLOCK 442 12-Inch V-Jaw Tongue & Groove Pliers"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2088%2001%20250%20Alligator%20Water%20Pump%20Pliers&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pliers-for-plumbers",
+          "product": "KNIPEX 88 01 250 Alligator Water Pump Pliers"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2086%2003%20250%20Pliers%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pliers-for-plumbers",
+          "product": "KNIPEX 86 03 250 Pliers Wrench"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "KNIPEX 86 03 250 Pliers Wrench"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "KNIPEX 86 03 250 Pliers Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20101%20Close%20Quarters%20Tubing%20Cutter%20(40617)&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tubing-cutters-for-plumbers",
+          "product": "RIDGID 101 Close Quarters Tubing Cutter (40617)"
+        },
+        {
+          "page": "/reviews/ridgid-40617-review",
+          "product": "RIDGID 101 Close Quarters Tubing Cutter (40617)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "RIDGID 101 Close Quarters Tubing Cutter (40617)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "RIDGID 101 Close Quarters Tubing Cutter (40617)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "RIDGID 101 Close Quarters Tubing Cutter (40617)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "RIDGID 101 Close Quarters Tubing Cutter (40617)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "RIDGID 101 Close Quarters Tubing Cutter (40617)"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20118%20AUTOFEED%20Close%20Quarters%20Tubing%20Cutter%20(86127)&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tubing-cutters-for-plumbers",
+          "product": "RIDGID 118 AUTOFEED Close Quarters Tubing Cutter (86127)"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20151%20Quick-Acting%20Tubing%20Cutter%20(31632)&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tubing-cutters-for-plumbers",
+          "product": "RIDGID 151 Quick-Acting Tubing Cutter (31632)"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202471-20%20M12%20Copper%20Tubing%20Cutter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tubing-cutters-for-plumbers",
+          "product": "Milwaukee 2471-20 M12 Copper Tubing Cutter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2090%2031%2002%20TubiX%20Pipe%20Cutter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tubing-cutters-for-plumbers",
+          "product": "KNIPEX 90 31 02 TubiX Pipe Cutter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20RC-1625%20Ratcheting%20Plastic%20Pipe%20Cutter%20(23498)&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-plastic-pipe-cutters-for-plumbers",
+          "product": "RIDGID RC-1625 Ratcheting Plastic Pipe Cutter (23498)"
+        },
+        {
+          "page": "/reviews/ridgid-rc1625-review",
+          "product": "RIDGID RC-1625 Ratcheting Plastic Pipe Cutter (23498)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "RIDGID RC-1625 Ratcheting Plastic Pipe Cutter (23498)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "RIDGID RC-1625 Ratcheting Plastic Pipe Cutter (23498)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "RIDGID RC-1625 Ratcheting Plastic Pipe Cutter (23498)"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "RIDGID RC-1625 Ratcheting Plastic Pipe Cutter (23498)"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20RC-2375%20Ratcheting%20Plastic%20Pipe%20Cutter%20(30088)&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-plastic-pipe-cutters-for-plumbers",
+          "product": "RIDGID RC-2375 Ratcheting Plastic Pipe Cutter (30088)"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202470-20%20M12%20Plastic%20Pipe%20Shear&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-plastic-pipe-cutters-for-plumbers",
+          "product": "Milwaukee 2470-20 M12 Plastic Pipe Shear"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2090%2025%2020%20Plastic%20Pipe%20Cutter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-plastic-pipe-cutters-for-plumbers",
+          "product": "KNIPEX 90 25 20 Plastic Pipe Cutter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=KNIPEX%2090%2022%2010%20BiX%20Plastic%20Pipe%20Cutter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-plastic-pipe-cutters-for-plumbers",
+          "product": "KNIPEX 90 22 10 BiX Plastic Pipe Cutter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=IWISS%20IWS-1234W%20Angled%20PEX%20Crimp%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-crimp-tools-for-plumbers",
+          "product": "IWISS IWS-1234W Angled PEX Crimp Tool"
+        },
+        {
+          "page": "/reviews/iwiss-iws1234w-review",
+          "product": "IWISS IWS-1234W Angled PEX Crimp Tool"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "IWISS IWS-1234W Angled PEX Crimp Tool"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "IWISS IWS-1234W Angled PEX Crimp Tool"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "IWISS IWS-1234W Angled PEX Crimp Tool"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=SharkBite%2023251%20Dual-Size%20PEX%20Crimp%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-crimp-tools-for-plumbers",
+          "product": "SharkBite 23251 Dual-Size PEX Crimp Tool"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=SharkBite%2023100%20Multi-Head%20PEX%20Crimp%20Tool%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-crimp-tools-for-plumbers",
+          "product": "SharkBite 23100 Multi-Head PEX Crimp Tool Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=SharkBite%2023081%20PEX%20Clamp%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-crimp-tools-for-plumbers",
+          "product": "SharkBite 23081 PEX Clamp Tool"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Apollo%2069PTKH0015K%20PEX%20Crimp%20Tool%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-crimp-tools-for-plumbers",
+          "product": "Apollo 69PTKH0015K PEX Crimp Tool Kit"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202532-20%20M12%20FUEL%20ProPEX%20Expander&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-expansion-tools-for-plumbers",
+          "product": "Milwaukee 2532-20 M12 FUEL ProPEX Expander"
+        },
+        {
+          "page": "/reviews/milwaukee-2532-20-review",
+          "product": "Milwaukee 2532-20 M12 FUEL ProPEX Expander"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "Milwaukee 2532-20 M12 FUEL ProPEX Expander"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "Milwaukee 2532-20 M12 FUEL ProPEX Expander"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202432-20%20M12%20ProPEX%20Expander&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-expansion-tools-for-plumbers",
+          "product": "Milwaukee 2432-20 M12 ProPEX Expander"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10001 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DeWalt%20DCE400D2%2020V%20MAX%20PEX%20Expander%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-expansion-tools-for-plumbers",
+          "product": "DeWalt DCE400D2 20V MAX PEX Expander Kit"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20RPE100%20PEX%20Expander%2080703%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-expansion-tools-for-plumbers",
+          "product": "RIDGID RPE100 PEX Expander 80703 Kit"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Apollo%20EPXTOOL%20PEX-A%20Expansion%20Tool%20(Tool%20Only)&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-pex-expansion-tools-for-plumbers",
+          "product": "Apollo EPXTOOL PEX-A Expansion Tool (Tool Only)"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202473-20%20M12%20FORCE%20LOGIC%20Press%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-press-tools-for-plumbers",
+          "product": "Milwaukee 2473-20 M12 FORCE LOGIC Press Tool"
+        },
+        {
+          "page": "/reviews/milwaukee-2473-20-review",
+          "product": "Milwaukee 2473-20 M12 FORCE LOGIC Press Tool"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "Milwaukee 2473-20 M12 FORCE LOGIC Press Tool"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "Milwaukee 2473-20 M12 FORCE LOGIC Press Tool"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "Milwaukee 2473-20 M12 FORCE LOGIC Press Tool"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20RP%20251%20Compact%20Press%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-press-tools-for-plumbers",
+          "product": "RIDGID RP 251 Compact Press Tool"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20RP%20115%20Mini%20Press%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-press-tools-for-plumbers",
+          "product": "RIDGID RP 115 Mini Press Tool"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DeWalt%20DCE200M2K%2020V%20MAX%20Press%20Tool%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-press-tools-for-plumbers",
+          "product": "DeWalt DCE200M2K 20V MAX Press Tool Kit"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202922-20%20M18%20FORCE%20LOGIC%20Press%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-press-tools-for-plumbers",
+          "product": "Milwaukee 2922-20 M18 FORCE LOGIC Press Tool"
+        }
+      ],
+      "httpStatus": "000",
+      "fetchStatus": "timeout",
+      "title": null,
+      "error": "curl: (28) Connection timed out after 10002 milliseconds",
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202571-20%20M12%20Drain%20Snake&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-drain-snakes-for-plumbers",
+          "product": "Milwaukee 2571-20 M12 Drain Snake"
+        },
+        {
+          "page": "/reviews/milwaukee-2571-20-review",
+          "product": "Milwaukee 2571-20 M12 Drain Snake"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-drain-clearing-tool-kit",
+          "product": "Milwaukee 2571-20 M12 Drain Snake"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "Milwaukee 2571-20 M12 Drain Snake"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20PowerClear%2055808%20Drain%20Cleaning%20Machine&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-drain-snakes-for-plumbers",
+          "product": "RIDGID PowerClear 55808 Drain Cleaning Machine"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20K-45AF%20Sink%20Machine&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-drain-snakes-for-plumbers",
+          "product": "RIDGID K-45AF Sink Machine"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20PowerSpin%2B%2057043%20Drain%20Auger&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-drain-snakes-for-plumbers",
+          "product": "RIDGID PowerSpin+ 57043 Drain Auger"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202772A-21%20M18%20FUEL%20Drain%20Snake%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-drain-snakes-for-plumbers",
+          "product": "Milwaukee 2772A-21 M18 FUEL Drain Snake Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20K-6P%20Six-Foot%20Toilet%20Auger&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-toilet-augers-for-plumbers",
+          "product": "RIDGID K-6P Six-Foot Toilet Auger"
+        },
+        {
+          "page": "/reviews/ridgid-k6p-review",
+          "product": "RIDGID K-6P Six-Foot Toilet Auger"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "RIDGID K-6P Six-Foot Toilet Auger"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-drain-clearing-tool-kit",
+          "product": "RIDGID K-6P Six-Foot Toilet Auger"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "500 - Amazon.com",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20K-3%20Three-Foot%20Toilet%20Auger&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-toilet-augers-for-plumbers",
+          "product": "RIDGID K-3 Three-Foot Toilet Auger"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202576-20%20M12%20TRAPSNAKE%20Six-Foot%20Toilet%20Auger&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-toilet-augers-for-plumbers",
+          "product": "Milwaukee 2576-20 M12 TRAPSNAKE Six-Foot Toilet Auger"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2049-16-2576%20TRAPSNAKE%20Six-Foot%20Toilet%20Auger&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-toilet-augers-for-plumbers",
+          "product": "Milwaukee 49-16-2576 TRAPSNAKE Six-Foot Toilet Auger"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=General%20Pipe%20Cleaners%20T6FL%20Teletube%20Flexicore%20Toilet%20Auger&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-toilet-augers-for-plumbers",
+          "product": "General Pipe Cleaners T6FL Teletube Flexicore Toilet Auger"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20K-400%2052363%20Drum%20Machine%20with%203%2F8-Inch%20%C3%97%2075-Foot%20Cable&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-professional-drain-machines-for-plumbers",
+          "product": "RIDGID K-400 52363 Drum Machine with 3/8-Inch \u00d7 75-Foot Cable"
+        },
+        {
+          "page": "/reviews/ridgid-k400-review",
+          "product": "RIDGID K-400 52363 Drum Machine with 3/8-Inch \u00d7 75-Foot Cable"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-drain-clearing-tool-kit",
+          "product": "RIDGID K-400 52363 Drum Machine with 3/8-Inch \u00d7 75-Foot Cable"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20K-60SP%20Sectional%20Machine&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-professional-drain-machines-for-plumbers",
+          "product": "RIDGID K-60SP Sectional Machine"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20K-750%20Drum%20Machine&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-professional-drain-machines-for-plumbers",
+          "product": "RIDGID K-750 Drum Machine"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202775B-211%20M18%20FUEL%20SWITCH%20PACK%203%2F8-Inch%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-professional-drain-machines-for-plumbers",
+          "product": "Milwaukee 2775B-211 M18 FUEL SWITCH PACK 3/8-Inch Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20K9-204%2B%20FlexShaft%20Machine&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-professional-drain-machines-for-plumbers",
+          "product": "RIDGID K9-204+ FlexShaft Machine"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-drain-clearing-tool-kit",
+          "product": "RIDGID K9-204+ FlexShaft Machine"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20SeeSnake%20microREEL%20Essentials&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-sewer-cameras-for-plumbers",
+          "product": "RIDGID SeeSnake microREEL Essentials"
+        },
+        {
+          "page": "/reviews/ridgid-microreel-essentials-review",
+          "product": "RIDGID SeeSnake microREEL Essentials"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-drain-clearing-tool-kit",
+          "product": "RIDGID SeeSnake microREEL Essentials"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "RIDGID SeeSnake microREEL Essentials"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20SeeSnake%20Compact%20M40%20Reel%2063673&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-sewer-cameras-for-plumbers",
+          "product": "RIDGID SeeSnake Compact M40 Reel 63673"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20SeeSnake%20Compact%20C40&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-sewer-cameras-for-plumbers",
+          "product": "RIDGID SeeSnake Compact C40"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20SeeSnake%20microDrain%20APX&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-sewer-cameras-for-plumbers",
+          "product": "RIDGID SeeSnake microDrain APX"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202974-22%20M18%20200-Foot%20Stiff%20Pipeline%20Inspection%20Kit&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-sewer-cameras-for-plumbers",
+          "product": "Milwaukee 2974-22 M18 200-Foot Stiff Pipeline Inspection Kit"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20ET140%20Pinless%20Moisture%20Meter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-moisture-meters-for-plumbers",
+          "product": "Klein Tools ET140 Pinless Moisture Meter"
+        },
+        {
+          "page": "/reviews/klein-et140-review",
+          "product": "Klein Tools ET140 Pinless Moisture Meter"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-leak-detection-tool-kit",
+          "product": "Klein Tools ET140 Pinless Moisture Meter"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "Klein Tools ET140 Pinless Moisture Meter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Protimeter%20BLD5375%20Surveymaster&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-moisture-meters-for-plumbers",
+          "product": "Protimeter BLD5375 Surveymaster"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-leak-detection-tool-kit",
+          "product": "Protimeter BLD5375 Surveymaster"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=General%20Tools%20MMD4E%20Pin-Type%20Moisture%20Meter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-moisture-meters-for-plumbers",
+          "product": "General Tools MMD4E Pin-Type Moisture Meter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Extech%20MO55%20Combination%20Moisture%20Meter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-moisture-meters-for-plumbers",
+          "product": "Extech MO55 Combination Moisture Meter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wagner%20Meters%20Orion%20910%20Deep%20Pinless%20Wood%20Moisture%20Meter&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-moisture-meters-for-plumbers",
+          "product": "Wagner Meters Orion 910 Deep Pinless Wood Moisture Meter"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=FLIR%20C5%20Compact%20Thermal%20Imaging%20Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-thermal-cameras-for-plumbers",
+          "product": "FLIR C5 Compact Thermal Imaging Camera"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-leak-detection-tool-kit",
+          "product": "FLIR C5 Compact Thermal Imaging Camera"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "FLIR C5 Compact Thermal Imaging Camera"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=HIKMICRO%20B01%20Handheld%20Thermal%20Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-thermal-cameras-for-plumbers",
+          "product": "HIKMICRO B01 Handheld Thermal Camera"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%20TI250%20Rechargeable%20Thermal%20Imager&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-thermal-cameras-for-plumbers",
+          "product": "Klein Tools TI250 Rechargeable Thermal Imager"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=TOPDON%20TC001%20Thermal%20Imaging%20Camera%20for%20Android&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-thermal-cameras-for-plumbers",
+          "product": "TOPDON TC001 Thermal Imaging Camera for Android"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=FLIR%20TG165-X%20MSX%20Thermal%20Camera&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-thermal-cameras-for-plumbers",
+          "product": "FLIR TG165-X MSX Thermal Camera"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%202017%20LED%20Telescoping%20Basin%20Wrench%2046753&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-basin-wrenches-for-plumbers",
+          "product": "RIDGID 2017 LED Telescoping Basin Wrench 46753"
+        },
+        {
+          "page": "/reviews/ridgid-2017-review",
+          "product": "RIDGID 2017 LED Telescoping Basin Wrench 46753"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "RIDGID 2017 LED Telescoping Basin Wrench 46753"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "RIDGID 2017 LED Telescoping Basin Wrench 46753"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-7001%20Basin%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-basin-wrenches-for-plumbers",
+          "product": "Milwaukee 48-22-7001 Basin Wrench"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "Milwaukee 48-22-7001 Basin Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-7002%20Basin%20Wrench&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-basin-wrenches-for-plumbers",
+          "product": "Milwaukee 48-22-7002 Basin Wrench"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20EZ%20Change%20Faucet%20Tool%2057003&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-basin-wrenches-for-plumbers",
+          "product": "RIDGID EZ Change Faucet Tool 57003"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "RIDGID EZ Change Faucet Tool 57003"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-7100%20Faucet%20SWAP-OUT%20Tool&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-basin-wrenches-for-plumbers",
+          "product": "Milwaukee 48-22-7100 Faucet SWAP-OUT Tool"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=RIDGID%20HD06001%206-Gallon%20NXT%20Wet%2FDry%20Vac&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-wet-dry-vacs-for-plumbers",
+          "product": "RIDGID HD06001 6-Gallon NXT Wet/Dry Vac"
+        },
+        {
+          "page": "/reviews/ridgid-hd06001-review",
+          "product": "RIDGID HD06001 6-Gallon NXT Wet/Dry Vac"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-leak-detection-tool-kit",
+          "product": "RIDGID HD06001 6-Gallon NXT Wet/Dry Vac"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-drain-clearing-tool-kit",
+          "product": "RIDGID HD06001 6-Gallon NXT Wet/Dry Vac"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "RIDGID HD06001 6-Gallon NXT Wet/Dry Vac"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=DeWalt%20DXV06P%206-Gallon%20Wet%2FDry%20Vacuum&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-wet-dry-vacs-for-plumbers",
+          "product": "DeWalt DXV06P 6-Gallon Wet/Dry Vacuum"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CRAFTSMAN%20CMXEVBE17250%202.5-Gallon%20Wet%2FDry%20Vac&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-wet-dry-vacs-for-plumbers",
+          "product": "CRAFTSMAN CMXEVBE17250 2.5-Gallon Wet/Dry Vac"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%200880-20%20M18%202-Gallon%20Wet%2FDry%20Vacuum&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-wet-dry-vacs-for-plumbers",
+          "product": "Milwaukee 0880-20 M18 2-Gallon Wet/Dry Vacuum"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "Milwaukee 0880-20 M18 2-Gallon Wet/Dry Vacuum"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "Milwaukee 0880-20 M18 2-Gallon Wet/Dry Vacuum"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%200970-20%20M18%20FUEL%20PACKOUT%20Wet%2FDry%20Vacuum&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-wet-dry-vacs-for-plumbers",
+          "product": "Milwaukee 0970-20 M18 FUEL PACKOUT Wet/Dry Vacuum"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "Milwaukee 0970-20 M18 FUEL PACKOUT Wet/Dry Vacuum"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202771-20%20M18%20Transfer%20Pump&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-transfer-pumps-for-plumbers",
+          "product": "Milwaukee 2771-20 M18 Transfer Pump"
+        },
+        {
+          "page": "/reviews/milwaukee-2771-20-review",
+          "product": "Milwaukee 2771-20 M18 Transfer Pump"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-leak-detection-tool-kit",
+          "product": "Milwaukee 2771-20 M18 Transfer Pump"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-pipe-repair-tool-kit",
+          "product": "Milwaukee 2771-20 M18 Transfer Pump"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "Milwaukee 2771-20 M18 Transfer Pump"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wayne%20PC2%20Portable%20Transfer%20Pump&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-transfer-pumps-for-plumbers",
+          "product": "Wayne PC2 Portable Transfer Pump"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Liberty%20Pumps%20331%20Portable%20Transfer%20Pump&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-transfer-pumps-for-plumbers",
+          "product": "Liberty Pumps 331 Portable Transfer Pump"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-water-heater-service-tool-kit",
+          "product": "Liberty Pumps 331 Portable Transfer Pump"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Superior%20Pump%2091250%20Submersible%20Utility%20Pump&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-transfer-pumps-for-plumbers",
+          "product": "Superior Pump 91250 Submersible Utility Pump"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202579-20%20M12%20Stick%20Transfer%20Pump&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-transfer-pumps-for-plumbers",
+          "product": "Milwaukee 2579-20 M12 Stick Transfer Pump"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Veto%20Pro%20Pac%20TP-XL%20Compact%20Tool%20Pouch&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tool-bags-for-plumbers",
+          "product": "Veto Pro Pac TP-XL Compact Tool Pouch"
+        },
+        {
+          "page": "/reviews/veto-tpxl-review",
+          "product": "Veto Pro Pac TP-XL Compact Tool Pouch"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "Veto Pro Pac TP-XL Compact Tool Pouch"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "Veto Pro Pac TP-XL Compact Tool Pouch"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Veto%20Pro%20Pac%20TECH-MCT%20Tool%20Bag&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tool-bags-for-plumbers",
+          "product": "Veto Pro Pac TECH-MCT Tool Bag"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "Veto Pro Pac TECH-MCT Tool Bag"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%205541610-14%20Tradesman%20Pro%2010-Inch%20Tool%20Tote&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tool-bags-for-plumbers",
+          "product": "Klein Tools 5541610-14 Tradesman Pro 10-Inch Tool Tote"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "Klein Tools 5541610-14 Tradesman Pro 10-Inch Tool Tote"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CLC%201539%20Multi-Compartment%20Tool%20Carrier&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tool-bags-for-plumbers",
+          "product": "CLC 1539 Multi-Compartment Tool Carrier"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%2048-22-8321%20PACKOUT%2015-Inch%20Tool%20Bag&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-tool-bags-for-plumbers",
+          "product": "Milwaukee 48-22-8321 PACKOUT 15-Inch Tool Bag"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-van-and-tool-bag-setup",
+          "product": "Milwaukee 48-22-8321 PACKOUT 15-Inch Tool Bag"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Klein%20Tools%2056062%20Rechargeable%20Headlamp%20and%20Work%20Light&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-headlamps-for-plumbers",
+          "product": "Klein Tools 56062 Rechargeable Headlamp and Work Light"
+        },
+        {
+          "page": "/reviews/klein-56062-review",
+          "product": "Klein Tools 56062 Rechargeable Headlamp and Work Light"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-residential-service-call-tool-kit",
+          "product": "Klein Tools 56062 Rechargeable Headlamp and Work Light"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-leak-detection-tool-kit",
+          "product": "Klein Tools 56062 Rechargeable Headlamp and Work Light"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-drain-clearing-tool-kit",
+          "product": "Klein Tools 56062 Rechargeable Headlamp and Work Light"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-bathroom-installation-tool-kit",
+          "product": "Klein Tools 56062 Rechargeable Headlamp and Work Light"
+        },
+        {
+          "page": "/plumbers/workflows/plumber-apprentice-starter-kit",
+          "product": "Klein Tools 56062 Rechargeable Headlamp and Work Light"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Milwaukee%202111-21%20USB%20Rechargeable%20Hard%20Hat%20Headlamp&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-headlamps-for-plumbers",
+          "product": "Milwaukee 2111-21 USB Rechargeable Hard Hat Headlamp"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=COAST%20XPH30R%20Rechargeable%20Headlamp&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-headlamps-for-plumbers",
+          "product": "COAST XPH30R Rechargeable Headlamp"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Streamlight%2061710%20Bandit%20Pro%20Headlamp%20(Yellow)&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-headlamps-for-plumbers",
+          "product": "Streamlight 61710 Bandit Pro Headlamp (Yellow)"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Petzl%20ACTIK%20CORE%20Headlamp&tag=robbieom0e-20",
+      "uses": [
+        {
+          "page": "/plumbers/best-headlamps-for-plumbers",
+          "product": "Petzl ACTIK CORE Headlamp"
+        }
+      ],
+      "httpStatus": "503",
+      "fetchStatus": "access_blocked",
+      "title": "Sorry! Something went wrong!",
+      "error": null,
+      "listingMatch": "unverified",
+      "stock": "unverified"
+    }
+  ],
+  "renderedChecks": {
+    "renderedLinks": 595,
+    "uniqueUrls": 175,
+    "pages": 101,
+    "errors": 0
+  },
+  "destinationTypes": {
+    "searchResults": 174,
+    "directProductListings": 1
+  }
+}
