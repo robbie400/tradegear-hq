@@ -1,4 +1,5 @@
 import { ProductPhoto } from "@/components/ProductPhoto";
+import { ProductFeedback } from "@/components/ProductFeedback";
 import { getProductImage } from "@/lib/product-images";
 import { getGuideImage } from "@/lib/guide-images";
 import type { Metadata } from "next";
@@ -220,6 +221,7 @@ export default async function Guide({
                         Manufacturer specification source ↗
                       </a>
                     </p>
+                    <ProductFeedback trade={g.trade} brand={p.brand} model={p.model} productId={p.productId || p.reviewSlug} />
                     <div className="productActions">
                       {fullReview && <Link className="reviewBtn" href={`/reviews/${fullReview.slug}/`}>Read Full Review</Link>}
                       <a

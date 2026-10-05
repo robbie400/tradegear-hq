@@ -1,0 +1,36 @@
+import { getProductFeedback, showFeedbackDrafts } from "@/lib/product-feedback";
+import styles from "./ProductFeedback.module.css";
+
+export function ProductFeedback({ trade, brand, model, productId }: {
+  trade: string; brand: string; model: string; productId?: string;
+}) {
+  if (!showFeedbackDrafts()) return null;
+  const feedback = getProductFeedback(trade, brand, model, productId);
+  if (!feedback) return null;
+  return (
+    <aside className={styles.card} aria-label={`Feedback preview for ${brand} ${model}`} data-feedback-product={feedback.productId}>
+      <div className={styles.heading}>
+        <span className={styles.eyebrow}>FROM THE TOOL COMMUNITY</span>
+        <span className={styles.draft}>Draft · permission pending</span>
+      </div>
+      <div className={styles.body}>
+        <span className={styles.avatar} aria-hidden="true">
+          {feedback.avatar || <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H7l-4 3v-7A7.5 7.5 0 1 1 20 11.5Z"/><path d="M8 10h8M8 14h5"/></svg>}
+        </span>
+        <div className={styles.copy}>
+          <p className={styles.summary}>{feedback.summary}</p>
+          <div className={styles.person}><strong>{feedback.author}</strong><span>{feedback.context}</span></div>
+        </div>
+      </div>
+      <div className={styles.footer}>
+        <span className={styles.match}>{feedback.match === "Tool family" ? "Family-level feedback" : "Exact-model source"}</span>
+        <a href={feedback.url} target="_blank" rel="noopener noreferrer">Read on {feedback.source} ↗</a>
+      </div>
+      <details className={styles.notes}>
+        <summary>Source context &amp; preview status</summary>
+        <p>Editorial paraphrase of source feedback, not a direct quotation or an endorsement of TradeGear HQ. Permission checks are pending; this card appears only in preview.</p>
+        <p>{feedback.caveat}</p>
+      </details>
+    </aside>
+  );
+}

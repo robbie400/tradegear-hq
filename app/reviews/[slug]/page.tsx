@@ -1,4 +1,5 @@
 import { ProductPhoto } from "@/components/ProductPhoto";
+import { ProductFeedback } from "@/components/ProductFeedback";
 import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -106,6 +107,7 @@ export default async function ReviewPage({
               </div>
             </div>
           </div>
+          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.slug} />
           <div className="fitGrid">
             <div className="fitCard">
               <b>Best for</b>
