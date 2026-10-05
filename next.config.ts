@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: { remotePatterns: [
-    ...["www.iwiss.com", "teslong.com", "images.thdstatic.com", "media.kleintools.io"].map(hostname=>({protocol:"https" as const,hostname})),
+    ...["www.protimeter.com", "generaltools.com", "shop.wagnermeters.com", "www.topdon.us", "wildblick.shop", "www.flir.com", "assets.craftsman.com", "mobileimages.lowes.com", "www.libertypumps.com", "www.superior-pump.com", "goclc.com", "cdn.shopify.com", "www.petzl.com", "www.iwiss.com", "teslong.com", "images.thdstatic.com", "media.kleintools.io", "depstech.com", "www.crescenttool.com", "web-assets.knipex.com"].map(hostname=>({protocol:"https" as const,hostname})),
   {
     "protocol": "https",
     "hostname": "assets.unilogcorp.com"

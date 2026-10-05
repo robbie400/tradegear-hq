@@ -1,4 +1,5 @@
 import type {ProductImage} from './product-images';
+import {plumberSecondaryImages} from './plumber-secondary-images';
 import {plumberCategories} from './plumber-catalog';
 // Each entry identifies the pictured model and the page supplying its image.
 export const plumberProductImages:Record<string,ProductImage>={
@@ -127,6 +128,7 @@ export const plumberProductImages:Record<string,ProductImage>={
   }
 };
 export const plumberImageAliases:Record<string,string>=Object.fromEntries(plumberCategories.flatMap(c=>c.products.map(p=>[`${p.brand} ${p.model}`,p.id])));
+Object.assign(plumberProductImages, plumberSecondaryImages);
 Object.assign(plumberProductImages, {
   "milwaukee-2922-20": {
     "src": "https://www.milwaukeetool.com/--/web-images/sc/66e4b15e640f4934a76fd4dd7fac4e87?hash=9bf9fc3063a982894c28ae1c427e266e&lang=en",

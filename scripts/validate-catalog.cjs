@@ -57,6 +57,7 @@ for (const [id, p] of Object.entries(productImages)) {
   assert.equal(new URL(p.sourceUrl).protocol, 'https:');
   assert.ok(p.alt && p.credit);
 }
+assert.equal(report.plumbers.photos, report.plumbers.products, 'Every plumbing candidate needs its own model photo');
 assert.equal(plumberCategories.length, 18);
 assert.equal(plumberCatalogReviews.length, 17);
 assert.ok(report.plumbers.guides >= report.electricians.guides);

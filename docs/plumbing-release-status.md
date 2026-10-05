@@ -8,9 +8,10 @@ Implementation is ready for preview review. It is not signed off for launch.
 - Electricians: all 14 guides, 70 products, 70 product photos and eight job kits retained.
 - Added plumbing comparisons cover pipe wrenches, gripping pliers, copper and plastic cutters, PEX crimping and expansion, press tools, small-drain snakes, toilet augers, professional drain machines, sewer cameras, moisture meters, thermal cameras, faucet access, wet/dry vacuums, pumps, bags and headlamps.
 - Costly specialist options include RIDGID SeeSnake systems and K-60/K-750/K9-204+ machines, Milwaukee SWITCH PACK and sewer inspection equipment, RIDGID RP 251/RP 115 and Milwaukee/DeWalt press equipment. Assessments distinguish the application, package and separately required accessories.
-- Exact lead-product photos cover all 19 plumbing guides. There are 41 plumbing product photos; 54 secondary candidates still lack individual imagery. No different models share an image URL.
+- All 95 plumbing candidates now have individual product photographs, including the 54 previously missing secondary photos. Each image records its supplying manufacturer or retailer page and credit. No different models share an image URL. Delivery through the deployed image optimizer still needs browser verification.
 - Corrected Fluke 117's mismatched Amazon ASIN from B01IH41CUW (15B+) to B000O3LUEI (117). The tagged destination and stock remain unverified.
 - Corrected the DEPSTECH DS520 source from a replacement-cable page to the camera page.
+- Corrected Apollo EPXTOOL to tool-only, selected the documented Milwaukee 2772A-21 drain-snake kit to match its kit photograph, and corrected the yellow Streamlight Bandit Pro to manufacturer catalog number 61710. Affiliate searches and buying guidance use the corresponding model/package names. None of these changes establishes Amazon availability.
 - Each page retains one visible affiliate disclosure in the footer. Existing image fallbacks, reviews, navigation and prelaunch noindex remain.
 
 ## Verification
@@ -26,7 +27,9 @@ python3 scripts/validate-server-routes.py
 
 The build and TypeScript checks pass. Rendered-page verification covers 107 pages, all 64 pre-existing routes, 2,595 internal links, metadata, canonical URLs, noindex, structured data, anchor targets and affiliate markup. Production HTTP checks pass for all 109 generated routes including robots and sitemap, plus four expected 404s. Catalogue checks cover unique products, corresponding review models and destinations, plumbing kit references, exact lead-image coverage, configured image hosts and duplicate image URLs.
 
-The live electrician hub and multimeter guide were visually checked at a 1363 × 936 desktop viewport. Those checks concern the current live version, not the unpublished expansion. New-page desktop browser testing and both trades' mobile browser testing are pending: the local browser cannot start in this environment, and the available cloud-browser controls do not expose viewport resizing.
+The live electrician hub and multimeter guide were visually checked at a 1363 × 936 desktop viewport. Those checks concern the current live version. New-page desktop browser testing and both trades' mobile browser testing remain pending: Vercel preview access redirects this browser to a sign-in wall; the local browser cannot start in this environment, and the available cloud-browser controls do not expose viewport resizing.
+
+The user explicitly approved preview publication on 5 October. Branch `codex/plumbers-expansion` is deployed on Vercel; its stable alias is `tradegear-hq-git-codex-plumbers-expansion-robbie-7671.vercel.app`. Creating a temporary share URL was rejected by automatic approval review because it bypasses preview access controls and creates shareable access; that action needs explicit approval. Preview publication alone does not resolve Amazon research access.
 
 ## External-link and stock gates
 
@@ -34,6 +37,6 @@ The live electrician hub and multimeter guide were visually checked at a 1363 ×
 
 All 165 tagged Amazon product destinations were submitted for verification. None returned usable responses. Most are model-specific search links, so an exact purchasable listing and stock have **not** been established. Successful URL parsing and affiliate tags do not prove an Amazon listing works. Manufacturer or retailer availability must not be substituted for Amazon stock.
 
-Before launch: replace provisional searches with verified matching listings, record the selected package and seller, check current stock for every product in both trades, finish secondary imagery, and complete desktop/mobile browser checks of the expanded pages. Stock is time-sensitive and must be checked again near launch.
+Before launch: replace provisional searches with verified matching listings, record the selected package and seller, check current stock for every product in both trades, verify deployed image delivery, and complete desktop/mobile browser checks of the expanded pages. Stock is time-sensitive and must be checked again near launch.
 
-Production publication is held under the user's instruction to complete browser checks before pushing. A preview deployment is needed for the remaining browser review; do not enable indexing or mark the release verified while these gates remain open.
+Production publication remains held under the user's instruction to complete browser checks before pushing. The authorized preview provides a review target once access is resolved; do not enable indexing or mark the release verified while these gates remain open.
