@@ -170,3 +170,5 @@ summary:focus-visible {
 }
 
 .hubCategory{padding-top:24px;scroll-margin-top:100px}.hubCategory>h2{margin-bottom:22px}.workflowActions{flex-wrap:wrap}.workflowActions>.detailLink{flex-basis:100%;margin-bottom:6px}.workflowHubCard p{font-size:14px;line-height:1.65}.articleNav{flex-wrap:wrap}.pickSpecs dd{overflow-wrap:anywhere}
+
+.workflowHubGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.workflowHubCard{display:flex;flex-direction:column;align-items:flex-start;gap:20px;padding:26px}.workflowHubCard h3{font-size:25px}.workflowHubCard b{white-space:normal;font-size:14px;margin-top:auto}#job-kits,#tool-guides{scroll-margin-top:72px}@media(max-width:700px){.workflowHubGrid{grid-template-columns:1fr}.workflowHubCard{padding:22px}.workflowHubCard h3{font-size:23px}}

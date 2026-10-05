@@ -45,11 +45,12 @@ export default async function TradePage({
           <span className="eyebrow">{hub.name.toUpperCase()} TOOL GUIDES</span>
           <h1>Tools & Gear for {hub.name}</h1>
           <p>{trade === "electricians" ? "Build the kit for the job: eight workflow and starter-kit guides, fourteen tool comparisons and detailed product reviews for US electricians." : hub.blurb}</p>
+          <nav className="heroActions" aria-label="Browse this trade">{workflows.length > 0 && <a className="orangeBtn" href="#job-kits">Find a job kit</a>}<a className="ghostBtn" href="#tool-guides">Compare tool categories</a></nav>
         </div>
       </section>
 
       {workflows.length > 0 && (
-        <section className="section workflowHubSection">
+        <section className="section workflowHubSection" id="job-kits">
           <div className="shell">
             <span className="eyebrow orange">SHOP BY THE WORK YOU DO</span>
             <div className="sectionHeading">
@@ -70,7 +71,7 @@ export default async function TradePage({
                   <div>
                     <span>WORKFLOW GUIDE</span>
                     <h3>{w.title}</h3>
-                    <p>{w.summary}</p>
+                    <p>{w.meta}</p>
                   </div>
                   <b>Build the job kit →</b>
                 </Link>
@@ -80,7 +81,7 @@ export default async function TradePage({
         </section>
       )}
 
-      <section className="section light">
+      <section className="section light" id="tool-guides">
         <div className="shell">
           <span className="eyebrow orange">PRODUCT BUYING GUIDES</span>
           <div className="sectionHeading">

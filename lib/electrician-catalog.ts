@@ -1,4 +1,4 @@
-import {electricianReviewContext} from "./electrician-review-context";
+import {electricianReviewContext,electricianProductQuestions} from "./electrician-review-context";
 import {testingCategories} from './electrician-testing-catalog';
 import {identificationCategories} from './electrician-identification-catalog';
 import {handToolCategories} from './electrician-handtools-catalog';
@@ -32,7 +32,7 @@ export const electricianCatalogReviews:ProductReview[]=electricianCategories.map
  title:reviewTitles[p.id] || `${p.brand} ${p.model} Review`,meta:`${p.brand} ${p.model.split(" ")[0]} review: check documented features, job fit, limitations and alternatives before buying for an electrician kit. Research-based assessment.`,
  sourceUrl:a.sourceUrl,intro:a.intro,verdict:a.verdict,bestFor:a.bestFor,avoidIf:a.avoidIf,pros:a.pros,cons:a.cons,specs:a.specs,
  sections:[...a.analysis.map((body,j)=>({heading:[`Where ${p.model} fits in the kit`,'The decision that matters','Alternatives and purchase checks'][j]||'Buying considerations',body})),electricianReviewContext[p.id]],
- faqs:[{q:`Who should buy ${p.brand} ${p.model}?`,a:a.bestFor},{q:'When should I choose a different tool?',a:a.avoidIf},{q:'Was this product hands-on tested?',a:'No. This review uses manufacturer documentation and task-fit analysis. It does not claim measured durability, speed, comfort or field performance.'}],
+ faqs:[...electricianProductQuestions[p.id],{q:`Who should buy ${p.brand} ${p.model}?`,a:a.bestFor},{q:'When should I choose a different tool?',a:a.avoidIf},{q:'Was this product hands-on tested?',a:'No. This review uses manufacturer documentation and task-fit analysis. It does not claim measured durability, speed, comfort or field performance.'}],
  sourceNote:'Specifications and configuration were checked against the linked manufacturer source. The analysis explains buying fit; it is not a claim of independent laboratory or jobsite testing.'
  };
 });
