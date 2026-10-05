@@ -1,5 +1,6 @@
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getProductImage } from "@/lib/product-images";
+import { getGuideImage } from "@/lib/guide-images";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -39,6 +40,7 @@ export default async function Guide({
   const g = getGuide(trade, slug);
   if (!g) notFound();
   const hub = getHub(trade);
+  const guideImage = getGuideImage(g);
   const e = guideEditorial[slug] || guideEditorial[trade];
   const workflows = getTradeWorkflows(trade).filter(w => !g.workflowSlugs || g.workflowSlugs.includes(w.slug));
   const fullReviewCount = g.products.filter(p => p.reviewSlug && getReview(p.reviewSlug)).length;
@@ -55,12 +57,13 @@ export default async function Guide({
           { name: g.title, path: `/${trade}/${slug}/` },
         ]}
       />
-      <section className="guideHero" id="top">
-        {hub && (
+      <section className={`guideHero${guideImage ? " guideHeroWithPhoto" : ""}`} id="top">
+        {!guideImage && hub && (
           <img src={hub.image} alt={`${g.tradeName} professional at work`} />
         )}
         <div className="tradeHeroShade" />
         <div className="shell guideHeroInner">
+          <div className="guideHeroCopy">
           <div className="crumb">
             <Link href="/">Home</Link> /{" "}
             <Link href={`/${trade}/`}>{g.tradeName}</Link> / {g.cluster}
@@ -75,6 +78,8 @@ export default async function Guide({
             <span>US-focused</span>
             <span>Research-based recommendations</span>
           </div>
+          </div>
+          {guideImage && <ProductPhoto photo={guideImage} className="guideHeroPhoto" priority credit />}
         </div>
       </section>
       <section className="section">

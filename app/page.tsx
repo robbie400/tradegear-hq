@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { guides,hubs,getHub } from "@/lib/data";
+import { ProductPhoto } from "@/components/ProductPhoto";
+import { getGuideImage } from "@/lib/guide-images";
 
 export default function Home(){
   return <>
@@ -36,7 +38,7 @@ export default function Home(){
         <span className="eyebrow orange">POPULAR BUYING GUIDES</span>
         <div className="sectionHeading"><h2>Start with a focused comparison.</h2><p>Each guide shortlists five candidates, explains who each option suits and sends you to Amazon only when you're ready to check the current offer.</p></div>
         <div className="guideGrid">{guides.map(g=>{const hub=getHub(g.trade);return <Link className="guideCard visualGuide" key={g.slug} href={`/${g.trade}/${g.slug}/`}>
-          {hub&&<div className="guideThumb"><img src={hub.image} alt="" /></div>}
+          {getGuideImage(g) ? <ProductPhoto photo={getGuideImage(g)} className="guideCardPhoto" /> : hub&&<div className="guideThumb"><img src={hub.image} alt="" /></div>}
           <div className="guideBody"><span>{g.tradeName} · {g.cluster}</span><h3>{g.title}</h3><p>{g.meta}</p><b>Open buying guide →</b></div>
         </Link>})}</div>
       </div>

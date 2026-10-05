@@ -1,3 +1,18 @@
+.guideCardPhoto { margin: 0; background: #f3f6f8; border-bottom: 1px solid #e1e7ec; }
+.guideCardPhoto .productPhotoCanvas { border: 0; border-radius: 0; aspect-ratio: auto; height: 190px; padding: 18px; background: #f3f6f8; }
+.guideHeroWithPhoto { background: linear-gradient(135deg, #0b1623, #1d2f41); }
+.guideHeroWithPhoto .tradeHeroShade { display: none; }
+.guideHeroWithPhoto .guideHeroInner { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); align-items: center; gap: 42px; }
+.guideHeroWithPhoto h1 { font-size: clamp(36px, 4.2vw, 56px); }
+.guideHeroPhoto { margin: 0; }
+.guideHeroPhoto .productPhotoCanvas { aspect-ratio: 1; background: white; padding: 30px; }
+.guideHeroWithPhoto .guideHeroPhoto figcaption { color: #c6d3df; font-size: 12px; margin-top: 12px; }
+.guideHeroWithPhoto .guideHeroPhoto figcaption a { color: #f8b86b; }
+@media (max-width: 650px) {
+  .guideHeroWithPhoto .guideHeroInner { grid-template-columns: 1fr; gap: 28px; }
+  .guideHeroPhoto .productPhotoCanvas { aspect-ratio: 4 / 3; }
+}
+
 .editorialByline {
   font-size: 13px !important;
   line-height: 1.8 !important;
