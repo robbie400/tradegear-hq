@@ -1,3 +1,4 @@
+import {electricianCatalogReviews} from "./electrician-catalog";
 import { guides } from "./data";
 import { electricianReviews } from "./reviews-electricians";
 import { plumberReviews } from "./reviews-plumbers";
@@ -389,13 +390,14 @@ const initialReviews: ProductReview[] = [
 export const reviews: ProductReview[] = [
   ...initialReviews,
   ...electricianReviews,
+  ...electricianCatalogReviews,
   ...plumberReviews,
   ...hvacReviews,
   ...inspectorReviews,
 ];
 for (const review of reviews) {
   const product = guides
-    .find((g) => g.trade === review.trade)
+    .find((g) => g.trade === review.trade && g.slug === review.guideSlug)
     ?.products.find((p) => p.reviewSlug === review.slug);
   if (product) {
     review.role = product.role;

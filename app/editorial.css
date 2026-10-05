@@ -168,3 +168,5 @@ summary:focus-visible {
     overflow-wrap: anywhere;
   }
 }
+
+.hubCategory{padding-top:24px;scroll-margin-top:100px}.hubCategory>h2{margin-bottom:22px}.workflowActions{flex-wrap:wrap}.workflowActions>.detailLink{flex-basis:100%;margin-bottom:6px}.workflowHubCard p{font-size:14px;line-height:1.65}.articleNav{flex-wrap:wrap}.pickSpecs dd{overflow-wrap:anywhere}

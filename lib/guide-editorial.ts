@@ -1,3 +1,4 @@
+import {electricianCategories} from "./electrician-catalog";
 type GuideEditorial = {
   answer: string;
   note: string;
@@ -154,3 +155,5 @@ export const guideEditorial: Record<string, GuideEditorial> = {
     ],
   },
 };
+
+for (const c of electricianCategories) guideEditorial[c.slug]={answer:c.answer,note:c.note,criteria:c.criteria,faqs:c.faqs};

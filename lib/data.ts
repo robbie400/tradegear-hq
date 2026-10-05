@@ -1,9 +1,13 @@
+import type {Assessment} from "./electrician-catalog-types";
+import {electricianCatalogGuides} from "./electrician-catalog";
 export type Product = {
   role: string;
   brand: string;
   model: string;
   url: string;
-  reviewSlug: string;
+  reviewSlug?: string;
+  productId?: string;
+  assessment?: Assessment;
 };
 export type Hub = { slug: string; name: string; blurb: string; image: string };
 export type Guide = {
@@ -15,6 +19,8 @@ export type Guide = {
   meta: string;
   cluster: string;
   products: Product[];
+  secondary?: string[];
+  workflowSlugs?: string[];
 };
 
 export const hubs: Hub[] = [
@@ -58,8 +64,8 @@ export const guides: Guide[] = [
     tradeName: "Electricians",
     slug: "best-multimeters-for-electricians",
     title: "Best Multimeters for Electricians",
-    keyword: "electrician multimeter",
-    meta: "Compare five strong multimeter candidates for US electricians, with a fast shortlist and clear trade-specific buying criteria.",
+    keyword: "best multimeter for electricians",
+    meta: "Fluke 117 or 115, Klein MM720 or MM450, or Southwire 14090T? Compare five electrician multimeters by LoZ, safety rating, carrying format and logging.",
     cluster: "Testing & Measurement",
     products: [
       {
@@ -238,6 +244,8 @@ export const guides: Guide[] = [
     ],
   },
 ];
+
+guides.push(...electricianCatalogGuides);
 
 export function getHub(slug: string) {
   return hubs.find((h) => h.slug === slug);

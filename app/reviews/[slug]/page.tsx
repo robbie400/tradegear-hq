@@ -22,6 +22,7 @@ export async function generateMetadata({
   return {
     title: r.title,
     description: r.meta,
+    openGraph: {title:r.title,description:r.meta,url:`/reviews/${slug}/`},
     alternates: { canonical: `/reviews/${slug}/` },
   };
 }
@@ -34,9 +35,9 @@ export default async function ReviewPage({
   const r = getReview(slug);
   if (!r) notFound();
   const alternatives = reviews.filter(
-    (x) => x.trade === r.trade && x.slug !== r.slug,
+    (x) => x.trade === r.trade && x.guideSlug === r.guideSlug && x.slug !== r.slug,
   );
-  const workflows = getTradeWorkflows(r.trade);
+  const workflows = getTradeWorkflows(r.trade).filter(w => w.tools.some(t => t.guideUrl === `/${r.trade}/${r.guideSlug}/` || t.reviewUrl === `/reviews/${r.slug}/`));
   return (
     <>
       <PageSchema

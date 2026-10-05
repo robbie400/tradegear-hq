@@ -24,17 +24,19 @@ export function PageSchema({
   path,
   description,
   crumbs,
+  kind = "Article",
 }: {
   title: string;
   path: string;
   description: string;
   crumbs: { name: string; path: string }[];
+  kind?: "Article" | "CollectionPage";
 }) {
   const data = {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": kind,
         headline: title,
         description,
         url: siteUrl + path,

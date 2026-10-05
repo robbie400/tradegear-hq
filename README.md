@@ -4,9 +4,10 @@ US-focused tool research and affiliate buying guides for professional tradespeop
 
 ## Current editorial cluster
 
-- Four trade hubs and four five-product buying guides.
-- Twenty standalone, research-based product reviews with manufacturer references.
-- One electrician service-call workflow, linked to its category guide and reviews.
+- Four trade hubs and seventeen five-product buying guides.
+- Thirty-three standalone, research-based product reviews with manufacturer references.
+- Eight electrician workflow / kit guides, contextually linked to tool-category guides and available reviews.
+- Electrician cluster: 41 pages (one hub, eight workflows, fourteen buying guides and eighteen reviews), covering 70 unique product candidates.
 - Editorial methodology, compact affiliate disclosures and sponsored link attributes.
 - Unique metadata, absolute canonical URLs, article and breadcrumb structured data.
 - Global noindex and robots blocking by default while the launch set is incomplete.
@@ -23,9 +24,15 @@ Amazon US tag: `robbieom0e-20`. Credentials must be stored privately as Vercel e
 
 ## Editorial rules
 
-Product cards use stable `reviewSlug` keys. Review additions live in trade-specific data modules, with shared fields derived from the buying guide. Check exact manufacturer models and kit variants before writing claims. Recommendations are research-based; do not imply hands-on testing. Review dates should represent an editorial check, not update automatically with every build.
+Product cards use stable `productId` or `reviewSlug` keys. Every candidate has a detailed assessment; only candidates with a substantive standalone review get a review link. Review additions live in trade-specific data modules, with shared fields derived from the buying guide. Check exact manufacturer models and kit variants before writing claims. Recommendations are research-based; do not imply hands-on testing. Review dates should represent an editorial check, not update automatically with every build.
 
 The MM720 replaces discontinued MM600; TITANMAX 40881 replaces discontinued P51-870. Milwaukee 2323-21 and CPS BMD200A resolve earlier ambiguous shortlist entries. Do not mix hardware generations or app compatibility across related models.
+
+## Electrician scope
+
+The fourteen everyday categories cover testing, hand tools, drilling/fastening, cable routing, lighting and storage. The eight job kits cover service, house rewires, panels, commercial work, cable pulling, lighting/controls, apprentice buying and van/bag organization. These are a researched launch batch, not a claim to cover every electrical specialty. PPE, isolation, torque tools, installation testers, access equipment and specialist rough-in tools are noted as job-specific requirements; dedicated buying guides for those remain future work.
+
+Primary and secondary query themes are editorial intent hypotheses, not measured search-volume forecasts. Do not promise ranking or traffic. Head-to-head comparisons can be added when a substantive comparison has been researched.
 
 ## Next work
 

@@ -22,8 +22,9 @@ export async function generateMetadata({
   const g = getGuide(trade, slug);
   if (!g) return {};
   return {
-    title: g.title,
+    title: g.title.split(":")[0],
     description: g.meta,
+    openGraph: {title:g.title,description:g.meta,url:`/${trade}/${slug}/`},
     alternates: { canonical: `/${trade}/${slug}/` },
   };
 }
@@ -36,8 +37,10 @@ export default async function Guide({
   const g = getGuide(trade, slug);
   if (!g) notFound();
   const hub = getHub(trade);
-  const e = guideEditorial[trade];
-  const workflows = getTradeWorkflows(trade);
+  const e = guideEditorial[slug] || guideEditorial[trade];
+  const workflows = getTradeWorkflows(trade).filter(w => !g.workflowSlugs || g.workflowSlugs.includes(w.slug));
+  const fullReviewCount = g.products.filter(p => p.reviewSlug && getReview(p.reviewSlug)).length;
+  const relatedGuides = guides.filter(x => x.trade === trade && x.slug !== slug && x.cluster === g.cluster);
   return (
     <>
       <PageSchema
@@ -66,7 +69,7 @@ export default async function Guide({
           <h1>{g.title}</h1>
           <p>{e.answer}</p>
           <div className="guideMeta">
-            <span>5 picks · 5 full reviews</span>
+            <span>{g.products.length} picks · {fullReviewCount} full {fullReviewCount === 1 ? "review" : "reviews"}</span>
             <span>US-focused</span>
             <span>Research-based recommendations</span>
           </div>
@@ -84,14 +87,13 @@ export default async function Guide({
           <div className="sectionHeading" id="quick-picks">
             <h2>Quick picks</h2>
             <p>
-              Choose by the task. Read a full review before checking the current
-              retailer offer.
+              Choose by the task. Read the detailed buying assessment and available full reviews before checking the retailer offer.
             </p>
           </div>
           <AffiliateDisclosure />
           <div className="compare">
             {g.products.map((p, i) => (
-              <div className="compareRow" key={p.reviewSlug}>
+              <div className="compareRow" key={p.productId || p.reviewSlug}>
                 <b className="rank">{String(i + 1).padStart(2, "0")}</b>
                 <div>
                   <span>{p.role}</span>
@@ -103,10 +105,10 @@ export default async function Guide({
                 </div>
                 <div className="compareActions">
                   <Link
-                    href={`/reviews/${p.reviewSlug}/`}
+                    href={p.reviewSlug ? `/reviews/${p.reviewSlug}/` : `#pick-${i + 1}`}
                     className="detailLink"
                   >
-                    Read full review →
+                    {p.reviewSlug ? "Read full review →" : "Read buying assessment ↓"}
                   </Link>
                   <div>
                     <a
@@ -165,13 +167,14 @@ export default async function Guide({
           </div>
           <div className="productStack">
             {g.products.map((p, i) => {
-              const r = getReview(p.reviewSlug!);
-              if (!r) throw new Error(`Missing review: ${p.reviewSlug}`);
+              const fullReview = p.reviewSlug ? getReview(p.reviewSlug) : undefined;
+              const r = fullReview || p.assessment;
+              if (!r) throw new Error(`Missing assessment: ${p.model}`);
               return (
                 <article
                   className="product"
                   id={`pick-${i + 1}`}
-                  key={p.reviewSlug}
+                  key={p.productId || p.reviewSlug}
                 >
                   <div className="rankPanel">
                     <span>OPTION {i + 1}</span>
@@ -185,6 +188,7 @@ export default async function Guide({
                     <p>
                       <b>Best for:</b> {r.bestFor}
                     </p>
+                    <p>{r.intro}</p>
                     <p>{r.verdict}</p>
                     <ul className="miniPros">
                       {r.pros.slice(0, 3).map((x) => (
@@ -212,9 +216,7 @@ export default async function Guide({
                       </a>
                     </p>
                     <div className="productActions">
-                      <Link className="reviewBtn" href={`/reviews/${r.slug}/`}>
-                        Read Full Review
-                      </Link>
+                      {fullReview && <Link className="reviewBtn" href={`/reviews/${fullReview.slug}/`}>Read Full Review</Link>}
                       <a
                         className="amazonBtn"
                         href={p.url}
@@ -236,6 +238,7 @@ export default async function Guide({
               );
             })}
           </div>
+          {relatedGuides.length > 0 && <aside className="relatedBox"><b>Other tools in {g.cluster}</b>{relatedGuides.map(x => <p key={x.slug}><Link href={`/${trade}/${x.slug}/`}>{x.title} →</Link></p>)}</aside>}
           <section className="faq" id="questions">
             <span className="eyebrow orange">BUYING QUESTIONS</span>
             <h2>Before you choose</h2>

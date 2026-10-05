@@ -1,3 +1,5 @@
+import {additionalElectricianWorkflows} from "./electrician-workflows";
+import {guides} from "./data";
 export type WorkflowTool = {
   stage:string;
   type:string;
@@ -5,6 +7,7 @@ export type WorkflowTool = {
   why:string;
   amazonUrl:string;
   reviewUrl?:string;
+  guideUrl?:string;
   priority:"Core"|"Useful"|"Upgrade";
 };
 
@@ -20,6 +23,7 @@ export type Workflow = {
   stages:{name:string;description:string}[];
   tools:WorkflowTool[];
   faqs:{q:string;a:string}[];
+  notes?:string[];
 };
 
 export const workflows:Workflow[] = [
@@ -60,6 +64,12 @@ export const workflows:Workflow[] = [
     ]
   }
 ];
+
+workflows.push(...additionalElectricianWorkflows);
+const service = workflows[0];
+const serviceCategories=["best-multimeters-for-electricians","best-voltage-testers-for-electricians","best-clamp-meters-for-electricians","best-circuit-breaker-finders-for-electricians","best-receptacle-testers-for-electricians","best-linemans-pliers-for-electricians","best-wire-strippers-for-electricians","best-cordless-drills-for-electricians","best-work-lights-for-electricians","best-tool-backpacks-for-electricians"];
+service.tools.forEach((tool,i)=>{const g=guides.find(g=>g.slug===serviceCategories[i]);if(!g)throw Error(serviceCategories[i]);const p=g.products[0];tool.name=`${p.brand} ${p.model}`;tool.amazonUrl=p.url;tool.guideUrl=`/electricians/${g.slug}/`;tool.reviewUrl=p.reviewSlug?`/reviews/${p.reviewSlug}/`:undefined;});
+service.notes=["Confirm employer-required PPE, isolation equipment, measuring and marking tools, consumables and any specified torque or specialist test equipment. This is an everyday service shortlist, not a complete safety equipment list.","Follow the instrument instructions and the required qualified-work procedure. A non-contact indicator or plug-in tester cannot independently prove the whole installation safe."];
 
 export function getWorkflow(trade:string,slug:string){return workflows.find(w=>w.trade===trade&&w.slug===slug)}
 export function getTradeWorkflows(trade:string){return workflows.filter(w=>w.trade===trade)}

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getWorkflow, workflows } from "@/lib/workflows";
 import { guides } from "@/lib/data";
-import { AffiliateDisclosure, EditorialByline } from "@/components/Editorial";
+import { AffiliateDisclosure, EditorialByline, PageSchema } from "@/components/Editorial";
 
 export function generateStaticParams() {
   return workflows.map((w) => ({ trade: w.trade, slug: w.slug }));
@@ -18,8 +18,9 @@ export async function generateMetadata({
   const w = getWorkflow(trade, slug);
   if (!w) return {};
   return {
-    title: w.title,
+    title: w.title.split(":")[0],
     description: w.meta,
+    openGraph: {title:w.title,description:w.meta,url:`/${trade}/workflows/${slug}/`},
     robots:
       process.env.NEXT_PUBLIC_INDEX_SITE === "true"
         ? { index: true, follow: true }
@@ -38,6 +39,7 @@ export default async function WorkflowPage({
   if (!w) notFound();
   return (
     <>
+      <PageSchema title={w.title} description={w.meta} path={`/${trade}/workflows/${slug}/`} crumbs={[{name:"Home",path:"/"},{name:w.tradeName,path:`/${trade}/`},{name:w.title,path:`/${trade}/workflows/${slug}/`}]}/>
       <section className="workflowHero">
         <img src={w.heroImage} alt={`${w.tradeName} service work`} />
         <div className="tradeHeroShade" />
@@ -52,8 +54,8 @@ export default async function WorkflowPage({
           <h1>{w.title}</h1>
           <p>{w.meta}</p>
           <div className="guideMeta">
-            <span>10 practical picks</span>
-            <span>Built around the service-call workflow</span>
+            <span>{w.tools.length} practical picks</span>
+            <span>Organized around the work</span>
             <span>US-focused</span>
           </div>
         </div>
@@ -82,15 +84,17 @@ export default async function WorkflowPage({
 
           <div className="sectionHeading workflowHeading">
             <div>
-              <span className="eyebrow orange">SERVICE-CALL KIT</span>
+              <span className="eyebrow orange">JOB TOOL KIT</span>
               <h2>The tools that earn their place in the bag.</h2>
             </div>
             <p>
-              These are organized by the part of the call they support. “Core”
+              These are organized by the part of the job they support. “Core”
               means we would prioritize it before the nice-to-have upgrades.
             </p>
           </div>
 
+          {w.notes && <aside className="relatedBox"><b>Confirm the complete job requirements</b>{w.notes.map(n=><p key={n}>{n}</p>)}</aside>}
+          <p className="methodNote">Research-based tool selection from manufacturer documentation. We have not hands-on tested these products. <Link href="/how-we-choose/">How we choose tools →</Link></p>
           <AffiliateDisclosure />
           <div className="workflowToolGrid">
             {w.tools.map((t) => (
@@ -105,6 +109,7 @@ export default async function WorkflowPage({
                 <h3>{t.name}</h3>
                 <p>{t.why}</p>
                 <div className="workflowActions">
+                  {t.guideUrl && <Link href={t.guideUrl} className="detailLink">Compare five options →</Link>}
                   {t.reviewUrl && (
                     <Link href={t.reviewUrl} className="reviewBtn">
                       Read full review
@@ -127,10 +132,9 @@ export default async function WorkflowPage({
           </div>
 
           <section className="workflowDecision">
-            <span className="eyebrow orange">WHY THIS IS DIFFERENT</span>
+            <span className="eyebrow orange">BUYING PRIORITIES</span>
             <h2>
-              Most tool lists start with products. This one starts with the
-              call.
+              Choose tools that fit the work.
             </h2>
             <div className="decisionGrid">
               <div>
@@ -163,7 +167,7 @@ export default async function WorkflowPage({
 
           <section className="faq">
             <span className="eyebrow orange">SEARCH QUESTIONS</span>
-            <h2>Electrician service-call tool questions</h2>
+            <h2>Questions about this kit</h2>
             {w.faqs.map((f, i) => (
               <details key={f.q} open={i === 0}>
                 <summary>{f.q}</summary>
@@ -174,7 +178,7 @@ export default async function WorkflowPage({
           <aside className="relatedBox">
             <b>Compare the tools for this job</b>
             {guides
-              .filter((g) => g.trade === trade)
+              .filter((g) => g.trade === trade && w.tools.some(t=>t.guideUrl===`/${trade}/${g.slug}/`))
               .map((g) => (
                 <p key={g.slug}>
                   <Link href={`/${trade}/${g.slug}/`}>{g.title} →</Link>
