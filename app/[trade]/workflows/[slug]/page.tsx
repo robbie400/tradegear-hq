@@ -1,3 +1,4 @@
+import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
@@ -120,7 +121,9 @@ export default async function WorkflowPage({
                     </Link>
                   )}
                   <a
-                    href={t.amazonUrl}
+                    href={affiliateUrl(t.amazonUrl, w.trade)}
+                      data-trade={w.trade}
+                      data-product={t.name}
                     target="_blank"
                     rel="sponsored nofollow noopener"
                     className="amazonBtn"

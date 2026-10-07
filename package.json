@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test": "node scripts/validate-catalog.cjs && node scripts/validate-feedback.cjs"
+    "test": "node scripts/validate-catalog.cjs && node scripts/validate-feedback.cjs && node scripts/validate-affiliate.cjs"
   },
   "dependencies": {
     "next": "^15.5.2",

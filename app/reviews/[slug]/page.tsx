@@ -1,3 +1,4 @@
+import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { ProductFeedback } from "@/components/ProductFeedback";
 import { getProductImage } from "@/lib/product-images";
@@ -72,7 +73,9 @@ export default async function ReviewPage({
           <div className="reviewHeroActions">
             <a
               className="amazonBtn"
-              href={r.amazonUrl}
+              href={affiliateUrl(r.amazonUrl, r.trade)}
+                      data-trade={r.trade}
+                      data-product={`${r.brand} ${r.model}`}
               target="_blank"
               rel="sponsored nofollow noopener"
             >
@@ -195,7 +198,9 @@ export default async function ReviewPage({
             </div>
             <a
               className="amazonBtn"
-              href={r.amazonUrl}
+              href={affiliateUrl(r.amazonUrl, r.trade)}
+                      data-trade={r.trade}
+                      data-product={`${r.brand} ${r.model}`}
               target="_blank"
               rel="sponsored nofollow noopener"
             >

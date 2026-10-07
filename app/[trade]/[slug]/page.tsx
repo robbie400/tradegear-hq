@@ -1,3 +1,4 @@
+import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { ProductFeedback } from "@/components/ProductFeedback";
 import { getProductImage } from "@/lib/product-images";
@@ -121,7 +122,9 @@ export default async function Guide({
                   </Link>
                   <div>
                     <a
-                      href={p.url}
+                      href={affiliateUrl(p.url, g.trade)}
+                      data-trade={g.trade}
+                      data-product={`${p.brand} ${p.model}`}
                       target="_blank"
                       rel="sponsored nofollow noopener"
                     >
@@ -226,7 +229,9 @@ export default async function Guide({
                       {fullReview && <Link className="reviewBtn" href={`/reviews/${fullReview.slug}/`}>Read Full Review</Link>}
                       <a
                         className="amazonBtn"
-                        href={p.url}
+                        href={affiliateUrl(p.url, g.trade)}
+                      data-trade={g.trade}
+                      data-product={`${p.brand} ${p.model}`}
                         target="_blank"
                         rel="sponsored nofollow noopener"
                       >

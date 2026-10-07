@@ -53,7 +53,11 @@ export function AnalyticsConsent() {
       if (url.hostname !== "amazon.com" && !url.hostname.endsWith(".amazon.com")) return;
       w.gtag?.("event", "affiliate_click", {
         retailer: "Amazon", link_domain: url.hostname,
-        page_path: window.location.pathname, transport_type: "beacon",
+        page_path: window.location.pathname,
+        trade: link.dataset.trade || "other",
+        product_name: (link.dataset.product || "Unknown tool").slice(0, 100),
+        affiliate_tag: url.searchParams.get("tag") || "",
+        transport_type: "beacon",
       });
     };
     document.addEventListener("click", track);
