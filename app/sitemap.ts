@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     "/",
     "/how-we-choose/",
+    "/privacy/",
     ...hubs.map((h) => `/${h.slug}/`),
     ...guides.map((g) => `/${g.trade}/${g.slug}/`),
     ...reviews.map((r) => `/reviews/${r.slug}/`),

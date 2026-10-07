@@ -5,6 +5,7 @@ import "./globals.css";
 import "./workflow.css";
 import "./editorial.css";
 import { siteUrl } from "@/components/Editorial";
+import { AnalyticsConsent } from "@/components/AnalyticsConsent";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   verification: {
@@ -36,6 +37,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <AnalyticsConsent />
       </body>
     </html>
   );
