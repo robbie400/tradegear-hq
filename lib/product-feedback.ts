@@ -12,12 +12,13 @@ export type ProductFeedback = {
   match: "Exact model" | "Tool family";
   caveat: string;
   permission: "pending";
+  sourceConfirmed?: boolean;
 };
 
 // Research candidates, not approved testimonials. Summaries are editorial
 // paraphrases, never words attributed as a direct quotation to the reviewer.
 export const productFeedback: ProductFeedback[] = [
-  { productId: "appion-g5twin", trade: "hvac", brand: "Appion", modelNumber: "G5Twin", author: "Aussie HVC-R Tech", avatar: "AH", context: "Manufacturer-hosted customer review · May 23, 2021", source: "Appion", url: "https://appiontools.com/g5twin/", summary: "The reviewer likes the machine’s compact size and carrying weight, and describes a positive recovery experience.", match: "Exact model", caveat: "Original review and display name confirmed October 7, 2026. Occupation and purchase are not independently verified. Performance is the reviewer’s experience; excerpt and photo reuse permission remain pending.", permission: "pending" },
+  { productId: "appion-g5twin", sourceConfirmed: true, trade: "hvac", brand: "Appion", modelNumber: "G5Twin", author: "Aussie HVC-R Tech", avatar: "AH", context: "Manufacturer-hosted customer review · May 23, 2021", source: "Appion", url: "https://appiontools.com/g5twin/", summary: "The reviewer likes the machine’s compact size and carrying weight, and describes a positive recovery experience.", match: "Exact model", caveat: "Original review and display name confirmed October 7, 2026. Occupation and purchase are not independently verified. Performance is the reviewer’s individual experience, not a comparative performance test.", permission: "pending" },
   { productId: "fieldpiece-vp87", trade: "hvac", brand: "Fieldpiece", modelNumber: "VP87", author: "Community member", avatar: "", context: "Owner discussion · pump setup", source: "r/HVAC", url: "https://www.reddit.com/r/HVAC/comments/15ypk5c/fieldpiece/", summary: "An owner likes the VP87’s oil-change arrangement and hose-port placement.", match: "Exact model", caveat: "Search extract only. Original comment, username, occupation and reuse permission need confirmation. This is an individual account, not a reliability test.", permission: "pending" },
   { productId: "fieldpiece-dr82", trade: "hvac", brand: "Fieldpiece", modelNumber: "DR82", author: "Community member", avatar: "", context: "Owner discussion · refrigerant detection", source: "r/HVAC", url: "https://www.reddit.com/r/HVAC/comments/zzjl9f/", summary: "An owner reports a positive experience using the DR82 with R-410A and R-22.", match: "Exact model", caveat: "Search extract only. Original comment, identity and permission need confirmation. Detection sensitivity and suitability must come from the current manual, not this anecdote.", permission: "pending" },
   { productId: "fieldpiece-mr45", trade: "hvac", brand: "Fieldpiece", modelNumber: "MR45", author: "Community member", avatar: "", context: "Owner discussion · recovery machine choices", source: "r/HVAC", url: "https://www.reddit.com/r/HVAC/comments/1bw8ops/", summary: "An owner prefers the MR45 but points out its expense and questions whether the premium is necessary for everyone.", match: "Exact model", caveat: "Search extract only. Original comment, identity and permission need confirmation. This is a preference with a cost caveat, not a comparative performance test.", permission: "pending" },
@@ -33,7 +34,7 @@ export const productFeedback: ProductFeedback[] = [
   { productId: "knipex-8801250", trade: "plumbers", brand: "KNIPEX", modelNumber: "88 01 250", author: "u/Beer_Is_So_Awesome", avatar: "BA", context: "Community member · comparative owner feedback", source: "r/Tools", url: "https://www.reddit.com/r/Tools/comments/1vfzsdj/water_pump_pliers_whats_your_favorite_brand/", summary: "Describes Alligator pliers as a considerable improvement over earlier groove-joint pliers, while preferring Cobra's adjustment and jaw capacity.", match: "Tool family", caveat: "Alligator-family feedback; size and handle variant are not established. Occupation is unknown.", permission: "pending" },
   { productId: "knipex-903102", trade: "plumbers", brand: "KNIPEX", modelNumber: "90 31 02", author: "Community member", avatar: "", context: "Thread author · self-described plumber", source: "r/Tools", url: "https://www.reddit.com/r/Tools/comments/1ejut8l/", summary: "Describes using TubiX cutters on copper and brass tubing and finding their positioning mechanism easier than another quick-adjust cutter.", match: "Tool family", caveat: "Several TubiX sizes appear in the thread. Exact 90 31 02 model, username and original comment need confirmation.", permission: "pending" },
   { productId: "milwaukee-2771-20", trade: "plumbers", brand: "Milwaukee", modelNumber: "2771-20", author: "Scott Strollo", avatar: "SS", context: "Published hands-on review · service plumber per author biography", source: "Pro Tool Reviews", url: "https://www.protoolreviews.com/milwaukee-m18-transfer-pump-review/", summary: "Strollo's hands-on review highlights cordless convenience, self-priming and simple operation when moving water.", match: "Exact model", caveat: "Published in January 2017, covering the bare pump and a kit. Follow current manufacturer instructions for permitted liquids; historical pricing and applications are not current guidance.", permission: "pending" },
-  { productId: "ridgid-k6p", trade: "plumbers", brand: "RIDGID", modelNumber: "K-6P", author: "Persistent", avatar: "P", context: "Retailer-hosted customer feedback · homeowner", source: "SupplyHouse", url: "https://www.supplyhouse.com/Ridgid-56658-RIDGID-K-6P-Toilet-Auger-w-Bulb-Head", summary: "Describes clearing a blockage with the K-6P after plunging had not resolved it.", match: "Exact model", caveat: "Search extract only. Original review needs confirmation. A homeowner's experience does not guarantee the same result on another blockage.", permission: "pending" },
+  { productId: "ridgid-k6p", sourceConfirmed: true, trade: "plumbers", brand: "RIDGID", modelNumber: "K-6P", author: "Persistent", avatar: "P", context: "Retailer-hosted customer feedback · homeowner", source: "SupplyHouse", url: "https://www.supplyhouse.com/Ridgid-56658-RIDGID-K-6P-Toilet-Auger-w-Bulb-Head", summary: "Describes clearing a blockage with the K-6P after plunging had not resolved it.", match: "Exact model", caveat: "Original review and display name confirmed October 7, 2026 on SupplyHouse. A homeowner's experience does not guarantee the same result on another blockage.", permission: "pending" },
 ];
 
 export function getProductFeedback(trade: string, brand: string, model: string, productId?: string) {
@@ -42,8 +43,12 @@ export function getProductFeedback(trade: string, brand: string, model: string, 
     (entry.productId === id || model === entry.modelNumber || model.startsWith(`${entry.modelNumber} `)));
 }
 
-// Fail closed: pending entries cannot render in a production build, even if
-// someone accidentally merges the preview branch. No ratings/schema added.
+// Unconfirmed source extracts stay in preview. The user authorized showing
+// confirmed editorial summaries while permission follow-up remains pending.
+export function canShowFeedback(feedback: ProductFeedback) {
+  return feedback.sourceConfirmed === true || showFeedbackDrafts();
+}
+
 export function showFeedbackDrafts() {
   return process.env.VERCEL_ENV === "preview" ||
     (process.env.NODE_ENV === "development" && process.env.VERCEL_ENV !== "production");
