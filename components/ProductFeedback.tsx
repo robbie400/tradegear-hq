@@ -1,4 +1,5 @@
 import { ProductRating } from "./ProductRating";
+import { FeedbackAvatar } from "./FeedbackAvatar";
 import { getProductFeedback } from "@/lib/product-feedback";
 import styles from "./ProductFeedback.module.css";
 
@@ -14,9 +15,7 @@ export function ProductFeedback({ trade, brand, model, productId }: {
         <span className={styles.eyebrow}>FROM THE TOOL COMMUNITY</span>
       </div>
       <div className={styles.body}>
-        <span className={styles.avatar} aria-hidden="true">
-          {feedback.avatar || <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H7l-4 3v-7A7.5 7.5 0 1 1 20 11.5Z"/><path d="M8 10h8M8 14h5"/></svg>}
-        </span>
+        <FeedbackAvatar key={feedback.productId} initials={feedback.avatar} src={feedback.portrait?.src} />
         <div className={styles.copy}>
           <p className={styles.summary}>{feedback.summary}</p>
           <div className={styles.person}><strong>{feedback.author}</strong><span>{feedback.context}</span></div>
@@ -29,6 +28,7 @@ export function ProductFeedback({ trade, brand, model, productId }: {
       <details className={styles.notes}>
         <summary>About this feedback</summary>
         <p>Summary of feedback from the linked source. Individual experiences may differ.</p>
+        {feedback.portrait && <p>Reviewer photo: <a href={feedback.portrait.sourceUrl} target="_blank" rel="noopener noreferrer">{feedback.portrait.credit}</a>.</p>}
         {feedback.match === "Tool family" && <p>This discussion concerns the tool family; the model or supplied accessories may differ from the configuration on this page.</p>}
       </details>
     </aside></>
