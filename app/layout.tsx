@@ -7,6 +7,9 @@ import "./editorial.css";
 import { siteUrl } from "@/components/Editorial";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  verification: {
+    google: "IPdO16LiJR85WxqMoupZxho95WHPmfQSgjyvSTJpqNU",
+  },
   title: {
     default: "TradeGear HQ | Find the Right Tool for the Job",
     template: "%s | TradeGear HQ",
