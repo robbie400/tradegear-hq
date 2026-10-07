@@ -1,3 +1,4 @@
+import {inspectorCatalogReviews} from "./inspector-catalog";
 import {hvacCatalogReviews} from "./hvac-catalog";
 import {plumberCatalogReviews} from './plumber-catalog';
 import {electricianCatalogReviews} from "./electrician-catalog";
@@ -398,6 +399,7 @@ export const reviews: ProductReview[] = [
   ...hvacReviews,
   ...hvacCatalogReviews,
   ...inspectorReviews,
+  ...inspectorCatalogReviews,
 ];
 for (const review of reviews) {
   const product = guides

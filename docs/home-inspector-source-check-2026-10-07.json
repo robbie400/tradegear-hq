@@ -1,0 +1,108 @@
+{
+  "checked": "2026-10-07",
+  "scope": "Manufacturer documentation and exact-model photo attribution; not Amazon inventory or browser image-delivery verification",
+  "sources": [
+    {
+      "id": "klein-et120",
+      "url": "https://www.kleintools.com/catalog/gas-detectors/combustible-gas-leak-detector",
+      "title": "Combustible Gas Leak Detector - ET120 | Klein Tools",
+      "photo": "https://www.kleintools.com/sites/default/files/product-assets/catalog-imagery/original/klein/et120.jpg"
+    },
+    {
+      "id": "uei-cd100a",
+      "url": "https://www.ueitest.com/ECommerce/product/cd100a/cd100a",
+      "title": "\n\tCD100A - COMBUSTIBLE GAS LEAK DETECTOR | Kane USA\n",
+      "photo": "https://www.ueitest.com/ecommerce/site/content/PDFs/CD100A/CD100A_PP_A_VP.png"
+    },
+    {
+      "id": "uei-cd200",
+      "url": "https://www.ueitest.com/ECommerce/product/cd200/cd200",
+      "title": "\n\tCD200 - Quick Response Time Combustible Gas Leak Detector | Kane USA\n",
+      "photo": "https://www.ueitest.com/ecommerce/site/content/PDFs/CD200/CD200_PP_A_VP.png"
+    },
+    {
+      "id": "ridgid-microcd100",
+      "url": "https://www.ridgid.com/us/en/micro-cd100-combustible-gas-detector",
+      "title": "micro CD-100 Combustible Gas Detector | RIDGID Tools",
+      "photo": "https://cdn2.ridgid.com/resources/images/25975d00-4d13-4a5f-9c26-b775f7311c4d"
+    },
+    {
+      "id": "klein-et110",
+      "url": "https://www.kleintools.com/catalog/gas-detectors/carbon-monoxide-detector-carry-pouch-and-batteries",
+      "title": "Carbon Monoxide Detector with Carry Pouch and Batteries - ET110 | Klein Tools",
+      "photo": "https://www.kleintools.com/sites/default/files/product-assets/catalog-imagery/original/klein/et110.jpg"
+    },
+    {
+      "id": "fieldpiece-scm4",
+      "url": "https://www.fieldpiece.com/product/carbon-monoxide-detector-scm4/",
+      "title": "SCM4 - CO Detector - Digital Carbon Monoxide Detector",
+      "photo": "https://resources.fieldpiece.com/wp-content/uploads/2021/01/SCM4-SRC-Product.png"
+    },
+    {
+      "id": "uei-co71a",
+      "url": "https://www.ueitest.com/ECommerce/product/co71a/co71a",
+      "title": "\n\tCO71A - LONG LIFE AMBIENT CO DETECTOR | Kane USA\n",
+      "photo": "https://www.ueitest.com/ecommerce/site/content/PDFs/CO71A/CO71A_PP_A_VP.png"
+    },
+    {
+      "id": "fluke-co220",
+      "url": "https://www.fluke.com/en-us/product/building-infrastructure/hvac-tools/fluke-co-220",
+      "title": "Fluke CO-220 Carbon Monoxide Meter | Fluke",
+      "photo": "https://media.fluke.com/a5db896d-bc48-4ff2-a9b4-b108002c1514_original__size.jpg"
+    },
+    {
+      "id": "testo-3173",
+      "url": "https://www.testo.com/en-UK/testo-317-3/p/0632-3173",
+      "title": "testo 317-3 - CO Monitor",
+      "photo": "https://static.testo.com/image/upload/c_pad,h_600,w_920,f_auto,q_auto/t_aig/HQ/testo-317-3-ambient-cmeter.jpg"
+    },
+    {
+      "id": "bosch-glm16527cg",
+      "url": "https://www.boschtools.com/us/en/products/glm165-27cg-0601072U11",
+      "title": "GLM165-27CG Laser Measures",
+      "photo": "https://www.boschtools.com/binary/ocsmedia/optimized/750x422/o262436v945_laserdistancemeasureGLM16527CGmeasureonboschdynamic.png"
+    },
+    {
+      "id": "bosch-glm10023",
+      "url": "https://www.boschtools.com/us/en/products/glm100-23-0601072X10",
+      "title": "GLM100-23 Laser Measures",
+      "photo": "https://www.boschtools.com/binary/ocsmedia/optimized/750x422/o248185v945_laserdistancemeasureblazeGLM10023boschbeautyon1.png"
+    },
+    {
+      "id": "bosch-glm16540",
+      "url": "https://www.boschtools.com/us/en/products/glm165-40-0601072916",
+      "title": "GLM165-40 Laser Measures",
+      "photo": "https://www.boschtools.com/binary/ocsmedia/optimized/750x422/o195558v945_BoschBLAZEPro165FootLaserMeasureGLM16540Hero.png"
+    },
+    {
+      "id": "leica-disto-d2",
+      "url": "https://shop.leica-geosystems.com/measurement-tools/disto/leica-disto-d2-v1",
+      "title": "Indoor Laser Distance Meter - Leica DISTO D2",
+      "photo": "https://shop.leica-geosystems.com/sites/default/files/2022-04/D2-meters.png"
+    },
+    {
+      "id": "klein-93ldm100c",
+      "url": "https://www.kleintools.com/catalog/laser-distance-measures/compact-laser-distance-measurer",
+      "title": "Compact Laser Distance Measurer - 93LDM100C | Klein Tools",
+      "photo": "https://www.kleintools.com/sites/default/files/product-assets/catalog-imagery/original/klein/93ldm100c.jpg"
+    },
+    {
+      "id": "werner-6006s",
+      "url": "https://www.wernerco.com/us/products/ladders/step-ladders/6000SSeries/6006S",
+      "title": "\n\t6006S | Step Ladders | Werner\n",
+      "photo": "https://mobileimages.lowes.com/productimages/0a7b0543-9f19-44b3-ba8e-8c7f6ffaaa95/00517550.jpg?size=pdhism"
+    },
+    {
+      "id": "little-giant-15417001",
+      "url": "https://www.littlegiantladders.com/products/velocity-articulating-ladder",
+      "title": "Articulating Ladder | Velocity | Little Giant Ladders",
+      "photo": "https://cdn.littlegiantladders.com/15417-001/image-hero-standard/jpg/1.jpg"
+    },
+    {
+      "id": "gorilla-glmpxa182",
+      "url": "https://gorillamade.com/product/glmpxa-18-2/",
+      "title": "GLMPXA-18-2 - Gorilla",
+      "photo": "https://gorillamade.com/wp-content/uploads/2023/03/GLMPXA-18-2_6634-1-scaled.jpg"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import {inspectorCatalogGuides, inspectorJobs} from "./inspector-catalog";
 import { hvacCatalogGuides, manifoldProducts } from "./hvac-catalog";
 import {plumberCatalogGuides} from './plumber-catalog';
 import type {Assessment} from "./electrician-catalog-types";
@@ -247,7 +248,7 @@ export const guides: Guide[] = [
   },
 ];
 
-guides.push(...electricianCatalogGuides, ...plumberCatalogGuides, ...hvacCatalogGuides);
+guides.push(...electricianCatalogGuides, ...plumberCatalogGuides, ...hvacCatalogGuides, ...inspectorCatalogGuides);
 const manifoldGuide = guides.find(g=>g.trade === "hvac" && g.slug === "best-digital-manifolds-for-hvac");
 if (manifoldGuide) {
   manifoldGuide.products.unshift(...manifoldProducts());
@@ -264,3 +265,6 @@ export function getHub(slug: string) {
 export function getGuide(trade: string, slug: string) {
   return guides.find((g) => g.trade === trade && g.slug === slug);
 }
+
+const thermalInspectorGuide=guides.find(g=>g.trade==="home-inspectors"&&g.slug==="best-thermal-cameras-for-home-inspectors");
+if(thermalInspectorGuide)thermalInspectorGuide.workflowSlugs=[inspectorJobs.purchase,inspectorJobs.moisture,inspectorJobs.attic];

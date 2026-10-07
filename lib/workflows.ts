@@ -1,3 +1,4 @@
+import {inspectorWorkflows} from "./inspector-workflows";
 import {hvacWorkflows} from "./hvac-workflows";
 import {plumberWorkflows} from './plumber-workflows';
 import {additionalElectricianWorkflows} from "./electrician-workflows";
@@ -79,3 +80,5 @@ export function getTradeWorkflows(trade:string){return workflows.filter(w=>w.tra
 workflows.push(...plumberWorkflows);
 
 workflows.push(...hvacWorkflows);
+
+workflows.push(...inspectorWorkflows);

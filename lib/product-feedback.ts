@@ -1,6 +1,6 @@
 export type ProductFeedback = {
   productId: string;
-  trade: "electricians" | "plumbers" | "hvac";
+  trade: "electricians" | "plumbers" | "hvac" | "home-inspectors";
   brand: string;
   modelNumber: string;
   author: string;
@@ -19,6 +19,7 @@ export type ProductFeedback = {
 // Attributed community-feedback summaries. Internal source and permission notes
 // are retained for editorial follow-up; summaries are not direct quotations.
 export const productFeedback: ProductFeedback[] = [
+  { productId: "ridgid-microcd100", trade: "home-inspectors", sourceConfirmed: true, brand: "RIDGID", modelNumber: "micro CD-100", author: "TimG", avatar: "TG", context: "Manufacturer-hosted customer review · self-described mechanical contractor", source: "RIDGID", url: "https://www.ridgid.com/us/en/micro-cd100-combustible-gas-detector", summary: "TimG finds the visual and audible indications useful, while noting sensitive clean-air calibration and a sampling pace that took some getting used to.", match: "Exact model", caveat: "Original review confirmed October 7, 2026. Source reports four out of five stars and recommends the product; occupation and purchase are not independently verified. No portrait was available.", permission: "pending" },
   { productId: "appion-g5twin", sourceConfirmed: true, trade: "hvac", brand: "Appion", modelNumber: "G5Twin", author: "Aussie HVC-R Tech", avatar: "AH", context: "Manufacturer-hosted customer review · May 23, 2021", source: "Appion", url: "https://appiontools.com/g5twin/", summary: "The reviewer likes the machine’s compact size and carrying weight, and describes a positive recovery experience.", match: "Exact model", caveat: "Original review and display name confirmed October 7, 2026. Occupation and purchase are not independently verified. Performance is the reviewer’s individual experience, not a comparative performance test.", permission: "pending" },
   { productId: "fieldpiece-vp87", trade: "hvac", brand: "Fieldpiece", modelNumber: "VP87", author: "Community member", avatar: "", context: "Owner discussion · pump setup", source: "r/HVAC", url: "https://www.reddit.com/r/HVAC/comments/15ypk5c/fieldpiece/", summary: "An owner likes the VP87’s oil-change arrangement and hose-port placement.", match: "Exact model", caveat: "Search extract only. Original comment, username, occupation and reuse permission need confirmation. This is an individual account, not a reliability test.", permission: "pending" },
   { productId: "fieldpiece-dr82", trade: "hvac", brand: "Fieldpiece", modelNumber: "DR82", author: "Community member", avatar: "", context: "Owner discussion · refrigerant detection", source: "r/HVAC", url: "https://www.reddit.com/r/HVAC/comments/zzjl9f/", summary: "An owner reports a positive experience using the DR82 with R-410A and R-22.", match: "Exact model", caveat: "Search extract only. Original comment, identity and permission need confirmation. Detection sensitivity and suitability must come from the current manual, not this anecdote.", permission: "pending" },

@@ -27,13 +27,14 @@ with tempfile.TemporaryFile() as logs:
                 if response.status != 200: errors.append([route, response.status])
         for route in ['/plumbers/does-not-exist', '/electricians/does-not-exist',
                       '/reviews/does-not-exist', '/plumbers/workflows/does-not-exist',
-                      '/hvac/does-not-exist', '/hvac/workflows/does-not-exist']:
+                      '/hvac/does-not-exist', '/hvac/workflows/does-not-exist',
+                      '/home-inspectors/does-not-exist', '/home-inspectors/workflows/does-not-exist']:
             try:
                 with urlopen('http://127.0.0.1:3100' + route, timeout=10) as response:
                     errors.append([route, 'Expected 404', response.status])
             except HTTPError as error:
                 if error.code != 404: errors.append([route, error.code])
-        print(json.dumps({'productionRoutesChecked':len(routes), 'invalidRoutesChecked':6,
+        print(json.dumps({'productionRoutesChecked':len(routes), 'invalidRoutesChecked':8,
                           'errors':errors}, indent=2))
         if errors: raise SystemExit(1)
     finally:

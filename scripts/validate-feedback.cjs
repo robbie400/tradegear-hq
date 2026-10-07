@@ -12,5 +12,5 @@ for(const f of productFeedback){
  assert.equal(getProductFeedback(f.trade,'Unrelated brand',p.model,p.productId),undefined);
 }
 assert.equal(getProductFeedback('hvac','Appion','Unrelated model'),undefined);
-assert.deepEqual(['electricians','plumbers','hvac'].map(t=>productFeedback.filter(f=>f.trade===t).length),[7,6,4]);
+assert.deepEqual(['electricians','plumbers','hvac','home-inspectors'].map(t=>productFeedback.filter(f=>f.trade===t).length),[7,6,4,1]);
 console.log('Feedback checks passed: source attribution and matching catalogue products.');

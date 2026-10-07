@@ -18,11 +18,11 @@ function destination(value) {
   u.searchParams.sort();
   return `${u.origin}${u.pathname}?${u.searchParams.toString()}`;
 }
-for (const trade of ['plumbers', 'electricians', 'hvac']) {
+for (const trade of ['plumbers', 'electricians', 'hvac', 'home-inspectors']) {
   const selected = guides.filter(g => g.trade === trade);
   const ids = new Set(); let photos = 0;
   for (const guide of selected) {
-    assert.equal(guide.products.length, trade === 'hvac' ? (guide.slug.includes('digital-manifold') ? 7 : guide.slug.includes('psychrometer') ? 3 : 5) : 5, `${guide.slug}: distinct comparisons`);
+    assert.equal(guide.products.length, trade === 'hvac' ? (guide.slug.includes('digital-manifold') ? 7 : guide.slug.includes('psychrometer') ? 3 : 5) : trade === 'home-inspectors' && /humidity|ladders/.test(guide.slug) ? 3 : 5, `${guide.slug}: distinct comparisons`);
     assert.ok(getProductImage(guide.products[0].productId || guide.products[0].reviewSlug), `${guide.slug}: exact lead photo`);
     for (const p of guide.products) {
       const id = p.productId || p.reviewSlug.replace(/-review$/, '');
@@ -42,7 +42,7 @@ for (const trade of ['plumbers', 'electricians', 'hvac']) {
   }
   report[trade] = {guides:selected.length, products:ids.size, photos, workflows:workflows.filter(w => w.trade === trade).length};
 }
-for (const w of workflows.filter(w => ['plumbers','hvac'].includes(w.trade))) for (const t of w.tools) {
+for (const w of workflows.filter(w => ['plumbers','hvac','home-inspectors'].includes(w.trade))) for (const t of w.tools) {
   const matches = guides.filter(g => g.trade === w.trade).flatMap(g => g.products).filter(p => `${p.brand} ${p.model}` === t.name);
   assert.equal(matches.length, 1, `${w.slug}: exact unique tool ${t.name}`);
   assert.equal(t.amazonUrl, matches[0].url, `${w.slug}: matching affiliate destination`);
@@ -54,7 +54,7 @@ for (const [id, p] of Object.entries(productImages)) {
   assert.ok(!photos.has(p.src), `Photo reused for ${id} and ${photos.get(p.src)}`);
   photos.set(p.src, id);
   assert.equal(new URL(p.src).protocol, 'https:');
-  assert.ok(allowedImageHosts.has(new URL(p.src).hostname), `${id}: image host configured`);
+  assert.ok(p.unoptimized || allowedImageHosts.has(new URL(p.src).hostname), `${id}: image host configured`);
   assert.equal(new URL(p.sourceUrl).protocol, 'https:');
   assert.ok(p.alt && p.credit);
 }
@@ -64,3 +64,5 @@ assert.equal(plumberCatalogReviews.length, 17);
 assert.ok(report.plumbers.guides >= report.electricians.guides);
 assert.ok(report.plumbers.products >= report.electricians.products);
 console.log(JSON.stringify({ ...report, newPlumbingReviews:plumberCatalogReviews.length, duplicateImageUrls:0, status:'passed'}, null, 2));
+
+assert.deepEqual(report['home-inspectors'],{guides:14,products:66,photos:66,workflows:8});

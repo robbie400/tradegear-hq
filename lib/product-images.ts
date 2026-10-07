@@ -1,8 +1,10 @@
+import {inspectorProductImages} from "./inspector-product-images";
+import {inspectorImageAliases} from "./inspector-catalog";
 import {hvacProductImages,hvacImageAliases} from './hvac-product-images';
 import {plumberProductImages,plumberImageAliases} from './plumber-product-images';
 // Product photos sourced from the linked manufacturer or retailer pages, checked October 5, 2026.
 // Never derive image URLs from Amazon listings or substitute a related model.
-export type ProductImage = { src: string; sourceUrl: string; alt: string; credit: string };
+export type ProductImage = { src: string; sourceUrl: string; alt: string; credit: string; unoptimized?: boolean };
 export const productImages: Record<string, ProductImage> = {
   "fluke-117": {
     "src": "https://media.fluke.com/e55511c8-92e6-46b2-b9ae-b108002dd7fa_product_slideshow_main.jpg",
@@ -497,8 +499,8 @@ const aliases: Record<string, string> = {
   "Milwaukee 48-22-8200 Jobsite Backpack": "milwaukee-48228200",
   "CLC 1134 Deluxe Tool Backpack": "clc-1134"
 };
-Object.assign(productImages, plumberProductImages, hvacProductImages);
-Object.assign(aliases, plumberImageAliases, hvacImageAliases);
+Object.assign(productImages, plumberProductImages, hvacProductImages, inspectorProductImages);
+Object.assign(aliases, plumberImageAliases, hvacImageAliases, inspectorImageAliases);
 export function getProductImage(key: string | undefined): ProductImage | undefined {
   if (!key) return undefined;
   return productImages[key.replace(/-review$/, "")] || productImages[aliases[key]];

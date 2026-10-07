@@ -3,7 +3,7 @@ import { getProductImage } from "./product-images";
 
 // Give each electrician category its own actual tool photo instead of the trade's shared stock image.
 export function getGuideImage(guide: Guide) {
-  if (!["electricians", "plumbers", "hvac"].includes(guide.trade)) return undefined;
+  if (!["electricians", "plumbers", "hvac", "home-inspectors"].includes(guide.trade)) return undefined;
   const product = guide.products[0];
   return product && getProductImage(product.productId || product.reviewSlug || `${product.brand} ${product.model}`);
 }
