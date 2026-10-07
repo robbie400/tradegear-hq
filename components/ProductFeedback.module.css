@@ -23,3 +23,9 @@
   .avatar { flex-basis: 42px; width: 42px; height: 42px; font-size: 13px; box-shadow: 0 0 0 3px #e5edf4; }
   .card .summary { font-size: 15px; }
 }
+.rating { margin: 24px 0; padding: 20px; border: 1px solid #e2dfcf; border-radius: 16px; background: #fffcf2; font-size: 13px; color: #263c4e; }
+.stars { color: #b87900; letter-spacing: 2px; font-size: 20px; }
+.rating div { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.rating p { font-size: 12px; line-height: 1.6; margin: 10px 0; }
+.rating a { color: #145b8d; font-weight: 700; text-decoration: underline; }
+.rating a:focus-visible { outline: 3px solid #e79034; outline-offset: 4px; }

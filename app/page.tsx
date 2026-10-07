@@ -36,7 +36,7 @@ export default function Home(){
     <section className="section light" id="popular">
       <div className="shell">
         <span className="eyebrow orange">POPULAR BUYING GUIDES</span>
-        <div className="sectionHeading"><h2>Start with a focused comparison.</h2><p>Each guide shortlists five candidates, explains who each option suits and sends you to Amazon only when you're ready to check the current offer.</p></div>
+        <div className="sectionHeading"><h2>Start with a focused comparison.</h2><p>Each guide shortlists a focused set of candidates, explains who each option suits and sends you to Amazon only when you&apos;re ready to check the current offer.</p></div>
         <div className="guideGrid">{guides.map(g=>{const hub=getHub(g.trade);return <Link className="guideCard visualGuide" key={g.slug} href={`/${g.trade}/${g.slug}/`}>
           {getGuideImage(g) ? <ProductPhoto photo={getGuideImage(g)} className="guideCardPhoto" /> : hub&&<div className="guideThumb"><img src={hub.image} alt="" /></div>}
           <div className="guideBody"><span>{g.tradeName} · {g.cluster}</span><h3>{g.title}</h3><p>{g.meta}</p><b>Open buying guide →</b></div>
@@ -44,6 +44,6 @@ export default function Home(){
       </div>
     </section>
 
-    <section className="section howSection"><div className="shell"><span className="eyebrow orange">HOW IT WORKS</span><h2>Search less. Compare the right five.</h2><div className="steps"><div><b>01</b><h3>Choose a trade or task</h3><p>Start from the work you're actually doing, not a generic product category.</p></div><div><b>02</b><h3>Compare the shortlist</h3><p>See the best overall, value, premium, compact and alternative picks at a glance.</p></div><div><b>03</b><h3>Check the current offer</h3><p>Use the Amazon link for current pricing, availability and checkout.</p></div></div></div></section>
+    <section className="section howSection"><div className="shell"><span className="eyebrow orange">HOW IT WORKS</span><h2>Search less. Compare tools for the job.</h2><div className="steps"><div><b>01</b><h3>Choose a trade or task</h3><p>Start from the work you&apos;re actually doing, not a generic product category.</p></div><div><b>02</b><h3>Compare the shortlist</h3><p>See the best overall, value, premium, compact and alternative picks at a glance.</p></div><div><b>03</b><h3>Check the current offer</h3><p>Use the Amazon link for current pricing, availability and checkout.</p></div></div></div></section>
   </>
 }

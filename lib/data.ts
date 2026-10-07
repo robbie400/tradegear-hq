@@ -1,3 +1,4 @@
+import { hvacCatalogGuides, manifoldProducts } from "./hvac-catalog";
 import {plumberCatalogGuides} from './plumber-catalog';
 import type {Assessment} from "./electrician-catalog-types";
 import {electricianCatalogGuides} from "./electrician-catalog";
@@ -246,7 +247,14 @@ export const guides: Guide[] = [
   },
 ];
 
-guides.push(...electricianCatalogGuides, ...plumberCatalogGuides);
+guides.push(...electricianCatalogGuides, ...plumberCatalogGuides, ...hvacCatalogGuides);
+const manifoldGuide = guides.find(g=>g.trade === "hvac" && g.slug === "best-digital-manifolds-for-hvac");
+if (manifoldGuide) {
+  manifoldGuide.products.unshift(...manifoldProducts());
+  manifoldGuide.products.find(p=>p.reviewSlug === "fieldpiece-sm480v-review")!.role = "Older-generation Job Link comparison";
+  manifoldGuide.meta = "Compare seven HVAC digital manifolds: current Fieldpiece SM482V and SM382V, older SM480V, Testo 550s, TITANMAX, Elitech and CPS. Match ports, probes and job fit.";
+  manifoldGuide.workflowSlugs = ["hvac-residential-service-call-tool-kit", "hvac-heat-pump-commissioning-tool-kit", "hvac-evacuation-tool-kit"];
+}
 const inspectionGuide = guides.find(g=>g.trade === "plumbers");
 if (inspectionGuide) inspectionGuide.workflowSlugs = ["plumber-residential-service-call-tool-kit", "plumber-leak-detection-tool-kit", "plumber-drain-clearing-tool-kit"];
 

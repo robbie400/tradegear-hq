@@ -1,3 +1,4 @@
+import {hvacCategories} from "./hvac-catalog";
 import {plumberCategories} from './plumber-catalog';
 import {electricianCategories} from "./electrician-catalog";
 type GuideEditorial = {
@@ -83,7 +84,7 @@ export const guideEditorial: Record<string, GuideEditorial> = {
   },
   hvac: {
     answer:
-      "Fieldpiece SM480V fits a Job Link-centered service kit. Testo 550s is the compact two-way option; Yellow Jacket TITANMAX adds a touchscreen four-way workflow. Elitech EMG-40V and CPS BMD200A offer other app-connected approaches, with kit contents and vacuum accessories needing careful comparison.",
+      "Current Fieldpiece SM482V and SM382V start the Job Link comparison; SM480V remains as an older-generation reference. Testo 550s is the compact two-way option; Yellow Jacket TITANMAX adds a touchscreen four-way workflow. Elitech EMG-40V and CPS BMD200A offer other app-connected approaches, with kit contents and vacuum accessories needing careful comparison.",
     note: "The discontinued Yellow Jacket P51-870 has been replaced with TITANMAX 40881. CPS is now identified as BMD200A rather than the broad BLACKMAX family name. Refrigerant suitability must be checked for the exact model and current documentation.",
     criteria: [
       {
@@ -160,3 +161,5 @@ export const guideEditorial: Record<string, GuideEditorial> = {
 for (const c of electricianCategories) guideEditorial[c.slug]={answer:c.answer,note:c.note,criteria:c.criteria,faqs:c.faqs};
 
 for (const c of plumberCategories) guideEditorial[c.slug] = {answer:c.answer,note:c.note,criteria:c.criteria,faqs:c.faqs};
+
+for (const c of hvacCategories) guideEditorial[c.slug] = {answer:c.answer,note:c.note,criteria:c.criteria,faqs:c.faqs};

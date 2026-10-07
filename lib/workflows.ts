@@ -1,3 +1,4 @@
+import {hvacWorkflows} from "./hvac-workflows";
 import {plumberWorkflows} from './plumber-workflows';
 import {additionalElectricianWorkflows} from "./electrician-workflows";
 import {guides} from "./data";
@@ -76,3 +77,5 @@ export function getWorkflow(trade:string,slug:string){return workflows.find(w=>w
 export function getTradeWorkflows(trade:string){return workflows.filter(w=>w.trade===trade)}
 
 workflows.push(...plumberWorkflows);
+
+workflows.push(...hvacWorkflows);

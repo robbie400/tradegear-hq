@@ -1,3 +1,4 @@
+import {hvacProductImages,hvacImageAliases} from './hvac-product-images';
 import {plumberProductImages,plumberImageAliases} from './plumber-product-images';
 // Product photos sourced from the linked manufacturer or retailer pages, checked October 5, 2026.
 // Never derive image URLs from Amazon listings or substitute a related model.
@@ -496,8 +497,8 @@ const aliases: Record<string, string> = {
   "Milwaukee 48-22-8200 Jobsite Backpack": "milwaukee-48228200",
   "CLC 1134 Deluxe Tool Backpack": "clc-1134"
 };
-Object.assign(productImages, plumberProductImages);
-Object.assign(aliases, plumberImageAliases);
+Object.assign(productImages, plumberProductImages, hvacProductImages);
+Object.assign(aliases, plumberImageAliases, hvacImageAliases);
 export function getProductImage(key: string | undefined): ProductImage | undefined {
   if (!key) return undefined;
   return productImages[key.replace(/-review$/, "")] || productImages[aliases[key]];

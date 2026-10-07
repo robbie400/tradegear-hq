@@ -18,12 +18,13 @@ type Editorial = Pick<
 > & { sourceNote?: string; extraSources?: { label: string; url: string }[] };
 export function makeReview(
   trade: string,
-  slot: number,
+  slot: number | string,
   editorial: Editorial,
 ): ProductReview {
   const guide = guides.find((g) => g.trade === trade);
   if (!guide) throw new Error(`Missing guide for ${trade}`);
-  const product = guide.products[slot];
+  const product = typeof slot === "string" ? guide.products.find(p=>p.reviewSlug === slot) : guide.products[slot];
+  if (!product) throw new Error(`Missing product for ${trade}: ${slot}`);
   if (!product.reviewSlug)
     throw new Error(`Missing review key for ${product.model}`);
   return {

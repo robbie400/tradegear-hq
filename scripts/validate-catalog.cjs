@@ -5,7 +5,6 @@ const {reviews} = require('../lib/reviews.ts');
 const {workflows} = require('../lib/workflows.ts');
 const {getProductImage, productImages} = require('../lib/product-images.ts');
 const {plumberCategories} = require('../lib/plumber-catalog.ts');
-const {plumberWorkflows} = require('../lib/plumber-workflows.ts');
 const {plumberCatalogReviews} = require('../lib/plumber-catalog.ts');
 const config = require('../next.config.ts').default;
 const allowedImageHosts = new Set(config.images.remotePatterns.map(p => p.hostname));
@@ -19,11 +18,11 @@ function destination(value) {
   u.searchParams.sort();
   return `${u.origin}${u.pathname}?${u.searchParams.toString()}`;
 }
-for (const trade of ['plumbers', 'electricians']) {
+for (const trade of ['plumbers', 'electricians', 'hvac']) {
   const selected = guides.filter(g => g.trade === trade);
   const ids = new Set(); let photos = 0;
   for (const guide of selected) {
-    assert.equal(guide.products.length, 5, `${guide.slug}: five distinct comparisons`);
+    assert.equal(guide.products.length, trade === 'hvac' ? (guide.slug.includes('digital-manifold') ? 7 : guide.slug.includes('psychrometer') ? 3 : 5) : 5, `${guide.slug}: distinct comparisons`);
     assert.ok(getProductImage(guide.products[0].productId || guide.products[0].reviewSlug), `${guide.slug}: exact lead photo`);
     for (const p of guide.products) {
       const id = p.productId || p.reviewSlug.replace(/-review$/, '');
@@ -43,11 +42,13 @@ for (const trade of ['plumbers', 'electricians']) {
   }
   report[trade] = {guides:selected.length, products:ids.size, photos, workflows:workflows.filter(w => w.trade === trade).length};
 }
-for (const w of plumberWorkflows) for (const t of w.tools) {
-  const matches = guides.filter(g => g.trade === 'plumbers').flatMap(g => g.products).filter(p => `${p.brand} ${p.model}` === t.name);
+for (const w of workflows.filter(w => ['plumbers','hvac'].includes(w.trade))) for (const t of w.tools) {
+  const matches = guides.filter(g => g.trade === w.trade).flatMap(g => g.products).filter(p => `${p.brand} ${p.model}` === t.name);
   assert.equal(matches.length, 1, `${w.slug}: exact unique tool ${t.name}`);
   assert.equal(t.amazonUrl, matches[0].url, `${w.slug}: matching affiliate destination`);
 }
+assert.equal(report.hvac.photos, report.hvac.products, 'Every HVAC candidate has an exact model photo');
+assert.equal(report.hvac.guides,14); assert.equal(report.hvac.products,70); assert.equal(report.hvac.workflows,8);
 const photos = new Map();
 for (const [id, p] of Object.entries(productImages)) {
   assert.ok(!photos.has(p.src), `Photo reused for ${id} and ${photos.get(p.src)}`);

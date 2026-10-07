@@ -216,7 +216,7 @@ export default async function ReviewPage({
             <b>Compare before you buy</b>
             <p>
               <Link href={`/${r.trade}/${r.guideSlug}/`}>
-                See all five picks in {r.guideTitle} →
+                See the comparisons in {r.guideTitle} →
               </Link>
             </p>
             <ul>

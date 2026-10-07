@@ -1,14 +1,16 @@
+import { ProductRating } from "./ProductRating";
 import { getProductFeedback, showFeedbackDrafts } from "@/lib/product-feedback";
 import styles from "./ProductFeedback.module.css";
 
 export function ProductFeedback({ trade, brand, model, productId }: {
   trade: string; brand: string; model: string; productId?: string;
 }) {
-  if (!showFeedbackDrafts()) return null;
+  const rating = <ProductRating trade={trade} brand={brand} model={model} />;
+  if (!showFeedbackDrafts()) return rating;
   const feedback = getProductFeedback(trade, brand, model, productId);
-  if (!feedback) return null;
+  if (!feedback) return rating;
   return (
-    <aside className={styles.card} aria-label={`Feedback preview for ${brand} ${model}`} data-feedback-product={feedback.productId}>
+    <>{rating}<aside className={styles.card} aria-label={`Feedback preview for ${brand} ${model}`} data-feedback-product={feedback.productId}>
       <div className={styles.heading}>
         <span className={styles.eyebrow}>FROM THE TOOL COMMUNITY</span>
         <span className={styles.draft}>Draft · permission pending</span>
@@ -31,6 +33,6 @@ export function ProductFeedback({ trade, brand, model, productId }: {
         <p>Editorial paraphrase of source feedback, not a direct quotation or an endorsement of TradeGear HQ. Permission checks are pending; this card appears only in preview.</p>
         <p>{feedback.caveat}</p>
       </details>
-    </aside>
+    </aside></>
   );
 }

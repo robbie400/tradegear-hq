@@ -1,3 +1,4 @@
+import {hvacCatalogReviews} from "./hvac-catalog";
 import {plumberCatalogReviews} from './plumber-catalog';
 import {electricianCatalogReviews} from "./electrician-catalog";
 import { guides } from "./data";
@@ -225,9 +226,9 @@ const initialReviews: ProductReview[] = [
     amazonUrl:
       "https://www.amazon.com/s?k=Fieldpiece+SM480V+SMAN+Digital+Manifold&tag=robbieom0e-20",
     sourceUrl:
-      "https://www.fieldpiece.com/product/sm480v-wireless-4-port-sman-refrigerant-manifold-and-micron-gauge/",
+      "https://resources.fieldpiece.com/wp-content/uploads/2025/10/Opman-SM480V-v26.pdf",
     intro:
-      "The Fieldpiece SM480V is a professional 4-port digital refrigerant manifold built for technicians who want pressure, temperature, vacuum and system calculations in one field-ready platform. It combines a large 5-inch display, IP54-rated construction, data logging and direct wireless integration with Fieldpiece's Job Link ecosystem.",
+      "SM480V is an older-generation model; Fieldpiece currently lists SM482V and SM382V for new-purchase comparison. The Fieldpiece SM480V is a professional 4-port digital refrigerant manifold built for technicians who want pressure, temperature, vacuum and system calculations in one field-ready platform. It combines a large LCD, IP54-rated construction, data logging and direct wireless integration with Fieldpiece's Job Link ecosystem.",
     verdict:
       "The SM480V is one of the strongest choices for HVAC technicians who already work digitally and want a manifold that can become the center of a broader measurement workflow. Its 4-port layout, wireless range, data logging and temperature-compensated tightness testing make it substantially more capable than a basic digital gauge set, although that capability comes with extra size, cost and complexity.",
     bestFor:
@@ -248,7 +249,7 @@ const initialReviews: ProductReview[] = [
     ],
     specs: [
       { label: "Manifold", value: "4-port" },
-      { label: "Display", value: "5-inch LCD" },
+      { label: "Display", value: "Large LCD" },
       { label: "Maximum manifold pressure", value: "800 psig" },
       { label: "Wireless range", value: "Up to 1,000 ft line of sight" },
       { label: "Water resistance", value: "IP54" },
@@ -395,6 +396,7 @@ export const reviews: ProductReview[] = [
   ...plumberReviews,
   ...plumberCatalogReviews,
   ...hvacReviews,
+  ...hvacCatalogReviews,
   ...inspectorReviews,
 ];
 for (const review of reviews) {

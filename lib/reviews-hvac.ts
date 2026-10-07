@@ -1,7 +1,7 @@
 import { makeReview } from "./review-factory";
 
 export const hvacReviews = [
-  makeReview("hvac", 1, {
+  makeReview("hvac", "testo-550s-review", {
     title: "Testo 550s Review: A Compact Manifold with a Probe-Based Workflow",
     meta: "Testo 550s review for HVAC technicians: two-way valve block, Bluetooth probes, kit differences and why the vacuum probe must be checked separately.",
     sourceUrl: "https://www.testo.com/en-US/testo-550s/p/0564-5500",
@@ -77,7 +77,7 @@ export const hvacReviews = [
       },
     ],
   }),
-  makeReview("hvac", 2, {
+  makeReview("hvac", "yellow-jacket-titanmax-review", {
     title: "Yellow Jacket TITANMAX Review: A Touchscreen Manifold Workflow",
     meta: "TITANMAX 40881 review: four-way block, touchscreen, external vacuum sensor and data records, replacing the discontinued P51-870 in our shortlist.",
     sourceUrl:
@@ -85,7 +85,7 @@ export const hvacReviews = [
     extraSources: [
       {
         label: "P51 manufacturer discontinuation notice",
-        url: "https://yellowjacket.com/product/p51-titan-digital-manifold/",
+        url: "https://yellowjacket.com/product/titanmax/",
       },
       {
         label: "TITANMAX operation and logging manual",
@@ -155,7 +155,7 @@ export const hvacReviews = [
       },
     ],
   }),
-  makeReview("hvac", 3, {
+  makeReview("hvac", "elitech-emg40v-review", {
     title: "Elitech EMG-40V Review: Check the Bundle and App Workflow",
     meta: "Elitech EMG-40V review: app-connected manifold, graph-based readings, bundle differences and the checks needed before relying on vacuum capability.",
     sourceUrl:
@@ -237,7 +237,7 @@ export const hvacReviews = [
       },
     ],
   }),
-  makeReview("hvac", 4, {
+  makeReview("hvac", "cps-blackmax-bmd200a-review", {
     title: "CPS BLACKMAX BMD200A Review: An Exact Model for a Connected Kit",
     meta: "CPS BMD200A BLACKMAX review: four-valve layout, wired clamps, CPS Link Pro/measureQuick and what is included versus separately purchased.",
     sourceUrl:
