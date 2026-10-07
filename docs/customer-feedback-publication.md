@@ -9,3 +9,7 @@ The RIDGID K-6P card is also enabled after confirming Persistent’s original Su
 Other entries remain research previews because their original comment, identity or exact configuration has not been confirmed. This is a source-evidence restriction, separate from permission status. No fabricated quote or occupation is introduced.
 
 The earlier HVAC release-status note about excluding *all* permission-pending feedback is superseded by this explicit confirmed-source rule. Existing dated research notes describe the previous implementation.
+
+## Display update — October 7, 2026
+
+At the user's request, all existing feedback summaries now appear as attributed community/product discussions. Removed draft badges, permission notices and source-check workflow text from the cards. Source links and tool-family distinctions remain. Internal evidence and permission notes are retained. The former confirmed-only visibility rule above is superseded. No new quote, rating, portrait, name or claim of verification was added.

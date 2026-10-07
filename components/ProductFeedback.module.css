@@ -1,7 +1,6 @@
 .card { margin: 28px 0; padding: 24px; border: 1px solid #dbe4ec; border-radius: 20px; background: linear-gradient(135deg, #f3f7fb 0%, #fff 80%); box-shadow: 0 10px 30px rgba(15, 35, 55, .045); color: #172f44; text-align: left; }
 .heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
 .eyebrow { font-size: 10px; font-weight: 800; letter-spacing: .13em; color: #577085; }
-.draft { padding: 5px 9px; border-radius: 20px; background: #fff2df; color: #7e4b10; font-size: 10px; font-weight: 700; }
 .body { display: flex; gap: 16px; align-items: flex-start; }
 .avatar { display: flex; align-items: center; justify-content: center; flex: 0 0 54px; width: 54px; height: 54px; border-radius: 50%; background: #193449; color: #ffd09a; box-shadow: 0 0 0 5px #e5edf4; font-size: 16px; font-weight: 800; letter-spacing: .04em; }
 .avatar svg { width: 25px; height: 25px; }

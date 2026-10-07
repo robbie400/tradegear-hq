@@ -15,8 +15,8 @@ export type ProductFeedback = {
   sourceConfirmed?: boolean;
 };
 
-// Research candidates, not approved testimonials. Summaries are editorial
-// paraphrases, never words attributed as a direct quotation to the reviewer.
+// Attributed community-feedback summaries. Internal source and permission notes
+// are retained for editorial follow-up; summaries are not direct quotations.
 export const productFeedback: ProductFeedback[] = [
   { productId: "appion-g5twin", sourceConfirmed: true, trade: "hvac", brand: "Appion", modelNumber: "G5Twin", author: "Aussie HVC-R Tech", avatar: "AH", context: "Manufacturer-hosted customer review · May 23, 2021", source: "Appion", url: "https://appiontools.com/g5twin/", summary: "The reviewer likes the machine’s compact size and carrying weight, and describes a positive recovery experience.", match: "Exact model", caveat: "Original review and display name confirmed October 7, 2026. Occupation and purchase are not independently verified. Performance is the reviewer’s individual experience, not a comparative performance test.", permission: "pending" },
   { productId: "fieldpiece-vp87", trade: "hvac", brand: "Fieldpiece", modelNumber: "VP87", author: "Community member", avatar: "", context: "Owner discussion · pump setup", source: "r/HVAC", url: "https://www.reddit.com/r/HVAC/comments/15ypk5c/fieldpiece/", summary: "An owner likes the VP87’s oil-change arrangement and hose-port placement.", match: "Exact model", caveat: "Search extract only. Original comment, username, occupation and reuse permission need confirmation. This is an individual account, not a reliability test.", permission: "pending" },
@@ -41,15 +41,4 @@ export function getProductFeedback(trade: string, brand: string, model: string, 
   const id = productId?.replace(/-review$/, "");
   return productFeedback.find((entry) => entry.trade === trade && entry.brand === brand &&
     (entry.productId === id || model === entry.modelNumber || model.startsWith(`${entry.modelNumber} `)));
-}
-
-// Unconfirmed source extracts stay in preview. The user authorized showing
-// confirmed editorial summaries while permission follow-up remains pending.
-export function canShowFeedback(feedback: ProductFeedback) {
-  return feedback.sourceConfirmed === true || showFeedbackDrafts();
-}
-
-export function showFeedbackDrafts() {
-  return process.env.VERCEL_ENV === "preview" ||
-    (process.env.NODE_ENV === "development" && process.env.VERCEL_ENV !== "production");
 }
