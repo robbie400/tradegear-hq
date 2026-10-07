@@ -1,5 +1,5 @@
 """Validate the complete prerendered site after npm run build."""
-import json, re, sys
+import json, re, sys, os
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
@@ -28,6 +28,8 @@ class Page(HTMLParser):
 manifest=json.loads((ROOT/'.next/prerender-manifest.json').read_text())
 routes={r for r in manifest['routes'] if r not in {'/robots.txt','/sitemap.xml','/_not-found'}}
 baseline=json.loads((ROOT/'scripts/existing-routes.json').read_text())
+site_origin=os.environ.get('NEXT_PUBLIC_SITE_URL','https://tradegear-hq.vercel.app').rstrip('/')
+live=os.environ.get('NEXT_PUBLIC_INDEX_SITE')=='true'
 errors=[]; pages={}; titles={}; descriptions={}; amazon_urls=set(); internal_count=0
 for route in sorted(routes):
     path=ROOT/'.next/server/app'/('index.html' if route=='/' else route.lstrip('/')+'.html')
@@ -37,8 +39,10 @@ for route in sorted(routes):
     if not p.title or p.title in titles: errors.append([route,'missing/duplicate title'])
     if not p.description or p.description in descriptions: errors.append([route,'missing/duplicate description'])
     titles[p.title]=route; descriptions[p.description]=route
-    if not any('noindex' in s for s in p.robots): errors.append([route,'prelaunch noindex missing'])
-    if [s.rstrip('/') for s in p.canonical]!=['https://tradegear-hq.vercel.app'+('' if route=='/' else route)]: errors.append([route,'canonical mismatch'])
+    if live:
+        if not p.robots or any('noindex' in s or 'nofollow' in s for s in p.robots): errors.append([route,'production indexing blocked'])
+    elif not any('noindex' in s for s in p.robots): errors.append([route,'prelaunch noindex missing'])
+    if [s.rstrip('/') for s in p.canonical]!=[site_origin+('' if route=='/' else route)]: errors.append([route,'canonical mismatch'])
     if ''.join(p.text).count('As an Amazon Associate I earn from qualifying purchases.')!=1: errors.append([route,'disclosure count'])
     if 'B01IH41CUW' in html: errors.append([route,'old mismatched Fluke ASIN'])
     for match in re.findall(r'<script type="application/ld\+json">(.*?)</script>',html):
@@ -65,7 +69,17 @@ for route,p in pages.items():
         if target in pages and u.fragment and unquote(u.fragment) not in pages[target].ids:
             error=[route,'missing anchor',a['href']]
             if error not in errors: errors.append(error)
-report={'pages':len(pages),'existing_routes_preserved':len(baseline),'internal_links_checked':internal_count,'unique_affiliate_destinations':len(amazon_urls),'errors':errors,
+# Check discovery files under both launch and staging settings.
+robots=(ROOT/'.next/server/app/robots.txt.body').read_text()
+sitemap=(ROOT/'.next/server/app/sitemap.xml.body').read_text()
+import xml.etree.ElementTree as ET
+locations=[e.text for e in ET.fromstring(sitemap).iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+if live:
+    if 'Disallow: /' in robots or 'Allow: /' not in robots or f'Sitemap: {site_origin}/sitemap.xml' not in robots: errors.append(['robots.txt','production discovery settings mismatch'])
+    if set(locations)!={site_origin+('/' if route=='/' else route+'/') for route in routes}: errors.append(['sitemap.xml','missing or incorrect canonical URLs'])
+else:
+    if 'Disallow: /' not in robots or locations: errors.append(['robots/sitemap','staging discovery mismatch'])
+report={'indexing_enabled':live,'sitemap_urls':len(locations),'pages':len(pages),'existing_routes_preserved':len(baseline),'internal_links_checked':internal_count,'unique_affiliate_destinations':len(amazon_urls),'errors':errors,
         'scope':'Rendered HTML, metadata, route graph, anchors, disclosure and affiliate markup. This does not verify browser layout, external availability or Amazon inventory.'}
 print(json.dumps(report,indent=2))
 sys.exit(bool(errors))
