@@ -1,5 +1,6 @@
 // Set these only to tracking IDs created in this Amazon.com Associates account.
 const tags: Record<string, string | undefined> = {
+  carpenters: process.env.AMAZON_TAG_CARPENTERS,
   electricians: process.env.AMAZON_TAG_ELECTRICIANS,
   plumbers: process.env.AMAZON_TAG_PLUMBERS,
   hvac: process.env.AMAZON_TAG_HVAC,

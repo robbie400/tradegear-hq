@@ -1,0 +1,142 @@
+[
+  {
+    "productId": "dewalt-dwe575sb",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytes": 255048,
+    "ok": true
+  },
+  {
+    "productId": "dewalt-dcs590b",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytes": 109782,
+    "ok": true
+  },
+  {
+    "productId": "milwaukee-2834-20",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytes": 13706,
+    "ok": true
+  },
+  {
+    "productId": "makita-xsh03z",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 25987,
+    "ok": true
+  },
+  {
+    "productId": "skil-5280-01",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 247141,
+    "ok": true
+  },
+  {
+    "productId": "dewalt-dws715",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytes": 132624,
+    "ok": true
+  },
+  {
+    "productId": "metabo-c10fcgs",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 374087,
+    "ok": true
+  },
+  {
+    "productId": "dewalt-dws780",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytes": 126394,
+    "ok": true
+  },
+  {
+    "productId": "bosch-gcm12sd",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 42305,
+    "ok": true
+  },
+  {
+    "productId": "makita-ls1019l",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytes": 55772,
+    "ok": true
+  },
+  {
+    "productId": "milwaukee-2505-20",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 28139,
+    "ok": true
+  },
+  {
+    "productId": "milwaukee-3404-20",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 21592,
+    "ok": true
+  },
+  {
+    "productId": "milwaukee-2904-20",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 15048,
+    "ok": true
+  },
+  {
+    "productId": "dewalt-dcd805b",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 23818,
+    "ok": true
+  },
+  {
+    "productId": "makita-xph14z",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 45725,
+    "ok": true
+  },
+  {
+    "productId": "milwaukee-3453-20",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 20447,
+    "ok": true
+  },
+  {
+    "productId": "milwaukee-2953-20",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 14085,
+    "ok": true
+  },
+  {
+    "productId": "dewalt-dcf850b",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 14744,
+    "ok": true
+  },
+  {
+    "productId": "dewalt-dcf860b",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 28173,
+    "ok": true
+  },
+  {
+    "productId": "makita-xdt20z",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytes": 28554,
+    "ok": true
+  }
+]

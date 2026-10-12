@@ -87,6 +87,8 @@ export default async function WorkflowPage({
             ))}
           </div>
 
+          {w.buyingPlan && <section className="method" aria-labelledby="buying-plan"><span className="eyebrow orange">SPEND WHERE IT HELPS THE JOB</span><h2 id="buying-plan">A buying plan for your stage of the trade</h2><div className="criteriaGrid">{w.buyingPlan.map(s=><article key={s.heading}><h3>{s.heading}</h3><p>{s.body}</p></article>)}</div></section>}
+
           <div className="sectionHeading workflowHeading">
             <div>
               <span className="eyebrow orange">JOB TOOL KIT</span>
@@ -114,7 +116,7 @@ export default async function WorkflowPage({
                 <h3>{t.name}</h3>
                 <p>{t.why}</p>
                 <div className="workflowActions">
-                  {t.guideUrl && <Link href={t.guideUrl} className="detailLink">Compare five options →</Link>}
+                  {t.guideUrl && <Link href={t.guideUrl} className="detailLink">Compare the options →</Link>}
                   {t.reviewUrl && (
                     <Link href={t.reviewUrl} className="reviewBtn">
                       Read full review
@@ -179,6 +181,7 @@ export default async function WorkflowPage({
               </details>
             ))}
           </section>
+          {w.sources && <aside className="sourceBox"><b>Documentation behind this buying plan</b>{w.sources.map(s=><p key={s.url}><a href={s.url} target="_blank" rel="noopener noreferrer">{s.label} →</a></p>)}</aside>}
           <aside className="relatedBox">
             <b>Compare the tools for this job</b>
             {guides

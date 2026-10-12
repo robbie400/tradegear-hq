@@ -1,4 +1,5 @@
 import {inspectorCatalogGuides, inspectorJobs} from "./inspector-catalog";
+import {carpenterCatalogGuides,carpenterHero} from './carpenter-catalog';
 import { hvacCatalogGuides, manifoldProducts } from "./hvac-catalog";
 import {plumberCatalogGuides} from './plumber-catalog';
 import type {Assessment} from "./electrician-catalog-types";
@@ -59,6 +60,7 @@ export const hubs: Hub[] = [
     image:
       "https://images.pexels.com/photos/8293640/pexels-photo-8293640.jpeg?cs=srgb&dl=pexels-rdne-8293640.jpg&fm=jpg",
   },
+  {slug:'carpenters',name:'Carpenters & Joiners',blurb:'Job kits for framing, trim, doors, cabinets, decking and apprentice setup. Compare cutting, drilling and fastening tools.',image:carpenterHero},
 ];
 
 export const guides: Guide[] = [
@@ -248,7 +250,7 @@ export const guides: Guide[] = [
   },
 ];
 
-guides.push(...electricianCatalogGuides, ...plumberCatalogGuides, ...hvacCatalogGuides, ...inspectorCatalogGuides);
+guides.push(...electricianCatalogGuides, ...plumberCatalogGuides, ...hvacCatalogGuides, ...inspectorCatalogGuides,...carpenterCatalogGuides);
 const manifoldGuide = guides.find(g=>g.trade === "hvac" && g.slug === "best-digital-manifolds-for-hvac");
 if (manifoldGuide) {
   manifoldGuide.products.unshift(...manifoldProducts());
