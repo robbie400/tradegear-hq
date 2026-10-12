@@ -60,7 +60,7 @@ export const hubs: Hub[] = [
     image:
       "https://images.pexels.com/photos/8293640/pexels-photo-8293640.jpeg?cs=srgb&dl=pexels-rdne-8293640.jpg&fm=jpg",
   },
-  {slug:'carpenters',name:'Carpenters & Joiners',blurb:'Job kits for framing, trim, doors, cabinets, decking and apprentice setup. Compare cutting, drilling and fastening tools.',image:carpenterHero},
+  {slug:'carpenters',name:'Carpenters & Joiners',blurb:'Job kits for framing, trim, doors, cabinets, decking and apprentice setup. Browse layout, hand tools, saws, benches, routers, sanders and fastening tools.',image:carpenterHero},
 ];
 
 export const guides: Guide[] = [

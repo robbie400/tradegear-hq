@@ -1,3 +1,4 @@
+import batch30Feedback from './carpenter-batch30-feedback.json';
 import type {ProductFeedback} from './product-feedback';
 import {carpenterCatalogGuides} from './carpenter-catalog';
 import {productRatings} from './product-ratings';
@@ -41,9 +42,11 @@ const entries:Entry[]=[
   ['makita-xdt20z','Daniel','Retailer-hosted customer review','Reports effective wood-screw driving on a first project but describes a learning curve with the sensitive trigger.'],
   ['makita-xdt20z','Helge','Retailer-hosted customer review','Is pleased with the purchase and wishes they had bought the driver earlier.'],
 ];
-export const carpenterFeedback:ProductFeedback[]=entries.map(([id,author,context,summary,family])=>{
+const foundationFeedback:ProductFeedback[]=entries.map(([id,author,context,summary,family])=>{
   const p=carpenterCatalogGuides.flatMap(g=>g.products).find(p=>p.productId===id);
   const rating=productRatings.find(r=>r.trade==='carpenters'&&r.productId===id);
   if(!p||!rating)throw new Error(`Missing carpenter feedback match: ${id}`);
   return {productId:id,trade:'carpenters',brand:p.brand,modelNumber:p.model.split(' ')[0],author,avatar:author.split(/\s+/).map(v=>v[0]).join('').slice(0,2).toUpperCase(),context,summary,source:rating.source,url:rating.url,match:family?'Tool family':'Exact model',permission:'pending',sourceConfirmed:true,caveat:'Original source and displayed author confirmed October 12, 2026. Paraphrased individual experience; identity, trade qualification and purchase are not independently verified. No reviewer portrait was supplied.'};
 });
+
+export const carpenterFeedback:ProductFeedback[]=[...foundationFeedback,...batch30Feedback as ProductFeedback[]];

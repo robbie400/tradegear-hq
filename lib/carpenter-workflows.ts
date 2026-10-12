@@ -19,7 +19,7 @@ function job(slug:string,title:string,summary:string,stages:Section[],picks:Tool
     faqs:faqs.map(([q,a])=>({q,a})),sources};
 }
 const j=carpenterJobs;
-export const carpenterWorkflows:Workflow[]=[
+const foundationWorkflows:Workflow[]=[
   job(j.apprentice,'Carpenter Apprentice Tool Kit: What to Buy First and What Can Wait',
     'Build an apprentice kit in the right order: employer-required hand tools, dependable layout basics and one suitable drill. Add cutting equipment when your actual responsibilities justify it.',
     [
@@ -90,3 +90,24 @@ export const carpenterWorkflows:Workflow[]=[
     ['Machine footprint is not the complete safe working envelope. Follow the saw and stand manuals and provide suitable stock support.'],
     [['Should every tool use one battery platform?','Shared packs and chargers can simplify the kit, but only where the tools suit the jobs. Corded equipment may be a sensible part of the same system.'],['Can this guide calculate the current toolkit price?','Not yet. Compare current retailer offers for the exact packages and add support, blades, dust equipment, batteries and chargers. A tailored toolkit builder is a later feature.']]),
 ];
+
+
+// Add task-specific hand, layout and station choices without making every alternative a required purchase.
+const additionalTools:Record<string,[string,string,string,WorkflowTool['priority']][]>={
+ [j.apprentice]:[['stanley-33-725','Layout','A readable daily tape before another powered tool.','Core'],['swanson-s0101','Layout','Compact fixed square for suitable starter layout.','Core'],['estwing-e3-20s','Hand work','Compare the hammer weight against the employer’s first tasks.','Useful'],['irwin-2011201','Stock cutting','Manual alternative for suitable occasional cuts.','Useful']],
+ [j.framing]:[['johnson-cs5','Layout','Longer framing references when the pocket square cannot reach.','Useful'],['tajima-cr301jf','Layout','Visible snapped construction references; choose suitable chalk.','Useful'],['bora-pm-4500','Work support','Support component for a correctly configured temporary station.','Useful']],
+ [j.trim]:[['dewalt-dwx723','Cut station','Compatible saw mounting and long-stock support.','Useful'],['dewalt-dwp611','Edge work','Corded compact router when the supported edge task justifies it.','Upgrade'],['dewalt-dwe6423','Finishing','Five-inch sanding with appropriate discs and collection.','Useful']],
+ [j.doors]:[['empire-e75.48','Layout','Longer level reference for suitable fitting checks.','Useful'],['stanley-stht16727','Fitting','A few chisel widths for controlled permitted recess trimming.','Useful'],['stanley-stht10721','Marking','Suitable scoring and material preparation.','Useful']],
+ [j.cabinets]:[['kreg-kws1000','Work support','Portable assembly surface; confirm supplied clamping accessories.','Useful'],['makita-rt0701c','Edge work','Quarter-inch routing when the documented operation fits.','Upgrade'],['makita-bo5041k','Finishing','Corded sander with a front grip for suitable supported surfaces.','Useful']],
+ [j.decking]:[['stanley-33-725','Layout','Consistent stock and fixing layout reference.','Core'],['tajima-cr301jf','Layout','Long construction references with suitable non-staining chalk.','Useful'],['bora-pm-4500','Work support','Budget for a complete support system, not one horse alone.','Useful']],
+ [j.renovation]:[['stanley-55-515','Controlled removal','Compact prying after surveying the assembly and retained surfaces.','Useful'],['dewalt-dcs356b','Local adjustments','Suitable targeted trimming on compatible existing power.','Upgrade'],['bosch-js470e','Cutouts','Corded curved-cut alternative where the supported shape needs it.','Useful']],
+ [j.station]:[['worx-wx051','Assembly station','A folding clamping surface for suitable smaller work.','Useful'],['dewalt-dwx723','Miter station','Carry-style compatible mounting and stock support.','Useful'],['bosch-t4b','Transport upgrade','Rolling mounted-saw format; confirm current feet and package.','Upgrade']]
+};
+export const carpenterWorkflows:Workflow[]=foundationWorkflows.map(w=>{
+ const extra=(additionalTools[w.slug]||[]).map(([id,stage,why,priority])=>{
+  const g=carpenterCatalogGuides.find(g=>g.products.some(p=>p.productId===id))!;const p=g.products.find(p=>p.productId===id)!;
+  return {stage,why,priority,type:g.cluster,name:`${p.brand} ${p.model}`,amazonUrl:p.url,guideUrl:`/carpenters/${g.slug}/`,reviewUrl:`/reviews/${p.reviewSlug}/`};
+ });
+ const sources=extra.map(t=>{const p=carpenterCatalogGuides.flatMap(g=>g.products).find(p=>`${p.brand} ${p.model}`===t.name)!;return {label:`${p.brand} ${p.model.split(' ')[0]} manufacturer documentation`,url:p.assessment!.sourceUrl};});
+ return {...w,tools:[...w.tools,...extra],sources:Array.from(new Map([...(w.sources||[]),...sources].map(s=>[s.url,s])).values())};
+});

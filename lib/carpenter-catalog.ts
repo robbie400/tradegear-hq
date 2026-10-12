@@ -1,8 +1,9 @@
+import {carpenterBatch30Categories} from './carpenter-batch30';
 import type { Guide } from './data';
 import { candidate as pick, type ElectricianCategory, type ElectricianCandidate } from './electrician-catalog-types';
 import { powerCategories } from './electrician-power-catalog';
 
-export const carpenterHero='https://images.pexels.com/photos/18947369/pexels-photo-18947369.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200';
+export const carpenterHero='/images/carpenter-saw-hero.jpg';
 export const carpenterJobs={apprentice:'carpenter-apprentice-starter-tool-kit',framing:'framing-carpenter-tool-kit',trim:'finish-carpentry-trim-tool-kit',doors:'door-installation-carpenter-tool-kit',cabinets:'cabinet-installation-tool-kit',decking:'decking-carpenter-tool-kit',renovation:'renovation-carpenter-tool-kit',station:'carpenter-cut-station-battery-setup'};
 const j=carpenterJobs;
 const d='https://www.dewalt.com/en-us/product/';
@@ -99,6 +100,7 @@ function category(slug:string,title:string,meta:string,cluster:string,answer:str
   return {slug,title,meta,cluster,answer,note,keyword:slug.replace(/-/g,' '),secondary:[],criteria:criteria.map(([title,body])=>({title,body})),faqs:faqs.map(([q,a])=>({q,a})),workflowSlugs:jobs,products};
 }
 export const carpenterCategories:ElectricianCategory[]=[
+  ...carpenterBatch30Categories,
   category('best-circular-saws-for-carpenters','Best Circular Saws for Carpenters: Corded Value or Battery Fit?',
     'Compare DWE575SB, DCS590B, Milwaukee 2834-20, Makita XSH03Z and SKIL 5280-01 by cutting capacity, power setup and apprentice versus daily-work fit.','Circular Saws',
     'Start with DWE575SB for a powered work position. DCS590B and Milwaukee 2834-20 suit their existing battery owners; XSH03Z is the smaller LXT comparison. SKIL 5280-01 is an occasional-work alternative, with its DIY positioning stated clearly.',
@@ -122,7 +124,7 @@ export const carpenterCategories:ElectricianCategory[]=[
     [j.apprentice,j.doors,j.cabinets,j.renovation],drills),
   category('best-impact-drivers-for-carpenters','Best Impact Drivers for Carpenters: Fastening, Access and Platform Cost',
     'Compare five impact drivers for suitable carpenter fastening: M12, M18, DeWalt ATOMIC and XR, and Makita LXT. Check fastener method and complete power cost.','Impact Drivers',
-    'Compare the driver on your existing platform first: M12 3453-20, M18 2953-20, DeWalt DCF850B or DCF860B, and Makita XDT19Z. Move to another format for a demonstrated access or control need, not a torque headline.',
+    'Compare the driver on your existing platform first: M12 3453-20, M18 2953-20, DeWalt DCF850B or DCF860B, and Makita XDT20Z. Move to another format for a demonstrated access or control need, not a torque headline.',
     'A quarter-inch impact driver is not a framing nailer, calibrated torque tool or permission to use an unspecified screw structurally. All listed packages are tool-only; check the actual fastener instructions.',
     [['Respect the fastening system','Deck clips, structural screws and delicate hardware can require different methods. Establish whether impact driving is allowed before picking a driver or mode.'],['Control before maximum torque','A powerful driver can damage a head, thread or finished face. Operating modes are useful controls, but they do not guarantee a measured fastener torque.'],['Price the complete purchase','Include impact-rated accessories and compatible power equipment. A drill plus driver can be useful for repeated pilot-hole and fastening work; apprentices should first ask what the employer supplies.']],
     [['Do I need an impact driver for cabinet hinges?','Not necessarily. Controlled drilling or hand driving can suit delicate hardware better. Follow the actual hardware instructions.'],['Can one impact driver cover framing and decking?','Only appropriate tasks permitted by their fastening systems. Framing nails, screws and deck clips are not interchangeable simply because a tool is powerful.']],
