@@ -10,14 +10,14 @@ export default function Home(){
         <div className="heroCopy">
           <span className="eyebrow">US TRADE TOOL BUYING GUIDES</span>
           <h1>Find the Right Tool for the Job.</h1>
-          <p>Trade-specific comparisons for electricians, plumbers, HVAC techs and home inspectors. Compare faster. Buy smarter.</p>
+          <p>Trade-specific comparisons for electricians, plumbers, HVAC techs, home inspectors and carpenters. Compare faster. Buy smarter.</p>
           <div className="heroActions"><a className="orangeBtn" href="#trades">Choose Your Trade</a><a className="ghostBtn" href="#popular">See Popular Guides</a></div>
           <div className="trustLine"><span>✓ Built around real trade workflows</span><span>✓ Clear pros, tradeoffs & picks</span><span>✓ Amazon buying links</span></div>
         </div>
         <div className="heroMedia" aria-label="Professional trade work">
           <img className="heroPhoto heroPhotoMain" src={hubs[0].image} alt="Electrician working with tools" />
           <img className="heroPhoto heroPhotoSmall" src={hubs[1].image} alt="Plumber working on pipework" />
-          <div className="heroStat"><b>50</b><span>launch buying guides mapped</span></div>
+          <div className="heroStat"><b>{guides.length}</b><span>tool buying guides</span></div>
         </div>
       </div>
     </section>

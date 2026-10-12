@@ -1,4 +1,5 @@
 import {inspectorCatalogReviews} from "./inspector-catalog";
+import {carpenterCatalogReviews} from './carpenter-reviews';
 import {hvacCatalogReviews} from "./hvac-catalog";
 import {plumberCatalogReviews} from './plumber-catalog';
 import {electricianCatalogReviews} from "./electrician-catalog";
@@ -9,6 +10,7 @@ import { hvacReviews } from "./reviews-hvac";
 import { inspectorReviews } from "./reviews-inspectors";
 export type ReviewSection = { heading: string; body: string };
 export type ProductReview = {
+  productId?: string;
   slug: string;
   trade: string;
   tradeName: string;
@@ -400,6 +402,7 @@ export const reviews: ProductReview[] = [
   ...hvacCatalogReviews,
   ...inspectorReviews,
   ...inspectorCatalogReviews,
+  ...carpenterCatalogReviews,
 ];
 for (const review of reviews) {
   const product = guides

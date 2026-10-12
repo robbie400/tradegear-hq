@@ -1,4 +1,5 @@
 import {inspectorCategories} from "./inspector-catalog";
+import {carpenterCategories} from './carpenter-catalog';
 import {hvacCategories} from "./hvac-catalog";
 import {plumberCategories} from './plumber-catalog';
 import {electricianCategories} from "./electrician-catalog";
@@ -166,3 +167,4 @@ for (const c of plumberCategories) guideEditorial[c.slug] = {answer:c.answer,not
 for (const c of hvacCategories) guideEditorial[c.slug] = {answer:c.answer,note:c.note,criteria:c.criteria,faqs:c.faqs};
 
 for(const c of inspectorCategories)guideEditorial[c.slug]={answer:c.answer,note:c.note,criteria:c.criteria,faqs:c.faqs};
+for(const c of carpenterCategories)guideEditorial[c.slug]={answer:c.answer,note:c.note,criteria:c.criteria,faqs:c.faqs};

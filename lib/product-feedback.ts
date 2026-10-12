@@ -1,6 +1,7 @@
+import {carpenterFeedback} from './carpenter-feedback';
 export type ProductFeedback = {
   productId: string;
-  trade: "electricians" | "plumbers" | "hvac" | "home-inspectors";
+  trade: "electricians" | "plumbers" | "hvac" | "home-inspectors" | "carpenters";
   brand: string;
   modelNumber: string;
   author: string;
@@ -38,6 +39,12 @@ export const productFeedback: ProductFeedback[] = [
   { productId: "milwaukee-2771-20", portrait: { src: "https://www.protoolreviews.com/wp-content/uploads/2018/10/Scott-Strollo-headshot-200x200.jpg", sourceUrl: "https://www.protoolreviews.com/milwaukee-m18-transfer-pump-review/", credit: "Pro Tool Reviews" }, sourceConfirmed: true, trade: "plumbers", brand: "Milwaukee", modelNumber: "2771-20", author: "Scott Strollo", avatar: "SS", context: "Published hands-on review · service plumber per author biography", source: "Pro Tool Reviews", url: "https://www.protoolreviews.com/milwaukee-m18-transfer-pump-review/", summary: "Strollo's hands-on review highlights cordless convenience, self-priming and simple operation when moving water.", match: "Exact model", caveat: "Published in January 2017, covering the bare pump and a kit. Follow current manufacturer instructions for permitted liquids; historical pricing and applications are not current guidance.", permission: "pending" },
   { productId: "ridgid-k6p", sourceConfirmed: true, trade: "plumbers", brand: "RIDGID", modelNumber: "K-6P", author: "Persistent", avatar: "P", context: "Retailer-hosted customer feedback · homeowner", source: "SupplyHouse", url: "https://www.supplyhouse.com/Ridgid-56658-RIDGID-K-6P-Toilet-Auger-w-Bulb-Head", summary: "Describes clearing a blockage with the K-6P after plunging had not resolved it.", match: "Exact model", caveat: "Original review and display name confirmed October 7, 2026 on SupplyHouse. A homeowner's experience does not guarantee the same result on another blockage.", permission: "pending" },
 ];
+productFeedback.push(...carpenterFeedback);
+
+export function getProductFeedbacks(trade:string,brand:string,model:string,productId?:string){
+  const id=productId?.replace(/-review$/, '');
+  return productFeedback.filter(entry=>entry.trade===trade&&entry.brand===brand&&(entry.productId===id||model===entry.modelNumber||model.startsWith(`${entry.modelNumber} `)));
+}
 
 export function getProductFeedback(trade: string, brand: string, model: string, productId?: string) {
   const id = productId?.replace(/-review$/, "");

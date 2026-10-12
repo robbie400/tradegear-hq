@@ -45,6 +45,7 @@ export default async function ReviewPage({
   return (
     <>
       <PageSchema
+        date={r.trade === 'carpenters' ? '2026-10-12' : undefined}
         title={r.title}
         description={r.meta}
         path={`/reviews/${slug}/`}
@@ -69,7 +70,7 @@ export default async function ReviewPage({
           </span>
           <h1>{r.title}</h1>
           <p>{r.meta}</p>
-          <EditorialByline />
+          <EditorialByline date={r.trade === 'carpenters' ? '2026-10-12' : undefined} />
           <div className="reviewHeroActions">
             <a
               className="amazonBtn"
@@ -110,7 +111,7 @@ export default async function ReviewPage({
               </div>
             </div>
           </div>
-          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.slug} />
+          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} />
           <div className="fitGrid">
             <div className="fitCard">
               <b>Best for</b>

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "stanley-33-725",
+    "cat": "layout",
+    "brand": "Stanley",
+    "model": "33-725",
+    "label": "25-foot FATMAX Tape Measure",
+    "sourceUrl": "https://www.stanleytools.com/en-us/product/33-725/25-ft-classic-tape-measure"
+  },
+  {
+    "id": "swanson-s0101",
+    "cat": "layout",
+    "brand": "Swanson",
+    "model": "S0101",
+    "label": "7-inch Speed Square",
+    "sourceUrl": "https://swansontoolco.com/shop/speed-square-7in-s0101"
+  },
+  {
+    "id": "empire-e75.48",
+    "cat": "layout",
+    "brand": "Empire",
+    "model": "e75.48",
+    "label": "48-inch TRUE BLUE Box Level",
+    "sourceUrl": "https://prod.empirelevel.com/box-level_e75-series.php"
+  },
+  {
+    "id": "johnson-cs5",
+    "cat": "layout",
+    "brand": "Johnson",
+    "model": "CS5",
+    "label": "16 x 24-inch Aluminum Framing Square",
+    "sourceUrl": "https://www.johnsonlevel.com/P/1872/16x24AluminumRafterSquare"
+  },
+  {
+    "id": "tajima-cr301jf",
+    "cat": "layout",
+    "brand": "Tajima",
+    "model": "CR301JF",
+    "label": "Chalk-Rite Jam Free Chalk Line",
+    "sourceUrl": "https://www.tajimatool.com/product/cr301jf/"
+  },
+  {
+    "id": "estwing-e3-20s",
+    "cat": "hand",
+    "brand": "Estwing",
+    "model": "E3-20S",
+    "label": "20-ounce Straight-Claw Hammer",
+    "sourceUrl": "https://www.estwing.com/product/rip-hammer/"
+  },
+  {
+    "id": "stanley-stht16727",
+    "cat": "hand",
+    "brand": "Stanley",
+    "model": "STHT16727",
+    "label": "13/19/25 mm Wood Chisel Set",
+    "sourceUrl": "https://www.stanleytools.com/en-us/product/stht16727/wood-chisel-3pc-set-131925mm"
+  },
+  {
+    "id": "irwin-2011201",
+    "cat": "hand",
+    "brand": "Irwin",
+    "model": "2011201",
+    "label": "15-inch Marathon ProTouch Coarse-Cut Saw",
+    "sourceUrl": "https://www.irwintools.com/product/2011201/15-marathon-protouch-coarse-cut-saw"
+  },
+  {
+    "id": "stanley-stht10721",
+    "cat": "hand",
+    "brand": "Stanley",
+    "model": "STHT10721",
+    "label": "Retractable Blade Utility Knife",
+    "sourceUrl": "https://www.stanleytools.com/en-us/product/stht10721/retractable-blade-utility-knife"
+  },
+  {
+    "id": "stanley-55-515",
+    "cat": "hand",
+    "brand": "Stanley",
+    "model": "55-515",
+    "label": "12-3/4-inch Wonder Bar Pry Bar",
+    "sourceUrl": "https://www.stanleytools.com/en-us/product/55-515/12-34-340mm-flat-steel-wonder-bar"
+  },
+  {
+    "id": "kreg-kws1000",
+    "cat": "station",
+    "brand": "Kreg",
+    "model": "KWS1000",
+    "label": "Mobile Project Center",
+    "sourceUrl": "https://www.kregtool.com/shop/workspace/workshop-accessories/mobile-project-center/KWS1000.html"
+  },
+  {
+    "id": "worx-wx051",
+    "cat": "station",
+    "brand": "WORX",
+    "model": "WX051",
+    "label": "Pegasus Folding Work Table",
+    "sourceUrl": "https://www.worx.com/pegasus-work-table-sawhorse-wx051.html"
+  },
+  {
+    "id": "dewalt-dwx723",
+    "cat": "station",
+    "brand": "DeWalt",
+    "model": "DWX723",
+    "label": "Heavy Duty Miter Saw Stand",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dwx723/heavy-duty-miter-saw-stand"
+  },
+  {
+    "id": "bosch-t4b",
+    "cat": "station",
+    "brand": "Bosch",
+    "model": "T4B",
+    "label": "Gravity-Rise Miter Saw Stand",
+    "sourceUrl": "https://www.boschtools.com/us/en/products/t4b-0601B12115"
+  },
+  {
+    "id": "bora-pm-4500",
+    "cat": "station",
+    "brand": "Bora",
+    "model": "PM-4500",
+    "label": "Speedhorse Sawhorse",
+    "sourceUrl": "https://boratool.com/product/bora-speedhorse-single-sawhorse-pm-4500/"
+  },
+  {
+    "id": "dewalt-dwp611",
+    "cat": "router",
+    "brand": "DeWalt",
+    "model": "DWP611",
+    "label": "1-1/4 HP Compact Router",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dwp611/1-14-hp-max-torque-variable-speed-compact-router"
+  },
+  {
+    "id": "makita-rt0701c",
+    "cat": "router",
+    "brand": "Makita",
+    "model": "RT0701C",
+    "label": "1-1/4 HP Compact Router",
+    "sourceUrl": "https://makitatools.com/products/details/RT0701C"
+  },
+  {
+    "id": "bosch-1617evspk",
+    "cat": "router",
+    "brand": "Bosch",
+    "model": "1617EVSPK",
+    "label": "2-1/4 HP Router Combo Kit",
+    "sourceUrl": "https://www.boschtools.com/us/en/products/1617evspk-0601617577"
+  },
+  {
+    "id": "dewalt-dcw600b",
+    "cat": "router",
+    "brand": "DeWalt",
+    "model": "DCW600B",
+    "label": "20V MAX XR Compact Router",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcw600b/20v-max-xr-brushless-cordless-compact-router-tool-only"
+  },
+  {
+    "id": "makita-xtr01z",
+    "cat": "router",
+    "brand": "Makita",
+    "model": "XTR01Z",
+    "label": "18V LXT Compact Router",
+    "sourceUrl": "https://makitatools.com/products/details/XTR01Z"
+  },
+  {
+    "id": "dewalt-dwe6423",
+    "cat": "sander",
+    "brand": "DeWalt",
+    "model": "DWE6423",
+    "label": "5-inch Variable Speed Random Orbit Sander",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dwe6423/5-variable-speed-random-orbit-sander"
+  },
+  {
+    "id": "makita-bo5041k",
+    "cat": "sander",
+    "brand": "Makita",
+    "model": "BO5041K",
+    "label": "5-inch Random Orbit Sander Kit",
+    "sourceUrl": "https://makitatools.com/products/details/BO5041K"
+  },
+  {
+    "id": "bosch-ros20vsc",
+    "cat": "sander",
+    "brand": "Bosch",
+    "model": "ROS20VSC",
+    "label": "5-inch Random Orbit Sander",
+    "sourceUrl": "https://www.boschtools.com/us/en/products/ros20vsc-0601387514"
+  },
+  {
+    "id": "dewalt-dcw210b",
+    "cat": "sander",
+    "brand": "DeWalt",
+    "model": "DCW210B",
+    "label": "20V MAX XR Random Orbit Sander",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcw210b/20v-max-xr-5-brushless-cordless-variable-speed-random-orbital-sander-tool-only"
+  },
+  {
+    "id": "makita-xob01z",
+    "cat": "sander",
+    "brand": "Makita",
+    "model": "XOB01Z",
+    "label": "18V LXT Random Orbit Sander",
+    "sourceUrl": "https://makitatools.com/products/details/XOB01Z"
+  },
+  {
+    "id": "dewalt-dcs356b",
+    "cat": "multi",
+    "brand": "DeWalt",
+    "model": "DCS356B",
+    "label": "20V MAX XR Oscillating Multi-Tool",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcs356b/20v-max-xr-brushless-cordless-3-speed-oscillating-multi-tool-tool-only"
+  },
+  {
+    "id": "makita-xmt03z",
+    "cat": "multi",
+    "brand": "Makita",
+    "model": "XMT03Z",
+    "label": "18V LXT Oscillating Multi-Tool",
+    "sourceUrl": "https://makitatools.com/products/details/XMT03Z"
+  },
+  {
+    "id": "bosch-gop18v-34n",
+    "cat": "multi",
+    "brand": "Bosch",
+    "model": "GOP18V-34N",
+    "label": "18V StarlockPlus Oscillating Multi-Tool",
+    "sourceUrl": "https://www.boschtools.com/us/en/products/gop18v-34n-06018G2010"
+  },
+  {
+    "id": "dewalt-dcs334b",
+    "cat": "multi",
+    "brand": "DeWalt",
+    "model": "DCS334B",
+    "label": "20V MAX XR Top-Handle Jigsaw",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcs334b/20v-max-xr-cordless-jig-saw-tool-only"
+  },
+  {
+    "id": "bosch-js470e",
+    "cat": "multi",
+    "brand": "Bosch",
+    "model": "JS470E",
+    "label": "7.0 Amp Top-Handle Jigsaw",
+    "sourceUrl": "https://www.boschtools.com/us/en/products/js470e-0601513012"
+  }
+]

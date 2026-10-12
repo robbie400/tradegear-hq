@@ -1,4 +1,5 @@
 import {inspectorWorkflows} from "./inspector-workflows";
+import {carpenterWorkflows} from "./carpenter-workflows";
 import {hvacWorkflows} from "./hvac-workflows";
 import {plumberWorkflows} from './plumber-workflows';
 import {additionalElectricianWorkflows} from "./electrician-workflows";
@@ -27,6 +28,8 @@ export type Workflow = {
   tools:WorkflowTool[];
   faqs:{q:string;a:string}[];
   notes?:string[];
+  buyingPlan?:{heading:string;body:string}[];
+  sources?:{label:string;url:string}[];
 };
 
 export const workflows:Workflow[] = [
@@ -82,3 +85,4 @@ workflows.push(...plumberWorkflows);
 workflows.push(...hvacWorkflows);
 
 workflows.push(...inspectorWorkflows);
+workflows.push(...carpenterWorkflows);

@@ -18,7 +18,7 @@ function destination(value) {
   u.searchParams.sort();
   return `${u.origin}${u.pathname}?${u.searchParams.toString()}`;
 }
-for (const trade of ['plumbers', 'electricians', 'hvac', 'home-inspectors']) {
+for (const trade of ['plumbers', 'electricians', 'hvac', 'home-inspectors', 'carpenters']) {
   const selected = guides.filter(g => g.trade === trade);
   const ids = new Set(); let photos = 0;
   for (const guide of selected) {
@@ -42,7 +42,7 @@ for (const trade of ['plumbers', 'electricians', 'hvac', 'home-inspectors']) {
   }
   report[trade] = {guides:selected.length, products:ids.size, photos, workflows:workflows.filter(w => w.trade === trade).length};
 }
-for (const w of workflows.filter(w => ['plumbers','hvac','home-inspectors'].includes(w.trade))) for (const t of w.tools) {
+for (const w of workflows.filter(w => ['plumbers','hvac','home-inspectors','carpenters'].includes(w.trade))) for (const t of w.tools) {
   const matches = guides.filter(g => g.trade === w.trade).flatMap(g => g.products).filter(p => `${p.brand} ${p.model}` === t.name);
   assert.equal(matches.length, 1, `${w.slug}: exact unique tool ${t.name}`);
   assert.equal(t.amazonUrl, matches[0].url, `${w.slug}: matching affiliate destination`);
@@ -66,3 +66,17 @@ assert.ok(report.plumbers.products >= report.electricians.products);
 console.log(JSON.stringify({ ...report, newPlumbingReviews:plumberCatalogReviews.length, duplicateImageUrls:0, status:'passed'}, null, 2));
 
 assert.deepEqual(report['home-inspectors'],{guides:14,products:66,photos:66,workflows:8});
+assert.deepEqual(report.carpenters,{guides:10,products:50,photos:50,workflows:8});
+const carpenterReviews=reviews.filter(r=>r.trade==='carpenters');
+assert.equal(carpenterReviews.length,50);
+for(const r of carpenterReviews){
+ assert.ok(r.sections.length>=3,`${r.slug}: fuller product analysis`);
+ assert.ok(getProductImage(r.slug),`${r.slug}: standalone model photo`);
+ assert.ok(r.sections.every(s=>s.body.split(/\s+/).length>40),`${r.slug}: useful detail beyond quick picks`);
+}
+for(const w of workflows.filter(w=>w.trade==='carpenters')) {
+  assert.ok(w.buyingPlan?.length >= 3, `${w.slug}: starter, budget and upgrade guidance`);
+  assert.ok(w.stages.length >= 5, `${w.slug}: complete job sequence`);
+  assert.ok(w.notes?.length && w.sources?.length, `${w.slug}: scope and documentary sources`);
+  for(const t of w.tools)assert.ok(guides.some(g=>t.guideUrl===`/${g.trade}/${g.slug}/` && g.products.some(p=>p.url===t.amazonUrl)),`${w.slug}: tool links to matching comparison`);
+}

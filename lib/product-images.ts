@@ -1,4 +1,6 @@
 import {inspectorProductImages} from "./inspector-product-images";
+import {carpenterProductImages} from './carpenter-product-images';
+import {carpenterCatalogGuides} from './carpenter-catalog';
 import {inspectorImageAliases} from "./inspector-catalog";
 import {hvacProductImages,hvacImageAliases} from './hvac-product-images';
 import {plumberProductImages,plumberImageAliases} from './plumber-product-images';
@@ -499,9 +501,11 @@ const aliases: Record<string, string> = {
   "Milwaukee 48-22-8200 Jobsite Backpack": "milwaukee-48228200",
   "CLC 1134 Deluxe Tool Backpack": "clc-1134"
 };
-Object.assign(productImages, plumberProductImages, hvacProductImages, inspectorProductImages);
+Object.assign(productImages, plumberProductImages, hvacProductImages, inspectorProductImages,carpenterProductImages);
 Object.assign(aliases, plumberImageAliases, hvacImageAliases, inspectorImageAliases);
+for(const g of carpenterCatalogGuides)for(const p of g.products){aliases[`${p.brand} ${p.model}`]=p.productId!;aliases[`carpenters-${p.productId}`]=p.productId!;}
 export function getProductImage(key: string | undefined): ProductImage | undefined {
   if (!key) return undefined;
-  return productImages[key.replace(/-review$/, "")] || productImages[aliases[key]];
+  const normalized=key.replace(/-review$/, "");
+  return productImages[normalized] || productImages[aliases[key] || aliases[normalized]];
 }
