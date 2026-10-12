@@ -1,0 +1,24 @@
+{
+  "checkedDate": "2026-10-07",
+  "scope": "Two live product detail checks and one search check. This is not a whole-catalogue listing verification.",
+  "checks": [
+    {
+      "product": "Fluke 117",
+      "url": "https://www.amazon.com/dp/B000O3LUEI/ref=nosim?tag=robbieom0e-20",
+      "status": 200,
+      "match": "Page title and product description identify Fluke 117",
+      "availability": "Page showed In Stock for the scrape location; time/location dependent",
+      "affiliateAttribution": "Tag present in requested URL; conversion attribution not tested"
+    },
+    {
+      "product": "Fieldpiece VP87",
+      "url": "https://www.amazon.com/dp/B096ZF285M?tag=robbieom0e-20",
+      "status": 200,
+      "match": "Product detail title identifies Fieldpiece VP87, 8 CFM vacuum pump",
+      "replacement": "Replaces model-search URL in HVAC guides, review and job kits",
+      "availability": "Checkout, seller authorization and location-specific stock not verified",
+      "affiliateAttribution": "Tag present in requested URL; conversion attribution not tested"
+    }
+  ],
+  "remaining": "Most catalogue links still use tagged Amazon search URLs. Exact listing/model/package and stock verification remain outstanding."
+}
