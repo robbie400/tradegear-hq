@@ -42,7 +42,7 @@ export default async function WorkflowPage({
   if (!w) notFound();
   return (
     <>
-      <PageSchema title={w.title} description={w.meta} path={`/${trade}/workflows/${slug}/`} crumbs={[{name:"Home",path:"/"},{name:w.tradeName,path:`/${trade}/`},{name:w.title,path:`/${trade}/workflows/${slug}/`}]}/>
+      <PageSchema date={trade === "carpenters" ? "2026-10-12" : undefined} title={w.title} description={w.meta} path={`/${trade}/workflows/${slug}/`} crumbs={[{name:"Home",path:"/"},{name:w.tradeName,path:`/${trade}/`},{name:w.title,path:`/${trade}/workflows/${slug}/`}]}/>
       <section className="workflowHero">
         <img src={w.heroImage} alt={`${w.tradeName} service work`} />
         <div className="tradeHeroShade" />
@@ -66,7 +66,7 @@ export default async function WorkflowPage({
 
       <section className="section">
         <div className="shell workflowShell">
-          <EditorialByline />
+          <EditorialByline date={trade === "carpenters" ? "2026-10-12" : undefined} />
           <div className="workflowIntro">
             <span className="eyebrow orange">THE IDEA</span>
             <h2>Build the bag around the job, not the catalogue.</h2>

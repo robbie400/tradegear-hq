@@ -39,7 +39,7 @@ export default async function TradePage({
   const clusters = [...new Set(items.map(g=>g.cluster))];
   return (
     <>
-      <PageSchema kind="CollectionPage" title={`Tools & Gear for ${hub.name}`} description={hub.blurb} path={`/${trade}/`} crumbs={[{name:"Home",path:"/"},{name:hub.name,path:`/${trade}/`}]}/>
+      <PageSchema date={trade === "carpenters" ? "2026-10-12" : undefined} kind="CollectionPage" title={`Tools & Gear for ${hub.name}`} description={hub.blurb} path={`/${trade}/`} crumbs={[{name:"Home",path:"/"},{name:hub.name,path:`/${trade}/`}]}/>
       <section className="tradeHero">
         <img src={hub.image} alt={`${hub.name} professional at work`} />
         <div className="tradeHeroShade" />
