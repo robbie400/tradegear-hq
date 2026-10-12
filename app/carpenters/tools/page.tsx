@@ -1,0 +1,24 @@
+import type {Metadata} from 'next';
+import Link from 'next/link';
+import {carpenterCatalogGuides} from '@/lib/carpenter-catalog';
+import {ProductPhoto} from '@/components/ProductPhoto';
+import {getProductImage} from '@/lib/product-images';
+import {PageSchema} from '@/components/Editorial';
+
+export const metadata:Metadata={title:'Carpenter Tools: Browse All Saws, Drills and Drivers',description:'Browse every carpenter and joiner tool in the TradeGear HQ shortlist. Open individual product reviews, check job fit and compare alternatives before buying.',alternates:{canonical:'/carpenters/tools/'}};
+export default function CarpenterTools(){
+  const products=carpenterCatalogGuides.flatMap(g=>g.products.map(p=>({p,g})));
+  return <>
+    <PageSchema kind="CollectionPage" title="Browse Carpenter & Joiner Tools" description="Individual tool reviews for carpenters: saws, drills and impact drivers with job fit, buying priorities and sourced customer feedback." path="/carpenters/tools/" date="2026-10-12" crumbs={[{name:'Home',path:'/'},{name:'Carpenters & Joiners',path:'/carpenters/'},{name:'All tools',path:'/carpenters/tools/'}]} />
+    <section className="section light"><div className="shell">
+      <div className="crumb"><Link href="/">Home</Link> / <Link href="/carpenters/">Carpenters & Joiners</Link> / All tools</div>
+      <span className="eyebrow orange">BROWSE THE TOOLS</span><h1>Carpenter & Joiner Tools</h1>
+      <div className="sectionHeading"><h2>Find a tool. Open its full review.</h2><p>{products.length} tools in the current shortlist. See who each suits, what it needs to work and when a simpler alternative makes sense.</p></div>
+      <nav className="articleNav" aria-label="Other ways to shop"><Link href="/carpenters/#tool-guides">Compare tool categories →</Link><Link href="/carpenters/#job-kits">Find a job kit →</Link></nav>
+      <div className="allToolsGrid">{products.map(({p,g})=><article key={p.productId} className="allToolCard">
+        <Link href={`/reviews/${p.reviewSlug}/`} className="allToolIdentity"><ProductPhoto photo={getProductImage(p.productId)} className="hubProductPhoto" /><span className="eyebrow orange">{g.cluster}</span><h2>{p.brand} {p.model}</h2></Link>
+        <p className="toolCardFit">{p.role}</p><p>{p.assessment!.intro}</p><Link href={`/reviews/${p.reviewSlug}/`} className="detailLink">Read full product review →</Link>
+      </article>)}</div>
+    </div></section>
+  </>;
+}

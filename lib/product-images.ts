@@ -503,8 +503,9 @@ const aliases: Record<string, string> = {
 };
 Object.assign(productImages, plumberProductImages, hvacProductImages, inspectorProductImages,carpenterProductImages);
 Object.assign(aliases, plumberImageAliases, hvacImageAliases, inspectorImageAliases);
-for(const g of carpenterCatalogGuides)for(const p of g.products)aliases[`${p.brand} ${p.model}`]=p.productId!;
+for(const g of carpenterCatalogGuides)for(const p of g.products){aliases[`${p.brand} ${p.model}`]=p.productId!;aliases[`carpenters-${p.productId}`]=p.productId!;}
 export function getProductImage(key: string | undefined): ProductImage | undefined {
   if (!key) return undefined;
-  return productImages[key.replace(/-review$/, "")] || productImages[aliases[key]];
+  const normalized=key.replace(/-review$/, "");
+  return productImages[normalized] || productImages[aliases[key] || aliases[normalized]];
 }

@@ -8,7 +8,7 @@ function job(slug:string,title:string,summary:string,stages:Section[],picks:Tool
     const guide=carpenterCatalogGuides.find(g=>g.products.some(p=>p.productId===id));
     const p=guide?.products.find(p=>p.productId===id);
     if(!guide||!p)throw new Error(`Missing carpenter workflow product: ${id}`);
-    return {stage,type:guide.cluster,name:`${p.brand} ${p.model}`,why,priority,amazonUrl:p.url,guideUrl:`/carpenters/${guide.slug}/`};
+    return {stage,type:guide.cluster,name:`${p.brand} ${p.model}`,why,priority,amazonUrl:p.url,guideUrl:`/carpenters/${guide.slug}/`,reviewUrl:`/reviews/${p.reviewSlug}/`};
   });
   const sources=Array.from(new Map(tools.map(t=>{
     const p=carpenterCatalogGuides.flatMap(g=>g.products).find(p=>`${p.brand} ${p.model}`===t.name)!;

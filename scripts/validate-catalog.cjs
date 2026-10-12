@@ -67,6 +67,13 @@ console.log(JSON.stringify({ ...report, newPlumbingReviews:plumberCatalogReviews
 
 assert.deepEqual(report['home-inspectors'],{guides:14,products:66,photos:66,workflows:8});
 assert.deepEqual(report.carpenters,{guides:4,products:20,photos:20,workflows:8});
+const carpenterReviews=reviews.filter(r=>r.trade==='carpenters');
+assert.equal(carpenterReviews.length,20);
+for(const r of carpenterReviews){
+ assert.ok(r.sections.length>=3,`${r.slug}: fuller product analysis`);
+ assert.ok(getProductImage(r.slug),`${r.slug}: standalone model photo`);
+ assert.ok(r.sections.every(s=>s.body.split(/\s+/).length>40),`${r.slug}: useful detail beyond quick picks`);
+}
 for(const w of workflows.filter(w=>w.trade==='carpenters')) {
   assert.ok(w.buyingPlan?.length >= 3, `${w.slug}: starter, budget and upgrade guidance`);
   assert.ok(w.stages.length >= 5, `${w.slug}: complete job sequence`);

@@ -129,4 +129,4 @@ export const carpenterCategories:ElectricianCategory[]=[
     [j.framing,j.decking,j.apprentice],impacts),
 ];
 export const carpenterCatalogGuides:Guide[]=carpenterCategories.map(c=>({trade:'carpenters',tradeName:'Carpenters & Joiners',slug:c.slug,title:c.title,meta:c.meta,keyword:c.keyword,cluster:c.cluster,workflowSlugs:c.workflowSlugs,
-  products:c.products.map(p=>({productId:p.id,brand:p.brand,model:p.model,role:p.role,assessment:p.assessment,url:`https://www.amazon.com/s?k=${encodeURIComponent(`${p.brand} ${p.model}`)}&tag=robbieom0e-20`}))}));
+  products:c.products.map(p=>({productId:p.id,reviewSlug:`carpenters-${p.id}-review`,brand:p.brand,model:p.model,role:p.role,assessment:p.assessment,url:`https://www.amazon.com/s?k=${encodeURIComponent(`${p.brand} ${p.model}`)}&tag=robbieom0e-20`}))}));

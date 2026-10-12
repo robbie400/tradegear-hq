@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/",
     "/how-we-choose/",
     "/privacy/",
+    "/carpenters/tools/",
     ...hubs.map((h) => `/${h.slug}/`),
     ...guides.map((g) => `/${g.trade}/${g.slug}/`),
     ...reviews.map((r) => `/reviews/${r.slug}/`),
@@ -16,6 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   return paths.map((path) => ({
     url: siteUrl + path,
-    lastModified: reviewedDate,
+    lastModified: path.startsWith('/carpenters/') || path.startsWith('/reviews/carpenters-') ? '2026-10-12' : reviewedDate,
   }));
 }
