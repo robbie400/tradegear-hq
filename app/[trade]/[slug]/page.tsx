@@ -48,7 +48,7 @@ export default async function Guide({
   const relatedGuides = guides.filter(x => x.trade === trade && x.slug !== slug && x.cluster === g.cluster);
   return (
     <>
-      <PageSchema date={trade === "carpenters" ? "2026-10-12" : undefined}
+      <PageSchema date={trade === "carpenters" ? "2026-10-13" : undefined}
         title={g.title}
         description={g.meta}
         path={`/${trade}/${slug}/`}
@@ -85,7 +85,7 @@ export default async function Guide({
       </section>
       <section className="section">
         <div className="shell guideShell">
-          <EditorialByline date={trade === "carpenters" ? "2026-10-12" : undefined} />
+          <EditorialByline date={trade === "carpenters" ? "2026-10-13" : undefined} />
           <nav className="articleNav" aria-label="On this page">
             <a href="#quick-picks">Quick picks</a>
             <a href="#choosing">How to choose</a>
@@ -224,7 +224,7 @@ export default async function Guide({
                         Manufacturer specification source ↗
                       </a>
                     </p>
-                    <ProductFeedback trade={g.trade} brand={p.brand} model={p.model} productId={p.productId || p.reviewSlug} />
+                    <ProductFeedback trade={g.trade} brand={p.brand} model={p.model} productId={p.productId || p.reviewSlug} amazonUrl={p.url} />
                     <div className="productActions">
                       {fullReview && <Link className="reviewBtn" href={`/reviews/${fullReview.slug}/`}>Read Full Review</Link>}
                       <a

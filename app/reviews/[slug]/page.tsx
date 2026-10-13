@@ -1,6 +1,7 @@
 import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { ProductFeedback } from "@/components/ProductFeedback";
+import { ProductRating } from "@/components/ProductRating";
 import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -45,7 +46,7 @@ export default async function ReviewPage({
   return (
     <>
       <PageSchema
-        date={r.trade === 'carpenters' ? '2026-10-12' : undefined}
+        date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined}
         title={r.title}
         description={r.meta}
         path={`/reviews/${slug}/`}
@@ -70,7 +71,8 @@ export default async function ReviewPage({
           </span>
           <h1>{r.title}</h1>
           <p>{r.meta}</p>
-          <EditorialByline date={r.trade === 'carpenters' ? '2026-10-12' : undefined} />
+          <ProductRating trade={r.trade} brand={r.brand} model={r.model} amazonUrl={r.amazonUrl} compact />
+          <EditorialByline showMethodology={false} date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} />
           <div className="reviewHeroActions">
             <a
               className="amazonBtn"
@@ -87,7 +89,7 @@ export default async function ReviewPage({
             </Link>
           </div>
           </div>
-          {photo && <ProductPhoto photo={photo} className="reviewHeroPhoto" priority credit />}
+          {photo && <ProductPhoto photo={photo} className="reviewHeroPhoto" priority credit linkCredit={false} />}
         </div>
       </section>
       <section className="section">
@@ -111,7 +113,7 @@ export default async function ReviewPage({
               </div>
             </div>
           </div>
-          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} />
+          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} amazonUrl={r.amazonUrl} showRating={false} />
           <div className="fitGrid">
             <div className="fitCard">
               <b>Best for</b>
@@ -169,19 +171,14 @@ export default async function ReviewPage({
             <p>
               This is a research-based review. We have not hands-on tested this
               product or independently measured its performance.{" "}
-              <Link href="/how-we-choose/">How we choose tools →</Link>
             </p>
             <ul>
               <li>
-                <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer">
-                  Primary manufacturer source ↗
-                </a>
+                Primary manufacturer source: {new URL(r.sourceUrl).hostname}
               </li>
               {r.extraSources?.map((s) => (
                 <li key={s.url}>
-                  <a href={s.url} target="_blank" rel="noopener noreferrer">
-                    {s.label} ↗
-                  </a>
+                  {s.label}: {new URL(s.url).hostname}
                 </li>
               ))}
             </ul>

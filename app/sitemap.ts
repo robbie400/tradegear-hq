@@ -17,6 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   return paths.map((path) => ({
     url: siteUrl + path,
-    lastModified: path.startsWith('/carpenters/') || path.startsWith('/reviews/carpenters-') ? '2026-10-12' : reviewedDate,
+    lastModified: path.startsWith('/carpenters/') || path.startsWith('/reviews/carpenters-') ? '2026-10-13' : reviewedDate,
   }));
 }

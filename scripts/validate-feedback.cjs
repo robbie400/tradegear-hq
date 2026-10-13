@@ -15,8 +15,8 @@ for(const f of productFeedback){
 assert.equal(getProductFeedback('hvac','Appion','Unrelated model'),undefined);
 assert.deepEqual(['electricians','plumbers','hvac','home-inspectors'].map(t=>productFeedback.filter(f=>f.trade===t).length),[7,6,4,1]);
 const carpenterFeedback=productFeedback.filter(f=>f.trade==='carpenters');
-assert.equal(carpenterFeedback.length,67);
-assert.equal(new Set(carpenterFeedback.map(f=>f.productId)).size,35);
+assert.equal(carpenterFeedback.length,83);
+assert.equal(new Set(carpenterFeedback.map(f=>f.productId)).size,43);
 assert.equal(getProductFeedbacks('carpenters','Milwaukee','2505-20 M12 FUEL Installation Drill/Driver','milwaukee-2505-20').length,2);
 assert.equal(getProductFeedbacks('carpenters','Unrelated brand','2505-20','milwaukee-2505-20').length,0);
 for(const r of productRatings){
@@ -26,5 +26,5 @@ for(const r of productRatings){
  assert.ok(p,`${r.productId}: rating matches a catalogue model`);
  assert.equal(getProductRating(r.trade,p.brand,p.model),r);
 }
-assert.equal(productRatings.filter(r=>r.trade==='carpenters').length,36);
+assert.equal(productRatings.filter(r=>r.trade==='carpenters').length,44);
 console.log('Feedback checks passed: source attribution and matching catalogue products.');
