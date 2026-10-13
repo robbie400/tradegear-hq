@@ -13,3 +13,9 @@ Publishing plan: release reviewable batches when useful and checked. Allow a few
 Google guidance: https://developers.google.com/search/docs/fundamentals/creating-helpful-content and https://developers.google.com/search/docs/fundamentals/using-gen-ai-content. Google emphasizes original value for people; large volumes without added value can violate scaled-content policies. There is no weekly publishing rule established by these sources.
 
 This batch is prepared on a review branch. Preview verification and any limitations are recorded separately before production release.
+
+## Preview checks
+
+Code commit `888561c78d3a6223275ad9b55b6d00f2e51fa1f3`, deployment `dpl_BNpyVSEiqKwbSL5Pd3z5RYmUP39K`, READY. Preview: https://tradegear-4wd9pudmt-robbie-7671.vercel.app/carpenters (Vercel authentication required). Desktop browser confirmed prominent directory links, 75 catalogue cards, three grid columns, working nailer jump anchor, loaded DCN680B photo, two attributed feedback cards and its dated 4.5/52 manufacturer rating. Homepage displays six featured guide cards and five all-trade links. No horizontal overflow on checked desktop pages.
+
+Mobile visual recheck remains pending: the preview is authentication-protected and the available cloud browser has no mobile viewport control. The existing mobile grid is retained and the new directory band has a narrow-screen layout, but this is not a new mobile browser test. No authentication-bearing URL was sent to an external screenshot service. Amazon inventory is not reasserted or rechecked after the prior client rejection.
