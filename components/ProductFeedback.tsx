@@ -3,10 +3,10 @@ import { FeedbackAvatar } from "./FeedbackAvatar";
 import { getProductFeedbacks } from "@/lib/product-feedback";
 import styles from "./ProductFeedback.module.css";
 
-export function ProductFeedback({ trade, brand, model, productId }: {
-  trade: string; brand: string; model: string; productId?: string;
+export function ProductFeedback({ trade, brand, model, productId, showRating=true }: {
+  trade: string; brand: string; model: string; productId?: string; showRating?:boolean;
 }) {
-  const rating = <ProductRating trade={trade} brand={brand} model={model} />;
+  const rating = showRating ? <ProductRating trade={trade} brand={brand} model={model} /> : null;
   const feedbacks = getProductFeedbacks(trade, brand, model, productId);
   if (!feedbacks.length) return rating;
   return (

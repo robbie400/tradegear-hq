@@ -1,6 +1,7 @@
 import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { ProductFeedback } from "@/components/ProductFeedback";
+import { ProductRating } from "@/components/ProductRating";
 import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -70,6 +71,7 @@ export default async function ReviewPage({
           </span>
           <h1>{r.title}</h1>
           <p>{r.meta}</p>
+          <ProductRating trade={r.trade} brand={r.brand} model={r.model} compact />
           <EditorialByline date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} />
           <div className="reviewHeroActions">
             <a
@@ -111,7 +113,7 @@ export default async function ReviewPage({
               </div>
             </div>
           </div>
-          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} />
+          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} showRating={false} />
           <div className="fitGrid">
             <div className="fitCard">
               <b>Best for</b>
