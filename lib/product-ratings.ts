@@ -1,7 +1,9 @@
 import batch25Ratings from './carpenter-batch25-ratings.json';
 import batch30Ratings from './carpenter-batch30-ratings.json';
-export type SourceRating={productId:string;trade:string;brand:string;modelNumber:string;value:number;count:number;source:string;url:string;checkedDate:string;note:string};
+export type SourceRating={productId:string;trade:string;brand:string;modelNumber:string;value:number;count:number;countDisplay?:string;source:string;url:string;checkedDate:string;note:string};
 export const productRatings:SourceRating[]=[
+  {productId:'klein-mm720',trade:'electricians',brand:'Klein Tools',modelNumber:'MM720',value:4.6,count:404,source:'Amazon',url:'https://www.amazon.com/s?k=Klein+Tools+MM720',checkedDate:'2026-10-13',note:'Exact-model Amazon search result snapshot from the screenshot supplied October 13, 2026. Ratings and counts can change; inspect the current listing. Not our test score.'},
+  {productId:'klein-ncvt-3p',trade:'electricians',brand:'Klein Tools',modelNumber:'NCVT-3P',value:4.7,count:4600,countDisplay:'4.6K',source:'Amazon',url:'https://www.amazon.com/s?k=Klein+Tools+NCVT-3P+Dual-Range+Voltage+Tester',checkedDate:'2026-10-13',note:'Exact-model Amazon search result snapshot from the screenshot supplied October 13, 2026. Amazon shows a rounded 4.6K rating count, not an exact total. This refers to NCVT3P, not the NCVT3PKIT or NCVT2P result alongside it. Ratings can change. Not our test score.'},
   {productId:'fluke-117',trade:'electricians',brand:'Fluke',modelNumber:'117',value:4.8,count:5226,source:'Amazon',url:'https://www.amazon.com/dp/B000O3LUEI/',checkedDate:'2026-10-13',note:'Amazon listing snapshot from the product screenshot supplied October 13, 2026. Ratings and counts can change; inspect the current listing. Not our test score.'},
   ...batch30Ratings,
   ...batch25Ratings,
@@ -235,4 +237,4 @@ export const productRatings:SourceRating[]=[
   }
 ];
 productRatings.push({productId:'appion-g5twin',trade:'hvac',brand:'Appion',modelNumber:'G5Twin',value:5,count:2,source:'Appion',url:'https://appiontools.com/g5twin/',checkedDate:'2026-10-07',note:'Manufacturer-hosted rating. A small review sample; ratings can change.'});
-export function getProductRating(trade:string,brand:string,model:string){return productRatings.find(r=>r.trade===trade&&r.brand===brand&&(model===r.modelNumber||model.startsWith(r.modelNumber+' ')));}
+export function getProductRating(trade:string,brand:string,model:string){const matches=productRatings.filter(r=>r.brand===brand&&(model===r.modelNumber||model.startsWith(r.modelNumber+' ')));return matches.find(r=>r.trade===trade)||matches[0];}
