@@ -1,12 +1,13 @@
+import { affiliateUrl } from "@/lib/affiliate";
 import { ProductRating } from "./ProductRating";
 import { FeedbackAvatar } from "./FeedbackAvatar";
 import { getProductFeedbacks } from "@/lib/product-feedback";
 import styles from "./ProductFeedback.module.css";
 
-export function ProductFeedback({ trade, brand, model, productId, showRating=true }: {
-  trade: string; brand: string; model: string; productId?: string; showRating?:boolean;
+export function ProductFeedback({ trade, brand, model, productId, amazonUrl, showRating=true }: {
+  trade: string; brand: string; model: string; productId?: string; amazonUrl:string; showRating?:boolean;
 }) {
-  const rating = showRating ? <ProductRating trade={trade} brand={brand} model={model} /> : null;
+  const rating = showRating ? <ProductRating trade={trade} brand={brand} model={model} amazonUrl={amazonUrl} /> : null;
   const feedbacks = getProductFeedbacks(trade, brand, model, productId);
   if (!feedbacks.length) return rating;
   return (
@@ -23,11 +24,11 @@ export function ProductFeedback({ trade, brand, model, productId, showRating=tru
       </div>
       <div className={styles.footer}>
         <span className={styles.match}>{feedback.match === "Tool family" ? "Tool-family discussion" : "Product discussion"}</span>
-        <a href={feedback.url} target="_blank" rel="noopener noreferrer">Read on {feedback.source} ↗</a>
+        <a href={affiliateUrl(amazonUrl, trade)} data-trade={trade} data-product={`${brand} ${model}`} target="_blank" rel="sponsored nofollow noopener noreferrer">View this tool on Amazon ↗</a>
       </div>
       <details className={styles.notes}>
         <summary>About this feedback</summary>
-        <p>Summary of feedback from the linked source. Individual experiences may differ.</p>
+        <p>Summary of customer feedback from {feedback.source}. Individual experiences may differ.</p>
         {feedback.portrait && <p>Reviewer photo: <a href={feedback.portrait.sourceUrl} target="_blank" rel="noopener noreferrer">{feedback.portrait.credit}</a>.</p>}
         {feedback.match === "Tool family" && <p>This discussion concerns the tool family; the model or supplied accessories may differ from the configuration on this page.</p>}
       </details>

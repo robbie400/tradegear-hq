@@ -71,7 +71,7 @@ export default async function ReviewPage({
           </span>
           <h1>{r.title}</h1>
           <p>{r.meta}</p>
-          <ProductRating trade={r.trade} brand={r.brand} model={r.model} compact />
+          <ProductRating trade={r.trade} brand={r.brand} model={r.model} amazonUrl={r.amazonUrl} compact />
           <EditorialByline date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} />
           <div className="reviewHeroActions">
             <a
@@ -113,7 +113,7 @@ export default async function ReviewPage({
               </div>
             </div>
           </div>
-          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} showRating={false} />
+          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} amazonUrl={r.amazonUrl} showRating={false} />
           <div className="fitGrid">
             <div className="fitCard">
               <b>Best for</b>

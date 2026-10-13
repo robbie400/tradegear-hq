@@ -224,7 +224,7 @@ export default async function Guide({
                         Manufacturer specification source ↗
                       </a>
                     </p>
-                    <ProductFeedback trade={g.trade} brand={p.brand} model={p.model} productId={p.productId || p.reviewSlug} />
+                    <ProductFeedback trade={g.trade} brand={p.brand} model={p.model} productId={p.productId || p.reviewSlug} amazonUrl={p.url} />
                     <div className="productActions">
                       {fullReview && <Link className="reviewBtn" href={`/reviews/${fullReview.slug}/`}>Read Full Review</Link>}
                       <a
