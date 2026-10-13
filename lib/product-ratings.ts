@@ -1,7 +1,9 @@
+import batch25Ratings from './carpenter-batch25-ratings.json';
 import batch30Ratings from './carpenter-batch30-ratings.json';
 export type SourceRating={productId:string;trade:string;brand:string;modelNumber:string;value:number;count:number;source:string;url:string;checkedDate:string;note:string};
 export const productRatings:SourceRating[]=[
   ...batch30Ratings,
+  ...batch25Ratings,
   {
     "productId": "dewalt-dcs590b",
     "trade": "carpenters",

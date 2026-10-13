@@ -1,3 +1,4 @@
+import batch25Feedback from './carpenter-batch25-feedback.json';
 import batch30Feedback from './carpenter-batch30-feedback.json';
 import type {ProductFeedback} from './product-feedback';
 import {carpenterCatalogGuides} from './carpenter-catalog';
@@ -49,4 +50,4 @@ const foundationFeedback:ProductFeedback[]=entries.map(([id,author,context,summa
   return {productId:id,trade:'carpenters',brand:p.brand,modelNumber:p.model.split(' ')[0],author,avatar:author.split(/\s+/).map(v=>v[0]).join('').slice(0,2).toUpperCase(),context,summary,source:rating.source,url:rating.url,match:family?'Tool family':'Exact model',permission:'pending',sourceConfirmed:true,caveat:'Original source and displayed author confirmed October 12, 2026. Paraphrased individual experience; identity, trade qualification and purchase are not independently verified. No reviewer portrait was supplied.'};
 });
 
-export const carpenterFeedback:ProductFeedback[]=[...foundationFeedback,...batch30Feedback as ProductFeedback[]];
+export const carpenterFeedback:ProductFeedback[]=[...foundationFeedback,...batch30Feedback as ProductFeedback[],...batch25Feedback as ProductFeedback[]];

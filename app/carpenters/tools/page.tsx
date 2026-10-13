@@ -9,7 +9,7 @@ export const metadata:Metadata={title:'Carpenter Tools: Browse Product Reviews &
 export default function CarpenterTools(){
   const products=carpenterCatalogGuides.flatMap(g=>g.products.map(p=>({p,g})));
   return <>
-    <PageSchema kind="CollectionPage" title="Browse Carpenter & Joiner Tools" description="Individual carpenter tool reviews covering layout, hand tools, saws, work supports, routing, sanding and fastening, with job-fit advice and sourced feedback." path="/carpenters/tools/" date="2026-10-12" crumbs={[{name:'Home',path:'/'},{name:'Carpenters & Joiners',path:'/carpenters/'},{name:'All tools',path:'/carpenters/tools/'}]} />
+    <PageSchema kind="CollectionPage" title="Browse Carpenter & Joiner Tools" description="Individual carpenter tool reviews covering layout, hand tools, saws, work supports, routing, sanding and fastening, with job-fit advice and sourced feedback." path="/carpenters/tools/" date="2026-10-13" crumbs={[{name:'Home',path:'/'},{name:'Carpenters & Joiners',path:'/carpenters/'},{name:'All tools',path:'/carpenters/tools/'}]} />
     <section className="section light"><div className="shell">
       <div className="crumb"><Link href="/">Home</Link> / <Link href="/carpenters/">Carpenters & Joiners</Link> / All tools</div>
       <span className="eyebrow orange">BROWSE THE TOOLS</span><h1>Carpenter & Joiner Tools</h1>

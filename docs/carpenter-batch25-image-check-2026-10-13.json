@@ -1,0 +1,191 @@
+[
+  {
+    "id": "dewalt-dcn680b",
+    "status": 200,
+    "ok": true,
+    "bytes": 99970,
+    "url": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DCN680B_1_1680.webp"
+  },
+  {
+    "id": "dewalt-dcn650b",
+    "status": 200,
+    "ok": true,
+    "bytes": 113152,
+    "url": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DCN650B_1_1680.webp"
+  },
+  {
+    "id": "milwaukee-2746-20",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 61058,
+    "ok": true,
+    "url": "https://www.milwaukeetool.com/--/web-images/sc/0363bc92b776412bab8e439295821cd6?hash=e335d471ff330df7a1ba811049b6621e&lang=en"
+  },
+  {
+    "id": "metabo-nt50ae2",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 265525,
+    "ok": true,
+    "url": "https://www.metabo-hpt.com/images/default-source/nt50ae2/nt50ae2-b07mk88q33-main.jpg?sfvrsn=61a729c0_3"
+  },
+  {
+    "id": "metabo-nr90aes1",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 353456,
+    "ok": true,
+    "url": "https://www.metabo-hpt.com/images/default-source/nr90aes1/nr90aes1-b07lcg6tz4-pt01.jpg?sfvrsn=4be2d06f_3"
+  },
+  {
+    "id": "dewalt-dwe7491rs",
+    "status": 200,
+    "ok": true,
+    "bytes": 114502,
+    "url": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DWE7491RS_1_1680.webp"
+  },
+  {
+    "id": "dewalt-dwe7485",
+    "status": 200,
+    "ok": true,
+    "bytes": 96682,
+    "url": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DWE7485_1_1680.webp"
+  },
+  {
+    "id": "bosch-gts15-10",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 113925,
+    "ok": true,
+    "url": "https://www.boschtools.com/binary/ocsmedia/optimized/750x422/o284412v945_JobsiteTableSawGTS1510BoschDyn.png"
+  },
+  {
+    "id": "makita-sp6000j1",
+    "status": 200,
+    "ok": true,
+    "bytes": 29504,
+    "url": "https://www.acmetools.com/dw/image/v2/BHBS_PRD/on/demandware.static/-/Sites-acme-catalog-m-en/default/dw57cb1b98/images/images/catalog/product/088381650823/makita-6-12-in-plunge-circular-saw-with-rail-sp6000j1.jpg?sw=720"
+  },
+  {
+    "id": "festool-ts55-feq",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 7764,
+    "ok": true,
+    "url": "https://media.cdn.festool.io/productmedia/Images/jpg_large/8432c7f6-154c-11ec-811e-005056b31774_400_300.webp"
+  },
+  {
+    "id": "bessey-kre3524",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 18764,
+    "ok": true,
+    "url": "https://images.thdstatic.com/productImages/5e16014f-284f-4226-8132-28de05caec2c/svn/bessey-clamps-kre3524-64_1000.jpg"
+  },
+  {
+    "id": "irwin-1964718",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 279647,
+    "ok": true,
+    "url": "https://www.irwintools.com/NAG/PRODUCT/IMAGES/HIRES/1964718_E1.jpg"
+  },
+  {
+    "id": "jorgensen-33424",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 201454,
+    "ok": true,
+    "url": "https://www.ponyjorgensen.com/wp-content/uploads/2018/09/33424_RM_4.jpg"
+  },
+  {
+    "id": "pony-50",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 53099,
+    "ok": true,
+    "url": "https://www.ponyjorgensen.com/wp-content/uploads/2018/Pipe-Clamps/Classic-Pony-pipe-clamp-fixture-for-34-inch-black-pipe.jpg"
+  },
+  {
+    "id": "kreg-khc-premium",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 18734,
+    "ok": true,
+    "url": "https://www.kregtool.com/dw/image/v2/BDZM_PRD/on/demandware.static/-/Sites-master-kreg/default/dwefcec1ba/images/hi-res/KHC-PREMIUM-01.jpg?sw=800&sh=800"
+  },
+  {
+    "id": "dewalt-dw735",
+    "status": 200,
+    "ok": true,
+    "bytes": 107672,
+    "url": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DW735_1_1680.webp"
+  },
+  {
+    "id": "dewalt-dw734",
+    "status": 200,
+    "ok": true,
+    "bytes": 74250,
+    "url": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DW734_1_1680.webp"
+  },
+  {
+    "id": "makita-kp0800k",
+    "status": 200,
+    "ok": true,
+    "bytes": 30160,
+    "url": "https://www.acmetools.com/dw/image/v2/BHBS_PRD/on/demandware.static/-/Sites-acme-catalog-m-en/default/dwc92c1fe4/images/images/catalog/product/088381603935/makita-3-14-in-planer-with-tool-case-kp0800k.jpg?sw=720"
+  },
+  {
+    "id": "makita-pj7000",
+    "status": 200,
+    "ok": true,
+    "bytes": 22852,
+    "url": "https://www.acmetools.com/dw/image/v2/BHBS_PRD/on/demandware.static/-/Sites-acme-catalog-m-en/default/dw670dcd58/images/images/catalog/product/088381622868/makita-plate-joiner-pj7000.jpg?sw=720"
+  },
+  {
+    "id": "festool-df500rq-set",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 15456,
+    "ok": true,
+    "url": "https://media.cdn.festool.io/productmedia/Images/jpg_large/1509859f-8419-11f1-8a72-005056b3ad01_400_300.webp"
+  },
+  {
+    "id": "dewalt-dwv010",
+    "status": 200,
+    "ok": true,
+    "bytes": 105934,
+    "url": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DWV010_1_1680.webp"
+  },
+  {
+    "id": "bosch-vac090ah",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 207152,
+    "ok": true,
+    "url": "https://www.boschtools.com/binary/ocsmedia/optimized/750x422/o122814v945_VAC090A.png"
+  },
+  {
+    "id": "makita-vc4210l",
+    "status": 200,
+    "ok": true,
+    "bytes": 32514,
+    "url": "https://www.acmetools.com/dw/image/v2/BHBS_PRD/on/demandware.static/-/Sites-acme-catalog-m-en/default/dwe04d614c/images/images/catalog/product/088381846028/makita-11-gallon-wetdry-hepa-filter-dust-extractorvacuum-vc4210l.jpg?sw=720"
+  },
+  {
+    "id": "festool-ct15",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 12948,
+    "ok": true,
+    "url": "https://media.cdn.festool.io/productmedia/Images/jpg_large/53e70cd0-b321-11f0-8a67-005056b3ad01_400_300.webp"
+  },
+  {
+    "id": "festool-ctmidi",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 12324,
+    "ok": true,
+    "url": "https://media.cdn.festool.io/productmedia/Images/jpg_large/37c63b3d-3d2c-11f0-8a62-005056b3ad01_400_300.webp"
+  }
+]

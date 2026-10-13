@@ -45,7 +45,7 @@ export default async function ReviewPage({
   return (
     <>
       <PageSchema
-        date={r.trade === 'carpenters' ? '2026-10-12' : undefined}
+        date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined}
         title={r.title}
         description={r.meta}
         path={`/reviews/${slug}/`}
@@ -70,7 +70,7 @@ export default async function ReviewPage({
           </span>
           <h1>{r.title}</h1>
           <p>{r.meta}</p>
-          <EditorialByline date={r.trade === 'carpenters' ? '2026-10-12' : undefined} />
+          <EditorialByline date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} />
           <div className="reviewHeroActions">
             <a
               className="amazonBtn"

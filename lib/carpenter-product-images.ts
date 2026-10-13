@@ -1,7 +1,9 @@
+import batch25Images from './carpenter-batch25-images.json';
 import {carpenterBatch30Images} from "./carpenter-batch30-images";
 import type { ProductImage } from './product-images';
 export const carpenterProductImages:Record<string,ProductImage>={
   ...carpenterBatch30Images,
+  ...batch25Images,
   "dewalt-dcs590b": {
     "src": "https://assets.dewalt.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/DCS590B_1_1680.webp",
     "sourceUrl": "https://www.dewalt.com/en-us/product/dcs590b/20v-max-xr-brushless-cordless-7-14-circular-saw-tool-only",
