@@ -2,6 +2,7 @@ import batch25Ratings from './carpenter-batch25-ratings.json';
 import batch30Ratings from './carpenter-batch30-ratings.json';
 export type SourceRating={productId:string;trade:string;brand:string;modelNumber:string;value:number;count:number;source:string;url:string;checkedDate:string;note:string};
 export const productRatings:SourceRating[]=[
+  {productId:'fluke-117',trade:'electricians',brand:'Fluke',modelNumber:'117',value:4.8,count:5226,source:'Amazon',url:'https://www.amazon.com/dp/B000O3LUEI/',checkedDate:'2026-10-13',note:'Amazon listing snapshot from the product screenshot supplied October 13, 2026. Ratings and counts can change; inspect the current listing. Not our test score.'},
   ...batch30Ratings,
   ...batch25Ratings,
   {

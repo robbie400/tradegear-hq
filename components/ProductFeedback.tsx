@@ -7,7 +7,7 @@ import styles from "./ProductFeedback.module.css";
 export function ProductFeedback({ trade, brand, model, productId, amazonUrl, showRating=true }: {
   trade: string; brand: string; model: string; productId?: string; amazonUrl:string; showRating?:boolean;
 }) {
-  const rating = showRating ? <ProductRating trade={trade} brand={brand} model={model} amazonUrl={amazonUrl} /> : null;
+  const rating = showRating ? <ProductRating trade={trade} brand={brand} model={model} amazonUrl={amazonUrl} compact tone="light" /> : null;
   const feedbacks = getProductFeedbacks(trade, brand, model, productId);
   if (!feedbacks.length) return rating;
   return (

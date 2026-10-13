@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import {carpenterCatalogGuides} from '@/lib/carpenter-catalog';
+import {ProductRating} from '@/components/ProductRating';
 import {ProductPhoto} from '@/components/ProductPhoto';
 import {getProductImage} from '@/lib/product-images';
 import {PageSchema} from '@/components/Editorial';
@@ -17,7 +18,7 @@ export default function CarpenterTools(){
       <nav className="articleNav" aria-label="Other ways to shop"><Link href="/carpenters/#tool-guides">Compare tool categories →</Link><Link href="/carpenters/#job-kits">Find a job kit →</Link></nav>
       <nav className="articleNav" aria-label="Jump to tool group">{carpenterCatalogGuides.map(g=><a key={g.slug} href={`#tools-${g.slug}`}>{g.cluster}</a>)}</nav><div className="allToolsGrid">{products.map(({p,g})=><article key={p.productId} className="allToolCard" id={p.productId===g.products[0].productId?`tools-${g.slug}`:undefined}>
         <Link href={`/reviews/${p.reviewSlug}/`} className="allToolIdentity"><ProductPhoto photo={getProductImage(p.productId)} className="hubProductPhoto" /><span className="eyebrow orange">{g.cluster}</span><h2>{p.brand} {p.model}</h2></Link>
-        <p className="toolCardFit">{p.role}</p><p>{p.assessment!.intro}</p><Link href={`/reviews/${p.reviewSlug}/`} className="detailLink">Read full product review →</Link>
+        <ProductRating trade="carpenters" brand={p.brand} model={p.model} amazonUrl={p.url} compact tone="light" /><p className="toolCardFit">{p.role}</p><p>{p.assessment!.intro}</p><Link href={`/reviews/${p.reviewSlug}/`} className="detailLink">Read full product review →</Link>
       </article>)}</div>
     </div></section>
   </>;
