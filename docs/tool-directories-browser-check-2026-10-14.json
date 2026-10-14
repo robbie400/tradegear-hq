@@ -1,0 +1,84 @@
+{
+  "carpenters": {
+    "initial": 100,
+    "query": "Estwing claw hammer",
+    "result": 1,
+    "noResults": 0,
+    "cleared": 100
+  },
+  "otherTrades": [
+    {
+      "trade": "electricians",
+      "initial": {
+        "cards": 70,
+        "search": true
+      },
+      "query": "Fluke 117",
+      "result": {
+        "cards": 1,
+        "status": "1 tool matching “Fluke 117”",
+        "titles": [
+          "Fluke 117 Electrician's Multimeter"
+        ]
+      },
+      "cleared": 70,
+      "url": "https://tradegearhq.com/electricians/tools"
+    },
+    {
+      "trade": "plumbers",
+      "initial": {
+        "cards": 95,
+        "search": true
+      },
+      "query": "RIDGID",
+      "result": {
+        "cards": 28,
+        "status": "28 tools matching “RIDGID”",
+        "titles": [
+          "RIDGID micro CA-25 Handheld Inspection Camera",
+          "RIDGID 31020 14-Inch Heavy-Duty Straight Pipe Wrench",
+          "RIDGID 31015 12-Inch Heavy-Duty Straight Pipe Wrench"
+        ]
+      },
+      "cleared": 95,
+      "url": "https://tradegearhq.com/plumbers/tools"
+    },
+    {
+      "trade": "hvac",
+      "initial": {
+        "cards": 70,
+        "search": true
+      },
+      "query": "Fieldpiece",
+      "result": {
+        "cards": 33,
+        "status": "33 tools matching “Fieldpiece”",
+        "titles": [
+          "Fieldpiece SM482V SMAN 4-Port Digital Manifold",
+          "Fieldpiece SM382V SMAN 3-Port Digital Manifold",
+          "Fieldpiece SM480V SMAN Digital Manifold and Micron Gauge"
+        ]
+      },
+      "cleared": 70,
+      "url": "https://tradegearhq.com/hvac/tools"
+    },
+    {
+      "trade": "home-inspectors",
+      "initial": {
+        "cards": 66,
+        "search": true
+      },
+      "query": "FLIR",
+      "result": {
+        "cards": 2,
+        "status": "2 tools matching “FLIR”",
+        "titles": [
+          "FLIR C5 Compact Thermal Imaging Camera",
+          "FLIR TG165-X MSX Thermal Camera"
+        ]
+      },
+      "cleared": 66,
+      "url": "https://tradegearhq.com/home-inspectors/tools"
+    }
+  ]
+}

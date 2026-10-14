@@ -1,0 +1,48 @@
+{
+  "commit": "3bb4fb4149167f7d0d5a3ef85e4eb9205d5c3983",
+  "deployment": "dpl_2ms2arfK3ERXBxodCppvW5Ci5kVX",
+  "directories": [
+    {
+      "trade": "electricians",
+      "status": 200,
+      "tools": 70,
+      "search": true,
+      "affiliateLinks": 70,
+      "errors": []
+    },
+    {
+      "trade": "plumbers",
+      "status": 200,
+      "tools": 95,
+      "search": true,
+      "affiliateLinks": 95,
+      "errors": []
+    },
+    {
+      "trade": "hvac",
+      "status": 200,
+      "tools": 70,
+      "search": true,
+      "affiliateLinks": 70,
+      "errors": []
+    },
+    {
+      "trade": "home-inspectors",
+      "status": 200,
+      "tools": 66,
+      "search": true,
+      "affiliateLinks": 66,
+      "errors": []
+    },
+    {
+      "trade": "carpenters",
+      "status": 200,
+      "tools": 100,
+      "search": true,
+      "affiliateLinks": 100,
+      "errors": []
+    }
+  ],
+  "missingFromSitemap": [],
+  "scope": "Live server HTML, hub navigation, search markup, complete catalogue cards, canonical URLs and Amazon affiliate tags. Browser interactions recorded separately."
+}
