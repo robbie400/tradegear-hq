@@ -19,7 +19,7 @@ export async function generateMetadata({params}:{params:Promise<{trade:string}>}
 }
 export default async function TradeTools({params}:{params:Promise<{trade:string}>}){
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)notFound();
-  const {hub,categories,products}=directory;
+  const {hub,groups,products}=directory;
   const description=`Search ${products.length} tools for ${hub.name.toLowerCase()}, with product images, buying advice, comparisons and sourced ratings where available.`;
   const items=products.map(p=>({id:p.id,searchText:p.searchText,card:<article className="allToolCard" id={p.groupAnchor}>
     <Link href={p.detailHref} className="allToolIdentity"><ProductPhoto photo={p.photo} className="hubProductPhoto"/><span className="eyebrow orange">{p.cluster}</span><h2>{p.brand} {p.model}</h2></Link>
@@ -32,7 +32,7 @@ export default async function TradeTools({params}:{params:Promise<{trade:string}
       <h1>{titles[trade]}</h1>
       <p className={styles.intro}>{products.length} tools. Find your tool, check the buying advice and compare alternatives.</p>
       <nav className={styles.navigation} aria-label="Other ways to shop"><Link href={`/${trade}/#tool-guides`}>Compare tool categories →</Link><Link href={`/${trade}/#job-kits`}>Find a job kit →</Link></nav>
-      <ToolDirectorySearch items={items} groups={categories.map(g=>({slug:g.slug,name:g.cluster}))}/>
+      <ToolDirectorySearch items={items} groups={groups}/>
     </div></section>
   </>;
 }

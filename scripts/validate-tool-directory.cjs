@@ -9,6 +9,13 @@ for(const [trade,count] of Object.entries(expected)){
  const d=getToolDirectory(trade);assert.equal(d.products.length,count);
  assert.equal(new Set(d.products.map(p=>p.id)).size,count);
  assert.equal(d.products.filter(p=>p.groupAnchor).length,d.categories.length);
+ assert.equal(d.groups.length,new Set(d.categories.map(g=>normalizeToolSearch(g.cluster))).size);
+ assert.equal(d.groups.length,new Set(d.groups.map(g=>normalizeToolSearch(g.name))).size);
+ for(const group of d.groups){
+  const first=d.categories.find(g=>normalizeToolSearch(g.cluster)===normalizeToolSearch(group.name));
+  assert.equal(group.slug,first.slug);
+  assert.ok(d.products.some(p=>p.groupAnchor===`tools-${group.slug}`),`${trade}: category anchor exists`);
+ }
  for(const p of d.products){
   assert.ok(p.searchText.includes(normalizeToolSearch(p.brand)));
   if(p.detailHref.startsWith('/reviews/'))assert.ok(getReview(p.detailHref.split('/')[2]),`${p.id}: live standalone destination`);

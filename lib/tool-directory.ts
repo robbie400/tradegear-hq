@@ -7,6 +7,13 @@ export function getToolDirectory(trade:string){
   const hub=getHub(trade);
   if(!hub)return undefined;
   const categories=guides.filter(g=>g.trade===trade);
+  const seenGroups=new Set<string>();
+  const groups=categories.flatMap(g=>{
+    const key=normalizeToolSearch(g.cluster);
+    if(seenGroups.has(key))return [];
+    seenGroups.add(key);
+    return [{slug:g.slug,name:g.cluster}];
+  });
   const products=categories.flatMap(g=>g.products.map((p,index)=>{
     const standalone=p.reviewSlug ? getReview(p.reviewSlug) : undefined;
     const id=p.productId || p.reviewSlug?.replace(/-review$/,'') || `${g.slug}-${index+1}`;
@@ -18,5 +25,5 @@ export function getToolDirectory(trade:string){
       intro:p.assessment?.intro,
       photo:getProductImage(p.productId || p.reviewSlug || `${p.brand} ${p.model}`)};
   }));
-  return {hub,categories,products};
+  return {hub,categories,groups,products};
 }
