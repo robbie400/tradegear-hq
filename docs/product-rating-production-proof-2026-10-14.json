@@ -1,0 +1,23 @@
+{
+  "indexing_enabled": true,
+  "sitemap_urls": 278,
+  "pages": 278,
+  "existing_routes_preserved": 64,
+  "internal_links_checked": 7075,
+  "unique_affiliate_destinations": 318,
+  "errors": [],
+  "rating_links_checked": 604,
+  "sourced_rating_blocks": 326,
+  "scope": "Rendered HTML, metadata, route graph, anchors, disclosure and affiliate markup. This does not verify browser layout, external availability or Amazon inventory.",
+  "commit": "a5acff6542ff4db465f0f93bf7c28abd3243f222",
+  "deployment": "dpl_HAcLnW56DmAT7uDj5UcufwPzSyXi",
+  "state": "READY",
+  "target": "production",
+  "live_spot_checks": [
+    "https://tradegearhq.com/reviews/fluke-115-review",
+    "https://tradegearhq.com/reviews/klein-et20-review",
+    "https://tradegearhq.com/reviews/hvac-fieldpiece-mg44-review"
+  ],
+  "catalogue_entries_with_scores": 188,
+  "catalogue_entries_without_scores": 188
+}
