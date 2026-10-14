@@ -1,4 +1,4 @@
-import {guides,getHub} from './data';
+import {guides,hubs,getHub} from './data';
 import {getReview} from './reviews';
 import {getProductImage} from './product-images';
 import {normalizeToolSearch} from './tool-search';
@@ -26,4 +26,23 @@ export function getToolDirectory(trade:string){
       photo:getProductImage(p.productId || p.reviewSlug || `${p.brand} ${p.model}`)};
   }));
   return {hub,categories,groups,products};
+}
+
+export type GlobalToolSearchItem={id:string;name:string;href:string;trades:string[];searchText:string};
+export function getGlobalToolSearchItems():GlobalToolSearchItem[]{
+  const items=new Map<string,GlobalToolSearchItem>();
+  for(const hub of hubs){
+    const directory=getToolDirectory(hub.slug);
+    if(!directory)continue;
+    for(const product of directory.products){
+      const existing=items.get(product.id);
+      if(existing){
+        existing.trades.push(hub.name);
+        existing.searchText+=` ${product.searchText} ${normalizeToolSearch(hub.name)}`;
+      }else{
+        items.set(product.id,{id:product.id,name:`${product.brand} ${product.model}`,href:product.detailHref,trades:[hub.name],searchText:`${product.searchText} ${normalizeToolSearch(hub.name)}`});
+      }
+    }
+  }
+  return [...items.values()];
 }

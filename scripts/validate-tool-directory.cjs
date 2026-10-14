@@ -1,6 +1,6 @@
 require('./catalog-runtime.cjs');
 const assert=require('node:assert/strict');
-const {getToolDirectory}=require('../lib/tool-directory.ts');
+const {getToolDirectory,getGlobalToolSearchItems}=require('../lib/tool-directory.ts');
 const {normalizeToolSearch,matchesToolSearch}=require('../lib/tool-search.ts');
 const {getReview}=require('../lib/reviews.ts');
 const {getGuide}=require('../lib/data.ts');
@@ -31,4 +31,13 @@ assert.deepEqual(find('dCs335b').map(p=>p.id),['dewalt-dcs335b']);
 assert.ok(find('jigsaw').length>=5);
 assert.equal(find('no-such-brand-xyz').length,0);
 assert.equal(getToolDirectory('unknown-trade'),undefined);
+const globalItems=getGlobalToolSearchItems();
+assert.equal(new Set(globalItems.map(p=>p.id)).size,globalItems.length);
+for(const trade of Object.keys(expected)){
+ const d=getToolDirectory(trade);
+ for(const p of d.products){const global=globalItems.find(item=>item.id===p.id);assert.ok(global);assert.ok(global.trades.includes(d.hub.name));}
+}
+assert.equal(globalItems.filter(p=>matchesToolSearch(p.searchText,'Estwing claw hammer')).length,1);
+assert.ok(globalItems.some(p=>matchesToolSearch(p.searchText,'Fluke 117')));
+assert.equal(globalItems.filter(p=>matchesToolSearch(p.searchText,'no-such-brand-xyz')).length,0);
 console.log('Tool directories passed: five complete catalogues, exact detail destinations and useful search results.');

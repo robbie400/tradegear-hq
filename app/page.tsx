@@ -2,6 +2,8 @@ import Link from "next/link";
 import { guides,hubs,getHub } from "@/lib/data";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getGuideImage } from "@/lib/guide-images";
+import { GlobalToolSearch } from "@/components/GlobalToolSearch";
+import { getGlobalToolSearchItems } from "@/lib/tool-directory";
 
 // Editorial selection: one useful entry point per trade, independent of traffic.
 const featuredSlugs = [
@@ -19,6 +21,7 @@ export default function Home(){
           <h1>Find the Right Tool for the Job.</h1>
           <p>Trade-specific comparisons for electricians, plumbers, HVAC techs, home inspectors and carpenters. Compare faster. Buy smarter.</p>
           <div className="heroActions"><a className="orangeBtn" href="#trades">Choose Your Trade</a><a className="ghostBtn" href="#popular">See Featured Guides</a></div>
+          <GlobalToolSearch items={getGlobalToolSearchItems()}/>
           <div className="trustLine"><span>✓ Built around real trade workflows</span><span>✓ Clear pros, tradeoffs & picks</span><span>✓ Amazon buying links</span></div>
         </div>
         <div className="heroMedia" aria-label="Professional trade work">
