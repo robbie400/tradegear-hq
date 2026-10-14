@@ -11,6 +11,6 @@ const entries=guides.flatMap(g=>g.products.map(p=>{
 }));
 const byTrade=Object.fromEntries([...new Set(entries.map(e=>e.trade))].map(t=>{const es=entries.filter(e=>e.trade===t);return [t,{entries:es.length,sourced:es.filter(e=>e.rating).length,missing:es.filter(e=>!e.rating).length}]}));
 const report={total:entries.length,sourced:entries.filter(e=>e.rating).length,missing:entries.filter(e=>!e.rating).length,complete:entries.every(e=>e.rating),byTrade,entries};
-if(process.argv.includes('--save'))fs.writeFileSync('docs/product-rating-coverage-2026-10-13.json',JSON.stringify(report,null,2)+'\n');
+if(process.argv.includes('--save'))fs.writeFileSync(`docs/product-rating-coverage-${new Date().toISOString().slice(0,10)}.json`,JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({...report,entries:undefined},null,2));
 if(process.argv.includes('--require-complete')&&!report.complete)process.exitCode=1;

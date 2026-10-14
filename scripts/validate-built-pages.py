@@ -7,9 +7,13 @@ from urllib.parse import urlsplit, unquote
 ROOT = Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
     def __init__(self):
-        super().__init__(); self.links=[]; self.ids=set(); self.h1=0; self.title=''; self.description=''; self.robots=[]; self.canonical=[]; self.in_title=False; self.in_script=False; self.text=[]
+        super().__init__(); self.links=[]; self.ids=set(); self.h1=0; self.title=''; self.description=''; self.robots=[]; self.canonical=[]; self.in_title=False; self.in_script=False; self.text=[]; self.rating_blocks=[]; self.current_rating=None
     def handle_starttag(self, tag, attrs):
         attrs=dict(attrs)
+        if tag=='aside' and ('data-product-rating' in attrs or 'data-amazon-reviews' in attrs):
+            self.current_rating={'sourced':'data-product-rating' in attrs,'links':[]}
+            self.rating_blocks.append(self.current_rating)
+        if tag=='a' and self.current_rating is not None: self.current_rating['links'].append(attrs)
         if attrs.get('id'): self.ids.add(attrs['id'])
         if tag=='a': self.links.append(attrs)
         if tag=='h1': self.h1+=1
@@ -19,6 +23,7 @@ class Page(HTMLParser):
         if tag=='meta' and attrs.get('name')=='robots': self.robots.append(attrs.get('content',''))
         if tag=='link' and attrs.get('rel')=='canonical': self.canonical.append(attrs.get('href'))
     def handle_endtag(self, tag):
+        if tag=='aside': self.current_rating=None
         if tag=='title': self.in_title=False
         if tag=='script': self.in_script=False
     def handle_data(self, value):
@@ -35,6 +40,14 @@ for route in sorted(routes):
     path=ROOT/'.next/server/app'/('index.html' if route=='/' else route.lstrip('/')+'.html')
     if not path.exists(): errors.append([route,'missing rendered HTML']); continue
     html=path.read_text(); p=Page(); p.feed(html); pages[route]=p
+    for block in p.rating_blocks:
+        if len(block['links'])!=1: errors.append([route,'rating must have one Amazon destination'])
+        for link in block['links']:
+            destination=urlsplit(link.get('href',''))
+            if destination.hostname!='www.amazon.com' or 'tag=robbieom0e-20' not in destination.query:
+                errors.append([route,'rating destination is not tagged Amazon',link.get('href')])
+            if not link.get('data-trade') or not link.get('data-product'):
+                errors.append([route,'rating click tracking missing'])
     if p.h1!=1: errors.append([route,'expected one H1',p.h1])
     if not p.title or p.title in titles: errors.append([route,'missing/duplicate title'])
     if not p.description or p.description in descriptions: errors.append([route,'missing/duplicate description'])
@@ -80,6 +93,7 @@ if live:
 else:
     if 'Disallow: /' not in robots or locations: errors.append(['robots/sitemap','staging discovery mismatch'])
 report={'indexing_enabled':live,'sitemap_urls':len(locations),'pages':len(pages),'existing_routes_preserved':len(baseline),'internal_links_checked':internal_count,'unique_affiliate_destinations':len(amazon_urls),'errors':errors,
+        'rating_links_checked':sum(len(p.rating_blocks) for p in pages.values()),'sourced_rating_blocks':sum(b['sourced'] for p in pages.values() for b in p.rating_blocks),
         'scope':'Rendered HTML, metadata, route graph, anchors, disclosure and affiliate markup. This does not verify browser layout, external availability or Amazon inventory.'}
 print(json.dumps(report,indent=2))
 sys.exit(bool(errors))
