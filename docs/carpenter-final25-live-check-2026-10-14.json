@@ -1,0 +1,234 @@
+{
+  "checkedDate": "2026-10-14",
+  "deployment": "dpl_CkrHPeW98dT1C8Mg29wqWkoyKE9g",
+  "commit": "1ff05b99ff97dd83458cb5867d5ac41339385c52",
+  "pages": [
+    {
+      "path": "/reviews/carpenters-dewalt-dcs335b-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-makita-xvj01z-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-makita-xvj04z-review/",
+      "status": 200,
+      "amazonLinks": 4,
+      "quoteCards": 1,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-bosch-js572ebk-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-milwaukee-2737-20-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-dewalt-dcs367b-review/",
+      "status": 200,
+      "amazonLinks": 4,
+      "quoteCards": 1,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-dewalt-dcs389b-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-milwaukee-2821-20-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-makita-xrj05z-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-bosch-gsa18v-110n-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-dewalt-dcn920b-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-milwaukee-2745-20-review/",
+      "status": 200,
+      "amazonLinks": 4,
+      "quoteCards": 1,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-milwaukee-2540-20-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-metabo-np35a-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-metabo-nt65ma4-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-dewalt-dwfp55130-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-dewalt-dwfp55126-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-makita-mac100q-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-makita-mac2400-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-metabo-ec914s-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-wen-4214t-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-wen-ba3962-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-jet-jwbs-14sfx-blk-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-jet-joss-s-review/",
+      "status": 200,
+      "amazonLinks": 3,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/reviews/carpenters-dewalt-dw756-review/",
+      "status": 200,
+      "amazonLinks": 5,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/carpenters/jigsaws-for-carpenters-joiners/",
+      "status": 200,
+      "amazonLinks": 24,
+      "quoteCards": 9,
+      "errors": []
+    },
+    {
+      "path": "/carpenters/reciprocating-saws-for-carpenters/",
+      "status": 200,
+      "amazonLinks": 22,
+      "quoteCards": 7,
+      "errors": []
+    },
+    {
+      "path": "/carpenters/framing-pin-finish-nailers-for-carpenters/",
+      "status": 200,
+      "amazonLinks": 22,
+      "quoteCards": 7,
+      "errors": []
+    },
+    {
+      "path": "/carpenters/air-compressors-for-carpenter-nailers/",
+      "status": 200,
+      "amazonLinks": 21,
+      "quoteCards": 6,
+      "errors": []
+    },
+    {
+      "path": "/carpenters/workshop-machines-for-carpenters-joiners/",
+      "status": 200,
+      "amazonLinks": 17,
+      "quoteCards": 2,
+      "errors": []
+    },
+    {
+      "path": "/carpenters/tools/",
+      "status": 200,
+      "amazonLinks": 100,
+      "quoteCards": 0,
+      "errors": []
+    },
+    {
+      "path": "/carpenters/",
+      "status": 200,
+      "amazonLinks": 0,
+      "quoteCards": 0,
+      "errors": []
+    }
+  ],
+  "missingFromSitemap": [],
+  "quotesOnNewStandalonePages": 31,
+  "scope": "Live HTML, canonical URLs, robots metadata, Amazon href tags and sitemap inclusion. No Amazon stock/listing verification or independent mobile-browser check. The trade hub navigates to tools/comparisons and intentionally has no direct Amazon buying links."
+}
