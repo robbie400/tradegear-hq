@@ -18,7 +18,7 @@ export function ProductFeedback({ trade, brand, model, productId, amazonUrl, sho
       <div className={styles.body}>
         <FeedbackAvatar key={feedback.productId} initials={feedback.avatar} src={feedback.portrait?.src} />
         <div className={styles.copy}>
-          <p className={styles.summary}>{feedback.summary}</p>
+          {feedback.quote ? <blockquote className={styles.pullQuote}>“{feedback.quote}”</blockquote> : <p className={styles.summary}>{feedback.summary}</p>}
           <div className={styles.person}><strong>{feedback.author}</strong><span>{feedback.context}</span></div>
         </div>
       </div>
@@ -28,7 +28,7 @@ export function ProductFeedback({ trade, brand, model, productId, amazonUrl, sho
       </div>
       <details className={styles.notes}>
         <summary>About this feedback</summary>
-        <p>Summary of customer feedback from {feedback.source}. Individual experiences may differ.</p>
+        <p>{feedback.quote ? "Short quotation of customer feedback" : "Summary of customer feedback"} from {feedback.source}. Individual experiences may differ.</p>
         {feedback.portrait && <p>Reviewer photo: <a href={feedback.portrait.sourceUrl} target="_blank" rel="noopener noreferrer">{feedback.portrait.credit}</a>.</p>}
         {feedback.match === "Tool family" && <p>This discussion concerns the tool family; the model or supplied accessories may differ from the configuration on this page.</p>}
       </details>

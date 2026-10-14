@@ -66,9 +66,9 @@ assert.ok(report.plumbers.products >= report.electricians.products);
 console.log(JSON.stringify({ ...report, newPlumbingReviews:plumberCatalogReviews.length, duplicateImageUrls:0, status:'passed'}, null, 2));
 
 assert.deepEqual(report['home-inspectors'],{guides:14,products:66,photos:66,workflows:8});
-assert.deepEqual(report.carpenters,{guides:15,products:75,photos:75,workflows:8});
+assert.deepEqual(report.carpenters,{guides:20,products:100,photos:100,workflows:8});
 const carpenterReviews=reviews.filter(r=>r.trade==='carpenters');
-assert.equal(carpenterReviews.length,75);
+assert.equal(carpenterReviews.length,100);
 for(const r of carpenterReviews){
  assert.ok(r.sections.length>=3,`${r.slug}: fuller product analysis`);
  assert.ok(getProductImage(r.slug),`${r.slug}: standalone model photo`);

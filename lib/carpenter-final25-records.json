@@ -1,0 +1,252 @@
+[
+  {
+    "i": 0,
+    "cat": "jig",
+    "brand": "DeWalt",
+    "model": "DCS335B",
+    "url": "https://www.dewalt.com/en-us/product/dcs335b/20v-max-xr-cordless-barrel-grip-jig-saw-tool-only",
+    "id": "dewalt-dcs335b",
+    "label": "20V MAX XR Barrel-Grip Jig Saw",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcs335b/20v-max-xr-cordless-barrel-grip-jig-saw-tool-only"
+  },
+  {
+    "i": 1,
+    "cat": "jig",
+    "brand": "Makita",
+    "model": "XVJ01Z",
+    "url": "https://makitatools.com/products/details/XVJ01Z",
+    "id": "makita-xvj01z",
+    "label": "18V LXT Barrel-Grip Jig Saw",
+    "sourceUrl": "https://makitatools.com/products/details/XVJ01Z"
+  },
+  {
+    "i": 2,
+    "cat": "jig",
+    "brand": "Makita",
+    "model": "XVJ04Z",
+    "url": "https://makitatools.com/products/details/XVJ04Z",
+    "id": "makita-xvj04z",
+    "label": "18V LXT D-Handle Jig Saw",
+    "sourceUrl": "https://makitatools.com/products/details/XVJ04Z"
+  },
+  {
+    "i": 3,
+    "cat": "jig",
+    "brand": "Bosch",
+    "model": "JS572EBK",
+    "url": "https://www.boschtools.com/us/en/products/js572ebk-0601514012",
+    "id": "bosch-js572ebk",
+    "label": "7.2-Amp Barrel-Grip Jig Saw Kit",
+    "sourceUrl": "https://www.boschtools.com/us/en/products/js572ebk-0601514012"
+  },
+  {
+    "i": 4,
+    "cat": "jig",
+    "brand": "Milwaukee",
+    "model": "2737-20",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-d-handle-jig-saw/2737-20",
+    "id": "milwaukee-2737-20",
+    "label": "M18 FUEL D-Handle Jig Saw",
+    "sourceUrl": "https://www.milwaukeetool.com/products/details/m18-fuel-d-handle-jig-saw/2737-20"
+  },
+  {
+    "i": 5,
+    "cat": "recip",
+    "brand": "DeWalt",
+    "model": "DCS367B",
+    "url": "https://www.dewalt.com/en-us/product/dcs367b/20v-max-xr-brushless-compact-reciprocating-saw-tool-only",
+    "id": "dewalt-dcs367b",
+    "label": "20V MAX XR Compact Reciprocating Saw",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcs367b/20v-max-xr-brushless-compact-reciprocating-saw-tool-only"
+  },
+  {
+    "i": 6,
+    "cat": "recip",
+    "brand": "DeWalt",
+    "model": "DCS389B",
+    "url": "https://www.dewalt.com/en-us/product/dcs389b/60v-max-brushless-cordless-reciprocating-saw-tool-only",
+    "id": "dewalt-dcs389b",
+    "label": "60V MAX FLEXVOLT Reciprocating Saw",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcs389b/60v-max-brushless-cordless-reciprocating-saw-tool-only"
+  },
+  {
+    "i": 7,
+    "cat": "recip",
+    "brand": "Milwaukee",
+    "model": "2821-20",
+    "url": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+    "id": "milwaukee-2821-20",
+    "label": "M18 FUEL SAWZALL Reciprocating Saw",
+    "sourceUrl": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20"
+  },
+  {
+    "i": 8,
+    "cat": "recip",
+    "brand": "Makita",
+    "model": "XRJ05Z",
+    "url": "https://makitatools.com/products/details/XRJ05Z",
+    "id": "makita-xrj05z",
+    "label": "18V LXT Brushless Recipro Saw",
+    "sourceUrl": "https://makitatools.com/products/details/XRJ05Z"
+  },
+  {
+    "i": 9,
+    "cat": "recip",
+    "brand": "Bosch",
+    "model": "GSA18V-110N",
+    "url": "https://www.boschtools.com/us/en/products/gsa18v-110n-06016C001D",
+    "id": "bosch-gsa18v-110n",
+    "label": "18V PROFACTOR Reciprocating Saw",
+    "sourceUrl": "https://www.boschtools.com/us/en/products/gsa18v-110n-06016C001D"
+  },
+  {
+    "i": 10,
+    "cat": "nail",
+    "brand": "DeWalt",
+    "model": "DCN920B",
+    "url": "https://www.homedepot.com/p/DEWALT-20-Volt-21-Cordless-Framing-Nailer-Tool-Only-DCN920B/328691945",
+    "id": "dewalt-dcn920b",
+    "label": "20V MAX XR 21-Degree Framing Nailer",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcn920b/20v-max-xr-brushless-cordless-21deg-plastic-collated-framing-nailer-tool-only"
+  },
+  {
+    "i": 11,
+    "cat": "nail",
+    "brand": "Milwaukee",
+    "model": "2745-20",
+    "url": "https://www.homedepot.com/p/Milwaukee-M18-FUEL-3-1-2-in-18-Volt-30-Degree-Lithium-Ion-Brushless-Cordless-Framing-Nailer-Tool-Only-2745-20/309987729",
+    "id": "milwaukee-2745-20",
+    "label": "M18 FUEL 30-Degree Framing Nailer",
+    "sourceUrl": "https://www.milwaukeetool.com/2745-20"
+  },
+  {
+    "i": 12,
+    "cat": "nail",
+    "brand": "Milwaukee",
+    "model": "2540-20",
+    "url": "https://www.homedepot.com/p/Milwaukee-M12-12-Volt-23-Gauge-Lithium-Ion-Cordless-Pin-Nailer-Tool-Only-2540-20/314484000",
+    "id": "milwaukee-2540-20",
+    "label": "M12 23-Gauge Pin Nailer",
+    "sourceUrl": "https://www.homedepot.com/p/Milwaukee-M12-12-Volt-23-Gauge-Lithium-Ion-Cordless-Pin-Nailer-Tool-Only-2540-20/314484000"
+  },
+  {
+    "i": 13,
+    "cat": "nail",
+    "brand": "Metabo HPT",
+    "model": "NP35A",
+    "url": "https://www.metabo-hpt.com/products/product/np35a-1-3-8-23-gauge-pin-nailer-metabo-hpt",
+    "id": "metabo-np35a",
+    "label": "23-Gauge Pneumatic Micro Pin Nailer",
+    "sourceUrl": "https://www.metabo-hpt.com/products/product/np35a-1-3-8-23-gauge-pin-nailer-metabo-hpt"
+  },
+  {
+    "i": 14,
+    "cat": "nail",
+    "brand": "Metabo HPT",
+    "model": "NT65MA4",
+    "url": "https://www.metabo-hpt.com/products/product/nt65ma4-2-1-2-15-gauge-angled-finish-nailer-with-air-duster-metabo-hpt",
+    "id": "metabo-nt65ma4",
+    "label": "15-Gauge Pneumatic Angled Finish Nailer",
+    "sourceUrl": "https://www.metabo-hpt.com/products/product/nt65ma4-2-1-2-15-gauge-angled-finish-nailer-with-air-duster-metabo-hpt"
+  },
+  {
+    "i": 15,
+    "cat": "air",
+    "brand": "DeWalt",
+    "model": "DWFP55130",
+    "url": "https://www.dewalt.com/en-us/product/dwfp55130/dewalt-200-psi-quiet-trim-compressor",
+    "id": "dewalt-dwfp55130",
+    "label": "2.5-Gallon Quiet Trim Compressor",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dwfp55130/dewalt-200-psi-quiet-trim-compressor"
+  },
+  {
+    "i": 16,
+    "cat": "air",
+    "brand": "DeWalt",
+    "model": "DWFP55126",
+    "url": "https://www.homedepot.com/p/DEWALT-6-Gal-165-PSI-Electric-Pancake-Air-Compressor-DWFP55126/205298243",
+    "id": "dewalt-dwfp55126",
+    "label": "6-Gallon Pancake Air Compressor",
+    "sourceUrl": "https://www.dewalt.ca/en-ca/product/dwfp55126/dewalt-heavy-duty-165-psi-pancake-compressor"
+  },
+  {
+    "i": 17,
+    "cat": "air",
+    "brand": "Makita",
+    "model": "MAC100Q",
+    "url": "https://makitatools.com/products/details/MAC100Q",
+    "id": "makita-mac100q",
+    "label": "Quiet Series 1-Gallon Air Compressor",
+    "sourceUrl": "https://makitatools.com/products/details/MAC100Q"
+  },
+  {
+    "i": 18,
+    "cat": "air",
+    "brand": "Makita",
+    "model": "MAC2400",
+    "url": "https://makitatools.com/products/details/MAC2400",
+    "id": "makita-mac2400",
+    "label": "4.2-Gallon Big Bore Air Compressor",
+    "sourceUrl": "https://makitatools.com/products/details/MAC2400"
+  },
+  {
+    "i": 19,
+    "cat": "air",
+    "brand": "Metabo HPT",
+    "model": "EC914S",
+    "url": "https://www.metabo-hpt.com/products/product/the-tank-6-gallon-high-capacity-pancake-air-compressor-metabo-hpt-ec914s",
+    "id": "metabo-ec914s",
+    "label": "THE TANK 6-Gallon Air Compressor",
+    "sourceUrl": "https://www.metabo-hpt.com/products/product/the-tank-6-gallon-high-capacity-pancake-air-compressor-metabo-hpt-ec914s"
+  },
+  {
+    "i": 20,
+    "cat": "shop",
+    "brand": "WEN",
+    "model": "4214T",
+    "url": "https://wenproducts.com/products/wen-4214t-12-in-variable-speed-drill-press",
+    "id": "wen-4214t",
+    "label": "12-Inch Variable-Speed Drill Press",
+    "sourceUrl": "https://wenproducts.com/products/wen-4214t-12-in-variable-speed-drill-press"
+  },
+  {
+    "i": 21,
+    "cat": "shop",
+    "brand": "WEN",
+    "model": "BA3962",
+    "url": "https://wenproducts.com/products/wen-ba3962-3-5-amp-10-inch-two-speed-band-saw-with-stand-and-worklight",
+    "id": "wen-ba3962",
+    "label": "10-Inch Two-Speed Bandsaw with Stand",
+    "sourceUrl": "https://wenproducts.com/products/wen-ba3962-3-5-amp-10-inch-two-speed-band-saw-with-stand-and-worklight"
+  },
+  {
+    "i": 22,
+    "cat": "shop",
+    "brand": "JET",
+    "model": "JWBS-14SFX-BLK",
+    "url": "https://www.jettools.com/14-inch-sfx-jet-black-woodworking-bandsaw",
+    "id": "jet-jwbs-14sfx-blk",
+    "label": "14-Inch JET BLACK Bandsaw",
+    "sourceUrl": "https://www.jettools.com/14-inch-sfx-jet-black-woodworking-bandsaw"
+  },
+  {
+    "i": 23,
+    "cat": "shop",
+    "brand": "JET",
+    "model": "JOSS-S",
+    "url": "https://www.jettools.com/joss-s-floor-model-oscillating-spindle-sander-1hp-1ph-115v",
+    "id": "jet-joss-s",
+    "label": "Floor-Standing Oscillating Spindle Sander",
+    "sourceUrl": "https://www.jettools.com/joss-s-floor-model-oscillating-spindle-sander-1hp-1ph-115v"
+  },
+  {
+    "i": 24,
+    "cat": "shop",
+    "brand": "DeWalt",
+    "model": "DW756",
+    "url": "https://www.dewalt.com/en-us/product/dw756/6-150mm-bench-grinder",
+    "id": "dewalt-dw756",
+    "label": "6-Inch Bench Grinder",
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dw756/6-150mm-bench-grinder"
+  }
+]

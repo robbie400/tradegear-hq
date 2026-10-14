@@ -11,6 +11,7 @@ export type ProductFeedback = {
   source: string;
   url: string;
   summary: string;
+  quote?: string;
   match: "Exact model" | "Tool family";
   caveat: string;
   permission: "pending";

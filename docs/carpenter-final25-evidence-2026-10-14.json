@@ -1,0 +1,1270 @@
+{
+  "checkedDate": "2026-10-14",
+  "products": [
+    {
+      "id": "dewalt-dcs335b",
+      "brand": "DeWalt",
+      "model": "DCS335B",
+      "sourceUrl": "https://www.dewalt.com/en-us/product/dcs335b/20v-max-xr-cordless-barrel-grip-jig-saw-tool-only",
+      "specifications": [
+        [
+          "Platform",
+          "20V MAX; tool only"
+        ],
+        [
+          "Grip",
+          "Barrel grip"
+        ],
+        [
+          "Blade holder",
+          "T-shank; tool-free release"
+        ]
+      ]
+    },
+    {
+      "id": "makita-xvj01z",
+      "brand": "Makita",
+      "model": "XVJ01Z",
+      "sourceUrl": "https://makitatools.com/products/details/XVJ01Z",
+      "specifications": [
+        [
+          "Platform",
+          "18V LXT; tool only"
+        ],
+        [
+          "Speed dial",
+          "800\u20133,500 SPM"
+        ],
+        [
+          "Orbital settings",
+          "Three plus straight cutting"
+        ]
+      ]
+    },
+    {
+      "id": "makita-xvj04z",
+      "brand": "Makita",
+      "model": "XVJ04Z",
+      "sourceUrl": "https://makitatools.com/products/details/XVJ04Z",
+      "specifications": [
+        [
+          "Platform",
+          "18V LXT; tool only"
+        ],
+        [
+          "Speed",
+          "0\u20133,000 SPM"
+        ],
+        [
+          "Control",
+          "Variable trigger; orbital selection"
+        ]
+      ]
+    },
+    {
+      "id": "bosch-js572ebk",
+      "brand": "Bosch",
+      "model": "JS572EBK",
+      "sourceUrl": "https://www.boschtools.com/us/en/products/js572ebk-0601514012",
+      "specifications": [
+        [
+          "Supply",
+          "7.2-amp corded"
+        ],
+        [
+          "Grip",
+          "Barrel grip"
+        ],
+        [
+          "Guidance",
+          "Precision Control II double rollers"
+        ]
+      ]
+    },
+    {
+      "id": "milwaukee-2737-20",
+      "brand": "Milwaukee",
+      "model": "2737-20",
+      "sourceUrl": "https://www.milwaukeetool.com/products/details/m18-fuel-d-handle-jig-saw/2737-20",
+      "specifications": [
+        [
+          "Platform",
+          "M18; tool only"
+        ],
+        [
+          "Speed range",
+          "0\u20133,500 SPM"
+        ],
+        [
+          "Blade fit",
+          "T-shank"
+        ]
+      ]
+    },
+    {
+      "id": "dewalt-dcs367b",
+      "brand": "DeWalt",
+      "model": "DCS367B",
+      "sourceUrl": "https://www.dewalt.com/en-us/product/dcs367b/20v-max-xr-brushless-compact-reciprocating-saw-tool-only",
+      "specifications": [
+        [
+          "Platform",
+          "20V MAX; tool only"
+        ],
+        [
+          "Body length",
+          "14.5 inches; manufacturer"
+        ],
+        [
+          "Blade clamp",
+          "Four positions"
+        ]
+      ]
+    },
+    {
+      "id": "dewalt-dcs389b",
+      "brand": "DeWalt",
+      "model": "DCS389B",
+      "sourceUrl": "https://www.dewalt.com/en-us/product/dcs389b/60v-max-brushless-cordless-reciprocating-saw-tool-only",
+      "specifications": [
+        [
+          "Platform",
+          "60V MAX FLEXVOLT; tool only"
+        ],
+        [
+          "Speed",
+          "0\u20133,000 SPM"
+        ],
+        [
+          "Stroke",
+          "1-1/8 inches"
+        ]
+      ]
+    },
+    {
+      "id": "milwaukee-2821-20",
+      "brand": "Milwaukee",
+      "model": "2821-20",
+      "sourceUrl": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+      "specifications": [
+        [
+          "Platform",
+          "M18; tool only"
+        ],
+        [
+          "Format",
+          "Full-size reciprocating saw"
+        ],
+        [
+          "Motor",
+          "Brushless"
+        ]
+      ]
+    },
+    {
+      "id": "makita-xrj05z",
+      "brand": "Makita",
+      "model": "XRJ05Z",
+      "sourceUrl": "https://makitatools.com/products/details/XRJ05Z",
+      "specifications": [
+        [
+          "Platform",
+          "18V LXT; tool only"
+        ],
+        [
+          "Speed ranges",
+          "0\u20132,300 / 0\u20133,000 SPM"
+        ],
+        [
+          "Stroke",
+          "1-1/4 inches"
+        ]
+      ]
+    },
+    {
+      "id": "bosch-gsa18v-110n",
+      "brand": "Bosch",
+      "model": "GSA18V-110N",
+      "sourceUrl": "https://www.boschtools.com/us/en/products/gsa18v-110n-06016C001D",
+      "specifications": [
+        [
+          "Platform",
+          "Bosch 18V; tool only"
+        ],
+        [
+          "Stroke",
+          "1-1/8 inches"
+        ],
+        [
+          "Speed",
+          "0\u20132,900 SPM"
+        ]
+      ]
+    },
+    {
+      "id": "dewalt-dcn920b",
+      "brand": "DeWalt",
+      "model": "DCN920B",
+      "sourceUrl": "https://www.dewalt.com/en-us/product/dcn920b/20v-max-xr-brushless-cordless-21deg-plastic-collated-framing-nailer-tool-only",
+      "specifications": [
+        [
+          "Platform",
+          "20V MAX XR; tool only"
+        ],
+        [
+          "Collation",
+          "21-degree plastic"
+        ],
+        [
+          "Motor",
+          "Brushless"
+        ]
+      ]
+    },
+    {
+      "id": "milwaukee-2745-20",
+      "brand": "Milwaukee",
+      "model": "2745-20",
+      "sourceUrl": "https://www.milwaukeetool.com/2745-20",
+      "specifications": [
+        [
+          "Platform",
+          "M18; tool only"
+        ],
+        [
+          "Collation",
+          "30-degree framing"
+        ],
+        [
+          "Nail length",
+          "2\u20133-1/2 inches; manual"
+        ]
+      ]
+    },
+    {
+      "id": "milwaukee-2540-20",
+      "brand": "Milwaukee",
+      "model": "2540-20",
+      "sourceUrl": "https://www.homedepot.com/p/Milwaukee-M12-12-Volt-23-Gauge-Lithium-Ion-Cordless-Pin-Nailer-Tool-Only-2540-20/314484000",
+      "specifications": [
+        [
+          "Platform",
+          "M12; tool only"
+        ],
+        [
+          "Fastener",
+          "23-gauge headless pin"
+        ],
+        [
+          "Length",
+          "1/2\u20131-3/8 inches"
+        ]
+      ]
+    },
+    {
+      "id": "metabo-np35a",
+      "brand": "Metabo HPT",
+      "model": "NP35A",
+      "sourceUrl": "https://www.metabo-hpt.com/products/product/np35a-1-3-8-23-gauge-pin-nailer-metabo-hpt",
+      "specifications": [
+        [
+          "Supply",
+          "Pneumatic"
+        ],
+        [
+          "Fastener",
+          "23-gauge headless pins"
+        ],
+        [
+          "Lengths",
+          "5/8\u20131-3/8 inches"
+        ]
+      ]
+    },
+    {
+      "id": "metabo-nt65ma4",
+      "brand": "Metabo HPT",
+      "model": "NT65MA4",
+      "sourceUrl": "https://www.metabo-hpt.com/products/product/nt65ma4-2-1-2-15-gauge-angled-finish-nailer-with-air-duster-metabo-hpt",
+      "specifications": [
+        [
+          "Supply",
+          "Pneumatic"
+        ],
+        [
+          "Fastener",
+          "15-gauge angled finish nail"
+        ],
+        [
+          "Length",
+          "1-1/4\u20132-1/2 inches"
+        ]
+      ]
+    },
+    {
+      "id": "dewalt-dwfp55130",
+      "brand": "DeWalt",
+      "model": "DWFP55130",
+      "sourceUrl": "https://www.dewalt.com/en-us/product/dwfp55130/dewalt-200-psi-quiet-trim-compressor",
+      "specifications": [
+        [
+          "Tank",
+          "2.5 gallons"
+        ],
+        [
+          "Delivery",
+          "3.0 SCFM at 90 PSI"
+        ],
+        [
+          "Maximum stored pressure",
+          "200 PSI"
+        ]
+      ]
+    },
+    {
+      "id": "dewalt-dwfp55126",
+      "brand": "DeWalt",
+      "model": "DWFP55126",
+      "sourceUrl": "https://www.dewalt.ca/en-ca/product/dwfp55126/dewalt-heavy-duty-165-psi-pancake-compressor",
+      "specifications": [
+        [
+          "Tank",
+          "6 gallons"
+        ],
+        [
+          "Delivery",
+          "2.6 SCFM at 90 PSI"
+        ],
+        [
+          "Maximum stored pressure",
+          "165 PSI"
+        ]
+      ]
+    },
+    {
+      "id": "makita-mac100q",
+      "brand": "Makita",
+      "model": "MAC100Q",
+      "sourceUrl": "https://makitatools.com/products/details/MAC100Q",
+      "specifications": [
+        [
+          "Tank",
+          "1 gallon"
+        ],
+        [
+          "Delivery",
+          "0.7 CFM at 90 PSI"
+        ],
+        [
+          "Pump",
+          "Oil-free"
+        ]
+      ]
+    },
+    {
+      "id": "makita-mac2400",
+      "brand": "Makita",
+      "model": "MAC2400",
+      "sourceUrl": "https://makitatools.com/products/details/MAC2400",
+      "specifications": [
+        [
+          "Tank",
+          "4.2 gallons; twin stacked"
+        ],
+        [
+          "Delivery",
+          "4.2 CFM at 90 PSI"
+        ],
+        [
+          "Pump",
+          "Oil lubricated"
+        ]
+      ]
+    },
+    {
+      "id": "metabo-ec914s",
+      "brand": "Metabo HPT",
+      "model": "EC914S",
+      "sourceUrl": "https://www.metabo-hpt.com/products/product/the-tank-6-gallon-high-capacity-pancake-air-compressor-metabo-hpt-ec914s",
+      "specifications": [
+        [
+          "Tank",
+          "6 gallons"
+        ],
+        [
+          "Delivery",
+          "4 CFM at 90 PSI"
+        ],
+        [
+          "Maximum stored pressure",
+          "200 PSI"
+        ]
+      ]
+    },
+    {
+      "id": "wen-4214t",
+      "brand": "WEN",
+      "model": "4214T",
+      "sourceUrl": "https://wenproducts.com/products/wen-4214t-12-in-variable-speed-drill-press",
+      "specifications": [
+        [
+          "Swing",
+          "12 inches"
+        ],
+        [
+          "Spindle travel",
+          "3-1/8 inches"
+        ],
+        [
+          "Speed range",
+          "580\u20133,200 RPM"
+        ]
+      ]
+    },
+    {
+      "id": "wen-ba3962",
+      "brand": "WEN",
+      "model": "BA3962",
+      "sourceUrl": "https://wenproducts.com/products/wen-ba3962-3-5-amp-10-inch-two-speed-band-saw-with-stand-and-worklight",
+      "specifications": [
+        [
+          "Wheel class",
+          "10 inches"
+        ],
+        [
+          "Cutting height",
+          "Up to 6 inches"
+        ],
+        [
+          "Blade length",
+          "72 inches"
+        ]
+      ]
+    },
+    {
+      "id": "jet-jwbs-14sfx-blk",
+      "brand": "JET",
+      "model": "JWBS-14SFX-BLK",
+      "sourceUrl": "https://www.jettools.com/14-inch-sfx-jet-black-woodworking-bandsaw",
+      "specifications": [
+        [
+          "Model",
+          "JWBS-14SFX-BLK; JET BLACK"
+        ],
+        [
+          "Motor",
+          "1.75 HP; 115/230V"
+        ],
+        [
+          "Cutting height",
+          "13 inches; specification table"
+        ]
+      ]
+    },
+    {
+      "id": "jet-joss-s",
+      "brand": "JET",
+      "model": "JOSS-S",
+      "sourceUrl": "https://www.jettools.com/joss-s-floor-model-oscillating-spindle-sander-1hp-1ph-115v",
+      "specifications": [
+        [
+          "Model",
+          "JOSS-S; stock JT9-723950"
+        ],
+        [
+          "Format",
+          "Floor-standing spindle sander"
+        ],
+        [
+          "Motor",
+          "1 HP; manufacturer"
+        ]
+      ]
+    },
+    {
+      "id": "dewalt-dw756",
+      "brand": "DeWalt",
+      "model": "DW756",
+      "sourceUrl": "https://www.dewalt.com/en-us/product/dw756/6-150mm-bench-grinder",
+      "specifications": [
+        [
+          "Wheel diameter",
+          "6 inches"
+        ],
+        [
+          "Speed",
+          "3,450 RPM"
+        ],
+        [
+          "Motor",
+          "5/8 HP induction"
+        ]
+      ]
+    }
+  ],
+  "ratingEvidence": [
+    {
+      "productId": "dewalt-dcs335b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCS335B",
+      "value": 4.3,
+      "count": 21,
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcs335b/20v-max-xr-cordless-barrel-grip-jig-saw-tool-only",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "bosch-js572ebk",
+      "trade": "carpenters",
+      "brand": "Bosch",
+      "modelNumber": "JS572EBK",
+      "value": 4.7,
+      "count": 17,
+      "source": "Bosch",
+      "url": "https://www.boschtools.com/us/en/products/js572ebk-0601514012",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "milwaukee-2737-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2737-20",
+      "value": 4.8,
+      "count": 1648,
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/products/details/m18-fuel-d-handle-jig-saw/2737-20",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "dewalt-dcs367b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCS367B",
+      "value": 4.5,
+      "count": 110,
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcs367b/20v-max-xr-brushless-compact-reciprocating-saw-tool-only",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "milwaukee-2821-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2821-20",
+      "value": 4.8,
+      "count": 798,
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "bosch-gsa18v-110n",
+      "trade": "carpenters",
+      "brand": "Bosch",
+      "modelNumber": "GSA18V-110N",
+      "value": 2.5,
+      "count": 2,
+      "source": "Bosch",
+      "url": "https://www.boschtools.com/us/en/products/gsa18v-110n-06016C001D",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "dewalt-dcn920b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCN920B",
+      "value": 4.2,
+      "count": 24,
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcn920b/20v-max-xr-brushless-cordless-21deg-plastic-collated-framing-nailer-tool-only",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "milwaukee-2745-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2745-20",
+      "value": 4.6,
+      "count": 1607,
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/2745-20",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "metabo-np35a",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "NP35A",
+      "value": 4.6,
+      "count": 273,
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/np35a-1-3-8-23-gauge-pin-nailer-metabo-hpt",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "metabo-nt65ma4",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "NT65MA4",
+      "value": 4.8,
+      "count": 313,
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/nt65ma4-2-1-2-15-gauge-angled-finish-nailer-with-air-duster-metabo-hpt",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "dewalt-dwfp55130",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DWFP55130",
+      "value": 2.7,
+      "count": 46,
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dwfp55130/dewalt-200-psi-quiet-trim-compressor",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "dewalt-dwfp55126",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DWFP55126",
+      "value": 3.2,
+      "count": 46,
+      "source": "DeWalt Canada",
+      "url": "https://www.dewalt.ca/en-ca/product/dwfp55126/dewalt-heavy-duty-165-psi-pancake-compressor",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "metabo-ec914s",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "EC914S",
+      "value": 4.7,
+      "count": 381,
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/the-tank-6-gallon-high-capacity-pancake-air-compressor-metabo-hpt-ec914s",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "dewalt-dw756",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DW756",
+      "value": 3.8,
+      "count": 10,
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dw756/6-150mm-bench-grinder",
+      "checkedDate": "2026-10-14",
+      "note": "Dated manufacturer-hosted customer rating for this model. The review feed may include kit configurations or syndicated feedback; supplied contents can differ. Not a TradeGear HQ test score."
+    },
+    {
+      "productId": "makita-xvj04z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XVJ04Z",
+      "value": 5,
+      "count": 1,
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18v-lxt-jig-saw-lithium-ion-brushless-cordless-bare-tool-xvj04z/088381762557.html",
+      "checkedDate": "2026-10-14",
+      "note": "Dated exact-model retailer customer snapshot. Sample size is displayed; this is not our test score."
+    },
+    {
+      "productId": "makita-mac2400",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "MAC2400",
+      "value": 4.8,
+      "count": 31,
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-air-compressor-25-hp-mac2400/088381053532.html",
+      "checkedDate": "2026-10-14",
+      "note": "Dated exact-model retailer customer snapshot. Sample size is displayed; this is not our test score."
+    },
+    {
+      "productId": "makita-xvj01z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XVJ01Z",
+      "value": 4.2,
+      "count": 5,
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18v-lxt-lithium-ion-brushless-cordless-barrel-grip-jig-saw-bare-tool-xvj01z/088381843935.html",
+      "checkedDate": "2026-10-14",
+      "note": "Dated exact-model retailer customer snapshot, not our test score. Read the displayed sample size and individual experiences."
+    },
+    {
+      "productId": "makita-xrj05z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XRJ05Z",
+      "value": 4.9,
+      "count": 13,
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18-volt-lxt-lithium-ion-brushless-cordless-recipro-saw-bare-tool-xrj05z/088381807609.html",
+      "checkedDate": "2026-10-14",
+      "note": "Dated exact-model retailer customer snapshot, not our test score. Read the displayed sample size and individual experiences."
+    },
+    {
+      "productId": "makita-mac100q",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "MAC100Q",
+      "value": 4.5,
+      "count": 15,
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-quiet-series-electric-air-compressor-1-gallon-mac100q/088381897495.html",
+      "checkedDate": "2026-10-14",
+      "note": "Dated exact-model retailer customer snapshot, not our test score. Read the displayed sample size and individual experiences."
+    }
+  ],
+  "quotationEvidence": [
+    {
+      "productId": "dewalt-dcs335b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCS335B",
+      "author": "Josh75",
+      "avatar": "J",
+      "context": "Self-described builder/remodeler \u00b7 source labels incentivized",
+      "summary": "the leds to light up the cut line are a game changer",
+      "quote": "the leds to light up the cut line are a game changer",
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcs335b/20v-max-xr-cordless-barrel-grip-jig-saw-tool-only",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "dewalt-dcs335b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCS335B",
+      "author": "Kwood67",
+      "avatar": "K",
+      "context": "Customer review \u00b7 woodworking context",
+      "summary": "it can eat up batteries pretty quick",
+      "quote": "it can eat up batteries pretty quick",
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcs335b/20v-max-xr-cordless-barrel-grip-jig-saw-tool-only",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-xvj04z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XVJ04Z",
+      "author": "Patrick",
+      "avatar": "P",
+      "context": "Retailer-hosted customer review",
+      "summary": "Better batteries and a better tool overall.",
+      "quote": "Better batteries and a better tool overall.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18v-lxt-jig-saw-lithium-ion-brushless-cordless-bare-tool-xvj04z/088381762557.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "bosch-js572ebk",
+      "trade": "carpenters",
+      "brand": "Bosch",
+      "modelNumber": "JS572EBK",
+      "author": "Anonymous",
+      "avatar": "A",
+      "context": "Self-described professional user \u00b7 source labels incentivized",
+      "summary": "Very comfortable to use.",
+      "quote": "Very comfortable to use.",
+      "source": "Bosch",
+      "url": "https://www.boschtools.com/us/en/products/js572ebk-0601514012",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "bosch-js572ebk",
+      "trade": "carpenters",
+      "brand": "Bosch",
+      "modelNumber": "JS572EBK",
+      "author": "Mark99",
+      "avatar": "M",
+      "context": "Self-described advanced DIY user \u00b7 source labels incentivized",
+      "summary": "I picked up the dust extraction accessory, too.",
+      "quote": "I picked up the dust extraction accessory, too.",
+      "source": "Bosch",
+      "url": "https://www.boschtools.com/us/en/products/js572ebk-0601514012",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "milwaukee-2737-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2737-20",
+      "author": "Uglytruck96",
+      "avatar": "U",
+      "context": "Self-described owner/operator",
+      "summary": "This jigsaw is easy to use and cuts quick.",
+      "quote": "This jigsaw is easy to use and cuts quick.",
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/products/details/m18-fuel-d-handle-jig-saw/2737-20",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "milwaukee-2737-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2737-20",
+      "author": "scorpioscrux",
+      "avatar": "S",
+      "context": "Customer review \u00b7 comment concerns add-on attachments",
+      "summary": "They got extremely dusty and made cutting more difficult.",
+      "quote": "They got extremely dusty and made cutting more difficult.",
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/products/details/m18-fuel-d-handle-jig-saw/2737-20",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "dewalt-dcs367b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCS367B",
+      "author": "TomP",
+      "avatar": "T",
+      "context": "Customer review \u00b7 source labels incentivized",
+      "summary": "It\u2019s the most versatile saw I\u2019ve ever owned.",
+      "quote": "It\u2019s the most versatile saw I\u2019ve ever owned.",
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcs367b/20v-max-xr-brushless-compact-reciprocating-saw-tool-only",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "milwaukee-2821-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2821-20",
+      "author": "Juice1",
+      "avatar": "J",
+      "context": "Self-described field/shop worker",
+      "summary": "Plenty of power and excellent balance, as always with Milwaukee",
+      "quote": "Plenty of power and excellent balance, as always with Milwaukee",
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "milwaukee-2821-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2821-20",
+      "author": "Bob48",
+      "avatar": "B",
+      "context": "Customer review \u00b7 describes use with EZarc blades",
+      "summary": "Works like a champ",
+      "quote": "Works like a champ",
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "bosch-gsa18v-110n",
+      "trade": "carpenters",
+      "brand": "Bosch",
+      "modelNumber": "GSA18V-110N",
+      "author": "DMTurner",
+      "avatar": "D",
+      "context": "Self-described advanced DIY user",
+      "summary": "The requirement of a hex key to adjust the shoe is inconvenient",
+      "quote": "The requirement of a hex key to adjust the shoe is inconvenient",
+      "source": "Bosch",
+      "url": "https://www.boschtools.com/us/en/products/gsa18v-110n-06016C001D",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "bosch-gsa18v-110n",
+      "trade": "carpenters",
+      "brand": "Bosch",
+      "modelNumber": "GSA18V-110N",
+      "author": "api3",
+      "avatar": "A",
+      "context": "Self-described casual DIY user",
+      "summary": "Blade changer jammed just after purchase.",
+      "quote": "Blade changer jammed just after purchase.",
+      "source": "Bosch",
+      "url": "https://www.boschtools.com/us/en/products/gsa18v-110n-06016C001D",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "dewalt-dcn920b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCN920B",
+      "author": "Johnny J",
+      "avatar": "JJ",
+      "context": "Customer review \u00b7 source labels incentivized",
+      "summary": "After about 10 minutes, I felt very comfortable with it",
+      "quote": "After about 10 minutes, I felt very comfortable with it",
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcn920b/20v-max-xr-brushless-cordless-21deg-plastic-collated-framing-nailer-tool-only",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "dewalt-dcn920b",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DCN920B",
+      "author": "Joe Lewis",
+      "avatar": "JL",
+      "context": "Customer review \u00b7 source labels incentivized",
+      "summary": "It\u2019s heavier than air tools",
+      "quote": "It\u2019s heavier than air tools",
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dcn920b/20v-max-xr-brushless-cordless-21deg-plastic-collated-framing-nailer-tool-only",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "milwaukee-2745-20",
+      "trade": "carpenters",
+      "brand": "Milwaukee",
+      "modelNumber": "2745-20",
+      "author": "Bryan-benz",
+      "avatar": "B",
+      "context": "Customer review \u00b7 self-described owner/operator, not a full-time carpenter",
+      "summary": "It takes getting used to the weight",
+      "quote": "It takes getting used to the weight",
+      "source": "Milwaukee",
+      "url": "https://www.milwaukeetool.com/2745-20",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "metabo-np35a",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "NP35A",
+      "author": "Mike Mccabe",
+      "avatar": "MM",
+      "context": "Self-described handyman",
+      "summary": "Exactly what I needed.",
+      "quote": "Exactly what I needed.",
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/np35a-1-3-8-23-gauge-pin-nailer-metabo-hpt",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "metabo-np35a",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "NP35A",
+      "author": "Jamhomestead",
+      "avatar": "J",
+      "context": "Customer review \u00b7 hardwood seating concern",
+      "summary": "The pins stood proud when used on hardwood.",
+      "quote": "The pins stood proud when used on hardwood.",
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/np35a-1-3-8-23-gauge-pin-nailer-metabo-hpt",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "metabo-nt65ma4",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "NT65MA4",
+      "author": "msmelwolf",
+      "avatar": "M",
+      "context": "Manufacturer-hosted customer review",
+      "summary": "Nice gun fits in hand well, comfortable.",
+      "quote": "Nice gun fits in hand well, comfortable.",
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/nt65ma4-2-1-2-15-gauge-angled-finish-nailer-with-air-duster-metabo-hpt",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "metabo-nt65ma4",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "NT65MA4",
+      "author": "Mark from Kansas",
+      "avatar": "MF",
+      "context": "Manufacturer-hosted customer review",
+      "summary": "works perfectly for my needs.",
+      "quote": "works perfectly for my needs.",
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/nt65ma4-2-1-2-15-gauge-angled-finish-nailer-with-air-duster-metabo-hpt",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-mac2400",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "MAC2400",
+      "author": "Larry",
+      "avatar": "L",
+      "context": "Retailer-hosted customer review",
+      "summary": "The Makita MAC 2400 is really quiet and fast on refilling.",
+      "quote": "The Makita MAC 2400 is really quiet and fast on refilling.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-air-compressor-25-hp-mac2400/088381053532.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-mac2400",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "MAC2400",
+      "author": "Ignacio",
+      "avatar": "I",
+      "context": "Retailer-hosted customer review",
+      "summary": "It is heavy but built to last.",
+      "quote": "It is heavy but built to last.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-air-compressor-25-hp-mac2400/088381053532.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "metabo-ec914s",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "EC914S",
+      "author": "DougA1",
+      "avatar": "D",
+      "context": "Self-described homeowner",
+      "summary": "Fast recovery time and not as loud as some say.",
+      "quote": "Fast recovery time and not as loud as some say.",
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/the-tank-6-gallon-high-capacity-pancake-air-compressor-metabo-hpt-ec914s",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "metabo-ec914s",
+      "trade": "carpenters",
+      "brand": "Metabo HPT",
+      "modelNumber": "EC914S",
+      "author": "GSJ144",
+      "avatar": "G",
+      "context": "Self-described DIY user \u00b7 first compressor",
+      "summary": "Ive never owned another air compressor before",
+      "quote": "Ive never owned another air compressor before",
+      "source": "Metabo HPT",
+      "url": "https://www.metabo-hpt.com/products/product/the-tank-6-gallon-high-capacity-pancake-air-compressor-metabo-hpt-ec914s",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "dewalt-dw756",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DW756",
+      "author": "Chelan",
+      "avatar": "C",
+      "context": "Self-described advanced DIY user",
+      "summary": "The machines runs quietly.",
+      "quote": "The machines runs quietly.",
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dw756/6-150mm-bench-grinder",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "dewalt-dw756",
+      "trade": "carpenters",
+      "brand": "DeWalt",
+      "modelNumber": "DW756",
+      "author": "Mike Leckman",
+      "avatar": "ML",
+      "context": "Self-described builder/remodeler \u00b7 review also reports early replacement",
+      "summary": "Has Plenty of power and very quiet!",
+      "quote": "Has Plenty of power and very quiet!",
+      "source": "DeWalt",
+      "url": "https://www.dewalt.com/en-us/product/dw756/6-150mm-bench-grinder",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-xvj01z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XVJ01Z",
+      "author": "ScottyPanda",
+      "avatar": "S",
+      "context": "Retailer-hosted customer review",
+      "summary": "Barrel grip works great . No complaints at all.",
+      "quote": "Barrel grip works great . No complaints at all.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18v-lxt-lithium-ion-brushless-cordless-barrel-grip-jig-saw-bare-tool-xvj01z/088381843935.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-xvj01z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XVJ01Z",
+      "author": "MCF",
+      "avatar": "M",
+      "context": "Retailer-hosted customer review \u00b7 switch-placement caveat",
+      "summary": "the on/off/lock buttons can be a little difficult.",
+      "quote": "the on/off/lock buttons can be a little difficult.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18v-lxt-lithium-ion-brushless-cordless-barrel-grip-jig-saw-bare-tool-xvj01z/088381843935.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-xrj05z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XRJ05Z",
+      "author": "David",
+      "avatar": "D",
+      "context": "Retailer-hosted customer review",
+      "summary": "Nice tool love the rafter hook",
+      "quote": "Nice tool love the rafter hook",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18-volt-lxt-lithium-ion-brushless-cordless-recipro-saw-bare-tool-xrj05z/088381807609.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-xrj05z",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "XRJ05Z",
+      "author": "PSH",
+      "avatar": "P",
+      "context": "Retailer-hosted customer review \u00b7 limits against their corded saw",
+      "summary": "it is not a replacement for my old school corded saw.",
+      "quote": "it is not a replacement for my old school corded saw.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-18-volt-lxt-lithium-ion-brushless-cordless-recipro-saw-bare-tool-xrj05z/088381807609.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-mac100q",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "MAC100Q",
+      "author": "Monte",
+      "avatar": "M",
+      "context": "Retailer-hosted customer review \u00b7 early-use experience",
+      "summary": "It is very quiet and quick to recover.",
+      "quote": "It is very quiet and quick to recover.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-quiet-series-electric-air-compressor-1-gallon-mac100q/088381897495.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    },
+    {
+      "productId": "makita-mac100q",
+      "trade": "carpenters",
+      "brand": "Makita",
+      "modelNumber": "MAC100Q",
+      "author": "Cabinet guy",
+      "avatar": "CG",
+      "context": "Retailer-hosted customer review \u00b7 reports similar problems on two units",
+      "summary": "Leaking in the same area and will not charge.",
+      "quote": "Leaking in the same area and will not charge.",
+      "source": "Acme Tools",
+      "url": "https://www.acmetools.com/makita-quiet-series-electric-air-compressor-1-gallon-mac100q/088381897495.html",
+      "match": "Exact model",
+      "permission": "pending",
+      "sourceConfirmed": true,
+      "caveat": "Short verbatim excerpt checked October 14, 2026. Individual customer experience; identity, occupation and purchase are not independently verified. No reviewer portrait supplied."
+    }
+  ],
+  "rejectedTransfers": [
+    "RIKON 10-3061 was marked discontinued by the retailer; replaced with WEN BA3962.",
+    "DCS389B manufacturer feed includes reviews describing older 18V/20V saws; no numerical rating or quotation transferred.",
+    "JET JWBS-14SFX-BLK has no manufacturer reviews; older plain 14SFX score not transferred."
+  ],
+  "scope": "Manufacturer and retailer documentation, exact-model source excerpts and customer snapshots. Amazon automated access remains blocked; inventory and exact Amazon listing matches were not independently verified."
+}

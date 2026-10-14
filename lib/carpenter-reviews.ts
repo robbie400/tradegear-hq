@@ -1,3 +1,4 @@
+import {carpenterFinal25Notes} from './carpenter-final25';
 import {carpenterBatch25Notes} from './carpenter-batch25';
 import {carpenterBatch30Notes} from './carpenter-batch30';
 import {carpenterCatalogGuides} from './carpenter-catalog';
@@ -7,6 +8,7 @@ type Notes={title:string;sections:[string,string][];question:string;answer:strin
 const notes:Record<string,Notes>={
   ...(carpenterBatch30Notes as Record<string,Notes>),
   ...(carpenterBatch25Notes as Record<string,Notes>),
+  ...(carpenterFinal25Notes as Record<string,Notes>),
   'dewalt-dwe575sb':{title:'DeWalt DWE575SB Review: A Corded Carpenter Cutting Setup',sections:[
     ['Where corded power makes financial sense','The DWE575SB is worth looking at before funding a new cordless cutting platform. At a fixed work position with suitable power, the absence of batteries can simplify the purchase and charging routine. That does not make the saw free of supporting costs: the supply arrangement, blade, work support and dust equipment belong in the same budget. For a new carpenter, a complete usable corded setup is a more meaningful comparison than an attractive cordless bare-tool price.'],
     ['Cutting capacity and the way you work','DeWalt documents a 2-9/16-inch depth of cut and a 57-degree bevel range. Check the manual for the specific cut rather than assuming the maximum straight depth applies at every angle. The electric brake is a documented feature; we have not measured stopping time. Stock support and the blade selected for the material remain important. This is a portable circular saw, so an exposed panel requiring a different guiding or finish arrangement can justify another cutting system.'],
@@ -114,7 +116,7 @@ export const carpenterCatalogReviews:ProductReview[]=carpenterCatalogGuides.flat
   if(!n)throw new Error(`Missing standalone carpenter review: ${p.productId}`);
   const sections:ReviewSection[]=n.sections.map(([heading,body])=>({heading,body}));
   return {slug:p.reviewSlug!,productId:p.productId,trade:'carpenters',tradeName:g.tradeName,guideSlug:g.slug,guideTitle:g.title,brand:p.brand,model:p.model,role:p.role,title:n.title,
-    meta:`${p.brand} ${carpenterBatch25Notes[p.productId!] ? p.model : p.model.split(' ')[0]} carpenter review: documented features, job fit, complete-kit cost, alternatives and sourced customer feedback where available.`,amazonUrl:p.url,sourceUrl:a.sourceUrl,intro:(carpenterBatch30Notes[p.productId!] || carpenterBatch25Notes[p.productId!]) ? a.intro.split(/(?<=\.) /)[0] : a.intro,verdict:(carpenterBatch30Notes[p.productId!] || carpenterBatch25Notes[p.productId!]) ? a.verdict.split(/(?<=\.) /)[0] : a.verdict,bestFor:a.bestFor,avoidIf:a.avoidIf,pros:a.pros,cons:a.cons,specs:a.specs,sections,
+    meta:`${p.brand} ${carpenterBatch25Notes[p.productId!] ? p.model : p.model.split(' ')[0]} carpenter review: documented features, job fit, complete-kit cost, alternatives and sourced customer feedback where available.`,amazonUrl:p.url,sourceUrl:a.sourceUrl,intro:(carpenterBatch30Notes[p.productId!] || carpenterBatch25Notes[p.productId!] || carpenterFinal25Notes[p.productId!]) ? a.intro.split(/(?<=\.) /)[0] : a.intro,verdict:(carpenterBatch30Notes[p.productId!] || carpenterBatch25Notes[p.productId!] || carpenterFinal25Notes[p.productId!]) ? a.verdict.split(/(?<=\.) /)[0] : a.verdict,bestFor:a.bestFor,avoidIf:a.avoidIf,pros:a.pros,cons:a.cons,specs:a.specs,sections,
     faqs:[{q:n.question,a:n.answer},{q:`Who should consider ${p.brand} ${p.model.split(' ')[0]}?`,a:a.bestFor},{q:'What should I check before ordering?',a:`Confirm ${p.model.split(' ')[0]}, the exact package, necessary accessories, suitable power equipment and the current retailer offer. Compare the alternatives in this category against the same job requirements.`}],
-    sourceNote:`Manufacturer model and configuration checked ${carpenterBatch25Notes[p.productId!] ? 'October 13' : 'October 12'}, 2026. This is an original buying assessment for carpenter work. Customer comments and source ratings are separately attributed; they are not our test results.`};
+    sourceNote:`Manufacturer model and configuration checked ${carpenterFinal25Notes[p.productId!] ? 'October 14' : carpenterBatch25Notes[p.productId!] ? 'October 13' : 'October 12'}, 2026. This is an original buying assessment for carpenter work. Customer comments and source ratings are separately attributed; they are not our test results.`};
 }));

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "dewalt-dcs335b",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 85062
+  },
+  {
+    "id": "bosch-js572ebk",
+    "status": 200,
+    "contentType": "image/png",
+    "bytesRead": 225023
+  },
+  {
+    "id": "milwaukee-2737-20",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 95710
+  },
+  {
+    "id": "dewalt-dcs367b",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 73006
+  },
+  {
+    "id": "dewalt-dcs389b",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 36948
+  },
+  {
+    "id": "milwaukee-2821-20",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 31126
+  },
+  {
+    "id": "bosch-gsa18v-110n",
+    "status": 200,
+    "contentType": "image/png",
+    "bytesRead": 147035
+  },
+  {
+    "id": "dewalt-dcn920b",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 25892
+  },
+  {
+    "id": "milwaukee-2745-20",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 17733
+  },
+  {
+    "id": "milwaukee-2540-20",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 14620
+  },
+  {
+    "id": "metabo-np35a",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 133730
+  },
+  {
+    "id": "metabo-nt65ma4",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 229534
+  },
+  {
+    "id": "dewalt-dwfp55130",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 47484
+  },
+  {
+    "id": "dewalt-dwfp55126",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 21310
+  },
+  {
+    "id": "metabo-ec914s",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 234923
+  },
+  {
+    "id": "wen-4214t",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 37572
+  },
+  {
+    "id": "jet-jwbs-14sfx-blk",
+    "status": 200,
+    "contentType": "image/png",
+    "bytesRead": 188130
+  },
+  {
+    "id": "jet-joss-s",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 126507
+  },
+  {
+    "id": "dewalt-dw756",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 66162
+  },
+  {
+    "id": "wen-ba3962",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 27007
+  },
+  {
+    "id": "makita-mac100q",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 63218
+  },
+  {
+    "id": "makita-xvj04z",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 44636
+  },
+  {
+    "id": "makita-xrj05z",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 17020
+  },
+  {
+    "id": "makita-mac2400",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytesRead": 67218
+  },
+  {
+    "id": "makita-xvj01z",
+    "status": 200,
+    "contentType": "image/webp",
+    "bytesRead": 33718
+  }
+]

@@ -1,3 +1,4 @@
+import {carpenterFinal25Categories} from '@/lib/carpenter-final25';
 import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { ProductFeedback } from "@/components/ProductFeedback";
@@ -48,7 +49,7 @@ export default async function Guide({
   const relatedGuides = guides.filter(x => x.trade === trade && x.slug !== slug && x.cluster === g.cluster);
   return (
     <>
-      <PageSchema date={trade === "carpenters" ? "2026-10-13" : undefined}
+      <PageSchema date={trade === "carpenters" ? (carpenterFinal25Categories.some(c=>c.slug===slug) ? "2026-10-14" : "2026-10-13") : undefined}
         title={g.title}
         description={g.meta}
         path={`/${trade}/${slug}/`}
@@ -85,7 +86,7 @@ export default async function Guide({
       </section>
       <section className="section">
         <div className="shell guideShell">
-          <EditorialByline date={trade === "carpenters" ? "2026-10-13" : undefined} />
+          <EditorialByline date={trade === "carpenters" ? (carpenterFinal25Categories.some(c=>c.slug===slug) ? "2026-10-14" : "2026-10-13") : undefined} />
           <nav className="articleNav" aria-label="On this page">
             <a href="#quick-picks">Quick picks</a>
             <a href="#choosing">How to choose</a>

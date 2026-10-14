@@ -15,8 +15,8 @@ for(const f of productFeedback){
 assert.equal(getProductFeedback('hvac','Appion','Unrelated model'),undefined);
 assert.deepEqual(['electricians','plumbers','hvac','home-inspectors'].map(t=>productFeedback.filter(f=>f.trade===t).length),[7,6,4,1]);
 const carpenterFeedback=productFeedback.filter(f=>f.trade==='carpenters');
-assert.equal(carpenterFeedback.length,83);
-assert.equal(new Set(carpenterFeedback.map(f=>f.productId)).size,43);
+assert.equal(carpenterFeedback.length,114);
+assert.equal(new Set(carpenterFeedback.map(f=>f.productId)).size,60);
 assert.equal(getProductFeedbacks('carpenters','Milwaukee','2505-20 M12 FUEL Installation Drill/Driver','milwaukee-2505-20').length,2);
 assert.equal(getProductFeedbacks('carpenters','Unrelated brand','2505-20','milwaukee-2505-20').length,0);
 for(const r of productRatings){
@@ -31,3 +31,10 @@ assert.equal(getProductRating('hvac','AccuTools','BluVac+ Micro Wireless Micron 
 assert.equal(getProductRating('hvac','AccuTools','BluVac+ Pro Wireless Vacuum Gauge').productId,'accutools-bluvac-pro');
 assert.equal(getProductRating('hvac','AccuTools','BluVac+ LTE Wireless Vacuum Gauge'),undefined);
 console.log('Feedback checks passed: source attribution and matching catalogue products.');
+
+const directQuotes=carpenterFeedback.filter(f=>f.quote);
+assert.equal(directQuotes.length,31);
+for(const f of directQuotes){assert.equal(f.sourceConfirmed,true);assert.equal(f.summary,f.quote);assert.ok(f.caveat.includes('verbatim'));assert.equal(f.match,'Exact model');}
+const wordsBySource=new Map();
+for(const f of directQuotes)wordsBySource.set(f.url,(wordsBySource.get(f.url)||0)+f.quote.split(/\s+/).length);
+for(const [url,words] of wordsBySource)assert.ok(words<=25,`${url}: short excerpt budget`);

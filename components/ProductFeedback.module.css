@@ -6,6 +6,7 @@
 .avatar svg { width: 25px; height: 25px; }
 .portrait { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 .copy { min-width: 0; flex: 1; }
+.pullQuote { margin: 0 0 18px; padding: 4px 0 4px 18px; border-left: 3px solid #e79034; color: #172f44; font-size: clamp(18px, 2.1vw, 24px); font-weight: 600; line-height: 1.5; font-style: italic; }
 .card .summary { margin: 0 0 14px; color: #172f44; font-size: 17px; line-height: 1.65; font-weight: 500; }
 .person { display: flex; flex-direction: column; gap: 4px; overflow-wrap: anywhere; }
 .person strong { font-size: 12px; }

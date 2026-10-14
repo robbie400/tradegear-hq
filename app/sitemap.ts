@@ -1,3 +1,4 @@
+import {carpenterFinal25Categories} from '@/lib/carpenter-final25';
 import type { MetadataRoute } from "next";
 import { guides, hubs } from "@/lib/data";
 import { reviews } from "@/lib/reviews";
@@ -15,8 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...reviews.map((r) => `/reviews/${r.slug}/`),
     ...workflows.map((w) => `/${w.trade}/workflows/${w.slug}/`),
   ];
+  const updatedPaths=new Set(['/carpenters/','/carpenters/tools/',...carpenterFinal25Categories.map(c=>`/carpenters/${c.slug}/`),...reviews.filter(r=>r.sourceNote?.includes('October 14')).map(r=>`/reviews/${r.slug}/`)]);
   return paths.map((path) => ({
     url: siteUrl + path,
-    lastModified: path.startsWith('/carpenters/') || path.startsWith('/reviews/carpenters-') ? '2026-10-13' : reviewedDate,
+    lastModified: updatedPaths.has(path) ? '2026-10-14' : path.startsWith('/carpenters/') || path.startsWith('/reviews/carpenters-') ? '2026-10-13' : reviewedDate,
   }));
 }

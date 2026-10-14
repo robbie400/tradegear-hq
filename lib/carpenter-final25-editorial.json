@@ -1,0 +1,1127 @@
+[
+  {
+    "role": "Barrel-grip cut-outs on DeWalt batteries",
+    "bestFor": "DeWalt owners who prefer a barrel grip for supported curves and fitting.",
+    "avoidIf": "A top-handle trigger is easier for you to control or a guided straight cut is required.",
+    "specs": [
+      [
+        "Platform",
+        "20V MAX; tool only"
+      ],
+      [
+        "Grip",
+        "Barrel grip"
+      ],
+      [
+        "Blade holder",
+        "T-shank; tool-free release"
+      ]
+    ],
+    "pros": [
+      "Existing DeWalt power",
+      "LED and blower",
+      "Four orbital positions"
+    ],
+    "cons": [
+      "Battery and charger separate",
+      "Grip preference needs a practical check"
+    ],
+    "sections": [
+      [
+        "A different grip, not another job",
+        "DCS335B puts a barrel grip around the saw body rather than the top handle of DCS334B. That makes it worth considering for controlled curves in cabinet panels or scribed fitting pieces when this grip suits the operator. Start with the position you can comfortably hold and the switch you can reach. Buying both formats makes little sense when one already covers the cuts."
+      ],
+      [
+        "Protect the visible edge",
+        "The documented T-shank holder, orbital selection and shoe bevel adjustment let you configure the tool for different supported cuts. They do not guarantee an exposed edge stays clean or square. Pick a blade appropriate to the material and curve, support the panel, and check the result on an offcut. The LED helps visibility; it does not correct blade deflection caused by unsuitable feed."
+      ],
+      [
+        "Value for the battery owner",
+        "The B package excludes battery and charger, so an existing compatible DeWalt kit is a clear buying advantage. A first-time buyer should compare a complete package with the corded JS572EBK or existing JS470E option. Put suitable blades and any required extraction connection in the price. Customer feedback includes a positive grip experience and a battery-use tradeoff; neither is our runtime test."
+      ]
+    ],
+    "verdict": "Choose DCS335B for a real barrel-grip preference on an existing DeWalt platform. Keep DCS334B if its top handle already fits your work.",
+    "question": "Does a barrel grip guarantee straighter cuts?",
+    "answer": "No. Grip control, blade suitability, support and feed all contribute to the result. Check a matching offcut before cutting a visible panel."
+  },
+  {
+    "role": "Closer-to-work barrel grip on LXT",
+    "bestFor": "LXT users seeking a barrel-grip jigsaw for supported fitting and curved cuts.",
+    "avoidIf": "You prefer variable trigger control on a top handle or have no LXT power equipment.",
+    "specs": [
+      [
+        "Platform",
+        "18V LXT; tool only"
+      ],
+      [
+        "Speed dial",
+        "800\u20133,500 SPM"
+      ],
+      [
+        "Orbital settings",
+        "Three plus straight cutting"
+      ]
+    ],
+    "pros": [
+      "Barrel grip",
+      "Dual LEDs",
+      "Tool-free blade change"
+    ],
+    "cons": [
+      "Power equipment separate",
+      "Different switch routine from a trigger saw"
+    ],
+    "sections": [
+      [
+        "Grip and switching come together",
+        "XVJ01Z is Makita\u2019s LXT barrel-grip choice. The body grip and separate on/off controls create a different operating routine from XVJ04Z\u2019s top handle. For a joiner making repeated shaped components, that distinction can matter more than the maximum speed figure. Check the permitted working position, switch reach and fitted battery before deciding that the lower grip improves your control."
+      ],
+      [
+        "Choose speed for the cut",
+        "Makita documents a six-speed dial, three orbital positions and straight cutting. Use the setting permitted for the blade and material rather than running every cut at maximum speed. A tighter curve can need a different blade from a long gentle radius. The shoe, panel support and dust connection still need attention; a powerful motor cannot make an unsuitable blade follow a small radius cleanly."
+      ],
+      [
+        "Avoid buying a second system",
+        "The Z configuration needs compatible LXT batteries and charging. Existing LXT ownership can justify the bare tool; starting another platform just for occasional cut-outs is harder to defend. Compare XVJ04Z if trigger-controlled top-handle work fits better, or a corded Bosch where power is reliable. We have not compared these machines for cut speed, squareness or endurance, so the choice here rests on documented format and task fit."
+      ]
+    ],
+    "verdict": "An LXT barrel-grip option for a demonstrated handling preference; compare XVJ04Z before buying a second jigsaw.",
+    "question": "Does XVJ01Z include a battery?",
+    "answer": "No. The Z configuration is tool only; compatible battery and charger are separate purchases."
+  },
+  {
+    "role": "Top-handle cut-outs on LXT",
+    "bestFor": "Existing LXT users who want a variable-trigger jigsaw for fitting and panel cut-outs.",
+    "avoidIf": "You favor a barrel grip or mainly need long guided straight cuts.",
+    "specs": [
+      [
+        "Platform",
+        "18V LXT; tool only"
+      ],
+      [
+        "Speed",
+        "0\u20133,000 SPM"
+      ],
+      [
+        "Control",
+        "Variable trigger; orbital selection"
+      ]
+    ],
+    "pros": [
+      "Electric brake",
+      "Soft start",
+      "LED and blower"
+    ],
+    "cons": [
+      "Battery and charger separate",
+      "Retailer rating has one review"
+    ],
+    "sections": [
+      [
+        "A useful fitting addition",
+        "XVJ04Z gives an LXT carpenter a D-handle jigsaw for supported openings, curves and fitting cuts. It is complementary to a circular or track saw rather than a replacement for repeated straight sheet breakdown. If your existing saw already covers these cut-outs, the buying case is an access or control problem that the new format solves, not simply another cordless tool to collect."
+      ],
+      [
+        "Control the start and the edge",
+        "The manufacturer lists a variable trigger, soft start, electric brake and orbital selection. These are configuration features rather than evidence of our cutting performance. Blade tooth direction and shoe contact matter on finished faces. Try the planned setup on matching scrap, including the bevel if one is needed, before committing a cabinet side or expensive worktop. Do not infer finished-edge quality from strokes per minute alone."
+      ],
+      [
+        "An honest small review sample",
+        "Acme\u2019s displayed five-star average comes from one review. That is a useful individual opinion but a very small sample for judging reliability or comparing brands. Price the Z tool with batteries, blades and collection accessories where needed. XVJ01Z offers the alternative barrel grip on the same LXT system; moving to another brand should solve a practical need that these choices cannot."
+      ]
+    ],
+    "verdict": "A coherent LXT top-handle addition. Choose by control and job requirements, not a five-star average based on one review.",
+    "question": "How strong is the five-star rating evidence?",
+    "answer": "The checked Acme snapshot contains one review. Treat it as a small sample, not proof of broad customer consensus."
+  },
+  {
+    "role": "Corded barrel-grip joinery station",
+    "bestFor": "Joiners with suitable power who prefer a barrel grip and documented double-roller blade guidance.",
+    "avoidIf": "Cordless movement is essential or you prefer a top-handle trigger.",
+    "specs": [
+      [
+        "Supply",
+        "7.2-amp corded"
+      ],
+      [
+        "Grip",
+        "Barrel grip"
+      ],
+      [
+        "Guidance",
+        "Precision Control II double rollers"
+      ]
+    ],
+    "pros": [
+      "No battery purchase",
+      "Tool-free bevel adjustment",
+      "Kit includes carrying case"
+    ],
+    "cons": [
+      "Needs suitable supply",
+      "Extraction accessories require checking"
+    ],
+    "sections": [
+      [
+        "Make corded a deliberate choice",
+        "JS572EBK is the corded barrel-grip kit in this group. It can suit a powered joinery bench where the lead is manageable and battery freedom would add little to the work. The K kit contains the JS572EB saw and carrying case. Confirm the package identity before comparing its price with a cordless bare tool that still requires batteries and charging."
+      ],
+      [
+        "Guidance still needs the right blade",
+        "Bosch documents a double-roller blade-guidance system, T-shank clamp, orbital settings and tool-free footplate adjustment. Those are relevant to controlled shaped cuts, but they are not a promise of perfect edges. Select the correct blade and feed for the curve and material, and inspect a trial cut for deflection. Published owner enthusiasm about square cuts is individual experience rather than a measurement from our testing."
+      ],
+      [
+        "Spend on the working arrangement",
+        "A supported workpiece, suitable blades and collection connection can improve the usefulness of the purchase more than buying a second saw with a larger speed figure. Compare JS470E if a corded top handle suits you, or DCS335B and XVJ01Z for existing cordless owners. Some manufacturer-hosted feedback is marked incentivized; the source label remains visible so readers can assess that context."
+      ]
+    ],
+    "verdict": "A powered-bench barrel-grip comparison with documented double-roller guidance. Choose cordless when the lead actually interrupts recurring work.",
+    "question": "Does JS572EBK accept U-shank blades?",
+    "answer": "No. Bosch specifies T-shank blades for this jigsaw; match the accessory to the manual and actual material."
+  },
+  {
+    "role": "D-handle cut-outs on M18",
+    "bestFor": "M18 carpenters adding a jigsaw for curves, decking cut-outs and supported fitting.",
+    "avoidIf": "A corded saw covers occasional tasks or a barrel grip suits your hands better.",
+    "specs": [
+      [
+        "Platform",
+        "M18; tool only"
+      ],
+      [
+        "Speed range",
+        "0\u20133,500 SPM"
+      ],
+      [
+        "Blade fit",
+        "T-shank"
+      ]
+    ],
+    "pros": [
+      "Tool-free blade and bevel changes",
+      "Supplied dust extraction tube",
+      "Non-marring shoe cover"
+    ],
+    "cons": [
+      "Battery separate",
+      "Accessories need matching to the job"
+    ],
+    "sections": [
+      [
+        "A clear role beside the circular saw",
+        "2737-20 adds curved cutting to an existing M18 kit. Decking around posts and supported panel openings are more persuasive reasons to buy it than expecting it to replace every circular-saw cut. Lay out the opening and choose the permitted approach before cutting. A builder working mostly on straight stock may use it less often than the drill, driver and circular saw already in the bag."
+      ],
+      [
+        "Visibility and finish are separate",
+        "The documented LED, switchable blower and extraction tube address seeing and collecting at the cut. The orbital setting, blade and feed govern another part of the result. Owner feedback includes clean-cut praise alongside criticism of the attachments becoming dusty. Treat that as a prompt to check the actual collection setup and trial the accessory combination, rather than a guarantee that every supplied part suits every task."
+      ],
+      [
+        "Keep the power purchase coherent",
+        "The -20 package is tool only. Existing M18 batteries can keep the extra purchase straightforward, but a new buyer must price a usable power setup. Compare DCS334B for DeWalt owners and XVJ04Z for LXT users against the same opening and finish requirement. Milwaukee\u2019s published runtime uses specified conditions; we have not reproduced those cuts or compared daily endurance between the alternatives."
+      ]
+    ],
+    "verdict": "A useful M18 addition when curves and cut-outs recur. Compare the complete kit and blade arrangement before changing battery systems.",
+    "question": "Is the included extraction tube a complete dust system?",
+    "answer": "No. Check the hose, adapter, collector and work method needed for the material and environment."
+  },
+  {
+    "role": "Compact DeWalt renovation access",
+    "bestFor": "DeWalt owners removing suitable identified material in constrained working spaces.",
+    "avoidIf": "Long accessible demolition dominates or you need a fine finished cut.",
+    "specs": [
+      [
+        "Platform",
+        "20V MAX; tool only"
+      ],
+      [
+        "Body length",
+        "14.5 inches; manufacturer"
+      ],
+      [
+        "Blade clamp",
+        "Four positions"
+      ]
+    ],
+    "pros": [
+      "Compact body",
+      "Four blade orientations",
+      "Variable trigger and LED"
+    ],
+    "cons": [
+      "Compact does not mean vibration-free",
+      "Battery and suitable blades separate"
+    ],
+    "sections": [
+      [
+        "Buy for a measured access problem",
+        "DCS367B is the compact DeWalt option for supported removal where a full-size saw body is awkward. Its documented four-position blade clamp can change the cutting approach, but check the entire blade stroke and clearance beyond the cut. Before opening a wall or removing a fixing, establish what is behind it and which parts may be cut. Shortening the tool does not remove that planning step."
+      ],
+      [
+        "The blade determines much of the job",
+        "Nail-embedded timber and clean wood are different accessory choices. Select a blade permitted for the actual material and long enough for the supported cut throughout its stroke. Keep the shoe and workpiece arrangement consistent with the instructions. Owner comments about power and versatility do not establish our cutting speed or vibration result; a compact saw can still be demanding during extended demolition."
+      ],
+      [
+        "Compare compact with the larger role",
+        "An existing 20V MAX owner can add the B tool without creating another charging system. DCS389B instead needs FLEXVOLT power and serves a different full-size purchase case. An apprentice doing occasional removal should check employer equipment or hire before buying a demolition setup. Budget for suitable blades and compatible batteries, and leave finish work to the cutting system that produces the required edge."
+      ]
+    ],
+    "verdict": "Choose DCS367B for a genuine compact-access need on DeWalt power; do not treat it as a finish saw or a vibration-free upgrade.",
+    "question": "Can four blade positions make every removal safe?",
+    "answer": "No. Identify concealed services, supports and permissible removal first. Blade orientation only changes the tool\u2019s approach."
+  },
+  {
+    "role": "Full-size demolition with FLEXVOLT",
+    "bestFor": "Carpenters with compatible FLEXVOLT power and recurring supported demolition cuts.",
+    "avoidIf": "You only own ordinary 20V MAX batteries or compact access is the primary need.",
+    "specs": [
+      [
+        "Platform",
+        "60V MAX FLEXVOLT; tool only"
+      ],
+      [
+        "Speed",
+        "0\u20133,000 SPM"
+      ],
+      [
+        "Stroke",
+        "1-1/8 inches"
+      ]
+    ],
+    "pros": [
+      "Variable-speed trigger",
+      "Pivoting shoe",
+      "Tool-free blade clamp"
+    ],
+    "cons": [
+      "Needs FLEXVOLT power",
+      "Larger loaded setup than a compact saw"
+    ],
+    "sections": [
+      [
+        "Price the correct power system",
+        "DCS389B is a 60V MAX saw, so ordinary 20V MAX batteries are not the working power source. That distinction can overturn an apparently attractive bare-tool price. It makes the clearest sense for a carpenter who already owns suitable FLEXVOLT equipment and repeatedly needs accessible removal cuts. For occasional work, compare the complete cost with employer equipment, hire or an existing compatible saw."
+      ],
+      [
+        "Output claims have conditions",
+        "DeWalt\u2019s comparison with DCS388 uses specified batteries, so the stated power increase is not a blanket result for every pack or material. The documented stroke and variable trigger help identify the format, but do not establish our measured speed or vibration. Match a suitable blade to identified timber or metal and plan support before starting. A demolition saw should not become the default for exposed finish cuts."
+      ],
+      [
+        "When the smaller option is smarter",
+        "DCS367B addresses a different problem: limited body clearance on the 20V MAX platform. Buying the larger saw makes sense when recurring accessible demolition warrants the complete loaded arrangement, not because a higher voltage looks more professional. Some manufacturer-hosted comments on the DCS389 page describe other DeWalt saws; we exclude those from exact-model quotations rather than turning older-tool praise into evidence for this machine."
+      ]
+    ],
+    "verdict": "A conditional FLEXVOLT purchase for recurring demolition. Compare the required battery cost and access with DCS367B before ordering.",
+    "question": "Will a normal DeWalt 20V MAX battery run DCS389B?",
+    "answer": "No. Use the compatible FLEXVOLT power specified for this 60V MAX tool; ordinary 20V MAX packs are not interchangeable for this role."
+  },
+  {
+    "role": "Full-size renovation cuts on M18",
+    "bestFor": "Existing M18 users making recurring supported demolition cuts.",
+    "avoidIf": "Compact access or finish-edge quality is the deciding requirement.",
+    "specs": [
+      [
+        "Platform",
+        "M18; tool only"
+      ],
+      [
+        "Format",
+        "Full-size reciprocating saw"
+      ],
+      [
+        "Motor",
+        "Brushless"
+      ]
+    ],
+    "pros": [
+      "Existing M18 power",
+      "Tool-free blade changes",
+      "Rafter hook"
+    ],
+    "cons": [
+      "Battery and blades separate",
+      "Full-size body needs clearance"
+    ],
+    "sections": [
+      [
+        "A demolition addition to the M18 kit",
+        "2821-20 is a full-size SAWZALL for supported removal rather than a small detail saw. It is worth comparing when accessible cuts in identified timber or appropriate metal recur and M18 power is already available. For a carpenter, the job starts with what may be removed and what must remain supported. The saw\u2019s reach is not permission to cut hidden services or an unidentified structural connection."
+      ],
+      [
+        "Read the whole working envelope",
+        "The body, fitted battery and blade all need room. Select an accessory suitable for the actual material, allowing for blade movement beyond the workpiece. A longer blade can reach a fixing but also makes clearance and control more demanding. Manufacturer performance claims and a high customer average do not establish our comparative cut speed; support, permitted technique and suitable blades remain part of the operation."
+      ],
+      [
+        "Do not confuse the kit with the bare tool",
+        "Milwaukee\u2019s review feed also includes 2821 battery kits. Complaints about a supplied case or missing kit accessories should not be attributed automatically to the -20 bare tool. The selected quotations concern the tool\u2019s use and identify their context. Compare XRJ05Z for an existing LXT owner, or a compact DeWalt option where access matters more than a full-size format. Starting another battery system needs a specific reason."
+      ]
+    ],
+    "verdict": "A coherent full-size M18 demolition addition. Budget for blades and power, and compare compact formats when clearance governs the work.",
+    "question": "Do all reviews on the manufacturer page concern the bare-tool package?",
+    "answer": "No. The feed includes battery-kit reviews too. Package contents and case comments must be distinguished from the saw itself."
+  },
+  {
+    "role": "Two-speed renovation saw on LXT",
+    "bestFor": "LXT owners needing a full-size reciprocating saw for identified removal work.",
+    "avoidIf": "A compact body is essential or you need finished joinery edges.",
+    "specs": [
+      [
+        "Platform",
+        "18V LXT; tool only"
+      ],
+      [
+        "Speed ranges",
+        "0\u20132,300 / 0\u20133,000 SPM"
+      ],
+      [
+        "Stroke",
+        "1-1/4 inches"
+      ]
+    ],
+    "pros": [
+      "Two speed ranges",
+      "Electric brake",
+      "Tool-free blade release"
+    ],
+    "cons": [
+      "Fixed shoe",
+      "Power equipment separate"
+    ],
+    "sections": [
+      [
+        "Keep demolition on the existing platform",
+        "XRJ05Z offers an LXT carpenter a full-size reciprocating saw without another battery ecosystem. Its purpose here is supported strip-out and suitable removal cuts, not cabinet-edge finishing. If demolition is infrequent, ask what equipment is supplied before making a personal purchase. A compatible existing pack helps the cost case, but blade choice and charging availability still determine whether the whole arrangement is useful."
+      ],
+      [
+        "A longer stroke needs appropriate clearance",
+        "Makita documents a 1-1/4-inch stroke, two speed ranges and a reinforced fixed shoe. Check the cut and movement behind the workpiece rather than treating stroke length as a simple performance ranking. Use the blade and setting allowed for the material. The fixed shoe deserves particular attention when comparing how much of a blade can be used across repeated work; it is a different arrangement from an adjustable shoe."
+      ],
+      [
+        "Avoid unsupported handling promises",
+        "The manufacturer\u2019s crank and protection features describe the design. We have not measured vibration, endurance or cutting speed against the M18 and DeWalt options. Compare the loaded saw and working access, including the battery, instead of only the bare-body dimensions. The Z package excludes power equipment. A smaller saw can still be better for a repeated cramped opening, even if a full-size model has greater documented stroke."
+      ]
+    ],
+    "verdict": "A full-size LXT comparison with two speed ranges. Choose around clearance and the fixed-shoe arrangement rather than maximum speed alone.",
+    "question": "Is XRJ05Z a two-battery 36V saw?",
+    "answer": "No. This model is an 18V LXT saw. Check the exact model rather than transferring specifications from Makita\u2019s other reciprocating saws."
+  },
+  {
+    "role": "PROFACTOR demolition on Bosch 18V",
+    "bestFor": "Bosch 18V owners comparing a full-size demolition saw with orbital selection.",
+    "avoidIf": "A compact saw better fits the job or you want strong long-term evidence from many reviews.",
+    "specs": [
+      [
+        "Platform",
+        "Bosch 18V; tool only"
+      ],
+      [
+        "Stroke",
+        "1-1/8 inches"
+      ],
+      [
+        "Speed",
+        "0\u20132,900 SPM"
+      ]
+    ],
+    "pros": [
+      "Orbital selection",
+      "Rafter hook",
+      "Variable trigger"
+    ],
+    "cons": [
+      "Shoe adjustment uses a hex key",
+      "Customer snapshot contains only two reviews"
+    ],
+    "sections": [
+      [
+        "A platform choice with a small feedback sample",
+        "GSA18V-110N is the PROFACTOR reciprocating option for a Bosch 18V kit. Its working case is suitable repeated removal, with a full-size body and the battery specified for the intended output. The checked manufacturer average is 2.5 from two reviews. That small, mixed sample should be visible in the decision rather than replaced by a generic five-star badge or used as a measured failure rate."
+      ],
+      [
+        "Pay attention to the blade connection",
+        "The documented LockJaw blade change and orbital selection affect setup, while the shoe uses a hex-key adjustment. One reviewer likes the trigger response but reports inconvenience adjusting the shoe and sticking at the blade mechanism; another reports an early blade-changer problem. These are individual accounts. Check the manual, maintenance guidance and retailer support, and consider whether the arrangement suits your recurring blade changes."
+      ],
+      [
+        "Choose it for a reason beyond brand loyalty",
+        "Existing Bosch batteries may make this a coherent purchase, but a new platform buyer should compare full working cost and practical control with 2821-20 or XRJ05Z. Suitable blades, supported material and concealed-service checks remain necessary whichever saw is chosen. We have not verified comparative vibration reduction or long-term durability, so the review separates documented design from the limited owner evidence."
+      ]
+    ],
+    "verdict": "A Bosch-platform comparison that needs careful consideration of its small, mixed customer sample and blade-change arrangement.",
+    "question": "Does a 2.5 average prove half the tools fail?",
+    "answer": "No. Two individual reviews cannot establish a failure rate. Read their specific experiences and compare the equipment and support required."
+  },
+  {
+    "role": "21-degree framing on DeWalt power",
+    "bestFor": "DeWalt battery owners using compatible specified plastic-collated framing nails.",
+    "avoidIf": "Your fixing requires another collation or pneumatic production is already efficient.",
+    "specs": [
+      [
+        "Platform",
+        "20V MAX XR; tool only"
+      ],
+      [
+        "Collation",
+        "21-degree plastic"
+      ],
+      [
+        "Motor",
+        "Brushless"
+      ]
+    ],
+    "pros": [
+      "Cordless framing format",
+      "Existing DeWalt power",
+      "Tool-only choice"
+    ],
+    "cons": [
+      "Battery and nails separate",
+      "Not a substitute for specifying the connection"
+    ],
+    "sections": [
+      [
+        "Start with the specified framing nail",
+        "DCN920B is the newer 21-degree plastic-collated framing option in this catalogue. Its role is different from a brad or finish nailer: the actual connection determines the nail head, shank, diameter, length and coating required. Confirm those requirements against the tool manual and offered nails before ordering. Neither cordless convenience nor successful sinking of a nail establishes the suitability of a structural connection."
+      ],
+      [
+        "Freedom from a hose has a cost",
+        "For scattered framing tasks or repairs, removing compressor and hose setup can be useful. For repeated accessible production, an existing pneumatic station may already be economical. Compare the fitted battery and loaded tool, not just the bare-body offer. DeWalt\u2019s performance claims have stated test conditions; we have not compared firing consistency, jam frequency or fatigue against the pneumatic NR90AES1 or Milwaukee alternative."
+      ],
+      [
+        "Keep the comparison within the job",
+        "Milwaukee 2745-20 uses a different nail collation and battery system. Compare it only when its supported fastener format fits the same approved task. The B configuration excludes power equipment. An apprentice should establish what the crew supplies and whether a personal framing nailer is expected before buying. Allow for suitable nails, charging and task training rather than spending the whole budget on the tool body."
+      ]
+    ],
+    "verdict": "A DeWalt-platform framing addition for supported 21-degree plastic-collated nails. Choose the fixing specification first.",
+    "question": "Is DCN920B the same as DCN21PLB?",
+    "answer": "No. This page covers DCN920B. Check the exact current model and instructions rather than applying older-model specifications."
+  },
+  {
+    "role": "30-degree framing on M18",
+    "bestFor": "M18 users whose approved framing nails match the supported 30-degree format.",
+    "avoidIf": "Your connection calls for unsupported nails or an existing air station already covers the job.",
+    "specs": [
+      [
+        "Platform",
+        "M18; tool only"
+      ],
+      [
+        "Collation",
+        "30-degree framing"
+      ],
+      [
+        "Nail length",
+        "2\u20133-1/2 inches; manual"
+      ]
+    ],
+    "pros": [
+      "No gas cartridge required",
+      "M18 battery system",
+      "Cordless framing setup"
+    ],
+    "cons": [
+      "Loaded size and weight matter",
+      "Separate power and consumables"
+    ],
+    "sections": [
+      [
+        "Collation is a buying constraint",
+        "2745-20 is Milwaukee\u2019s M18 30-degree framing nailer, not the 21-degree 2744-20. That distinction affects the nails you purchase and should be checked against the manual and connection specification. It can suit framing work where a cordless setup removes repeated hose movement. It does not mean a 30-degree nail is interchangeable with every other framing fixing simply because the gun can drive it."
+      ],
+      [
+        "Compare the real production routine",
+        "The supported nail-length range is 2 to 3-1/2 inches. The tool\u2019s published firing capability is a manufacturer claim rather than our sustained production result. A crew with suitable compressor capacity may prefer an existing pneumatic setup for repeated work. Carrying a loaded cordless framing tool also differs from using a small trim nailer, so transport and repeated positioning belong in the decision alongside speed."
+      ],
+      [
+        "Use the batteries already working",
+        "An existing M18 kit can make the -20 tool easier to justify. A new buyer needs suitable batteries, charger and nails before comparing complete value with DCN920B or NR90AES1. Check the permitted firing mode and actual manual before use. If occasional framing is the only requirement, employer equipment or hire may avoid buying a specialist tool whose cost is difficult to recover."
+      ]
+    ],
+    "verdict": "Choose for approved 30-degree framing nails and a real M18 cordless benefit; compare pneumatic equipment when production is already organized around air.",
+    "question": "Can I use any framing nail of the right length?",
+    "answer": "No. Collation, head, diameter, coating and other manual requirements must also match, as must the actual connection specification."
+  },
+  {
+    "role": "Small trim pins without an air hose",
+    "bestFor": "M12 users placing suitable headless pins in small molding or assembly work.",
+    "avoidIf": "The fixing needs the holding role of a finish or framing nail.",
+    "specs": [
+      [
+        "Platform",
+        "M12; tool only"
+      ],
+      [
+        "Fastener",
+        "23-gauge headless pin"
+      ],
+      [
+        "Length",
+        "1/2\u20131-3/8 inches"
+      ]
+    ],
+    "pros": [
+      "No compressor setup",
+      "Compact detail-work role",
+      "Existing M12 power"
+    ],
+    "cons": [
+      "Pins are not structural fixings",
+      "Battery and charger separate"
+    ],
+    "sections": [
+      [
+        "Pins serve a distinct purpose",
+        "2540-20 places 23-gauge headless pins rather than brads or finish nails. Its carpenter role is suitable small trim and assembly positioning, where the installation system permits that fixing. Do not assume the smaller visible hole means equal holding power. When adhesive is part of the assembly, its specification and curing arrangement still govern; a pin nailer does not replace proper joint design or clamping where required."
+      ],
+      [
+        "A small repair can favor cordless",
+        "Avoiding a compressor and hose can be useful when moving between isolated trim repairs or delicate components. Milwaukee documents support for 1/2- to 1-3/8-inch pins. Check the pin, substrate and edge position, then trial the supported setting on scrap. Small fasteners can still exit unexpectedly or leave visible marks. We have not tested pin seating across hardwoods or compared this tool with NP35A."
+      ],
+      [
+        "Choose air when it already earns its place",
+        "NP35A is the pneumatic comparison for an existing suitable air setup. The M12 -20 tool needs separate power, even if the carpenter already owns M18 equipment: those battery systems differ. An apprentice doing only occasional small trim should first check whether the work requires pins at all. Price supported consumables and a complete power setup rather than buying because the tool looks compact."
+      ]
+    ],
+    "verdict": "A convenient M12 detail tool when headless pins are genuinely required. Compare NP35A if suitable air is already available.",
+    "question": "Can headless pins replace finish nails?",
+    "answer": "Not automatically. They have a different holding role; follow the installation or joint specification for the actual component."
+  },
+  {
+    "role": "Pneumatic pins for delicate trim",
+    "bestFor": "Carpenters with suitable air supply who need supported 23-gauge headless pin placement.",
+    "avoidIf": "You require framing or finish-nail holding, or compressor setup outweighs occasional use.",
+    "specs": [
+      [
+        "Supply",
+        "Pneumatic"
+      ],
+      [
+        "Fastener",
+        "23-gauge headless pins"
+      ],
+      [
+        "Lengths",
+        "5/8\u20131-3/8 inches"
+      ]
+    ],
+    "pros": [
+      "Small pin holes",
+      "Rear exhaust",
+      "No-mar tips and case listed"
+    ],
+    "cons": [
+      "Compressor and hose required",
+      "Hardwood seating needs checking"
+    ],
+    "sections": [
+      [
+        "A detail tool beside the brad nailer",
+        "NP35A addresses small molding, panel details and supported assembly positioning with headless pins. Its role differs from the existing NT50AE2 brad nailer and NT65MA4 finish nailer. Choose the required fixing before considering the small visible hole. With an appropriate existing air station, a pneumatic pin tool can be a useful addition without funding another battery system."
+      ],
+      [
+        "Read the hardwood feedback in context",
+        "Metabo HPT lists pin lengths from 5/8 to 1-3/8 inches, a dual trigger and no-mar tips. Customer feedback includes a report of pins standing proud in hardwood despite adjustment. That is one owner\u2019s experience, not a universal failure claim, but it gives a practical reason to trial the actual material and fastener. Do not compensate with a supply pressure outside the manual\u2019s permitted range."
+      ],
+      [
+        "The complete air purchase matters",
+        "Include suitable hose, couplers and regulated air when comparing with the cordless M12 option. The tool-only body price is misleading if none of that equipment is owned. Pins can hold suitable small components while an approved adhesive cures, but do not establish joint strength or replace necessary clamps. For infrequent apprentice work, confirm the task and crew equipment before adding a specialized nailer to the bag."
+      ]
+    ],
+    "verdict": "A sensible pneumatic detail addition to an existing air setup, with hardwood seating checked on the actual material.",
+    "question": "Does the small pin hole prove the joint is strong?",
+    "answer": "No. Headless pins have a limited and specific role. The joint design, substrate and approved fastening or adhesive method determine suitability."
+  },
+  {
+    "role": "Pneumatic angled finish work",
+    "bestFor": "Carpenters with suitable air supply installing trim requiring supported 15-gauge angled nails.",
+    "avoidIf": "Small detail work calls for pins or the task requires structural framing nails.",
+    "specs": [
+      [
+        "Supply",
+        "Pneumatic"
+      ],
+      [
+        "Fastener",
+        "15-gauge angled finish nail"
+      ],
+      [
+        "Length",
+        "1-1/4\u20132-1/2 inches"
+      ]
+    ],
+    "pros": [
+      "Depth adjustment dial",
+      "Adjustable exhaust",
+      "Integrated air duster"
+    ],
+    "cons": [
+      "Requires compressor and hose",
+      "Larger fixing hole than a pin"
+    ],
+    "sections": [
+      [
+        "A finish nail is a different decision",
+        "NT65MA4 serves suitable casing, molding and other specified finish applications with 15-gauge angled nails. Its holding role and visible hole differ from the NP35A pin nailer and an 18-gauge brad tool. Match the molding, substrate and installation instructions first. A stronger-looking fastener is not automatically appropriate for a thin profile that can split or an exposed face that needs a smaller fixing."
+      ],
+      [
+        "Access and depth deserve a trial",
+        "The angled magazine, depth dial and adjustable exhaust are documented features that help identify the working arrangement. They do not guarantee a clean result on every species or profile. Trial supported nail placement and depth on matching material, with the specified air supply. Owner praise for seating or comfort reflects individual jobs; we have not measured drive consistency, long-term durability or user fatigue."
+      ],
+      [
+        "Let the air station justify the purchase",
+        "If a suitable compressor and hose are already supporting trim work, adding this pneumatic format can be more coherent than funding cordless power. If repairs are scattered and setup dominates, compare DCN650B from the existing catalogue. Include the proper nails, hose arrangement and compressor demand in the budget. An apprentice should not purchase three nail gauges before learning which fixing is actually required for the work."
+      ]
+    ],
+    "verdict": "A pneumatic 15-gauge finish option for a working air station. Choose it for the specified trim fixing, not as a universal nailer.",
+    "question": "Does the air duster replace extraction?",
+    "answer": "No. It is a clearing feature, not a dust-collection system. Follow the appropriate collection and work method for the material."
+  },
+  {
+    "role": "Compact higher-pressure trim setup",
+    "bestFor": "Trim work where the documented 3 SCFM delivery fits demand and compact transport matters.",
+    "avoidIf": "Continuous high air demand or strong reliability evidence is your priority.",
+    "specs": [
+      [
+        "Tank",
+        "2.5 gallons"
+      ],
+      [
+        "Delivery",
+        "3.0 SCFM at 90 PSI"
+      ],
+      [
+        "Maximum stored pressure",
+        "200 PSI"
+      ]
+    ],
+    "pros": [
+      "Compact roll-cage format",
+      "Oil-free pump",
+      "Dual couplers"
+    ],
+    "cons": [
+      "Mixed manufacturer feedback",
+      "Stored pressure is not tool pressure"
+    ],
+    "sections": [
+      [
+        "Tank size is only one part of the supply",
+        "DWFP55130 combines a 2.5-gallon tank with documented 3 SCFM delivery at 90 PSI. That gives a more useful comparison than simply ranking it below a six-gallon machine by tank volume. For trim work, check the nailer\u2019s demand and firing routine against the delivery figure. A small tank still means less stored-air buffer, while maximum pressure is not the setting to apply to the nailer."
+      ],
+      [
+        "Compactness comes with questions",
+        "DeWalt describes a compact roll cage, dual couplers and a stated sound figure under specified conditions. We have not measured noise or recovery at a trim station. Its manufacturer-hosted customer average is mixed, with reports that deserve reading alongside the convenient format. A carrying advantage should not eclipse pump durability, service options or whether the supply supports the tools firing at the same time."
+      ],
+      [
+        "Compare complete trim arrangements",
+        "MAC100Q offers a smaller low-output setup for light demand; MAC2400 and EC914S serve different delivery and transport priorities. Include hose, couplers, supply and maintenance requirements before comparing prices. Oil-free means no pump-oil routine, not no inspection or tank draining. For isolated repairs, a compatible cordless nailer may avoid air setup altogether; for repeated work, a proven existing compressor can be better value than replacing it for appearance."
+      ]
+    ],
+    "verdict": "Compare for compact trim transport and documented delivery, while giving its mixed source feedback proper weight.",
+    "question": "Should the nailer receive the compressor\u2019s maximum 200 PSI?",
+    "answer": "No. Set regulated supply within the nailer and hose-system requirements. Maximum tank pressure is not the required working pressure."
+  },
+  {
+    "role": "Basic six-gallon pneumatic starter supply",
+    "bestFor": "Suitable intermittent nailer work where 2.6 SCFM at 90 PSI covers the demand.",
+    "avoidIf": "Continuous air tools or multiple high-demand users exceed the output.",
+    "specs": [
+      [
+        "Tank",
+        "6 gallons"
+      ],
+      [
+        "Delivery",
+        "2.6 SCFM at 90 PSI"
+      ],
+      [
+        "Maximum stored pressure",
+        "165 PSI"
+      ]
+    ],
+    "pros": [
+      "Oil-free pancake format",
+      "No battery ecosystem",
+      "Stored-air buffer"
+    ],
+    "cons": [
+      "Hose and couplers affect complete cost",
+      "Not a continuous high-air supply"
+    ],
+    "sections": [
+      [
+        "An intermittent nailer starting point",
+        "DWFP55126 is the six-gallon pancake comparison for a carpenter building a suitable pneumatic setup. DeWalt documents 2.6 SCFM at 90 PSI, so check that against the nailer and actual firing frequency. The larger tank provides stored air, but it does not change the pump into a high continuous-output source. A sanding or spraying application can have very different requirements from intermittent trim fastening."
+      ],
+      [
+        "Price the system rather than the tank",
+        "The useful purchase includes a suitable hose, couplers, regulated delivery and the nailer itself. If none of that equipment is owned, compare the complete arrangement with a cordless tool that covers the same work. A low compressor-body price alone cannot settle value. Suitable electrical supply, transport and regular draining also need a place in the routine; oil-free does not mean maintenance disappears."
+      ],
+      [
+        "Know when to buy more delivery",
+        "EC914S offers a higher documented delivery figure for a different demand profile, while MAC100Q emphasizes small light-duty transport. DWFP55130 has a smaller tank with another output and pressure combination. Compare those against the real tools firing, not a maximum-PSI contest. Apprentices should check what the crew already provides before assembling a private air station that duplicates equipment waiting at the job."
+      ]
+    ],
+    "verdict": "A basic intermittent-air comparison when the measured tool requirement fits; step up for genuine delivery needs rather than tank size alone.",
+    "question": "Does six gallons mean it can run every air tool?",
+    "answer": "No. Compare delivered air at the required pressure, duty limitations and the actual tool demand."
+  },
+  {
+    "role": "Small quiet-series supply for light trim",
+    "bestFor": "Light intermittent pin or brad work that fits its 0.7 CFM delivery at 90 PSI.",
+    "avoidIf": "Crew framing or other higher continuous air demand is required.",
+    "specs": [
+      [
+        "Tank",
+        "1 gallon"
+      ],
+      [
+        "Delivery",
+        "0.7 CFM at 90 PSI"
+      ],
+      [
+        "Pump",
+        "Oil-free"
+      ]
+    ],
+    "pros": [
+      "Compact roll cage",
+      "Lever-handle drain",
+      "Manufacturer quiet-series design"
+    ],
+    "cons": [
+      "Low delivered airflow",
+      "Very small stored-air buffer"
+    ],
+    "sections": [
+      [
+        "A small compressor for a small demand",
+        "MAC100Q should be considered as a light-duty portable supply, not a miniature crew compressor. Makita documents a one-gallon tank and 0.7 CFM delivery at 90 PSI. That can fit suitable intermittent pin or brad work, subject to the tool\u2019s actual air requirements. Check the firing routine as well as the nailer type; a small quiet machine is poor value if it spends the job waiting to recover."
+      ],
+      [
+        "Noise claims do not erase limitations",
+        "Makita\u2019s published quiet-series sound figure describes specified conditions rather than a noise measurement in your customer\u2019s room. The compact roll cage and lever-handle drain are useful configuration details for carrying and maintenance. They do not increase delivered air. Compare the actual occupied-site setup, supply and support with the work expected before treating a small package as the answer to every trim task."
+      ],
+      [
+        "An alternative to cordless detail tools",
+        "For a carpenter already using a pneumatic detail nailer, this can be a smaller supported supply when the demand fits. For isolated repairs without any air equipment, a cordless pin or brad tool may reduce setup. EC914S and MAC2400 address more substantial delivery requirements and different carrying commitments. Include hose and couplers in the purchase, and verify the current package rather than assuming accessories shown in a photograph are included."
+      ]
+    ],
+    "verdict": "Choose for genuinely light intermittent demand and compact transport. Do not buy it as a crew-framing supply.",
+    "question": "Is the one-gallon tank the main limitation?",
+    "answer": "Stored air matters, but delivered airflow and the actual firing routine are central. Check both against the tool\u2019s requirements."
+  },
+  {
+    "role": "Oil-lubricated twin-tank supply",
+    "bestFor": "Carpenters whose suitable nailer demand fits 4.2 CFM at 90 PSI and who can manage the heavier supply.",
+    "avoidIf": "Frequent carrying favors a smaller setup or you want an oil-free pump routine.",
+    "specs": [
+      [
+        "Tank",
+        "4.2 gallons; twin stacked"
+      ],
+      [
+        "Delivery",
+        "4.2 CFM at 90 PSI"
+      ],
+      [
+        "Pump",
+        "Oil lubricated"
+      ]
+    ],
+    "pros": [
+      "Documented higher air delivery",
+      "Oil sight glass",
+      "Roll-cage construction"
+    ],
+    "cons": [
+      "Oil maintenance required",
+      "Substantial carrying weight"
+    ],
+    "sections": [
+      [
+        "Choose delivered air over the gallon label",
+        "MAC2400 offers a different pneumatic arrangement from a small pancake compressor: twin tanks and an oil-lubricated pump with documented 4.2 CFM delivery at 90 PSI. Compare that figure with the tools and firing rate, then consider the transport. A carpenter running suitable repeated nailer work may value the extra delivery more than compactness; someone moving between small indoor repairs may reach the opposite conclusion."
+      ],
+      [
+        "Maintenance and carrying are real costs",
+        "The manufacturer lists oil access and a sight glass, which identify a service routine that oil-free comparisons do not share. Follow the instructions for oil, draining and inspection. Owner feedback includes quiet refill praise and a carrying-weight caveat. These individual accounts help frame the tradeoff but do not establish our measured sound level, recovery result or long-term reliability across a fleet."
+      ],
+      [
+        "Buy the compressor the tools need",
+        "EC914S provides another higher-delivery portable comparison with an oil-free arrangement. MAC100Q suits much smaller intermittent demand. Include the hose, couplers and suitable power supply, and make sure the carrying plan works for the actual stairs and vehicle. A first-year apprentice may be better served by the crew\u2019s station until the recurring work justifies a personal supply; machinery ownership is not itself a skill upgrade."
+      ]
+    ],
+    "verdict": "A higher-delivery twin-tank comparison when the working air demand justifies the weight and oil routine.",
+    "question": "Does oil lubrication mean no other maintenance?",
+    "answer": "No. Follow the manufacturer\u2019s inspection, oil, tank-draining and operating instructions for the complete setup."
+  },
+  {
+    "role": "Higher-delivery pancake crew comparison",
+    "bestFor": "Suitable repeated nailer work needing more delivered air than a basic pancake provides.",
+    "avoidIf": "A very small portable supply covers light detail work or continuous tools exceed its output.",
+    "specs": [
+      [
+        "Tank",
+        "6 gallons"
+      ],
+      [
+        "Delivery",
+        "4 CFM at 90 PSI"
+      ],
+      [
+        "Maximum stored pressure",
+        "200 PSI"
+      ]
+    ],
+    "pros": [
+      "Oil-free pump",
+      "Higher documented delivery than DWFP55126",
+      "Portable pancake format"
+    ],
+    "cons": [
+      "Tool demand still governs capacity",
+      "Not a universal continuous-air source"
+    ],
+    "sections": [
+      [
+        "A six-gallon tank with another output",
+        "EC914S illustrates why two six-gallon compressors should not be compared by tank size alone. Metabo HPT lists 4 CFM at 90 PSI, which is a different delivery figure from DWFP55126. That can justify the comparison for suitable repeated framing or finish work. Establish the combined demand and firing routine before relying on any claim about how many nailers it can support."
+      ],
+      [
+        "Crew claims need the actual work pattern",
+        "The manufacturer describes simultaneous nailer applications, but those are not our production tests on your crew\u2019s tools. Hose restrictions, supply pressure and firing rate affect the usable arrangement. One owner praises recovery; another finds noise limits their use in a different task. Read these as context, not universal results. Maximum stored pressure remains distinct from the regulated pressure specified for the nailer and hose."
+      ],
+      [
+        "Do not overbuy light-duty work",
+        "For occasional pins or a small brad routine, MAC100Q can be a more manageable comparison if its output is sufficient. MAC2400 offers a different pump and maintenance arrangement at similar headline delivery. Include transport, supply, hose and couplers in the cost. A carpenter should choose extra capacity when it removes a real recovery bottleneck, not because THE TANK branding or a high star average makes every smaller supply obsolete."
+      ]
+    ],
+    "verdict": "A higher-delivery pancake option for a demonstrated nailer-demand need; compare the whole working station before choosing by pressure.",
+    "question": "Can it run every tool that uses compressed air?",
+    "answer": "No. Check the actual air requirement, operating pressure and duty limitations. Continuous sanding or spraying can require another supply."
+  },
+  {
+    "role": "Repeatable bench drilling without a floor machine",
+    "bestFor": "Joinery benches making supported repeated holes within a 12-inch swing and stated travel.",
+    "avoidIf": "You require milling, larger workpiece clearance or documented production accuracy beyond this assessment.",
+    "specs": [
+      [
+        "Swing",
+        "12 inches"
+      ],
+      [
+        "Spindle travel",
+        "3-1/8 inches"
+      ],
+      [
+        "Speed range",
+        "580\u20133,200 RPM"
+      ]
+    ],
+    "pros": [
+      "Mechanical variable speed",
+      "Depth stop",
+      "Work light and speed display"
+    ],
+    "cons": [
+      "Needs mounting and workholding",
+      "Laser is an alignment aid"
+    ],
+    "sections": [
+      [
+        "A drilling station for repeated parts",
+        "4214T can make sense when a joiner repeatedly drills supported components and wants a fixed spindle approach with a depth stop. It is a benchtop machine, so the purchase still needs a stable mounted position and appropriate workholding. The 12-inch swing and stated travel describe limits; check the actual hole location and assembled stock height before assuming a compact machine covers the component."
+      ],
+      [
+        "Set speed for the accessory",
+        "WEN documents a mechanical speed range of 580 to 3,200 RPM and a digital readout. That makes the selected speed visible, but it does not choose the correct setting for a bit, diameter or material. The laser and light assist setup rather than proving hole accuracy. A supported fence or jig can help a repeat operation; do not treat a drill press as a milling machine or improvise unsupported sideways cutting."
+      ],
+      [
+        "Budget for the drilling arrangement",
+        "Include suitable bits, workholding and any purpose-built table needed for the actual stock. An occasional hole can often be covered by the drill already in the kit, while a batch of repeated components can justify a fixed station. Compare usable throat and travel instead of motor size alone. We have not measured spindle runout or repeatability; the recommendation concerns documented format and the operation it may organize."
+      ]
+    ],
+    "verdict": "A conditional bench-drilling purchase for repeated supported components, with mounting and workholding included in the budget.",
+    "question": "Does the laser guarantee the hole is positioned accurately?",
+    "answer": "No. Check alignment and the actual setup. The laser is an aid rather than an independent accuracy guarantee."
+  },
+  {
+    "role": "Smaller bandsaw with a supplied stand",
+    "bestFor": "Small-workshop curves and supported resawing within the documented six-inch height.",
+    "avoidIf": "Larger repeated resawing justifies a heavier machine or the footprint still exceeds your space.",
+    "specs": [
+      [
+        "Wheel class",
+        "10 inches"
+      ],
+      [
+        "Cutting height",
+        "Up to 6 inches"
+      ],
+      [
+        "Blade length",
+        "72 inches"
+      ]
+    ],
+    "pros": [
+      "Supplied stand",
+      "Two blade speeds",
+      "Work light and dust port"
+    ],
+    "cons": [
+      "Smaller capacity than JET",
+      "Blade and setup affect results"
+    ],
+    "sections": [
+      [
+        "A smaller workshop cutting addition",
+        "BA3962 is WEN\u2019s 10-inch two-speed bandsaw with stand. Its documented six-inch cutting height and 9-3/4-inch width help a joiner decide whether recurring shaped parts or supported resawing fit. It is a smaller-machine comparison, not a promise of industrial production. Measure stock, support and the whole working position before buying; a narrow footprint is useful only when the material can still move safely through the cut."
+      ],
+      [
+        "One blade cannot cover every shape",
+        "The machine uses 72-inch blades, with supported widths from 1/8 to 1/2 inch. Tight curves and straight resawing can need different blade choices and setup. The two speed settings do not establish a measured cut-speed advantage or guarantee clean faces. Set guides, tension and tracking according to the instructions and inspect trial cuts before sizing a valuable board. Collection and appropriate support remain part of the working arrangement."
+      ],
+      [
+        "When a larger bandsaw earns its cost",
+        "JET JWBS-14SFX-BLK offers a larger resawing envelope and a different floor-space, supply and extraction commitment. Choose that scale for repeated work that actually exceeds the smaller format. For occasional shaped cutting, a supported jigsaw or hired equipment may be sufficient. Include blades, collection connection and setup time with the machine price; reaching a bigger wheel diameter is not itself a reason for an apprentice to fund workshop machinery."
+      ]
+    ],
+    "verdict": "A smaller-workshop bandsaw comparison when the stock fits. Step up to the JET for a genuine recurring capacity need.",
+    "question": "Will a narrow curve-cutting blade also be ideal for resawing?",
+    "answer": "Not necessarily. Select a supported blade and setup for the operation; curve radius and straight resawing place different demands on the blade."
+  },
+  {
+    "role": "Larger resawing workshop investment",
+    "bestFor": "Joiners with recurring stock preparation needing the documented larger bandsaw envelope.",
+    "avoidIf": "Occasional small curves or a constrained space make a smaller setup sufficient.",
+    "specs": [
+      [
+        "Model",
+        "JWBS-14SFX-BLK; JET BLACK"
+      ],
+      [
+        "Motor",
+        "1.75 HP; 115/230V"
+      ],
+      [
+        "Cutting height",
+        "13 inches; specification table"
+      ]
+    ],
+    "pros": [
+      "Larger resawing capacity",
+      "Dual-height fence",
+      "Two 4-inch dust ports"
+    ],
+    "cons": [
+      "Substantial floor-space commitment",
+      "No manufacturer customer reviews at check"
+    ],
+    "sections": [
+      [
+        "Buy the resawing capacity you will use",
+        "JWBS-14SFX-BLK is the JET BLACK version of the 14SFX bandsaw, not the older plain model. The specification table lists 13 inches of cutting height. That opens a different stock-preparation role from the smaller BA3962, but the benefit matters only when larger work recurs. Prepared timber or a shared workshop can be better value for a site carpenter who rarely needs to resaw boards."
+      ],
+      [
+        "The workshop must support the machine",
+        "JET documents 115/230V input, a prewired configuration and supply requirements that need checking against the actual installation. Dual four-inch dust ports also imply a different collection plan from a small portable tool. Measure the full work envelope and material support before ordering. Manufacturer table-coating and guide claims describe design features; they are not our measurements of tracking, finish quality or operating effort."
+      ],
+      [
+        "Keep generation-specific evidence honest",
+        "The checked manufacturer page has no customer reviews for this BLACK version. Older 14SFX reviews are not silently transferred into its score or quote cards. Price the correct model with suitable blades, collection and any supported mobility arrangement. An upgrade should remove a demonstrated stock-capacity or workshop-production constraint; it should not be bought solely to make the tool collection look more professional."
+      ]
+    ],
+    "verdict": "A substantial workshop choice for recurring larger stock. Confirm exact BLACK model, supply and collection before comparing total cost.",
+    "question": "Can old JWBS-14SFX ratings be assigned to this BLACK version?",
+    "answer": "They are different catalogue configurations. This page does not transfer older-model ratings into a score for JWBS-14SFX-BLK."
+  },
+  {
+    "role": "Dedicated sanding of supported curves",
+    "bestFor": "Joinery workshops repeatedly finishing suitable curved edges with a spindle setup.",
+    "avoidIf": "Occasional flat-face sanding or portable site work is the main task.",
+    "specs": [
+      [
+        "Model",
+        "JOSS-S; stock JT9-723950"
+      ],
+      [
+        "Format",
+        "Floor-standing spindle sander"
+      ],
+      [
+        "Motor",
+        "1 HP; manufacturer"
+      ]
+    ],
+    "pros": [
+      "Dedicated curve-sanding operation",
+      "Workshop format",
+      "Manufacturer manual available"
+    ],
+    "cons": [
+      "Specialist floor-space purchase",
+      "Sleeves and collection add cost"
+    ],
+    "sections": [
+      [
+        "A specialist operation after the cut",
+        "JOSS-S is a floor-standing oscillating spindle sander for supported curved-edge finishing. It belongs after a suitable cutting operation, not as a replacement for making the shape or thicknessing a board. A workshop producing repeated curved parts may justify a dedicated station. A site carpenter making occasional fit adjustments may get better value from existing portable sanding tools or a shared workshop rather than allocating floor space to this machine."
+      ],
+      [
+        "Check the exact machine documentation",
+        "This assessment uses the manufacturer\u2019s JOSS-S stock number JT9-723950. A retailer description mixed other model wording and motor figures, so those details are not carried into the specifications here. Confirm supported sleeves, table setup and work method in the manual for the actual machine. The abrasive size must suit the curve, while work support and collection remain part of producing a controlled finished edge."
+      ],
+      [
+        "Spend only when the operation repeats",
+        "Allow for appropriate sleeves, replacement consumables, collection and a suitable working position beside the machine. A random-orbit sander performs a different operation on broad faces; a small drum accessory is not automatically an equivalent production setup. We have not compared surface finish, heat or abrasive life between machines. The buying case is organizing repeated suitable curved-edge work that currently consumes disproportionate time at another station."
+      ]
+    ],
+    "verdict": "A dedicated workshop purchase for repeated supported curve finishing. Confirm JOSS-S documentation and the whole sanding station.",
+    "question": "Does a spindle sander replace a thickness planer?",
+    "answer": "No. It finishes suitable edges; stock thicknessing and establishing reference faces are different operations."
+  },
+  {
+    "role": "Suitable grinding at a fixed maintenance bench",
+    "bestFor": "Workshops needing an anchored six-inch grinder for supported metal or edge-maintenance tasks.",
+    "avoidIf": "You need a complete fine-honing system or portable timber sanding.",
+    "specs": [
+      [
+        "Wheel diameter",
+        "6 inches"
+      ],
+      [
+        "Speed",
+        "3,450 RPM"
+      ],
+      [
+        "Motor",
+        "5/8 HP induction"
+      ]
+    ],
+    "pros": [
+      "Fixed maintenance station",
+      "Adjustable tool rests",
+      "Cast-iron base"
+    ],
+    "cons": [
+      "Mounting required",
+      "Grinding can overheat an edge"
+    ],
+    "sections": [
+      [
+        "Grinding is one part of edge care",
+        "DW756 provides a fixed six-inch grinding format, which can serve appropriate workshop maintenance tasks. It should not be presented as a complete chisel-sharpening solution. Establish the permitted wheel and edge-maintenance method first; grinding a shape and finishing a cutting edge are different stages. For a carpenter mainly fitting finished trim onsite, a bench grinder can be a low-priority purchase compared with the tools that do the daily job."
+      ],
+      [
+        "Set up the whole grinding position",
+        "DeWalt documents a 3,450 RPM induction motor, adjustable rests and a cast-iron base. Mount and configure the machine according to the manual, including wheel compatibility and protective arrangements. Do not assume a shield replaces required eye protection or that a powerful grinder prevents heat damage to a cutting edge. We have not measured vibration or edge temperatures; customer comments about smooth running reflect their particular machines and mounting."
+      ],
+      [
+        "Value depends on the maintenance routine",
+        "A workshop maintaining suitable tools repeatedly may justify a fixed station with compatible wheels and a finishing method. An apprentice with only occasional edge work should learn the required process before buying powered grinding equipment. The manufacturer\u2019s small, mixed customer sample includes both positive running reports and problems, so the rating is shown as source feedback rather than our reliability score. Include mounting, accessories and subsequent honing where needed in the total cost."
+      ]
+    ],
+    "verdict": "A fixed maintenance tool for a defined grinding process, with mounting and edge finishing included. It is not an automatic apprentice purchase.",
+    "question": "Does DW756 alone produce a fully honed chisel edge?",
+    "answer": "Not automatically. Grinding and honing serve different stages; use the method and accessories appropriate to the actual cutting tool."
+  }
+]

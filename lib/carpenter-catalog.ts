@@ -1,3 +1,4 @@
+import {carpenterFinal25Categories} from './carpenter-final25';
 import {carpenterBatch25Categories} from './carpenter-batch25';
 import {carpenterBatch30Categories} from './carpenter-batch30';
 import type { Guide } from './data';
@@ -103,6 +104,7 @@ function category(slug:string,title:string,meta:string,cluster:string,answer:str
 export const carpenterCategories:ElectricianCategory[]=[
   ...carpenterBatch30Categories,
   ...carpenterBatch25Categories,
+  ...carpenterFinal25Categories,
   category('best-circular-saws-for-carpenters','Best Circular Saws for Carpenters: Corded Value or Battery Fit?',
     'Compare DWE575SB, DCS590B, Milwaukee 2834-20, Makita XSH03Z and SKIL 5280-01 by cutting capacity, power setup and apprentice versus daily-work fit.','Circular Saws',
     'Start with DWE575SB for a powered work position. DCS590B and Milwaukee 2834-20 suit their existing battery owners; XSH03Z is the smaller LXT comparison. SKIL 5280-01 is an occasional-work alternative, with its DIY positioning stated clearly.',

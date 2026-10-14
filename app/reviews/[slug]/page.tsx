@@ -1,3 +1,4 @@
+import {getGuide} from '@/lib/data';
 import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { ProductFeedback } from "@/components/ProductFeedback";
@@ -42,11 +43,11 @@ export default async function ReviewPage({
   const alternatives = reviews.filter(
     (x) => x.trade === r.trade && x.guideSlug === r.guideSlug && x.slug !== r.slug,
   );
-  const workflows = getTradeWorkflows(r.trade).filter(w => w.tools.some(t => t.guideUrl === `/${r.trade}/${r.guideSlug}/` || t.reviewUrl === `/reviews/${r.slug}/`));
+  const workflows = getTradeWorkflows(r.trade).filter(w => (r.sourceNote?.includes('October 14') && getGuide(r.trade,r.guideSlug)?.workflowSlugs?.includes(w.slug)) || w.tools.some(t => t.guideUrl === `/${r.trade}/${r.guideSlug}/` || t.reviewUrl === `/reviews/${r.slug}/`));
   return (
     <>
       <PageSchema
-        date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined}
+        date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 14') ? '2026-10-14' : r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined}
         title={r.title}
         description={r.meta}
         path={`/reviews/${slug}/`}
@@ -72,7 +73,7 @@ export default async function ReviewPage({
           <h1>{r.title}</h1>
           <p>{r.meta}</p>
           <ProductRating trade={r.trade} brand={r.brand} model={r.model} amazonUrl={r.amazonUrl} compact />
-          <EditorialByline showMethodology={false} date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} />
+          <EditorialByline showMethodology={false} date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 14') ? '2026-10-14' : r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} />
           <div className="reviewHeroActions">
             <a
               className="amazonBtn"
@@ -87,6 +88,7 @@ export default async function ReviewPage({
             <Link className="secondaryBtn" href={`/${r.trade}/${r.guideSlug}/`}>
               Back to comparison
             </Link>
+            {r.sourceNote?.includes('October 14') && <Link className="secondaryBtn" href="/carpenters/tools/">Browse all carpenter tools</Link>}
           </div>
           </div>
           {photo && <ProductPhoto photo={photo} className="reviewHeroPhoto" priority credit linkCredit={false} />}

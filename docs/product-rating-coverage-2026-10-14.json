@@ -1,7 +1,7 @@
 {
-  "total": 376,
-  "sourced": 316,
-  "missing": 60,
+  "total": 401,
+  "sourced": 335,
+  "missing": 66,
   "complete": false,
   "byTrade": {
     "electricians": {
@@ -25,9 +25,9 @@
       "missing": 13
     },
     "carpenters": {
-      "entries": 75,
-      "sourced": 72,
-      "missing": 3
+      "entries": 100,
+      "sourced": 91,
+      "missing": 9
     }
   },
   "entries": [
@@ -5722,6 +5722,395 @@
       "amazonUrl": "https://www.amazon.com/s?k=Festool%20CT%20MIDI%20I%20HEPA%20Dust%20Extractor%20(578512)&tag=robbieom0e-20",
       "rating": null,
       "status": "missing-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "dewalt-dcs335b",
+      "brand": "DeWalt",
+      "model": "DCS335B 20V MAX XR Barrel-Grip Jig Saw",
+      "guidePath": "/carpenters/jigsaws-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-dewalt-dcs335b-review",
+      "amazonUrl": "https://www.amazon.com/s?k=DeWalt%20DCS335B%2020V%20MAX%20XR%20Barrel-Grip%20Jig%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.3,
+        "count": 21,
+        "source": "DeWalt",
+        "sourceUrl": "https://www.dewalt.com/en-us/product/dcs335b/20v-max-xr-cordless-barrel-grip-jig-saw-tool-only",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "makita-xvj01z",
+      "brand": "Makita",
+      "model": "XVJ01Z 18V LXT Barrel-Grip Jig Saw",
+      "guidePath": "/carpenters/jigsaws-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-makita-xvj01z-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Makita%20XVJ01Z%2018V%20LXT%20Barrel-Grip%20Jig%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.2,
+        "count": 5,
+        "source": "Acme Tools",
+        "sourceUrl": "https://www.acmetools.com/makita-18v-lxt-lithium-ion-brushless-cordless-barrel-grip-jig-saw-bare-tool-xvj01z/088381843935.html",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "makita-xvj04z",
+      "brand": "Makita",
+      "model": "XVJ04Z 18V LXT D-Handle Jig Saw",
+      "guidePath": "/carpenters/jigsaws-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-makita-xvj04z-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Makita%20XVJ04Z%2018V%20LXT%20D-Handle%20Jig%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 5,
+        "count": 1,
+        "source": "Acme Tools",
+        "sourceUrl": "https://www.acmetools.com/makita-18v-lxt-jig-saw-lithium-ion-brushless-cordless-bare-tool-xvj04z/088381762557.html",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "bosch-js572ebk",
+      "brand": "Bosch",
+      "model": "JS572EBK 7.2-Amp Barrel-Grip Jig Saw Kit",
+      "guidePath": "/carpenters/jigsaws-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-bosch-js572ebk-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Bosch%20JS572EBK%207.2-Amp%20Barrel-Grip%20Jig%20Saw%20Kit&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.7,
+        "count": 17,
+        "source": "Bosch",
+        "sourceUrl": "https://www.boschtools.com/us/en/products/js572ebk-0601514012",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "milwaukee-2737-20",
+      "brand": "Milwaukee",
+      "model": "2737-20 M18 FUEL D-Handle Jig Saw",
+      "guidePath": "/carpenters/jigsaws-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-milwaukee-2737-20-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Milwaukee%202737-20%20M18%20FUEL%20D-Handle%20Jig%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.8,
+        "count": 1648,
+        "source": "Milwaukee",
+        "sourceUrl": "https://www.milwaukeetool.com/products/details/m18-fuel-d-handle-jig-saw/2737-20",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "dewalt-dcs367b",
+      "brand": "DeWalt",
+      "model": "DCS367B 20V MAX XR Compact Reciprocating Saw",
+      "guidePath": "/carpenters/reciprocating-saws-for-carpenters",
+      "reviewPath": "/reviews/carpenters-dewalt-dcs367b-review",
+      "amazonUrl": "https://www.amazon.com/s?k=DeWalt%20DCS367B%2020V%20MAX%20XR%20Compact%20Reciprocating%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.5,
+        "count": 110,
+        "source": "DeWalt",
+        "sourceUrl": "https://www.dewalt.com/en-us/product/dcs367b/20v-max-xr-brushless-compact-reciprocating-saw-tool-only",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "dewalt-dcs389b",
+      "brand": "DeWalt",
+      "model": "DCS389B 60V MAX FLEXVOLT Reciprocating Saw",
+      "guidePath": "/carpenters/reciprocating-saws-for-carpenters",
+      "reviewPath": "/reviews/carpenters-dewalt-dcs389b-review",
+      "amazonUrl": "https://www.amazon.com/s?k=DeWalt%20DCS389B%2060V%20MAX%20FLEXVOLT%20Reciprocating%20Saw&tag=robbieom0e-20",
+      "rating": null,
+      "status": "missing-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "milwaukee-2821-20",
+      "brand": "Milwaukee",
+      "model": "2821-20 M18 FUEL SAWZALL Reciprocating Saw",
+      "guidePath": "/carpenters/reciprocating-saws-for-carpenters",
+      "reviewPath": "/reviews/carpenters-milwaukee-2821-20-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Milwaukee%202821-20%20M18%20FUEL%20SAWZALL%20Reciprocating%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.8,
+        "count": 798,
+        "source": "Milwaukee",
+        "sourceUrl": "https://www.milwaukeetool.com/products/details/m18-fuel-sawzall-recip-saw/2821-20",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "makita-xrj05z",
+      "brand": "Makita",
+      "model": "XRJ05Z 18V LXT Brushless Recipro Saw",
+      "guidePath": "/carpenters/reciprocating-saws-for-carpenters",
+      "reviewPath": "/reviews/carpenters-makita-xrj05z-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Makita%20XRJ05Z%2018V%20LXT%20Brushless%20Recipro%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.9,
+        "count": 13,
+        "source": "Acme Tools",
+        "sourceUrl": "https://www.acmetools.com/makita-18-volt-lxt-lithium-ion-brushless-cordless-recipro-saw-bare-tool-xrj05z/088381807609.html",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "bosch-gsa18v-110n",
+      "brand": "Bosch",
+      "model": "GSA18V-110N 18V PROFACTOR Reciprocating Saw",
+      "guidePath": "/carpenters/reciprocating-saws-for-carpenters",
+      "reviewPath": "/reviews/carpenters-bosch-gsa18v-110n-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Bosch%20GSA18V-110N%2018V%20PROFACTOR%20Reciprocating%20Saw&tag=robbieom0e-20",
+      "rating": {
+        "score": 2.5,
+        "count": 2,
+        "source": "Bosch",
+        "sourceUrl": "https://www.boschtools.com/us/en/products/gsa18v-110n-06016C001D",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "dewalt-dcn920b",
+      "brand": "DeWalt",
+      "model": "DCN920B 20V MAX XR 21-Degree Framing Nailer",
+      "guidePath": "/carpenters/framing-pin-finish-nailers-for-carpenters",
+      "reviewPath": "/reviews/carpenters-dewalt-dcn920b-review",
+      "amazonUrl": "https://www.amazon.com/s?k=DeWalt%20DCN920B%2020V%20MAX%20XR%2021-Degree%20Framing%20Nailer&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.2,
+        "count": 24,
+        "source": "DeWalt",
+        "sourceUrl": "https://www.dewalt.com/en-us/product/dcn920b/20v-max-xr-brushless-cordless-21deg-plastic-collated-framing-nailer-tool-only",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "milwaukee-2745-20",
+      "brand": "Milwaukee",
+      "model": "2745-20 M18 FUEL 30-Degree Framing Nailer",
+      "guidePath": "/carpenters/framing-pin-finish-nailers-for-carpenters",
+      "reviewPath": "/reviews/carpenters-milwaukee-2745-20-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Milwaukee%202745-20%20M18%20FUEL%2030-Degree%20Framing%20Nailer&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.6,
+        "count": 1607,
+        "source": "Milwaukee",
+        "sourceUrl": "https://www.milwaukeetool.com/2745-20",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "milwaukee-2540-20",
+      "brand": "Milwaukee",
+      "model": "2540-20 M12 23-Gauge Pin Nailer",
+      "guidePath": "/carpenters/framing-pin-finish-nailers-for-carpenters",
+      "reviewPath": "/reviews/carpenters-milwaukee-2540-20-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Milwaukee%202540-20%20M12%2023-Gauge%20Pin%20Nailer&tag=robbieom0e-20",
+      "rating": null,
+      "status": "missing-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "metabo-np35a",
+      "brand": "Metabo HPT",
+      "model": "NP35A 23-Gauge Pneumatic Micro Pin Nailer",
+      "guidePath": "/carpenters/framing-pin-finish-nailers-for-carpenters",
+      "reviewPath": "/reviews/carpenters-metabo-np35a-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Metabo%20HPT%20NP35A%2023-Gauge%20Pneumatic%20Micro%20Pin%20Nailer&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.6,
+        "count": 273,
+        "source": "Metabo HPT",
+        "sourceUrl": "https://www.metabo-hpt.com/products/product/np35a-1-3-8-23-gauge-pin-nailer-metabo-hpt",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "metabo-nt65ma4",
+      "brand": "Metabo HPT",
+      "model": "NT65MA4 15-Gauge Pneumatic Angled Finish Nailer",
+      "guidePath": "/carpenters/framing-pin-finish-nailers-for-carpenters",
+      "reviewPath": "/reviews/carpenters-metabo-nt65ma4-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Metabo%20HPT%20NT65MA4%2015-Gauge%20Pneumatic%20Angled%20Finish%20Nailer&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.8,
+        "count": 313,
+        "source": "Metabo HPT",
+        "sourceUrl": "https://www.metabo-hpt.com/products/product/nt65ma4-2-1-2-15-gauge-angled-finish-nailer-with-air-duster-metabo-hpt",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "dewalt-dwfp55130",
+      "brand": "DeWalt",
+      "model": "DWFP55130 2.5-Gallon Quiet Trim Compressor",
+      "guidePath": "/carpenters/air-compressors-for-carpenter-nailers",
+      "reviewPath": "/reviews/carpenters-dewalt-dwfp55130-review",
+      "amazonUrl": "https://www.amazon.com/s?k=DeWalt%20DWFP55130%202.5-Gallon%20Quiet%20Trim%20Compressor&tag=robbieom0e-20",
+      "rating": {
+        "score": 2.7,
+        "count": 46,
+        "source": "DeWalt",
+        "sourceUrl": "https://www.dewalt.com/en-us/product/dwfp55130/dewalt-200-psi-quiet-trim-compressor",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "dewalt-dwfp55126",
+      "brand": "DeWalt",
+      "model": "DWFP55126 6-Gallon Pancake Air Compressor",
+      "guidePath": "/carpenters/air-compressors-for-carpenter-nailers",
+      "reviewPath": "/reviews/carpenters-dewalt-dwfp55126-review",
+      "amazonUrl": "https://www.amazon.com/s?k=DeWalt%20DWFP55126%206-Gallon%20Pancake%20Air%20Compressor&tag=robbieom0e-20",
+      "rating": {
+        "score": 3.2,
+        "count": 46,
+        "source": "DeWalt Canada",
+        "sourceUrl": "https://www.dewalt.ca/en-ca/product/dwfp55126/dewalt-heavy-duty-165-psi-pancake-compressor",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "makita-mac100q",
+      "brand": "Makita",
+      "model": "MAC100Q Quiet Series 1-Gallon Air Compressor",
+      "guidePath": "/carpenters/air-compressors-for-carpenter-nailers",
+      "reviewPath": "/reviews/carpenters-makita-mac100q-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Makita%20MAC100Q%20Quiet%20Series%201-Gallon%20Air%20Compressor&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.5,
+        "count": 15,
+        "source": "Acme Tools",
+        "sourceUrl": "https://www.acmetools.com/makita-quiet-series-electric-air-compressor-1-gallon-mac100q/088381897495.html",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "makita-mac2400",
+      "brand": "Makita",
+      "model": "MAC2400 4.2-Gallon Big Bore Air Compressor",
+      "guidePath": "/carpenters/air-compressors-for-carpenter-nailers",
+      "reviewPath": "/reviews/carpenters-makita-mac2400-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Makita%20MAC2400%204.2-Gallon%20Big%20Bore%20Air%20Compressor&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.8,
+        "count": 31,
+        "source": "Acme Tools",
+        "sourceUrl": "https://www.acmetools.com/makita-air-compressor-25-hp-mac2400/088381053532.html",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "metabo-ec914s",
+      "brand": "Metabo HPT",
+      "model": "EC914S THE TANK 6-Gallon Air Compressor",
+      "guidePath": "/carpenters/air-compressors-for-carpenter-nailers",
+      "reviewPath": "/reviews/carpenters-metabo-ec914s-review",
+      "amazonUrl": "https://www.amazon.com/s?k=Metabo%20HPT%20EC914S%20THE%20TANK%206-Gallon%20Air%20Compressor&tag=robbieom0e-20",
+      "rating": {
+        "score": 4.7,
+        "count": 381,
+        "source": "Metabo HPT",
+        "sourceUrl": "https://www.metabo-hpt.com/products/product/the-tank-6-gallon-high-capacity-pancake-air-compressor-metabo-hpt-ec914s",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "wen-4214t",
+      "brand": "WEN",
+      "model": "4214T 12-Inch Variable-Speed Drill Press",
+      "guidePath": "/carpenters/workshop-machines-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-wen-4214t-review",
+      "amazonUrl": "https://www.amazon.com/s?k=WEN%204214T%2012-Inch%20Variable-Speed%20Drill%20Press&tag=robbieom0e-20",
+      "rating": null,
+      "status": "missing-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "wen-ba3962",
+      "brand": "WEN",
+      "model": "BA3962 10-Inch Two-Speed Bandsaw with Stand",
+      "guidePath": "/carpenters/workshop-machines-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-wen-ba3962-review",
+      "amazonUrl": "https://www.amazon.com/s?k=WEN%20BA3962%2010-Inch%20Two-Speed%20Bandsaw%20with%20Stand&tag=robbieom0e-20",
+      "rating": null,
+      "status": "missing-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "jet-jwbs-14sfx-blk",
+      "brand": "JET",
+      "model": "JWBS-14SFX-BLK 14-Inch JET BLACK Bandsaw",
+      "guidePath": "/carpenters/workshop-machines-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-jet-jwbs-14sfx-blk-review",
+      "amazonUrl": "https://www.amazon.com/s?k=JET%20JWBS-14SFX-BLK%2014-Inch%20JET%20BLACK%20Bandsaw&tag=robbieom0e-20",
+      "rating": null,
+      "status": "missing-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "jet-joss-s",
+      "brand": "JET",
+      "model": "JOSS-S Floor-Standing Oscillating Spindle Sander",
+      "guidePath": "/carpenters/workshop-machines-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-jet-joss-s-review",
+      "amazonUrl": "https://www.amazon.com/s?k=JET%20JOSS-S%20Floor-Standing%20Oscillating%20Spindle%20Sander&tag=robbieom0e-20",
+      "rating": null,
+      "status": "missing-score"
+    },
+    {
+      "trade": "carpenters",
+      "productId": "dewalt-dw756",
+      "brand": "DeWalt",
+      "model": "DW756 6-Inch Bench Grinder",
+      "guidePath": "/carpenters/workshop-machines-for-carpenters-joiners",
+      "reviewPath": "/reviews/carpenters-dewalt-dw756-review",
+      "amazonUrl": "https://www.amazon.com/s?k=DeWalt%20DW756%206-Inch%20Bench%20Grinder&tag=robbieom0e-20",
+      "rating": {
+        "score": 3.8,
+        "count": 10,
+        "source": "DeWalt",
+        "sourceUrl": "https://www.dewalt.com/en-us/product/dw756/6-150mm-bench-grinder",
+        "checkedDate": "2026-10-14"
+      },
+      "status": "sourced-score"
     },
     {
       "trade": "carpenters",
