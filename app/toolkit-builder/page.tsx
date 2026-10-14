@@ -51,7 +51,7 @@ export default function ToolkitBuilderPage() {
       <div className="shell">
         <div className={styles.introduction}>
           <Link href="/electricians/" className={styles.back}>← Browse electrician tools</Link>
-          <p><strong>Prototype for feedback.</strong> We're testing the planning workflow with one trade before extending it to plumbers, HVAC technicians, carpenters and new home inspectors.</p>
+          <p><strong>Prototype for feedback.</strong> We&apos;re testing the planning workflow with one trade before extending it to plumbers, HVAC technicians, carpenters and new home inspectors.</p>
         </div>
         <ApprenticePlanner products={getPilotProducts()}/>
       </div>
@@ -60,7 +60,7 @@ export default function ToolkitBuilderPage() {
       <div className="shell">
         <h2>Built to complement your official requirements, not replace them.</h2>
         <p>Your employer, apprenticeship coordinator or training provider determines which tools and safety equipment you need. We publish research-based buying information, not trade certification or personal site experience. Product links may earn us an Amazon commission; your list remains yours to verify.</p>
-        <p>If you're an apprentice or trainer reviewing this pilot, we're especially interested in where the matching is wrong or where the workflow could save time.</p>
+        <p>If you&apos;re an apprentice or trainer reviewing this pilot, we&apos;re especially interested in where the matching is wrong or where the workflow could save time.</p>
       </div>
     </section>
   </div>;
