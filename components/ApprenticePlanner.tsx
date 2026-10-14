@@ -143,22 +143,22 @@ export function ApprenticePlanner({products}:{products:Record<string,PlannerProd
       <section className={styles.panel}>
         <span className={styles.step}>02 / YOUR CIRCUMSTANCES</span>
         <h2>Set your spending limit.</h2>
-        <p>We'll help you track the tools you need to buy, what you already have and what the employer may provide.</p>
+        <p>We&apos;ll help you track the tools you need to buy, what you already have and what the employer may provide.</p>
         <label className={styles.label} htmlFor="budget">Available budget (US dollars)</label>
         <div className={styles.moneyField}><span>$</span><input id="budget" type="number" min="0" step="1" value={budget} onChange={event=>setBudget(event.target.value)}/></div>
         <label className={styles.label} htmlFor="employer">Does your employer supply tools?</label>
         <select id="employer" className={styles.select} value={employer} onChange={event=>setEmployer(event.target.value)}>
-          <option value="unknown">I don't know yet</option><option value="some">Some of them</option>
+          <option value="unknown">I don&apos;t know yet</option><option value="some">Some of them</option>
           <option value="most">Most or all of them</option><option value="none">No, I buy my own</option>
         </select>
         <div className={styles.tip}><strong>Why we ask:</strong> Different employers and unions have different rules. You can mark each item as already owned, employer-provided or awaiting confirmation after building your list.</div>
         <button type="button" disabled={!listText.trim()} className={styles.primaryButton} onClick={makePlan}>Build my shopping plan →</button>
-        <p className={styles.privacy}>No account, email address or upload required. Your entries stay in this browser page; we don't submit them to a server.</p>
+        <p className={styles.privacy}>No account, email address or upload required. Your entries stay in this browser page; we don&apos;t submit them to a server.</p>
       </section>
     </div>
     {built && <section className={styles.results} aria-live="polite">
       <div className={styles.resultsHeader}>
-        <div><span className={styles.step}>03 / YOUR SHOPPING PLAN</span><h2>Make every purchase count.</h2><p>Edit each tool's status. Enter your own expected cost after checking retailers, then see how it fits your budget.</p></div>
+        <div><span className={styles.step}>03 / YOUR SHOPPING PLAN</span><h2>Make every purchase count.</h2><p>Edit each tool&apos;s status. Enter your own expected cost after checking retailers, then see how it fits your budget.</p></div>
         <div className={styles.buttonRow}>
           <button type="button" className={styles.outlineButton} onClick={copyPlan}>Copy checklist</button>
           <button type="button" className={styles.outlineButton} onClick={()=>window.print()}>Print</button>
@@ -206,11 +206,11 @@ export function ApprenticePlanner({products}:{products:Record<string,PlannerProd
             {product ? <div className={styles.product}>
               <div><span className={styles.smallCaps}>MATCHED FROM TRADEGEAR HQ</span><strong>{product.name}</strong><span>Example to consider. Confirm its exact specification before buying.</span></div>
               <div className={styles.productLinks}><a href={product.detailHref}>Read buying advice →</a><a href={product.amazonUrl} target="_blank" rel="sponsored nofollow noopener noreferrer">Check Amazon offer ↗</a></div>
-            </div> : <div className={styles.unmatched}>No verified product match yet. Keep this item on your checklist — we won't substitute an unsuitable model to earn a commission.</div>}
+            </div> : <div className={styles.unmatched}>No verified product match yet. Keep this item on your checklist — we won&apos;t substitute an unsuitable model to earn a commission.</div>}
           </article>;
         })}
       </div>
-      <div className={styles.footerNote}><strong>About TradeGear HQ:</strong> Independent, research-led product comparisons; not a trade school or hands-on testing laboratory. We may earn a commission from Amazon purchases. We'd welcome feedback from apprentices and trainers before expanding this pilot.</div>
+      <div className={styles.footerNote}><strong>About TradeGear HQ:</strong> Independent, research-led product comparisons; not a trade school or hands-on testing laboratory. We may earn a commission from Amazon purchases. We&apos;d welcome feedback from apprentices and trainers before expanding this pilot.</div>
     </section>}
   </div>;
 }
