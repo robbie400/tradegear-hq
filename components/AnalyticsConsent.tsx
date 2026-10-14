@@ -10,6 +10,7 @@ type AnalyticsWindow = Window & {
   gtag?: (...args: unknown[]) => void;
 };
 const consentKey = "tradegear-analytics-consent";
+const ownerKey = "tradegear-analytics-owner";
 
 export function AnalyticsConsent() {
   const id = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
@@ -17,9 +18,23 @@ export function AnalyticsConsent() {
   const [choice, setChoice] = useState<Choice | null>(null);
   const [ready, setReady] = useState(false);
   const [settings, setSettings] = useState(false);
+  const [ownerExcluded, setOwnerExcluded] = useState(false);
 
   useEffect(() => {
     try {
+      const params = new URLSearchParams(window.location.search);
+      const owner = params.get("_owner");
+      if (owner === "1") {
+        localStorage.setItem(ownerKey, "1");
+        params.delete("_owner");
+        window.history.replaceState(null, "", window.location.pathname + (params.toString() ? `?${params.toString()}` : "") + window.location.hash);
+      } else if (owner === "0") {
+        localStorage.removeItem(ownerKey);
+        params.delete("_owner");
+        window.history.replaceState(null, "", window.location.pathname + (params.toString() ? `?${params.toString()}` : "") + window.location.hash);
+      }
+      const isOwner = localStorage.getItem(ownerKey) === "1";
+      setOwnerExcluded(isOwner);
       const saved = localStorage.getItem(consentKey);
       if (saved === "accepted" || saved === "declined") setChoice(saved);
     } catch { /* A visitor can still choose without persistent storage. */ }
@@ -27,7 +42,7 @@ export function AnalyticsConsent() {
   }, []);
 
   useEffect(() => {
-    if (!enabled || choice !== "accepted" || !id) return;
+    if (!enabled || ownerExcluded || choice !== "accepted" || !id) return;
     const w = window as AnalyticsWindow;
     w.dataLayer = w.dataLayer || [];
     // Google processes the standard gtag arguments queue.
@@ -62,7 +77,7 @@ export function AnalyticsConsent() {
     };
     document.addEventListener("click", track);
     return () => document.removeEventListener("click", track);
-  }, [choice, enabled, id]);
+  }, [choice, enabled, id, ownerExcluded]);
 
   function choose(next: Choice) {
     try { localStorage.setItem(consentKey, next); } catch { /* Optional persistence. */ }
@@ -82,7 +97,7 @@ export function AnalyticsConsent() {
     setSettings(false);
   }
 
-  if (!enabled || !ready) return null;
+  if (!enabled || !ready || ownerExcluded) return null;
   return <>
     {choice === "accepted" && <Script id="tradegear-google-analytics" src={`https://www.googletagmanager.com/gtag/js?id=${id}`} strategy="afterInteractive" />}
     <button className="analytics-settings" onClick={() => setSettings(true)}>Cookie settings</button>
