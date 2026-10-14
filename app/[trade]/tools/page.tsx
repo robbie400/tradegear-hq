@@ -1,3 +1,4 @@
+import styles from './ToolDirectory.module.css';
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
@@ -26,11 +27,11 @@ export default async function TradeTools({params}:{params:Promise<{trade:string}
   </article>}));
   return <>
     <PageSchema kind="CollectionPage" title={titles[trade]} description={description} path={`/${trade}/tools/`} date="2026-10-14" crumbs={[{name:'Home',path:'/'},{name:hub.name,path:`/${trade}/`},{name:'All tools',path:`/${trade}/tools/`}]}/>
-    <section className="section light"><div className="shell">
-      <div className="crumb"><Link href="/">Home</Link> / <Link href={`/${trade}/`}>{hub.name}</Link> / All tools</div>
-      <span className="eyebrow orange">BROWSE THE TOOLS</span><h1>{titles[trade]}</h1>
-      <div className="sectionHeading"><h2>Find the tool you need.</h2><p>{products.length} tools in the current shortlist. Search by name, open buying advice and compare alternatives for your work.</p></div>
-      <nav className="articleNav" aria-label="Other ways to shop"><Link href={`/${trade}/#tool-guides`}>Compare tool categories →</Link><Link href={`/${trade}/#job-kits`}>Find a job kit →</Link></nav>
+    <section className={`section light ${styles.directory}`}><div className="shell">
+      <div className={`crumb ${styles.crumb}`}><Link href="/">Home</Link> / <Link href={`/${trade}/`}>{hub.name}</Link> / All tools</div>
+      <h1>{titles[trade]}</h1>
+      <p className={styles.intro}>{products.length} tools. Find your tool, check the buying advice and compare alternatives.</p>
+      <nav className={styles.navigation} aria-label="Other ways to shop"><Link href={`/${trade}/#tool-guides`}>Compare tool categories →</Link><Link href={`/${trade}/#job-kits`}>Find a job kit →</Link></nav>
       <ToolDirectorySearch items={items} groups={categories.map(g=>({slug:g.slug,name:g.cluster}))}/>
     </div></section>
   </>;
