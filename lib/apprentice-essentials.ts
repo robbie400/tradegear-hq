@@ -365,7 +365,7 @@ export const apprenticeEssentials: readonly ApprenticeEssential[] = [
     "manufacturerUrl": "https://www.streamlight.com/products/detail/stylus-pro",
     "imageStatus": "publisher-directed-permission-unconfirmed",
     "image": {
-      "src": "https://www.streamlight.com/images/default-source/product-large-images/stylus-pro/stylus-pro_1.jpg?Status=Master&sfvrsn=b2dac9f3_22",
+      "src": "https://www.streamlight.com/images/default-source/product-large-images/stylus-pro/stylus-pro_2.jpg?Status=Master&sfvrsn=b3dac9f3_22",
       "alt": "Streamlight 66118 product photograph",
       "sourceUrl": "https://www.streamlight.com/products/detail/stylus-pro",
       "rightsNote": "Publisher requested display of this manufacturer photograph on 2026-10-15 without waiting for permission. Manufacturer reuse permission remains unconfirmed; no licence is asserted."
