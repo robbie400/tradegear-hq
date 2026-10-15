@@ -102,3 +102,10 @@ After reviewing the unresolved permissions, the publisher instructed: “Ah no, 
 Klein uses exact-model main packshots from the official product galleries. DEWALT uses the image explicitly labelled DPG94-1C in the Radians gallery, rather than its generic family social-preview image. Crescent and Wiss use exact-model main product photos; Bucket Boss uses its 50200 photograph; Milwaukee uses its 48-22-2502 page photo; Streamlight uses the black Stylus Pro gallery image. External photographs use the existing Next Image pipeline and manufacturer attribution. Card images are contained, not cropped. This change does not resolve or enable the mismatched DEWALT Amazon link.
 
 No production release is authorised by this instruction. Review and approve the updated preview separately.
+
+
+## Directory placement and footer access — 2026-10-15
+
+At the publisher’s request, all five tool directories now render the full reviews/comparisons grid before the Apprentice Essentials carousel. The existing horizontal group-navigation link remains in its original position; it jumps to the relocated section. The section has a 100px anchor offset to clear the sticky header. Search still filters both types of record and can show an essential directly when it is the only matching result.
+
+The sitewide footer adds Apprentice Essentials immediately below Trade Guides. It opens `/apprentice-essentials/`, a small five-trade chooser linking to each directory’s essentials anchor. The chooser does not add or duplicate product records, reviews, buying guides, planner functionality or product detail pages. It is included in the sitemap as a navigation page. All approved product images, source/permission status, affiliate routing and the withheld DEWALT destination remain unchanged.

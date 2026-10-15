@@ -16,6 +16,7 @@ export function Footer() {
           <b>Editorial</b>
           <Link href="/">Home</Link>
           <Link href="/#trades">Trade Guides</Link>
+          <Link href="/apprentice-essentials/">Apprentice Essentials</Link>
           <Link href="/how-we-choose/">How We Choose Tools</Link>
           <Link href="/privacy/">Privacy & Cookies</Link>
         </div>
