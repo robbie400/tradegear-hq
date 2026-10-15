@@ -4,7 +4,7 @@
     "trade": "Automotive Mechanics",
     "proposedTradeSlug": "automotive-mechanics",
     "date": "2026-10-15",
-    "phase": "Candidate shortlist and editorial structure for approval; not publication-ready product data.",
+    "phase": "Revised 100-product proposal for approval; first 50 checked with explicit publication holds",
     "targetProducts": 100,
     "batches": [
       {
@@ -17,70 +17,73 @@
       }
     ],
     "existingRecordsToReuse": [
-      "streamlight-66118",
-      "dewalt-dpg94-1c"
+      "klein-32500hd",
+      "knipex-8701250",
+      "stanley-33-725",
+      "dewalt-dpg94-1c",
+      "klein-d228-8",
+      "klein-d203-8",
+      "streamlight-66118"
     ],
-    "newCanonicalCandidates": 98,
-    "scope": "Research only. No website routes, affiliate helper, existing ratings, reviews or Toolkit Builder modified.",
+    "newCanonicalCandidates": 93,
+    "scope": "Research only. No website implementation, design, counts, affiliate helper or Toolkit Builder changes.",
     "verificationSummary": {
-      "manufacturerModelSourceLocated": 59,
-      "manufacturerCatalogueOrFamilySourceLocated": 40,
-      "existingRecordRecheckRequired": 1,
-      "newAmazonListingsVerified": 0,
-      "previouslyMatchedAmazonListings": 1,
-      "knownAmazonMismatches": 1,
-      "newRatingSnapshots": 0,
-      "newApprovedQuotes": 0,
-      "publicationReadyProducts": 0
+      "firstBatchExactAmazonMatches": 43,
+      "firstBatchAmazonHolds": 7,
+      "firstBatchManufacturerDetailHolds": 3,
+      "imageReusePermissionsEstablished": 0,
+      "publicationReadyProducts": 0,
+      "newRatingSnapshotsForPublication": 0,
+      "approvedQuotes": 0
     },
     "categories": [
       {
         "category": "Diagnostics",
-        "total": 7,
-        "batch1": 7,
-        "batch2": 0
+        "total": 5,
+        "batch1": 3,
+        "batch2": 2
       },
       {
         "category": "Electrical",
         "total": 6,
-        "batch1": 6,
-        "batch2": 0
+        "batch1": 4,
+        "batch2": 2
       },
       {
         "category": "Torque",
-        "total": 6,
-        "batch1": 6,
-        "batch2": 0
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
       },
       {
         "category": "Sockets",
-        "total": 7,
-        "batch1": 7,
-        "batch2": 0
+        "total": 4,
+        "batch1": 3,
+        "batch2": 1
       },
       {
         "category": "Ratchets",
-        "total": 5,
-        "batch1": 5,
-        "batch2": 0
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
       },
       {
         "category": "Wrenches",
-        "total": 5,
-        "batch1": 5,
-        "batch2": 0
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
       },
       {
         "category": "Power tools",
-        "total": 6,
-        "batch1": 6,
-        "batch2": 0
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
       },
       {
         "category": "Brake tools",
-        "total": 6,
-        "batch1": 6,
-        "batch2": 0
+        "total": 5,
+        "batch1": 3,
+        "batch2": 2
       },
       {
         "category": "Suspension",
@@ -90,21 +93,21 @@
       },
       {
         "category": "Lifting",
-        "total": 6,
-        "batch1": 0,
-        "batch2": 6
+        "total": 3,
+        "batch1": 2,
+        "batch2": 1
       },
       {
         "category": "Fluids",
         "total": 6,
-        "batch1": 0,
-        "batch2": 6
+        "batch1": 2,
+        "batch2": 4
       },
       {
         "category": "Oil filters",
         "total": 5,
-        "batch1": 0,
-        "batch2": 5
+        "batch1": 2,
+        "batch2": 3
       },
       {
         "category": "Cooling",
@@ -115,56 +118,70 @@
       {
         "category": "Tyres and wheels",
         "total": 5,
-        "batch1": 0,
-        "batch2": 5
-      },
-      {
-        "category": "Engine service",
-        "total": 5,
-        "batch1": 0,
-        "batch2": 5
-      },
-      {
-        "category": "Inspection",
-        "total": 5,
         "batch1": 2,
         "batch2": 3
       },
       {
+        "category": "Engine service",
+        "total": 6,
+        "batch1": 2,
+        "batch2": 4
+      },
+      {
+        "category": "Mechanical service and pullers",
+        "total": 1,
+        "batch1": 0,
+        "batch2": 1
+      },
+      {
+        "category": "Inspection",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
         "category": "Storage",
         "total": 5,
-        "batch1": 0,
-        "batch2": 5
+        "batch1": 1,
+        "batch2": 4
       },
       {
         "category": "Workshop safety",
         "total": 4,
-        "batch1": 0,
-        "batch2": 4
+        "batch1": 3,
+        "batch2": 1
+      },
+      {
+        "category": "Apprentice hand tools",
+        "total": 13,
+        "batch1": 13,
+        "batch2": 0
       }
     ]
   },
   "comparisons": [
     {
       "id": "C01",
-      "title": "OBD2 code readers: engine/emissions access versus four-system access",
+      "title": "OBD2 code readers and phone-based diagnosis: coverage, access and limits",
       "productIds": [
-        "autel-al519",
-        "autel-al629",
-        "foxwell-nt301"
+        "foxwell-nt301",
+        "bluedriver-lsb2"
       ],
-      "criteria": "engine-only versus ABS/SRS/transmission coverage; no promise of universal diagnosis"
+      "criteria": "Engine/emissions reader versus phone-assisted enhanced diagnosis; verify exact generation, app and vehicle coverage. Different capabilities are not interchangeable.",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C02",
-      "title": "Bidirectional scan tools: handheld, wired tablet or wireless tablet",
+      "title": "Scan tools: supported bidirectional functions, four-system access and wireless tablets",
       "productIds": [
-        "autel-mx808s",
         "autel-mk900-bt",
         "innova-5610",
-        "innova-5160rs"
+        "launch-crp129e"
       ],
-      "criteria": "VIN-level active tests, subscription terms, region, secure gateway, CAN FD and DoIP"
+      "criteria": "VIN-level active tests, subscription terms, region, secure gateway, CAN FD and DoIP",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C03",
@@ -174,7 +191,9 @@
         "power-probe-pp3ls01",
         "clore-automotive-ba9"
       ],
-      "criteria": "complementary diagnostic roles; never present these as equivalent substitutes"
+      "criteria": "complementary diagnostic roles; never present these as equivalent substitutes",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C04",
@@ -184,46 +203,59 @@
         "noco-gb70",
         "noco-genius5"
       ],
-      "criteria": "starting support versus recharging; battery chemistry, voltage, environment and package"
+      "criteria": "starting support versus recharging; battery chemistry, voltage, environment and package",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C05",
       "title": "Mechanic torque wrenches: inch-pound, service and wheel ranges",
       "productIds": [
-        "tekton-24320",
-        "tekton-trq21101",
-        "tekton-24335",
-        "tekton-24340",
+        "tekton-trq50402",
+        "tekton-trq52403",
         "gearwrench-85062m",
         "gearwrench-85077"
       ],
-      "criteria": "split recommendations by range, direction and fastener; no universal wheel-torque setting"
+      "criteria": "split recommendations by range, direction and fastener; no universal wheel-torque setting",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C06",
       "title": "Mechanic socket sets: hand drive, impact and universal access",
       "productIds": [
         "gearwrench-80300p",
-        "gearwrench-80550p",
-        "gearwrench-84935n",
         "gearwrench-84918n",
         "sunex-2569",
-        "sunex-3342",
         "tekton-skt15311"
       ],
-      "criteria": "subtables for hand-drive and impact sockets; exact kit contents, skips, drive and reach"
+      "criteria": "subtables for hand-drive and impact sockets; exact kit contents, skips, drive and reach",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C07",
-      "title": "Ratchets, extensions and breaker bars for service access",
+      "title": "Mechanic hand tools and access kits: starter essentials versus optional upgrades",
       "productIds": [
         "gearwrench-81206t",
-        "gearwrench-81264t",
         "gearwrench-81212xp",
         "tekton-sbh00224",
-        "tekton-sha91005"
+        "tekton-sha91011",
+        "gearwrench-80066h",
+        "klein-d203-8",
+        "klein-d228-8",
+        "irwin-502l3",
+        "knipex-8701250",
+        "gearwrench-80742",
+        "mayhew-61366",
+        "lisle-31750",
+        "lisle-35440",
+        "klein-32500hd",
+        "stanley-33-725"
       ],
-      "criteria": "complementary roles and access; powered and hand-drive limitations"
+      "criteria": "Separate subgroups for drivers, pliers, bit sockets, pry/pick/trim tools and ratchet access; identify existing kit overlap, hand-only sockets and optional upgrades. Do not rank dissimilar tools as equivalent alternatives.",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C08",
@@ -232,49 +264,55 @@
         "gearwrench-9416",
         "gearwrench-9533n",
         "gearwrench-81916",
-        "gearwrench-81906",
-        "gearwrench-85998"
+        "gearwrench-81906"
       ],
-      "criteria": "do not label SAE sets suitable for metric fittings; compare within role"
+      "criteria": "do not label SAE sets suitable for metric fittings; compare within role",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C09",
       "title": "Cordless mechanic tools: stubby, mid/high torque and powered ratchets",
       "productIds": [
-        "milwaukee-2967-20",
         "milwaukee-2962-20",
         "milwaukee-2562-20",
         "milwaukee-2567-20",
         "dewalt-dcf891b",
         "dewalt-dcf900b"
       ],
-      "criteria": "separate tool classes and battery platforms; complete usable kit cost rather than bare-tool price"
+      "criteria": "separate tool classes and battery platforms; complete usable kit cost rather than bare-tool price",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C10",
       "title": "Brake service tools: piston retraction, lining checks and bleeding",
       "productIds": [
         "lisle-25750",
-        "lisle-24300",
         "lisle-81850",
         "lisle-28600",
         "mityvac-mv6840",
         "mityvac-mv6830"
       ],
-      "criteria": "task-led groups; EPB procedure and ABS bleeding support separate"
+      "criteria": "task-led groups; EPB procedure and ABS bleeding support separate",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C11",
-      "title": "Suspension and steering tools by service operation",
+      "title": "Mechanical pullers and suspension/steering tools by service operation",
       "productIds": [
         "otc-7249",
         "otc-6295",
         "otc-6297",
         "otc-6575",
         "otc-4579",
-        "otc-6007"
+        "otc-6007",
+        "lisle-51450"
       ],
-      "criteria": "vehicle and adapter compatibility, press versus separator versus puller; exclude generic spring-compressor advice"
+      "criteria": "vehicle and adapter compatibility, press versus separator versus puller; exclude generic spring-compressor advice",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C12",
@@ -282,12 +320,11 @@
       "productIds": [
         "arcan-a20018",
         "sunex-6602lp",
-        "torin-big-red-t43002",
-        "torin-big-red-t43004",
-        "esco-10498-pair",
-        "pro-lift-t-6903d"
+        "esco-10498-pair"
       ],
-      "criteria": "separate lifting from supporting; exact manual, pair/individual capacity, saddle and recall check"
+      "criteria": "separate lifting from supporting; exact manual, pair/individual capacity, saddle and recall check",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C13",
@@ -300,7 +337,9 @@
         "lisle-19752",
         "lisle-19722"
       ],
-      "criteria": "fluid-specific materials, temperatures, contamination control and exact adapters"
+      "criteria": "fluid-specific materials, temperatures, contamination control and exact adapters",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C14",
@@ -312,7 +351,9 @@
         "motivx-tools-mx2326",
         "lisle-13270"
       ],
-      "criteria": "filter diameter, cap geometry, engine and socket size; current design versus old reviews"
+      "criteria": "filter diameter, cap geometry, engine and socket size; current design versus old reviews",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C15",
@@ -324,7 +365,9 @@
         "otc-7991",
         "lisle-60900"
       ],
-      "criteria": "pressure limits and adapters; distinguish finding a fault from filling a system"
+      "criteria": "pressure limits and adapters; distinguish finding a fault from filling a system",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C16",
@@ -336,31 +379,39 @@
         "autel-ts508wf",
         "lisle-18810"
       ],
-      "criteria": "gauge resolution versus accuracy; exact pressure range and TPMS vehicle coverage"
+      "criteria": "gauge resolution versus accuracy; exact pressure range and TPMS vehicle coverage",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C17",
-      "title": "Engine test tools: compression, leakage, vacuum and fuel pressure",
+      "title": "Engine testing and ignition-service tools: choose for the operation",
       "productIds": [
         "otc-5606",
         "otc-5609",
         "otc-5613",
         "otc-5630",
-        "lisle-51450"
+        "gearwrench-80601",
+        "lisle-68100"
       ],
-      "criteria": "supported engines/adapters and diagnostic limits; distinguish low-pressure fuel from GDI/diesel"
+      "criteria": "Separate compression/leakage/vacuum/fuel-pressure diagnosis from spark-plug access and gap measurement. Exact engine, plug size and adapters govern suitability; no low-pressure fuel kit for GDI/diesel.",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C18",
-      "title": "Mechanic inspection lights and cameras by access need",
+      "title": "Inspection access: penlights, underhood lights, cameras, mirrors and pickup tools",
       "productIds": [
         "streamlight-66118",
         "streamlight-68750",
-        "streamlight-74751",
         "milwaukee-2125-20",
-        "bosch-gic5-27c"
+        "bosch-gic5-27c",
+        "ullman-devices-ht-2",
+        "ullman-devices-htc-2"
       ],
-      "criteria": "penlight, hazardous-location flashlight, rechargeable light, underhood bar and camera are distinct roles"
+      "criteria": "penlight, hazardous-location flashlight, rechargeable light, underhood bar and camera are distinct roles",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C19",
@@ -372,7 +423,9 @@
         "sunex-8019b",
         "gearwrench-gwmp100"
       ],
-      "criteria": "weight, tool retention, drawer loads, footprint, mobility and delivered package"
+      "criteria": "weight, tool retention, drawer loads, footprint, mobility and delivered package",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     },
     {
       "id": "C20",
@@ -383,7 +436,9 @@
         "first-alert-pro5",
         "maxxhaul-70472"
       ],
-      "criteria": "task-specific protection, US markings, fit, extinguisher siting and chock limits; no kit makes all work safe"
+      "criteria": "task-specific protection, US markings, fit, extinguisher siting and chock limits; no kit makes all work safe",
+      "launchCoverage": "partial-first-batch-or-batch-two",
+      "publicationStatus": "research-outline-only"
     }
   ],
   "workflows": [
@@ -397,10 +452,12 @@
         "C07",
         "C08",
         "C18",
-        "C20"
+        "C20",
+        "C16",
+        "C17"
       ],
       "originalValue": "Stage purchases against employer requirements and tools already owned. Mark alternatives and optional upgrades; do not recommend buying every listed model.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W02",
@@ -413,7 +470,7 @@
         "C18"
       ],
       "originalValue": "Choose functions against the vehicles serviced; include live-data interpretation, service-information access and update costs.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W03",
@@ -425,7 +482,7 @@
         "C18"
       ],
       "originalValue": "Distinguish testing, starting support, charging and fault diagnosis. Restrict to documented conventional low-voltage applications.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W04",
@@ -441,7 +498,7 @@
         "C20"
       ],
       "originalValue": "Lifting/support and vehicle torque requirements remain prerequisites. Do not claim impact settings establish final wheel torque.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W05",
@@ -458,7 +515,7 @@
         "C20"
       ],
       "originalValue": "Separate push-back, screw-in and EPB calipers; match bleeding method and adapters. Manufacturer procedures remain authoritative.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W06",
@@ -474,7 +531,7 @@
         "C20"
       ],
       "originalValue": "Engine/filter-specific tools, clean filling, capture and disposal. Clearly distinguish filter wrench types and clean/used fluid containers.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W07",
@@ -490,7 +547,7 @@
         "C20"
       ],
       "originalValue": "Vehicle adapter coverage and stored-energy hazards; no generic coil-spring or strut-disassembly instructions.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W08",
@@ -503,7 +560,7 @@
         "C20"
       ],
       "originalValue": "Separate pressure testing, leak investigation, flushing and vacuum refill; use cool-system and vehicle-specific procedures.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W09",
@@ -517,7 +574,7 @@
         "C18"
       ],
       "originalValue": "Select tests by the diagnostic question, engine type and adapters; state what results do and do not establish.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     },
     {
       "id": "W10",
@@ -534,7 +591,7 @@
         "C20"
       ],
       "originalValue": "Compare existing shop infrastructure with mobile requirements: power, air, lighting, secure transport, surfaces and storage.",
-      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+      "publicationGate": "Approval of revised shortlist, resolved exact-listing/specification holds, cleared images, original sourced content and functioning affiliate attribution. Batch one covers core equipment for routine service and wheel work, not every vehicle procedure or school kit."
     }
   ]
 }

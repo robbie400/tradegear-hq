@@ -1,0 +1,467 @@
+{
+  "date": "2026-10-15",
+  "requiresApproval": true,
+  "removed": [
+    {
+      "productId": "autel-al519",
+      "brand": "Autel",
+      "model": "AL519",
+      "name": "AutoLink OBDII code reader",
+      "batch": 1
+    },
+    {
+      "productId": "autel-al629",
+      "brand": "Autel",
+      "model": "AL629",
+      "name": "AutoLink four-system diagnostic scanner",
+      "batch": 1
+    },
+    {
+      "productId": "autel-mx808s",
+      "brand": "Autel",
+      "model": "MX808S",
+      "name": "MaxiCheck wired diagnostic tablet",
+      "batch": 1
+    },
+    {
+      "productId": "innova-5160rs",
+      "brand": "Innova",
+      "model": "5160RS",
+      "name": "FixAssist handheld diagnostic scanner",
+      "batch": 1
+    },
+    {
+      "productId": "tekton-24320",
+      "brand": "TEKTON",
+      "model": "24320",
+      "name": "1/4-inch micrometer torque wrench",
+      "batch": 1
+    },
+    {
+      "productId": "tekton-trq21101",
+      "brand": "TEKTON",
+      "model": "TRQ21101",
+      "name": "1/4-inch dual-direction torque wrench",
+      "batch": 1
+    },
+    {
+      "productId": "tekton-24335",
+      "brand": "TEKTON",
+      "model": "24335",
+      "name": "1/2-inch micrometer torque wrench",
+      "batch": 1
+    },
+    {
+      "productId": "tekton-24340",
+      "brand": "TEKTON",
+      "model": "24340",
+      "name": "1/2-inch micrometer torque wrench",
+      "batch": 1
+    },
+    {
+      "productId": "gearwrench-80550p",
+      "brand": "GEARWRENCH",
+      "model": "80550P",
+      "name": "3/8-inch 120XP socket and ratchet set",
+      "batch": 1
+    },
+    {
+      "productId": "gearwrench-84935n",
+      "brand": "GEARWRENCH",
+      "model": "84935N",
+      "name": "1/2-inch deep metric impact socket set",
+      "batch": 1
+    },
+    {
+      "productId": "sunex-3342",
+      "brand": "SUNEX",
+      "model": "3342",
+      "name": "3/8-inch SAE/metric master impact socket set",
+      "batch": 1
+    },
+    {
+      "productId": "gearwrench-81264t",
+      "brand": "GEARWRENCH",
+      "model": "81264T",
+      "name": "3/8-inch long-handle 90-tooth ratchet",
+      "batch": 1
+    },
+    {
+      "productId": "tekton-sha91005",
+      "brand": "TEKTON",
+      "model": "SHA91005",
+      "name": "3/8-inch extension set",
+      "batch": 1
+    },
+    {
+      "productId": "gearwrench-85998",
+      "brand": "GEARWRENCH",
+      "model": "85998",
+      "name": "XL GearBox SAE double-box ratcheting set",
+      "batch": 1
+    },
+    {
+      "productId": "milwaukee-2967-20",
+      "brand": "Milwaukee",
+      "model": "2967-20",
+      "name": "M18 FUEL 1/2-inch high-torque impact wrench",
+      "batch": 1
+    },
+    {
+      "productId": "lisle-24300",
+      "brand": "Lisle",
+      "model": "24300",
+      "name": "Speedy brake pad spreader",
+      "batch": 1
+    },
+    {
+      "productId": "torin-big-red-t43002",
+      "brand": "Torin BIG RED",
+      "model": "T43002",
+      "name": "Three-ton ratcheting jack stands",
+      "batch": 2
+    },
+    {
+      "productId": "torin-big-red-t43004",
+      "brand": "Torin BIG RED",
+      "model": "T43004",
+      "name": "Three-ton aluminum jack stands",
+      "batch": 2
+    },
+    {
+      "productId": "pro-lift-t-6903d",
+      "brand": "Pro-Lift",
+      "model": "T-6903D",
+      "name": "Three-ton double-pin jack stands",
+      "batch": 2
+    },
+    {
+      "productId": "streamlight-74751",
+      "brand": "Streamlight",
+      "model": "74751",
+      "name": "Strion LED HL AC/DC one-holder kit",
+      "batch": 2
+    }
+  ],
+  "added": [
+    {
+      "productId": "tekton-trq50402",
+      "brand": "TEKTON",
+      "model": "TRQ50402",
+      "name": "TRQ50402 1/4-inch torque wrench with case",
+      "batch": 1,
+      "replacesModel": "TRQ21101"
+    },
+    {
+      "productId": "tekton-trq52403",
+      "brand": "TEKTON",
+      "model": "TRQ52403",
+      "name": "TRQ52403 1/2-inch torque wrench with case",
+      "batch": 1,
+      "replacesModel": "24340"
+    },
+    {
+      "productId": "tekton-sha91011",
+      "brand": "TEKTON",
+      "model": "SHA91011",
+      "name": "SHA91011 four-piece 3/8-inch extension set",
+      "batch": 1,
+      "replacesModel": "SHA91005"
+    },
+    {
+      "productId": "gearwrench-80066h",
+      "brand": "GEARWRENCH",
+      "model": "80066H",
+      "name": "80066H 20-piece mechanic screwdriver set",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "klein-d203-8",
+      "brand": "Klein Tools",
+      "model": "D203-8",
+      "name": "D203-8 eight-inch needle-nose side-cutting pliers",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "klein-d228-8",
+      "brand": "Klein Tools",
+      "model": "D228-8",
+      "name": "D228-8 eight-inch diagonal-cutting pliers",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "irwin-502l3",
+      "brand": "IRWIN",
+      "model": "502L3",
+      "name": "502L3 Original 10WR curved-jaw locking pliers",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "knipex-8701250",
+      "brand": "KNIPEX",
+      "model": "87 01 250",
+      "name": "87 01 250 ten-inch Cobra water-pump pliers",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "gearwrench-80742",
+      "brand": "GEARWRENCH",
+      "model": "80742",
+      "name": "80742 84-piece hex/Torx bit socket set",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "gearwrench-80601",
+      "brand": "GEARWRENCH",
+      "model": "80601",
+      "name": "80601 five-piece magnetic swivel spark-plug socket set",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "lisle-68100",
+      "brand": "Lisle",
+      "model": "68100",
+      "name": "68100 deluxe feeler gauge",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "mayhew-61366",
+      "brand": "Mayhew",
+      "model": "61366",
+      "name": "61366 Dominator five-piece curved pry-bar set",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "lisle-31750",
+      "brand": "Lisle",
+      "model": "31750",
+      "name": "31750 four-piece mini hook-and-pick set",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "lisle-35440",
+      "brand": "Lisle",
+      "model": "35440",
+      "name": "35440 three-piece body-trim tool set",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "ullman-devices-ht-2",
+      "brand": "Ullman Devices",
+      "model": "HT-2",
+      "name": "HT-2 telescoping magnetic pickup tool",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "ullman-devices-htc-2",
+      "brand": "Ullman Devices",
+      "model": "HTC-2",
+      "name": "HTC-2 telescoping inspection mirror, black",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "stanley-33-725",
+      "brand": "Stanley",
+      "model": "33-725",
+      "name": "33-725 FATMAX Classic 25-foot tape measure",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "klein-32500hd",
+      "brand": "Klein Tools",
+      "model": "32500HD",
+      "name": "32500HD impact-rated 11-in-1 screwdriver/nut driver",
+      "batch": 1,
+      "replacesModel": null
+    },
+    {
+      "productId": "bluedriver-lsb2",
+      "brand": "BlueDriver",
+      "model": "LSB2",
+      "name": "Bluetooth Pro OBDII scan tool",
+      "batch": 2,
+      "replacesModel": null
+    },
+    {
+      "productId": "launch-crp129e",
+      "brand": "LAUNCH",
+      "model": "CRP129E",
+      "name": "Creader Professional four-system service scanner",
+      "batch": 2,
+      "replacesModel": null
+    }
+  ],
+  "batchMoves": [
+    {
+      "productId": "power-probe-pp3ls01",
+      "brand": "Power Probe",
+      "model": "PP3LS01",
+      "batch": 2
+    },
+    {
+      "productId": "noco-gb70",
+      "brand": "NOCO",
+      "model": "GB70",
+      "batch": 2
+    },
+    {
+      "productId": "gearwrench-85062m",
+      "brand": "GEARWRENCH",
+      "model": "85062M",
+      "batch": 2
+    },
+    {
+      "productId": "gearwrench-85077",
+      "brand": "GEARWRENCH",
+      "model": "85077",
+      "batch": 2
+    },
+    {
+      "productId": "gearwrench-84918n",
+      "brand": "GEARWRENCH",
+      "model": "84918N",
+      "batch": 2
+    },
+    {
+      "productId": "gearwrench-81206t",
+      "brand": "GEARWRENCH",
+      "model": "81206T",
+      "batch": 2
+    },
+    {
+      "productId": "gearwrench-81212xp",
+      "brand": "GEARWRENCH",
+      "model": "81212XP",
+      "batch": 2
+    },
+    {
+      "productId": "gearwrench-9416",
+      "brand": "GEARWRENCH",
+      "model": "9416",
+      "batch": 2
+    },
+    {
+      "productId": "gearwrench-9533n",
+      "brand": "GEARWRENCH",
+      "model": "9533N",
+      "batch": 2
+    },
+    {
+      "productId": "milwaukee-2562-20",
+      "brand": "Milwaukee",
+      "model": "2562-20",
+      "batch": 2
+    },
+    {
+      "productId": "dewalt-dcf891b",
+      "brand": "DEWALT",
+      "model": "DCF891B",
+      "batch": 2
+    },
+    {
+      "productId": "dewalt-dcf900b",
+      "brand": "DEWALT",
+      "model": "DCF900B",
+      "batch": 2
+    },
+    {
+      "productId": "lisle-28600",
+      "brand": "Lisle",
+      "model": "28600",
+      "batch": 2
+    },
+    {
+      "productId": "mityvac-mv6830",
+      "brand": "Mityvac",
+      "model": "MV6830",
+      "batch": 2
+    },
+    {
+      "productId": "arcan-a20018",
+      "brand": "Arcan",
+      "model": "A20018",
+      "batch": 1
+    },
+    {
+      "productId": "esco-10498-pair",
+      "brand": "ESCO",
+      "model": "10498-PAIR",
+      "batch": 1
+    },
+    {
+      "productId": "lisle-17922",
+      "brand": "Lisle",
+      "model": "17922",
+      "batch": 1
+    },
+    {
+      "productId": "lisle-19752",
+      "brand": "Lisle",
+      "model": "19752",
+      "batch": 1
+    },
+    {
+      "productId": "lisle-63600",
+      "brand": "Lisle",
+      "model": "63600",
+      "batch": 1
+    },
+    {
+      "productId": "lisle-13270",
+      "brand": "Lisle",
+      "model": "13270",
+      "batch": 1
+    },
+    {
+      "productId": "astro-pneumatic-3018",
+      "brand": "Astro Pneumatic",
+      "model": "3018",
+      "batch": 1
+    },
+    {
+      "productId": "milton-s-921",
+      "brand": "Milton",
+      "model": "S-921",
+      "batch": 1
+    },
+    {
+      "productId": "gearwrench-83151",
+      "brand": "GEARWRENCH",
+      "model": "83151",
+      "batch": 1
+    },
+    {
+      "productId": "dewalt-dpg94-1c",
+      "brand": "DEWALT",
+      "model": "DPG94-1C",
+      "batch": 1
+    },
+    {
+      "productId": "3m-peltor-x4a",
+      "brand": "3M PELTOR",
+      "model": "X4A",
+      "batch": 1
+    },
+    {
+      "productId": "maxxhaul-70472",
+      "brand": "MaxxHaul",
+      "model": "70472",
+      "batch": 1
+    }
+  ],
+  "arithmetic": "100 - 20 removed + 20 proposed replacements = 100. Three of the 20 are manufacturer-lifecycle replacements discovered during verification."
+}

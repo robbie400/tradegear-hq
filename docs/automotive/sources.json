@@ -1,559 +1,580 @@
 {
-  "date": "2026-10-15",
-  "note": "Initial manufacturer source discovery. URLs support candidate screening, not complete specification verification or image permission.",
-  "sources": [
+  "checkedDate": "2026-10-15",
+  "trainingSources": [
     {
-      "id": "S001",
-      "title": "Automotive Multimeters: Fluke 88V/A Automotive Multimeter Combo Kit | Fluke",
-      "url": "https://www.fluke.com/en-ie/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
+      "url": "https://dmcat.austincc.edu/autotech/required-tools/",
+      "status": "page-retrieved"
     },
     {
-      "id": "S003",
-      "title": "SOLAR BA9 Digital Battery & System Tester - Clore Automotive",
-      "url": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S005",
-      "title": "Power Probe PP3LS01 circuit tester with Test Leads",
-      "url": "https://store.powerprobe.com/products/power-probe-pp3ls01-circuit-tester-with-test-leads",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S037",
-      "title": "NOCO - GB40 Support",
-      "url": "https://ws-noco.no.co/support/boost-jump-starters/boost/gb40",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S045",
-      "title": "NOCO - Serial Number Locations",
-      "url": "https://ws-noco.no.co/support/serial-number-locations",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S066",
-      "title": "1/4 Inch Drive Micrometer Torque Wrench (20-200 in.-lb.) | TEKTON | 24320",
-      "url": "https://www.tekton.com/1-4-inch-drive-micrometer-torque-wrench-24320",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S067",
-      "title": "1/4 Inch Drive Dual-Direction Micrometer Torque Wrench | TEKTON | TRQ21101",
-      "url": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq21101",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S069",
-      "title": "1/2 Inch Drive Micrometer Torque Wrench (25-250 ft.-lb.) | TEKTON | 24340",
-      "url": "https://www.tekton.com/1-2-inch-drive-micrometer-torque-wrench-24340",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S074",
-      "title": "3/8\" Drive Micrometer Torque Wrench 10-100 ft/lbs.",
-      "url": "https://www.gearwrench.com/all-tools/torque-products/torque-wrenches/85062m-38-drive-micrometer-torque-wrench-10-100-ftlbs",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S079",
-      "title": "1/2\" Drive Electronic Torque Wrench 25-250 ft/lbs",
-      "url": "https://www.gearwrench.com/all-tools/torque-products/torque-wrenches/85077-12-drive-electronic-torque-wrench-25-250-ftlbs",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S087",
-      "title": "1/2 Inch Drive Micrometer Torque Wrench (10-150 ft.-lb.) | TEKTON | 24335",
-      "url": "https://www.tekton.com/1-2-inch-drive-micrometer-torque-wrench-24335?gQT=2",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S119",
-      "title": "3/8\" Drive Sae & Metric 6 Point Standard & Deep 42-Piece Master Impact Socket Set – SUNEX Tools",
-      "url": "https://sunextools.com/products/3-8-drive-sae-metric-6-point-standard-deep-42-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S121",
-      "title": "Sunex 2569, 1/2\" Drive Master Impact Socket Set, 43Piece, Metric, 9mm - 30mm, Standard/Deep, Cr-Mo Alloy Steel, Radius Corner Design, Heavy Duty Storage Case, Universal Joint & Impact Extensions – SUNEX Tools",
-      "url": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S125",
-      "title": "29 Pc. 1/2\" Drive 6 Point Deep Impact Metric Socket Set",
-      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/impact-products/84935n-29-piece-12-drive-6-point-deep-impact-metric-socket-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S127",
-      "title": "56 Pc. 120XP™ Standard & Deep SAE/Metric Mechanics Tool Set",
-      "url": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80550p-56-piece-38-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S129",
-      "title": "15 Pc. 3/8\" Dr 6 Pt Universal Impact Metric Socket Set",
-      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/impact-products/84918n-15-piece-38-drive-6-point-standard-universal-impact-metric-socket-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S142",
-      "title": "3/8\" Drive 90-Tooth Long Handle Teardrop Ratchet 11\"",
-      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81264t-38-drive-90-tooth-long-handle-teardrop-ratchet-11",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S148",
-      "title": "3 Pc. 1/4\", 3/8\" & 1/2\" Drive 90-Tooth Teardrop Ratchet Set",
-      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81206t-3-piece-14-38-12-drive-90-tooth-teardrop-ratchet-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S150",
-      "title": "3/8 Dr 120XP™ Chrome Stubby Flex Head Teardrop Ratchet",
-      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81212xp-38-drive-120xptm-full-polish-chrome-stubby-flex-head-teardrop-ratchet-4-34",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S157",
-      "title": "20V MAX* XR® 1/2-in Mid-Range Impact Wrench With Hog Ring Anvil (Tool Only)",
-      "url": "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-12-mid-range-impact-wrench-hog-ring-anvil-tool-only",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S158",
-      "title": "1/2 Inch Drive x 24 Inch Breaker Bar | TEKTON",
-      "url": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S160",
-      "title": "Manufacturer source (untitled retrieval)",
-      "url": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S161",
-      "title": "20V MAX* XR® 1/2 In. High Torque Impact Wrench With Hog Ring Anvil (Tool Only)",
-      "url": "https://www.dewalt.com/en-us/product/dcf900b/20v-max-xr-12-high-torque-impact-wrench-hog-ring-anvil-tool-only",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S162",
-      "title": "3/8\" M12 FUEL™ Stubby Impact Wrench | Milwaukee Tool",
-      "url": "https://www.milwaukeetool.com/2562-20",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S164",
-      "title": "M12 FUEL™ 3/8\" High Speed Ratchet | Milwaukee Tool",
-      "url": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S167",
-      "title": "M18 FUEL™ 1/2\" High Torque Impact Wrench w/ Friction Ring | Milwaukee Tool",
-      "url": "https://www.milwaukeetool.com/2967-20?mi_cmp=131f1578ec96e593_11017187&mi_country=US&mi_excluded_skus=48-22-9150%2C48-22-9515%2C48-22-3695%2CPry-Bars%2C48-22-2706%2C2863-20%2C2863-22%2C2863-22R%2C2568-20%2C2953-22%2C2953-20%2C0801-20&mi_ign=2024-07-23&mi_item_index=2&mi_product_categories=Default&mi_sc=t&mi_trade=Automotive",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S177",
-      "title": "72-Tooth 12 Point Ratcheting Combination Metric Wrench Set",
-      "url": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/9416-16-piece-72-tooth-12-point-ratcheting-combination-metric-wrench-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S179",
-      "title": "6 Pc. Flare Nut Metric Wrench Set | GEARWRENCH",
-      "url": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S186",
-      "title": "TEKTON | Shop Sockets, Ratchets, Pliers, and Wrenches",
-      "url": "https://www.tekton.com/3-8-inch-drive-extension-set-sha91005",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S194",
-      "title": "22 Pc. 12 Point Long Pattern Combination Metric Wrench Set",
-      "url": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S212",
-      "title": "Brakes | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/brakes?page=4&recordsPerPage=12&sortBy=featured&view=thumbnails",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S213",
-      "title": "Manufacturer source (untitled retrieval)",
-      "url": "https://otctools.com/products/front-end-service-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S214",
-      "title": "MUSCLETTOOLS — Suspension / hammer / Torque Wrenches",
-      "url": "https://www.otctools.com/sites/default/files/17-08_q2_2017_otc_muscle_tools_3_13.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S218",
-      "title": "Brakes | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/brakes?brandAlias=none&page=1&recordsPerPage=36&sortBy=featured&view=thumbnails",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S221",
-      "title": "SUSPENSION SERVICE",
-      "url": "https://www.otctools.com/sites/default/files/a11000_te_catalog.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S225",
-      "title": "Pressure Bleed System MV6840 | Mityvac | SKF",
-      "url": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S226",
-      "title": "Manufacturer source (untitled retrieval)",
-      "url": "https://otctools.com/products/popular.php?page=1",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S233",
-      "title": "www.mityvac.com",
-      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968095c3aa/pdf_preview_medium/0901d1968095c3aa_pdf_preview_medium.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S244",
-      "title": "Manufacturer source (untitled retrieval)",
-      "url": "https://otctools.com/products/lower-control-arm-prying-tool",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S270",
-      "title": "T43002T-manual",
-      "url": "https://torin-usa.com/images/torinjacks/product/TR-T43002T/T43002T-manual.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S311",
-      "title": "3 Ton Performance Jack Stand – Pair | ESCO",
-      "url": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S344",
-      "title": "Pro-LifT T-6903D Double Pin Jack Stands - 3 Ton – Pro-Lift",
-      "url": "https://goprolift.com/products/pro-lift-t-6903d-double-pin-jack-stands-3-ton",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S371",
-      "title": "Lubrication & Tire Products | Lisle Corporation",
-      "url": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products?recordsPerPage=24&sortBy=name&view=thumbnails",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S372",
-      "title": "Lubrication & Tire Products | Lisle Corporation",
-      "url": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products?recordsPerPage=36&sortBy=name&view=thumbnails",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S395",
-      "title": "Toyota Lexus Scion Oil Service Guide - Motivx Tools",
-      "url": "https://www.motivxtools.com/pages/toyota_lexus_scion_oil_service_guide",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S396",
-      "title": "Motivx Tools Launches \"Made In USA\" Tool Line",
-      "url": "https://www.motivxtools.com/blogs/news/motivx-tools-launches-made-in-usa-tool-line",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S415",
-      "title": "19752 6 QT. Oil Dispenser, Red Spout | Lisle Corporation",
-      "url": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S417",
-      "title": "Lisle 24980 Spill-Free Funnel, 19 pc. | Lisle Corporation",
-      "url": "https://www.lislecorp.com/videos/lisle-24980-spill-free-funnel-19-pc",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S425",
-      "title": "Filter (Fuel & Oil) | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil?recordsPerPage=36&sortBy=price-asc&view=list",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S428",
-      "title": "Filter (Fuel & Oil) | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil?page=4&recordsPerPage=24&sortBy=name&view=list",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S430",
-      "title": "Filter (Fuel & Oil) | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil?recordsPerPage=100&sortBy=default&view=list",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S476",
-      "title": "Cooling System Service Equipment",
-      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d196809a1d86/pdf_preview_medium/Mityvac_catalog_pdf_preview_medium.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S477",
-      "title": "www.mityvac.com",
-      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d1968095f2d2/pdf_preview_medium/444045_MV4560_pdf_preview_medium.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S521",
-      "title": "Model:3018⚠️ WARNING ⚠️® Astro Pneumatic",
-      "url": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S524",
-      "title": "Original Dual Head Chuck Tire Inflator Gauge, 15\" Hose",
-      "url": "https://www.miltonbrands.com/products/copy-of-straight-foot-chuck-tire-inflator-gauge-15-hose-lock-on-threads",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S528",
-      "title": "AUTEL TS508WF QuickStart Guide: TPMS Diagnose",
-      "url": "https://autel.com/us/wp-content/uploads/MaxiTPMS_TS508WF_Quick_Start_Guide.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S531",
-      "title": "Milton® Heavy Duty Tire Pencil Gauge, 5-50 PSI, Corrosion Resistant",
-      "url": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S540",
-      "title": "Manufacturer source (untitled retrieval)",
-      "url": "https://www.otctools.com/products/compression-tester-kit",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S553",
-      "title": "Manufacturer source (untitled retrieval)",
-      "url": "https://www.otctools.com/products/cylinder-leakage-tester-kit",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S585",
-      "title": "M12 Underhood Light | Milwaukee Tool",
-      "url": "https://www.milwaukeetool.com/2125-20",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S586",
-      "title": "GIC5-27C Cordless Inspection/Detection Devices",
-      "url": "https://www.boschtools.com/us/en/products/gic5-27c-0601241410",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S637",
-      "title": "20\" 3 Drawer Black Steel Tool Box | GEARWRENCH",
-      "url": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S638",
-      "title": "Portable Tool Storage | Portable Mechanics Storage",
-      "url": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S639",
-      "title": "42\" 11 Drawer Black & Orange Mobile Work Station",
-      "url": "https://www.gearwrench.com/all-tools/tool-storage/carts-workstations/83169-42-11-drawer-black-orange-mobile-work-station",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S645",
-      "title": "PREMIUM FULL DRAWER SERVICE CART - RED – SUNEX Tools",
-      "url": "https://sunextools.com/products/8057xtr-red-premium-full-drawer-service-cart",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S646",
-      "title": "MaxxHaul 70472 Solid Rubber Heavy Duty Black Wheel Chock 2-Pack, 8″ x 4″ x 6″ – MaxxHaul",
-      "url": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S650",
-      "title": "Work Tables & Utility Carts – SUNEX Tools",
-      "url": "https://sunextools.com/collections/work-tables-utility-carts",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S705",
-      "title": "DEWALT DPG94 Dominator™ Hardware Protective Eyewear - Radians Safety",
-      "url": "https://www.radians.com/products/composite-dewalt-dpg94-dominator-hardware-protective-eyewear",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S740",
-      "title": "3M ANZ X4A X5A Headband Datasheet",
-      "url": "https://multimedia.3m.com/mws/media/2237257O/3m-anz-2022-tech-data-sheet-3m-peltor-x4a-x5a-headband-earmuffs.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S745",
-      "title": "8 Pc. Reversible Ratcheting Combination SAE Wrench Set",
-      "url": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/9533n-8-piece-72-tooth-12-point-reversible-ratcheting-combination-sae-wrench-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S746",
-      "title": "9 Pc. 72T XL GearBox™ Double Box Ratcheting SAE Wrench Set",
-      "url": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/85998-9-piece-72-tooth-12-point-xl-gearboxtm-double-box-ratcheting-sae-wrench-set",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S757",
-      "title": "Spec Sheet PRO5 Page 1.ai",
-      "url": "https://customer.resideo.com/resources/Techlit/TechLitDocuments/BRK-First%20Alert/PRO5%20Spec%20Sheet.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S790",
-      "title": "3 Ton Aluminum Floor Jack — Arcan Professional Tools",
-      "url": "https://arcantools.com/lifting/a20018",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S800",
-      "title": "Floor Jacks – SUNEX Tools",
-      "url": "https://sunextools.com/collections/floor-jacks",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S840",
-      "title": "Mityvac Fluid Evacuation Equipment",
-      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d196802e86fd/pdf_preview_medium/0901d196802e86fd_pdf_preview_medium.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S875",
-      "title": "Mityvac | SKF",
-      "url": "https://www.skf.com/mityvac/products/fluid-evacuation-and-dispensing-equipment-and-accessories/fluid-evacuators/mv7201",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S883",
-      "title": "51450 Harmonic Damper Pulley Puller | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/harmonic-damper-pulley-puller-537",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S884",
-      "title": "60900 Heater Core Backflush Tool | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/heater-core-backflush-tool",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S933",
-      "title": "DUALIE® 3AA :: DATA SHEET",
-      "url": "https://www.streamlight.com/docs/default-source/data-sheet/dualie3aadatasheet.pdf?sfvrsn=7bc5a2f0_39",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S935",
-      "title": "STRION® LED HL :: DATA SHEET",
-      "url": "https://www.streamlight.com/docs/default-source/data-sheet/strionledhl_datasheet.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S936",
-      "title": "General | Lisle Corporation",
-      "url": "https://www.lislecorp.com/specialty-tools/general?recordsPerPage=24&sortBy=default&view=list",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S987",
-      "title": "Manufacturer source (untitled retrieval)",
-      "url": "https://www.foxwelltech.us/products-search-nt301.html",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S994",
-      "title": "AutoLink AL519 | Autel",
-      "url": "https://autel.com/c/www/mk1/3241.jhtml",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1004",
-      "title": "Autel MK900-BT VS Autel MK808BT Pro Comparison Chart – Autel.com",
-      "url": "https://store.autel.com/blogs/news/autel-mk900-bt-vs-autel-mk808bt-pro",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1010",
-      "title": "Autel 808 Series VS Autel 900 Series – Autel.com",
-      "url": "https://store.autel.com/blogs/news/autel-808-series-vs-autel-900-series",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1049",
-      "title": "Torin™ BIG RED JACKS",
-      "url": "https://torin-usa.com/manuals/customer_manual/BIG%20RED/BIG%20RED-T43004.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1050",
-      "title": "Air_evac_MV4533_801964_Version2",
-      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d196809b148c/pdf_preview_medium/0901d196809b148c_pdf_preview_medium.pdf",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1086",
-      "title": "3/8 Inch Drive 6-Point Socket and Ratchet Set (73-Piece) | TEKTON",
-      "url": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1088",
-      "title": "AutoLink AL629 | Autel",
-      "url": "https://autel.com/c/www/mk1/3251.jhtml",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1136",
-      "title": "Innova 5610 CarScan Pro",
-      "url": "https://www.innova.com/collections/innova-obd2-scanners/products/carscan-pro-5610",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "S1137",
-      "title": "Innova FixAssist 5160RS",
-      "url": "https://www.innova.com/products/fixassist-5160rs",
-      "evidenceLevel": "Located in manufacturer search/page evidence on 2026-10-15; not a complete technical, licence or listing audit."
-    },
-    {
-      "id": "existing-essential-record",
-      "title": "Existing exact-variant essential record and prior verification",
-      "url": "https://www.streamlight.com/products/detail/stylus-pro",
-      "repositoryEvidence": "lib/apprentice-essentials.ts; docs/apprentice-essentials-verification-2026-10-15.json",
-      "evidenceLevel": "Previously matched; current recheck required before new placement."
+      "url": "https://engineering.chemeketa.edu/programs-classes/program-finder/automotive-technology/",
+      "status": "institutional-page-indexed-excerpts; direct page retrieval failed; institutional mirror used instead of inaccessible user-supplied librarysearch subdomain"
     }
-  ]
+  ],
+  "manufacturerSources": [
+    {
+      "id": "autel-mk900-bt",
+      "url": "https://store.autel.com/products/maxicom-mk900bt",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "8-inch Android 11 tablet",
+        "MaxiVCI V150 wireless vehicle interface",
+        "CAN FD and DoIP support",
+        "Manufacturer store states one year of updates"
+      ]
+    },
+    {
+      "id": "innova-5610",
+      "url": "https://www.innova.com/products/carscan-pro-5610",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Handheld OBD2 and supported OEM-system diagnostics",
+        "Supported bidirectional active tests",
+        "OBD2 and OEM live-data streams",
+        "Manufacturer states free updates and no subscriptions"
+      ]
+    },
+    {
+      "id": "foxwell-nt301",
+      "url": "https://www.foxwelltech.us/product-detail-797.html",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "2.8-inch TFT colour display",
+        "Engine/emissions OBDII/EOBD code reading and clearing",
+        "I/M readiness shortcut keys"
+      ]
+    },
+    {
+      "id": "fluke-88v-a-kit",
+      "url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Maximum AC/DC voltage 1000 V",
+        "CAT III 1000 V / CAT IV 600 V manufacturer rating",
+        "Manufacturer kit part 2117440",
+        "Manufacturer lists test leads, probes, clips, RPM pickup, temperature probe, magnetic hanger and case"
+      ]
+    },
+    {
+      "id": "clore-automotive-ba9",
+      "url": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "12 V starting-battery tester",
+        "40–1200 CCA test range",
+        "7–15 V operating range",
+        "Flooded, flat/spiral AGM and gel starting batteries"
+      ]
+    },
+    {
+      "id": "noco-gb40",
+      "url": "https://no.co/gb40",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "12 V jump starter",
+        "1000 A manufacturer starting-current claim",
+        "Manufacturer applications up to 6.0 L petrol / 3.0 L diesel",
+        "Integrated light and USB power functions"
+      ]
+    },
+    {
+      "id": "noco-genius5",
+      "url": "https://no.co/genius5",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "5 A charger",
+        "6 V / 12 V lead-acid modes",
+        "12 V lithium charging mode for compatible batteries",
+        "Maintenance and temperature-compensated charging"
+      ]
+    },
+    {
+      "id": "tekton-trq50402",
+      "url": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq50402",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/4-inch square drive",
+        "20–200 in-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ]
+    },
+    {
+      "id": "tekton-trq52403",
+      "url": "https://www.tekton.com/1-2-inch-drive-dual-direction-micrometer-torque-wrench-trq52403",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/2-inch square drive",
+        "40–300 ft-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ]
+    },
+    {
+      "id": "gearwrench-80300p",
+      "url": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80300p-51-piece-14-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "51 pieces",
+        "1/4-inch hand drive",
+        "120XP ratchet with 3-degree swing",
+        "Standard and deep SAE/metric sockets",
+        "Blow-moulded case"
+      ]
+    },
+    {
+      "id": "sunex-2569",
+      "url": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "43 pieces",
+        "1/2-inch impact drive",
+        "Standard and deep six-point sockets",
+        "Sizes 9–24, 26, 27 and 30 mm",
+        "Includes universal joint, extensions and case"
+      ]
+    },
+    {
+      "id": "tekton-skt15311",
+      "url": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "73 pieces",
+        "3/8-inch hand drive",
+        "Six-point shallow and deep sockets",
+        "SAE 1/4–1 inch and metric 6–24 mm",
+        "Includes ratchet, accessories and case"
+      ]
+    },
+    {
+      "id": "tekton-sbh00224",
+      "url": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/2-inch square drive",
+        "24-inch overall length",
+        "230-degree pivoting head",
+        "External-head design with serviceable components"
+      ]
+    },
+    {
+      "id": "tekton-sha91011",
+      "url": "https://www.tekton.com/3-8-inch-drive-4-piece-extension-set-sha91011",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "3/8-inch hand drive",
+        "Lengths 1, 3, 6 and 10 inches",
+        "Knurled grip bands",
+        "Four detent grooves at drive engagement"
+      ]
+    },
+    {
+      "id": "gearwrench-81916",
+      "url": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "22 long-pattern wrenches",
+        "12-point box ends",
+        "15-degree box-end offset",
+        "Sizes 6–24, 27, 30 and 32 mm",
+        "Tool roll"
+      ]
+    },
+    {
+      "id": "gearwrench-81906",
+      "url": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Six double-ended wrenches",
+        "Pairs 9×11, 10×12, 13×14, 15×17, 16×18 and 19×21 mm",
+        "For access around line fittings"
+      ]
+    },
+    {
+      "id": "milwaukee-2962-20",
+      "url": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/2-inch friction-ring anvil",
+        "M18 battery platform",
+        "Manufacturer claims up to 650 ft-lb breakaway torque",
+        "Four operating modes",
+        "Bare-tool configuration"
+      ]
+    },
+    {
+      "id": "milwaukee-2567-20",
+      "url": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+      "status": "specification-conflict-or-detail-hold",
+      "facts": [
+        "3/8-inch anvil",
+        "M12 battery platform",
+        "0–450 rpm",
+        "Bare-tool configuration"
+      ]
+    },
+    {
+      "id": "lisle-25750",
+      "url": "https://www.lislecorp.com/specialty-tools/brakes/dual-piston-brake-caliper-compressor",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Compresses two push-back pistons together",
+        "Hand-operated squeeze mechanism",
+        "Uses the inboard pad to distribute load"
+      ]
+    },
+    {
+      "id": "lisle-81850",
+      "url": "https://www.lislecorp.com/specialty-tools/brakes/combination-brake-lining-thickness-gauge-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Nine acetal gauges",
+        "Straight and offset access",
+        "Thicknesses 2, 2, 3, 4, 5, 6, 8, 10 and 12 mm",
+        "Two 2 mm access profiles"
+      ]
+    },
+    {
+      "id": "mityvac-mv6840",
+      "url": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manual-pump pressure dispenser",
+        "1.2 US gallon / 5 L capacity",
+        "Seven master-cylinder adapters in MVA6850 kit",
+        "Pressure gauge and manual relief valve"
+      ]
+    },
+    {
+      "id": "arcan-a20018",
+      "url": "https://arcantools.com/lifting/a20018",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manufacturer model A20018",
+        "3 US ton / 6000 lb rated lifting capacity",
+        "Dual-pump pistons",
+        "Aluminium chassis and reinforced arm",
+        "Manufacturer page lift range 3.78–18.9 inches"
+      ]
+    },
+    {
+      "id": "esco-10498-pair",
+      "url": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Two stands with rubber flat-top saddles",
+        "Manufacturer rating 3 tons per stand",
+        "Height range 13.2–21.5 inches",
+        "Ten pin-locked height positions"
+      ]
+    },
+    {
+      "id": "lisle-17922",
+      "url": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products/multi-drain-tub",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "30 US quart / 7.5 US gallon capacity",
+        "33×22×8 inch dimensions",
+        "Heavy-duty plastic tub",
+        "Pouring apron for draining and handling"
+      ]
+    },
+    {
+      "id": "lisle-19752",
+      "url": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "6 US quart capacity",
+        "Translucent polyethylene body",
+        "Quart and litre graduations",
+        "Flexible 8-inch red spout"
+      ]
+    },
+    {
+      "id": "lisle-63600",
+      "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Fits 2.5–3.125 inch filter diameters",
+        "Steel gripping jaws",
+        "3/8-inch square drive",
+        "Removal only"
+      ]
+    },
+    {
+      "id": "lisle-13270",
+      "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/13270--low-profile-filter-socket-set-7pc",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Seven six-point sockets",
+        "Sizes 24, 25, 27, 28, 29, 32 and 36 mm",
+        "3/8-inch square drive",
+        "For supported oil/fuel filter canisters"
+      ]
+    },
+    {
+      "id": "astro-pneumatic-3018",
+      "url": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "3.5-inch digital display",
+        "Manual lists 3–175 psi measuring/working range",
+        "0.1 psi reading resolution",
+        "218 psi maximum inlet pressure",
+        "Manufacturer accuracy table: ±1.2 psi at 0–58 psi; ±2.0 psi at 59–174 psi"
+      ]
+    },
+    {
+      "id": "milton-s-921",
+      "url": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "5–50 psi range",
+        "Single-head passenger-car chuck",
+        "PSI and kPa scale",
+        "Deflator function"
+      ]
+    },
+    {
+      "id": "streamlight-66118",
+      "url": "https://www.streamlight.com/products/detail/stylus-pro",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Black 66118 configuration",
+        "Two AAA cells",
+        "Current manufacturer output 100 lumens",
+        "Current manufacturer runtime 8 hours",
+        "Length 5.3 inches"
+      ]
+    },
+    {
+      "id": "milwaukee-2125-20",
+      "url": "https://www.milwaukeetool.com/2125-20",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "M12 battery platform",
+        "1350 lumen manufacturer output",
+        "Adjustable underhood mounting hooks",
+        "Detachable light bar",
+        "Tool only"
+      ]
+    },
+    {
+      "id": "gearwrench-83151",
+      "url": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Steel body",
+        "20×8.5×12 inches",
+        "Three drawers with ball-bearing slides",
+        "20 lb empty manufacturer weight",
+        "Keyed centre lock"
+      ]
+    },
+    {
+      "id": "dewalt-dpg94-1c",
+      "url": "https://www.radians.com/products/composite-dewalt-dpg94-dominator-hardware-protective-eyewear",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manufacturer variant DPG94-1C is clear lens",
+        "Full-frame eyewear",
+        "Rubber-tipped temples and rubber nosepieces",
+        "Manufacturer states Z87.1+ impact performance"
+      ]
+    },
+    {
+      "id": "3m-peltor-x4a",
+      "url": "https://multimedia.3m.com/mws/media/845196O/3m-peltor-x-series-earmuffs-technical-specifications.pdf",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Headband X4A configuration",
+        "US manufacturer technical sheet NRR 27 dB",
+        "Replaceable cushions/liners",
+        "Separate hard-hat models exist"
+      ]
+    },
+    {
+      "id": "maxxhaul-70472",
+      "url": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Two rubber chocks",
+        "Each 8×4×6 inches",
+        "Moulded carrying handle",
+        "Textured contact surfaces"
+      ]
+    },
+    {
+      "id": "gearwrench-80066h",
+      "url": "https://www.gearwrench.com/all-tools/hand-tools/screwdrivers-hex-keys/80066h-20-piece-phillipsrslottedtorxr-dual-material-screwdriver-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "20 pieces",
+        "Phillips, slotted and Torx profiles",
+        "Tri-lobe dual-material handles",
+        "Non-magnetic black-oxide tips",
+        "Not insulated"
+      ]
+    },
+    {
+      "id": "klein-d203-8",
+      "url": "https://www.kleintools.com/catalog/standard-side-cutting-pliers/pliers-needle-nose-side-cutters-8-inch",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manufacturer nominal 8-inch class",
+        "8.41-inch overall length",
+        "Slim long-nose head",
+        "Induction-hardened cutting edges",
+        "Plastic-dipped handles"
+      ]
+    },
+    {
+      "id": "klein-d228-8",
+      "url": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "7.98-inch overall length",
+        "Short jaws and bevelled cutting edges",
+        "High-leverage joint geometry",
+        "Induction-hardened cutting knives"
+      ]
+    },
+    {
+      "id": "irwin-502l3",
+      "url": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "One 10-inch curved-jaw locking plier",
+        "Built-in wire cutter",
+        "Classic trigger release",
+        "Hex-key pressure-adjusting screw",
+        "Heat-treated alloy steel"
+      ]
+    },
+    {
+      "id": "knipex-8701250",
+      "url": "https://www.knipex-tools.com/products/pipe-wrenches-and-water-pump-pliers/water-pump-pliers/knipex-cobra-water-pump-pliers/8701250",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "10-inch nominal length",
+        "25 adjustment positions",
+        "Push-button adjustment",
+        "Non-slip plastic handles",
+        "Not 1000 V insulated"
+      ]
+    },
+    {
+      "id": "gearwrench-80742",
+      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80742-84-piece-14-38-12-drive-hexball-end-hextamper-proof-torxrexternal-torxrtorxr-saemetric-bit-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "84 pieces",
+        "1/4, 3/8 and 1/2-inch hand-drive sizes",
+        "SAE/metric hex and ball-end hex",
+        "Torx, tamper-resistant Torx and external Torx",
+        "Manual drive only"
+      ]
+    },
+    {
+      "id": "gearwrench-80601",
+      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80601-5-piece-38-drive-6-point-magnetic-swivel-spark-plug-socket-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Five pieces",
+        "3/8-inch drive",
+        "Six-point magnetic swivel design",
+        "9/16 and 5/8-inch socket sizes",
+        "Blow-moulded case"
+      ]
+    },
+    {
+      "id": "lisle-68100",
+      "url": "https://www.lislecorp.com/specialty-tools/deluxe-feeler-gauge",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "31 blades including one 0.010-inch brass blade",
+        "Thickness range 0.0015–0.035 inch",
+        "Approximately 1/2-inch-wide × 3.5-inch-long blades",
+        "Dual-unit thickness references"
+      ]
+    },
+    {
+      "id": "mayhew-61366",
+      "url": "https://mayhew.com/files/content/resources/catalogs/Catalog-2023-sm.pdf",
+      "status": "specification-conflict-or-detail-hold",
+      "facts": [
+        "Five curved, handled pry bars",
+        "Black-oxide finish",
+        "Dominator product family"
+      ]
+    },
+    {
+      "id": "lisle-31750",
+      "url": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Four picks",
+        "Hook, straight, 90-degree and combination profiles",
+        "Dual-material handles",
+        "Heat-treated tips"
+      ]
+    },
+    {
+      "id": "lisle-35440",
+      "url": "https://www.lislecorp.com/specialty-tools/body/body-trim-tool-set-3-piece",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Door panel remover 35350",
+        "Door upholstery remover 35400",
+        "Window/door clip remover 54960",
+        "Bent handles and stepped fastener cut-outs"
+      ]
+    },
+    {
+      "id": "ullman-devices-ht-2",
+      "url": "https://ullmandevices.com/products/ht-2",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Length 7.25–33.75 inches",
+        "Manufacturer lift claim up to 5 lb",
+        "Sliding POWERCAP magnet sleeve",
+        "Pocket clip and non-slip grip"
+      ]
+    },
+    {
+      "id": "ullman-devices-htc-2",
+      "url": "https://ullmandevices.com/products/htc-2",
+      "status": "specification-conflict-or-detail-hold",
+      "facts": [
+        "2.25-inch round mirror",
+        "Adjustable viewing head",
+        "Manufacturer extended length 36.375 inches",
+        "Black-handle single-tool destination linked by manufacturer"
+      ]
+    },
+    {
+      "id": "stanley-33-725",
+      "url": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "25-foot × 1.25-inch blade",
+        "Current manufacturer 14-foot reach claim",
+        "Non-magnetic steel blade",
+        "Protective blade and hook-area coating"
+      ]
+    },
+    {
+      "id": "klein-32500hd",
+      "url": "https://www.kleintools.com/catalog/multi-bit-nut-drivers/impact-rated-multi-bit-screwdrivernut-driver-11-1",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Seven bit tips and four nut-driver sizes",
+        "1/4, 5/16 and 3/8-inch power nut drivers; 1/2-inch standard nut driver",
+        "Phillips, slotted, square and T25 profiles",
+        "Cushion-Grip handle"
+      ]
+    }
+  ],
+  "batchTwo": "Primary-source locations retained on candidate records; no first-batch verification claim is made for batch two."
 }
