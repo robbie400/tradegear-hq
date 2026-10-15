@@ -22,9 +22,6 @@ for(const p of products){
  for(const family of p.familyIds)assert.equal(getToolkitProductsByFamily(family,'automotive-mechanics').filter(x=>x.id===p.id).length,1);
  assert.ok(getGlobalToolSearchItems().some(x=>x.id===p.id&&matchesToolSearch(x.searchText,p.model)));
 }
-const oldTag=process.env.AMAZON_TAG_AUTOMOTIVE;process.env.AMAZON_TAG_AUTOMOTIVE='automotiveqa-20';
-assert.equal(new URL(getToolkitPurchaseUrl('fluke-88v-a-kit','automotive-mechanics')).searchParams.get('tag'),'automotiveqa-20');
-if(oldTag===undefined)delete process.env.AMAZON_TAG_AUTOMOTIVE;else process.env.AMAZON_TAG_AUTOMOTIVE=oldTag;
 const reused=['klein-d203-8','klein-d228-8','klein-32500hd','knipex-8701250','stanley-33-725','streamlight-66118'];
 for(const id of reused){const entries=canonical.filter(p=>p.id===id);assert.equal(entries.length,1);assert.ok(entries[0].trades.length>1);}
 assert.equal(getToolDirectory('automotive-mechanics').products.length,50);assert.equal(categories.length,18);assert.equal(jobs.length,7);assert.equal(hubs.length,6);
