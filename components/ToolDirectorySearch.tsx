@@ -1,10 +1,41 @@
 "use client";
 
-import {useState,type ReactNode} from 'react';
+import {useEffect,useRef,useState,type ReactNode} from 'react';
 import {matchesToolSearch} from '@/lib/tool-search';
 import styles from './ToolDirectorySearch.module.css';
 
 type Item={id:string;searchText:string;card:ReactNode;essential?:boolean};
+function EssentialsCarousel({items}:{items:Item[]}){
+  const track=useRef<HTMLDivElement>(null);
+  const [edges,setEdges]=useState({start:true,end:true});
+  useEffect(()=>{
+    const element=track.current;
+    if(!element)return;
+    const update=()=>{
+      const start=element.scrollLeft<2;
+      const end=element.scrollLeft+element.clientWidth>=element.scrollWidth-2;
+      setEdges(previous=>previous.start===start && previous.end===end?previous:{start,end});
+    };
+    update();
+    element.addEventListener('scroll',update,{passive:true});
+    const observer=new ResizeObserver(update);
+    observer.observe(element);
+    return ()=>{element.removeEventListener('scroll',update);observer.disconnect();};
+  },[items.length]);
+  const move=(direction:number)=>{
+    const element=track.current;
+    if(!element)return;
+    const first=element.firstElementChild;
+    const step=first?first.getBoundingClientRect().width+14:element.clientWidth;
+    const count=Math.max(1,Math.floor((element.clientWidth+14)/step));
+    element.scrollBy({left:direction*step*count,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  };
+  return <div className={styles.carousel}>
+    <button type="button" className={`${styles.carouselArrow} ${styles.previous}`} onClick={()=>move(-1)} disabled={edges.start} aria-label="Previous apprentice essentials" aria-controls="essentials-track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button>
+    <div ref={track} id="essentials-track" className={styles.essentialGrid} tabIndex={0} role="region" aria-roledescription="carousel" aria-label="Apprentice essentials">{items.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div>
+    <button type="button" className={`${styles.carouselArrow} ${styles.next}`} onClick={()=>move(1)} disabled={edges.end} aria-label="Next apprentice essentials" aria-controls="essentials-track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+  </div>;
+}
 export function ToolDirectorySearch({items,groups}:{items:Item[];groups:{slug:string;name:string}[]}){
   const [query,setQuery]=useState('');
   const results=items.filter(item=>matchesToolSearch(item.searchText,query));
@@ -26,7 +57,7 @@ export function ToolDirectorySearch({items,groups}:{items:Item[];groups:{slug:st
       <div className={styles.sectionHeading}><div><span className={styles.kicker}>Start with the basics</span><h2 id="essentials-heading">Apprentice Essentials</h2></div><span className={styles.essentialCount}>{essentials.length} {essentials.length===1?'essential':'essentials'}</span></div>
       <p className={styles.sectionIntro}>Small tools for the everyday kit. Check your employer’s list and what you already own before buying.</p>
       <p className={styles.disclosure}>As an Amazon Associate, we earn from qualifying purchases.</p>
-      <div className={styles.essentialGrid} tabIndex={0} role="region" aria-label="Apprentice essentials. Scroll horizontally to browse.">{essentials.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div>
+      <EssentialsCarousel key={query} items={essentials}/>
     </section>}
     {catalogue.length>0 && <><h2 className={styles.catalogueHeading}>Reviews &amp; comparisons</h2><div className="allToolsGrid">{catalogue.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div></>}
     {!results.length && <div className={styles.empty}><h2>No tools found</h2><p>Try a shorter name, a brand or another model number.</p><button type="button" onClick={()=>setQuery('')}>Show all tools</button></div>}

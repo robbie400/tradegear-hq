@@ -1,4 +1,4 @@
-/** Approved first batch only. No prices, customer ratings or licensed product photos imported. */
+/** Approved first batch only. No prices or customer ratings imported. */
 export type TradeSlug = 'electricians' | 'plumbers' | 'hvac' | 'carpenters' | 'home-inspectors';
 export type ApprenticeEssential = {
   id: string;
@@ -10,7 +10,7 @@ export type ApprenticeEssential = {
   aliases: readonly string[];
   advice: string;
   manufacturerUrl: string;
-  imageStatus: 'awaiting-permission';
+  imageStatus: 'awaiting-permission' | 'permission-established';
   image?: {src: string; alt: string; sourceUrl: string; rightsBasis: string};
   amazon: {
     asin: string;
@@ -145,7 +145,13 @@ export const apprenticeEssentials: readonly ApprenticeEssential[] = [
     ],
     "advice": "The refillable 2.8 mm marker has a clip holster and integrated sharpener. It suits marking through recesses and on varied materials; choose the lead for the surface and distinguish pencil-only from refill bundles.",
     "manufacturerUrl": "https://pica-marker.com/en/heroes/pica-dry-marker/",
-    "imageStatus": "awaiting-permission",
+    "imageStatus": "permission-established",
+    "image": {
+      "src": "/images/essentials/pica-3030.webp",
+      "alt": "Pica 3030 Pica-Dry pencil shown in its green holster and out of the holster",
+      "sourceUrl": "https://pica-marker.com/wp-content/uploads/2026/06/3030_Dry.zip",
+      "rightsBasis": "Pica official downloads page explicitly states all data packages can be used for both web and print. 3030_Dry_Hero-1_Open_Closed.png from the model-specific data pack; checked 2026-10-15. https://pica-marker.com/en/downloads/"
+    },
     "amazon": {
       "asin": "B002X7Y90U",
       "url": "https://www.amazon.com/dp/B002X7Y90U?tag=robbieom0e-20",

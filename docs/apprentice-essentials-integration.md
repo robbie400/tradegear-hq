@@ -82,3 +82,14 @@ Catalogue, feedback, affiliate, directory and essentials tests pass. Lint report
 Desktop browser checks on the deployed preview confirm all five directory placement counts, 22 rendered tagged Amazon buttons across 10 unique matched products, the held glasses card, and one deduplicated Pica result in homepage search that navigates to its directory card. Directory filtering works. Full-page horizontal overflow was absent at the available desktop width. See `apprentice-essentials-browser-checks.json`.
 
 Mobile scrolling CSS is implemented, but a mobile visual/interaction pass remains outstanding. This browser exposes no viewport-resize API and blocked the local responsive harness; the local Playwright browser could not be installed in the execution environment. Do not label mobile browser verification complete. Review the preview on a mobile viewport before production approval.
+
+
+## Carousel and photo correction — 2026-10-15
+
+The essentials strip now has prominent 44px left/right arrow buttons vertically centered on the card row. Buttons move a visible group of complete cards, update their disabled state at each end, work with keyboard input, and respect reduced-motion preferences. Native swipe and keyboard scrolling remain available. The bottom scrollbar is hidden. On narrow screens the track displays one card between the controls. Search remounts the strip at its first result.
+
+Pica 3030 now uses the official model-specific photo pack, `3030_Dry/3030_Dry_Hero-1_Open_Closed.png`, resized to WebP without changing product content. It shows one pencil in/out of its holster, not a two-pencil package. Local asset: `public/images/essentials/pica-3030.webp`. Source: https://pica-marker.com/wp-content/uploads/2026/06/3030_Dry.zip . Permission: https://pica-marker.com/en/downloads/ explicitly states: “All data packages can be used for both web and print.” Retrieved 2026-10-15; no gating agreement or dealer-only qualification appears on that downloads page. The card attributes the photograph to Pica.
+
+Remaining ten product images remain permission-pending; publicly reachable photos and downloadable links alone have not been treated as licences. Klein terms expressly require written approval for republication: https://www.kleintools.com/content/terms-conditions . Crescent/Apex restrict commercial reuse: https://www.crescenttool.com/terms-service . Milwaukee reserves image rights: https://www.milwaukeetool.com/legal . Streamlight’s media kit directs publishers to request high-resolution images: https://www.streamlight.com/community/newsletters-press . No permission request has been sent, and no Amazon image has been copied.
+
+This correction does not change product IDs, trade/family mappings, ASINs, affiliate helpers, the held DEWALT purchase link, review/guide counts, or the planner branch. Mobile visual verification remains pending as recorded above.
