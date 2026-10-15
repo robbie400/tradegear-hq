@@ -20,7 +20,9 @@ for(const p of apprenticeEssentials){
  assert.equal(url.searchParams.get('tag'),'robbieom0e-20');
  assert.ok(p.advice.length>90);assert.ok(p.manufacturerUrl.startsWith('https://'));
  assert.ok(!('price' in p) && !('rating' in p) && !('reviewCount' in p));
- assert.ok(!p.image || p.image.rightsBasis);
+ assert.ok(p.image && p.image.src && p.image.sourceUrl);
+ if(p.imageStatus==='permission-established')assert.ok(p.image.rightsBasis);
+ else {assert.equal(p.imageStatus,'publisher-directed-permission-unconfirmed');assert.ok(p.image.rightsNote.includes('permission remains unconfirmed'));assert.equal(p.image.rightsBasis,undefined);}
  for(const trade of p.trades){
   assert.ok(getToolDirectory(trade).essentials.some(item=>item.id===p.id));
   assert.equal(getToolkitProductsByFamily(p.familyId,trade).filter(item=>item.id===p.id).length,1);

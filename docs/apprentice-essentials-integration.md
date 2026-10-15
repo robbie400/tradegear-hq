@@ -93,3 +93,12 @@ Pica 3030 now uses the official model-specific photo pack, `3030_Dry/3030_Dry_He
 Remaining ten product images remain permission-pending; publicly reachable photos and downloadable links alone have not been treated as licences. Klein terms expressly require written approval for republication: https://www.kleintools.com/content/terms-conditions . Crescent/Apex restrict commercial reuse: https://www.crescenttool.com/terms-service . Milwaukee reserves image rights: https://www.milwaukeetool.com/legal . Streamlight’s media kit directs publishers to request high-resolution images: https://www.streamlight.com/community/newsletters-press . No permission request has been sent, and no Amazon image has been copied.
 
 This correction does not change product IDs, trade/family mappings, ASINs, affiliate helpers, the held DEWALT purchase link, review/guide counts, or the planner branch. Mobile visual verification remains pending as recorded above.
+
+
+## Publisher-directed manufacturer photos — 2026-10-15 (supersedes photo hold above)
+
+After reviewing the unresolved permissions, the publisher instructed: “Ah no, we'll be okay. I think we won't get in trouble if we, if we use them.” The remaining ten manufacturer photographs are now displayed in the review preview at the publisher’s direction. This is an editorial publication instruction, not a manufacturer licence or rights clearance. No contact requests were sent. The status is explicitly `publisher-directed-permission-unconfirmed`; `image.rightsNote` records that distinction and `image.sourceUrl` records the exact source page. Pica retains its separate, established web-use permission and local asset.
+
+Klein uses exact-model main packshots from the official product galleries. DEWALT uses the image explicitly labelled DPG94-1C in the Radians gallery, rather than its generic family social-preview image. Crescent and Wiss use exact-model main product photos; Bucket Boss uses its 50200 photograph; Milwaukee uses its 48-22-2502 page photo; Streamlight uses the black Stylus Pro gallery image. External photographs use the existing Next Image pipeline and manufacturer attribution. Card images are contained, not cropped. This change does not resolve or enable the mismatched DEWALT Amazon link.
+
+No production release is authorised by this instruction. Review and approve the updated preview separately.
