@@ -4,10 +4,12 @@ import {useState,type ReactNode} from 'react';
 import {matchesToolSearch} from '@/lib/tool-search';
 import styles from './ToolDirectorySearch.module.css';
 
-type Item={id:string;searchText:string;card:ReactNode};
+type Item={id:string;searchText:string;card:ReactNode;essential?:boolean};
 export function ToolDirectorySearch({items,groups}:{items:Item[];groups:{slug:string;name:string}[]}){
   const [query,setQuery]=useState('');
   const results=items.filter(item=>matchesToolSearch(item.searchText,query));
+  const essentials=results.filter(item=>item.essential);
+  const catalogue=results.filter(item=>!item.essential);
   return <>
     <div className={styles.searchBox}>
       <label htmlFor="tool-search">Search tools</label>
@@ -19,7 +21,14 @@ export function ToolDirectorySearch({items,groups}:{items:Item[];groups:{slug:st
       <p id="tool-search-help" className={styles.searchHelp}>Start typing to find your tool. Try a name, brand, model number or tool type.</p>
       <p className={styles.count} role="status" aria-live="polite" aria-atomic="true">{results.length} {results.length===1?'tool':'tools'}{query.trim() ? ` matching “${query.trim()}”` : ' to browse'}</p>
     </div>
-    {!query.trim() && <nav className={styles.groupNav} aria-label="Jump to tool group">{groups.map(group=><a key={group.slug} href={`#tools-${group.slug}`}>{group.name}</a>)}</nav>}
-    {results.length ? <div className="allToolsGrid">{results.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div> : <div className={styles.empty}><h2>No tools found</h2><p>Try a shorter name, a brand or another model number.</p><button type="button" onClick={()=>setQuery('')}>Show all tools</button></div>}
+    {!query.trim() && <nav className={styles.groupNav} aria-label="Jump to tool group">{essentials.length>0 && <a href="#tools-apprentice-essentials">Apprentice Essentials</a>}{groups.map(group=><a key={group.slug} href={`#tools-${group.slug}`}>{group.name}</a>)}</nav>}
+    {essentials.length>0 && <section id="tools-apprentice-essentials" className={styles.essentials} aria-labelledby="essentials-heading">
+      <div className={styles.sectionHeading}><div><span className={styles.kicker}>Start with the basics</span><h2 id="essentials-heading">Apprentice Essentials</h2></div><span className={styles.essentialCount}>{essentials.length} essentials</span></div>
+      <p className={styles.sectionIntro}>Small tools for the everyday kit. Check your employer’s list and what you already own before buying.</p>
+      <p className={styles.disclosure}>As an Amazon Associate, we earn from qualifying purchases.</p>
+      <div className={styles.essentialGrid} tabIndex={0} role="region" aria-label="Apprentice essentials. Scroll horizontally to browse.">{essentials.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div>
+    </section>}
+    {catalogue.length>0 && <><h2 className={styles.catalogueHeading}>Reviews &amp; comparisons</h2><div className="allToolsGrid">{catalogue.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div></>}
+    {!results.length && <div className={styles.empty}><h2>No tools found</h2><p>Try a shorter name, a brand or another model number.</p><button type="button" onClick={()=>setQuery('')}>Show all tools</button></div>}
   </>;
 }

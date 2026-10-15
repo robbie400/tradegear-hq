@@ -1,0 +1,11 @@
+.card{display:flex;flex-direction:column;min-width:0;height:100%;padding:22px;border:1px solid #d8e1e5;border-radius:16px;background:#fff;scroll-snap-align:start;scroll-margin-top:24px}
+.top{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.placeholder{display:grid;place-items:center;flex:none;width:60px;height:64px;border:1px dashed #b8c9cd;border-radius:12px;background:#f1f6f5;color:#75918b}
+.placeholder svg{width:40px;height:40px;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.brand{display:block;font-size:11px;font-weight:800;letter-spacing:.035em;color:#577067;overflow-wrap:anywhere}
+.card h3{margin:5px 0 0;font-size:18px;line-height:1.25;color:#172f36;letter-spacing:-.015em}
+.card .advice{font-size:13px;line-height:1.65;color:#4e5e65;margin:0 0 18px}
+.buy{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:44px;padding:10px 14px;border-radius:9px;margin-top:auto;background:#173e34;color:#fff;font-size:13px;font-weight:800;text-decoration:none}
+.buy:hover{background:#235746}.buy:focus-visible{outline:3px solid #e79034;outline-offset:3px}
+.card .pending{margin:auto 0 0;border-radius:8px;padding:10px 12px;background:#fff4dd;color:#75541c;font-size:12px;line-height:1.5}
+@media(max-width:650px){.card{padding:18px}.placeholder{width:52px;height:58px}.card h3{font-size:17px}}
