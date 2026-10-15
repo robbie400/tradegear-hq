@@ -23,7 +23,7 @@ export function ToolDirectorySearch({items,groups}:{items:Item[];groups:{slug:st
     </div>
     {!query.trim() && <nav className={styles.groupNav} aria-label="Jump to tool group">{essentials.length>0 && <a href="#tools-apprentice-essentials">Apprentice Essentials</a>}{groups.map(group=><a key={group.slug} href={`#tools-${group.slug}`}>{group.name}</a>)}</nav>}
     {essentials.length>0 && <section id="tools-apprentice-essentials" className={styles.essentials} aria-labelledby="essentials-heading">
-      <div className={styles.sectionHeading}><div><span className={styles.kicker}>Start with the basics</span><h2 id="essentials-heading">Apprentice Essentials</h2></div><span className={styles.essentialCount}>{essentials.length} essentials</span></div>
+      <div className={styles.sectionHeading}><div><span className={styles.kicker}>Start with the basics</span><h2 id="essentials-heading">Apprentice Essentials</h2></div><span className={styles.essentialCount}>{essentials.length} {essentials.length===1?'essential':'essentials'}</span></div>
       <p className={styles.sectionIntro}>Small tools for the everyday kit. Check your employer’s list and what you already own before buying.</p>
       <p className={styles.disclosure}>As an Amazon Associate, we earn from qualifying purchases.</p>
       <div className={styles.essentialGrid} tabIndex={0} role="region" aria-label="Apprentice essentials. Scroll horizontally to browse.">{essentials.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div>

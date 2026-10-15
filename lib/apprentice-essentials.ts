@@ -195,7 +195,7 @@ export const apprenticeEssentials: readonly ApprenticeEssential[] = [
       "side cutters",
       "diagonal pliers"
     ],
-    "advice": "Short jaws and beveled cutting edges provide the dedicated wire-cutting role absent from the catalogue. Check the permitted material and use de-energized-work procedures; these plastic-dipped handles are explicitly not insulated.",
+    "advice": "Short jaws and beveled cutting edges suit close wire cutting. Check the permitted material and use de-energized-work procedures; these plastic-dipped handles are explicitly not insulated.",
     "manufacturerUrl": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
     "imageStatus": "awaiting-permission",
     "amazon": {

@@ -74,3 +74,11 @@ Matched essentials use the approved exact Amazon.com ASIN, established `robbieom
 Run `npm test`, `npm run lint`, `npm run build`, then check directory search and horizontal cards at desktop and mobile widths. `scripts/validate-apprentice-essentials.cjs` covers the approved set, ASIN correspondence, held link, reuse and trade mappings. Existing catalogue/directory checks retain their original expected guide, review and product counts.
 
 No production merge or deployment is authorised. Review the Vercel preview before release. A later planner integration must coordinate the shared modules with the planner branch rather than overwrite its implementation.
+
+## Completed validation and remaining check
+
+Catalogue, feedback, affiliate, directory and essentials tests pass. Lint reports no errors and eight pre-existing image-optimization warnings. The production build succeeds. The rendered production-mode audit checks 312 sitemap pages and 8,542 internal links with zero errors; original review and guide counts are preserved.
+
+Desktop browser checks on the deployed preview confirm all five directory placement counts, 22 rendered tagged Amazon buttons across 10 unique matched products, the held glasses card, and one deduplicated Pica result in homepage search that navigates to its directory card. Directory filtering works. Full-page horizontal overflow was absent at the available desktop width. See `apprentice-essentials-browser-checks.json`.
+
+Mobile scrolling CSS is implemented, but a mobile visual/interaction pass remains outstanding. This browser exposes no viewport-resize API and blocked the local responsive harness; the local Playwright browser could not be installed in the execution environment. Do not label mobile browser verification complete. Review the preview on a mobile viewport before production approval.
