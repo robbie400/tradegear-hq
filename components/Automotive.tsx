@@ -9,7 +9,7 @@ import s from './Automotive.module.css';
 const root=`/${trade}`;
 const href=(p:AutomotiveProduct)=>`${root}/products/${p.id}/`;
 function Disclosure(){return <p className={s.disclosure}>Manufacturer research, not hands-on testing. As an Amazon Associate, we earn from qualifying purchases.</p>;}
-function Crumbs({title}:{title:string}){return <div className="crumb"><Link href="/">Home</Link> / <Link href={`${root}/`}>Automotive Mechanics</Link> / {title}</div>;}
+function Crumbs({title}:{title:string}){return <div className={`crumb ${s.breadcrumb}`}><Link href="/">Home</Link> / <Link href={`${root}/`}>Automotive Mechanics</Link> / {title}</div>;}
 export function AutomotiveCard({product:p,anchor}:{product:AutomotiveProduct;anchor?:string}){return <article className={`allToolCard ${s.card}`} id={anchor}>
   <Link href={href(p)}><ProductPhoto photo={automotivePhoto(p)} className="hubProductPhoto"/><span className="eyebrow orange">{p.category}</span><h3>{p.brand} {p.model}</h3><p className={s.role}>{p.name}</p></Link>
   <p>{p.intro}</p><p>{p.advice}</p><div className={s.actions}><Link className="detailLink" href={href(p)}>Read buying notes →</Link><a className="amazonBtn" href={affiliateUrl(p.amazonUrl,trade)} target="_blank" rel="sponsored noopener noreferrer">Check on Amazon →</a></div>

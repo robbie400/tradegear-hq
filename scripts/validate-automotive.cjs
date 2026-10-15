@@ -11,6 +11,8 @@ assert.equal(products.length,50);assert.equal(new Set(products.map(p=>p.id)).siz
 const holds={'arcan-a20019':'B0047D2FWM','fluke-88v-a-kit':'B005T5G38E','gearwrench-81906':'B000NI93SE','milwaukee-2125-20':'B06ZZYPCNL','dewalt-dpg94-1d':'B004EYOKU4','3m-peltor-x4a':'B00CPCHADQ','stanley-33-725':'B00002PV66'};
 for(const [id,asin] of Object.entries(holds))assert.equal(products.find(p=>p.id===id)?.asin,asin);
 assert.deepEqual(products.filter(p=>p.replacesId).map(p=>[p.id,p.replacesId]),[['arcan-a20019','arcan-a20018'],['dewalt-dpg94-1d','dewalt-dpg94-1c']]);
+assert.ok(products.find(p=>p.id==='lisle-81850').intro.includes('thickness gauge'));
+assert.ok(products.every(p=>!/^Reuse existing|old tracker|Do not invent/.test(p.advice)));
 const canonical=getToolkitProducts();assert.equal(canonical.length,388);assert.equal(new Set(canonical.map(p=>p.id)).size,388);
 for(const p of products){
  const url=new URL(getToolkitPurchaseUrl(p.id,'automotive-mechanics'));assert.equal(url.hostname,'www.amazon.com');assert.equal(url.pathname,`/dp/${p.asin}`);assert.ok(url.searchParams.get('tag'));
@@ -20,6 +22,9 @@ for(const p of products){
  for(const family of p.familyIds)assert.equal(getToolkitProductsByFamily(family,'automotive-mechanics').filter(x=>x.id===p.id).length,1);
  assert.ok(getGlobalToolSearchItems().some(x=>x.id===p.id&&matchesToolSearch(x.searchText,p.model)));
 }
+const oldTag=process.env.AMAZON_TAG_AUTOMOTIVE;process.env.AMAZON_TAG_AUTOMOTIVE='automotiveqa-20';
+assert.equal(new URL(getToolkitPurchaseUrl('fluke-88v-a-kit','automotive-mechanics')).searchParams.get('tag'),'automotiveqa-20');
+if(oldTag===undefined)delete process.env.AMAZON_TAG_AUTOMOTIVE;else process.env.AMAZON_TAG_AUTOMOTIVE=oldTag;
 const reused=['klein-d203-8','klein-d228-8','klein-32500hd','knipex-8701250','stanley-33-725','streamlight-66118'];
 for(const id of reused){const entries=canonical.filter(p=>p.id===id);assert.equal(entries.length,1);assert.ok(entries[0].trades.length>1);}
 assert.equal(getToolDirectory('automotive-mechanics').products.length,50);assert.equal(categories.length,18);assert.equal(jobs.length,7);assert.equal(hubs.length,6);

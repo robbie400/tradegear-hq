@@ -22,6 +22,6 @@ Owner authorized page work on 15 October 2026 after photo preparation. Developme
 
 `npm test` includes automotive regressions covering all 50 records, the seven formerly unresolved ASINs, two explicit substitutions, source-photo presence, affiliate destinations, family/search discovery, six reused IDs and unchanged production catalogue counts. `npm run build` passes with the existing image-element lint warnings.
 
-HTTP checks cover the hub, directory, all 50 buying-note pages and all 50 photo assets. Browser visual verification is recorded separately when the preview is available.
+HTTP checks cover the hub, directory, all 50 buying-note pages and all 50 photo assets. Desktop browser checks confirmed the hub, product photography, detail-page navigation, exact affiliate destination and live model search. Phone-width visual verification remains unconfirmed: the available browser has no viewport-resize API, and its URL policy rejected a data-URL test frame. Do not report a mobile browser pass. Responsive CSS remains in place.
 
 The automotive feature is excluded when `VERCEL_ENV=production`, so approval and an intentional release change are required before production publication.

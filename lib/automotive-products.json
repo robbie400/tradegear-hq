@@ -208,7 +208,7 @@
       "jump-starter"
     ],
     "intro": "A portable jump starter for starting assistance when a vehicle battery cannot supply enough cranking power. It belongs in a roadside or workshop recovery kit alongside equipment that can investigate why the battery went flat.",
-    "advice": "Match battery type and engine application. Current manufacturer imagery shows USB-C input; verify supplied revision before illustrating ports from older listing photos.",
+    "advice": "Match the battery type and engine application. Confirm the selected hardware revision and supplied charging cable before ordering.",
     "specifications": [
       "12 V jump starter",
       "1000 A manufacturer starting-current claim",
@@ -288,7 +288,7 @@
       "low-range-torque-wrench"
     ],
     "intro": "A click-type torque wrench for tightening suitable fasteners to a specified torque. Match its drive size and working range to the service information for the jobs you expect to do.",
-    "advice": "Replaces discontinued TRQ21101 (10–150 in-lb); does not cover the old 10–19 in-lb range. Use a different calibrated range when a fastener requires it.",
+    "advice": "Its 20–200 in-lb range does not cover lower 10–19 in-lb settings. Use a different calibrated range when a fastener requires it.",
     "specifications": [
       "1/4-inch square drive",
       "20–200 in-lb range",
@@ -329,7 +329,7 @@
       "wheel-service-torque-wrench"
     ],
     "intro": "A second torque-wrench option for a different working range and drive requirement. Choose it around actual fastener specifications and access, rather than buying two overlapping ranges automatically.",
-    "advice": "Replaces discontinued 24340 (25–250 ft-lb); does not cover 25–39 ft-lb. Final tightening follows the vehicle specification, not impact-wrench settings.",
+    "advice": "Its 40–300 ft-lb range does not cover lower 25–39 ft-lb settings. Final tightening follows the vehicle specification, not impact-wrench settings.",
     "specifications": [
       "1/2-inch square drive",
       "40–300 ft-lb range",
@@ -370,7 +370,7 @@
       "quarter-drive-socket-set"
     ],
     "intro": "A socket-and-ratchet set for everyday turning and access work around a vehicle. Check the included metric and SAE sizes against the vehicles you service before using piece count to judge its usefulness.",
-    "advice": "Corrected source to 80300P; the old tracker linked to 80550P. Chrome hand-drive sockets must not be assumed impact-rated.",
+    "advice": "Check that the offer is the 80300P 51-piece set. These chrome hand-drive sockets must not be assumed impact-rated.",
     "specifications": [
       "51 pieces",
       "1/4-inch hand drive",
@@ -533,7 +533,7 @@
       "socket-extension"
     ],
     "intro": "A socket-extension set for reaching fasteners beyond a ratchet’s immediate clearance. Different lengths help position the handle where there is room to turn it.",
-    "advice": "Replaces discontinued three-piece SHA91005. Optional purchase if the socket kit already supplies the required reach; not advertised here as impact-rated.",
+    "advice": "Optional purchase if the socket kit already supplies the required reach; not advertised here as impact-rated.",
     "specifications": [
       "3/8-inch hand drive",
       "Lengths 1, 3, 6 and 10 inches",
@@ -772,7 +772,7 @@
     "familyIds": [
       "brake-lining-gauge"
     ],
-    "intro": "A brake-caliper hanger set for keeping supported calipers out of the way during appropriate service work. It helps avoid leaving a caliper hanging from its flexible hose.",
+    "intro": "A brake-lining thickness gauge set for screening pad or lining thickness at an accessible measuring point. Its colour-coded blades help organise a check, while the vehicle limits and a full inspection determine the service decision.",
     "advice": "Colour bands are screening aids; replacement decisions use vehicle limits and a proper inspection, not colour alone.",
     "specifications": [
       "Nine acetal gauges",
@@ -1052,7 +1052,7 @@
     "familyIds": [
       "filter-socket-set"
     ],
-    "intro": "A cup-style oil-filter socket set for compatible filter housings and caps. Match the exact profile and size to the vehicle rather than assuming that a visually similar cup is interchangeable.",
+    "intro": "A low-profile filter-cap socket set for compatible filter housings and caps. Match the exact profile and size to the vehicle rather than assuming that a visually similar cup is interchangeable.",
     "advice": "Match exact cap geometry and engine. A size list alone is not universal filter compatibility.",
     "specifications": [
       "Seven six-point sockets",
@@ -1134,7 +1134,7 @@
       "tire-pressure-gauge"
     ],
     "intro": "A compact pencil-style tyre-pressure gauge for straightforward pressure checks. Confirm that its range and resolution suit the vehicle’s specified cold tyre pressures.",
-    "advice": "Not a high-pressure truck gauge; check the required cold pressure lies inside its range. Manufacturer material description takes precedence over inconsistent retailer fields.",
+    "advice": "Check that the required cold tyre pressure lies inside its stated range. This is a passenger-car gauge, not a high-pressure truck gauge.",
     "specifications": [
       "5–50 psi range",
       "Single-head passenger-car chuck",
@@ -1376,7 +1376,7 @@
       "wheel-chock"
     ],
     "intro": "Rubber wheel chocks for helping restrain an appropriately parked vehicle during suitable workshop work. Match their size and use to the tyre, surface and equipment procedure.",
-    "advice": "No verified load/grade limit was found in the source. Do not invent one or claim universal suitability; these are not jack stands.",
+    "advice": "Check the manufacturer’s instructions against the vehicle, surface and intended use. Wheel chocks complement suitable lifting and support equipment; they do not replace jack stands.",
     "specifications": [
       "Two rubber chocks",
       "Each 8×4×6 inches",
@@ -1457,7 +1457,7 @@
       "needle-nose-pliers"
     ],
     "intro": "Long-nose pliers for reaching and handling small parts in confined spaces. Their narrow jaws are useful where fingers or broader pliers cannot get a controlled grip.",
-    "advice": "Reuse existing klein-d203-8. Standard model is not the insulated -INS or glow-handle -GLW variant; handle covering is not electrical insulation.",
+    "advice": "The standard model is not the insulated -INS or glow-handle -GLW variant. Ordinary handle covering is not electrical insulation.",
     "specifications": [
       "Manufacturer nominal 8-inch class",
       "8.41-inch overall length",
@@ -1498,7 +1498,7 @@
       "diagonal-cutting-pliers"
     ],
     "intro": "Diagonal-cutting pliers for appropriate wire and cutting tasks in a mechanic’s hand-tool kit. Check the material and capacity before cutting hardened components or using excessive leverage.",
-    "advice": "Reuse existing klein-d228-8. Standard version, not -INS or tethered -TT. Intended for cutting appropriate material, not hardened automotive fasteners.",
+    "advice": "This is the standard version, rather than -INS or tethered -TT. Use it for appropriate cutting material, not hardened automotive fasteners.",
     "specifications": [
       "7.98-inch overall length",
       "Short jaws and bevelled cutting edges",
@@ -1579,7 +1579,7 @@
       "adjustable-joint-pliers"
     ],
     "intro": "Adjustable water-pump pliers for gripping suitable parts of different sizes. They complement fixed-size wrenches, particularly where a secure grip matters more than protecting a finished surface.",
-    "advice": "Reuse existing knipex-8701250. Serrated jaws suit gripping tasks, not every precision line fitting. Do not substitute other handle/insulation variants.",
+    "advice": "Serrated jaws suit gripping tasks but can mark precision fittings. Check the exact 87 01 250 handle configuration when ordering.",
     "specifications": [
       "10-inch nominal length",
       "25 adjustment positions",
@@ -1702,7 +1702,7 @@
       "feeler-gauge"
     ],
     "intro": "A feeler-gauge set for checking suitable specified gaps and clearances. Use the blade thickness and measurement method called for by the service procedure.",
-    "advice": "Not 68150 go/no-go. The Chemeketa list extends to 0.040 inch, so this set alone does not meet that entire range. Follow the required vehicle measuring procedure.",
+    "advice": "Check the full blade range against your course or vehicle requirements. This is a conventional feeler-gauge set rather than the 68150 go/no-go model; it does not extend to 0.040 inch.",
     "specifications": [
       "31 blades including one 0.010-inch brass blade",
       "Thickness range 0.0015–0.035 inch",
@@ -1861,7 +1861,7 @@
       "magnetic-pickup-tool"
     ],
     "intro": "A telescoping magnetic pickup tool for retrieving suitable ferrous items from awkward spaces. It is a useful small addition for dropped fasteners that remain visible or can be located safely.",
-    "advice": "Manufacturer Amazon shortcut resolves to B004VTYG0G with model HT-2; B000JXPBLG is HT-1. Lift claim is conditional and is not a safe lifting-equipment rating.",
+    "advice": "Check that the selected model is HT-2. Its magnetic pickup claim depends on the object and contact conditions and is not a rating for lifting equipment.",
     "specifications": [
       "Length 7.25–33.75 inches",
       "Manufacturer lift claim up to 5 lb",
@@ -1981,7 +1981,7 @@
       "multi-bit-screwdriver"
     ],
     "intro": "A multi-bit screwdriver and nut-driver tool for keeping common manual fastening options together. Check the included profiles and avoid applying it to fasteners that need a more suitable dedicated tool.",
-    "advice": "Reuse existing klein-32500hd. Not 32500HDRT ratcheting version or an insulated driver. The 1/2-inch standard nut driver is not described as an impact power nut driver.",
+    "advice": "This is the 32500HD rather than the 32500HDRT ratcheting version or an insulated driver. The standard 1/2-inch nut-driver function is not described as an impact power nut driver.",
     "specifications": [
       "Seven bit tips and four nut-driver sizes",
       "1/4, 5/16 and 3/8-inch power nut drivers; 1/2-inch standard nut driver",
