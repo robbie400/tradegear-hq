@@ -1,3 +1,4 @@
+import {AutomotiveDirectory} from '@/components/Automotive';
 import styles from './ToolDirectory.module.css';
 import type {Metadata} from 'next';
 import Link from 'next/link';
@@ -10,7 +11,7 @@ import {ToolDirectorySearch} from '@/components/ToolDirectorySearch';
 import {ApprenticeEssentialCard} from '@/components/ApprenticeEssentialCard';
 import {PageSchema} from '@/components/Editorial';
 
-const titles:Record<string,string>={electricians:'Electrician Tools',plumbers:'Plumber Tools',hvac:'HVAC Tools','home-inspectors':'Home Inspector Tools',carpenters:'Carpenter & Joiner Tools'};
+const titles:Record<string,string>={electricians:'Electrician Tools',plumbers:'Plumber Tools',hvac:'HVAC Tools','home-inspectors':'Home Inspector Tools',carpenters:'Carpenter & Joiner Tools','automotive-mechanics':'Automotive Mechanic Tools'};
 export function generateStaticParams(){return hubs.map(h=>({trade:h.slug}));}
 export async function generateMetadata({params}:{params:Promise<{trade:string}>}):Promise<Metadata>{
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)return {};
@@ -20,6 +21,7 @@ export async function generateMetadata({params}:{params:Promise<{trade:string}>}
 }
 export default async function TradeTools({params}:{params:Promise<{trade:string}>}){
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)notFound();
+  if(trade==='automotive-mechanics')return <AutomotiveDirectory/>;
   const {hub,groups,products,essentials}=directory;
   const description=`Search ${products.length} reviewed and compared tools plus ${essentials.length} apprentice essentials for ${hub.name.toLowerCase()}.`;
   const items=products.map(p=>({id:p.id,searchText:p.searchText,card:<article className="allToolCard" id={p.groupAnchor}>

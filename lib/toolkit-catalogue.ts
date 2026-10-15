@@ -1,5 +1,6 @@
 /** Read-only integration surface for the separately developed planner. No planner UI or rules. */
 import {guides} from './data';
+import {automotiveEnabled,automotiveProducts,automotiveTrade} from './automotive-catalog';
 import {affiliateUrl} from './affiliate';
 import {apprenticeEssentials,type TradeSlug} from './apprentice-essentials';
 
@@ -27,7 +28,7 @@ export function getToolkitProducts():ToolkitCatalogueProduct[] {
   for(const guide of guides){
     for(const [index,product] of guide.products.entries()){
       const id=product.productId || product.reviewSlug?.replace(/-review$/,'') || `${guide.slug}-${index+1}`;
-      const placement={trade:guide.trade,guideHref:`/${guide.trade}/${guide.slug}/`,detailHref:product.reviewSlug ? `/reviews/${product.reviewSlug}/` : `/${guide.trade}/${guide.slug}/#pick-${index+1}`};
+      const placement={trade:guide.trade,guideHref:`/${guide.trade}/${guide.slug}/`,detailHref:guide.trade===automotiveTrade ? `/automotive-mechanics/products/${id}/` : product.reviewSlug ? `/reviews/${product.reviewSlug}/` : `/${guide.trade}/${guide.slug}/#pick-${index+1}`};
       const existing=products.get(id);
       if(existing){
         products.set(id,{...existing,trades:[...new Set([...existing.trades,guide.trade])],placements:[...existing.placements,placement]});
@@ -38,8 +39,18 @@ export function getToolkitProducts():ToolkitCatalogueProduct[] {
     }
   }
   for(const product of apprenticeEssentials){
-    if(products.has(product.id))throw new Error(`Duplicate toolkit product ID: ${product.id}`);
+    const crossTrade=products.get(product.id);
+    if(crossTrade){
+      if(!crossTrade.trades.includes(automotiveTrade))throw new Error(`Duplicate toolkit product ID: ${product.id}`);
+      products.set(product.id,{...crossTrade,kind:'essential',brand:product.brand,model:product.model,name:product.name,familyIds:[...new Set([...crossTrade.familyIds,product.familyId])],trades:[...new Set([...crossTrade.trades,...product.trades])],advice:product.advice,amazon:product.amazon,placements:[...crossTrade.placements,...product.trades.map(trade=>({trade,guideHref:`/${trade}/tools/#tools-apprentice-essentials`,detailHref:`/${trade}/tools/#essential-${product.id}`}))]});
+      continue;
+    }
     products.set(product.id,{id:product.id,kind:'essential',brand:product.brand,model:product.model,name:product.name,familyIds:[product.familyId],trades:product.trades,advice:product.advice,amazon:product.amazon,placements:product.trades.map(trade=>({trade,guideHref:`/${trade}/tools/#tools-apprentice-essentials`,detailHref:`/${trade}/tools/#essential-${product.id}`}))});
+  }
+  if(automotiveEnabled)for(const product of automotiveProducts){
+    const current=products.get(product.id)!;
+    // Automotive lookups use this exact offer; other trades keep their established record.
+    products.set(product.id,{...current,familyIds:[...new Set([...current.familyIds,...product.familyIds])],trades:[...new Set([...current.trades,automotiveTrade])]});
   }
   return [...products.values()];
 }
@@ -51,5 +62,6 @@ export function getToolkitProductsForTrade(trade:string){return getToolkitProduc
 export function getToolkitPurchaseUrl(id:string,trade:string){
   const product=getToolkitProductById(id);
   if(!product || !product.trades.includes(trade) || product.amazon.status==='model-mismatch')return undefined;
-  return affiliateUrl(product.amazon.url,trade);
+  const automotive=automotiveEnabled && trade===automotiveTrade ? automotiveProducts.find(p=>p.id===id):undefined;
+  return affiliateUrl(automotive?.amazonUrl || product.amazon.url,trade);
 }

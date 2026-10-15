@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-15",
+  "scope": "Protected Vercel preview for owner review. Page work authorized 2026-10-15 after photo preparation. No production publication. Source-image permission remains unconfirmed and is not represented as licensed.",
+  "products": 50,
+  "exactAmazonDestinations": 50,
+  "substitutions": [
+    {
+      "id": "arcan-a20019",
+      "brand": "Arcan",
+      "model": "A20019",
+      "name": "3-ton aluminium low-profile floor jack",
+      "category": "Lifting",
+      "familyIds": [
+        "floor-jack"
+      ],
+      "intro": "Arcan A20019 is the 3-ton aluminium low-profile floor jack. 3 US ton / 6000 lb lifting capacity. 3.75–18 inch lift range.",
+      "advice": "Use only on a suitable hard, level surface at approved lifting points. Immediately support the vehicle with appropriately selected stands; never work underneath a vehicle supported only by this jack.",
+      "specifications": [
+        "3 US ton / 6000 lb lifting capacity",
+        "3.75–18 inch lift range",
+        "Dual-pump aluminium construction",
+        "56 lb manufacturer weight"
+      ],
+      "sourceUrl": "https://arcantools.com/lifting/a20019",
+      "amazonUrl": "https://www.amazon.com/dp/B0047D2FWM?tag=robbieom0e-20",
+      "asin": "B0047D2FWM",
+      "amazonCheckedAt": "2026-10-15",
+      "verificationNote": "Current A20019 selected explicitly, replacing A20018. Manufacturer page BUY ON AMAZON points directly to B0047D2FWM; title/model and 732425000258 UPC match.",
+      "image": {
+        "src": "/images/automotive/arcan-a20019.webp",
+        "sourceUrl": "https://arcantools.com/lifting/a20019",
+        "alt": "Arcan A20019 product photograph",
+        "credit": "Arcan",
+        "unoptimized": false
+      },
+      "imageRights": {
+        "status": "publisher-directed-permission-unconfirmed",
+        "permissionEvidence": null,
+        "sourceWidth": 2500,
+        "sourceHeight": 2500,
+        "publisherDirection": "Robbie requested use of these exact-model photographs on 2026-10-15. No manufacturer licence is asserted.",
+        "originalSourceUrl": "https://images.squarespace-cdn.com/content/v1/5ee8dfdb90b24e51ca5a547c/91aa29ef-6961-4863-9a2e-118de69346ea/A20019_1.jpg"
+      },
+      "replacesId": "arcan-a20018",
+      "existingCanonicalId": null
+    },
+    {
+      "id": "dewalt-dpg94-1d",
+      "brand": "DEWALT",
+      "model": "DPG94-1D",
+      "name": "Dominator clear-lens safety glasses",
+      "category": "Workshop safety",
+      "familyIds": [
+        "safety-glasses"
+      ],
+      "intro": "DEWALT DPG94-1D is the dominator clear-lens safety glasses. Clear-lens DPG94-1D industrial variant. Full-frame design.",
+      "advice": "Clear lenses preserve visibility indoors. Match eye protection to the task; safety glasses alone do not cover every grinding, chemical-splash or face-protection requirement.",
+      "specifications": [
+        "Clear-lens DPG94-1D industrial variant",
+        "Full-frame design",
+        "Rubber nosepiece and temple accents"
+      ],
+      "sourceUrl": "https://www.radians.com/hubfs/5027%20Industrial%20Catalog_REV10_LR.pdf?hsLang=en",
+      "amazonUrl": "https://www.amazon.com/dp/B004EYOKU4?tag=robbieom0e-20",
+      "asin": "B004EYOKU4",
+      "amazonCheckedAt": "2026-10-15",
+      "verificationNote": "Explicit industrial DPG94-1D substitution, not relabelling DPG94-1C. Manufacturer industrial catalogue identifies clear 1D; direct Amazon page confirms DPG94-1D, one item and clear lens.",
+      "image": {
+        "src": "/images/automotive/dewalt-dpg94-1d.webp",
+        "sourceUrl": "https://www.amazon.com/dp/B002IVTX8E",
+        "alt": "DEWALT DPG94-1D product photograph",
+        "credit": "Amazon listing gallery",
+        "unoptimized": false
+      },
+      "imageRights": {
+        "status": "publisher-directed-permission-unconfirmed",
+        "permissionEvidence": null,
+        "sourceWidth": 1500,
+        "sourceHeight": 762,
+        "publisherDirection": "Robbie requested use of these exact-model photographs on 2026-10-15. No manufacturer licence is asserted.",
+        "originalSourceUrl": "https://m.media-amazon.com/images/I/71J5fJN-v4L._AC_SL1500_.jpg"
+      },
+      "replacesId": "dewalt-dpg94-1c",
+      "existingCanonicalId": null
+    }
+  ],
+  "resolvedListingHolds": [
+    {
+      "id": "fluke-88v-a-kit",
+      "asin": "B005T5G38E",
+      "evidence": "Manufacturer UPC 095969249072 matches Amazon GTIN 00095969249072, FLUKE-88-5/A KIT and automotive combo-kit contents. Retail part 892583 retained as a metadata anomaly."
+    },
+    {
+      "id": "gearwrench-81906",
+      "asin": "B000NI93SE",
+      "evidence": "Manufacturer UPC 099575819063 matches Amazon GTIN 00099575819063, GEARWRENCH brand, model 81906 and six metric flare-nut wrenches. Drake Off Road field is erroneous retailer metadata, not a different selected product."
+    },
+    {
+      "id": "milwaukee-2125-20",
+      "asin": "B06ZZYPCNL",
+      "evidence": "Direct Amazon page identifies Milwaukee Electric Tools, model 2125-20, one item, UPC 045242474813 and matching underhood-light specifications. Clip Light Manufacturing title anomaly recorded."
+    },
+    {
+      "id": "3m-peltor-x4a",
+      "asin": "B00CPCHADQ",
+      "evidence": "Direct Amazon page identifies X4A, one item, headband configuration and US NRR 27 dB; earlier provider returned wrong internal ASIN."
+    },
+    {
+      "id": "stanley-33-725",
+      "asin": "B00002PV66",
+      "evidence": "Manufacturer live HTML specifies barcodes 76174337259 / 76174337266. Leading-zero-normalized 076174337259 matches Amazon GTIN 00076174337259. Retail 33-725Y is the selected 25-foot product, not a different tape length."
+    }
+  ],
+  "guideCount": 18,
+  "workflowCount": 7,
+  "remainingEditorial": [
+    "C11 mechanical pullers and C15 cooling-system buying guides held for batch two",
+    "W07 suspension, W08 cooling and W09 engine diagnostic workflows held for batch two"
+  ],
+  "imagePermissionCount": 0,
+  "imageQualityNote": "49 downloaded originals have a native long edge of at least 1000 px; Lisle 17922 manufacturer photo is 697×418. DEWALT DPG94-1D photo is 1500×762. No photo is labelled licensed.",
+  "publicationStatus": "preview-authorized-production-held",
+  "photoManifest": "TradeGear-HQ-Automotive-Photo-Pack/manifest.json"
+}

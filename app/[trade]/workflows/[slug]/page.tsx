@@ -1,3 +1,4 @@
+import {AutomotiveWorkflow} from '@/components/Automotive';
 import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getProductImage } from "@/lib/product-images";
@@ -40,6 +41,7 @@ export default async function WorkflowPage({
   const { trade, slug } = await params;
   const w = getWorkflow(trade, slug);
   if (!w) notFound();
+  if(trade === "automotive-mechanics")return <AutomotiveWorkflow slug={slug}/>;
   return (
     <>
       <PageSchema date={trade === "carpenters" ? "2026-10-12" : undefined} title={w.title} description={w.meta} path={`/${trade}/workflows/${slug}/`} crumbs={[{name:"Home",path:"/"},{name:w.tradeName,path:`/${trade}/`},{name:w.title,path:`/${trade}/workflows/${slug}/`}]}/>

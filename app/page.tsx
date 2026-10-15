@@ -19,7 +19,7 @@ export default function Home(){
         <div className="heroCopy">
           <span className="eyebrow">US TRADE TOOL BUYING GUIDES</span>
           <h1>Find the Right Tool for the Job.</h1>
-          <p>Trade-specific comparisons for electricians, plumbers, HVAC techs, home inspectors and carpenters. Compare faster. Buy smarter.</p>
+          <p>Trade-specific comparisons for electricians, plumbers, HVAC techs, home inspectors, carpenters and automotive mechanics. Compare faster. Buy smarter.</p>
           <div className="heroActions"><a className="orangeBtn" href="#trades">Choose Your Trade</a><a className="ghostBtn" href="#popular">See Featured Guides</a></div>
           <GlobalToolSearch items={getGlobalToolSearchItems()}/>
           <div className="trustLine"><span>✓ Built around real trade workflows</span><span>✓ Clear pros, tradeoffs & picks</span><span>✓ Amazon buying links</span></div>

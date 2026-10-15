@@ -1,3 +1,4 @@
+import {AutomotiveHub} from '@/components/Automotive';
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
@@ -34,6 +35,7 @@ export default async function TradePage({
   const { trade } = await params;
   const hub = getHub(trade);
   if (!hub) notFound();
+  if (trade === "automotive-mechanics") return <AutomotiveHub/>;
   const items = guides.filter((g) => g.trade === trade);
   const workflows = getTradeWorkflows(trade);
   const clusters = [...new Set(items.map(g=>g.cluster))];

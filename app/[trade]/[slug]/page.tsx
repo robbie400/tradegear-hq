@@ -1,3 +1,4 @@
+import {AutomotiveGuide} from '@/components/Automotive';
 import {carpenterFinal25Categories} from '@/lib/carpenter-final25';
 import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
@@ -41,6 +42,7 @@ export default async function Guide({
   const { trade, slug } = await params;
   const g = getGuide(trade, slug);
   if (!g) notFound();
+  if (trade === "automotive-mechanics") return <AutomotiveGuide slug={slug}/>;
   const hub = getHub(trade);
   const guideImage = getGuideImage(g);
   const e = guideEditorial[slug] || guideEditorial[trade];

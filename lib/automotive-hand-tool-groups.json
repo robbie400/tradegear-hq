@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Screwdrivers",
+    "productIds": [
+      "gearwrench-80066h",
+      "klein-32500hd"
+    ]
+  },
+  {
+    "title": "Pliers",
+    "productIds": [
+      "klein-d203-8",
+      "klein-d228-8",
+      "irwin-502l3",
+      "knipex-8701250"
+    ]
+  },
+  {
+    "title": "Hex & Torx access",
+    "productIds": [
+      "gearwrench-80742"
+    ]
+  },
+  {
+    "title": "Ratchets, extensions & leverage",
+    "productIds": [
+      "tekton-sbh00224",
+      "tekton-sha91011"
+    ]
+  },
+  {
+    "title": "Pry bars, picks & trim tools",
+    "productIds": [
+      "mayhew-61366",
+      "lisle-31750",
+      "lisle-35440"
+    ]
+  },
+  {
+    "title": "General measurement",
+    "productIds": [
+      "stanley-33-725"
+    ]
+  }
+]
