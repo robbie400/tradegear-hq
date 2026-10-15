@@ -2,6 +2,7 @@ import {guides,hubs,getHub} from './data';
 import {getReview} from './reviews';
 import {getProductImage} from './product-images';
 import {normalizeToolSearch} from './tool-search';
+import {getApprenticeEssentialsForTrade} from './apprentice-essentials';
 
 export function getToolDirectory(trade:string){
   const hub=getHub(trade);
@@ -25,7 +26,11 @@ export function getToolDirectory(trade:string){
       intro:p.assessment?.intro,
       photo:getProductImage(p.productId || p.reviewSlug || `${p.brand} ${p.model}`)};
   }));
-  return {hub,categories,groups,products};
+  const essentials=getApprenticeEssentialsForTrade(trade).map(product=>({
+    ...product,
+    searchText:normalizeToolSearch(`${product.brand} ${product.model} ${product.name} ${product.familyId} ${product.aliases.join(' ')} apprentice essentials starter kit`),
+  }));
+  return {hub,categories,groups,products,essentials};
 }
 
 export type GlobalToolSearchItem={id:string;name:string;href:string;trades:string[];searchText:string};
@@ -41,6 +46,15 @@ export function getGlobalToolSearchItems():GlobalToolSearchItem[]{
         existing.searchText+=` ${product.searchText} ${normalizeToolSearch(hub.name)}`;
       }else{
         items.set(product.id,{id:product.id,name:`${product.brand} ${product.model}`,href:product.detailHref,trades:[hub.name],searchText:`${product.searchText} ${normalizeToolSearch(hub.name)}`});
+      }
+    }
+    for(const product of directory.essentials){
+      const existing=items.get(product.id);
+      if(existing){
+        existing.trades.push(hub.name);
+        existing.searchText+=` ${normalizeToolSearch(hub.name)}`;
+      }else{
+        items.set(product.id,{id:product.id,name:`${product.brand} ${product.model} — ${product.name}`,href:`/${hub.slug}/tools/#essential-${product.id}`,trades:[hub.name],searchText:`${product.searchText} ${normalizeToolSearch(hub.name)}`});
       }
     }
   }

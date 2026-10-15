@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/",
     "/how-we-choose/",
     "/privacy/",
+    "/apprentice-essentials/",
     ...hubs.map((h) => `/${h.slug}/tools/`),
     ...hubs.map((h) => `/${h.slug}/`),
     ...guides.map((g) => `/${g.trade}/${g.slug}/`),

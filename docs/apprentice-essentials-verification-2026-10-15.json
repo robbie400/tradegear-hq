@@ -1,0 +1,123 @@
+[
+  {
+    "productId": "klein-935rb",
+    "model": "935RB",
+    "asin": "B01MF9N8FE",
+    "amazonUrl": "https://www.amazon.com/dp/B01MF9N8FE",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Klein Tools 935RB Magnetic Billet Torpedo Level, 8-Inch | 0/30/45/90 Degree Vials, V-Groove, Tapered Nose, High-Visibility Vial and Body - Amazon.com",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "crescent-ac210vs",
+    "model": "AC210VS",
+    "asin": "B00002N5L1",
+    "amazonUrl": "https://www.amazon.com/dp/B00002N5L1",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Crescent 10\" Adjustable Wrench | Carded Hand Tool | AC210VS | Home Improvement and Garage Hand Tool, Great for Shower Head Installations and Tight Spacing - Amazon.com",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "dewalt-dpg94-1c",
+    "model": "DPG94-1C",
+    "asin": "B002IVTX8E",
+    "amazonUrl": "https://www.amazon.com/dp/B002IVTX8E",
+    "checkedAt": "2026-10-15",
+    "status": "model-mismatch",
+    "pageTitle": "Amazon.com: DEWALT DPG94-1D Dominator Z87+ Safety Glasses : Tools & Home Improvement",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "bucket-boss-50200",
+    "model": "50200",
+    "asin": "B00GK4TZ2E",
+    "amazonUrl": "https://www.amazon.com/dp/B00GK4TZ2E",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Bucket Boss 50200 Two Bag Tool Belt in Brown | Tool Belts, Tool Aprons, Contractor Tool Belts, Tool Pouches, Bucket Boss 50200 Builder's Tool Belt, 52 in Waist, Poly - Tool Belts - Amazon.com",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "pica-3030",
+    "model": "3030",
+    "asin": "B002X7Y90U",
+    "amazonUrl": "https://www.amazon.com/dp/B002X7Y90U",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Amazon.com: Pica-Dry Longlife Automatic Pencil 3030",
+    "httpStatus": 200,
+    "evidence": "Amazon product summary identifies 3030 and directly links to the same ASIN."
+  },
+  {
+    "productId": "klein-31430",
+    "model": "31430",
+    "asin": "B0F1Z2RS83",
+    "amazonUrl": "https://www.amazon.com/dp/B0F1Z2RS83",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Klein Tools 31430 High Tension Hacksaw with Heavy-Duty Frame and Jab Saw | Hacksaw Converts to Jab Saw, With 12-Inch x 24 TPI and 6-Inch x 24 TPI Bi-Metal Blades, In-Frame Storage for Extra Blades - Amazon.com",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "klein-d228-8",
+    "model": "D228-8",
+    "asin": "B0000302VW",
+    "amazonUrl": "https://www.amazon.com/dp/B0000302VW",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Klein Tools D228-8 Pliers, Diagonal Cutting Pliers with Short Jaw and Beveled Knives, High-Leverage Color-Coded Wire Cutters, 8-Inch 8-Inch Tool Set - Side Cutting Pliers - Amazon.com",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "klein-d203-8",
+    "model": "D203-8",
+    "asin": "B0000302WQ",
+    "amazonUrl": "https://www.amazon.com/dp/B0000302WQ",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Klein Tools D203-8 Long Nose Pliers, 8-Inch | Needle Nose Side Cutters with Extended Handles for Rach and Leverage - Needle Nose Pliers - Amazon.com",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "milwaukee-48-22-2502",
+    "model": "48-22-2502",
+    "asin": "B00KQQTLD0",
+    "amazonUrl": "https://www.amazon.com/dp/B00KQQTLD0",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Amazon.com: Milwaukee Electric Tool 48-22-2502 Magnet Driver Set (2 Piece) : Tools & Home Improvement",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "wiss-m3r",
+    "model": "M3R",
+    "asin": "B00002N5KQ",
+    "amazonUrl": "https://www.amazon.com/dp/B00002N5KQ",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Crescent Wiss 9-3/4\" Straight, Left, & Right Cut Aviation Snips | M3R - Nippers And Snips - Amazon.com",
+    "httpStatus": 200,
+    "evidence": "Model/package fields checked on the retrieved Amazon detail page."
+  },
+  {
+    "productId": "streamlight-66118",
+    "model": "66118",
+    "asin": "B07KLSG5JG",
+    "amazonUrl": "https://www.amazon.com/dp/B07KLSG5JG",
+    "checkedAt": "2026-10-15",
+    "status": "matched",
+    "pageTitle": "Amazon.com: Streamlight Stylus Pro Aluminum Pen Light, Super High-Flux LED, 2 AAA Alkaline, Matte Black (683-66118/66118)",
+    "httpStatus": 200,
+    "evidence": "Listing title 683-66118/66118 and UPC 080926661189 match manufacturer item 66118; generic Amazon part-number metadata is inconsistent."
+  }
+]
