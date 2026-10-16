@@ -19,8 +19,8 @@ export async function generateMetadata({
   return {
     title: r.title,
     description: r.meta,
-    openGraph: {title:r.title,description:r.meta,url:`/reviews/${slug}/`},
-    alternates: { canonical: `/reviews/${slug}/` },
+    openGraph: {title:r.title,description:r.meta,url:`/reviews/${slug}`},
+    alternates: { canonical: `/reviews/${slug}` },
   };
 }
 export default async function ReviewPage({
