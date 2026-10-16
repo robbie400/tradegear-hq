@@ -17,7 +17,7 @@ export async function generateMetadata({params}:{params:Promise<{trade:string}>}
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)return {};
   const title=`${titles[trade]}: Browse Reviews & Buying Advice`;
   const description=`Browse ${directory.products.length} reviewed and compared tools plus ${directory.essentials.length} apprentice essentials for ${directory.hub.name.toLowerCase()}. Search by tool, brand or model.`;
-  return {title,description,alternates:{canonical:`/${trade}/tools/`},openGraph:{title,description,url:`/${trade}/tools/`}};
+  return {title,description,alternates:{canonical:`/${trade}/tools`},openGraph:{title,description,url:`/${trade}/tools`}};
 }
 export default async function TradeTools({params}:{params:Promise<{trade:string}>}){
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)notFound();
