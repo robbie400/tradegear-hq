@@ -25,3 +25,9 @@ Owner authorized page work on 15 October 2026 after photo preparation. Developme
 HTTP checks cover the hub, directory, all 50 buying-note pages and all 50 photo assets. Desktop browser checks confirmed the hub, product photography, detail-page navigation, exact affiliate destination and live model search. Phone-width visual verification remains unconfirmed: the available browser has no viewport-resize API, and its URL policy rejected a data-URL test frame. Do not report a mobile browser pass. Responsive CSS remains in place.
 
 The automotive feature is excluded when `VERCEL_ENV=production`, so approval and an intentional release change are required before production publication.
+
+## 16 October owner-requested revision
+
+Product framing now uses measured content bounds to remove empty source margins in the layout while preserving the full tool and its aspect ratio. No tool photograph is stretched or generatively altered. The hero, cards and detail images share the correction.
+
+Eleven verified additions bring the preview to 61 products. Ten come from the original second batch. AL519 replaces unresolved LAUNCH CRP129E in the 100-product release plan. All 18 guides now have two or more products; the engine/emissions guide has four options and explains basic readers versus broader diagnostic upgrades. Comparison tables expose verified details and buying considerations without invented rankings. Milton S-506 and SUNEX 8019B remain held.

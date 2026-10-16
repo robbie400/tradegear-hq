@@ -47,7 +47,10 @@
       "ullman-devices-htc-2",
       "dewalt-dpg94-1d",
       "3m-peltor-x4a",
-      "maxxhaul-70472"
+      "maxxhaul-70472",
+      "gearwrench-85062m",
+      "gearwrench-84918n",
+      "gearwrench-9416"
     ]
   },
   {
@@ -72,7 +75,8 @@
       "streamlight-66118",
       "milwaukee-2125-20",
       "ullman-devices-ht-2",
-      "ullman-devices-htc-2"
+      "ullman-devices-htc-2",
+      "autel-al519"
     ]
   },
   {
@@ -95,7 +99,8 @@
       "streamlight-66118",
       "milwaukee-2125-20",
       "ullman-devices-ht-2",
-      "ullman-devices-htc-2"
+      "ullman-devices-htc-2",
+      "noco-gb70"
     ]
   },
   {
@@ -141,7 +146,11 @@
       "milton-s-921",
       "dewalt-dpg94-1d",
       "3m-peltor-x4a",
-      "maxxhaul-70472"
+      "maxxhaul-70472",
+      "gearwrench-85062m",
+      "gearwrench-84918n",
+      "dewalt-dcf891b",
+      "sunex-6602lp"
     ]
   },
   {
@@ -182,7 +191,12 @@
       "ullman-devices-htc-2",
       "dewalt-dpg94-1d",
       "3m-peltor-x4a",
-      "maxxhaul-70472"
+      "maxxhaul-70472",
+      "gearwrench-85062m",
+      "gearwrench-84918n",
+      "gearwrench-9416",
+      "lisle-28600",
+      "sunex-6602lp"
     ]
   },
   {
@@ -219,7 +233,12 @@
       "ullman-devices-htc-2",
       "dewalt-dpg94-1d",
       "3m-peltor-x4a",
-      "maxxhaul-70472"
+      "maxxhaul-70472",
+      "gearwrench-85062m",
+      "gearwrench-84918n",
+      "sunex-6602lp",
+      "mityvac-mv7201",
+      "lisle-63250"
     ]
   },
   {
@@ -257,7 +276,12 @@
       "gearwrench-83151",
       "dewalt-dpg94-1d",
       "3m-peltor-x4a",
-      "maxxhaul-70472"
+      "maxxhaul-70472",
+      "noco-gb70",
+      "dewalt-dcf891b",
+      "sunex-6602lp",
+      "mityvac-mv7201",
+      "sunex-8057xtr"
     ]
   }
 ]

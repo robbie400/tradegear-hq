@@ -1,3 +1,5 @@
+> **16 October preview update:** The current [release plan](comparison-expansion.json) contains 61 preview products and 39 reserved products, keeping the overall target at 100. All 18 buying guides now include at least two products; the code-reader guide has four. The 15 October research snapshots below are historical, not current preview counts. Production remains held.
+
 # Automotive Mechanics research — approval pack
 
 Revised 15 October 2026. **Research only: no website implementation or Toolkit Builder changes.**

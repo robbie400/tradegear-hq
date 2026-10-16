@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "scope": "Protected Vercel preview for owner review. Page work authorized 2026-10-15 after photo preparation. No production publication. Source-image permission remains unconfirmed and is not represented as licensed.",
-  "products": 50,
-  "exactAmazonDestinations": 50,
+  "products": 61,
+  "exactAmazonDestinations": 61,
   "substitutions": [
     {
       "id": "arcan-a20019",
@@ -118,7 +118,10 @@
     "W07 suspension, W08 cooling and W09 engine diagnostic workflows held for batch two"
   ],
   "imagePermissionCount": 0,
-  "imageQualityNote": "49 downloaded originals have a native long edge of at least 1000 px; Lisle 17922 manufacturer photo is 697×418. DEWALT DPG94-1D photo is 1500×762. No photo is labelled licensed.",
+  "imageQualityNote": "60 of the 61 original source photos have a native long edge of at least 1000 px. Lisle 17922 remains 697×418. CSS content bounds correct source whitespace without changing or stretching product pixels.",
   "publicationStatus": "preview-authorized-production-held",
-  "photoManifest": "TradeGear-HQ-Automotive-Photo-Pack/manifest.json"
+  "photoManifest": "TradeGear-HQ-Automotive-Photo-Pack/manifest.json",
+  "comparisonExpansion": "comparison-expansion.json",
+  "guideMinimumProducts": 2,
+  "engineEmissionsGuideProducts": 4
 }

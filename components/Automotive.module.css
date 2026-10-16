@@ -3,3 +3,5 @@
 .hero :global(.crumb),.hero :global(.crumb a){color:#b9cad7}.card a{overflow-wrap:anywhere}
 
 .breadcrumb,.breadcrumb a{color:#526572}.hero .breadcrumb,.hero .breadcrumb a{color:#b9cad7}
+
+.comparisonWrap{overflow-x:auto;border:1px solid #dce4e8;border-radius:16px;margin:30px 0;background:white}.comparison{width:100%;min-width:660px;border-collapse:collapse;font-size:14px;line-height:1.65}.comparison caption{text-align:left;padding:18px 20px;font-weight:800;background:#edf3f5}.comparison th,.comparison td{text-align:left;vertical-align:top;padding:17px 20px;border-top:1px solid #dce4e8}.comparison thead{background:#f7f9fa}.comparison th{width:24%}.comparison td{width:38%}.comparison small{display:block;color:#536572;font-weight:400;margin-top:5px}.comparison a{color:#17614e}.comparisonWrap:focus-visible{outline:3px solid #f28c28;outline-offset:3px}
