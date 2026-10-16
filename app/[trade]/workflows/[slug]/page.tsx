@@ -24,12 +24,12 @@ export async function generateMetadata({
   return {
     title: w.title.split(":")[0],
     description: w.meta,
-    openGraph: {title:w.title,description:w.meta,url:`/${trade}/workflows/${slug}/`},
+    openGraph: {title:w.title,description:w.meta,url:`/${trade}/workflows/${slug}`},
     robots:
       process.env.NEXT_PUBLIC_INDEX_SITE === "true"
         ? { index: true, follow: true }
         : { index: false, follow: false },
-    alternates: { canonical: `/${trade}/workflows/${slug}/` },
+    alternates: { canonical: `/${trade}/workflows/${slug}` },
   };
 }
 
