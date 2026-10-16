@@ -32,3 +32,23 @@ for(const feature of ['reviewHero','ProductRating','ProductFeedback','EditorialB
 assert.ok(fs.readFileSync('app/reviews/[slug]/page.tsx','utf8').includes('<FullProductReview'));
 assert.ok(fs.readFileSync('components/Automotive.tsx','utf8').includes('<FullProductReview'));
 console.log('Automotive reviews: 61 complete records, distinct analysis, shared template, sourced specs/feedback, exact affiliate destinations and comparison links passed.');
+
+const {automotiveProductSchema,serializeProductSchema}=require('../lib/automotive-product-schema.ts');
+for(const p of automotiveProducts){
+ const r=getAutomotiveReview(p),s=automotiveProductSchema(p,'https://tradegearhq.com');
+ assert.equal(s['@type'],'Product');assert.equal(s.model,p.model);assert.equal(s.brand.name,p.brand);
+ assert.equal(s.url,`https://tradegearhq.com/automotive-mechanics/products/${p.id}/`);
+ assert.equal(s.image[0],`https://tradegearhq.com${p.image.src}`);
+ assert.equal(s.review['@type'],'Review');assert.equal(s.review.author.name,'TradeGear HQ editorial desk');
+ assert.ok(s.review.reviewBody.includes(r.verdict)&&s.review.reviewBody.includes(r.sourceNote));
+ for(const [key,items] of [['positiveNotes',r.pros],['negativeNotes',r.cons]]){
+  assert.deepEqual(s.review[key].itemListElement.map(x=>x.name),items);
+  assert.deepEqual(s.review[key].itemListElement.map(x=>x.position),items.map((_,i)=>i+1));
+ }
+ assert.deepEqual(s.additionalProperty.map(x=>[x.name,x.value]),r.specs.map(x=>[x.label,x.value]));
+ const serialized=serializeProductSchema(s);assert.deepEqual(JSON.parse(serialized),s);
+ for(const forbidden of ['aggregateRating','reviewRating','offers','price','availability','ratingValue','reviewCount'])assert.ok(!serialized.includes(`"${forbidden}":`));
+}
+const unsafe=automotiveProductSchema(automotiveProducts[0],'https://tradegearhq.com');unsafe.description='</script><script>alert(1)</script>';
+assert.ok(!serializeProductSchema(unsafe).includes('</script>'));assert.equal(JSON.parse(serializeProductSchema(unsafe)).description,unsafe.description);
+console.log('Automotive schema: 61 exact products, editorial pros/cons, visible-source parity, no imported ratings/offers, and script-safe JSON passed.');
