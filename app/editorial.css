@@ -193,6 +193,6 @@ summary:focus-visible {
 @media(max-width:650px){.reviewHeroWithPhoto{grid-template-columns:1fr}.reviewHeroPhoto{max-width:440px;margin:8px auto 0}.reviewHeroPhoto .productPhotoCanvas{aspect-ratio:4/3}.reviewHeroWithPhoto h1{font-size:36px}.compareIdentity{gap:10px}.comparePhoto{width:56px;flex-basis:56px}.rankPanelWithPhoto{max-width:100%;padding:16px}.rankPanelWithPhoto .pickPhoto .productPhotoCanvas{aspect-ratio:4/3}.kitPhotoStrip{gap:10px}.kitPhotoStrip p{font-size:13px}.kitStripPhoto .productPhotoCanvas img{padding:10px}.workflowHero>.tradeHeroShade,.guideHero>.tradeHeroShade{background:linear-gradient(0deg,rgba(7,16,25,.94),rgba(7,16,25,.62) 70%,rgba(7,16,25,.3))}}
 
 /* Optional framing clips source whitespace without stretching the product. */
-.framedProductCanvas{container-type:size;background:white!important}
+.framedProductCanvas{width:100%;container-type:size;background:white!important}
 .productContentFrame{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);overflow:hidden}
 .productContentFrame img{max-width:none;position:absolute}
