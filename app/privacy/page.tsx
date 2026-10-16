@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy & Cookies", description: "How TradeGear HQ uses optional analytics cookies and affiliate links.",
-  alternates: { canonical: "/privacy/" },
+  alternates: { canonical: "/privacy" },
 };
 export default function PrivacyPage() {
   return <article className="shell" style={{maxWidth:800,paddingTop:48,paddingBottom:64}}>
