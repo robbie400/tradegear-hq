@@ -37,7 +37,5 @@
 
 .ratingStarsLink{display:inline-flex;align-items:center;text-decoration:none!important;border-radius:3px}.ratingStarsLink:hover{filter:brightness(1.12)}
 
-.ownerHeading{margin:38px 0 14px}.ownerHeading h2{margin:8px 0;font-size:clamp(24px,3vw,32px);color:#193449}.ownerHeading p{max-width:650px;color:#607385;font-size:14px;line-height:1.6}
-.automotiveCard{position:relative;overflow:hidden;border-color:#e9dfcf;border-left:4px solid #e79034;background:linear-gradient(120deg,#fff8ed,#fff 75%);padding:26px 28px;box-shadow:0 9px 26px rgba(63,44,20,.055)}
-.automotiveCard .heading{margin-bottom:18px}.automotiveCard .eyebrow{color:#8a5d28}.automotiveCard .pullQuote{border:0;padding:0;margin-bottom:14px;font-size:clamp(20px,2.3vw,27px);line-height:1.5;font-weight:600}.automotiveCard .avatar{background:#193449;box-shadow:0 0 0 4px #f5e8d5}.automotiveCard .ownerContext{margin:0 0 18px;font-size:14px;line-height:1.7;color:#536777}.automotiveCard .footer{border-color:#ece2d4}.automotiveCard .sourceLink{color:#607385;font-weight:600}
-@media(max-width:600px){.automotiveCard{padding:22px 17px}.automotiveCard .body{flex-direction:column;gap:18px}.automotiveCard .pullQuote{font-size:21px}.automotiveCard .footer{align-items:flex-start;flex-direction:column;gap:14px}}
+.automotiveCard{border-color:#e9dfcf;border-left:4px solid #e79034;background:linear-gradient(120deg,#fff8ed,#fff 75%);box-shadow:0 9px 26px rgba(63,44,20,.055)}
+.automotiveCard .eyebrow{color:#8a5d28}.automotiveCard .avatar{background:#193449;box-shadow:0 0 0 4px #f5e8d5}.automotiveCard .footer{border-color:#ece2d4}.automotiveCard .sourceLink{color:#607385;font-weight:600}

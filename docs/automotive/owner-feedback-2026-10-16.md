@@ -9,4 +9,4 @@ The SUNEX positive review is visibly labelled received-free-product; a second, c
 
 Arcan A20019 remains without a quote because rendered source pages exposed totals but no verifiable review body. No substitute-model review was used. NOCO GB70 uses exact-model eBay feedback because the Home Depot page exposed totals without review text. Customer aggregate ratings and editorial product schema are unchanged.
 
-The quote cards use the shared feedback component with automotive-only warm backgrounds, orange accents, larger quotation text, visible source attribution and contextual notes. Other trades retain their existing presentation. Prepared on a development branch for preview review before release.
+The quote cards use the shared feedback component with automotive-only warm backgrounds and orange accents, with the same card padding, quote typography, avatar layout and mobile spacing as the other trades. Source attribution stays visible and additional context sits in the existing feedback disclosure. Other trades retain their existing presentation. Prepared on a development branch for preview review before release.
