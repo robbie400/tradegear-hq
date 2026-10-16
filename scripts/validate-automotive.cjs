@@ -33,5 +33,7 @@ for(const p of products){const b=p.image.contentBounds;assert.ok(b&&b.width>0&&b
 for(const c of categories)for(const id of c.productIds)assert.ok(products.find(p=>p.id===id));
 for(const job of jobs)for(const slug of job.guideSlugs)assert.ok(categories.find(c=>c.slug===slug));
 const production=JSON.parse(execFileSync(process.execPath,['-e',`require('./scripts/catalog-runtime.cjs');const d=require('./lib/data.ts');const t=require('./lib/toolkit-catalogue.ts');console.log(JSON.stringify({hubs:d.hubs.length,automotive:d.guides.filter(g=>g.trade==='automotive-mechanics').length,products:t.getToolkitProducts().length}));`],{cwd:process.cwd(),env:{...process.env,VERCEL_ENV:'production'},encoding:'utf8'}));
-assert.deepEqual(production,{hubs:5,automotive:0,products:344});
-console.log('Automotive: 61 exact destinations/photos, 6 reused records, family/search lookups, grouped hand tools and production hold passed.');
+assert.deepEqual(production,{hubs:6,automotive:18,products:399});
+console.log('Automotive: 61 exact destinations/photos, 6 reused records, family/search lookups, grouped hand tools and approved production catalogue passed.');
+
+const route=fs.readFileSync('app/automotive-mechanics/products/[product]/page.tsx','utf8');assert.ok(route.includes("NEXT_PUBLIC_INDEX_SITE==='true'"));assert.ok(route.includes('{index:true,follow:true}'));

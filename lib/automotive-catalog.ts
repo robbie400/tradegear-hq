@@ -7,9 +7,9 @@ import type {Workflow} from './workflows';
 import type {ProductImage} from './product-images';
 
 export const automotiveTrade='automotive-mechanics';
-// Owner review and image-rights clearance are required before production publication.
-// The protected Vercel preview is for evaluation; it is not a licence assertion.
-export const automotiveEnabled=process.env.VERCEL_ENV!=='production';
+// Approved for production publication by the owner on October 16, 2026.
+// Image permission evidence remains recorded separately in each product record.
+export const automotiveEnabled=true;
 export const automotiveProducts=records;
 export type AutomotiveProduct=typeof records[number];
 export const automotiveCategories=categories;
