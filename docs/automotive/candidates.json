@@ -1,0 +1,4239 @@
+{
+  "metadata": {
+    "project": "TradeGear HQ",
+    "trade": "Automotive Mechanics",
+    "proposedTradeSlug": "automotive-mechanics",
+    "date": "2026-10-15",
+    "phase": "Revised 100-product proposal for approval; first 50 checked with explicit publication holds",
+    "targetProducts": 100,
+    "batches": [
+      {
+        "batch": 1,
+        "products": 50
+      },
+      {
+        "batch": 2,
+        "products": 50
+      }
+    ],
+    "existingRecordsToReuse": [
+      "klein-32500hd",
+      "knipex-8701250",
+      "stanley-33-725",
+      "dewalt-dpg94-1c",
+      "klein-d228-8",
+      "klein-d203-8",
+      "streamlight-66118"
+    ],
+    "newCanonicalCandidates": 93,
+    "scope": "Research only. No website implementation, design, counts, affiliate helper or Toolkit Builder changes.",
+    "verificationSummary": {
+      "firstBatchExactAmazonMatches": 43,
+      "firstBatchAmazonHolds": 7,
+      "firstBatchManufacturerDetailHolds": 3,
+      "imageReusePermissionsEstablished": 0,
+      "publicationReadyProducts": 0,
+      "newRatingSnapshotsForPublication": 0,
+      "approvedQuotes": 0
+    },
+    "categories": [
+      {
+        "category": "Diagnostics",
+        "total": 5,
+        "batch1": 3,
+        "batch2": 2
+      },
+      {
+        "category": "Electrical",
+        "total": 6,
+        "batch1": 4,
+        "batch2": 2
+      },
+      {
+        "category": "Torque",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Sockets",
+        "total": 4,
+        "batch1": 3,
+        "batch2": 1
+      },
+      {
+        "category": "Ratchets",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Wrenches",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Power tools",
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
+      },
+      {
+        "category": "Brake tools",
+        "total": 5,
+        "batch1": 3,
+        "batch2": 2
+      },
+      {
+        "category": "Suspension",
+        "total": 6,
+        "batch1": 0,
+        "batch2": 6
+      },
+      {
+        "category": "Lifting",
+        "total": 3,
+        "batch1": 2,
+        "batch2": 1
+      },
+      {
+        "category": "Fluids",
+        "total": 6,
+        "batch1": 2,
+        "batch2": 4
+      },
+      {
+        "category": "Oil filters",
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
+      },
+      {
+        "category": "Cooling",
+        "total": 5,
+        "batch1": 0,
+        "batch2": 5
+      },
+      {
+        "category": "Tyres and wheels",
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
+      },
+      {
+        "category": "Engine service",
+        "total": 6,
+        "batch1": 2,
+        "batch2": 4
+      },
+      {
+        "category": "Mechanical service and pullers",
+        "total": 1,
+        "batch1": 0,
+        "batch2": 1
+      },
+      {
+        "category": "Inspection",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Storage",
+        "total": 5,
+        "batch1": 1,
+        "batch2": 4
+      },
+      {
+        "category": "Workshop safety",
+        "total": 4,
+        "batch1": 3,
+        "batch2": 1
+      },
+      {
+        "category": "Apprentice hand tools",
+        "total": 13,
+        "batch1": 13,
+        "batch2": 0
+      }
+    ]
+  },
+  "products": [
+    {
+      "index": 4,
+      "category": "Diagnostics",
+      "brand": "Autel",
+      "model": "MK900-BT",
+      "name": "MaxiCOM MK900-BT wireless diagnostic tablet",
+      "familyId": "bidirectional-scanner",
+      "purpose": "Wireless all-system service-bay diagnosis",
+      "verificationGate": "Check US region software term CAN FD and DoIP coverage",
+      "sourceId": "R01",
+      "manufacturerSource": "https://store.autel.com/products/maxicom-mk900bt",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "autel-mk900-bt",
+      "batch": 1,
+      "asin": "B098PYB8XG",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B098PYB8XG",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C02"
+      ],
+      "workflowIds": [
+        "W02",
+        "W05",
+        "W09"
+      ],
+      "specifications": [
+        "8-inch Android 11 tablet",
+        "MaxiVCI V150 wireless vehicle interface",
+        "CAN FD and DoIP support",
+        "Manufacturer store states one year of updates"
+      ],
+      "limitations": "Confirm US activation, VIN-specific functions, secure-gateway fees and renewal terms for the selected seller; accessory support does not mean those accessories are included.",
+      "familyIds": [
+        "bidirectional-scanner"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 5,
+      "category": "Diagnostics",
+      "brand": "Innova",
+      "model": "5610",
+      "name": "5610 bidirectional OBD2 scanner",
+      "familyId": "bidirectional-scanner",
+      "purpose": "Handheld supported active tests and live data",
+      "verificationGate": "Check VIN-level functions and current adapter bundle",
+      "sourceId": "R02",
+      "manufacturerSource": "https://www.innova.com/products/carscan-pro-5610",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "innova-5610",
+      "batch": 1,
+      "asin": "B07Z481NJM",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B07Z481NJM",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C02"
+      ],
+      "workflowIds": [
+        "W02",
+        "W05",
+        "W09"
+      ],
+      "specifications": [
+        "Handheld OBD2 and supported OEM-system diagnostics",
+        "Supported bidirectional active tests",
+        "OBD2 and OEM live-data streams",
+        "Manufacturer states free updates and no subscriptions"
+      ],
+      "limitations": "Use the manufacturer coverage checker for the exact year, make, model and function; the advertised reset list is not universal vehicle coverage.",
+      "familyIds": [
+        "bidirectional-scanner"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 6,
+      "category": "Diagnostics",
+      "brand": "FOXWELL",
+      "model": "NT301",
+      "name": "NT301 OBDII/EOBD code reader",
+      "familyId": "obd2-code-reader",
+      "purpose": "Basic emissions and engine-code investigations",
+      "verificationGate": "Not ABS SRS coding or all-system coverage",
+      "sourceId": "R03",
+      "manufacturerSource": "https://www.foxwelltech.us/product-detail-797.html",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "foxwell-nt301",
+      "batch": 1,
+      "asin": "B00UJV3E12",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B00UJV3E12",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C01"
+      ],
+      "workflowIds": [
+        "W02",
+        "W09"
+      ],
+      "specifications": [
+        "2.8-inch TFT colour display",
+        "Engine/emissions OBDII/EOBD code reading and clearing",
+        "I/M readiness shortcut keys"
+      ],
+      "limitations": "An engine/emissions reader, not an all-system ABS/SRS or bidirectional tablet. Do not use the earlier search-page JSON extraction: it invented package and diesel/hybrid exclusions.",
+      "familyIds": [
+        "obd2-code-reader"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 8,
+      "category": "Electrical",
+      "brand": "Fluke",
+      "model": "88V/A Kit",
+      "name": "88V/A automotive multimeter combo kit",
+      "familyId": "automotive-multimeter",
+      "purpose": "Electrical diagnosis with automotive-oriented accessories",
+      "verificationGate": "Kit identity distinct from meter-only 88V; no blanket EV high-voltage recommendation",
+      "sourceId": "R04",
+      "manufacturerSource": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "fluke-88v-a-kit",
+      "batch": 1,
+      "asin": "",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "amazonListing": "",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C03"
+      ],
+      "workflowIds": [
+        "W02",
+        "W03",
+        "W09",
+        "W10"
+      ],
+      "specifications": [
+        "Maximum AC/DC voltage 1000 V",
+        "CAT III 1000 V / CAT IV 600 V manufacturer rating",
+        "Manufacturer kit part 2117440",
+        "Manufacturer lists test leads, probes, clips, RPM pickup, temperature probe, magnetic hanger and case"
+      ],
+      "limitations": "Amazon identifies FLUKE-88-5/A KIT but part 892583; reconcile that package identifier with current manufacturer part 2117440 before publishing. Ratings do not establish suitability for EV high-voltage work.",
+      "familyIds": [
+        "automotive-multimeter"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 9,
+      "category": "Electrical",
+      "brand": "Power Probe",
+      "model": "PP3LS01",
+      "name": "Power Probe III circuit tester and lead kit",
+      "familyId": "powered-circuit-tester",
+      "purpose": "Power ground and circuit diagnosis on suitable vehicle circuits",
+      "verificationGate": "Power injection can damage modules; circuit limits and training matter",
+      "sourceId": "S005",
+      "manufacturerSource": "https://store.powerprobe.com/products/power-probe-pp3ls01-circuit-tester-with-test-leads",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "power-probe-pp3ls01",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C03"
+      ],
+      "workflowIds": [
+        "W02",
+        "W03",
+        "W09",
+        "W10"
+      ],
+      "familyIds": [
+        "powered-circuit-tester"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 10,
+      "category": "Electrical",
+      "brand": "Clore Automotive",
+      "model": "BA9",
+      "name": "SOLAR BA9 battery and system tester",
+      "familyId": "battery-tester",
+      "purpose": "Starting-battery and charging-system assessment",
+      "verificationGate": "Check battery chemistry rating and supported voltage",
+      "sourceId": "R05",
+      "manufacturerSource": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "clore-automotive-ba9",
+      "batch": 1,
+      "asin": "B00IZFNJ6Y",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B00IZFNJ6Y",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C03"
+      ],
+      "workflowIds": [
+        "W02",
+        "W03",
+        "W09",
+        "W10"
+      ],
+      "specifications": [
+        "12 V starting-battery tester",
+        "40–1200 CCA test range",
+        "7–15 V operating range",
+        "Flooded, flat/spiral AGM and gel starting batteries"
+      ],
+      "limitations": "Requires a starting-battery rating such as CCA/CA; not a general lithium or high-voltage traction-battery tester.",
+      "familyIds": [
+        "battery-tester"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 11,
+      "category": "Electrical",
+      "brand": "NOCO",
+      "model": "GB40",
+      "name": "Boost GB40 portable jump starter",
+      "familyId": "jump-starter",
+      "purpose": "Portable starting support for supported 12V applications",
+      "verificationGate": "Engine-size and temperature claims conditional; not a charger",
+      "sourceId": "R06",
+      "manufacturerSource": "https://no.co/gb40",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "noco-gb40",
+      "batch": 1,
+      "asin": "B015TKUPIC",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B015TKUPIC",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C04"
+      ],
+      "workflowIds": [
+        "W03",
+        "W10"
+      ],
+      "specifications": [
+        "12 V jump starter",
+        "1000 A manufacturer starting-current claim",
+        "Manufacturer applications up to 6.0 L petrol / 3.0 L diesel",
+        "Integrated light and USB power functions"
+      ],
+      "limitations": "Match battery type and engine application. Current manufacturer imagery shows USB-C input; verify supplied revision before illustrating ports from older listing photos.",
+      "familyIds": [
+        "jump-starter"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 12,
+      "category": "Electrical",
+      "brand": "NOCO",
+      "model": "GB70",
+      "name": "Boost lithium jump starter",
+      "familyId": "jump-starter",
+      "purpose": "Higher-output starting support for suitable vehicles",
+      "verificationGate": "Not interchangeable with GB40 or GBX models",
+      "sourceId": "S037",
+      "manufacturerSource": "https://ws-noco.no.co/support/boost-jump-starters/boost/gb40",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "noco-gb70",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C04"
+      ],
+      "workflowIds": [
+        "W03",
+        "W10"
+      ],
+      "familyIds": [
+        "jump-starter"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 13,
+      "category": "Electrical",
+      "brand": "NOCO",
+      "model": "GENIUS5",
+      "name": "GENIUS5 smart charger and maintainer",
+      "familyId": "battery-charger",
+      "purpose": "Charging and maintaining compatible batteries",
+      "verificationGate": "US AC package battery chemistry and mode restrictions",
+      "sourceId": "R07",
+      "manufacturerSource": "https://no.co/genius5",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "noco-genius5",
+      "batch": 1,
+      "asin": "B07W8KJH44",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B07W8KJH44",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C04"
+      ],
+      "workflowIds": [
+        "W03",
+        "W10"
+      ],
+      "specifications": [
+        "5 A charger",
+        "6 V / 12 V lead-acid modes",
+        "12 V lithium charging mode for compatible batteries",
+        "Maintenance and temperature-compensated charging"
+      ],
+      "limitations": "Select the mode for the actual battery chemistry; a charger is not a jump starter. Confirm US mains version and connector bundle.",
+      "familyIds": [
+        "battery-charger"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 15,
+      "category": "Torque",
+      "brand": "TEKTON",
+      "model": "TRQ50402",
+      "name": "TRQ50402 1/4-inch torque wrench with case",
+      "familyId": "low-range-torque-wrench",
+      "purpose": "Lower-torque clockwise and counterclockwise work",
+      "verificationGate": "10–150 in-lb; verify directional calibration",
+      "sourceId": "R08",
+      "manufacturerSource": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq50402",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "tekton-trq50402",
+      "batch": 1,
+      "asin": "B0FYHGKDP9",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0FYHGKDP9",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C05"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "replacesModel": "TRQ21101",
+      "proposalReason": "Original marked No Longer Available by manufacturer; replacement requires approval.",
+      "specifications": [
+        "1/4-inch square drive",
+        "20–200 in-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ],
+      "limitations": "Replaces discontinued TRQ21101 (10–150 in-lb); does not cover the old 10–19 in-lb range. Use a different calibrated range when a fastener requires it.",
+      "familyIds": [
+        "low-range-torque-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 17,
+      "category": "Torque",
+      "brand": "TEKTON",
+      "model": "TRQ52403",
+      "name": "TRQ52403 1/2-inch torque wrench with case",
+      "familyId": "wheel-service-torque-wrench",
+      "purpose": "Higher-range specified fastening",
+      "verificationGate": "25–250 ft-lb; check calibration working range",
+      "sourceId": "R09",
+      "manufacturerSource": "https://www.tekton.com/1-2-inch-drive-dual-direction-micrometer-torque-wrench-trq52403",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "tekton-trq52403",
+      "batch": 1,
+      "asin": "B0FYHC3J73",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0FYHC3J73",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C05"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "replacesModel": "24340",
+      "proposalReason": "Original marked No Longer Available by manufacturer; replacement requires approval.",
+      "specifications": [
+        "1/2-inch square drive",
+        "40–300 ft-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ],
+      "limitations": "Replaces discontinued 24340 (25–250 ft-lb); does not cover 25–39 ft-lb. Final tightening follows the vehicle specification, not impact-wrench settings.",
+      "familyIds": [
+        "wheel-service-torque-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 18,
+      "category": "Torque",
+      "brand": "GEARWRENCH",
+      "model": "85062M",
+      "name": "3/8-inch micrometer torque wrench",
+      "familyId": "mid-range-torque-wrench",
+      "purpose": "Intermediate service fasteners",
+      "verificationGate": "10–100 ft-lb; M suffix and direction matter",
+      "sourceId": "S074",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/torque-products/torque-wrenches/85062m-38-drive-micrometer-torque-wrench-10-100-ftlbs",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-85062m",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C05"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "familyIds": [
+        "mid-range-torque-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 19,
+      "category": "Torque",
+      "brand": "GEARWRENCH",
+      "model": "85077",
+      "name": "1/2-inch electronic torque wrench",
+      "familyId": "electronic-torque-wrench",
+      "purpose": "Electronic indication for supported torque settings",
+      "verificationGate": "Do not claim torque-angle capability without documentation",
+      "sourceId": "S079",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/torque-products/torque-wrenches/85077-12-drive-electronic-torque-wrench-25-250-ftlbs",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-85077",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C05"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "familyIds": [
+        "electronic-torque-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 20,
+      "category": "Sockets",
+      "brand": "GEARWRENCH",
+      "model": "80300P",
+      "name": "80300P 51-piece 1/4-inch mechanic socket set",
+      "familyId": "quarter-drive-socket-set",
+      "purpose": "Small fasteners and confined access",
+      "verificationGate": "Verify 51-piece 6-point SAE/metric kit contents",
+      "sourceId": "R10",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80300p-51-piece-14-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "gearwrench-80300p",
+      "batch": 1,
+      "asin": "B009PJPGR4",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B009PJPGR4",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C06"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "specifications": [
+        "51 pieces",
+        "1/4-inch hand drive",
+        "120XP ratchet with 3-degree swing",
+        "Standard and deep SAE/metric sockets",
+        "Blow-moulded case"
+      ],
+      "limitations": "Corrected source to 80300P; the old tracker linked to 80550P. Chrome hand-drive sockets must not be assumed impact-rated.",
+      "familyIds": [
+        "quarter-drive-socket-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 23,
+      "category": "Sockets",
+      "brand": "GEARWRENCH",
+      "model": "84918N",
+      "name": "3/8-inch universal metric impact socket set",
+      "familyId": "universal-impact-socket-set",
+      "purpose": "Impact-rated access around obstructions",
+      "verificationGate": "15-piece N variant joint angle and size coverage",
+      "sourceId": "S129",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/ratchets-sockets/impact-products/84918n-15-piece-38-drive-6-point-standard-universal-impact-metric-socket-set",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-84918n",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C06"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "familyIds": [
+        "universal-impact-socket-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 24,
+      "category": "Sockets",
+      "brand": "SUNEX",
+      "model": "2569",
+      "name": "2569 43-piece 1/2-inch metric impact socket set",
+      "familyId": "half-drive-impact-socket-set",
+      "purpose": "Shallow and deep metric impact service",
+      "verificationGate": "43-piece kit and no-skip coverage must be checked",
+      "sourceId": "R11",
+      "manufacturerSource": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "sunex-2569",
+      "batch": 1,
+      "asin": "B00MPQ88RY",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B00MPQ88RY",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C06"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "specifications": [
+        "43 pieces",
+        "1/2-inch impact drive",
+        "Standard and deep six-point sockets",
+        "Sizes 9–24, 26, 27 and 30 mm",
+        "Includes universal joint, extensions and case"
+      ],
+      "limitations": "There are size skips: 25, 28 and 29 mm are not included. Match socket size, clearance and impact tool.",
+      "familyIds": [
+        "half-drive-impact-socket-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 26,
+      "category": "Sockets",
+      "brand": "TEKTON",
+      "model": "SKT15311",
+      "name": "SKT15311 73-piece 3/8-inch socket and ratchet set",
+      "familyId": "three-eighths-socket-set",
+      "purpose": "Broad hand-drive SAE/metric coverage",
+      "verificationGate": "73-piece configuration; verify current contents",
+      "sourceId": "R12",
+      "manufacturerSource": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "tekton-skt15311",
+      "batch": 1,
+      "asin": "B07TBH736Z",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B07TBH736Z",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C06"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "specifications": [
+        "73 pieces",
+        "3/8-inch hand drive",
+        "Six-point shallow and deep sockets",
+        "SAE 1/4–1 inch and metric 6–24 mm",
+        "Includes ratchet, accessories and case"
+      ],
+      "limitations": "Count owned tools first: kit accessories overlap separate extensions. These chrome sockets are not a substitute for the impact set.",
+      "familyIds": [
+        "three-eighths-socket-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 27,
+      "category": "Ratchets",
+      "brand": "GEARWRENCH",
+      "model": "81206T",
+      "name": "Three-piece 90-tooth ratchet set",
+      "familyId": "hand-ratchet",
+      "purpose": "Core quarter three-eighths and half-drive coverage",
+      "verificationGate": "T series distinct from P and XP sets",
+      "sourceId": "S148",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81206t-3-piece-14-38-12-drive-90-tooth-teardrop-ratchet-set",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-81206t",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ],
+      "familyIds": [
+        "hand-ratchet"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 29,
+      "category": "Ratchets",
+      "brand": "GEARWRENCH",
+      "model": "81212XP",
+      "name": "3/8-inch stubby flex-head 120XP ratchet",
+      "familyId": "stubby-flex-ratchet",
+      "purpose": "Confined hand-driven fastening",
+      "verificationGate": "XP generation distinct from older P model",
+      "sourceId": "S150",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81212xp-38-drive-120xptm-full-polish-chrome-stubby-flex-head-teardrop-ratchet-4-34",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-81212xp",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ],
+      "familyIds": [
+        "stubby-flex-ratchet"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 30,
+      "category": "Ratchets",
+      "brand": "TEKTON",
+      "model": "SBH00224",
+      "name": "SBH00224 24-inch breaker bar",
+      "familyId": "breaker-bar",
+      "purpose": "Controlled manual loosening",
+      "verificationGate": "Check load and clearance; no improvised extensions",
+      "sourceId": "R13",
+      "manufacturerSource": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "tekton-sbh00224",
+      "batch": 1,
+      "asin": "B07GH97P36",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B07GH97P36",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ],
+      "specifications": [
+        "1/2-inch square drive",
+        "24-inch overall length",
+        "230-degree pivoting head",
+        "External-head design with serviceable components"
+      ],
+      "limitations": "Manual loosening and controlled leverage; not a calibrated torque wrench or an impact-drive accessory.",
+      "familyIds": [
+        "breaker-bar"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 31,
+      "category": "Ratchets",
+      "brand": "TEKTON",
+      "model": "SHA91011",
+      "name": "SHA91011 four-piece 3/8-inch extension set",
+      "familyId": "socket-extension",
+      "purpose": "Reaching recessed fasteners",
+      "verificationGate": "Three hand-drive extensions; not impact-rated by assumption",
+      "sourceId": "R14",
+      "manufacturerSource": "https://www.tekton.com/3-8-inch-drive-4-piece-extension-set-sha91011",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "tekton-sha91011",
+      "batch": 1,
+      "asin": "B0B1N9RZNZ",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0B1N9RZNZ",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ],
+      "replacesModel": "SHA91005",
+      "proposalReason": "Original marked No Longer Available by manufacturer; replacement requires approval.",
+      "specifications": [
+        "3/8-inch hand drive",
+        "Lengths 1, 3, 6 and 10 inches",
+        "Knurled grip bands",
+        "Four detent grooves at drive engagement"
+      ],
+      "limitations": "Replaces discontinued three-piece SHA91005. Optional purchase if the socket kit already supplies the required reach; not advertised here as impact-rated.",
+      "familyIds": [
+        "socket-extension"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 32,
+      "category": "Wrenches",
+      "brand": "GEARWRENCH",
+      "model": "9416",
+      "name": "Metric ratcheting combination wrench set",
+      "familyId": "metric-ratcheting-wrench-set",
+      "purpose": "Metric hand fastening in restricted swing space",
+      "verificationGate": "16-piece set; compare actual sizes and head profile",
+      "sourceId": "S177",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/9416-16-piece-72-tooth-12-point-ratcheting-combination-metric-wrench-set",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-9416",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C08"
+      ],
+      "workflowIds": [
+        "W01",
+        "W05"
+      ],
+      "familyIds": [
+        "metric-ratcheting-wrench-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 33,
+      "category": "Wrenches",
+      "brand": "GEARWRENCH",
+      "model": "9533N",
+      "name": "SAE reversible ratcheting wrench set",
+      "familyId": "sae-ratcheting-wrench-set",
+      "purpose": "SAE work requiring reversible ratcheting heads",
+      "verificationGate": "Eight-piece N set not metric",
+      "sourceId": "S745",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/9533n-8-piece-72-tooth-12-point-reversible-ratcheting-combination-sae-wrench-set",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-9533n",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C08"
+      ],
+      "workflowIds": [
+        "W01",
+        "W05"
+      ],
+      "familyIds": [
+        "sae-ratcheting-wrench-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 34,
+      "category": "Wrenches",
+      "brand": "GEARWRENCH",
+      "model": "81916",
+      "name": "81916 22-piece metric combination wrench set",
+      "familyId": "metric-combination-wrench-set",
+      "purpose": "Broad metric coverage and manual reach",
+      "verificationGate": "22-piece tool-roll variant",
+      "sourceId": "R15",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "gearwrench-81916",
+      "batch": 1,
+      "asin": "B003L1ZZVY",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B003L1ZZVY",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C08"
+      ],
+      "workflowIds": [
+        "W01",
+        "W05"
+      ],
+      "specifications": [
+        "22 long-pattern wrenches",
+        "12-point box ends",
+        "15-degree box-end offset",
+        "Sizes 6–24, 27, 30 and 32 mm",
+        "Tool roll"
+      ],
+      "limitations": "Not a contiguous 6–32 mm set: 25, 26, 28, 29 and 31 mm are absent.",
+      "familyIds": [
+        "metric-combination-wrench-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 35,
+      "category": "Wrenches",
+      "brand": "GEARWRENCH",
+      "model": "81906",
+      "name": "81906 six-piece metric flare-nut wrench set",
+      "familyId": "flare-nut-wrench-set",
+      "purpose": "Suitable hex tube fittings and brake-line access",
+      "verificationGate": "Six-piece set; sizes and access must match fittings",
+      "sourceId": "R16",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "gearwrench-81906",
+      "batch": 1,
+      "asin": "",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "amazonListing": "",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C08"
+      ],
+      "workflowIds": [
+        "W01",
+        "W05"
+      ],
+      "specifications": [
+        "Six double-ended wrenches",
+        "Pairs 9×11, 10×12, 13×14, 15×17, 16×18 and 19×21 mm",
+        "For access around line fittings"
+      ],
+      "limitations": "Listing model is 81906 but manufacturer-part metadata says Drake Off Road Tools. Resolve that provenance conflict; do not silently equate it to a fully verified GEARWRENCH offer.",
+      "familyIds": [
+        "flare-nut-wrench-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 38,
+      "category": "Power tools",
+      "brand": "Milwaukee",
+      "model": "2962-20",
+      "name": "2962-20 M18 FUEL 1/2-inch mid-torque impact wrench",
+      "familyId": "mid-torque-impact-wrench",
+      "purpose": "General service where access and output balance",
+      "verificationGate": "Friction-ring bare tool; final wheel tightening requires specified torque",
+      "sourceId": "R17",
+      "manufacturerSource": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "milwaukee-2962-20",
+      "batch": 1,
+      "asin": "B08VN7CSTJ",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B08VN7CSTJ",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C09"
+      ],
+      "workflowIds": [
+        "W04",
+        "W07",
+        "W10"
+      ],
+      "specifications": [
+        "1/2-inch friction-ring anvil",
+        "M18 battery platform",
+        "Manufacturer claims up to 650 ft-lb breakaway torque",
+        "Four operating modes",
+        "Bare-tool configuration"
+      ],
+      "limitations": "Battery and charger are separate. Breakaway torque is a manufacturer claim, not a tightening specification. Listing has an inconsistent vendor part code; title/model/brand agree.",
+      "familyIds": [
+        "mid-torque-impact-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 39,
+      "category": "Power tools",
+      "brand": "Milwaukee",
+      "model": "2562-20",
+      "name": "M12 FUEL 3/8-inch stubby impact wrench",
+      "familyId": "compact-impact-wrench",
+      "purpose": "Compact access with compatible M12 batteries",
+      "verificationGate": "Newer generation; not 2554-20 or half-inch 2563-20",
+      "sourceId": "S162",
+      "manufacturerSource": "https://www.milwaukeetool.com/2562-20",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "milwaukee-2562-20",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C09"
+      ],
+      "workflowIds": [
+        "W04",
+        "W07",
+        "W10"
+      ],
+      "familyIds": [
+        "compact-impact-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 40,
+      "category": "Power tools",
+      "brand": "Milwaukee",
+      "model": "2567-20",
+      "name": "2567-20 M12 FUEL 3/8-inch high-speed ratchet",
+      "familyId": "cordless-ratchet",
+      "purpose": "Running accessible fasteners in suitable spaces",
+      "verificationGate": "Powered ratchet is not an impact wrench; bare tool",
+      "sourceId": "R18",
+      "manufacturerSource": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+      "manufacturerStatus": "specification-conflict-or-detail-hold",
+      "reuseCandidates": [],
+      "productId": "milwaukee-2567-20",
+      "batch": 1,
+      "asin": "B09XWVC7C9",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B09XWVC7C9",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C09"
+      ],
+      "workflowIds": [
+        "W04",
+        "W07",
+        "W10"
+      ],
+      "specifications": [
+        "3/8-inch anvil",
+        "M12 battery platform",
+        "0–450 rpm",
+        "Bare-tool configuration"
+      ],
+      "limitations": "Manufacturer page conflicts: comparison table says 37 ft-lb, feature text says 35 ft-lb. Omit a definitive maximum torque pending resolution; battery and charger separate.",
+      "familyIds": [
+        "cordless-ratchet"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 41,
+      "category": "Power tools",
+      "brand": "DEWALT",
+      "model": "DCF891B",
+      "name": "20V MAX XR 1/2-inch mid-range impact wrench",
+      "familyId": "mid-torque-impact-wrench",
+      "purpose": "Mid-range work on an existing DEWALT platform",
+      "verificationGate": "US B bare tool hog-ring variant",
+      "sourceId": "S157",
+      "manufacturerSource": "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-12-mid-range-impact-wrench-hog-ring-anvil-tool-only",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "dewalt-dcf891b",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C09"
+      ],
+      "workflowIds": [
+        "W04",
+        "W07",
+        "W10"
+      ],
+      "familyIds": [
+        "mid-torque-impact-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 42,
+      "category": "Power tools",
+      "brand": "DEWALT",
+      "model": "DCF900B",
+      "name": "20V MAX XR 1/2-inch high-torque impact wrench",
+      "familyId": "high-torque-impact-wrench",
+      "purpose": "Higher-demand compatible fastening and removal",
+      "verificationGate": "US B bare tool; compare loaded weight and access",
+      "sourceId": "S161",
+      "manufacturerSource": "https://www.dewalt.com/en-us/product/dcf900b/20v-max-xr-12-high-torque-impact-wrench-hog-ring-anvil-tool-only",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "dewalt-dcf900b",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C09"
+      ],
+      "workflowIds": [
+        "W04",
+        "W07",
+        "W10"
+      ],
+      "familyIds": [
+        "high-torque-impact-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 43,
+      "category": "Brake tools",
+      "brand": "Lisle",
+      "model": "25750",
+      "name": "25750 dual-piston brake caliper compressor",
+      "familyId": "caliper-compressor",
+      "purpose": "Supported push-back caliper piston retraction",
+      "verificationGate": "Not a universal wind-back tool or EPB release tool",
+      "sourceId": "R19",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/brakes/dual-piston-brake-caliper-compressor",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "lisle-25750",
+      "batch": 1,
+      "asin": "B0002SQUTU",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0002SQUTU",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C10"
+      ],
+      "workflowIds": [
+        "W05"
+      ],
+      "specifications": [
+        "Compresses two push-back pistons together",
+        "Hand-operated squeeze mechanism",
+        "Uses the inboard pad to distribute load"
+      ],
+      "limitations": "Not a universal rear-caliper wind-back or EPB tool. Follow the vehicle retraction and reservoir procedure.",
+      "familyIds": [
+        "caliper-compressor"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 45,
+      "category": "Brake tools",
+      "brand": "Lisle",
+      "model": "81850",
+      "name": "81850 combination brake-lining thickness gauge set",
+      "familyId": "brake-lining-gauge",
+      "purpose": "Screening accessible pad thickness",
+      "verificationGate": "Does not replace vehicle service limits or rotor measurement",
+      "sourceId": "R20",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/brakes/combination-brake-lining-thickness-gauge-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "lisle-81850",
+      "batch": 1,
+      "asin": "B00OJG327E",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B00OJG327E",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C10"
+      ],
+      "workflowIds": [
+        "W05"
+      ],
+      "specifications": [
+        "Nine acetal gauges",
+        "Straight and offset access",
+        "Thicknesses 2, 2, 3, 4, 5, 6, 8, 10 and 12 mm",
+        "Two 2 mm access profiles"
+      ],
+      "limitations": "Colour bands are screening aids; replacement decisions use vehicle limits and a proper inspection, not colour alone.",
+      "familyIds": [
+        "brake-lining-gauge"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 46,
+      "category": "Brake tools",
+      "brand": "Lisle",
+      "model": "28600",
+      "name": "Disc brake piston tool",
+      "familyId": "caliper-wind-back-tool",
+      "purpose": "Supported screw-in rear caliper pistons",
+      "verificationGate": "Verify piston slots and rotation; EPB service procedure separate",
+      "sourceId": "S212",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/brakes?page=4&recordsPerPage=12&sortBy=featured&view=thumbnails",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "lisle-28600",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C10"
+      ],
+      "workflowIds": [
+        "W05"
+      ],
+      "familyIds": [
+        "caliper-wind-back-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 47,
+      "category": "Brake tools",
+      "brand": "Mityvac",
+      "model": "MV6840",
+      "name": "MV6840 pressure brake and clutch bleeding system",
+      "familyId": "pressure-brake-bleeder",
+      "purpose": "Pressure bleeding with matched reservoir adapters",
+      "verificationGate": "Vehicle pressure limit and adapter seal; ABS procedures may need scan tool",
+      "sourceId": "R21",
+      "manufacturerSource": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "mityvac-mv6840",
+      "batch": 1,
+      "asin": "B005MVBFM4",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B005MVBFM4",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C10"
+      ],
+      "workflowIds": [
+        "W05"
+      ],
+      "specifications": [
+        "Manual-pump pressure dispenser",
+        "1.2 US gallon / 5 L capacity",
+        "Seven master-cylinder adapters in MVA6850 kit",
+        "Pressure gauge and manual relief valve"
+      ],
+      "limitations": "Match the adapter, brake fluid and vehicle pressure limit. A generic pressure bleeder does not replace a required ABS scan-tool bleeding procedure.",
+      "familyIds": [
+        "pressure-brake-bleeder"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 48,
+      "category": "Brake tools",
+      "brand": "Mityvac",
+      "model": "MV6830",
+      "name": "Pneumatic vacuum brake bleeder",
+      "familyId": "vacuum-brake-bleeder",
+      "purpose": "Shop-air assisted fluid removal and bleeding",
+      "verificationGate": "Air supply required; apparent bubbles may arise at bleeder threads",
+      "sourceId": "S233",
+      "manufacturerSource": "https://cdn.skfmediahub.skf.com/api/public/0901d1968095c3aa/pdf_preview_medium/0901d1968095c3aa_pdf_preview_medium.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "mityvac-mv6830",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C10"
+      ],
+      "workflowIds": [
+        "W05"
+      ],
+      "familyIds": [
+        "vacuum-brake-bleeder"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 49,
+      "category": "Suspension",
+      "brand": "OTC",
+      "model": "7249",
+      "name": "Ball joint service kit",
+      "familyId": "ball-joint-press",
+      "purpose": "Pressing supported ball joints with matching adapters",
+      "verificationGate": "Press and adapter compatibility; not a coil-spring compressor",
+      "sourceId": "S214",
+      "manufacturerSource": "https://www.otctools.com/sites/default/files/17-08_q2_2017_otc_muscle_tools_3_13.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-7249",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C11"
+      ],
+      "workflowIds": [
+        "W07"
+      ],
+      "familyIds": [
+        "ball-joint-press"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 50,
+      "category": "Suspension",
+      "brand": "OTC",
+      "model": "6295",
+      "name": "Front-end service set",
+      "familyId": "front-end-separator-set",
+      "purpose": "Separating suitable steering linkage connections",
+      "verificationGate": "Check puller size and joint application",
+      "sourceId": "S213",
+      "manufacturerSource": "https://otctools.com/products/front-end-service-set",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-6295",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C11"
+      ],
+      "workflowIds": [
+        "W07"
+      ],
+      "familyIds": [
+        "front-end-separator-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 51,
+      "category": "Suspension",
+      "brand": "OTC",
+      "model": "6297",
+      "name": "Ball joint separator",
+      "familyId": "ball-joint-separator",
+      "purpose": "Separating supported tapered ball joints",
+      "verificationGate": "Jaw opening and clearance; protect threads and boots",
+      "sourceId": "S214",
+      "manufacturerSource": "https://www.otctools.com/sites/default/files/17-08_q2_2017_otc_muscle_tools_3_13.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-6297",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C11"
+      ],
+      "workflowIds": [
+        "W07"
+      ],
+      "familyIds": [
+        "ball-joint-separator"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 52,
+      "category": "Suspension",
+      "brand": "OTC",
+      "model": "6575",
+      "name": "Hub Grappler kit",
+      "familyId": "wheel-hub-bearing-tool",
+      "purpose": "Supported hub and bearing service",
+      "verificationGate": "Vehicle/application chart and supplied adapters must match",
+      "sourceId": "S214",
+      "manufacturerSource": "https://www.otctools.com/sites/default/files/17-08_q2_2017_otc_muscle_tools_3_13.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-6575",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C11"
+      ],
+      "workflowIds": [
+        "W07"
+      ],
+      "familyIds": [
+        "wheel-hub-bearing-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 53,
+      "category": "Suspension",
+      "brand": "OTC",
+      "model": "4579",
+      "name": "Nine-way slide hammer puller set",
+      "familyId": "slide-hammer-puller",
+      "purpose": "Supported pulling operations using suitable attachments",
+      "verificationGate": "Not every hub or axle supports this method",
+      "sourceId": "S226",
+      "manufacturerSource": "https://otctools.com/products/popular.php?page=1",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-4579",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C11"
+      ],
+      "workflowIds": [
+        "W07"
+      ],
+      "familyIds": [
+        "slide-hammer-puller"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 54,
+      "category": "Suspension",
+      "brand": "OTC",
+      "model": "6007",
+      "name": "Lower control arm prying tool",
+      "familyId": "control-arm-tool",
+      "purpose": "Assisting supported control-arm positioning",
+      "verificationGate": "Requires specified pry-bar interface; manage stored forces",
+      "sourceId": "S244",
+      "manufacturerSource": "https://otctools.com/products/lower-control-arm-prying-tool",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-6007",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C11"
+      ],
+      "workflowIds": [
+        "W07"
+      ],
+      "familyIds": [
+        "control-arm-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 55,
+      "category": "Lifting",
+      "brand": "Arcan",
+      "model": "A20018",
+      "name": "A20018 three-ton aluminium floor jack",
+      "familyId": "floor-jack",
+      "purpose": "Portable lifting within vehicle and jack limits",
+      "verificationGate": "Current A20018 versus older ALJ3T and A20019; minimum saddle height",
+      "sourceId": "R22",
+      "manufacturerSource": "https://arcantools.com/lifting/a20018",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "arcan-a20018",
+      "batch": 1,
+      "asin": "",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "amazonListing": "",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C12"
+      ],
+      "workflowIds": [
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W10"
+      ],
+      "specifications": [
+        "Manufacturer model A20018",
+        "3 US ton / 6000 lb rated lifting capacity",
+        "Dual-pump pistons",
+        "Aluminium chassis and reinforced arm",
+        "Manufacturer page lift range 3.78–18.9 inches"
+      ],
+      "limitations": "Standalone Amazon result is A20019; A20018 search results include bundles. Do not publish A20019 as A20018. Lift only at approved points and support the vehicle separately.",
+      "familyIds": [
+        "floor-jack"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 56,
+      "category": "Lifting",
+      "brand": "SUNEX",
+      "model": "6602LP",
+      "name": "Low-profile service jack",
+      "familyId": "floor-jack",
+      "purpose": "Lower-clearance lifting on suitable hard level surfaces",
+      "verificationGate": "Exact capacity lift range and saddle interface from manual",
+      "sourceId": "S800",
+      "manufacturerSource": "https://sunextools.com/collections/floor-jacks",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "sunex-6602lp",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C12"
+      ],
+      "workflowIds": [
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W10"
+      ],
+      "familyIds": [
+        "floor-jack"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 59,
+      "category": "Lifting",
+      "brand": "ESCO",
+      "model": "10498-PAIR",
+      "name": "10498-PAIR three-ton performance jack stands",
+      "familyId": "jack-stand",
+      "purpose": "Flat-saddle support on compatible vehicle points",
+      "verificationGate": "Manufacturer lists capacity per stand; distinguish single stand and kit",
+      "sourceId": "R23",
+      "manufacturerSource": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "esco-10498-pair",
+      "batch": 1,
+      "asin": "B01J5ZB8K6",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B01J5ZB8K6",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C12"
+      ],
+      "workflowIds": [
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W10"
+      ],
+      "specifications": [
+        "Two stands with rubber flat-top saddles",
+        "Manufacturer rating 3 tons per stand",
+        "Height range 13.2–21.5 inches",
+        "Ten pin-locked height positions"
+      ],
+      "limitations": "Manufacturer manual requires pair configuration for supporting a vehicle end. Do not turn the per-stand figure into an unrestricted six-ton vehicle recommendation. Match saddle and support point.",
+      "familyIds": [
+        "jack-stand"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 61,
+      "category": "Fluids",
+      "brand": "Mityvac",
+      "model": "MV7201",
+      "name": "Fluid Evacuator Plus",
+      "familyId": "manual-fluid-extractor",
+      "purpose": "Manual fluid evacuation and dispensing on supported systems",
+      "verificationGate": "US MV7201 not EU VKN package; fluid and temperature limits",
+      "sourceId": "S875",
+      "manufacturerSource": "https://www.skf.com/mityvac/products/fluid-evacuation-and-dispensing-equipment-and-accessories/fluid-evacuators/mv7201",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "mityvac-mv7201",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C13"
+      ],
+      "workflowIds": [
+        "W06",
+        "W08",
+        "W10"
+      ],
+      "familyIds": [
+        "manual-fluid-extractor"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 62,
+      "category": "Fluids",
+      "brand": "Mityvac",
+      "model": "MV7300",
+      "name": "Pneumatic fluid evacuator",
+      "familyId": "pneumatic-fluid-extractor",
+      "purpose": "Shop-air powered extraction on compatible applications",
+      "verificationGate": "Air supply tube access and fluid restrictions",
+      "sourceId": "S840",
+      "manufacturerSource": "https://cdn.skfmediahub.skf.com/api/public/0901d196802e86fd/pdf_preview_medium/0901d196802e86fd_pdf_preview_medium.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "mityvac-mv7300",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C13"
+      ],
+      "workflowIds": [
+        "W06",
+        "W08",
+        "W10"
+      ],
+      "familyIds": [
+        "pneumatic-fluid-extractor"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 63,
+      "category": "Fluids",
+      "brand": "Mityvac",
+      "model": "MV6412A",
+      "name": "ATF refill system",
+      "familyId": "transmission-fill-system",
+      "purpose": "Filling supported sealed transmissions with matching adapters",
+      "verificationGate": "A suffix adapter contents and vehicle fluid-level procedure",
+      "sourceId": "S476",
+      "manufacturerSource": "https://cdn.skfmediahub.skf.com/api/public/0901d196809a1d86/pdf_preview_medium/Mityvac_catalog_pdf_preview_medium.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "mityvac-mv6412a",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C13"
+      ],
+      "workflowIds": [
+        "W06",
+        "W08",
+        "W10"
+      ],
+      "familyIds": [
+        "transmission-fill-system"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 64,
+      "category": "Fluids",
+      "brand": "Lisle",
+      "model": "17922",
+      "name": "17922 multi-drain tub",
+      "familyId": "oil-drain-container",
+      "purpose": "Collecting service fluids in a suitable container",
+      "verificationGate": "Verify capacity splash control and disposal access",
+      "sourceId": "R24",
+      "manufacturerSource": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products/multi-drain-tub",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "lisle-17922",
+      "batch": 1,
+      "asin": "B0002SR7SS",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0002SR7SS",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C13"
+      ],
+      "workflowIds": [
+        "W06",
+        "W08",
+        "W10"
+      ],
+      "specifications": [
+        "30 US quart / 7.5 US gallon capacity",
+        "33×22×8 inch dimensions",
+        "Heavy-duty plastic tub",
+        "Pouring apron for draining and handling"
+      ],
+      "limitations": "Check under-vehicle clearance and expected fluid volume/temperature. Used-fluid capture and clean filling require separate containers.",
+      "familyIds": [
+        "oil-drain-container"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 65,
+      "category": "Fluids",
+      "brand": "Lisle",
+      "model": "19752",
+      "name": "19752 six-quart oil dispenser, red spout",
+      "familyId": "oil-dispenser",
+      "purpose": "Measured handling of compatible service oil",
+      "verificationGate": "Dedicated clean-fluid use; not an extraction pump",
+      "sourceId": "R25",
+      "manufacturerSource": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "lisle-19752",
+      "batch": 1,
+      "asin": "B005ETVOP2",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B005ETVOP2",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C13"
+      ],
+      "workflowIds": [
+        "W06",
+        "W08",
+        "W10"
+      ],
+      "specifications": [
+        "6 US quart capacity",
+        "Translucent polyethylene body",
+        "Quart and litre graduations",
+        "Flexible 8-inch red spout"
+      ],
+      "limitations": "This is the red-spout 19752, not white-spout 19732 or capped 8-quart 19702. Keep clean and dedicated to compatible fluids.",
+      "familyIds": [
+        "oil-dispenser"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 66,
+      "category": "Fluids",
+      "brand": "Lisle",
+      "model": "19722",
+      "name": "Catch-All drip pan",
+      "familyId": "drip-pan",
+      "purpose": "Containing incidental service drips",
+      "verificationGate": "Not a substitute for a sufficiently sized drain container",
+      "sourceId": "S372",
+      "manufacturerSource": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products?recordsPerPage=36&sortBy=name&view=thumbnails",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "lisle-19722",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C13"
+      ],
+      "workflowIds": [
+        "W06",
+        "W08",
+        "W10"
+      ],
+      "familyIds": [
+        "drip-pan"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 67,
+      "category": "Oil filters",
+      "brand": "Lisle",
+      "model": "63600",
+      "name": "63600 spin-on oil-filter removal wrench",
+      "familyId": "oil-filter-wrench",
+      "purpose": "Removing supported spin-on filters in confined spaces",
+      "verificationGate": "Check filter diameter and direction; not universal cartridge-cap fit",
+      "sourceId": "R26",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "lisle-63600",
+      "batch": 1,
+      "asin": "B0002SR4Q8",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0002SR4Q8",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C14"
+      ],
+      "workflowIds": [
+        "W06"
+      ],
+      "specifications": [
+        "Fits 2.5–3.125 inch filter diameters",
+        "Steel gripping jaws",
+        "3/8-inch square drive",
+        "Removal only"
+      ],
+      "limitations": "Not for installing or tightening a filter. Match diameter and access; cartridge caps need a different tool.",
+      "familyIds": [
+        "oil-filter-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 68,
+      "category": "Oil filters",
+      "brand": "Lisle",
+      "model": "63250",
+      "name": "Wide-range filter wrench",
+      "familyId": "oil-filter-wrench",
+      "purpose": "Broader supported spin-on filter removal",
+      "verificationGate": "Access and diameter range must match",
+      "sourceId": "S428",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil?page=4&recordsPerPage=24&sortBy=name&view=list",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "lisle-63250",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C14"
+      ],
+      "workflowIds": [
+        "W06"
+      ],
+      "familyIds": [
+        "oil-filter-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 69,
+      "category": "Oil filters",
+      "brand": "Motivx Tools",
+      "model": "MX2320",
+      "name": "Toyota Lexus Scion cartridge filter wrench",
+      "familyId": "cartridge-filter-wrench",
+      "purpose": "Supported Toyota-family cartridge caps",
+      "verificationGate": "Exact engine/cap fit; current design differs from older tools",
+      "sourceId": "S395",
+      "manufacturerSource": "https://www.motivxtools.com/pages/toyota_lexus_scion_oil_service_guide",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "motivx-tools-mx2320",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C14"
+      ],
+      "workflowIds": [
+        "W06"
+      ],
+      "familyIds": [
+        "cartridge-filter-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 70,
+      "category": "Oil filters",
+      "brand": "Motivx Tools",
+      "model": "MX2326",
+      "name": "BMW cartridge filter wrench",
+      "familyId": "cartridge-filter-wrench",
+      "purpose": "Supported BMW filter-cap geometry",
+      "verificationGate": "86.4mm fit and exact cap application; not generic BMW compatibility",
+      "sourceId": "S396",
+      "manufacturerSource": "https://www.motivxtools.com/blogs/news/motivx-tools-launches-made-in-usa-tool-line",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "motivx-tools-mx2326",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C14"
+      ],
+      "workflowIds": [
+        "W06"
+      ],
+      "familyIds": [
+        "cartridge-filter-wrench"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 71,
+      "category": "Oil filters",
+      "brand": "Lisle",
+      "model": "13270",
+      "name": "13270 seven-piece low-profile filter socket set",
+      "familyId": "filter-socket-set",
+      "purpose": "Servicing several supported filter-canister hex sizes",
+      "verificationGate": "Confirm seven-piece kit and exact socket list",
+      "sourceId": "R27",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/13270--low-profile-filter-socket-set-7pc",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "lisle-13270",
+      "batch": 1,
+      "asin": "B07NX6MNNX",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B07NX6MNNX",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C14"
+      ],
+      "workflowIds": [
+        "W06"
+      ],
+      "specifications": [
+        "Seven six-point sockets",
+        "Sizes 24, 25, 27, 28, 29, 32 and 36 mm",
+        "3/8-inch square drive",
+        "For supported oil/fuel filter canisters"
+      ],
+      "limitations": "Match exact cap geometry and engine. A size list alone is not universal filter compatibility.",
+      "familyIds": [
+        "filter-socket-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 72,
+      "category": "Cooling",
+      "brand": "Lisle",
+      "model": "24980",
+      "name": "Nineteen-piece Spill-Free funnel kit",
+      "familyId": "coolant-funnel",
+      "purpose": "Filling compatible cooling systems with matched adapters",
+      "verificationGate": "Newer kit; distinguish older 24680 and heavy-duty 24990",
+      "sourceId": "S417",
+      "manufacturerSource": "https://www.lislecorp.com/videos/lisle-24980-spill-free-funnel-19-pc",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "lisle-24980",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C15"
+      ],
+      "workflowIds": [
+        "W08"
+      ],
+      "familyIds": [
+        "coolant-funnel"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 73,
+      "category": "Cooling",
+      "brand": "Mityvac",
+      "model": "MV4560",
+      "name": "Cooling-system pressure test kit",
+      "familyId": "cooling-pressure-tester",
+      "purpose": "Pressure-testing supported cooling systems and caps",
+      "verificationGate": "Older application chart requires current vehicle fit confirmation",
+      "sourceId": "S477",
+      "manufacturerSource": "https://cdn.skfmediahub.skf.com/api/public/0901d1968095f2d2/pdf_preview_medium/444045_MV4560_pdf_preview_medium.pdf",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "mityvac-mv4560",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C15"
+      ],
+      "workflowIds": [
+        "W08"
+      ],
+      "familyIds": [
+        "cooling-pressure-tester"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 74,
+      "category": "Cooling",
+      "brand": "Mityvac",
+      "model": "MV4533",
+      "name": "AirEvac cooling-system refill kit",
+      "familyId": "cooling-vacuum-refill-tool",
+      "purpose": "Vacuum evacuation and refill where supported",
+      "verificationGate": "Shop-air requirement sealing and adapter fit",
+      "sourceId": "S1050",
+      "manufacturerSource": "https://cdn.skfmediahub.skf.com/api/public/0901d196809b148c/pdf_preview_medium/0901d196809b148c_pdf_preview_medium.pdf",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "mityvac-mv4533",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C15"
+      ],
+      "workflowIds": [
+        "W08"
+      ],
+      "familyIds": [
+        "cooling-vacuum-refill-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 75,
+      "category": "Cooling",
+      "brand": "OTC",
+      "model": "7991",
+      "name": "Cooling-system pressure tester",
+      "familyId": "cooling-pressure-tester",
+      "purpose": "Testing supported cooling-system pressures",
+      "verificationGate": "Exact included adapters current service status and vehicle limits",
+      "sourceId": "S221",
+      "manufacturerSource": "https://www.otctools.com/sites/default/files/a11000_te_catalog.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-7991",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C15"
+      ],
+      "workflowIds": [
+        "W08"
+      ],
+      "familyIds": [
+        "cooling-pressure-tester"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 76,
+      "category": "Cooling",
+      "brand": "Lisle",
+      "model": "60900",
+      "name": "Heater-core backflush tool",
+      "familyId": "heater-core-flush-tool",
+      "purpose": "Controlled flushing on compatible hose connections",
+      "verificationGate": "Vehicle restrictions and coolant capture; not chemical-proof by assumption",
+      "sourceId": "S884",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/heater-core-backflush-tool",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "lisle-60900",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C15"
+      ],
+      "workflowIds": [
+        "W08"
+      ],
+      "familyIds": [
+        "heater-core-flush-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 77,
+      "category": "Tyres and wheels",
+      "brand": "Astro Pneumatic",
+      "model": "3018",
+      "name": "3018 digital tyre inflator with hose",
+      "familyId": "tire-inflator",
+      "purpose": "Shop-air inflation with digital pressure indication",
+      "verificationGate": "3018 versus green 3018GR; resolution is not accuracy",
+      "sourceId": "R28",
+      "manufacturerSource": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "astro-pneumatic-3018",
+      "batch": 1,
+      "asin": "B002PUTC0M",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B002PUTC0M",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C16"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04"
+      ],
+      "specifications": [
+        "3.5-inch digital display",
+        "Manual lists 3–175 psi measuring/working range",
+        "0.1 psi reading resolution",
+        "218 psi maximum inlet pressure",
+        "Manufacturer accuracy table: ±1.2 psi at 0–58 psi; ±2.0 psi at 59–174 psi"
+      ],
+      "limitations": "Resolution is not accuracy. Needs an appropriate compressed-air supply; follow the vehicle pressure specification and the inflator manual.",
+      "familyIds": [
+        "tire-inflator"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 78,
+      "category": "Tyres and wheels",
+      "brand": "Milton",
+      "model": "S-506",
+      "name": "Dual-head chuck tire inflator gauge",
+      "familyId": "tire-inflator",
+      "purpose": "Shop-air inflation with mechanical indication",
+      "verificationGate": "Original S-506 versus updated S-506D; exact hose and range",
+      "sourceId": "S524",
+      "manufacturerSource": "https://www.miltonbrands.com/products/copy-of-straight-foot-chuck-tire-inflator-gauge-15-hose-lock-on-threads",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "milton-s-506",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C16"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04"
+      ],
+      "familyIds": [
+        "tire-inflator"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 79,
+      "category": "Tyres and wheels",
+      "brand": "Milton",
+      "model": "S-921",
+      "name": "S-921 passenger-car pencil tyre-pressure gauge",
+      "familyId": "tire-pressure-gauge",
+      "purpose": "Compact manual tire-pressure checking",
+      "verificationGate": "5–50 PSI range; distinguish S-921AG and pack quantity",
+      "sourceId": "R29",
+      "manufacturerSource": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "milton-s-921",
+      "batch": 1,
+      "asin": "B0002SQYTG",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0002SQYTG",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C16"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04"
+      ],
+      "specifications": [
+        "5–50 psi range",
+        "Single-head passenger-car chuck",
+        "PSI and kPa scale",
+        "Deflator function"
+      ],
+      "limitations": "Not a high-pressure truck gauge; check the required cold pressure lies inside its range. Manufacturer material description takes precedence over inconsistent retailer fields.",
+      "familyIds": [
+        "tire-pressure-gauge"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 80,
+      "category": "Tyres and wheels",
+      "brand": "Autel",
+      "model": "TS508WF",
+      "name": "MaxiTPMS diagnostic and relearn tool",
+      "familyId": "tpms-service-tool",
+      "purpose": "Supported TPMS activation relearn and MX-sensor programming",
+      "verificationGate": "US coverage WiFi model and tool-only versus sensor kit",
+      "sourceId": "S528",
+      "manufacturerSource": "https://autel.com/us/wp-content/uploads/MaxiTPMS_TS508WF_Quick_Start_Guide.pdf",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "autel-ts508wf",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C16"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04"
+      ],
+      "familyIds": [
+        "tpms-service-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 81,
+      "category": "Tyres and wheels",
+      "brand": "Lisle",
+      "model": "18810",
+      "name": "Valve core torque tool",
+      "familyId": "valve-core-torque-tool",
+      "purpose": "Specified valve-core installation and removal",
+      "verificationGate": "Exact valve and torque requirement; not a wheel torque wrench",
+      "sourceId": "S936",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/general?recordsPerPage=24&sortBy=default&view=list",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "lisle-18810",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C16"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04"
+      ],
+      "familyIds": [
+        "valve-core-torque-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 82,
+      "category": "Engine service",
+      "brand": "OTC",
+      "model": "5606",
+      "name": "Compression tester kit",
+      "familyId": "compression-tester",
+      "purpose": "Supported engine cylinder compression tests",
+      "verificationGate": "Gasoline adapter coverage; not 5606-DG or diesel high-pressure testing",
+      "sourceId": "S540",
+      "manufacturerSource": "https://www.otctools.com/products/compression-tester-kit",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-5606",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C17"
+      ],
+      "workflowIds": [
+        "W01",
+        "W09"
+      ],
+      "familyIds": [
+        "compression-tester"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 83,
+      "category": "Engine service",
+      "brand": "OTC",
+      "model": "5609",
+      "name": "Cylinder leakage tester kit",
+      "familyId": "cylinder-leakdown-tester",
+      "purpose": "Comparing cylinder leakage on supported engines",
+      "verificationGate": "Requires compressed air and correct engine positioning",
+      "sourceId": "S553",
+      "manufacturerSource": "https://www.otctools.com/products/cylinder-leakage-tester-kit",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-5609",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C17"
+      ],
+      "workflowIds": [
+        "W01",
+        "W09"
+      ],
+      "familyIds": [
+        "cylinder-leakdown-tester"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 84,
+      "category": "Engine service",
+      "brand": "OTC",
+      "model": "5613",
+      "name": "Vacuum and low-pressure gauge kit",
+      "familyId": "vacuum-pressure-gauge",
+      "purpose": "Suitable intake-vacuum and low-pressure checks",
+      "verificationGate": "Not direct-injection fuel-rail or common-rail diesel testing",
+      "sourceId": "S221",
+      "manufacturerSource": "https://www.otctools.com/sites/default/files/a11000_te_catalog.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-5613",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C17"
+      ],
+      "workflowIds": [
+        "W01",
+        "W09"
+      ],
+      "familyIds": [
+        "vacuum-pressure-gauge"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 85,
+      "category": "Engine service",
+      "brand": "OTC",
+      "model": "5630",
+      "name": "Fuel pressure tester kit",
+      "familyId": "fuel-pressure-tester",
+      "purpose": "Supported low-pressure fuel-injection diagnosis",
+      "verificationGate": "Never infer direct-injection high-pressure compatibility",
+      "sourceId": "S221",
+      "manufacturerSource": "https://www.otctools.com/sites/default/files/a11000_te_catalog.pdf",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "otc-5630",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C17"
+      ],
+      "workflowIds": [
+        "W01",
+        "W09"
+      ],
+      "familyIds": [
+        "fuel-pressure-tester"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 86,
+      "category": "Mechanical service and pullers",
+      "brand": "Lisle",
+      "model": "51450",
+      "name": "Harmonic damper pulley puller",
+      "familyId": "harmonic-balancer-puller",
+      "purpose": "Pulling specifically supported damper pulleys",
+      "verificationGate": "Application-specific jaws rods and updated fitment",
+      "sourceId": "S883",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/harmonic-damper-pulley-puller-537",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "lisle-51450",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C11"
+      ],
+      "workflowIds": [
+        "W07"
+      ],
+      "familyIds": [
+        "harmonic-balancer-puller"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 87,
+      "category": "Inspection",
+      "brand": "Streamlight",
+      "model": "66118",
+      "name": "66118 Stylus Pro penlight, black",
+      "familyId": "inspection-flashlight",
+      "purpose": "Pocket inspection lighting for quick visual checks",
+      "verificationGate": "Reuse existing shared record; retain exact black variant",
+      "sourceId": "R30",
+      "manufacturerSource": "https://www.streamlight.com/products/detail/stylus-pro",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [
+        "streamlight-66118"
+      ],
+      "productId": "streamlight-66118",
+      "batch": 1,
+      "asin": "B0015UC17E",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0015UC17E",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C18"
+      ],
+      "workflowIds": [
+        "W01",
+        "W02",
+        "W03",
+        "W05",
+        "W06",
+        "W08",
+        "W09",
+        "W10"
+      ],
+      "specifications": [
+        "Black 66118 configuration",
+        "Two AAA cells",
+        "Current manufacturer output 100 lumens",
+        "Current manufacturer runtime 8 hours",
+        "Length 5.3 inches"
+      ],
+      "limitations": "Reuse the canonical record. Proposed exact listing B0015UC17E is clearer than existing B07KLSG5JG, whose title and part metadata conflict. Treat output figures as current manufacturer specification, not our test.",
+      "familyIds": [
+        "inspection-flashlight"
+      ],
+      "reuseExistingId": "streamlight-66118",
+      "newCanonicalRecordRequired": false,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 88,
+      "category": "Inspection",
+      "brand": "Streamlight",
+      "model": "68750",
+      "name": "Yellow Dualie 3AA with alkaline batteries",
+      "familyId": "inspection-flashlight",
+      "purpose": "Supported spot and flood inspection lighting",
+      "verificationGate": "Yellow battery-included package; hazardous-location conditions are specific",
+      "sourceId": "S933",
+      "manufacturerSource": "https://www.streamlight.com/docs/default-source/data-sheet/dualie3aadatasheet.pdf?sfvrsn=7bc5a2f0_39",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "streamlight-68750",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C18"
+      ],
+      "workflowIds": [
+        "W01",
+        "W02",
+        "W03",
+        "W05",
+        "W06",
+        "W08",
+        "W09",
+        "W10"
+      ],
+      "familyIds": [
+        "inspection-flashlight"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 90,
+      "category": "Inspection",
+      "brand": "Milwaukee",
+      "model": "2125-20",
+      "name": "2125-20 M12 underhood light, bare tool",
+      "familyId": "underhood-light",
+      "purpose": "Illuminating an engine bay on compatible mounting geometry",
+      "verificationGate": "Bare tool battery extra; mounting span and hood clearance",
+      "sourceId": "R31",
+      "manufacturerSource": "https://www.milwaukeetool.com/2125-20",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "milwaukee-2125-20",
+      "batch": 1,
+      "asin": "",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "amazonListing": "",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C18"
+      ],
+      "workflowIds": [
+        "W01",
+        "W02",
+        "W03",
+        "W05",
+        "W06",
+        "W08",
+        "W09",
+        "W10"
+      ],
+      "specifications": [
+        "M12 battery platform",
+        "1350 lumen manufacturer output",
+        "Adjustable underhood mounting hooks",
+        "Detachable light bar",
+        "Tool only"
+      ],
+      "limitations": "Candidate B0CDVFR3V7 has P.T.S. brand metadata. Alternate B06ZZYPCNL detail request failed unresolved (request 78b12c1e-cd4c-4501-a0b9-2969978bda11). Exact brand/package remains on hold; battery/charger separate.",
+      "familyIds": [
+        "underhood-light"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 91,
+      "category": "Inspection",
+      "brand": "Bosch",
+      "model": "GIC5-27C",
+      "name": "12V Max connected inspection camera",
+      "familyId": "inspection-camera",
+      "purpose": "Visual access where probe diameter and geometry fit",
+      "verificationGate": "US battery/charger package probe size bend and fluids limits",
+      "sourceId": "S586",
+      "manufacturerSource": "https://www.boschtools.com/us/en/products/gic5-27c-0601241410",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "bosch-gic5-27c",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C18"
+      ],
+      "workflowIds": [
+        "W01",
+        "W02",
+        "W03",
+        "W05",
+        "W06",
+        "W08",
+        "W09",
+        "W10"
+      ],
+      "familyIds": [
+        "inspection-camera"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 92,
+      "category": "Storage",
+      "brand": "GEARWRENCH",
+      "model": "83151",
+      "name": "83151 20-inch three-drawer steel toolbox",
+      "familyId": "portable-toolbox",
+      "purpose": "Organized portable hand-tool storage",
+      "verificationGate": "Loaded carrying weight drawer dimensions and retention",
+      "sourceId": "R32",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "gearwrench-83151",
+      "batch": 1,
+      "asin": "B0060VG188",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B0060VG188",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C19"
+      ],
+      "workflowIds": [
+        "W10"
+      ],
+      "specifications": [
+        "Steel body",
+        "20×8.5×12 inches",
+        "Three drawers with ball-bearing slides",
+        "20 lb empty manufacturer weight",
+        "Keyed centre lock"
+      ],
+      "limitations": "Portable storage rather than a complete workshop cabinet; account for loaded carrying weight.",
+      "familyIds": [
+        "portable-toolbox"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 93,
+      "category": "Storage",
+      "brand": "GEARWRENCH",
+      "model": "83169",
+      "name": "Forty-two-inch eleven-drawer mobile workstation",
+      "familyId": "rolling-tool-cabinet",
+      "purpose": "Fixed-shop storage and movable work station",
+      "verificationGate": "Freight package load ratings and shop footprint",
+      "sourceId": "S639",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/tool-storage/carts-workstations/83169-42-11-drawer-black-orange-mobile-work-station",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-83169",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C19"
+      ],
+      "workflowIds": [
+        "W10"
+      ],
+      "familyIds": [
+        "rolling-tool-cabinet"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 94,
+      "category": "Storage",
+      "brand": "SUNEX",
+      "model": "8057XTR",
+      "name": "Red premium full-drawer service cart",
+      "familyId": "mechanic-service-cart",
+      "purpose": "Keeping daily-use tools near the service bay",
+      "verificationGate": "Exact red XTR model versus older 8057 and decorated variants",
+      "sourceId": "S645",
+      "manufacturerSource": "https://sunextools.com/products/8057xtr-red-premium-full-drawer-service-cart",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "sunex-8057xtr",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C19"
+      ],
+      "workflowIds": [
+        "W10"
+      ],
+      "familyIds": [
+        "mechanic-service-cart"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 95,
+      "category": "Storage",
+      "brand": "SUNEX",
+      "model": "8019B",
+      "name": "Adjustable work table with drawer",
+      "familyId": "mechanic-work-table",
+      "purpose": "Positioning selected tools or parts by the job",
+      "verificationGate": "B suffix load height and stability; not a vehicle support",
+      "sourceId": "S650",
+      "manufacturerSource": "https://sunextools.com/collections/work-tables-utility-carts",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "sunex-8019b",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C19"
+      ],
+      "workflowIds": [
+        "W10"
+      ],
+      "familyIds": [
+        "mechanic-work-table"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 96,
+      "category": "Storage",
+      "brand": "GEARWRENCH",
+      "model": "GWMP100",
+      "name": "Heavy-duty portable rolling tool case",
+      "familyId": "rolling-tool-case",
+      "purpose": "Mobile service tool transport",
+      "verificationGate": "Empty case versus bundled tool kit and actual carrying limits",
+      "sourceId": "S638",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage",
+      "manufacturerStatus": "catalogue-or-family-source-located",
+      "reuseCandidates": [],
+      "productId": "gearwrench-gwmp100",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C19"
+      ],
+      "workflowIds": [
+        "W10"
+      ],
+      "familyIds": [
+        "rolling-tool-case"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 97,
+      "category": "Workshop safety",
+      "brand": "DEWALT",
+      "model": "DPG94-1C",
+      "name": "DPG94-1C Dominator safety glasses, clear lens",
+      "familyId": "safety-glasses",
+      "purpose": "Suitable impact-rated eye protection where risk assessment permits",
+      "verificationGate": "Reuse shared record; existing Amazon ASIN mismatch remains blocked",
+      "sourceId": "R33",
+      "manufacturerSource": "https://www.radians.com/products/composite-dewalt-dpg94-dominator-hardware-protective-eyewear",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [
+        "dewalt-dpg94-1c"
+      ],
+      "productId": "dewalt-dpg94-1c",
+      "batch": 1,
+      "asin": "",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "amazonListing": "",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C20"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W10"
+      ],
+      "specifications": [
+        "Manufacturer variant DPG94-1C is clear lens",
+        "Full-frame eyewear",
+        "Rubber-tipped temples and rubber nosepieces",
+        "Manufacturer states Z87.1+ impact performance"
+      ],
+      "limitations": "Existing ASIN B002IVTX8E now returns generic DPG94 mirrored/polarized metadata and a different internal ASIN. DPG94-1D, yellow, gradient and mirrored lenses are not exact substitutes. Hold purchase link.",
+      "familyIds": [
+        "safety-glasses"
+      ],
+      "reuseExistingId": "dewalt-dpg94-1c",
+      "newCanonicalRecordRequired": false,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 98,
+      "category": "Workshop safety",
+      "brand": "3M PELTOR",
+      "model": "X4A",
+      "name": "X4A PELTOR over-head hearing protectors",
+      "familyId": "hearing-protection",
+      "purpose": "Hearing protection selected for measured workshop noise",
+      "verificationGate": "US NRR versus non-US SNR; single unit versus ten-unit case",
+      "sourceId": "R34",
+      "manufacturerSource": "https://multimedia.3m.com/mws/media/845196O/3m-peltor-x-series-earmuffs-technical-specifications.pdf",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "3m-peltor-x4a",
+      "batch": 1,
+      "asin": "",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "amazonListing": "",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C20"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W10"
+      ],
+      "specifications": [
+        "Headband X4A configuration",
+        "US manufacturer technical sheet NRR 27 dB",
+        "Replaceable cushions/liners",
+        "Separate hard-hat models exist"
+      ],
+      "limitations": "US NRR is not overseas SNR/SLC80. Both candidate ASINs return an inconsistent internal ASIN; exact single-unit headband listing remains on hold. Attenuation depends on fit and exposure assessment.",
+      "familyIds": [
+        "hearing-protection"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "index": 99,
+      "category": "Workshop safety",
+      "brand": "First Alert",
+      "model": "PRO5",
+      "name": "Rechargeable multipurpose extinguisher",
+      "familyId": "fire-extinguisher",
+      "purpose": "Workshop fire-equipment planning subject to local requirements",
+      "verificationGate": "Exact current model rating recall check mounting and trained use",
+      "sourceId": "S757",
+      "manufacturerSource": "https://customer.resideo.com/resources/Techlit/TechLitDocuments/BRK-First%20Alert/PRO5%20Spec%20Sheet.pdf",
+      "manufacturerStatus": "model-source-located",
+      "reuseCandidates": [],
+      "productId": "first-alert-pro5",
+      "batch": 2,
+      "asin": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "amazonListing": "",
+      "imageStatus": "exact-photo-and-reuse-basis-required",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C20"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W10"
+      ],
+      "familyIds": [
+        "fire-extinguisher"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true
+    },
+    {
+      "index": 100,
+      "category": "Workshop safety",
+      "brand": "MaxxHaul",
+      "model": "70472",
+      "name": "70472 rubber wheel chocks, two-pack",
+      "familyId": "wheel-chock",
+      "purpose": "Resisting movement in a correctly planned support setup",
+      "verificationGate": "Tire size surface load and direction; not a substitute for stands",
+      "sourceId": "R35",
+      "manufacturerSource": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "reuseCandidates": [],
+      "productId": "maxxhaul-70472",
+      "batch": 1,
+      "asin": "B01CGU14T2",
+      "amazonStatus": "exact-model-and-package-matched",
+      "amazonListing": "https://www.amazon.com/dp/B01CGU14T2",
+      "imageStatus": "reuse-permission-not-established",
+      "ratingStatus": "no-new-rating-captured",
+      "feedbackStatus": "no-new-quotation-approved",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "checkedDate": "2026-10-15",
+      "comparisonIds": [
+        "C20"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W10"
+      ],
+      "specifications": [
+        "Two rubber chocks",
+        "Each 8×4×6 inches",
+        "Moulded carrying handle",
+        "Textured contact surfaces"
+      ],
+      "limitations": "No verified load/grade limit was found in the source. Do not invent one or claim universal suitability; these are not jack stands.",
+      "familyIds": [
+        "wheel-chock"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null
+    },
+    {
+      "productId": "gearwrench-80066h",
+      "brand": "GEARWRENCH",
+      "model": "80066H",
+      "name": "80066H 20-piece mechanic screwdriver set",
+      "familyId": "mechanic-screwdriver-set",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/hand-tools/screwdrivers-hex-keys/80066h-20-piece-phillipsrslottedtorxr-dual-material-screwdriver-set",
+      "verificationGate": "New mechanic-specific fixed-blade coverage",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "20 pieces",
+        "Phillips, slotted and Torx profiles",
+        "Tri-lobe dual-material handles",
+        "Non-magnetic black-oxide tips",
+        "Not insulated"
+      ],
+      "limitations": "Exact H suffix matters. Includes small precision profiles and T15/T20, not a complete Torx fastener range. Choose an appropriate profile and avoid using screwdrivers as pry bars.",
+      "sourceId": "R36",
+      "checkedDate": "2026-10-15",
+      "asin": "B08KHSYKQH",
+      "amazonListing": "https://www.amazon.com/dp/B08KHSYKQH",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "mechanic-screwdriver-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "klein-d203-8",
+      "brand": "Klein Tools",
+      "model": "D203-8",
+      "name": "D203-8 eight-inch needle-nose side-cutting pliers",
+      "familyId": "needle-nose-pliers",
+      "manufacturerSource": "https://www.kleintools.com/catalog/standard-side-cutting-pliers/pliers-needle-nose-side-cutters-8-inch",
+      "verificationGate": "Reuse klein-d203-8",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [
+        "klein-d203-8"
+      ],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "Manufacturer nominal 8-inch class",
+        "8.41-inch overall length",
+        "Slim long-nose head",
+        "Induction-hardened cutting edges",
+        "Plastic-dipped handles"
+      ],
+      "limitations": "Reuse existing klein-d203-8. Standard model is not the insulated -INS or glow-handle -GLW variant; handle covering is not electrical insulation.",
+      "sourceId": "R37",
+      "checkedDate": "2026-10-15",
+      "asin": "B0000302WQ",
+      "amazonListing": "https://www.amazon.com/dp/B0000302WQ",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "needle-nose-pliers"
+      ],
+      "reuseExistingId": "klein-d203-8",
+      "newCanonicalRecordRequired": false,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "klein-d228-8",
+      "brand": "Klein Tools",
+      "model": "D228-8",
+      "name": "D228-8 eight-inch diagonal-cutting pliers",
+      "familyId": "diagonal-cutting-pliers",
+      "manufacturerSource": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
+      "verificationGate": "Reuse klein-d228-8",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [
+        "klein-d228-8"
+      ],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "7.98-inch overall length",
+        "Short jaws and bevelled cutting edges",
+        "High-leverage joint geometry",
+        "Induction-hardened cutting knives"
+      ],
+      "limitations": "Reuse existing klein-d228-8. Standard version, not -INS or tethered -TT. Intended for cutting appropriate material, not hardened automotive fasteners.",
+      "sourceId": "R38",
+      "checkedDate": "2026-10-15",
+      "asin": "B0000302VW",
+      "amazonListing": "https://www.amazon.com/dp/B0000302VW",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "diagonal-cutting-pliers"
+      ],
+      "reuseExistingId": "klein-d228-8",
+      "newCanonicalRecordRequired": false,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "irwin-502l3",
+      "brand": "IRWIN",
+      "model": "502L3",
+      "name": "502L3 Original 10WR curved-jaw locking pliers",
+      "familyId": "locking-pliers",
+      "manufacturerSource": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+      "verificationGate": "Exact 10WR standard-release single tool",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "One 10-inch curved-jaw locking plier",
+        "Built-in wire cutter",
+        "Classic trigger release",
+        "Hex-key pressure-adjusting screw",
+        "Heat-treated alloy steel"
+      ],
+      "limitations": "Not the 4935576 alternate or a five-pack. Locking jaws can damage finished fittings; use the proper fitting wrench where required.",
+      "sourceId": "R39",
+      "checkedDate": "2026-10-15",
+      "asin": "B07M7V6B1Y",
+      "amazonListing": "https://www.amazon.com/dp/B07M7V6B1Y",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "locking-pliers"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "knipex-8701250",
+      "brand": "KNIPEX",
+      "model": "87 01 250",
+      "name": "87 01 250 ten-inch Cobra water-pump pliers",
+      "familyId": "adjustable-joint-pliers",
+      "manufacturerSource": "https://www.knipex-tools.com/products/pipe-wrenches-and-water-pump-pliers/water-pump-pliers/knipex-cobra-water-pump-pliers/8701250",
+      "verificationGate": "Reuse knipex-8701250",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [
+        "knipex-8701250"
+      ],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "10-inch nominal length",
+        "25 adjustment positions",
+        "Push-button adjustment",
+        "Non-slip plastic handles",
+        "Not 1000 V insulated"
+      ],
+      "limitations": "Reuse existing knipex-8701250. Serrated jaws suit gripping tasks, not every precision line fitting. Do not substitute other handle/insulation variants.",
+      "sourceId": "R40",
+      "checkedDate": "2026-10-15",
+      "asin": "B000X4J2H0",
+      "amazonListing": "https://www.amazon.com/dp/B000X4J2H0",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "adjustable-joint-pliers"
+      ],
+      "reuseExistingId": "knipex-8701250",
+      "newCanonicalRecordRequired": false,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "gearwrench-80742",
+      "brand": "GEARWRENCH",
+      "model": "80742",
+      "name": "80742 84-piece hex/Torx bit socket set",
+      "familyId": "mechanic-bit-socket-set",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80742-84-piece-14-38-12-drive-hexball-end-hextamper-proof-torxrexternal-torxrtorxr-saemetric-bit-set",
+      "verificationGate": "Verify exact profiles and sizes; hand-driven",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "84 pieces",
+        "1/4, 3/8 and 1/2-inch hand-drive sizes",
+        "SAE/metric hex and ball-end hex",
+        "Torx, tamper-resistant Torx and external Torx",
+        "Manual drive only"
+      ],
+      "limitations": "Manufacturer explicitly limits use to manual drive tools: do not put these on the cordless impact wrench. Match individual sizes to the course and serviced vehicles.",
+      "sourceId": "R41",
+      "checkedDate": "2026-10-15",
+      "asin": "B01NA9PG8A",
+      "amazonListing": "https://www.amazon.com/dp/B01NA9PG8A",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "mechanic-bit-socket-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "gearwrench-80601",
+      "brand": "GEARWRENCH",
+      "model": "80601",
+      "name": "80601 five-piece magnetic swivel spark-plug socket set",
+      "familyId": "spark-plug-socket-set",
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80601-5-piece-38-drive-6-point-magnetic-swivel-spark-plug-socket-set",
+      "verificationGate": "Verify sizes especially 14mm versus 9/16; do not assume all engines fit",
+      "category": "Engine service",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "Five pieces",
+        "3/8-inch drive",
+        "Six-point magnetic swivel design",
+        "9/16 and 5/8-inch socket sizes",
+        "Blow-moulded case"
+      ],
+      "limitations": "Does not cover 13/16-inch or 14 mm school/vehicle needs. 9/16 inch is not an exact 14 mm substitute. Do not claim a complete ignition-service kit.",
+      "sourceId": "R42",
+      "checkedDate": "2026-10-15",
+      "asin": "B06XCR8RF3",
+      "amazonListing": "https://www.amazon.com/dp/B06XCR8RF3",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "spark-plug-socket-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C17"
+      ],
+      "workflowIds": [
+        "W01",
+        "W09"
+      ]
+    },
+    {
+      "productId": "lisle-68100",
+      "brand": "Lisle",
+      "model": "68100",
+      "name": "68100 deluxe feeler gauge",
+      "familyId": "feeler-gauge",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/deluxe-feeler-gauge",
+      "verificationGate": "Range and blade count from manufacturer not 68150 reseller metadata",
+      "category": "Engine service",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "31 blades including one 0.010-inch brass blade",
+        "Thickness range 0.0015–0.035 inch",
+        "Approximately 1/2-inch-wide × 3.5-inch-long blades",
+        "Dual-unit thickness references"
+      ],
+      "limitations": "Not 68150 go/no-go. The Chemeketa list extends to 0.040 inch, so this set alone does not meet that entire range. Follow the required vehicle measuring procedure.",
+      "sourceId": "R43",
+      "checkedDate": "2026-10-15",
+      "asin": "B0009OMY9C",
+      "amazonListing": "https://www.amazon.com/dp/B0009OMY9C",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "feeler-gauge"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C17"
+      ],
+      "workflowIds": [
+        "W01",
+        "W09"
+      ]
+    },
+    {
+      "productId": "mayhew-61366",
+      "brand": "Mayhew",
+      "model": "61366",
+      "name": "61366 Dominator five-piece curved pry-bar set",
+      "familyId": "mechanic-pry-bar-set",
+      "manufacturerSource": "https://mayhew.com/files/content/resources/catalogs/Catalog-2023-sm.pdf",
+      "verificationGate": "Purpose-made handled bars; existing Stanley flat demolition bar is not equivalent",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "specification-conflict-or-detail-hold",
+      "specifications": [
+        "Five curved, handled pry bars",
+        "Black-oxide finish",
+        "Dominator product family"
+      ],
+      "limitations": "Manufacturer catalogue index identifies 61366, but full PDF fetch is blocked. Exact individual lengths and current pack revision remain unconfirmed; do not copy conflicting retailer dimensions. A flat carpenter demolition bar is not equivalent.",
+      "sourceId": "R44",
+      "checkedDate": "2026-10-15",
+      "asin": "B006WZOJFE",
+      "amazonListing": "https://www.amazon.com/dp/B006WZOJFE",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "mechanic-pry-bar-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "lisle-31750",
+      "brand": "Lisle",
+      "model": "31750",
+      "name": "31750 four-piece mini hook-and-pick set",
+      "familyId": "hook-and-pick-set",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+      "verificationGate": "Small seal clip and O-ring access with damage limitations",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "Four picks",
+        "Hook, straight, 90-degree and combination profiles",
+        "Dual-material handles",
+        "Heat-treated tips"
+      ],
+      "limitations": "Useful for clips, seals and O-rings with care; sharp picks can score sealing surfaces. Not a heavy pry-bar substitute.",
+      "sourceId": "R45",
+      "checkedDate": "2026-10-15",
+      "asin": "B089N7DSLD",
+      "amazonListing": "https://www.amazon.com/dp/B089N7DSLD",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "hook-and-pick-set"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "lisle-35440",
+      "brand": "Lisle",
+      "model": "35440",
+      "name": "35440 three-piece body-trim tool set",
+      "familyId": "trim-removal-tools",
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/body/body-trim-tool-set-3-piece",
+      "verificationGate": "Obtain exact product source before publication",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "Door panel remover 35350",
+        "Door upholstery remover 35400",
+        "Window/door clip remover 54960",
+        "Bent handles and stepped fastener cut-outs"
+      ],
+      "limitations": "A metal fastener/clip set, not an all-plastic no-mar trim-pry kit. Match clip design and protect visible surfaces.",
+      "sourceId": "R46",
+      "checkedDate": "2026-10-15",
+      "asin": "B004HNNEGS",
+      "amazonListing": "https://www.amazon.com/dp/B004HNNEGS",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "trim-removal-tools"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "ullman-devices-ht-2",
+      "brand": "Ullman Devices",
+      "model": "HT-2",
+      "name": "HT-2 telescoping magnetic pickup tool",
+      "familyId": "magnetic-pickup-tool",
+      "manufacturerSource": "https://ullmandevices.com/products/ht-2",
+      "verificationGate": "Select exact colour and validate extension dimensions",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "Length 7.25–33.75 inches",
+        "Manufacturer lift claim up to 5 lb",
+        "Sliding POWERCAP magnet sleeve",
+        "Pocket clip and non-slip grip"
+      ],
+      "limitations": "Manufacturer Amazon shortcut resolves to B004VTYG0G with model HT-2; B000JXPBLG is HT-1. Lift claim is conditional and is not a safe lifting-equipment rating.",
+      "sourceId": "R47",
+      "checkedDate": "2026-10-15",
+      "asin": "B004VTYG0G",
+      "amazonListing": "https://www.amazon.com/dp/B004VTYG0G",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "magnetic-pickup-tool"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C18"
+      ],
+      "workflowIds": [
+        "W01",
+        "W02",
+        "W03",
+        "W05",
+        "W06",
+        "W08",
+        "W09",
+        "W10"
+      ]
+    },
+    {
+      "productId": "ullman-devices-htc-2",
+      "brand": "Ullman Devices",
+      "model": "HTC-2",
+      "name": "HTC-2 telescoping inspection mirror, black",
+      "familyId": "inspection-mirror",
+      "manufacturerSource": "https://ullmandevices.com/products/htc-2",
+      "verificationGate": "Manufacturer text and specification table disagree on collapsed length",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "specification-conflict-or-detail-hold",
+      "specifications": [
+        "2.25-inch round mirror",
+        "Adjustable viewing head",
+        "Manufacturer extended length 36.375 inches",
+        "Black-handle single-tool destination linked by manufacturer"
+      ],
+      "limitations": "Manufacturer prose says collapsed 6.5 inches, specification table says 9.625 inches. Keep collapsed length unpublished until reconciled; avoid five- and twelve-packs.",
+      "sourceId": "R48",
+      "checkedDate": "2026-10-15",
+      "asin": "B000GTR0GM",
+      "amazonListing": "https://www.amazon.com/dp/B000GTR0GM",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "inspection-mirror"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C18"
+      ],
+      "workflowIds": [
+        "W01",
+        "W02",
+        "W03",
+        "W05",
+        "W06",
+        "W08",
+        "W09",
+        "W10"
+      ]
+    },
+    {
+      "productId": "stanley-33-725",
+      "brand": "Stanley",
+      "model": "33-725",
+      "name": "33-725 FATMAX Classic 25-foot tape measure",
+      "familyId": "tape-measure",
+      "manufacturerSource": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+      "verificationGate": "Reuse stanley-33-725; larger than some school pocket-tape requests",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [
+        "stanley-33-725"
+      ],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "25-foot × 1.25-inch blade",
+        "Current manufacturer 14-foot reach claim",
+        "Non-magnetic steel blade",
+        "Protective blade and hook-area coating"
+      ],
+      "limitations": "Reuse existing stanley-33-725. Candidate title says 33-725 but part/model says 33-725Y and older 11-foot standout wording; establish exact retail revision before mixing photos/specifications. Reach and standout are different measures.",
+      "sourceId": "R49",
+      "checkedDate": "2026-10-15",
+      "asin": "",
+      "amazonListing": "",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "tape-measure"
+      ],
+      "reuseExistingId": "stanley-33-725",
+      "newCanonicalRecordRequired": false,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "klein-32500hd",
+      "brand": "Klein Tools",
+      "model": "32500HD",
+      "name": "32500HD impact-rated 11-in-1 screwdriver/nut driver",
+      "familyId": "multi-bit-screwdriver",
+      "manufacturerSource": "https://www.kleintools.com/catalog/multi-bit-nut-drivers/impact-rated-multi-bit-screwdrivernut-driver-11-1",
+      "verificationGate": "Reuse klein-32500hd; complementary to fixed-blade set",
+      "category": "Apprentice hand tools",
+      "purpose": "Fills a documented apprentice coverage gap; confirm actual school and employer requirements.",
+      "reuseCandidates": [
+        "klein-32500hd"
+      ],
+      "batch": 1,
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "specifications": [
+        "Seven bit tips and four nut-driver sizes",
+        "1/4, 5/16 and 3/8-inch power nut drivers; 1/2-inch standard nut driver",
+        "Phillips, slotted, square and T25 profiles",
+        "Cushion-Grip handle"
+      ],
+      "limitations": "Reuse existing klein-32500hd. Not 32500HDRT ratcheting version or an insulated driver. The 1/2-inch standard nut driver is not described as an impact power nut driver.",
+      "sourceId": "R50",
+      "checkedDate": "2026-10-15",
+      "asin": "B0C9V6NYZ4",
+      "amazonListing": "https://www.amazon.com/dp/B0C9V6NYZ4",
+      "amazonStatus": "exact-model-and-package-matched",
+      "imageStatus": "reuse-permission-not-established",
+      "familyIds": [
+        "multi-bit-screwdriver"
+      ],
+      "reuseExistingId": "klein-32500hd",
+      "newCanonicalRecordRequired": false,
+      "imagePermissionEvidence": null,
+      "comparisonIds": [
+        "C07"
+      ],
+      "workflowIds": [
+        "W01",
+        "W04",
+        "W07"
+      ]
+    },
+    {
+      "productId": "bluedriver-lsb2",
+      "brand": "BlueDriver",
+      "model": "LSB2",
+      "name": "Bluetooth Pro OBDII scan tool",
+      "familyId": "app-obd2-scanner",
+      "batch": 2,
+      "category": "Diagnostics",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "verificationGate": "Confirm exact LSB2 generation, supported vehicles and app requirements; do not silently substitute Pro NextGen.",
+      "reuseCandidates": [],
+      "familyIds": [
+        "app-obd2-scanner"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "asin": "",
+      "amazonListing": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "imageStatus": "reuse-permission-not-established",
+      "checkedDate": "2026-10-15",
+      "manufacturerSource": "https://us.bluedriver.com/products/bluedriver-scan-tool",
+      "manufacturerStatus": "family-source-located-exact-generation-required",
+      "comparisonIds": [
+        "C01"
+      ],
+      "workflowIds": [
+        "W02",
+        "W09"
+      ]
+    },
+    {
+      "productId": "launch-crp129e",
+      "brand": "LAUNCH",
+      "model": "CRP129E",
+      "name": "Creader Professional four-system service scanner",
+      "familyId": "four-system-scanner",
+      "batch": 2,
+      "category": "Diagnostics",
+      "publicationStatus": "research-proposal-awaiting-approval",
+      "verificationGate": "Confirm exact CRP129E generation, US warranty/support and coverage; brand diversity alone is insufficient justification for publication.",
+      "reuseCandidates": [],
+      "familyIds": [
+        "four-system-scanner"
+      ],
+      "reuseExistingId": null,
+      "newCanonicalRecordRequired": true,
+      "asin": "",
+      "amazonListing": "",
+      "amazonStatus": "exact-listing-not-yet-verified",
+      "imageStatus": "reuse-permission-not-established",
+      "checkedDate": "2026-10-15",
+      "manufacturerStatus": "exact-us-generation-and-support-not-verified",
+      "comparisonIds": [
+        "C02"
+      ],
+      "workflowIds": [
+        "W02",
+        "W05",
+        "W09"
+      ]
+    }
+  ]
+}

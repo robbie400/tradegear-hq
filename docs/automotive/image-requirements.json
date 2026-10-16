@@ -1,0 +1,625 @@
+{
+  "date": "2026-10-15",
+  "rightsCleared": 0,
+  "policy": "No image is approved merely because it is accessible or already used. Obtain an applicable documented licence/permission or an authorised Amazon content route meeting its terms, or use a clean placeholder. No outreach performed. No product photos added to website.",
+  "products": [
+    {
+      "productId": "autel-mk900-bt",
+      "manufacturerCandidates": [
+        "https://store.autel.com/cdn/shop/files/MK900-BT_03_1_960x.png?v=1732093424",
+        "https://store.autel.com/cdn/shop/files/MK900-BT-04_960x.jpg?v=1756377863"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81lkzF9WF2L._AC_SL1500_.jpg",
+      "sourcePage": "https://store.autel.com/products/maxicom-mk900bt",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "innova-5610",
+      "manufacturerCandidates": [
+        "https://www.innova.com/cdn/shop/files/5610_01_1.jpg?v=1760469925&width=3840",
+        "https://www.innova.com/cdn/shop/files/5610_02_1.jpg?v=1760469925&width=3840"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/719NEo7qfiL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.innova.com/products/carscan-pro-5610",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "foxwell-nt301",
+      "manufacturerCandidates": [],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71JQBkvIl7L._AC_SL1500_.jpg",
+      "sourcePage": "https://www.foxwelltech.us/product-detail-797.html",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "fluke-88v-a-kit",
+      "manufacturerCandidates": [
+        "https://media.fluke.com/e61fff20-72b2-4d46-882c-b108006a5364_product_slideshow_main.jpg"
+      ],
+      "amazonGalleryCandidate": null,
+      "sourcePage": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "clore-automotive-ba9",
+      "manufacturerCandidates": [
+        "https://cloreautomotive.com/wp-content/uploads/2014/01/BA9-with-Clamps.png.webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81Sw3zqu5oL._AC_SL1500_.jpg",
+      "sourcePage": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "noco-gb40",
+      "manufacturerCandidates": [
+        "https://no.co/_next/image?url=https%3A%2F%2Fno.co%2Fmedia%2Fwysiwyg%2FProducts%2FBoost%2FBoost%2FGB40%2FOverview%2F1_H3V1_Main_Image%2F1-GB40-Main-Render-XS.jpg&w=320&q=75",
+        "https://no.co/_next/image?url=https%3A%2F%2Fno.co%2Fmedia%2Fwysiwyg%2FProducts%2FBoost%2FBoost%2FGB40%2FOverview%2F2_H2_Engine_Bay_Lifestyle_Image%2F2-GB40-On-Engine-Bay-Jump-Starting-XS.jpg&w=320&q=75"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SL1500_.jpg",
+      "sourcePage": "https://no.co/gb40",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "noco-genius5",
+      "manufacturerCandidates": [
+        "https://no.co/_next/image?url=https%3A%2F%2Fno.co%2Fmedia%2Fwysiwyg%2F0-GENIUS5_XS.jpg&w=320&q=75"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81UVh1o+ayL._AC_SL1500_.jpg",
+      "sourcePage": "https://no.co/genius5",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "tekton-trq50402",
+      "manufacturerCandidates": [
+        "https://images.tekton.com/assets/tekton-torque-wrench-trq50402_angle.jpg?width=2560&quality=75",
+        "https://images.tekton.com/assets/tekton-torque-wrench-trq50402_back-angle.jpg?width=2560&quality=75"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41S7T3I2g4L._AC_SL1500_.jpg",
+      "sourcePage": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq50402",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "tekton-trq52403",
+      "manufacturerCandidates": [
+        "https://images.tekton.com/assets/tekton-torque-wrench-trq52403_angle.jpg?width=2560&quality=75",
+        "https://images.tekton.com/assets/tekton-torque-wrench-trq52403_back-angle.jpg?width=2560&quality=75"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51kjGi8FpjL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.tekton.com/1-2-inch-drive-dual-direction-micrometer-torque-wrench-trq52403",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "gearwrench-80300p",
+      "manufacturerCandidates": [
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80300P_IMG-MAIN.jpg?itok=ISNCEe13",
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80300P_INCASE_01.jpg?itok=boBzdPRW"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/91sBcZpnYjL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80300p-51-piece-14-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "sunex-2569",
+      "manufacturerCandidates": [
+        "https://sunextools.com/cdn/shop/files/95a5762a4f7c2e5f9b361377a4a94e2f765743d7_2569_1_7b785046-f3e8-42fb-b9f8-08154e7a09bf.jpg?v=1789075849&width=1946",
+        "https://sunextools.com/cdn/shop/files/89a0a6240b30402c50d5a9935502f7452b7f42b6_2569_2_87d21b86-6c17-4458-b041-d904f46aaa9c.jpg?v=1789075849&width=1946"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81bNAEMPeXL._AC_SL1500_.jpg",
+      "sourcePage": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "tekton-skt15311",
+      "manufacturerCandidates": [
+        "https://images.tekton.com/assets/tekton-6-point-socket-set-skt15311_front.jpg?width=2560&quality=75",
+        "https://images.tekton.com/assets/tekton-hand-drive-6-point-socket-set-skt15311_angle.jpg?width=2560&quality=75"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71CqL9iV3GL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "tekton-sbh00224",
+      "manufacturerCandidates": [
+        "https://images.tekton.com/assets/tekton-breaker-bar-sbh00224_front.jpg?width=2560&quality=75",
+        "https://images.tekton.com/assets/tekton-breaker-bar-sbh00224_angle.jpg?width=2560&quality=75"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/419Cd0YsNeL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "tekton-sha91011",
+      "manufacturerCandidates": [
+        "https://images.tekton.com/assets/tekton-accessory-set-sha91011_angle.jpg?width=2560&quality=75",
+        "https://images.tekton.com/assets/tekton-hand-drive-accessory-set-sha91011_contents.jpg?width=2560&quality=75"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61tBD3ocJ2L._AC_SL1500_.jpg",
+      "sourcePage": "https://www.tekton.com/3-8-inch-drive-4-piece-extension-set-sha91011",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "gearwrench-81916",
+      "manufacturerCandidates": [
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_81916_FRNT_MAIN2.jpg?itok=3J7J7DGi"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61ogU3HuxjL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "gearwrench-81906",
+      "manufacturerCandidates": [
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_81906_IMG_MAIN_01.jpg?itok=48BYlJBn",
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_81906_IMG_ENV_01.jpg?itok=42zP2YmT"
+      ],
+      "amazonGalleryCandidate": null,
+      "sourcePage": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "milwaukee-2962-20",
+      "manufacturerCandidates": [
+        "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-mid-torque-impact-wrench-w-friction-ring/2962-20"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51gZLVF0xRL._AC_SL1000_.jpg",
+      "sourcePage": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "milwaukee-2567-20",
+      "manufacturerCandidates": [
+        "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41tNp3-jQnL._AC_SL1000_.jpg",
+      "sourcePage": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-25750",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/25750_EFE500F9AC92E.jpg?dimensions=386x333&format=webp",
+        "https://www.lislecorp.com/media/products/25750_EFE500F9AC92E.jpg?dimensions=175x151&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71QnygBjZLL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.lislecorp.com/specialty-tools/brakes/dual-piston-brake-caliper-compressor",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-81850",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/81850_A1C0623753349.jpg?dimensions=396x333&format=webp",
+        "https://www.lislecorp.com/media/products/81850_A1C0623753349.jpg?dimensions=180x151&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81sF6ITTkiL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.lislecorp.com/specialty-tools/brakes/combination-brake-lining-thickness-gauge-set",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "mityvac-mv6840",
+      "manufacturerCandidates": [],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61GFxz5-3ML._AC_SL1200_.jpg",
+      "sourcePage": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "arcan-a20018",
+      "manufacturerCandidates": [
+        "https://images.squarespace-cdn.com/content/v1/5ee8dfdb90b24e51ca5a547c/1608231283179-H0ZN7GG6WG6764X0BHW7/A20018.MAIN.JPG.jpg",
+        "https://images.squarespace-cdn.com/content/v1/5ee8dfdb90b24e51ca5a547c/1608231283179-H0ZN7GG6WG6764X0BHW7/A20018.MAIN.JPG.jpg?format=2500w"
+      ],
+      "amazonGalleryCandidate": null,
+      "sourcePage": "https://arcantools.com/lifting/a20018",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "esco-10498-pair",
+      "manufacturerCandidates": [
+        "https://esco.net/wp-content/uploads/2021/10/10498-PAIR-21.jpg",
+        "https://esco.net/wp-content/uploads/2021/10/10498-PAIR-21-300x300.jpg"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61cQf6eqPPL._AC_SL1500_.jpg",
+      "sourcePage": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-17922",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/17922C_B28F33C0F7728.jpg?dimensions=499x299&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41F8czDYZcL._AC_SL1200_.jpg",
+      "sourcePage": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products/multi-drain-tub",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-19752",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/19752_94767A24C97CF.jpg?dimensions=500x500&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41uPMSq6n6L._AC_SL1000_.jpg",
+      "sourcePage": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-63600",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/63600c_4E08D1FDEAF2F.jpg?dimensions=472x500&format=webp",
+        "https://www.lislecorp.com/media/products/63600c_4E08D1FDEAF2F.jpg?dimensions=142x151&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71vBcb8HNVL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-13270",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/13270_1ABCDB86BD656.jpg?dimensions=411x500&format=webp",
+        "https://www.lislecorp.com/media/products/13270_1ABCDB86BD656.jpg?dimensions=124x151&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81rd5o0mnSL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/13270--low-profile-filter-socket-set-7pc",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "astro-pneumatic-3018",
+      "manufacturerCandidates": [],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71sF16wgPkL._SL1500_.jpg",
+      "sourcePage": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "milton-s-921",
+      "manufacturerCandidates": [
+        "https://miltonindustries.com/cdn/shop/files/S-921-Main_Product_Image_76c07af6-be17-4c3b-aec2-c69b8a2a4bef.jpg?v=1754485539",
+        "https://miltonindustries.com/cdn/shop/files/S-921W-Main_Product_Image.jpg?v=1754485539"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51bP-YUVVCL._SL1500_.jpg",
+      "sourcePage": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "streamlight-66118",
+      "manufacturerCandidates": [],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61zNQEH+vhL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.streamlight.com/products/detail/stylus-pro",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "milwaukee-2125-20",
+      "manufacturerCandidates": [
+        "https://www.milwaukeetool.com/2125-20"
+      ],
+      "amazonGalleryCandidate": null,
+      "sourcePage": "https://www.milwaukeetool.com/2125-20",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "gearwrench-83151",
+      "manufacturerCandidates": [
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_TOI_83151.jpg?itok=3vlsiAD5",
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_83151_MAIN01.jpg?itok=XyaAWuVc"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61-2+Y0Ls6L._AC_SL1500_.jpg",
+      "sourcePage": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "dewalt-dpg94-1c",
+      "manufacturerCandidates": [
+        "https://images.salsify.com/image/upload/s--uyDGQdrW--/w_636%2Cq_65/fl_attachment/ptebxxssjo5waazzk36i.jpg"
+      ],
+      "amazonGalleryCandidate": null,
+      "sourcePage": "https://www.radians.com/products/composite-dewalt-dpg94-dominator-hardware-protective-eyewear",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "3m-peltor-x4a",
+      "manufacturerCandidates": [],
+      "amazonGalleryCandidate": null,
+      "sourcePage": "https://multimedia.3m.com/mws/media/845196O/3m-peltor-x-series-earmuffs-technical-specifications.pdf",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "maxxhaul-70472",
+      "manufacturerCandidates": [
+        "https://maxxhaul.com/wp-content/uploads/2026/02/70472-1.jpg",
+        "https://maxxhaul.com/wp-content/uploads/2026/02/70472-2.jpg"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61+Fhmc-EdL._AC_SL1500_.jpg",
+      "sourcePage": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "gearwrench-80066h",
+      "manufacturerCandidates": [
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80066H_IMG-MAIN.jpg?itok=4GGHTeg_"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71mJOAIp3bL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.gearwrench.com/all-tools/hand-tools/screwdrivers-hex-keys/80066h-20-piece-phillipsrslottedtorxr-dual-material-screwdriver-set",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "klein-d203-8",
+      "manufacturerCandidates": [
+        "https://data.kleintools.com/sites/all/product_assets/hires/klein/d2038_photo.jpg"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/31AAulslf1L._AC_SL1000_.jpg",
+      "sourcePage": "https://www.kleintools.com/catalog/standard-side-cutting-pliers/pliers-needle-nose-side-cutters-8-inch",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "klein-d228-8",
+      "manufacturerCandidates": [
+        "https://data.kleintools.com/sites/all/product_assets/hires/klein/d2288_photo.jpg"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/3178wTKG6GL._AC_SL1000_.jpg",
+      "sourcePage": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "irwin-502l3",
+      "manufacturerCandidates": [
+        "https://www.irwintools.com/NAG/PRODUCT/IMAGES/HIRES/502L3_P2.jpg?resize=530x530",
+        "https://www.irwintools.com/NAG/PRODUCT/IMAGES/HIRES/502L3_1.jpg?resize=530x530"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81BZKLs8RGL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "knipex-8701250",
+      "manufacturerCandidates": [
+        "https://web-assets.knipex.com/sites/default/files/styles/knipex_product_detail/public/8701250-01-3.jpg?itok=Do4nXScA",
+        "https://web-assets.knipex.com/sites/default/files/styles/knipex_product_detail/public/8701250-01-1.jpg?itok=Onnefver"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51YNzWs+-AL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.knipex-tools.com/products/pipe-wrenches-and-water-pump-pliers/water-pump-pliers/knipex-cobra-water-pump-pliers/8701250",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "gearwrench-80742",
+      "manufacturerCandidates": [
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_WIG_80742.jpg?itok=EucxKjU4",
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_%2080742_MAIN.jpg?itok=QFZtxyh2"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81bSiv5EHXL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80742-84-piece-14-38-12-drive-hexball-end-hextamper-proof-torxrexternal-torxrtorxr-saemetric-bit-set",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "gearwrench-80601",
+      "manufacturerCandidates": [
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80601_INPACK01.jpg?itok=KSig_GT-",
+        "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80601_FRNT_MAIN.jpg?itok=xnHyDbum"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61GZcXHPXLL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80601-5-piece-38-drive-6-point-magnetic-swivel-spark-plug-socket-set",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-68100",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/68100_5F27039FC1728.jpg?dimensions=499x477&format=webp",
+        "https://www.lislecorp.com/media/products/68100_5F27039FC1728.jpg?dimensions=158x151&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61D+JhCrlzL._AC_SL1000_.jpg",
+      "sourcePage": "https://www.lislecorp.com/specialty-tools/deluxe-feeler-gauge",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "mayhew-61366",
+      "manufacturerCandidates": [],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61auGDvNzNL._AC_SL1500_.jpg",
+      "sourcePage": "https://mayhew.com/files/content/resources/catalogs/Catalog-2023-sm.pdf",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-31750",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/31750_6EBA8259D8D5F.jpg?dimensions=500x395&format=webp",
+        "https://www.lislecorp.com/media/products/31750in1_847948132C06A.jpg?dimensions=499x411&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/710LURfW35L._AC_SL1500_.jpg",
+      "sourcePage": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "lisle-35440",
+      "manufacturerCandidates": [
+        "https://www.lislecorp.com/media/products/35440_4A5CD6F297230.jpg?dimensions=486x402&format=webp",
+        "https://www.lislecorp.com/media/products/35440_4A5CD6F297230.jpg?dimensions=183x151&format=webp"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81MyIMHFH9L._AC_SL1500_.jpg",
+      "sourcePage": "https://www.lislecorp.com/specialty-tools/body/body-trim-tool-set-3-piece",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "ullman-devices-ht-2",
+      "manufacturerCandidates": [
+        "https://ullmandevices.com/cdn/shop/files/HT-2_Main.png?v=1737133482&width=1946",
+        "https://ullmandevices.com/cdn/shop/files/HT-2_extended.png?v=1737133482&width=1946"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/413qQF5bmwL._SL1500_.jpg",
+      "sourcePage": "https://ullmandevices.com/products/ht-2",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "ullman-devices-htc-2",
+      "manufacturerCandidates": [
+        "https://ullmandevices.com/cdn/shop/files/HTC-2-Black_Main.png?v=1739560367&width=416",
+        "https://ullmandevices.com/cdn/shop/files/HTC-2-Black_Main.png?v=1739560367&width=1445"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41vtdVanQTL._SL1000_.jpg",
+      "sourcePage": "https://ullmandevices.com/products/htc-2",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "stanley-33-725",
+      "manufacturerCandidates": [
+        "https://assets.stanleytools.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/33-725_1_1680.webp",
+        "https://assets.stanleytools.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/33-725_2_1680.webp"
+      ],
+      "amazonGalleryCandidate": null,
+      "sourcePage": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    },
+    {
+      "productId": "klein-32500hd",
+      "manufacturerCandidates": [
+        "https://data.kleintools.com/sites/all/product_assets/hires/klein/32500hd_photo_c.jpg"
+      ],
+      "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71V22AU7qqL._AC_SL1500_.jpg",
+      "sourcePage": "https://www.kleintools.com/catalog/multi-bit-nut-drivers/impact-rated-multi-bit-screwdrivernut-driver-11-1",
+      "permissionStatus": "not-established",
+      "permissionEvidence": null,
+      "assetStatus": "source-candidate-needs-visual-and-revision-check",
+      "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+    }
+  ]
+}

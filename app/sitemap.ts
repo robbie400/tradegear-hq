@@ -1,3 +1,4 @@
+import {automotiveEnabled,automotiveProducts} from '@/lib/automotive-catalog';
 import {carpenterFinal25Categories} from '@/lib/carpenter-final25';
 import type { MetadataRoute } from "next";
 import { guides, hubs } from "@/lib/data";
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/how-we-choose/",
     "/privacy/",
     "/apprentice-essentials/",
+    ...(automotiveEnabled ? automotiveProducts.map(p=>`/automotive-mechanics/products/${p.id}/`) : []),
     ...hubs.map((h) => `/${h.slug}/tools/`),
     ...hubs.map((h) => `/${h.slug}/`),
     ...guides.map((g) => `/${g.trade}/${g.slug}/`),

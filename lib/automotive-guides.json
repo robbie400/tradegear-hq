@@ -1,0 +1,245 @@
+[
+  {
+    "id": "C01",
+    "slug": "obd2-code-readers",
+    "title": "Engine & emissions code readers",
+    "answer": "Start with the question the car is asking.",
+    "body": "AL519 and NT301 are dedicated, cable-connected OBDII engine/emissions readers. Innova 5610 and MK900-BT are step-up choices when the work also requires supported system diagnosis or active tests. All four can be considered for engine-code work, but the extra capabilities are only useful when they match the vehicles and jobs you service. Compare readiness checks, live-data viewing and the controls you prefer before paying for functions you will not use.",
+    "caution": "A fault code points to a condition to investigate; it does not prove that a named part needs replacing. Basic OBDII access does not imply ABS, airbag or manufacturer-specific service coverage. Check the exact vehicle and function; the separate scan-tool guide explains the two broader diagnostic options.",
+    "productIds": [
+      "foxwell-nt301",
+      "autel-al519",
+      "innova-5610",
+      "autel-mk900-bt"
+    ]
+  },
+  {
+    "id": "C02",
+    "slug": "diagnostic-scan-tools",
+    "title": "Diagnostic scan tools",
+    "answer": "Handheld diagnosis or a wireless tablet?",
+    "body": "Innova 5610 offers supported active tests in a handheld format; MK900-BT adds a wireless tablet arrangement and documented CAN FD/DoIP support. Choose against the vehicles and procedures you service rather than the largest reset-function count.",
+    "caution": "Check exact year, make, model and required function before ordering. Confirm US activation, subscription renewals, gateway charges and included adapters; battery-test and camera compatibility do not mean those accessories are supplied.",
+    "productIds": [
+      "autel-mk900-bt",
+      "innova-5610"
+    ]
+  },
+  {
+    "id": "C03",
+    "slug": "battery-electrical-test-tools",
+    "title": "Battery & electrical testing",
+    "answer": "A battery tester and a meter answer different questions.",
+    "body": "The SOLAR BA9 assesses supported 12 V starting batteries and charging/starting systems. The Fluke automotive kit gives broader electrical measurement and automotive probes. One does not remove the need for the other when both battery condition and circuit diagnosis are part of the job.",
+    "caution": "Match battery chemistry and starting ratings to the tester. On a meter, consider leads, protective ratings and training together. This guide does not qualify a reader to work on EV high-voltage systems.",
+    "productIds": [
+      "fluke-88v-a-kit",
+      "clore-automotive-ba9"
+    ]
+  },
+  {
+    "id": "C04",
+    "slug": "jump-starters-battery-chargers",
+    "title": "Jump starters & chargers",
+    "answer": "Starting support is different from battery maintenance.",
+    "body": "GB40 provides portable starting assistance for supported 12 V applications. GENIUS5 recharges and maintains compatible batteries using the appropriate mode. A no-start condition still needs diagnosis; repeatedly boosting a faulty vehicle is not a repair.",
+    "caution": "Check engine application, chemistry, condition and connection procedure. For a charger, confirm a suitable US mains supply and charging mode. Add the right leads and safe storage to the working setup.",
+    "productIds": [
+      "noco-gb40",
+      "noco-genius5",
+      "noco-gb70"
+    ]
+  },
+  {
+    "id": "C05",
+    "slug": "mechanic-torque-wrenches",
+    "title": "Torque wrenches",
+    "answer": "Choose a calibrated range for the fastener.",
+    "body": "TRQ50402 covers 20–200 in-lb for smaller specified fasteners. The 3/8-inch GEARWRENCH 85062M covers 10–100 ft-lb, while TRQ52403 extends to 40–300 ft-lb. Choose around service specifications, access and the drive tools you already own. The ranges overlap in places but use different units; buying the largest wrench will not cover every small fastener.",
+    "caution": "The TEKTON selections document dual-direction measurement. GEARWRENCH declares ±3% clockwise accuracy at 20–100% of full scale; do not extend that accuracy claim to every lower setting or reverse-direction use. Confirm the specified unit, direction and sequence. An impact-wrench setting does not establish final torque.",
+    "productIds": [
+      "tekton-trq50402",
+      "tekton-trq52403",
+      "gearwrench-85062m"
+    ]
+  },
+  {
+    "id": "C06",
+    "slug": "mechanic-socket-sets",
+    "title": "Socket sets",
+    "answer": "Separate hand-drive coverage from impact use.",
+    "body": "The two chrome hand-drive sets cover different drive sizes and access needs. SUNEX 2569 provides 1/2-inch metric impact coverage, while GEARWRENCH 84918N adds 3/8-inch articulating impact sockets for obstructions. Compare the size list, depth, drive size and straight versus angled approach before choosing. A universal joint takes more space than an ordinary socket and is not automatically the best fit.",
+    "caution": "SUNEX skips several sizes between its minimum and maximum. A range label alone does not establish every included size. Chrome hand-drive sockets and bit sockets must not be assumed suitable for powered impact use.",
+    "productIds": [
+      "gearwrench-80300p",
+      "sunex-2569",
+      "tekton-skt15311",
+      "gearwrench-84918n"
+    ]
+  },
+  {
+    "id": "C07",
+    "slug": "mechanic-hand-tools",
+    "title": "Mechanic hand tools & apprentice essentials",
+    "answer": "Build a useful kit by function.",
+    "body": "Screwdrivers, pliers, access tools and measuring tools do different work. This is a starter-tool overview with separate functional groups, not a ranking of fifteen interchangeable products. Start with the school or employer list and check what is already in the socket kits.",
+    "caution": "The fixed-blade driver set and compact multi-bit driver overlap partly. Extensions may already be supplied with a socket kit. Specialist pry bars, picks and trim tools are useful when they prevent an unsuitable screwdriver being used to lever or extract a component.",
+    "productIds": [
+      "tekton-sbh00224",
+      "tekton-sha91011",
+      "gearwrench-80066h",
+      "klein-d203-8",
+      "klein-d228-8",
+      "irwin-502l3",
+      "knipex-8701250",
+      "gearwrench-80742",
+      "mayhew-61366",
+      "lisle-31750",
+      "lisle-35440",
+      "klein-32500hd",
+      "stanley-33-725"
+    ]
+  },
+  {
+    "id": "C08",
+    "slug": "mechanic-wrench-sets",
+    "title": "Metric combination & flare-nut wrenches",
+    "answer": "Use the end style that fits the connection.",
+    "body": "The 22-piece 81916 provides conventional metric combination wrenches. The 16-piece 9416 trades some size coverage for 72-tooth ratcheting box ends that work with a 5° swing. The six-piece 81906 is for suitable metric flare-nut connections. Compare the end style, actual sizes and clearance; these sets can complement one another rather than replacing each other.",
+    "caution": "Match the actual fitting size, access angle and material. Keep SAE requirements separate. Do not use serrated gripping pliers as an automatic substitute for a correctly fitting line wrench.",
+    "productIds": [
+      "gearwrench-81916",
+      "gearwrench-81906",
+      "gearwrench-9416"
+    ]
+  },
+  {
+    "id": "C09",
+    "slug": "cordless-mechanic-tools",
+    "title": "Cordless impact wrench & ratchet",
+    "answer": "Breakaway work and fastener run-down are different jobs.",
+    "body": "Milwaukee 2962-20 and DEWALT DCF891B are mid-range 1/2-inch impact-wrench alternatives on different battery platforms. Milwaukee 2567-20 is a powered ratchet for suitable fastener run-down and access work. Compare owned batteries, anvil retention, sockets and the space around the fastener before torque headlines. The ratchet is not an equivalent choice for impact removal work.",
+    "caution": "Both offers are tool-only. Include batteries, charging, appropriate sockets and final torque control in the purchase plan. Manufacturer breakaway figures are conditional claims, not our tests or tightening instructions.",
+    "productIds": [
+      "milwaukee-2962-20",
+      "milwaukee-2567-20",
+      "dewalt-dcf891b"
+    ]
+  },
+  {
+    "id": "C10",
+    "slug": "brake-service-tools",
+    "title": "Brake service tools",
+    "answer": "Measure, retract and bleed with the correct method.",
+    "body": "The lining gauge screens accessible pad or lining thickness, the 25750 pushes compatible pistons back, and the 28600 rotates supported screw-in pistons. MV6840 serves a different operation: pressure bleeding with the correct reservoir adapter and vehicle procedure. Identify the brake design and task first; a piston tool, thickness gauge and bleeder are not ranked as substitutes.",
+    "caution": "Check whether the vehicle uses push-back, screw-in or electronic parking-brake retraction. Confirm adapters, fluid and pressure limits. Some ABS procedures require supported scan-tool functions and the vehicle service instructions.",
+    "productIds": [
+      "lisle-25750",
+      "lisle-81850",
+      "mityvac-mv6840",
+      "lisle-28600"
+    ]
+  },
+  {
+    "id": "C12",
+    "slug": "floor-jacks-jack-stands",
+    "title": "Floor jacks & jack stands",
+    "answer": "Lifting equipment and support equipment have separate roles.",
+    "body": "The aluminium Arcan A20019 and steel SUNEX 6602LP are two lifting choices with different capacity, entry height, lift range and handling considerations. SUNEX states a 2.75–24 inch range; Arcan states 3.75–18 inches. Check the approved lift point and chassis reach before comparing headline capacity. ESCO stands perform the separate support role once the vehicle has been suitably raised.",
+    "caution": "ESCO states 3 tons per stand and requires a pair configuration for a vehicle end. That is not a universal six-ton vehicle recommendation. Use the vehicle lifting instructions, suitable saddles and a hard, level supporting surface.",
+    "productIds": [
+      "arcan-a20019",
+      "esco-10498-pair",
+      "sunex-6602lp"
+    ]
+  },
+  {
+    "id": "C13",
+    "slug": "oil-drain-filling-equipment",
+    "title": "Oil draining & clean filling",
+    "answer": "Keep dirty-fluid capture separate from clean dispensing.",
+    "body": "A broad drain tub captures fluid released from an appropriate drain point. MV7201 offers manual extraction and dispensing where the vehicle procedure, access tube and fluid permit it. The six-quart Lisle dispenser is for clean filling. Choose the collection method and clean handling equipment around the actual service procedure; an extractor is not universal permission to omit a drain or filter step.",
+    "caution": "Protect against fluid temperature, spills and contamination. Match containers to the fluid and disposal route. Neither product establishes whether a particular vehicle can safely be serviced at a chosen lifting height.",
+    "productIds": [
+      "lisle-17922",
+      "lisle-19752",
+      "mityvac-mv7201"
+    ]
+  },
+  {
+    "id": "C14",
+    "slug": "oil-filter-tools",
+    "title": "Oil-filter wrenches & cap sockets",
+    "answer": "Identify the filter design before choosing the tool.",
+    "body": "Lisle 63600 covers 2-1/2 to 3-1/8 inch spin-on filters; 63250 covers 3-1/8 to 3-7/8 inch filters. Both need enough room for the jaws and drive tool. The 13270 low-profile socket set serves suitable filter caps instead. Identify the filter or cap design and exact geometry before selecting by diameter or set size alone.",
+    "caution": "The 63600 is removal-only. Install the replacement filter or housing using the manufacturer procedure and any specified torque. Confirm engine, housing material, access and socket size rather than relying on a broad vehicle-family claim.",
+    "productIds": [
+      "lisle-63600",
+      "lisle-13270",
+      "lisle-63250"
+    ]
+  },
+  {
+    "id": "C16",
+    "slug": "tyre-pressure-tools",
+    "title": "Tyre-pressure gauges & inflators",
+    "answer": "A portable pressure check or a workshop air connection?",
+    "body": "Milton S-921 is a compact 5–50 psi gauge. Astro 3018 measures, inflates and deflates with a suitable compressed-air supply. Choose for the required pressure range and where the checks happen.",
+    "caution": "Astro’s 0.1 psi display resolution is not its accuracy: the manual gives wider tolerances. Use the vehicle cold-pressure specification rather than the tyre sidewall maximum. Check the chuck and hose condition before use.",
+    "productIds": [
+      "astro-pneumatic-3018",
+      "milton-s-921"
+    ]
+  },
+  {
+    "id": "C17",
+    "slug": "spark-plug-clearance-tools",
+    "title": "Spark-plug access & clearance gauges",
+    "answer": "Check the exact plug size and measuring range.",
+    "body": "GEARWRENCH 80601 offers magnetic swivel access in 9/16 and 5/8-inch sizes. Lisle 68100 measures supported clearances with graduated blades. These do not form a universal engine-testing or ignition-service kit.",
+    "caution": "The socket set does not supply 13/16-inch or exact 14 mm coverage, and 9/16 inch is not identical to 14 mm. The feeler set ends at 0.035 inch; a course or procedure requiring 0.040 inch needs further coverage.",
+    "productIds": [
+      "gearwrench-80601",
+      "lisle-68100"
+    ]
+  },
+  {
+    "id": "C18",
+    "slug": "mechanic-inspection-tools",
+    "title": "Inspection lights, mirrors & pickup tools",
+    "answer": "Choose for visibility, access or retrieval.",
+    "body": "A penlight works close to components, an underhood bar lights a larger working area, a mirror changes the viewing angle, and a pickup tool retrieves suitable metal objects. Buying a brighter light does not solve every blocked sightline.",
+    "caution": "Check the underhood mounting span and battery arrangement. A magnetic pickup’s lift claim is not a safe lifting-equipment rating. Do not insert tools into moving machinery or use inspection access as a substitute for necessary isolation.",
+    "productIds": [
+      "streamlight-66118",
+      "milwaukee-2125-20",
+      "ullman-devices-ht-2",
+      "ullman-devices-htc-2"
+    ]
+  },
+  {
+    "id": "C19",
+    "slug": "portable-mechanic-toolbox",
+    "title": "Mechanic toolboxes & service carts",
+    "answer": "Carry a small kit or keep a rolling selection beside the bay?",
+    "body": "The GEARWRENCH 83151 is a portable three-drawer steel chest for a smaller working kit. SUNEX 8057XTR is a larger six-drawer rolling service cart with a locking top compartment. Decide what must travel with you, what stays in the workshop and which tools need to remain close to the job. Loaded weight, floor conditions and access to drawers matter as much as storage volume.",
+    "caution": "A cart is not a carry box. Check freight delivery, assembly, floor space and the manufacturer’s cart and drawer load limits before buying rolling storage. Secure tools for transport and lock casters for stationary work.",
+    "productIds": [
+      "gearwrench-83151",
+      "sunex-8057xtr"
+    ]
+  },
+  {
+    "id": "C20",
+    "slug": "workshop-protective-equipment",
+    "title": "Workshop protective equipment",
+    "answer": "Select for the assessed hazard.",
+    "body": "Clear safety glasses, headband earmuffs and wheel chocks protect against different hazards. They are grouped by their role in a workshop; none makes a work area safe on its own or replaces the required procedure.",
+    "caution": "Check fit, markings, exposure, ground conditions and the vehicle task. US NRR is different from overseas SNR ratings. Chocks do not replace stands, and a pair’s dimensions do not establish an unrestricted vehicle or slope rating.",
+    "productIds": [
+      "dewalt-dpg94-1d",
+      "3m-peltor-x4a",
+      "maxxhaul-70472"
+    ]
+  }
+]

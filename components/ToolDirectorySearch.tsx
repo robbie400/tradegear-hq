@@ -36,7 +36,7 @@ function EssentialsCarousel({items}:{items:Item[]}){
     <button type="button" className={`${styles.carouselArrow} ${styles.next}`} onClick={()=>move(1)} disabled={edges.end} aria-label="Next apprentice essentials" aria-controls="essentials-track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
   </div>;
 }
-export function ToolDirectorySearch({items,groups}:{items:Item[];groups:{slug:string;name:string}[]}){
+export function ToolDirectorySearch({items,groups,catalogueHeading="Reviews & comparisons"}:{items:Item[];groups:{slug:string;name:string}[];catalogueHeading?:string}){
   const [query,setQuery]=useState('');
   const results=items.filter(item=>matchesToolSearch(item.searchText,query));
   const essentials=results.filter(item=>item.essential);
@@ -53,7 +53,7 @@ export function ToolDirectorySearch({items,groups}:{items:Item[];groups:{slug:st
       <p className={styles.count} role="status" aria-live="polite" aria-atomic="true">{results.length} {results.length===1?'tool':'tools'}{query.trim() ? ` matching “${query.trim()}”` : ' to browse'}</p>
     </div>
     {!query.trim() && <nav className={styles.groupNav} aria-label="Jump to tool group">{essentials.length>0 && <a href="#tools-apprentice-essentials">Apprentice Essentials</a>}{groups.map(group=><a key={group.slug} href={`#tools-${group.slug}`}>{group.name}</a>)}</nav>}
-    {catalogue.length>0 && <><h2 className={styles.catalogueHeading}>Reviews &amp; comparisons</h2><div className="allToolsGrid">{catalogue.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div></>}
+    {catalogue.length>0 && <><h2 className={styles.catalogueHeading}>{catalogueHeading}</h2><div className="allToolsGrid">{catalogue.map(item=><div key={item.id} className={styles.cardWrapper}>{item.card}</div>)}</div></>}
     {essentials.length>0 && <section id="tools-apprentice-essentials" className={styles.essentials} aria-labelledby="essentials-heading">
       <div className={styles.sectionHeading}><div><span className={styles.kicker}>Start with the basics</span><h2 id="essentials-heading">Apprentice Essentials</h2></div><span className={styles.essentialCount}>{essentials.length} {essentials.length===1?'essential':'essentials'}</span></div>
       <p className={styles.sectionIntro}>Small tools for the everyday kit. Check your employer’s list and what you already own before buying.</p>

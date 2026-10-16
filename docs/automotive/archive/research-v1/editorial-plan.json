@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "project": "TradeGear HQ",
+    "trade": "Automotive Mechanics",
+    "proposedTradeSlug": "automotive-mechanics",
+    "date": "2026-10-15",
+    "phase": "Candidate shortlist and editorial structure for approval; not publication-ready product data.",
+    "targetProducts": 100,
+    "batches": [
+      {
+        "batch": 1,
+        "products": 50
+      },
+      {
+        "batch": 2,
+        "products": 50
+      }
+    ],
+    "existingRecordsToReuse": [
+      "streamlight-66118",
+      "dewalt-dpg94-1c"
+    ],
+    "newCanonicalCandidates": 98,
+    "scope": "Research only. No website routes, affiliate helper, existing ratings, reviews or Toolkit Builder modified.",
+    "verificationSummary": {
+      "manufacturerModelSourceLocated": 59,
+      "manufacturerCatalogueOrFamilySourceLocated": 40,
+      "existingRecordRecheckRequired": 1,
+      "newAmazonListingsVerified": 0,
+      "previouslyMatchedAmazonListings": 1,
+      "knownAmazonMismatches": 1,
+      "newRatingSnapshots": 0,
+      "newApprovedQuotes": 0,
+      "publicationReadyProducts": 0
+    },
+    "categories": [
+      {
+        "category": "Diagnostics",
+        "total": 7,
+        "batch1": 7,
+        "batch2": 0
+      },
+      {
+        "category": "Electrical",
+        "total": 6,
+        "batch1": 6,
+        "batch2": 0
+      },
+      {
+        "category": "Torque",
+        "total": 6,
+        "batch1": 6,
+        "batch2": 0
+      },
+      {
+        "category": "Sockets",
+        "total": 7,
+        "batch1": 7,
+        "batch2": 0
+      },
+      {
+        "category": "Ratchets",
+        "total": 5,
+        "batch1": 5,
+        "batch2": 0
+      },
+      {
+        "category": "Wrenches",
+        "total": 5,
+        "batch1": 5,
+        "batch2": 0
+      },
+      {
+        "category": "Power tools",
+        "total": 6,
+        "batch1": 6,
+        "batch2": 0
+      },
+      {
+        "category": "Brake tools",
+        "total": 6,
+        "batch1": 6,
+        "batch2": 0
+      },
+      {
+        "category": "Suspension",
+        "total": 6,
+        "batch1": 0,
+        "batch2": 6
+      },
+      {
+        "category": "Lifting",
+        "total": 6,
+        "batch1": 0,
+        "batch2": 6
+      },
+      {
+        "category": "Fluids",
+        "total": 6,
+        "batch1": 0,
+        "batch2": 6
+      },
+      {
+        "category": "Oil filters",
+        "total": 5,
+        "batch1": 0,
+        "batch2": 5
+      },
+      {
+        "category": "Cooling",
+        "total": 5,
+        "batch1": 0,
+        "batch2": 5
+      },
+      {
+        "category": "Tyres and wheels",
+        "total": 5,
+        "batch1": 0,
+        "batch2": 5
+      },
+      {
+        "category": "Engine service",
+        "total": 5,
+        "batch1": 0,
+        "batch2": 5
+      },
+      {
+        "category": "Inspection",
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
+      },
+      {
+        "category": "Storage",
+        "total": 5,
+        "batch1": 0,
+        "batch2": 5
+      },
+      {
+        "category": "Workshop safety",
+        "total": 4,
+        "batch1": 0,
+        "batch2": 4
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "C01",
+      "title": "OBD2 code readers: engine/emissions access versus four-system access",
+      "productIds": [
+        "autel-al519",
+        "autel-al629",
+        "foxwell-nt301"
+      ],
+      "criteria": "engine-only versus ABS/SRS/transmission coverage; no promise of universal diagnosis"
+    },
+    {
+      "id": "C02",
+      "title": "Bidirectional scan tools: handheld, wired tablet or wireless tablet",
+      "productIds": [
+        "autel-mx808s",
+        "autel-mk900-bt",
+        "innova-5610",
+        "innova-5160rs"
+      ],
+      "criteria": "VIN-level active tests, subscription terms, region, secure gateway, CAN FD and DoIP"
+    },
+    {
+      "id": "C03",
+      "title": "Automotive electrical test tools: meter, powered probe or battery tester",
+      "productIds": [
+        "fluke-88v-a-kit",
+        "power-probe-pp3ls01",
+        "clore-automotive-ba9"
+      ],
+      "criteria": "complementary diagnostic roles; never present these as equivalent substitutes"
+    },
+    {
+      "id": "C04",
+      "title": "Jump starter versus battery charger: choose for the fault",
+      "productIds": [
+        "noco-gb40",
+        "noco-gb70",
+        "noco-genius5"
+      ],
+      "criteria": "starting support versus recharging; battery chemistry, voltage, environment and package"
+    },
+    {
+      "id": "C05",
+      "title": "Mechanic torque wrenches: inch-pound, service and wheel ranges",
+      "productIds": [
+        "tekton-24320",
+        "tekton-trq21101",
+        "tekton-24335",
+        "tekton-24340",
+        "gearwrench-85062m",
+        "gearwrench-85077"
+      ],
+      "criteria": "split recommendations by range, direction and fastener; no universal wheel-torque setting"
+    },
+    {
+      "id": "C06",
+      "title": "Mechanic socket sets: hand drive, impact and universal access",
+      "productIds": [
+        "gearwrench-80300p",
+        "gearwrench-80550p",
+        "gearwrench-84935n",
+        "gearwrench-84918n",
+        "sunex-2569",
+        "sunex-3342",
+        "tekton-skt15311"
+      ],
+      "criteria": "subtables for hand-drive and impact sockets; exact kit contents, skips, drive and reach"
+    },
+    {
+      "id": "C07",
+      "title": "Ratchets, extensions and breaker bars for service access",
+      "productIds": [
+        "gearwrench-81206t",
+        "gearwrench-81264t",
+        "gearwrench-81212xp",
+        "tekton-sbh00224",
+        "tekton-sha91005"
+      ],
+      "criteria": "complementary roles and access; powered and hand-drive limitations"
+    },
+    {
+      "id": "C08",
+      "title": "Mechanic wrench sets: metric, SAE, flare-nut and long reach",
+      "productIds": [
+        "gearwrench-9416",
+        "gearwrench-9533n",
+        "gearwrench-81916",
+        "gearwrench-81906",
+        "gearwrench-85998"
+      ],
+      "criteria": "do not label SAE sets suitable for metric fittings; compare within role"
+    },
+    {
+      "id": "C09",
+      "title": "Cordless mechanic tools: stubby, mid/high torque and powered ratchets",
+      "productIds": [
+        "milwaukee-2967-20",
+        "milwaukee-2962-20",
+        "milwaukee-2562-20",
+        "milwaukee-2567-20",
+        "dewalt-dcf891b",
+        "dewalt-dcf900b"
+      ],
+      "criteria": "separate tool classes and battery platforms; complete usable kit cost rather than bare-tool price"
+    },
+    {
+      "id": "C10",
+      "title": "Brake service tools: piston retraction, lining checks and bleeding",
+      "productIds": [
+        "lisle-25750",
+        "lisle-24300",
+        "lisle-81850",
+        "lisle-28600",
+        "mityvac-mv6840",
+        "mityvac-mv6830"
+      ],
+      "criteria": "task-led groups; EPB procedure and ABS bleeding support separate"
+    },
+    {
+      "id": "C11",
+      "title": "Suspension and steering tools by service operation",
+      "productIds": [
+        "otc-7249",
+        "otc-6295",
+        "otc-6297",
+        "otc-6575",
+        "otc-4579",
+        "otc-6007"
+      ],
+      "criteria": "vehicle and adapter compatibility, press versus separator versus puller; exclude generic spring-compressor advice"
+    },
+    {
+      "id": "C12",
+      "title": "Floor jacks and jack stands: clearance, support and capacity basis",
+      "productIds": [
+        "arcan-a20018",
+        "sunex-6602lp",
+        "torin-big-red-t43002",
+        "torin-big-red-t43004",
+        "esco-10498-pair",
+        "pro-lift-t-6903d"
+      ],
+      "criteria": "separate lifting from supporting; exact manual, pair/individual capacity, saddle and recall check"
+    },
+    {
+      "id": "C13",
+      "title": "Fluid service equipment: extraction, filling and containment",
+      "productIds": [
+        "mityvac-mv7201",
+        "mityvac-mv7300",
+        "mityvac-mv6412a",
+        "lisle-17922",
+        "lisle-19752",
+        "lisle-19722"
+      ],
+      "criteria": "fluid-specific materials, temperatures, contamination control and exact adapters"
+    },
+    {
+      "id": "C14",
+      "title": "Oil filter tools: spin-on wrenches versus cartridge cap tools",
+      "productIds": [
+        "lisle-63600",
+        "lisle-63250",
+        "motivx-tools-mx2320",
+        "motivx-tools-mx2326",
+        "lisle-13270"
+      ],
+      "criteria": "filter diameter, cap geometry, engine and socket size; current design versus old reviews"
+    },
+    {
+      "id": "C15",
+      "title": "Cooling-system tools: pressure test, vacuum refill and controlled flushing",
+      "productIds": [
+        "lisle-24980",
+        "mityvac-mv4560",
+        "mityvac-mv4533",
+        "otc-7991",
+        "lisle-60900"
+      ],
+      "criteria": "pressure limits and adapters; distinguish finding a fault from filling a system"
+    },
+    {
+      "id": "C16",
+      "title": "Tyre and wheel service tools: pressure, valve cores and TPMS",
+      "productIds": [
+        "astro-pneumatic-3018",
+        "milton-s-506",
+        "milton-s-921",
+        "autel-ts508wf",
+        "lisle-18810"
+      ],
+      "criteria": "gauge resolution versus accuracy; exact pressure range and TPMS vehicle coverage"
+    },
+    {
+      "id": "C17",
+      "title": "Engine test tools: compression, leakage, vacuum and fuel pressure",
+      "productIds": [
+        "otc-5606",
+        "otc-5609",
+        "otc-5613",
+        "otc-5630",
+        "lisle-51450"
+      ],
+      "criteria": "supported engines/adapters and diagnostic limits; distinguish low-pressure fuel from GDI/diesel"
+    },
+    {
+      "id": "C18",
+      "title": "Mechanic inspection lights and cameras by access need",
+      "productIds": [
+        "streamlight-66118",
+        "streamlight-68750",
+        "streamlight-74751",
+        "milwaukee-2125-20",
+        "bosch-gic5-27c"
+      ],
+      "criteria": "penlight, hazardous-location flashlight, rechargeable light, underhood bar and camera are distinct roles"
+    },
+    {
+      "id": "C19",
+      "title": "Mechanic storage: portable box, service cart or rolling workstation",
+      "productIds": [
+        "gearwrench-83151",
+        "gearwrench-83169",
+        "sunex-8057xtr",
+        "sunex-8019b",
+        "gearwrench-gwmp100"
+      ],
+      "criteria": "weight, tool retention, drawer loads, footprint, mobility and delivered package"
+    },
+    {
+      "id": "C20",
+      "title": "Workshop safety equipment: select for the assessed hazard",
+      "productIds": [
+        "dewalt-dpg94-1c",
+        "3m-peltor-x4a",
+        "first-alert-pro5",
+        "maxxhaul-70472"
+      ],
+      "criteria": "task-specific protection, US markings, fit, extinguisher siting and chock limits; no kit makes all work safe"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "W01",
+      "title": "Automotive apprentice starter toolkit",
+      "slug": "automotive-apprentice-starter-toolkit",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C18",
+        "C20"
+      ],
+      "originalValue": "Stage purchases against employer requirements and tools already owned. Mark alternatives and optional upgrades; do not recommend buying every listed model.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W02",
+      "title": "Vehicle diagnostics buying plan",
+      "slug": "vehicle-diagnostics-toolkit",
+      "comparisonIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C18"
+      ],
+      "originalValue": "Choose functions against the vehicles serviced; include live-data interpretation, service-information access and update costs.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W03",
+      "title": "Battery and no-start electrical diagnosis",
+      "slug": "battery-no-start-diagnostics-toolkit",
+      "comparisonIds": [
+        "C03",
+        "C04",
+        "C18"
+      ],
+      "originalValue": "Distinguish testing, starting support, charging and fault diagnosis. Restrict to documented conventional low-voltage applications.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W04",
+      "title": "Wheel removal and refitting equipment plan",
+      "slug": "wheel-removal-refitting-toolkit",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C07",
+        "C09",
+        "C12",
+        "C16",
+        "C20"
+      ],
+      "originalValue": "Lifting/support and vehicle torque requirements remain prerequisites. Do not claim impact settings establish final wheel torque.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W05",
+      "title": "Brake service toolkit",
+      "slug": "brake-service-toolkit",
+      "comparisonIds": [
+        "C02",
+        "C05",
+        "C06",
+        "C08",
+        "C10",
+        "C12",
+        "C18",
+        "C20"
+      ],
+      "originalValue": "Separate push-back, screw-in and EPB calipers; match bleeding method and adapters. Manufacturer procedures remain authoritative.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W06",
+      "title": "Routine servicing and oil-change toolkit",
+      "slug": "routine-service-oil-change-toolkit",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C12",
+        "C13",
+        "C14",
+        "C18",
+        "C20"
+      ],
+      "originalValue": "Engine/filter-specific tools, clean filling, capture and disposal. Clearly distinguish filter wrench types and clean/used fluid containers.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W07",
+      "title": "Suspension and steering service equipment",
+      "slug": "suspension-steering-toolkit",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C07",
+        "C09",
+        "C11",
+        "C12",
+        "C20"
+      ],
+      "originalValue": "Vehicle adapter coverage and stored-energy hazards; no generic coil-spring or strut-disassembly instructions.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W08",
+      "title": "Cooling-system diagnosis and refill toolkit",
+      "slug": "cooling-system-service-toolkit",
+      "comparisonIds": [
+        "C13",
+        "C15",
+        "C18",
+        "C20"
+      ],
+      "originalValue": "Separate pressure testing, leak investigation, flushing and vacuum refill; use cool-system and vehicle-specific procedures.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W09",
+      "title": "Engine mechanical diagnosis toolkit",
+      "slug": "engine-mechanical-diagnostics-toolkit",
+      "comparisonIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C17",
+        "C18"
+      ],
+      "originalValue": "Select tests by the diagnostic question, engine type and adapters; state what results do and do not establish.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    },
+    {
+      "id": "W10",
+      "title": "Workshop and mobile-mechanic setup",
+      "slug": "mechanic-workshop-mobile-setup",
+      "comparisonIds": [
+        "C03",
+        "C04",
+        "C09",
+        "C12",
+        "C13",
+        "C18",
+        "C19",
+        "C20"
+      ],
+      "originalValue": "Compare existing shop infrastructure with mobile requirements: power, air, lighting, secure transport, surfaces and storage.",
+      "publicationGate": "Only publish populated verified links; identify necessary equipment outside the first batch."
+    }
+  ]
+}

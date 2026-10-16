@@ -1,0 +1,1164 @@
+{
+  "autel-mk900-bt": [
+    {
+      "label": "Display and operating system",
+      "value": "8-inch Android 11 tablet"
+    },
+    {
+      "label": "Vehicle interface",
+      "value": "MaxiVCI V150 wireless vehicle interface"
+    },
+    {
+      "label": "Communication protocols",
+      "value": "CAN FD and DoIP support"
+    },
+    {
+      "label": "Included update period",
+      "value": "Manufacturer store states one year of updates"
+    },
+    {
+      "label": "Display resolution",
+      "value": "1280 × 800"
+    },
+    {
+      "label": "Memory and storage",
+      "value": "4 GB RAM; 64 GB ROM"
+    },
+    {
+      "label": "Processor",
+      "value": "Quad-core 1.8 GHz"
+    },
+    {
+      "label": "Battery",
+      "value": "3.7 V / 7700 mAh lithium polymer"
+    },
+    {
+      "label": "Standard package",
+      "value": "Tablet, V150, USB-C cable, adapter, cloth, quick guide, package list and case"
+    },
+    {
+      "label": "Optional bundles",
+      "value": "BT506 and MV108S are separate selections"
+    }
+  ],
+  "innova-5610": [
+    {
+      "label": "Diagnostic scope",
+      "value": "Handheld OBD2 and supported OEM-system diagnostics"
+    },
+    {
+      "label": "Active commands",
+      "value": "Supported bidirectional active tests"
+    },
+    {
+      "label": "Data",
+      "value": "OBD2 and OEM live-data streams"
+    },
+    {
+      "label": "Update policy",
+      "value": "Manufacturer states free updates and no subscriptions"
+    }
+  ],
+  "foxwell-nt301": [
+    {
+      "label": "Display",
+      "value": "2.8-inch TFT colour display"
+    },
+    {
+      "label": "Diagnostic scope",
+      "value": "Engine/emissions OBDII/EOBD code reading and clearing"
+    },
+    {
+      "label": "Readiness controls",
+      "value": "I/M readiness shortcut keys"
+    }
+  ],
+  "fluke-88v-a-kit": [
+    {
+      "label": "Maximum voltage",
+      "value": "Maximum AC/DC voltage 1000 V"
+    },
+    {
+      "label": "Measurement category",
+      "value": "CAT III 1000 V / CAT IV 600 V manufacturer rating"
+    },
+    {
+      "label": "Manufacturer kit part",
+      "value": "Manufacturer kit part 2117440"
+    },
+    {
+      "label": "Kit accessories",
+      "value": "Manufacturer lists test leads, probes, clips, RPM pickup, temperature probe, magnetic hanger and case"
+    }
+  ],
+  "clore-automotive-ba9": [
+    {
+      "label": "Battery voltage",
+      "value": "12 V starting-battery tester"
+    },
+    {
+      "label": "Test range",
+      "value": "40–1200 CCA test range"
+    },
+    {
+      "label": "Operating voltage",
+      "value": "7–15 V operating range"
+    },
+    {
+      "label": "Supported battery types",
+      "value": "Flooded, flat/spiral AGM and gel starting batteries"
+    }
+  ],
+  "noco-gb40": [
+    {
+      "label": "System voltage",
+      "value": "12 V jump starter"
+    },
+    {
+      "label": "Manufacturer current claim",
+      "value": "1000 A manufacturer starting-current claim"
+    },
+    {
+      "label": "Engine application",
+      "value": "Manufacturer applications up to 6.0 L petrol / 3.0 L diesel"
+    },
+    {
+      "label": "Additional functions",
+      "value": "Integrated light and USB power functions"
+    }
+  ],
+  "noco-genius5": [
+    {
+      "label": "Charge output",
+      "value": "5 A charger"
+    },
+    {
+      "label": "Lead-acid modes",
+      "value": "6 V / 12 V lead-acid modes"
+    },
+    {
+      "label": "Lithium mode",
+      "value": "12 V lithium charging mode for compatible batteries"
+    },
+    {
+      "label": "Charging features",
+      "value": "Maintenance and temperature-compensated charging"
+    }
+  ],
+  "tekton-trq50402": [
+    {
+      "label": "Drive",
+      "value": "1/4-inch square drive"
+    },
+    {
+      "label": "Marked range",
+      "value": "20–200 in-lb range"
+    },
+    {
+      "label": "Ratchet",
+      "value": "90-tooth head, 4-degree swing"
+    },
+    {
+      "label": "Measuring directions",
+      "value": "Clockwise and counterclockwise measuring"
+    },
+    {
+      "label": "Manufacturer accuracy",
+      "value": "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+    }
+  ],
+  "tekton-trq52403": [
+    {
+      "label": "Drive",
+      "value": "1/2-inch square drive"
+    },
+    {
+      "label": "Marked range",
+      "value": "40–300 ft-lb range"
+    },
+    {
+      "label": "Ratchet",
+      "value": "90-tooth head, 4-degree swing"
+    },
+    {
+      "label": "Measuring directions",
+      "value": "Clockwise and counterclockwise measuring"
+    },
+    {
+      "label": "Manufacturer accuracy",
+      "value": "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+    },
+    {
+      "label": "Scale",
+      "value": "Single unit: ft-lb; 2 ft-lb increments"
+    },
+    {
+      "label": "Calibration test points",
+      "value": "40, 180 and 300 ft-lb"
+    },
+    {
+      "label": "Overall length",
+      "value": "26.1 inches"
+    },
+    {
+      "label": "Weight",
+      "value": "3.59 lb"
+    },
+    {
+      "label": "Standards listed",
+      "value": "ISO 6789-1:2017; ASME B107.300-2021"
+    },
+    {
+      "label": "Included items",
+      "value": "Case, manual, serialized certificate; 1/2-to-3/8-inch reducer"
+    }
+  ],
+  "gearwrench-80300p": [
+    {
+      "label": "Piece count",
+      "value": "51 pieces"
+    },
+    {
+      "label": "Drive and use",
+      "value": "1/4-inch hand drive"
+    },
+    {
+      "label": "Ratchet",
+      "value": "120XP ratchet with 3-degree swing"
+    },
+    {
+      "label": "Socket types",
+      "value": "Standard and deep SAE/metric sockets"
+    },
+    {
+      "label": "Storage",
+      "value": "Blow-moulded case"
+    }
+  ],
+  "sunex-2569": [
+    {
+      "label": "Piece count",
+      "value": "43 pieces"
+    },
+    {
+      "label": "Drive and use",
+      "value": "1/2-inch impact drive"
+    },
+    {
+      "label": "Socket types",
+      "value": "Standard and deep six-point sockets"
+    },
+    {
+      "label": "Metric sizes",
+      "value": "Sizes 9–24, 26, 27 and 30 mm"
+    },
+    {
+      "label": "Accessories",
+      "value": "Includes universal joint, extensions and case"
+    }
+  ],
+  "tekton-skt15311": [
+    {
+      "label": "Piece count",
+      "value": "73 pieces"
+    },
+    {
+      "label": "Drive and use",
+      "value": "3/8-inch hand drive"
+    },
+    {
+      "label": "Socket types",
+      "value": "Six-point shallow and deep sockets"
+    },
+    {
+      "label": "Size coverage",
+      "value": "SAE 1/4–1 inch and metric 6–24 mm"
+    },
+    {
+      "label": "Accessories",
+      "value": "Includes ratchet, accessories and case"
+    }
+  ],
+  "tekton-sbh00224": [
+    {
+      "label": "Drive",
+      "value": "1/2-inch square drive"
+    },
+    {
+      "label": "Length",
+      "value": "24-inch overall length"
+    },
+    {
+      "label": "Head movement",
+      "value": "230-degree pivoting head"
+    },
+    {
+      "label": "Head design",
+      "value": "External-head design with serviceable components"
+    }
+  ],
+  "tekton-sha91011": [
+    {
+      "label": "Drive and use",
+      "value": "3/8-inch hand drive"
+    },
+    {
+      "label": "Lengths",
+      "value": "Lengths 1, 3, 6 and 10 inches"
+    },
+    {
+      "label": "Grip",
+      "value": "Knurled grip bands"
+    },
+    {
+      "label": "Connection detail",
+      "value": "Four detent grooves at drive engagement"
+    }
+  ],
+  "gearwrench-81916": [
+    {
+      "label": "Set format",
+      "value": "22 long-pattern wrenches"
+    },
+    {
+      "label": "Box profile",
+      "value": "12-point box ends"
+    },
+    {
+      "label": "Box offset",
+      "value": "15-degree box-end offset"
+    },
+    {
+      "label": "Sizes",
+      "value": "Sizes 6–24, 27, 30 and 32 mm"
+    },
+    {
+      "label": "Storage",
+      "value": "Tool roll"
+    }
+  ],
+  "gearwrench-81906": [
+    {
+      "label": "Set format",
+      "value": "Six double-ended wrenches"
+    },
+    {
+      "label": "Size pairs",
+      "value": "Pairs 9×11, 10×12, 13×14, 15×17, 16×18 and 19×21 mm"
+    },
+    {
+      "label": "Application",
+      "value": "For access around line fittings"
+    }
+  ],
+  "milwaukee-2962-20": [
+    {
+      "label": "Anvil",
+      "value": "1/2-inch friction-ring anvil"
+    },
+    {
+      "label": "Battery platform",
+      "value": "M18 battery platform"
+    },
+    {
+      "label": "Manufacturer breakaway claim",
+      "value": "Manufacturer claims up to 650 ft-lb breakaway torque"
+    },
+    {
+      "label": "Modes",
+      "value": "Four operating modes"
+    },
+    {
+      "label": "Package",
+      "value": "Bare-tool configuration"
+    }
+  ],
+  "milwaukee-2567-20": [
+    {
+      "label": "Drive",
+      "value": "3/8-inch anvil"
+    },
+    {
+      "label": "Battery platform",
+      "value": "M12 battery platform"
+    },
+    {
+      "label": "Listed speed",
+      "value": "0–450 rpm"
+    },
+    {
+      "label": "Package",
+      "value": "Bare-tool configuration"
+    }
+  ],
+  "lisle-25750": [
+    {
+      "label": "Retraction type",
+      "value": "Compresses two push-back pistons together"
+    },
+    {
+      "label": "Operation",
+      "value": "Hand-operated squeeze mechanism"
+    },
+    {
+      "label": "Load distribution",
+      "value": "Uses the inboard pad to distribute load"
+    }
+  ],
+  "lisle-81850": [
+    {
+      "label": "Gauges and material",
+      "value": "Nine acetal gauges"
+    },
+    {
+      "label": "Access profiles",
+      "value": "Straight and offset access"
+    },
+    {
+      "label": "Thicknesses",
+      "value": "Thicknesses 2, 2, 3, 4, 5, 6, 8, 10 and 12 mm"
+    },
+    {
+      "label": "Lowest-size profiles",
+      "value": "Two 2 mm access profiles"
+    }
+  ],
+  "mityvac-mv6840": [
+    {
+      "label": "Operation",
+      "value": "Manual-pump pressure dispenser"
+    },
+    {
+      "label": "Reservoir capacity",
+      "value": "1.2 US gallon / 5 L capacity"
+    },
+    {
+      "label": "Adapter package",
+      "value": "Seven master-cylinder adapters in MVA6850 kit"
+    },
+    {
+      "label": "Pressure controls",
+      "value": "Pressure gauge and manual relief valve"
+    }
+  ],
+  "arcan-a20019": [
+    {
+      "label": "Lifting capacity",
+      "value": "3 US ton / 6000 lb lifting capacity"
+    },
+    {
+      "label": "Lift range",
+      "value": "3.75–18 inch lift range"
+    },
+    {
+      "label": "Construction",
+      "value": "Dual-pump aluminium construction"
+    },
+    {
+      "label": "Manufacturer weight",
+      "value": "56 lb manufacturer weight"
+    }
+  ],
+  "esco-10498-pair": [
+    {
+      "label": "Package and saddles",
+      "value": "Two stands with rubber flat-top saddles"
+    },
+    {
+      "label": "Manufacturer capacity label",
+      "value": "Manufacturer rating 3 tons per stand"
+    },
+    {
+      "label": "Height range",
+      "value": "Height range 13.2–21.5 inches"
+    },
+    {
+      "label": "Adjustment",
+      "value": "Ten pin-locked height positions"
+    },
+    {
+      "label": "Base footprint",
+      "value": "12 × 12 inches (manual)"
+    },
+    {
+      "label": "Pin retention",
+      "value": "Chained height pin with securing linchpin"
+    },
+    {
+      "label": "Vehicle-end support",
+      "value": "Matching pair locked at equal height; follow current manual"
+    }
+  ],
+  "lisle-17922": [
+    {
+      "label": "Capacity",
+      "value": "30 US quart / 7.5 US gallon capacity"
+    },
+    {
+      "label": "Dimensions",
+      "value": "33×22×8 inch dimensions"
+    },
+    {
+      "label": "Material",
+      "value": "Heavy-duty plastic tub"
+    },
+    {
+      "label": "Handling feature",
+      "value": "Pouring apron for draining and handling"
+    }
+  ],
+  "lisle-19752": [
+    {
+      "label": "Capacity",
+      "value": "6 US quart capacity"
+    },
+    {
+      "label": "Body",
+      "value": "Translucent polyethylene body"
+    },
+    {
+      "label": "Graduations",
+      "value": "Quart and litre graduations"
+    },
+    {
+      "label": "Spout",
+      "value": "Flexible 8-inch red spout"
+    }
+  ],
+  "lisle-63600": [
+    {
+      "label": "Filter diameter",
+      "value": "Fits 2.5–3.125 inch filter diameters"
+    },
+    {
+      "label": "Gripping design",
+      "value": "Steel gripping jaws"
+    },
+    {
+      "label": "Drive",
+      "value": "3/8-inch square drive"
+    },
+    {
+      "label": "Intended operation",
+      "value": "Removal only"
+    }
+  ],
+  "lisle-13270": [
+    {
+      "label": "Socket format",
+      "value": "Seven six-point sockets"
+    },
+    {
+      "label": "Sizes",
+      "value": "Sizes 24, 25, 27, 28, 29, 32 and 36 mm"
+    },
+    {
+      "label": "Drive",
+      "value": "3/8-inch square drive"
+    },
+    {
+      "label": "Application",
+      "value": "For supported oil/fuel filter canisters"
+    }
+  ],
+  "astro-pneumatic-3018": [
+    {
+      "label": "Display",
+      "value": "3.5-inch digital display"
+    },
+    {
+      "label": "Working range",
+      "value": "Manual lists 3–175 psi measuring/working range"
+    },
+    {
+      "label": "Display resolution",
+      "value": "0.1 psi reading resolution"
+    },
+    {
+      "label": "Maximum inlet",
+      "value": "218 psi maximum inlet pressure"
+    },
+    {
+      "label": "Manufacturer accuracy bands",
+      "value": "Manufacturer accuracy table: ±1.2 psi at 0–58 psi; ±2.0 psi at 59–174 psi"
+    }
+  ],
+  "milton-s-921": [
+    {
+      "label": "Pressure range",
+      "value": "5–50 psi range"
+    },
+    {
+      "label": "Chuck",
+      "value": "Single-head passenger-car chuck"
+    },
+    {
+      "label": "Scale",
+      "value": "PSI and kPa scale"
+    },
+    {
+      "label": "Additional function",
+      "value": "Deflator function"
+    }
+  ],
+  "streamlight-66118": [
+    {
+      "label": "Variant",
+      "value": "Black 66118 configuration"
+    },
+    {
+      "label": "Power",
+      "value": "Two AAA cells"
+    },
+    {
+      "label": "Manufacturer output",
+      "value": "Current manufacturer output 100 lumens"
+    },
+    {
+      "label": "Manufacturer runtime",
+      "value": "Current manufacturer runtime 8 hours"
+    },
+    {
+      "label": "Length",
+      "value": "Length 5.3 inches"
+    }
+  ],
+  "milwaukee-2125-20": [
+    {
+      "label": "Battery platform",
+      "value": "M12 battery platform"
+    },
+    {
+      "label": "Manufacturer output",
+      "value": "1350 lumen manufacturer output"
+    },
+    {
+      "label": "Mounting",
+      "value": "Adjustable underhood mounting hooks"
+    },
+    {
+      "label": "Light arrangement",
+      "value": "Detachable light bar"
+    },
+    {
+      "label": "Package",
+      "value": "Tool only"
+    }
+  ],
+  "gearwrench-83151": [
+    {
+      "label": "Body",
+      "value": "Steel body"
+    },
+    {
+      "label": "External dimensions",
+      "value": "20×8.5×12 inches"
+    },
+    {
+      "label": "Drawers",
+      "value": "Three drawers with ball-bearing slides"
+    },
+    {
+      "label": "Empty weight",
+      "value": "20 lb empty manufacturer weight"
+    },
+    {
+      "label": "Lock",
+      "value": "Keyed centre lock"
+    }
+  ],
+  "dewalt-dpg94-1d": [
+    {
+      "label": "Lens and variant",
+      "value": "Clear-lens DPG94-1D industrial variant"
+    },
+    {
+      "label": "Frame",
+      "value": "Full-frame design"
+    },
+    {
+      "label": "Contact features",
+      "value": "Rubber nosepiece and temple accents"
+    }
+  ],
+  "3m-peltor-x4a": [
+    {
+      "label": "Configuration",
+      "value": "Headband X4A configuration"
+    },
+    {
+      "label": "US attenuation label",
+      "value": "US manufacturer technical sheet NRR 27 dB"
+    },
+    {
+      "label": "Maintenance components",
+      "value": "Replaceable cushions/liners"
+    },
+    {
+      "label": "Variant distinction",
+      "value": "Separate hard-hat models exist"
+    }
+  ],
+  "maxxhaul-70472": [
+    {
+      "label": "Package",
+      "value": "Two rubber chocks"
+    },
+    {
+      "label": "Dimensions per chock",
+      "value": "Each 8×4×6 inches"
+    },
+    {
+      "label": "Handling",
+      "value": "Moulded carrying handle"
+    },
+    {
+      "label": "Contact surfaces",
+      "value": "Textured contact surfaces"
+    }
+  ],
+  "gearwrench-80066h": [
+    {
+      "label": "Piece count",
+      "value": "20 pieces"
+    },
+    {
+      "label": "Profiles",
+      "value": "Phillips, slotted and Torx profiles"
+    },
+    {
+      "label": "Handles",
+      "value": "Tri-lobe dual-material handles"
+    },
+    {
+      "label": "Tips",
+      "value": "Non-magnetic black-oxide tips"
+    },
+    {
+      "label": "Insulation",
+      "value": "Not insulated"
+    }
+  ],
+  "klein-d203-8": [
+    {
+      "label": "Nominal size",
+      "value": "Manufacturer nominal 8-inch class"
+    },
+    {
+      "label": "Overall length",
+      "value": "8.41-inch overall length"
+    },
+    {
+      "label": "Jaw shape",
+      "value": "Slim long-nose head"
+    },
+    {
+      "label": "Cutting edges",
+      "value": "Induction-hardened cutting edges"
+    },
+    {
+      "label": "Handles",
+      "value": "Plastic-dipped handles"
+    }
+  ],
+  "klein-d228-8": [
+    {
+      "label": "Overall length",
+      "value": "7.98-inch overall length"
+    },
+    {
+      "label": "Jaw geometry",
+      "value": "Short jaws and bevelled cutting edges"
+    },
+    {
+      "label": "Joint geometry",
+      "value": "High-leverage joint geometry"
+    },
+    {
+      "label": "Cutting edges",
+      "value": "Induction-hardened cutting knives"
+    }
+  ],
+  "irwin-502l3": [
+    {
+      "label": "Package",
+      "value": "One 10-inch curved-jaw locking plier"
+    },
+    {
+      "label": "Additional function",
+      "value": "Built-in wire cutter"
+    },
+    {
+      "label": "Release",
+      "value": "Classic trigger release"
+    },
+    {
+      "label": "Adjustment",
+      "value": "Hex-key pressure-adjusting screw"
+    },
+    {
+      "label": "Material",
+      "value": "Heat-treated alloy steel"
+    }
+  ],
+  "knipex-8701250": [
+    {
+      "label": "Nominal size",
+      "value": "10-inch nominal length"
+    },
+    {
+      "label": "Adjustment positions",
+      "value": "25 adjustment positions"
+    },
+    {
+      "label": "Adjustment control",
+      "value": "Push-button adjustment"
+    },
+    {
+      "label": "Handles",
+      "value": "Non-slip plastic handles"
+    },
+    {
+      "label": "Insulation",
+      "value": "Not 1000 V insulated"
+    }
+  ],
+  "gearwrench-80742": [
+    {
+      "label": "Piece count",
+      "value": "84 pieces"
+    },
+    {
+      "label": "Drive sizes",
+      "value": "1/4, 3/8 and 1/2-inch hand-drive sizes"
+    },
+    {
+      "label": "Hex profiles",
+      "value": "SAE/metric hex and ball-end hex"
+    },
+    {
+      "label": "Torx profiles",
+      "value": "Torx, tamper-resistant Torx and external Torx"
+    },
+    {
+      "label": "Use restriction",
+      "value": "Manual drive only"
+    }
+  ],
+  "gearwrench-80601": [
+    {
+      "label": "Piece count",
+      "value": "Five pieces"
+    },
+    {
+      "label": "Drive",
+      "value": "3/8-inch drive"
+    },
+    {
+      "label": "Socket design",
+      "value": "Six-point magnetic swivel design"
+    },
+    {
+      "label": "Plug hex sizes",
+      "value": "9/16 and 5/8-inch socket sizes"
+    },
+    {
+      "label": "Storage",
+      "value": "Blow-moulded case"
+    }
+  ],
+  "lisle-68100": [
+    {
+      "label": "Blade count",
+      "value": "31 blades including one 0.010-inch brass blade"
+    },
+    {
+      "label": "Thickness range",
+      "value": "Thickness range 0.0015–0.035 inch"
+    },
+    {
+      "label": "Blade dimensions",
+      "value": "Approximately 1/2-inch-wide × 3.5-inch-long blades"
+    },
+    {
+      "label": "Units",
+      "value": "Dual-unit thickness references"
+    }
+  ],
+  "mayhew-61366": [
+    {
+      "label": "Package",
+      "value": "Five curved, handled pry bars"
+    },
+    {
+      "label": "Finish",
+      "value": "Black-oxide finish"
+    },
+    {
+      "label": "Product family",
+      "value": "Dominator product family"
+    }
+  ],
+  "lisle-31750": [
+    {
+      "label": "Piece count",
+      "value": "Four picks"
+    },
+    {
+      "label": "Profiles",
+      "value": "Hook, straight, 90-degree and combination profiles"
+    },
+    {
+      "label": "Handles",
+      "value": "Dual-material handles"
+    },
+    {
+      "label": "Tips",
+      "value": "Heat-treated tips"
+    }
+  ],
+  "lisle-35440": [
+    {
+      "label": "Panel tool",
+      "value": "Door panel remover 35350"
+    },
+    {
+      "label": "Upholstery tool",
+      "value": "Door upholstery remover 35400"
+    },
+    {
+      "label": "Clip tool",
+      "value": "Window/door clip remover 54960"
+    },
+    {
+      "label": "Geometry",
+      "value": "Bent handles and stepped fastener cut-outs"
+    }
+  ],
+  "ullman-devices-ht-2": [
+    {
+      "label": "Length range",
+      "value": "Length 7.25–33.75 inches"
+    },
+    {
+      "label": "Manufacturer pickup claim",
+      "value": "Manufacturer lift claim up to 5 lb"
+    },
+    {
+      "label": "Magnet feature",
+      "value": "Sliding POWERCAP magnet sleeve"
+    },
+    {
+      "label": "Handling",
+      "value": "Pocket clip and non-slip grip"
+    }
+  ],
+  "ullman-devices-htc-2": [
+    {
+      "label": "Mirror size",
+      "value": "2.25-inch round mirror"
+    },
+    {
+      "label": "Head",
+      "value": "Adjustable viewing head"
+    },
+    {
+      "label": "Extended length",
+      "value": "Manufacturer extended length 36.375 inches"
+    },
+    {
+      "label": "Package",
+      "value": "Black-handle single-tool destination linked by manufacturer"
+    }
+  ],
+  "stanley-33-725": [
+    {
+      "label": "Blade dimensions",
+      "value": "25-foot × 1.25-inch blade"
+    },
+    {
+      "label": "Manufacturer reach claim",
+      "value": "Current manufacturer 14-foot reach claim"
+    },
+    {
+      "label": "Configuration",
+      "value": "Non-magnetic steel blade"
+    },
+    {
+      "label": "Coating",
+      "value": "Protective blade and hook-area coating"
+    }
+  ],
+  "klein-32500hd": [
+    {
+      "label": "Functions",
+      "value": "Seven bit tips and four nut-driver sizes"
+    },
+    {
+      "label": "Nut-driver functions",
+      "value": "1/4, 5/16 and 3/8-inch power nut drivers; 1/2-inch standard nut driver"
+    },
+    {
+      "label": "Bit profiles",
+      "value": "Phillips, slotted, square and T25 profiles"
+    },
+    {
+      "label": "Handle",
+      "value": "Cushion-Grip handle"
+    }
+  ],
+  "autel-al519": [
+    {
+      "label": "Diagnostic modes",
+      "value": "All 10 OBDII test modes"
+    },
+    {
+      "label": "Readiness data",
+      "value": "I/M readiness and freeze-frame data"
+    },
+    {
+      "label": "Live-data functions",
+      "value": "Live-data viewing, recording and playback"
+    }
+  ],
+  "noco-gb70": [
+    {
+      "label": "Battery application",
+      "value": "12 V lead-acid starting batteries"
+    },
+    {
+      "label": "Manufacturer current claim",
+      "value": "2000 A manufacturer peak-current claim"
+    },
+    {
+      "label": "Engine application",
+      "value": "Manufacturer application: up to 8.0 L gasoline / 6.0 L diesel"
+    }
+  ],
+  "gearwrench-85062m": [
+    {
+      "label": "Drive and head",
+      "value": "3/8-inch fixed-head drive"
+    },
+    {
+      "label": "Primary range",
+      "value": "10–100 ft-lb primary range"
+    },
+    {
+      "label": "Manufacturer accuracy condition",
+      "value": "Manufacturer accuracy declaration: ±3% clockwise at 20–100% of full scale"
+    }
+  ],
+  "gearwrench-84918n": [
+    {
+      "label": "Drive and profile",
+      "value": "3/8-inch drive; six-point universal impact sockets"
+    },
+    {
+      "label": "Metric sizes",
+      "value": "15 metric sizes: 8–22 mm"
+    },
+    {
+      "label": "Material and storage",
+      "value": "Chrome-molybdenum steel; storage case"
+    }
+  ],
+  "gearwrench-9416": [
+    {
+      "label": "Sizes",
+      "value": "16 metric sizes: 8–22 mm and 24 mm"
+    },
+    {
+      "label": "Ratchet and arc",
+      "value": "72-tooth ratcheting box ends; 5° swing arc"
+    },
+    {
+      "label": "Heads and storage",
+      "value": "Fixed, non-reversing heads; storage rack"
+    }
+  ],
+  "dewalt-dcf891b": [
+    {
+      "label": "Anvil",
+      "value": "1/2-inch hog-ring anvil"
+    },
+    {
+      "label": "Battery platform",
+      "value": "DEWALT 20V MAX battery platform"
+    },
+    {
+      "label": "Package",
+      "value": "B variant: tool only; battery and charger separate"
+    }
+  ],
+  "lisle-28600": [
+    {
+      "label": "Retraction type",
+      "value": "Rotates compatible rear-disc pistons into the caliper"
+    },
+    {
+      "label": "Drive tools",
+      "value": "Used with a 3/8-inch drive ratchet and extension"
+    },
+    {
+      "label": "Engagement",
+      "value": "Multiple engagement faces for supported piston designs"
+    }
+  ],
+  "sunex-6602lp": [
+    {
+      "label": "Capacity",
+      "value": "2-ton manufacturer capacity"
+    },
+    {
+      "label": "Lift range",
+      "value": "2.75–24 inch manufacturer lift range"
+    },
+    {
+      "label": "Construction and pump",
+      "value": "Steel construction; dual-pump lifting system"
+    }
+  ],
+  "mityvac-mv7201": [
+    {
+      "label": "Reservoir",
+      "value": "2.3 US gallon / 8.8 L reservoir"
+    },
+    {
+      "label": "Operating modes",
+      "value": "Manual evacuation and dispensing modes"
+    },
+    {
+      "label": "Overflow feature",
+      "value": "Automatic overflow prevention"
+    }
+  ],
+  "lisle-63250": [
+    {
+      "label": "Filter diameter",
+      "value": "Fits 3-1/8 to 3-7/8 inch filter diameters"
+    },
+    {
+      "label": "Gripping design",
+      "value": "Steel jaws grip spin-on filters"
+    },
+    {
+      "label": "Drive",
+      "value": "3/8-inch drive"
+    }
+  ],
+  "sunex-8057xtr": [
+    {
+      "label": "Storage arrangement",
+      "value": "Six locking drawers and locking top compartment"
+    },
+    {
+      "label": "Overall capacity",
+      "value": "Manufacturer overall capacity: 600 lb"
+    },
+    {
+      "label": "Construction and casters",
+      "value": "18-gauge steel; four swivel casters, two locking"
+    }
+  ]
+}

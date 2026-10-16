@@ -1,4 +1,5 @@
 import {guides,hubs,getHub} from './data';
+import {automotiveEnabled,automotiveProducts,automotivePhoto,automotiveTrade} from './automotive-catalog';
 import {getReview} from './reviews';
 import {getProductImage} from './product-images';
 import {normalizeToolSearch} from './tool-search';
@@ -8,6 +9,10 @@ export function getToolDirectory(trade:string){
   const hub=getHub(trade);
   if(!hub)return undefined;
   const categories=guides.filter(g=>g.trade===trade);
+  if(trade===automotiveTrade && automotiveEnabled){
+    const names=[...new Set(automotiveProducts.map(p=>p.category))];
+    return {hub,categories,groups:names.map((name,i)=>({name,slug:`automotive-${i}`})),essentials:[],products:automotiveProducts.map(p=>({id:p.id,brand:p.brand,model:p.model,role:p.name,amazonUrl:p.amazonUrl,cluster:p.category,categorySlug:categories.find(g=>g.products.some(x=>x.productId===p.id))!.slug,groupAnchor:automotiveProducts.find(x=>x.category===p.category)?.id===p.id?`tools-automotive-${names.indexOf(p.category)}`:undefined,searchText:normalizeToolSearch(`${p.brand} ${p.model} ${p.name} ${p.category} ${p.familyIds.join(' ')} ${p.advice}`),detailHref:`/automotive-mechanics/products/${p.id}/`,detailLabel:'Read product buying notes →',intro:p.intro,photo:automotivePhoto(p)}))};
+  }
   const seenGroups=new Set<string>();
   const groups=categories.flatMap(g=>{
     const key=normalizeToolSearch(g.cluster);

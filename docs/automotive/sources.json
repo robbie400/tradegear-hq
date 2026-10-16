@@ -1,0 +1,580 @@
+{
+  "checkedDate": "2026-10-15",
+  "trainingSources": [
+    {
+      "url": "https://dmcat.austincc.edu/autotech/required-tools/",
+      "status": "page-retrieved"
+    },
+    {
+      "url": "https://engineering.chemeketa.edu/programs-classes/program-finder/automotive-technology/",
+      "status": "institutional-page-indexed-excerpts; direct page retrieval failed; institutional mirror used instead of inaccessible user-supplied librarysearch subdomain"
+    }
+  ],
+  "manufacturerSources": [
+    {
+      "id": "autel-mk900-bt",
+      "url": "https://store.autel.com/products/maxicom-mk900bt",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "8-inch Android 11 tablet",
+        "MaxiVCI V150 wireless vehicle interface",
+        "CAN FD and DoIP support",
+        "Manufacturer store states one year of updates"
+      ]
+    },
+    {
+      "id": "innova-5610",
+      "url": "https://www.innova.com/products/carscan-pro-5610",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Handheld OBD2 and supported OEM-system diagnostics",
+        "Supported bidirectional active tests",
+        "OBD2 and OEM live-data streams",
+        "Manufacturer states free updates and no subscriptions"
+      ]
+    },
+    {
+      "id": "foxwell-nt301",
+      "url": "https://www.foxwelltech.us/product-detail-797.html",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "2.8-inch TFT colour display",
+        "Engine/emissions OBDII/EOBD code reading and clearing",
+        "I/M readiness shortcut keys"
+      ]
+    },
+    {
+      "id": "fluke-88v-a-kit",
+      "url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Maximum AC/DC voltage 1000 V",
+        "CAT III 1000 V / CAT IV 600 V manufacturer rating",
+        "Manufacturer kit part 2117440",
+        "Manufacturer lists test leads, probes, clips, RPM pickup, temperature probe, magnetic hanger and case"
+      ]
+    },
+    {
+      "id": "clore-automotive-ba9",
+      "url": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "12 V starting-battery tester",
+        "40–1200 CCA test range",
+        "7–15 V operating range",
+        "Flooded, flat/spiral AGM and gel starting batteries"
+      ]
+    },
+    {
+      "id": "noco-gb40",
+      "url": "https://no.co/gb40",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "12 V jump starter",
+        "1000 A manufacturer starting-current claim",
+        "Manufacturer applications up to 6.0 L petrol / 3.0 L diesel",
+        "Integrated light and USB power functions"
+      ]
+    },
+    {
+      "id": "noco-genius5",
+      "url": "https://no.co/genius5",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "5 A charger",
+        "6 V / 12 V lead-acid modes",
+        "12 V lithium charging mode for compatible batteries",
+        "Maintenance and temperature-compensated charging"
+      ]
+    },
+    {
+      "id": "tekton-trq50402",
+      "url": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq50402",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/4-inch square drive",
+        "20–200 in-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ]
+    },
+    {
+      "id": "tekton-trq52403",
+      "url": "https://www.tekton.com/1-2-inch-drive-dual-direction-micrometer-torque-wrench-trq52403",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/2-inch square drive",
+        "40–300 ft-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ]
+    },
+    {
+      "id": "gearwrench-80300p",
+      "url": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80300p-51-piece-14-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "51 pieces",
+        "1/4-inch hand drive",
+        "120XP ratchet with 3-degree swing",
+        "Standard and deep SAE/metric sockets",
+        "Blow-moulded case"
+      ]
+    },
+    {
+      "id": "sunex-2569",
+      "url": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "43 pieces",
+        "1/2-inch impact drive",
+        "Standard and deep six-point sockets",
+        "Sizes 9–24, 26, 27 and 30 mm",
+        "Includes universal joint, extensions and case"
+      ]
+    },
+    {
+      "id": "tekton-skt15311",
+      "url": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "73 pieces",
+        "3/8-inch hand drive",
+        "Six-point shallow and deep sockets",
+        "SAE 1/4–1 inch and metric 6–24 mm",
+        "Includes ratchet, accessories and case"
+      ]
+    },
+    {
+      "id": "tekton-sbh00224",
+      "url": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/2-inch square drive",
+        "24-inch overall length",
+        "230-degree pivoting head",
+        "External-head design with serviceable components"
+      ]
+    },
+    {
+      "id": "tekton-sha91011",
+      "url": "https://www.tekton.com/3-8-inch-drive-4-piece-extension-set-sha91011",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "3/8-inch hand drive",
+        "Lengths 1, 3, 6 and 10 inches",
+        "Knurled grip bands",
+        "Four detent grooves at drive engagement"
+      ]
+    },
+    {
+      "id": "gearwrench-81916",
+      "url": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "22 long-pattern wrenches",
+        "12-point box ends",
+        "15-degree box-end offset",
+        "Sizes 6–24, 27, 30 and 32 mm",
+        "Tool roll"
+      ]
+    },
+    {
+      "id": "gearwrench-81906",
+      "url": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Six double-ended wrenches",
+        "Pairs 9×11, 10×12, 13×14, 15×17, 16×18 and 19×21 mm",
+        "For access around line fittings"
+      ]
+    },
+    {
+      "id": "milwaukee-2962-20",
+      "url": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "1/2-inch friction-ring anvil",
+        "M18 battery platform",
+        "Manufacturer claims up to 650 ft-lb breakaway torque",
+        "Four operating modes",
+        "Bare-tool configuration"
+      ]
+    },
+    {
+      "id": "milwaukee-2567-20",
+      "url": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+      "status": "specification-conflict-or-detail-hold",
+      "facts": [
+        "3/8-inch anvil",
+        "M12 battery platform",
+        "0–450 rpm",
+        "Bare-tool configuration"
+      ]
+    },
+    {
+      "id": "lisle-25750",
+      "url": "https://www.lislecorp.com/specialty-tools/brakes/dual-piston-brake-caliper-compressor",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Compresses two push-back pistons together",
+        "Hand-operated squeeze mechanism",
+        "Uses the inboard pad to distribute load"
+      ]
+    },
+    {
+      "id": "lisle-81850",
+      "url": "https://www.lislecorp.com/specialty-tools/brakes/combination-brake-lining-thickness-gauge-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Nine acetal gauges",
+        "Straight and offset access",
+        "Thicknesses 2, 2, 3, 4, 5, 6, 8, 10 and 12 mm",
+        "Two 2 mm access profiles"
+      ]
+    },
+    {
+      "id": "mityvac-mv6840",
+      "url": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manual-pump pressure dispenser",
+        "1.2 US gallon / 5 L capacity",
+        "Seven master-cylinder adapters in MVA6850 kit",
+        "Pressure gauge and manual relief valve"
+      ]
+    },
+    {
+      "id": "arcan-a20018",
+      "url": "https://arcantools.com/lifting/a20018",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manufacturer model A20018",
+        "3 US ton / 6000 lb rated lifting capacity",
+        "Dual-pump pistons",
+        "Aluminium chassis and reinforced arm",
+        "Manufacturer page lift range 3.78–18.9 inches"
+      ]
+    },
+    {
+      "id": "esco-10498-pair",
+      "url": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Two stands with rubber flat-top saddles",
+        "Manufacturer rating 3 tons per stand",
+        "Height range 13.2–21.5 inches",
+        "Ten pin-locked height positions"
+      ]
+    },
+    {
+      "id": "lisle-17922",
+      "url": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products/multi-drain-tub",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "30 US quart / 7.5 US gallon capacity",
+        "33×22×8 inch dimensions",
+        "Heavy-duty plastic tub",
+        "Pouring apron for draining and handling"
+      ]
+    },
+    {
+      "id": "lisle-19752",
+      "url": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "6 US quart capacity",
+        "Translucent polyethylene body",
+        "Quart and litre graduations",
+        "Flexible 8-inch red spout"
+      ]
+    },
+    {
+      "id": "lisle-63600",
+      "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Fits 2.5–3.125 inch filter diameters",
+        "Steel gripping jaws",
+        "3/8-inch square drive",
+        "Removal only"
+      ]
+    },
+    {
+      "id": "lisle-13270",
+      "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/13270--low-profile-filter-socket-set-7pc",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Seven six-point sockets",
+        "Sizes 24, 25, 27, 28, 29, 32 and 36 mm",
+        "3/8-inch square drive",
+        "For supported oil/fuel filter canisters"
+      ]
+    },
+    {
+      "id": "astro-pneumatic-3018",
+      "url": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "3.5-inch digital display",
+        "Manual lists 3–175 psi measuring/working range",
+        "0.1 psi reading resolution",
+        "218 psi maximum inlet pressure",
+        "Manufacturer accuracy table: ±1.2 psi at 0–58 psi; ±2.0 psi at 59–174 psi"
+      ]
+    },
+    {
+      "id": "milton-s-921",
+      "url": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "5–50 psi range",
+        "Single-head passenger-car chuck",
+        "PSI and kPa scale",
+        "Deflator function"
+      ]
+    },
+    {
+      "id": "streamlight-66118",
+      "url": "https://www.streamlight.com/products/detail/stylus-pro",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Black 66118 configuration",
+        "Two AAA cells",
+        "Current manufacturer output 100 lumens",
+        "Current manufacturer runtime 8 hours",
+        "Length 5.3 inches"
+      ]
+    },
+    {
+      "id": "milwaukee-2125-20",
+      "url": "https://www.milwaukeetool.com/2125-20",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "M12 battery platform",
+        "1350 lumen manufacturer output",
+        "Adjustable underhood mounting hooks",
+        "Detachable light bar",
+        "Tool only"
+      ]
+    },
+    {
+      "id": "gearwrench-83151",
+      "url": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Steel body",
+        "20×8.5×12 inches",
+        "Three drawers with ball-bearing slides",
+        "20 lb empty manufacturer weight",
+        "Keyed centre lock"
+      ]
+    },
+    {
+      "id": "dewalt-dpg94-1c",
+      "url": "https://www.radians.com/products/composite-dewalt-dpg94-dominator-hardware-protective-eyewear",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manufacturer variant DPG94-1C is clear lens",
+        "Full-frame eyewear",
+        "Rubber-tipped temples and rubber nosepieces",
+        "Manufacturer states Z87.1+ impact performance"
+      ]
+    },
+    {
+      "id": "3m-peltor-x4a",
+      "url": "https://multimedia.3m.com/mws/media/845196O/3m-peltor-x-series-earmuffs-technical-specifications.pdf",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Headband X4A configuration",
+        "US manufacturer technical sheet NRR 27 dB",
+        "Replaceable cushions/liners",
+        "Separate hard-hat models exist"
+      ]
+    },
+    {
+      "id": "maxxhaul-70472",
+      "url": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Two rubber chocks",
+        "Each 8×4×6 inches",
+        "Moulded carrying handle",
+        "Textured contact surfaces"
+      ]
+    },
+    {
+      "id": "gearwrench-80066h",
+      "url": "https://www.gearwrench.com/all-tools/hand-tools/screwdrivers-hex-keys/80066h-20-piece-phillipsrslottedtorxr-dual-material-screwdriver-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "20 pieces",
+        "Phillips, slotted and Torx profiles",
+        "Tri-lobe dual-material handles",
+        "Non-magnetic black-oxide tips",
+        "Not insulated"
+      ]
+    },
+    {
+      "id": "klein-d203-8",
+      "url": "https://www.kleintools.com/catalog/standard-side-cutting-pliers/pliers-needle-nose-side-cutters-8-inch",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Manufacturer nominal 8-inch class",
+        "8.41-inch overall length",
+        "Slim long-nose head",
+        "Induction-hardened cutting edges",
+        "Plastic-dipped handles"
+      ]
+    },
+    {
+      "id": "klein-d228-8",
+      "url": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "7.98-inch overall length",
+        "Short jaws and bevelled cutting edges",
+        "High-leverage joint geometry",
+        "Induction-hardened cutting knives"
+      ]
+    },
+    {
+      "id": "irwin-502l3",
+      "url": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "One 10-inch curved-jaw locking plier",
+        "Built-in wire cutter",
+        "Classic trigger release",
+        "Hex-key pressure-adjusting screw",
+        "Heat-treated alloy steel"
+      ]
+    },
+    {
+      "id": "knipex-8701250",
+      "url": "https://www.knipex-tools.com/products/pipe-wrenches-and-water-pump-pliers/water-pump-pliers/knipex-cobra-water-pump-pliers/8701250",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "10-inch nominal length",
+        "25 adjustment positions",
+        "Push-button adjustment",
+        "Non-slip plastic handles",
+        "Not 1000 V insulated"
+      ]
+    },
+    {
+      "id": "gearwrench-80742",
+      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80742-84-piece-14-38-12-drive-hexball-end-hextamper-proof-torxrexternal-torxrtorxr-saemetric-bit-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "84 pieces",
+        "1/4, 3/8 and 1/2-inch hand-drive sizes",
+        "SAE/metric hex and ball-end hex",
+        "Torx, tamper-resistant Torx and external Torx",
+        "Manual drive only"
+      ]
+    },
+    {
+      "id": "gearwrench-80601",
+      "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80601-5-piece-38-drive-6-point-magnetic-swivel-spark-plug-socket-set",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Five pieces",
+        "3/8-inch drive",
+        "Six-point magnetic swivel design",
+        "9/16 and 5/8-inch socket sizes",
+        "Blow-moulded case"
+      ]
+    },
+    {
+      "id": "lisle-68100",
+      "url": "https://www.lislecorp.com/specialty-tools/deluxe-feeler-gauge",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "31 blades including one 0.010-inch brass blade",
+        "Thickness range 0.0015–0.035 inch",
+        "Approximately 1/2-inch-wide × 3.5-inch-long blades",
+        "Dual-unit thickness references"
+      ]
+    },
+    {
+      "id": "mayhew-61366",
+      "url": "https://mayhew.com/files/content/resources/catalogs/Catalog-2023-sm.pdf",
+      "status": "specification-conflict-or-detail-hold",
+      "facts": [
+        "Five curved, handled pry bars",
+        "Black-oxide finish",
+        "Dominator product family"
+      ]
+    },
+    {
+      "id": "lisle-31750",
+      "url": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Four picks",
+        "Hook, straight, 90-degree and combination profiles",
+        "Dual-material handles",
+        "Heat-treated tips"
+      ]
+    },
+    {
+      "id": "lisle-35440",
+      "url": "https://www.lislecorp.com/specialty-tools/body/body-trim-tool-set-3-piece",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Door panel remover 35350",
+        "Door upholstery remover 35400",
+        "Window/door clip remover 54960",
+        "Bent handles and stepped fastener cut-outs"
+      ]
+    },
+    {
+      "id": "ullman-devices-ht-2",
+      "url": "https://ullmandevices.com/products/ht-2",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Length 7.25–33.75 inches",
+        "Manufacturer lift claim up to 5 lb",
+        "Sliding POWERCAP magnet sleeve",
+        "Pocket clip and non-slip grip"
+      ]
+    },
+    {
+      "id": "ullman-devices-htc-2",
+      "url": "https://ullmandevices.com/products/htc-2",
+      "status": "specification-conflict-or-detail-hold",
+      "facts": [
+        "2.25-inch round mirror",
+        "Adjustable viewing head",
+        "Manufacturer extended length 36.375 inches",
+        "Black-handle single-tool destination linked by manufacturer"
+      ]
+    },
+    {
+      "id": "stanley-33-725",
+      "url": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "25-foot × 1.25-inch blade",
+        "Current manufacturer 14-foot reach claim",
+        "Non-magnetic steel blade",
+        "Protective blade and hook-area coating"
+      ]
+    },
+    {
+      "id": "klein-32500hd",
+      "url": "https://www.kleintools.com/catalog/multi-bit-nut-drivers/impact-rated-multi-bit-screwdrivernut-driver-11-1",
+      "status": "exact-model-primary-source-checked",
+      "facts": [
+        "Seven bit tips and four nut-driver sizes",
+        "1/4, 5/16 and 3/8-inch power nut drivers; 1/2-inch standard nut driver",
+        "Phillips, slotted, square and T25 profiles",
+        "Cushion-Grip handle"
+      ]
+    }
+  ],
+  "batchTwo": "Primary-source locations retained on candidate records; no first-batch verification claim is made for batch two."
+}

@@ -11,7 +11,7 @@ assert.deepEqual(apprenticeEssentials.map(p=>p.id).sort(),Object.keys(expected).
 assert.equal(new Set(apprenticeEssentials.map(p=>p.id)).size,11);
 assert.equal(new Set(apprenticeEssentials.map(p=>p.familyId)).size,11);
 const catalogue=getToolkitProducts();
-assert.equal(catalogue.filter(p=>p.kind==='catalogue').length,333);
+assert.equal(catalogue.filter(p=>p.kind==='catalogue').length,process.env.VERCEL_ENV==='production'?333:388);
 assert.equal(catalogue.filter(p=>p.kind==='essential').length,11);
 assert.equal(catalogue.length,new Set(catalogue.map(p=>p.id)).size);
 for(const p of apprenticeEssentials){
@@ -37,9 +37,9 @@ assert.equal(getToolkitPurchaseUrl('pica-3030','home-inspectors'),undefined);
 assert.equal(getToolkitProductsByFamily('tape-measure','electricians')[0].id,'stanley-33-725');
 assert.equal(getToolkitProductsByFamily('tape-measure','plumbers')[0].id,'stanley-33-725');
 assert.equal(catalogue.filter(p=>p.id==='stanley-33-725').length,1);
-assert.ok(getToolkitProductById('stanley-33-725').placements.every(p=>p.detailHref.startsWith('/reviews/') || p.detailHref.startsWith('/carpenters/')));
+assert.ok(getToolkitProductById('stanley-33-725').placements.every(p=>p.detailHref.startsWith('/reviews/') || p.detailHref.startsWith('/carpenters/') || p.detailHref.startsWith('/automotive-mechanics/')));
 const globalItems=getGlobalToolSearchItems();
-assert.equal(globalItems.length,344);
+assert.equal(globalItems.length,process.env.VERCEL_ENV==='production'?344:399);
 assert.equal(globalItems.filter(p=>matchesToolSearch(p.searchText,'935RB')).length,1);
 assert.ok(globalItems.find(p=>p.id==='dewalt-dpg94-1c').searchText.includes('ppe'));
 assert.deepEqual(Object.fromEntries(['electricians','plumbers','hvac','carpenters','home-inspectors'].map(t=>[t,getApprenticeEssentialsForTrade(t).length])),{electricians:9,plumbers:5,hvac:7,carpenters:4,'home-inspectors':2});

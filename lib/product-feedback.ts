@@ -1,7 +1,7 @@
 import {carpenterFeedback} from './carpenter-feedback';
 export type ProductFeedback = {
   productId: string;
-  trade: "electricians" | "plumbers" | "hvac" | "home-inspectors" | "carpenters";
+  trade: "electricians" | "plumbers" | "hvac" | "home-inspectors" | "carpenters" | "automotive-mechanics";
   brand: string;
   modelNumber: string;
   author: string;

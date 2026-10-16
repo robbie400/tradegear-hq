@@ -1,0 +1,218 @@
+import Link from 'next/link';
+import {affiliateUrl} from '@/lib/affiliate';
+import type {ProductFeedback as FeedbackRecord} from '@/lib/product-feedback';
+import type {ProductReview} from '@/lib/reviews';
+import type {ProductImage} from '@/lib/product-images';
+import {ProductPhoto} from './ProductPhoto';
+import {ProductFeedback} from './ProductFeedback';
+import {ProductRating} from './ProductRating';
+import {EditorialByline,PageSchema} from './Editorial';
+
+// The established five-trade review presentation, shared with Automotive.
+export function FullProductReview({r,photo,path,date,alternatives,workflows,feedback}:{
+ feedback?:FeedbackRecord[];r:ProductReview;photo?:ProductImage;path:string;date?:string;
+ alternatives:{url:string;brand:string;model:string;role:string}[];
+ workflows:{slug:string;title:string}[];
+}) {
+  return (
+    <>
+      <PageSchema
+        date={date}
+        title={r.title}
+        description={r.meta}
+        path={path}
+        crumbs={[
+          { name: "Home", path: "/" },
+          { name: r.tradeName, path: `/${r.trade}/` },
+          { name: r.guideTitle, path: `/${r.trade}/${r.guideSlug}/` },
+          { name: r.model, path: path },
+        ]}
+      />
+      <section className="reviewHero">
+        <div className={`shell reviewShell${photo ? " reviewHeroWithPhoto" : ""}`}>
+          <div className="reviewHeroCopy">
+          <div className="crumb">
+            <Link href="/">Home</Link> /{" "}
+            <Link href={`/${r.trade}/`}>{r.tradeName}</Link> /{" "}
+            <Link href={`/${r.trade}/${r.guideSlug}/`}>{r.guideTitle}</Link> /{" "}
+            {r.model}
+          </div>
+          <span className="eyebrow orange">
+            PRODUCT REVIEW · {r.tradeName.toUpperCase()}
+          </span>
+          <h1>{r.title}</h1>
+          <p>{r.meta}</p>
+          <ProductRating trade={r.trade} brand={r.brand} model={r.model} amazonUrl={r.amazonUrl} compact />
+          <EditorialByline showMethodology={false} date={date} />
+          <div className="reviewHeroActions">
+            <a
+              className="amazonBtn"
+              href={affiliateUrl(r.amazonUrl, r.trade)}
+                      data-trade={r.trade}
+                      data-product={`${r.brand} ${r.model}`}
+              target="_blank"
+              rel="sponsored nofollow noopener"
+            >
+              Check Price on Amazon
+            </a>
+            <Link className="secondaryBtn" href={`/${r.trade}/${r.guideSlug}/`}>
+              Back to comparison
+            </Link>
+            {r.sourceNote?.includes('October 14') && <Link className="secondaryBtn" href="/carpenters/tools/">Browse all carpenter tools</Link>}
+          </div>
+          </div>
+          {photo && <ProductPhoto photo={photo} className="reviewHeroPhoto" priority credit linkCredit={false} />}
+        </div>
+      </section>
+      <section className="section">
+        <div className="shell reviewShell">
+          <div className="reviewLeadGrid">
+            <div className="reviewProductPanel">
+              <span>{r.role}</span>
+              <strong>{r.brand}</strong>
+              <h2>{r.model}</h2>
+              <p>
+                {r.specs[0].label}: {r.specs[0].value}
+              </p>
+              <p>Research-based review</p>
+            </div>
+            <div>
+              <span className="eyebrow orange">QUICK VERDICT</span>
+              <p className="leadCopy">{r.intro}</p>
+              <div className="verdictBox">
+                <b>Our take</b>
+                <p>{r.verdict}</p>
+              </div>
+            </div>
+          </div>
+          <ProductFeedback trade={r.trade} brand={r.brand} model={r.model} productId={r.productId || r.slug} amazonUrl={r.amazonUrl} showRating={false} verifiedFeedback={feedback} />
+          <div className="fitGrid">
+            <div className="fitCard">
+              <b>Best for</b>
+              <p>{r.bestFor}</p>
+            </div>
+            <div className="fitCard">
+              <b>Skip it if</b>
+              <p>{r.avoidIf}</p>
+            </div>
+          </div>
+          <div className="prosCons">
+            <div>
+              <h2>Pros</h2>
+              <ul>
+                {r.pros.map((x) => (
+                  <li key={x}>{x}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h2>Cons</h2>
+              <ul>
+                {r.cons.map((x) => (
+                  <li key={x}>{x}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <section className="specSection">
+            <span className="eyebrow orange">MANUFACTURER SPECIFICATIONS</span>
+            <h2>Key specs</h2>
+            <div className="specGrid">
+              {r.specs.map((s) => (
+                <div className="specRow" key={s.label}>
+                  <span>{s.label}</span>
+                  <b>{s.value}</b>
+                </div>
+              ))}
+            </div>
+          </section>
+          <div className="articleBody">
+            {r.sections.map((s) => (
+              <section key={s.heading}>
+                <h2>{s.heading}</h2>
+                <p>{s.body}</p>
+              </section>
+            ))}
+          </div>
+          <div className="sourceBox">
+            <b>Sources and review method</b>
+            <p>
+              {r.sourceNote ||
+                "Technical details were checked against manufacturer documentation. Recommendations reflect the documented features and their fit for the work."}
+            </p>
+            <p>
+              This is a research-based review. We have not hands-on tested this
+              product or independently measured its performance.{" "}
+            </p>
+            <ul>
+              <li>
+                Primary manufacturer source: <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer">{new URL(r.sourceUrl).hostname}</a>
+              </li>
+              {r.extraSources?.map((s) => (
+                <li key={s.url}>
+                  {s.label}: <a href={s.url} target="_blank" rel="noopener noreferrer">{new URL(s.url).hostname}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="reviewCta">
+            <div>
+              <span className="eyebrow">CHECK THE CURRENT OFFER</span>
+              <h2>
+                {r.brand} {r.model}
+              </h2>
+              <p>
+                {r.trade === 'automotive-mechanics' ? `Confirm ${r.model}, the selected variant, package contents and seller on Amazon.com. Prices and availability can change. As an Amazon Associate, we earn from qualifying purchases.` : 'Confirm the exact model, kit contents and seller. The link may open a product search; prices and availability can change.'}
+              </p>
+            </div>
+            <a
+              className="amazonBtn"
+              href={affiliateUrl(r.amazonUrl, r.trade)}
+                      data-trade={r.trade}
+                      data-product={`${r.brand} ${r.model}`}
+              target="_blank"
+              rel="sponsored nofollow noopener"
+            >
+              Check Price on Amazon
+            </a>
+          </div>
+          <section className="faq">
+            <span className="eyebrow orange">QUESTIONS & ANSWERS</span>
+            <h2>Frequently asked questions</h2>
+            {r.faqs.map((f, i) => (
+              <details key={f.q} open={i === 0}>
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </section>
+          <div className="relatedBox">
+            <b>Compare before you buy</b>
+            <p>
+              <Link href={`/${r.trade}/${r.guideSlug}/`}>
+                See the comparisons in {r.guideTitle} →
+              </Link>
+            </p>
+            <ul>
+              {alternatives.map((a) => (
+                <li key={a.url}>
+                  <Link href={a.url}>
+                    {a.brand} {a.model}
+                  </Link>{" "}
+                  — {a.role}
+                </li>
+              ))}
+            </ul>
+            {workflows.map((w) => (
+              <p key={w.slug}>
+                <Link href={`/${r.trade}/workflows/${w.slug}/`}>
+                  {w.title} →
+                </Link>
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

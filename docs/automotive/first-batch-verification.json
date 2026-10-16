@@ -1,0 +1,3326 @@
+{
+  "metadata": {
+    "project": "TradeGear HQ",
+    "trade": "Automotive Mechanics",
+    "proposedTradeSlug": "automotive-mechanics",
+    "date": "2026-10-15",
+    "phase": "Revised 100-product proposal for approval; first 50 checked with explicit publication holds",
+    "targetProducts": 100,
+    "batches": [
+      {
+        "batch": 1,
+        "products": 50
+      },
+      {
+        "batch": 2,
+        "products": 50
+      }
+    ],
+    "existingRecordsToReuse": [
+      "klein-32500hd",
+      "knipex-8701250",
+      "stanley-33-725",
+      "dewalt-dpg94-1c",
+      "klein-d228-8",
+      "klein-d203-8",
+      "streamlight-66118"
+    ],
+    "newCanonicalCandidates": 93,
+    "scope": "Research only. No website implementation, design, counts, affiliate helper or Toolkit Builder changes.",
+    "verificationSummary": {
+      "firstBatchExactAmazonMatches": 43,
+      "firstBatchAmazonHolds": 7,
+      "firstBatchManufacturerDetailHolds": 3,
+      "imageReusePermissionsEstablished": 0,
+      "publicationReadyProducts": 0,
+      "newRatingSnapshotsForPublication": 0,
+      "approvedQuotes": 0
+    },
+    "categories": [
+      {
+        "category": "Diagnostics",
+        "total": 5,
+        "batch1": 3,
+        "batch2": 2
+      },
+      {
+        "category": "Electrical",
+        "total": 6,
+        "batch1": 4,
+        "batch2": 2
+      },
+      {
+        "category": "Torque",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Sockets",
+        "total": 4,
+        "batch1": 3,
+        "batch2": 1
+      },
+      {
+        "category": "Ratchets",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Wrenches",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Power tools",
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
+      },
+      {
+        "category": "Brake tools",
+        "total": 5,
+        "batch1": 3,
+        "batch2": 2
+      },
+      {
+        "category": "Suspension",
+        "total": 6,
+        "batch1": 0,
+        "batch2": 6
+      },
+      {
+        "category": "Lifting",
+        "total": 3,
+        "batch1": 2,
+        "batch2": 1
+      },
+      {
+        "category": "Fluids",
+        "total": 6,
+        "batch1": 2,
+        "batch2": 4
+      },
+      {
+        "category": "Oil filters",
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
+      },
+      {
+        "category": "Cooling",
+        "total": 5,
+        "batch1": 0,
+        "batch2": 5
+      },
+      {
+        "category": "Tyres and wheels",
+        "total": 5,
+        "batch1": 2,
+        "batch2": 3
+      },
+      {
+        "category": "Engine service",
+        "total": 6,
+        "batch1": 2,
+        "batch2": 4
+      },
+      {
+        "category": "Mechanical service and pullers",
+        "total": 1,
+        "batch1": 0,
+        "batch2": 1
+      },
+      {
+        "category": "Inspection",
+        "total": 4,
+        "batch1": 2,
+        "batch2": 2
+      },
+      {
+        "category": "Storage",
+        "total": 5,
+        "batch1": 1,
+        "batch2": 4
+      },
+      {
+        "category": "Workshop safety",
+        "total": 4,
+        "batch1": 3,
+        "batch2": 1
+      },
+      {
+        "category": "Apprentice hand tools",
+        "total": 13,
+        "batch1": 13,
+        "batch2": 0
+      }
+    ]
+  },
+  "method": "Live manufacturer retrieval and Amazon.com provider detail, not search-snippet-only matching. Internal ASIN/model/package conflicts are held. Identity verification is not seller authenticity, image licensing or guaranteed availability. Manufacturer facts are paraphrases, not hands-on tests.",
+  "products": [
+    {
+      "productId": "autel-mk900-bt",
+      "position": 1,
+      "brand": "Autel",
+      "model": "MK900-BT",
+      "name": "MaxiCOM MK900-BT wireless diagnostic tablet",
+      "familyIds": [
+        "bidirectional-scanner"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "8-inch Android 11 tablet",
+        "MaxiVCI V150 wireless vehicle interface",
+        "CAN FD and DoIP support",
+        "Manufacturer store states one year of updates"
+      ],
+      "manufacturerSource": "https://store.autel.com/products/maxicom-mk900bt",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Confirm US activation, VIN-specific functions, secure-gateway fees and renewal terms for the selected seller; accessory support does not mean those accessories are included.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B098PYB8XG",
+      "verifiedDestination": "https://www.amazon.com/dp/B098PYB8XG",
+      "candidateAsin": "B098PYB8XG",
+      "candidateDestination": "https://www.amazon.com/dp/B098PYB8XG",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792717,
+      "amazonEvidence": {
+        "title": "Autel Scanner MaxiCOM MK900BT Bidirectional Tool, 40+ Service, CAN-FD& DOIP",
+        "brand": "Autel",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "Newest MaxiCOM MK900BT"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "Newest MaxiCOM MK900BT"
+          },
+          {
+            "name": "ASIN",
+            "value": "B098PYB8XG"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://store.autel.com/cdn/shop/files/MK900-BT_03_1_960x.png?v=1732093424",
+          "https://store.autel.com/cdn/shop/files/MK900-BT-04_960x.jpg?v=1756377863"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81lkzF9WF2L._AC_SL1500_.jpg",
+        "sourcePage": "https://store.autel.com/products/maxicom-mk900bt",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "innova-5610",
+      "position": 2,
+      "brand": "Innova",
+      "model": "5610",
+      "name": "5610 bidirectional OBD2 scanner",
+      "familyIds": [
+        "bidirectional-scanner"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Handheld OBD2 and supported OEM-system diagnostics",
+        "Supported bidirectional active tests",
+        "OBD2 and OEM live-data streams",
+        "Manufacturer states free updates and no subscriptions"
+      ],
+      "manufacturerSource": "https://www.innova.com/products/carscan-pro-5610",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Use the manufacturer coverage checker for the exact year, make, model and function; the advertised reset list is not universal vehicle coverage.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B07Z481NJM",
+      "verifiedDestination": "https://www.amazon.com/dp/B07Z481NJM",
+      "candidateAsin": "B07Z481NJM",
+      "candidateDestination": "https://www.amazon.com/dp/B07Z481NJM",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792720,
+      "amazonEvidence": {
+        "title": "Innova 5610 OBD2 Bidirectional Scan Tool - Understand Your Vehicle, Pinpoint What's Wrong, and Complete Your Repairs with Less Headache, Updates Included, US-Based Technical Support",
+        "brand": "Innova",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "5610"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "5610"
+          },
+          {
+            "name": "ASIN",
+            "value": "B07Z481NJM"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.innova.com/cdn/shop/files/5610_01_1.jpg?v=1760469925&width=3840",
+          "https://www.innova.com/cdn/shop/files/5610_02_1.jpg?v=1760469925&width=3840"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/719NEo7qfiL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.innova.com/products/carscan-pro-5610",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "foxwell-nt301",
+      "position": 3,
+      "brand": "FOXWELL",
+      "model": "NT301",
+      "name": "NT301 OBDII/EOBD code reader",
+      "familyIds": [
+        "obd2-code-reader"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "2.8-inch TFT colour display",
+        "Engine/emissions OBDII/EOBD code reading and clearing",
+        "I/M readiness shortcut keys"
+      ],
+      "manufacturerSource": "https://www.foxwelltech.us/product-detail-797.html",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "An engine/emissions reader, not an all-system ABS/SRS or bidirectional tablet. Do not use the earlier search-page JSON extraction: it invented package and diesel/hybrid exclusions.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B00UJV3E12",
+      "verifiedDestination": "https://www.amazon.com/dp/B00UJV3E12",
+      "candidateAsin": "B00UJV3E12",
+      "candidateDestination": "https://www.amazon.com/dp/B00UJV3E12",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792664,
+      "amazonEvidence": {
+        "title": "FOXWELL NT301 OBD2 Scanner Live Data Professional Mechanic OBDII Diagnostic Code Reader Tool for Check Engine Light",
+        "brand": "FOXWELL",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "NT301"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "NT301"
+          },
+          {
+            "name": "ASIN",
+            "value": "B00UJV3E12"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71JQBkvIl7L._AC_SL1500_.jpg",
+        "sourcePage": "https://www.foxwelltech.us/product-detail-797.html",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "fluke-88v-a-kit",
+      "position": 4,
+      "brand": "Fluke",
+      "model": "88V/A Kit",
+      "name": "88V/A automotive multimeter combo kit",
+      "familyIds": [
+        "automotive-multimeter"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Maximum AC/DC voltage 1000 V",
+        "CAT III 1000 V / CAT IV 600 V manufacturer rating",
+        "Manufacturer kit part 2117440",
+        "Manufacturer lists test leads, probes, clips, RPM pickup, temperature probe, magnetic hanger and case"
+      ],
+      "manufacturerSource": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Amazon identifies FLUKE-88-5/A KIT but part 892583; reconcile that package identifier with current manufacturer part 2117440 before publishing. Ratings do not establish suitability for EV high-voltage work.",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "verifiedAsin": null,
+      "verifiedDestination": null,
+      "candidateAsin": "B005T5G38E",
+      "candidateDestination": "https://www.amazon.com/dp/B005T5G38E",
+      "amazonHold": "Manufacturer kit part 2117440 versus Amazon part 892583; package identity unresolved.",
+      "amazonObservedAtMs": 1792088792623,
+      "amazonEvidence": {
+        "title": "Fluke 88 V/A Automotive Multimeter Combo Kit",
+        "brand": "Fluke",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "FLUKE-88-5/A KIT"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Part Number",
+            "value": "892583"
+          },
+          {
+            "name": "ASIN",
+            "value": "B005T5G38E"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://media.fluke.com/e61fff20-72b2-4d46-882c-b108006a5364_product_slideshow_main.jpg"
+        ],
+        "amazonGalleryCandidate": null,
+        "sourcePage": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "clore-automotive-ba9",
+      "position": 5,
+      "brand": "Clore Automotive",
+      "model": "BA9",
+      "name": "SOLAR BA9 battery and system tester",
+      "familyIds": [
+        "battery-tester"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "12 V starting-battery tester",
+        "40–1200 CCA test range",
+        "7–15 V operating range",
+        "Flooded, flat/spiral AGM and gel starting batteries"
+      ],
+      "manufacturerSource": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Requires a starting-battery rating such as CCA/CA; not a general lithium or high-voltage traction-battery tester.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B00IZFNJ6Y",
+      "verifiedDestination": "https://www.amazon.com/dp/B00IZFNJ6Y",
+      "candidateAsin": "B00IZFNJ6Y",
+      "candidateDestination": "https://www.amazon.com/dp/B00IZFNJ6Y",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792881,
+      "amazonEvidence": {
+        "title": "Clore Automotive SOLAR Digital 12V Battery and System Tester",
+        "brand": "Clore Automotive",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "BA9"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Part Number",
+            "value": "BA9"
+          },
+          {
+            "name": "ASIN",
+            "value": "B00IZFNJ6Y"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://cloreautomotive.com/wp-content/uploads/2014/01/BA9-with-Clamps.png.webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81Sw3zqu5oL._AC_SL1500_.jpg",
+        "sourcePage": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "noco-gb40",
+      "position": 6,
+      "brand": "NOCO",
+      "model": "GB40",
+      "name": "Boost GB40 portable jump starter",
+      "familyIds": [
+        "jump-starter"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "12 V jump starter",
+        "1000 A manufacturer starting-current claim",
+        "Manufacturer applications up to 6.0 L petrol / 3.0 L diesel",
+        "Integrated light and USB power functions"
+      ],
+      "manufacturerSource": "https://no.co/gb40",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Match battery type and engine application. Current manufacturer imagery shows USB-C input; verify supplied revision before illustrating ports from older listing photos.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B015TKUPIC",
+      "verifiedDestination": "https://www.amazon.com/dp/B015TKUPIC",
+      "candidateAsin": "B015TKUPIC",
+      "candidateDestination": "https://www.amazon.com/dp/B015TKUPIC",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792983,
+      "amazonEvidence": {
+        "title": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter",
+        "brand": "NOCO",
+        "modelAndPackageFields": [
+          {
+            "name": "Manufacturer Part Number",
+            "value": "GB40"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "GB40"
+          },
+          {
+            "name": "ASIN",
+            "value": "B015TKUPIC"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://no.co/_next/image?url=https%3A%2F%2Fno.co%2Fmedia%2Fwysiwyg%2FProducts%2FBoost%2FBoost%2FGB40%2FOverview%2F1_H3V1_Main_Image%2F1-GB40-Main-Render-XS.jpg&w=320&q=75",
+          "https://no.co/_next/image?url=https%3A%2F%2Fno.co%2Fmedia%2Fwysiwyg%2FProducts%2FBoost%2FBoost%2FGB40%2FOverview%2F2_H2_Engine_Bay_Lifestyle_Image%2F2-GB40-On-Engine-Bay-Jump-Starting-XS.jpg&w=320&q=75"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SL1500_.jpg",
+        "sourcePage": "https://no.co/gb40",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "noco-genius5",
+      "position": 7,
+      "brand": "NOCO",
+      "model": "GENIUS5",
+      "name": "GENIUS5 smart charger and maintainer",
+      "familyIds": [
+        "battery-charger"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "5 A charger",
+        "6 V / 12 V lead-acid modes",
+        "12 V lithium charging mode for compatible batteries",
+        "Maintenance and temperature-compensated charging"
+      ],
+      "manufacturerSource": "https://no.co/genius5",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Select the mode for the actual battery chemistry; a charger is not a jump starter. Confirm US mains version and connector bundle.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B07W8KJH44",
+      "verifiedDestination": "https://www.amazon.com/dp/B07W8KJH44",
+      "candidateAsin": "B07W8KJH44",
+      "candidateDestination": "https://www.amazon.com/dp/B07W8KJH44",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792693,
+      "amazonEvidence": {
+        "title": "NOCO GENIUS5 5A 6/12V Smart Battery Charger, Trickle Charger & Maintainer",
+        "brand": "NOCO",
+        "modelAndPackageFields": [
+          {
+            "name": "Mfr Part Number",
+            "value": "GENIUS5"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "GENIUS5"
+          },
+          {
+            "name": "ASIN",
+            "value": "B07W8KJH44"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://no.co/_next/image?url=https%3A%2F%2Fno.co%2Fmedia%2Fwysiwyg%2F0-GENIUS5_XS.jpg&w=320&q=75"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81UVh1o+ayL._AC_SL1500_.jpg",
+        "sourcePage": "https://no.co/genius5",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "tekton-trq50402",
+      "position": 8,
+      "brand": "TEKTON",
+      "model": "TRQ50402",
+      "name": "TRQ50402 1/4-inch torque wrench with case",
+      "familyIds": [
+        "low-range-torque-wrench"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "1/4-inch square drive",
+        "20–200 in-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ],
+      "manufacturerSource": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq50402",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Replaces discontinued TRQ21101 (10–150 in-lb); does not cover the old 10–19 in-lb range. Use a different calibrated range when a fastener requires it.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0FYHGKDP9",
+      "verifiedDestination": "https://www.amazon.com/dp/B0FYHGKDP9",
+      "candidateAsin": "B0FYHGKDP9",
+      "candidateDestination": "https://www.amazon.com/dp/B0FYHGKDP9",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089172547,
+      "amazonEvidence": {
+        "title": "TEKTON 1/4 Inch Drive Micrometer Torque Wrench | TRQ50402",
+        "brand": "TEKTON",
+        "modelAndPackageFields": [
+          {
+            "name": "Item Package Quantity",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "TRQ50402"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "TRQ50402"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0FYHGKDP9"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://images.tekton.com/assets/tekton-torque-wrench-trq50402_angle.jpg?width=2560&quality=75",
+          "https://images.tekton.com/assets/tekton-torque-wrench-trq50402_back-angle.jpg?width=2560&quality=75"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41S7T3I2g4L._AC_SL1500_.jpg",
+        "sourcePage": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq50402",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "tekton-trq52403",
+      "position": 9,
+      "brand": "TEKTON",
+      "model": "TRQ52403",
+      "name": "TRQ52403 1/2-inch torque wrench with case",
+      "familyIds": [
+        "wheel-service-torque-wrench"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "1/2-inch square drive",
+        "40–300 ft-lb range",
+        "90-tooth head, 4-degree swing",
+        "Clockwise and counterclockwise measuring",
+        "Manufacturer accuracy within ±3%, with serialized calibration certificate"
+      ],
+      "manufacturerSource": "https://www.tekton.com/1-2-inch-drive-dual-direction-micrometer-torque-wrench-trq52403",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Replaces discontinued 24340 (25–250 ft-lb); does not cover 25–39 ft-lb. Final tightening follows the vehicle specification, not impact-wrench settings.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0FYHC3J73",
+      "verifiedDestination": "https://www.amazon.com/dp/B0FYHC3J73",
+      "candidateAsin": "B0FYHC3J73",
+      "candidateDestination": "https://www.amazon.com/dp/B0FYHC3J73",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089172135,
+      "amazonEvidence": {
+        "title": "TEKTON 1/2 Inch Drive Micrometer Torque Wrench | TRQ52403",
+        "brand": "TEKTON",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "TRQ52403"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "TRQ52403"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0FYHC3J73"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://images.tekton.com/assets/tekton-torque-wrench-trq52403_angle.jpg?width=2560&quality=75",
+          "https://images.tekton.com/assets/tekton-torque-wrench-trq52403_back-angle.jpg?width=2560&quality=75"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51kjGi8FpjL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.tekton.com/1-2-inch-drive-dual-direction-micrometer-torque-wrench-trq52403",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "gearwrench-80300p",
+      "position": 10,
+      "brand": "GEARWRENCH",
+      "model": "80300P",
+      "name": "80300P 51-piece 1/4-inch mechanic socket set",
+      "familyIds": [
+        "quarter-drive-socket-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "51 pieces",
+        "1/4-inch hand drive",
+        "120XP ratchet with 3-degree swing",
+        "Standard and deep SAE/metric sockets",
+        "Blow-moulded case"
+      ],
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80300p-51-piece-14-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Corrected source to 80300P; the old tracker linked to 80550P. Chrome hand-drive sockets must not be assumed impact-rated.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B009PJPGR4",
+      "verifiedDestination": "https://www.amazon.com/dp/B009PJPGR4",
+      "candidateAsin": "B009PJPGR4",
+      "candidateDestination": "https://www.amazon.com/dp/B009PJPGR4",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792866,
+      "amazonEvidence": {
+        "title": "GEARWRENCH 51 Pc 1/4\" Dr 6 Pt 120XP SAE/Metric Mechanics Tool Set | 80300P",
+        "brand": "GEARWRENCH",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "80300P"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "80300P"
+          },
+          {
+            "name": "ASIN",
+            "value": "B009PJPGR4"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80300P_IMG-MAIN.jpg?itok=ISNCEe13",
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80300P_INCASE_01.jpg?itok=boBzdPRW"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/91sBcZpnYjL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80300p-51-piece-14-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "sunex-2569",
+      "position": 11,
+      "brand": "SUNEX",
+      "model": "2569",
+      "name": "2569 43-piece 1/2-inch metric impact socket set",
+      "familyIds": [
+        "half-drive-impact-socket-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "43 pieces",
+        "1/2-inch impact drive",
+        "Standard and deep six-point sockets",
+        "Sizes 9–24, 26, 27 and 30 mm",
+        "Includes universal joint, extensions and case"
+      ],
+      "manufacturerSource": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "There are size skips: 25, 28 and 29 mm are not included. Match socket size, clearance and impact tool.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B00MPQ88RY",
+      "verifiedDestination": "https://www.amazon.com/dp/B00MPQ88RY",
+      "candidateAsin": "B00MPQ88RY",
+      "candidateDestination": "https://www.amazon.com/dp/B00MPQ88RY",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792969,
+      "amazonEvidence": {
+        "title": "Sunex 2569, 1/2\" Drive Master Impact Socket Set, 43Piece, Metric, 9mm - 30mm, Standard/Deep, Cr-Mo Alloy Steel, Radius Corner Design, Heavy Duty Storage Case, Universal Joint & Impact Extensions",
+        "brand": "Sunex Tools",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "SUN2569"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "SUN2569"
+          },
+          {
+            "name": "ASIN",
+            "value": "B00MPQ88RY"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://sunextools.com/cdn/shop/files/95a5762a4f7c2e5f9b361377a4a94e2f765743d7_2569_1_7b785046-f3e8-42fb-b9f8-08154e7a09bf.jpg?v=1789075849&width=1946",
+          "https://sunextools.com/cdn/shop/files/89a0a6240b30402c50d5a9935502f7452b7f42b6_2569_2_87d21b86-6c17-4458-b041-d904f46aaa9c.jpg?v=1789075849&width=1946"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81bNAEMPeXL._AC_SL1500_.jpg",
+        "sourcePage": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "tekton-skt15311",
+      "position": 12,
+      "brand": "TEKTON",
+      "model": "SKT15311",
+      "name": "SKT15311 73-piece 3/8-inch socket and ratchet set",
+      "familyIds": [
+        "three-eighths-socket-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "73 pieces",
+        "3/8-inch hand drive",
+        "Six-point shallow and deep sockets",
+        "SAE 1/4–1 inch and metric 6–24 mm",
+        "Includes ratchet, accessories and case"
+      ],
+      "manufacturerSource": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Count owned tools first: kit accessories overlap separate extensions. These chrome sockets are not a substitute for the impact set.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B07TBH736Z",
+      "verifiedDestination": "https://www.amazon.com/dp/B07TBH736Z",
+      "candidateAsin": "B07TBH736Z",
+      "candidateDestination": "https://www.amazon.com/dp/B07TBH736Z",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088792722,
+      "amazonEvidence": {
+        "title": "TEKTON 3/8 Inch Drive 6-Point Socket and Ratchet Set, 73-Piece (1/4-1 in., 6-24 mm) | SKT15311",
+        "brand": "TEKTON",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "SKT15311"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "SKT15311"
+          },
+          {
+            "name": "ASIN",
+            "value": "B07TBH736Z"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://images.tekton.com/assets/tekton-6-point-socket-set-skt15311_front.jpg?width=2560&quality=75",
+          "https://images.tekton.com/assets/tekton-hand-drive-6-point-socket-set-skt15311_angle.jpg?width=2560&quality=75"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71CqL9iV3GL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "tekton-sbh00224",
+      "position": 13,
+      "brand": "TEKTON",
+      "model": "SBH00224",
+      "name": "SBH00224 24-inch breaker bar",
+      "familyIds": [
+        "breaker-bar"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "1/2-inch square drive",
+        "24-inch overall length",
+        "230-degree pivoting head",
+        "External-head design with serviceable components"
+      ],
+      "manufacturerSource": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Manual loosening and controlled leverage; not a calibrated torque wrench or an impact-drive accessory.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B07GH97P36",
+      "verifiedDestination": "https://www.amazon.com/dp/B07GH97P36",
+      "candidateAsin": "B07GH97P36",
+      "candidateDestination": "https://www.amazon.com/dp/B07GH97P36",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088982940,
+      "amazonEvidence": {
+        "title": "TEKTON 1/2 Inch Drive x 24 Inch Breaker Bar | SBH00224",
+        "brand": "TEKTON",
+        "modelAndPackageFields": [
+          {
+            "name": "Item Package Quantity",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "SBH00224"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "SBH00224"
+          },
+          {
+            "name": "ASIN",
+            "value": "B07GH97P36"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://images.tekton.com/assets/tekton-breaker-bar-sbh00224_front.jpg?width=2560&quality=75",
+          "https://images.tekton.com/assets/tekton-breaker-bar-sbh00224_angle.jpg?width=2560&quality=75"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/419Cd0YsNeL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "tekton-sha91011",
+      "position": 14,
+      "brand": "TEKTON",
+      "model": "SHA91011",
+      "name": "SHA91011 four-piece 3/8-inch extension set",
+      "familyIds": [
+        "socket-extension"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "3/8-inch hand drive",
+        "Lengths 1, 3, 6 and 10 inches",
+        "Knurled grip bands",
+        "Four detent grooves at drive engagement"
+      ],
+      "manufacturerSource": "https://www.tekton.com/3-8-inch-drive-4-piece-extension-set-sha91011",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Replaces discontinued three-piece SHA91005. Optional purchase if the socket kit already supplies the required reach; not advertised here as impact-rated.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0B1N9RZNZ",
+      "verifiedDestination": "https://www.amazon.com/dp/B0B1N9RZNZ",
+      "candidateAsin": "B0B1N9RZNZ",
+      "candidateDestination": "https://www.amazon.com/dp/B0B1N9RZNZ",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089172605,
+      "amazonEvidence": {
+        "title": "TEKTON 3/8 Inch Drive Extension Set, 4-Piece | SHA91011",
+        "brand": "TEKTON",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "SHA91011"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "SHA91011"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0B1N9RZNZ"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://images.tekton.com/assets/tekton-accessory-set-sha91011_angle.jpg?width=2560&quality=75",
+          "https://images.tekton.com/assets/tekton-hand-drive-accessory-set-sha91011_contents.jpg?width=2560&quality=75"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61tBD3ocJ2L._AC_SL1500_.jpg",
+        "sourcePage": "https://www.tekton.com/3-8-inch-drive-4-piece-extension-set-sha91011",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "gearwrench-81916",
+      "position": 15,
+      "brand": "GEARWRENCH",
+      "model": "81916",
+      "name": "81916 22-piece metric combination wrench set",
+      "familyIds": [
+        "metric-combination-wrench-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "22 long-pattern wrenches",
+        "12-point box ends",
+        "15-degree box-end offset",
+        "Sizes 6–24, 27, 30 and 32 mm",
+        "Tool roll"
+      ],
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Not a contiguous 6–32 mm set: 25, 26, 28, 29 and 31 mm are absent.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B003L1ZZVY",
+      "verifiedDestination": "https://www.amazon.com/dp/B003L1ZZVY",
+      "candidateAsin": "B003L1ZZVY",
+      "candidateDestination": "https://www.amazon.com/dp/B003L1ZZVY",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088982989,
+      "amazonEvidence": {
+        "title": "GEARWRENCH 22 Piece 12 Point Combination Metric Wrench Set | 81916",
+        "brand": "GEARWRENCH",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "81916"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "81916"
+          },
+          {
+            "name": "ASIN",
+            "value": "B003L1ZZVY"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_81916_FRNT_MAIN2.jpg?itok=3J7J7DGi"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61ogU3HuxjL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "gearwrench-81906",
+      "position": 16,
+      "brand": "GEARWRENCH",
+      "model": "81906",
+      "name": "81906 six-piece metric flare-nut wrench set",
+      "familyIds": [
+        "flare-nut-wrench-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Six double-ended wrenches",
+        "Pairs 9×11, 10×12, 13×14, 15×17, 16×18 and 19×21 mm",
+        "For access around line fittings"
+      ],
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Listing model is 81906 but manufacturer-part metadata says Drake Off Road Tools. Resolve that provenance conflict; do not silently equate it to a fully verified GEARWRENCH offer.",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "verifiedAsin": null,
+      "verifiedDestination": null,
+      "candidateAsin": "B000NI93SE",
+      "candidateDestination": "https://www.amazon.com/dp/B000NI93SE",
+      "amazonHold": "Manufacturer-part field names Drake Off Road Tools despite GEARWRENCH model/title.",
+      "amazonObservedAtMs": 1792088982743,
+      "amazonEvidence": {
+        "title": "GEARWRENCH 6 Pc. Flare Nut Wrench Set, Metric - 81906",
+        "brand": "GearWrench",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "81906"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "Drake Off Road Tools"
+          },
+          {
+            "name": "ASIN",
+            "value": "B000NI93SE"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_81906_IMG_MAIN_01.jpg?itok=48BYlJBn",
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_81906_IMG_ENV_01.jpg?itok=42zP2YmT"
+        ],
+        "amazonGalleryCandidate": null,
+        "sourcePage": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "milwaukee-2962-20",
+      "position": 17,
+      "brand": "Milwaukee",
+      "model": "2962-20",
+      "name": "2962-20 M18 FUEL 1/2-inch mid-torque impact wrench",
+      "familyIds": [
+        "mid-torque-impact-wrench"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "1/2-inch friction-ring anvil",
+        "M18 battery platform",
+        "Manufacturer claims up to 650 ft-lb breakaway torque",
+        "Four operating modes",
+        "Bare-tool configuration"
+      ],
+      "manufacturerSource": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Battery and charger are separate. Breakaway torque is a manufacturer claim, not a tightening specification. Listing has an inconsistent vendor part code; title/model/brand agree.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B08VN7CSTJ",
+      "verifiedDestination": "https://www.amazon.com/dp/B08VN7CSTJ",
+      "candidateAsin": "B08VN7CSTJ",
+      "candidateDestination": "https://www.amazon.com/dp/B08VN7CSTJ",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088983274,
+      "amazonEvidence": {
+        "title": "Milwaukee 2962-20 M18 18V Fuel 1/2\" Mid-torque Impact Wrench with Friction Ring",
+        "brand": "Milwaukee",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "2962-20"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "TPN32598"
+          },
+          {
+            "name": "ASIN",
+            "value": "B08VN7CSTJ"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.milwaukeetool.com/products/details/m18-fuel-1-2-mid-torque-impact-wrench-w-friction-ring/2962-20"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51gZLVF0xRL._AC_SL1000_.jpg",
+        "sourcePage": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "milwaukee-2567-20",
+      "position": 18,
+      "brand": "Milwaukee",
+      "model": "2567-20",
+      "name": "2567-20 M12 FUEL 3/8-inch high-speed ratchet",
+      "familyIds": [
+        "cordless-ratchet"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "3/8-inch anvil",
+        "M12 battery platform",
+        "0–450 rpm",
+        "Bare-tool configuration"
+      ],
+      "manufacturerSource": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+      "manufacturerStatus": "specification-conflict-or-detail-hold",
+      "manufacturerDetailHold": "Manufacturer torque conflict: 37 ft-lb table versus 35 ft-lb feature text.",
+      "limitations": "Manufacturer page conflicts: comparison table says 37 ft-lb, feature text says 35 ft-lb. Omit a definitive maximum torque pending resolution; battery and charger separate.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B09XWVC7C9",
+      "verifiedDestination": "https://www.amazon.com/dp/B09XWVC7C9",
+      "candidateAsin": "B09XWVC7C9",
+      "candidateDestination": "https://www.amazon.com/dp/B09XWVC7C9",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088983146,
+      "amazonEvidence": {
+        "title": "Milwaukee M12 12-Volt Lithium-Ion Brushless Cordless High Speed 3/8 in. Ratchet (Tool-Only) 2567-20",
+        "brand": "Milwaukee",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "2567-20"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "2567-20"
+          },
+          {
+            "name": "ASIN",
+            "value": "B09XWVC7C9"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41tNp3-jQnL._AC_SL1000_.jpg",
+        "sourcePage": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-25750",
+      "position": 19,
+      "brand": "Lisle",
+      "model": "25750",
+      "name": "25750 dual-piston brake caliper compressor",
+      "familyIds": [
+        "caliper-compressor"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Compresses two push-back pistons together",
+        "Hand-operated squeeze mechanism",
+        "Uses the inboard pad to distribute load"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/brakes/dual-piston-brake-caliper-compressor",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Not a universal rear-caliper wind-back or EPB tool. Follow the vehicle retraction and reservoir procedure.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0002SQUTU",
+      "verifiedDestination": "https://www.amazon.com/dp/B0002SQUTU",
+      "candidateAsin": "B0002SQUTU",
+      "candidateDestination": "https://www.amazon.com/dp/B0002SQUTU",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088982951,
+      "amazonEvidence": {
+        "title": "Lisle 25750 Dual Piston Brake Pad Spreader",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "25750"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "25750"
+          },
+          {
+            "name": "OEM Equivalent Part Number",
+            "value": "25750"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0002SQUTU"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/25750_EFE500F9AC92E.jpg?dimensions=386x333&format=webp",
+          "https://www.lislecorp.com/media/products/25750_EFE500F9AC92E.jpg?dimensions=175x151&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71QnygBjZLL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.lislecorp.com/specialty-tools/brakes/dual-piston-brake-caliper-compressor",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-81850",
+      "position": 20,
+      "brand": "Lisle",
+      "model": "81850",
+      "name": "81850 combination brake-lining thickness gauge set",
+      "familyIds": [
+        "brake-lining-gauge"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Nine acetal gauges",
+        "Straight and offset access",
+        "Thicknesses 2, 2, 3, 4, 5, 6, 8, 10 and 12 mm",
+        "Two 2 mm access profiles"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/brakes/combination-brake-lining-thickness-gauge-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Colour bands are screening aids; replacement decisions use vehicle limits and a proper inspection, not colour alone.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B00OJG327E",
+      "verifiedDestination": "https://www.amazon.com/dp/B00OJG327E",
+      "candidateAsin": "B00OJG327E",
+      "candidateDestination": "https://www.amazon.com/dp/B00OJG327E",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088983380,
+      "amazonEvidence": {
+        "title": "Lisle 81850 Combination Brake Lining Thickness Gauge Set",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Part Number",
+            "value": "81850"
+          },
+          {
+            "name": "Model",
+            "value": "81850"
+          },
+          {
+            "name": "ASIN",
+            "value": "B00OJG327E"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/81850_A1C0623753349.jpg?dimensions=396x333&format=webp",
+          "https://www.lislecorp.com/media/products/81850_A1C0623753349.jpg?dimensions=180x151&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81sF6ITTkiL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.lislecorp.com/specialty-tools/brakes/combination-brake-lining-thickness-gauge-set",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "mityvac-mv6840",
+      "position": 21,
+      "brand": "Mityvac",
+      "model": "MV6840",
+      "name": "MV6840 pressure brake and clutch bleeding system",
+      "familyIds": [
+        "pressure-brake-bleeder"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Manual-pump pressure dispenser",
+        "1.2 US gallon / 5 L capacity",
+        "Seven master-cylinder adapters in MVA6850 kit",
+        "Pressure gauge and manual relief valve"
+      ],
+      "manufacturerSource": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Match the adapter, brake fluid and vehicle pressure limit. A generic pressure bleeder does not replace a required ABS scan-tool bleeding procedure.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B005MVBFM4",
+      "verifiedDestination": "https://www.amazon.com/dp/B005MVBFM4",
+      "candidateAsin": "B005MVBFM4",
+      "candidateDestination": "https://www.amazon.com/dp/B005MVBFM4",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088982896,
+      "amazonEvidence": {
+        "title": "Mityvac MV6840 Hydraulic Brake and Clutch Pressure Bleeding System, Includes Seven (7) Master Cylinder Adapters, 1.2 Gallon Reservoir, Quick-Change Connections Pressure Relief Valve, Storage Case",
+        "brand": "Mityvac",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "MV6840"
+          },
+          {
+            "name": "Item model number",
+            "value": "MV6840"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "MV6840"
+          },
+          {
+            "name": "ASIN",
+            "value": "B005MVBFM4"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61GFxz5-3ML._AC_SL1200_.jpg",
+        "sourcePage": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "arcan-a20018",
+      "position": 22,
+      "brand": "Arcan",
+      "model": "A20018",
+      "name": "A20018 three-ton aluminium floor jack",
+      "familyIds": [
+        "floor-jack"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Manufacturer model A20018",
+        "3 US ton / 6000 lb rated lifting capacity",
+        "Dual-pump pistons",
+        "Aluminium chassis and reinforced arm",
+        "Manufacturer page lift range 3.78–18.9 inches"
+      ],
+      "manufacturerSource": "https://arcantools.com/lifting/a20018",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Standalone Amazon result is A20019; A20018 search results include bundles. Do not publish A20019 as A20018. Lift only at approved points and support the vehicle separately.",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "verifiedAsin": null,
+      "verifiedDestination": null,
+      "candidateAsin": null,
+      "candidateDestination": null,
+      "amazonHold": "A20018 standalone listing not verified. B0047D2FWM is A20019; A20018 bundles are not the approved single-jack package.",
+      "amazonObservedAtMs": null,
+      "amazonEvidence": {
+        "title": null,
+        "brand": null,
+        "modelAndPackageFields": []
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://images.squarespace-cdn.com/content/v1/5ee8dfdb90b24e51ca5a547c/1608231283179-H0ZN7GG6WG6764X0BHW7/A20018.MAIN.JPG.jpg",
+          "https://images.squarespace-cdn.com/content/v1/5ee8dfdb90b24e51ca5a547c/1608231283179-H0ZN7GG6WG6764X0BHW7/A20018.MAIN.JPG.jpg?format=2500w"
+        ],
+        "amazonGalleryCandidate": null,
+        "sourcePage": "https://arcantools.com/lifting/a20018",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "esco-10498-pair",
+      "position": 23,
+      "brand": "ESCO",
+      "model": "10498-PAIR",
+      "name": "10498-PAIR three-ton performance jack stands",
+      "familyIds": [
+        "jack-stand"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Two stands with rubber flat-top saddles",
+        "Manufacturer rating 3 tons per stand",
+        "Height range 13.2–21.5 inches",
+        "Ten pin-locked height positions"
+      ],
+      "manufacturerSource": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Manufacturer manual requires pair configuration for supporting a vehicle end. Do not turn the per-stand figure into an unrestricted six-ton vehicle recommendation. Match saddle and support point.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B01J5ZB8K6",
+      "verifiedDestination": "https://www.amazon.com/dp/B01J5ZB8K6",
+      "candidateAsin": "B01J5ZB8K6",
+      "candidateDestination": "https://www.amazon.com/dp/B01J5ZB8K6",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088982842,
+      "amazonEvidence": {
+        "title": "3 Ton Performance Jack Stands, Pair",
+        "brand": "ESCO",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "2"
+          },
+          {
+            "name": "Model Number",
+            "value": "10498-PAIR"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "10498-PAIR"
+          },
+          {
+            "name": "ASIN",
+            "value": "B01J5ZB8K6"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://esco.net/wp-content/uploads/2021/10/10498-PAIR-21.jpg",
+          "https://esco.net/wp-content/uploads/2021/10/10498-PAIR-21-300x300.jpg"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61cQf6eqPPL._AC_SL1500_.jpg",
+        "sourcePage": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-17922",
+      "position": 24,
+      "brand": "Lisle",
+      "model": "17922",
+      "name": "17922 multi-drain tub",
+      "familyIds": [
+        "oil-drain-container"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "30 US quart / 7.5 US gallon capacity",
+        "33×22×8 inch dimensions",
+        "Heavy-duty plastic tub",
+        "Pouring apron for draining and handling"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products/multi-drain-tub",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Check under-vehicle clearance and expected fluid volume/temperature. Used-fluid capture and clean filling require separate containers.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0002SR7SS",
+      "verifiedDestination": "https://www.amazon.com/dp/B0002SR7SS",
+      "candidateAsin": "B0002SR7SS",
+      "candidateDestination": "https://www.amazon.com/dp/B0002SR7SS",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792088982781,
+      "amazonEvidence": {
+        "title": "Lisle 17922 Drain Pan - 7.5 Gallons, 33\" x 22\" x 8\", Factory",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Name",
+            "value": "17922"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "17922"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "17922"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0002SR7SS"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/17922C_B28F33C0F7728.jpg?dimensions=499x299&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41F8czDYZcL._AC_SL1200_.jpg",
+        "sourcePage": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products/multi-drain-tub",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-19752",
+      "position": 25,
+      "brand": "Lisle",
+      "model": "19752",
+      "name": "19752 six-quart oil dispenser, red spout",
+      "familyIds": [
+        "oil-dispenser"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "6 US quart capacity",
+        "Translucent polyethylene body",
+        "Quart and litre graduations",
+        "Flexible 8-inch red spout"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "This is the red-spout 19752, not white-spout 19732 or capped 8-quart 19702. Keep clean and dedicated to compatible fluids.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B005ETVOP2",
+      "verifiedDestination": "https://www.amazon.com/dp/B005ETVOP2",
+      "candidateAsin": "B005ETVOP2",
+      "candidateDestination": "https://www.amazon.com/dp/B005ETVOP2",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008289,
+      "amazonEvidence": {
+        "title": "Lisle 19752 6 Quart Oil Dispenser",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Name",
+            "value": "Lisle 19752 Red Oil Dispenser - 6 Quart Capacity"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "19752"
+          },
+          {
+            "name": "Model Number",
+            "value": "19752"
+          },
+          {
+            "name": "ASIN",
+            "value": "B005ETVOP2"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/19752_94767A24C97CF.jpg?dimensions=500x500&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41uPMSq6n6L._AC_SL1000_.jpg",
+        "sourcePage": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-63600",
+      "position": 26,
+      "brand": "Lisle",
+      "model": "63600",
+      "name": "63600 spin-on oil-filter removal wrench",
+      "familyIds": [
+        "oil-filter-wrench"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Fits 2.5–3.125 inch filter diameters",
+        "Steel gripping jaws",
+        "3/8-inch square drive",
+        "Removal only"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Not for installing or tightening a filter. Match diameter and access; cartridge caps need a different tool.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0002SR4Q8",
+      "verifiedDestination": "https://www.amazon.com/dp/B0002SR4Q8",
+      "candidateAsin": "B0002SR4Q8",
+      "candidateDestination": "https://www.amazon.com/dp/B0002SR4Q8",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008273,
+      "amazonEvidence": {
+        "title": "Lisle 63600 Car Oil Filter Wrench for 2-1/2\" to 3-1/8\" Filters",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Manufacturer Part Number",
+            "value": "63600"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "63600"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0002SR4Q8"
+          },
+          {
+            "name": "OEM Equivalent Part Number",
+            "value": "63600"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/63600c_4E08D1FDEAF2F.jpg?dimensions=472x500&format=webp",
+          "https://www.lislecorp.com/media/products/63600c_4E08D1FDEAF2F.jpg?dimensions=142x151&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71vBcb8HNVL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-13270",
+      "position": 27,
+      "brand": "Lisle",
+      "model": "13270",
+      "name": "13270 seven-piece low-profile filter socket set",
+      "familyIds": [
+        "filter-socket-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Seven six-point sockets",
+        "Sizes 24, 25, 27, 28, 29, 32 and 36 mm",
+        "3/8-inch square drive",
+        "For supported oil/fuel filter canisters"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/13270--low-profile-filter-socket-set-7pc",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Match exact cap geometry and engine. A size list alone is not universal filter compatibility.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B07NX6MNNX",
+      "verifiedDestination": "https://www.amazon.com/dp/B07NX6MNNX",
+      "candidateAsin": "B07NX6MNNX",
+      "candidateDestination": "https://www.amazon.com/dp/B07NX6MNNX",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008152,
+      "amazonEvidence": {
+        "title": "Lisle 13270 7 PC FILTER SOCKET SET",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "7Pc Filter Socket Set"
+          },
+          {
+            "name": "Item model number",
+            "value": "13270"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "13270"
+          },
+          {
+            "name": "ASIN",
+            "value": "B07NX6MNNX"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/13270_1ABCDB86BD656.jpg?dimensions=411x500&format=webp",
+          "https://www.lislecorp.com/media/products/13270_1ABCDB86BD656.jpg?dimensions=124x151&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81rd5o0mnSL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/13270--low-profile-filter-socket-set-7pc",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "astro-pneumatic-3018",
+      "position": 28,
+      "brand": "Astro Pneumatic",
+      "model": "3018",
+      "name": "3018 digital tyre inflator with hose",
+      "familyIds": [
+        "tire-inflator"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "3.5-inch digital display",
+        "Manual lists 3–175 psi measuring/working range",
+        "0.1 psi reading resolution",
+        "218 psi maximum inlet pressure",
+        "Manufacturer accuracy table: ±1.2 psi at 0–58 psi; ±2.0 psi at 59–174 psi"
+      ],
+      "manufacturerSource": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Resolution is not accuracy. Needs an appropriate compressed-air supply; follow the vehicle pressure specification and the inflator manual.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B002PUTC0M",
+      "verifiedDestination": "https://www.amazon.com/dp/B002PUTC0M",
+      "candidateAsin": "B002PUTC0M",
+      "candidateDestination": "https://www.amazon.com/dp/B002PUTC0M",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008719,
+      "amazonEvidence": {
+        "title": "Astro Pneumatic Tool 3018 3.5\" Digital Tire Inflator with Hose",
+        "brand": "AP",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Part Number",
+            "value": "3018"
+          },
+          {
+            "name": "Model",
+            "value": "3018"
+          },
+          {
+            "name": "ASIN",
+            "value": "B002PUTC0M"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71sF16wgPkL._SL1500_.jpg",
+        "sourcePage": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "milton-s-921",
+      "position": 29,
+      "brand": "Milton",
+      "model": "S-921",
+      "name": "S-921 passenger-car pencil tyre-pressure gauge",
+      "familyIds": [
+        "tire-pressure-gauge"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "5–50 psi range",
+        "Single-head passenger-car chuck",
+        "PSI and kPa scale",
+        "Deflator function"
+      ],
+      "manufacturerSource": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Not a high-pressure truck gauge; check the required cold pressure lies inside its range. Manufacturer material description takes precedence over inconsistent retailer fields.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0002SQYTG",
+      "verifiedDestination": "https://www.amazon.com/dp/B0002SQYTG",
+      "candidateAsin": "B0002SQYTG",
+      "candidateDestination": "https://www.amazon.com/dp/B0002SQYTG",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008015,
+      "amazonEvidence": {
+        "title": "Milton S-921 Pencil Tire Pressure Gauge, Passenger Car, With Built-in Deflator Valve, Durable Plated Brass, Pressure Measured In PSI & kPa",
+        "brand": "Milton",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Part Number",
+            "value": "S-921"
+          },
+          {
+            "name": "Model",
+            "value": "S-921"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0002SQYTG"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://miltonindustries.com/cdn/shop/files/S-921-Main_Product_Image_76c07af6-be17-4c3b-aec2-c69b8a2a4bef.jpg?v=1754485539",
+          "https://miltonindustries.com/cdn/shop/files/S-921W-Main_Product_Image.jpg?v=1754485539"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51bP-YUVVCL._SL1500_.jpg",
+        "sourcePage": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "streamlight-66118",
+      "position": 30,
+      "brand": "Streamlight",
+      "model": "66118",
+      "name": "66118 Stylus Pro penlight, black",
+      "familyIds": [
+        "inspection-flashlight"
+      ],
+      "reuseExistingId": "streamlight-66118",
+      "specifications": [
+        "Black 66118 configuration",
+        "Two AAA cells",
+        "Current manufacturer output 100 lumens",
+        "Current manufacturer runtime 8 hours",
+        "Length 5.3 inches"
+      ],
+      "manufacturerSource": "https://www.streamlight.com/products/detail/stylus-pro",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Reuse the canonical record. Proposed exact listing B0015UC17E is clearer than existing B07KLSG5JG, whose title and part metadata conflict. Treat output figures as current manufacturer specification, not our test.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0015UC17E",
+      "verifiedDestination": "https://www.amazon.com/dp/B0015UC17E",
+      "candidateAsin": "B0015UC17E",
+      "candidateDestination": "https://www.amazon.com/dp/B0015UC17E",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008151,
+      "amazonEvidence": {
+        "title": "Streamlight 66118 Stylus Pro Penlight, Black",
+        "brand": "Streamlight",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "66118"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "66118"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0015UC17E"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61zNQEH+vhL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.streamlight.com/products/detail/stylus-pro",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "milwaukee-2125-20",
+      "position": 31,
+      "brand": "Milwaukee",
+      "model": "2125-20",
+      "name": "2125-20 M12 underhood light, bare tool",
+      "familyIds": [
+        "underhood-light"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "M12 battery platform",
+        "1350 lumen manufacturer output",
+        "Adjustable underhood mounting hooks",
+        "Detachable light bar",
+        "Tool only"
+      ],
+      "manufacturerSource": "https://www.milwaukeetool.com/2125-20",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Candidate B0CDVFR3V7 has P.T.S. brand metadata. Alternate B06ZZYPCNL detail request failed unresolved (request 78b12c1e-cd4c-4501-a0b9-2969978bda11). Exact brand/package remains on hold; battery/charger separate.",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "verifiedAsin": null,
+      "verifiedDestination": null,
+      "candidateAsin": "B0CDVFR3V7",
+      "candidateDestination": "https://www.amazon.com/dp/B0CDVFR3V7",
+      "amazonHold": "B0CDVFR3V7 brand is P.T.S.; alternate B06ZZYPCNL provider request outcome unresolved; do not rerun as a new request.",
+      "amazonObservedAtMs": 1792089007929,
+      "amazonEvidence": {
+        "title": "Milwaukee 2125-20 M12 LED Bare Underhood Light (Tool Only)",
+        "brand": "P.T.S.",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "2125-20"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0CDVFR3V7"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.milwaukeetool.com/2125-20"
+        ],
+        "amazonGalleryCandidate": null,
+        "sourcePage": "https://www.milwaukeetool.com/2125-20",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "gearwrench-83151",
+      "position": 32,
+      "brand": "GEARWRENCH",
+      "model": "83151",
+      "name": "83151 20-inch three-drawer steel toolbox",
+      "familyIds": [
+        "portable-toolbox"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Steel body",
+        "20×8.5×12 inches",
+        "Three drawers with ball-bearing slides",
+        "20 lb empty manufacturer weight",
+        "Keyed centre lock"
+      ],
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Portable storage rather than a complete workshop cabinet; account for loaded carrying weight.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0060VG188",
+      "verifiedDestination": "https://www.amazon.com/dp/B0060VG188",
+      "candidateAsin": "B0060VG188",
+      "candidateDestination": "https://www.amazon.com/dp/B0060VG188",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008004,
+      "amazonEvidence": {
+        "title": "GEARWRENCH 3 Drawer Tool Box - 83151",
+        "brand": "GearWrench",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "83151"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "83151"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0060VG188"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_TOI_83151.jpg?itok=3vlsiAD5",
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_83151_MAIN01.jpg?itok=XyaAWuVc"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61-2+Y0Ls6L._AC_SL1500_.jpg",
+        "sourcePage": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "dewalt-dpg94-1c",
+      "position": 33,
+      "brand": "DEWALT",
+      "model": "DPG94-1C",
+      "name": "DPG94-1C Dominator safety glasses, clear lens",
+      "familyIds": [
+        "safety-glasses"
+      ],
+      "reuseExistingId": "dewalt-dpg94-1c",
+      "specifications": [
+        "Manufacturer variant DPG94-1C is clear lens",
+        "Full-frame eyewear",
+        "Rubber-tipped temples and rubber nosepieces",
+        "Manufacturer states Z87.1+ impact performance"
+      ],
+      "manufacturerSource": "https://www.radians.com/products/composite-dewalt-dpg94-dominator-hardware-protective-eyewear",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Existing ASIN B002IVTX8E now returns generic DPG94 mirrored/polarized metadata and a different internal ASIN. DPG94-1D, yellow, gradient and mirrored lenses are not exact substitutes. Hold purchase link.",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "verifiedAsin": null,
+      "verifiedDestination": null,
+      "candidateAsin": "B002IVTX8E",
+      "candidateDestination": "https://www.amazon.com/dp/B002IVTX8E",
+      "amazonHold": "Returned Dpg94 mirrored/polarized variant with internal ASIN B0D6GTLP97; not verified clear DPG94-1C.",
+      "amazonObservedAtMs": 1792087968945,
+      "amazonEvidence": {
+        "title": "Dewalt Dominator Safety Glasses Dpg94 Unisex Adult Non Slip Polarized Mirrored Rubber Full Rim",
+        "brand": "DEWALT",
+        "modelAndPackageFields": [
+          {
+            "name": "Item model number",
+            "value": "Dpg94"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0D6GTLP97"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://images.salsify.com/image/upload/s--uyDGQdrW--/w_636%2Cq_65/fl_attachment/ptebxxssjo5waazzk36i.jpg"
+        ],
+        "amazonGalleryCandidate": null,
+        "sourcePage": "https://www.radians.com/products/composite-dewalt-dpg94-dominator-hardware-protective-eyewear",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "3m-peltor-x4a",
+      "position": 34,
+      "brand": "3M PELTOR",
+      "model": "X4A",
+      "name": "X4A PELTOR over-head hearing protectors",
+      "familyIds": [
+        "hearing-protection"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Headband X4A configuration",
+        "US manufacturer technical sheet NRR 27 dB",
+        "Replaceable cushions/liners",
+        "Separate hard-hat models exist"
+      ],
+      "manufacturerSource": "https://multimedia.3m.com/mws/media/845196O/3m-peltor-x-series-earmuffs-technical-specifications.pdf",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "US NRR is not overseas SNR/SLC80. Both candidate ASINs return an inconsistent internal ASIN; exact single-unit headband listing remains on hold. Attenuation depends on fit and exposure assessment.",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "verifiedAsin": null,
+      "verifiedDestination": null,
+      "candidateAsin": "B00CPCHADQ",
+      "candidateDestination": "https://www.amazon.com/dp/B00CPCHADQ",
+      "amazonHold": "B00CPCHADQ and B0DXX37XVV return internal ASIN B0F1DPZ814; cannot establish exact single headband X4A.",
+      "amazonObservedAtMs": 1792089008351,
+      "amazonEvidence": {
+        "title": "3M PELTOR Hearing Protection Earmuffs, X4 Series Noise Protection, Construction, Manufacturing, Assembly, Sanding",
+        "brand": "3M",
+        "modelAndPackageFields": [
+          {
+            "name": "ASIN",
+            "value": "B0F1DPZ814"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [],
+        "amazonGalleryCandidate": null,
+        "sourcePage": "https://multimedia.3m.com/mws/media/845196O/3m-peltor-x-series-earmuffs-technical-specifications.pdf",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "maxxhaul-70472",
+      "position": 35,
+      "brand": "MaxxHaul",
+      "model": "70472",
+      "name": "70472 rubber wheel chocks, two-pack",
+      "familyIds": [
+        "wheel-chock"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Two rubber chocks",
+        "Each 8×4×6 inches",
+        "Moulded carrying handle",
+        "Textured contact surfaces"
+      ],
+      "manufacturerSource": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "No verified load/grade limit was found in the source. Do not invent one or claim universal suitability; these are not jack stands.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B01CGU14T2",
+      "verifiedDestination": "https://www.amazon.com/dp/B01CGU14T2",
+      "candidateAsin": "B01CGU14T2",
+      "candidateDestination": "https://www.amazon.com/dp/B01CGU14T2",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089008184,
+      "amazonEvidence": {
+        "title": "MaxxHaul Solid Rubber Wheel Chock 2-Pack | 8\" x 4\" x 6\" Heavy-Duty Tire Stop | Non-Slip Traction Pads | Built-in Handle | All-Weather Vehicle Safety Block | Black | (70472)",
+        "brand": "MAXXHAUL",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "70472"
+          },
+          {
+            "name": "Item model number",
+            "value": "70472"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "70472"
+          },
+          {
+            "name": "ASIN",
+            "value": "B01CGU14T2"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://maxxhaul.com/wp-content/uploads/2026/02/70472-1.jpg",
+          "https://maxxhaul.com/wp-content/uploads/2026/02/70472-2.jpg"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61+Fhmc-EdL._AC_SL1500_.jpg",
+        "sourcePage": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "gearwrench-80066h",
+      "position": 36,
+      "brand": "GEARWRENCH",
+      "model": "80066H",
+      "name": "80066H 20-piece mechanic screwdriver set",
+      "familyIds": [
+        "mechanic-screwdriver-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "20 pieces",
+        "Phillips, slotted and Torx profiles",
+        "Tri-lobe dual-material handles",
+        "Non-magnetic black-oxide tips",
+        "Not insulated"
+      ],
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/hand-tools/screwdrivers-hex-keys/80066h-20-piece-phillipsrslottedtorxr-dual-material-screwdriver-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Exact H suffix matters. Includes small precision profiles and T15/T20, not a complete Torx fastener range. Choose an appropriate profile and avoid using screwdrivers as pry bars.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B08KHSYKQH",
+      "verifiedDestination": "https://www.amazon.com/dp/B08KHSYKQH",
+      "candidateAsin": "B08KHSYKQH",
+      "candidateDestination": "https://www.amazon.com/dp/B08KHSYKQH",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792087968900,
+      "amazonEvidence": {
+        "title": "GEARWRENCH 20 Piece Phillips/Slotted/Torx Screwdriver Set | 80066H",
+        "brand": "GEARWRENCH",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Name",
+            "value": "80066H"
+          },
+          {
+            "name": "Model Number",
+            "value": "80066H"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "80066H"
+          },
+          {
+            "name": "ASIN",
+            "value": "B08KHSYKQH"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80066H_IMG-MAIN.jpg?itok=4GGHTeg_"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71mJOAIp3bL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.gearwrench.com/all-tools/hand-tools/screwdrivers-hex-keys/80066h-20-piece-phillipsrslottedtorxr-dual-material-screwdriver-set",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "klein-d203-8",
+      "position": 37,
+      "brand": "Klein Tools",
+      "model": "D203-8",
+      "name": "D203-8 eight-inch needle-nose side-cutting pliers",
+      "familyIds": [
+        "needle-nose-pliers"
+      ],
+      "reuseExistingId": "klein-d203-8",
+      "specifications": [
+        "Manufacturer nominal 8-inch class",
+        "8.41-inch overall length",
+        "Slim long-nose head",
+        "Induction-hardened cutting edges",
+        "Plastic-dipped handles"
+      ],
+      "manufacturerSource": "https://www.kleintools.com/catalog/standard-side-cutting-pliers/pliers-needle-nose-side-cutters-8-inch",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Reuse existing klein-d203-8. Standard model is not the insulated -INS or glow-handle -GLW variant; handle covering is not electrical insulation.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0000302WQ",
+      "verifiedDestination": "https://www.amazon.com/dp/B0000302WQ",
+      "candidateAsin": "B0000302WQ",
+      "candidateDestination": "https://www.amazon.com/dp/B0000302WQ",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089052007,
+      "amazonEvidence": {
+        "title": "Klein Tools D203-8 Long Nose Pliers, 8-Inch",
+        "brand": "KLEIN TOOLS",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "D203-8"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "D203-8"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0000302WQ"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://data.kleintools.com/sites/all/product_assets/hires/klein/d2038_photo.jpg"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/31AAulslf1L._AC_SL1000_.jpg",
+        "sourcePage": "https://www.kleintools.com/catalog/standard-side-cutting-pliers/pliers-needle-nose-side-cutters-8-inch",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "klein-d228-8",
+      "position": 38,
+      "brand": "Klein Tools",
+      "model": "D228-8",
+      "name": "D228-8 eight-inch diagonal-cutting pliers",
+      "familyIds": [
+        "diagonal-cutting-pliers"
+      ],
+      "reuseExistingId": "klein-d228-8",
+      "specifications": [
+        "7.98-inch overall length",
+        "Short jaws and bevelled cutting edges",
+        "High-leverage joint geometry",
+        "Induction-hardened cutting knives"
+      ],
+      "manufacturerSource": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Reuse existing klein-d228-8. Standard version, not -INS or tethered -TT. Intended for cutting appropriate material, not hardened automotive fasteners.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0000302VW",
+      "verifiedDestination": "https://www.amazon.com/dp/B0000302VW",
+      "candidateAsin": "B0000302VW",
+      "candidateDestination": "https://www.amazon.com/dp/B0000302VW",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051744,
+      "amazonEvidence": {
+        "title": "Klein Tools D228-8 Pliers, Diagonal Cutting Pliers with Short Jaw and Beveled Knives, High-Leverage Color-Coded Wire Cutters, 8-Inch 8-Inch Tool Set",
+        "brand": "KLEIN TOOLS",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "D228-8"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "D228-8"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0000302VW"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://data.kleintools.com/sites/all/product_assets/hires/klein/d2288_photo.jpg"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/3178wTKG6GL._AC_SL1000_.jpg",
+        "sourcePage": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "irwin-502l3",
+      "position": 39,
+      "brand": "IRWIN",
+      "model": "502L3",
+      "name": "502L3 Original 10WR curved-jaw locking pliers",
+      "familyIds": [
+        "locking-pliers"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "One 10-inch curved-jaw locking plier",
+        "Built-in wire cutter",
+        "Classic trigger release",
+        "Hex-key pressure-adjusting screw",
+        "Heat-treated alloy steel"
+      ],
+      "manufacturerSource": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Not the 4935576 alternate or a five-pack. Locking jaws can damage finished fittings; use the proper fitting wrench where required.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B07M7V6B1Y",
+      "verifiedDestination": "https://www.amazon.com/dp/B07M7V6B1Y",
+      "candidateAsin": "B07M7V6B1Y",
+      "candidateDestination": "https://www.amazon.com/dp/B07M7V6B1Y",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051685,
+      "amazonEvidence": {
+        "title": "Irwin Vise Grip 0502l3 10\" Curved Jaw Locking Pliers With Wire Cutter",
+        "brand": "Irwin Vise-Grip",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "502L3"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "502L3"
+          },
+          {
+            "name": "ASIN",
+            "value": "B07M7V6B1Y"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.irwintools.com/NAG/PRODUCT/IMAGES/HIRES/502L3_P2.jpg?resize=530x530",
+          "https://www.irwintools.com/NAG/PRODUCT/IMAGES/HIRES/502L3_1.jpg?resize=530x530"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81BZKLs8RGL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "knipex-8701250",
+      "position": 40,
+      "brand": "KNIPEX",
+      "model": "87 01 250",
+      "name": "87 01 250 ten-inch Cobra water-pump pliers",
+      "familyIds": [
+        "adjustable-joint-pliers"
+      ],
+      "reuseExistingId": "knipex-8701250",
+      "specifications": [
+        "10-inch nominal length",
+        "25 adjustment positions",
+        "Push-button adjustment",
+        "Non-slip plastic handles",
+        "Not 1000 V insulated"
+      ],
+      "manufacturerSource": "https://www.knipex-tools.com/products/pipe-wrenches-and-water-pump-pliers/water-pump-pliers/knipex-cobra-water-pump-pliers/8701250",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Reuse existing knipex-8701250. Serrated jaws suit gripping tasks, not every precision line fitting. Do not substitute other handle/insulation variants.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B000X4J2H0",
+      "verifiedDestination": "https://www.amazon.com/dp/B000X4J2H0",
+      "candidateAsin": "B000X4J2H0",
+      "candidateDestination": "https://www.amazon.com/dp/B000X4J2H0",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089052693,
+      "amazonEvidence": {
+        "title": "KNIPEX 87 01 250, 10 in. Cobra® Water Pump Pliers, Capacity 2 in.",
+        "brand": "KNIPEX",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "87 01 250"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "87 01 250"
+          },
+          {
+            "name": "ASIN",
+            "value": "B000X4J2H0"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://web-assets.knipex.com/sites/default/files/styles/knipex_product_detail/public/8701250-01-3.jpg?itok=Do4nXScA",
+          "https://web-assets.knipex.com/sites/default/files/styles/knipex_product_detail/public/8701250-01-1.jpg?itok=Onnefver"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/51YNzWs+-AL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.knipex-tools.com/products/pipe-wrenches-and-water-pump-pliers/water-pump-pliers/knipex-cobra-water-pump-pliers/8701250",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "gearwrench-80742",
+      "position": 41,
+      "brand": "GEARWRENCH",
+      "model": "80742",
+      "name": "80742 84-piece hex/Torx bit socket set",
+      "familyIds": [
+        "mechanic-bit-socket-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "84 pieces",
+        "1/4, 3/8 and 1/2-inch hand-drive sizes",
+        "SAE/metric hex and ball-end hex",
+        "Torx, tamper-resistant Torx and external Torx",
+        "Manual drive only"
+      ],
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80742-84-piece-14-38-12-drive-hexball-end-hextamper-proof-torxrexternal-torxrtorxr-saemetric-bit-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Manufacturer explicitly limits use to manual drive tools: do not put these on the cordless impact wrench. Match individual sizes to the course and serviced vehicles.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B01NA9PG8A",
+      "verifiedDestination": "https://www.amazon.com/dp/B01NA9PG8A",
+      "candidateAsin": "B01NA9PG8A",
+      "candidateDestination": "https://www.amazon.com/dp/B01NA9PG8A",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051659,
+      "amazonEvidence": {
+        "title": "GEARWRENCH 84-Piece Master SAE/Metric Hex & Torx Bit Socket Set | 80742",
+        "brand": "GEARWRENCH",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "80742"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "80742"
+          },
+          {
+            "name": "ASIN",
+            "value": "B01NA9PG8A"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_WIG_80742.jpg?itok=EucxKjU4",
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_%2080742_MAIN.jpg?itok=QFZtxyh2"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81bSiv5EHXL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80742-84-piece-14-38-12-drive-hexball-end-hextamper-proof-torxrexternal-torxrtorxr-saemetric-bit-set",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "gearwrench-80601",
+      "position": 42,
+      "brand": "GEARWRENCH",
+      "model": "80601",
+      "name": "80601 five-piece magnetic swivel spark-plug socket set",
+      "familyIds": [
+        "spark-plug-socket-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Five pieces",
+        "3/8-inch drive",
+        "Six-point magnetic swivel design",
+        "9/16 and 5/8-inch socket sizes",
+        "Blow-moulded case"
+      ],
+      "manufacturerSource": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80601-5-piece-38-drive-6-point-magnetic-swivel-spark-plug-socket-set",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Does not cover 13/16-inch or 14 mm school/vehicle needs. 9/16 inch is not an exact 14 mm substitute. Do not claim a complete ignition-service kit.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B06XCR8RF3",
+      "verifiedDestination": "https://www.amazon.com/dp/B06XCR8RF3",
+      "candidateAsin": "B06XCR8RF3",
+      "candidateDestination": "https://www.amazon.com/dp/B06XCR8RF3",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051647,
+      "amazonEvidence": {
+        "title": "GEARWRENCH 5 Pc 3/8\" Dr 6 Pt Magnetic Swivel Spark Plug Socket Set | 80601",
+        "brand": "GEARWRENCH",
+        "modelAndPackageFields": [
+          {
+            "name": "Model Number",
+            "value": "80601"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "80601"
+          },
+          {
+            "name": "ASIN",
+            "value": "B06XCR8RF3"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80601_INPACK01.jpg?itok=KSig_GT-",
+          "https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_80601_FRNT_MAIN.jpg?itok=xnHyDbum"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61GZcXHPXLL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80601-5-piece-38-drive-6-point-magnetic-swivel-spark-plug-socket-set",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-68100",
+      "position": 43,
+      "brand": "Lisle",
+      "model": "68100",
+      "name": "68100 deluxe feeler gauge",
+      "familyIds": [
+        "feeler-gauge"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "31 blades including one 0.010-inch brass blade",
+        "Thickness range 0.0015–0.035 inch",
+        "Approximately 1/2-inch-wide × 3.5-inch-long blades",
+        "Dual-unit thickness references"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/deluxe-feeler-gauge",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Not 68150 go/no-go. The Chemeketa list extends to 0.040 inch, so this set alone does not meet that entire range. Follow the required vehicle measuring procedure.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0009OMY9C",
+      "verifiedDestination": "https://www.amazon.com/dp/B0009OMY9C",
+      "candidateAsin": "B0009OMY9C",
+      "candidateDestination": "https://www.amazon.com/dp/B0009OMY9C",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051774,
+      "amazonEvidence": {
+        "title": "Lisle 68100 Deluxe Feeler Gauge",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model",
+            "value": "68100"
+          },
+          {
+            "name": "Part Number",
+            "value": "68100"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0009OMY9C"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/68100_5F27039FC1728.jpg?dimensions=499x477&format=webp",
+          "https://www.lislecorp.com/media/products/68100_5F27039FC1728.jpg?dimensions=158x151&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61D+JhCrlzL._AC_SL1000_.jpg",
+        "sourcePage": "https://www.lislecorp.com/specialty-tools/deluxe-feeler-gauge",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "mayhew-61366",
+      "position": 44,
+      "brand": "Mayhew",
+      "model": "61366",
+      "name": "61366 Dominator five-piece curved pry-bar set",
+      "familyIds": [
+        "mechanic-pry-bar-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Five curved, handled pry bars",
+        "Black-oxide finish",
+        "Dominator product family"
+      ],
+      "manufacturerSource": "https://mayhew.com/files/content/resources/catalogs/Catalog-2023-sm.pdf",
+      "manufacturerStatus": "specification-conflict-or-detail-hold",
+      "manufacturerDetailHold": "Manufacturer catalogue indexed, full PDF blocked; exact individual lengths/current configuration unresolved.",
+      "limitations": "Manufacturer catalogue index identifies 61366, but full PDF fetch is blocked. Exact individual lengths and current pack revision remain unconfirmed; do not copy conflicting retailer dimensions. A flat carpenter demolition bar is not equivalent.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B006WZOJFE",
+      "verifiedDestination": "https://www.amazon.com/dp/B006WZOJFE",
+      "candidateAsin": "B006WZOJFE",
+      "candidateDestination": "https://www.amazon.com/dp/B006WZOJFE",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051767,
+      "amazonEvidence": {
+        "title": "Mayhew Tools 61366 Dominator Pry Bar Set, 5-Piece Curved, Black Oxide Finish",
+        "brand": "Mayhew",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Name",
+            "value": "Dominator"
+          },
+          {
+            "name": "Model Number",
+            "value": "61366"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "61366"
+          },
+          {
+            "name": "ASIN",
+            "value": "B006WZOJFE"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/61auGDvNzNL._AC_SL1500_.jpg",
+        "sourcePage": "https://mayhew.com/files/content/resources/catalogs/Catalog-2023-sm.pdf",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-31750",
+      "position": 45,
+      "brand": "Lisle",
+      "model": "31750",
+      "name": "31750 four-piece mini hook-and-pick set",
+      "familyIds": [
+        "hook-and-pick-set"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Four picks",
+        "Hook, straight, 90-degree and combination profiles",
+        "Dual-material handles",
+        "Heat-treated tips"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Useful for clips, seals and O-rings with care; sharp picks can score sealing surfaces. Not a heavy pry-bar substitute.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B089N7DSLD",
+      "verifiedDestination": "https://www.amazon.com/dp/B089N7DSLD",
+      "candidateAsin": "B089N7DSLD",
+      "candidateDestination": "https://www.amazon.com/dp/B089N7DSLD",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051748,
+      "amazonEvidence": {
+        "title": "Lisle 31750 Mini Hook and Pick Set, 4 Pc.",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "Mini Hook & Pick Set, 4pc"
+          },
+          {
+            "name": "Item model number",
+            "value": "31750"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "31750"
+          },
+          {
+            "name": "ASIN",
+            "value": "B089N7DSLD"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/31750_6EBA8259D8D5F.jpg?dimensions=500x395&format=webp",
+          "https://www.lislecorp.com/media/products/31750in1_847948132C06A.jpg?dimensions=499x411&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/710LURfW35L._AC_SL1500_.jpg",
+        "sourcePage": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "lisle-35440",
+      "position": 46,
+      "brand": "Lisle",
+      "model": "35440",
+      "name": "35440 three-piece body-trim tool set",
+      "familyIds": [
+        "trim-removal-tools"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Door panel remover 35350",
+        "Door upholstery remover 35400",
+        "Window/door clip remover 54960",
+        "Bent handles and stepped fastener cut-outs"
+      ],
+      "manufacturerSource": "https://www.lislecorp.com/specialty-tools/body/body-trim-tool-set-3-piece",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "A metal fastener/clip set, not an all-plastic no-mar trim-pry kit. Match clip design and protect visible surfaces.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B004HNNEGS",
+      "verifiedDestination": "https://www.amazon.com/dp/B004HNNEGS",
+      "candidateAsin": "B004HNNEGS",
+      "candidateDestination": "https://www.amazon.com/dp/B004HNNEGS",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089051992,
+      "amazonEvidence": {
+        "title": "Lisle 35440 3 Pc. Body Trim Tool Set",
+        "brand": "Lisle",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "JEGS"
+          },
+          {
+            "name": "Item model number",
+            "value": "35440"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "35440"
+          },
+          {
+            "name": "OEM Part Number",
+            "value": "35440"
+          },
+          {
+            "name": "ASIN",
+            "value": "B004HNNEGS"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://www.lislecorp.com/media/products/35440_4A5CD6F297230.jpg?dimensions=486x402&format=webp",
+          "https://www.lislecorp.com/media/products/35440_4A5CD6F297230.jpg?dimensions=183x151&format=webp"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/81MyIMHFH9L._AC_SL1500_.jpg",
+        "sourcePage": "https://www.lislecorp.com/specialty-tools/body/body-trim-tool-set-3-piece",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "ullman-devices-ht-2",
+      "position": 47,
+      "brand": "Ullman Devices",
+      "model": "HT-2",
+      "name": "HT-2 telescoping magnetic pickup tool",
+      "familyIds": [
+        "magnetic-pickup-tool"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "Length 7.25–33.75 inches",
+        "Manufacturer lift claim up to 5 lb",
+        "Sliding POWERCAP magnet sleeve",
+        "Pocket clip and non-slip grip"
+      ],
+      "manufacturerSource": "https://ullmandevices.com/products/ht-2",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Manufacturer Amazon shortcut resolves to B004VTYG0G with model HT-2; B000JXPBLG is HT-1. Lift claim is conditional and is not a safe lifting-equipment rating.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B004VTYG0G",
+      "verifiedDestination": "https://www.amazon.com/dp/B004VTYG0G",
+      "candidateAsin": "B004VTYG0G",
+      "candidateDestination": "https://www.amazon.com/dp/B004VTYG0G",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089310504,
+      "amazonEvidence": {
+        "title": "Ullman Devices Corp - Magnetic Pick-UP Tool W/POWERCAP",
+        "brand": "Ullman",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Number",
+            "value": "HT-2"
+          },
+          {
+            "name": "Part Number",
+            "value": "HT-2"
+          },
+          {
+            "name": "ASIN",
+            "value": "B004VTYG0G"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://ullmandevices.com/cdn/shop/files/HT-2_Main.png?v=1737133482&width=1946",
+          "https://ullmandevices.com/cdn/shop/files/HT-2_extended.png?v=1737133482&width=1946"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/413qQF5bmwL._SL1500_.jpg",
+        "sourcePage": "https://ullmandevices.com/products/ht-2",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "ullman-devices-htc-2",
+      "position": 48,
+      "brand": "Ullman Devices",
+      "model": "HTC-2",
+      "name": "HTC-2 telescoping inspection mirror, black",
+      "familyIds": [
+        "inspection-mirror"
+      ],
+      "reuseExistingId": null,
+      "specifications": [
+        "2.25-inch round mirror",
+        "Adjustable viewing head",
+        "Manufacturer extended length 36.375 inches",
+        "Black-handle single-tool destination linked by manufacturer"
+      ],
+      "manufacturerSource": "https://ullmandevices.com/products/htc-2",
+      "manufacturerStatus": "specification-conflict-or-detail-hold",
+      "manufacturerDetailHold": "Manufacturer collapsed-length conflict: 6.5 versus 9.625 inches.",
+      "limitations": "Manufacturer prose says collapsed 6.5 inches, specification table says 9.625 inches. Keep collapsed length unpublished until reconciled; avoid five- and twelve-packs.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B000GTR0GM",
+      "verifiedDestination": "https://www.amazon.com/dp/B000GTR0GM",
+      "candidateAsin": "B000GTR0GM",
+      "candidateDestination": "https://www.amazon.com/dp/B000GTR0GM",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089310916,
+      "amazonEvidence": {
+        "title": "Ullman HTC-2 Pocket Size Telescoping Inspection Mirror with 2.25 inch Round Mirror and Black Handle - Perfect for Mechanics, Contractors, HVAC Technicians, and Trade Professionals",
+        "brand": "Ullman",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "ASIN",
+            "value": "B000GTR0GM"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://ullmandevices.com/cdn/shop/files/HTC-2-Black_Main.png?v=1739560367&width=416",
+          "https://ullmandevices.com/cdn/shop/files/HTC-2-Black_Main.png?v=1739560367&width=1445"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/41vtdVanQTL._SL1000_.jpg",
+        "sourcePage": "https://ullmandevices.com/products/htc-2",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "stanley-33-725",
+      "position": 49,
+      "brand": "Stanley",
+      "model": "33-725",
+      "name": "33-725 FATMAX Classic 25-foot tape measure",
+      "familyIds": [
+        "tape-measure"
+      ],
+      "reuseExistingId": "stanley-33-725",
+      "specifications": [
+        "25-foot × 1.25-inch blade",
+        "Current manufacturer 14-foot reach claim",
+        "Non-magnetic steel blade",
+        "Protective blade and hook-area coating"
+      ],
+      "manufacturerSource": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Reuse existing stanley-33-725. Candidate title says 33-725 but part/model says 33-725Y and older 11-foot standout wording; establish exact retail revision before mixing photos/specifications. Reach and standout are different measures.",
+      "amazonStatus": "hold-exact-variant-or-package",
+      "verifiedAsin": null,
+      "verifiedDestination": null,
+      "candidateAsin": "B00002PV66",
+      "candidateDestination": "https://www.amazon.com/dp/B00002PV66",
+      "amazonHold": "33-725 title but 33-725Y model/part and generation wording; manufacturer equivalence not established.",
+      "amazonObservedAtMs": 1792089173053,
+      "amazonEvidence": {
+        "title": "STANLEY FATMAX Tape Measure, 25-Foot (33-725)",
+        "brand": "STANLEY",
+        "modelAndPackageFields": [
+          {
+            "name": "Model",
+            "value": "33-725Y"
+          },
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Part Number",
+            "value": "33-725Y"
+          },
+          {
+            "name": "ASIN",
+            "value": "B00002PV66"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://assets.stanleytools.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/33-725_1_1680.webp",
+          "https://assets.stanleytools.com/NAG/PRODUCT/IMAGES/HIRES/WHITEBG/33-725_2_1680.webp"
+        ],
+        "amazonGalleryCandidate": null,
+        "sourcePage": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    },
+    {
+      "productId": "klein-32500hd",
+      "position": 50,
+      "brand": "Klein Tools",
+      "model": "32500HD",
+      "name": "32500HD impact-rated 11-in-1 screwdriver/nut driver",
+      "familyIds": [
+        "multi-bit-screwdriver"
+      ],
+      "reuseExistingId": "klein-32500hd",
+      "specifications": [
+        "Seven bit tips and four nut-driver sizes",
+        "1/4, 5/16 and 3/8-inch power nut drivers; 1/2-inch standard nut driver",
+        "Phillips, slotted, square and T25 profiles",
+        "Cushion-Grip handle"
+      ],
+      "manufacturerSource": "https://www.kleintools.com/catalog/multi-bit-nut-drivers/impact-rated-multi-bit-screwdrivernut-driver-11-1",
+      "manufacturerStatus": "exact-model-primary-source-checked",
+      "manufacturerDetailHold": null,
+      "limitations": "Reuse existing klein-32500hd. Not 32500HDRT ratcheting version or an insulated driver. The 1/2-inch standard nut driver is not described as an impact power nut driver.",
+      "amazonStatus": "exact-model-and-package-matched",
+      "verifiedAsin": "B0C9V6NYZ4",
+      "verifiedDestination": "https://www.amazon.com/dp/B0C9V6NYZ4",
+      "candidateAsin": "B0C9V6NYZ4",
+      "candidateDestination": "https://www.amazon.com/dp/B0C9V6NYZ4",
+      "amazonHold": null,
+      "amazonObservedAtMs": 1792089172285,
+      "amazonEvidence": {
+        "title": "Klein Tools 32500HD 11-in-1 Multi-Bit Impact Screwdriver/Nut Driver",
+        "brand": "KLEIN TOOLS",
+        "modelAndPackageFields": [
+          {
+            "name": "Number of Items",
+            "value": "1"
+          },
+          {
+            "name": "Model Name",
+            "value": "Impact Rated Multi-Bit Screwdriver / Nut Driver, 11-in-1"
+          },
+          {
+            "name": "Model Number",
+            "value": "32500HD"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "32500HD"
+          },
+          {
+            "name": "ASIN",
+            "value": "B0C9V6NYZ4"
+          }
+        ]
+      },
+      "image": {
+        "manufacturerCandidates": [
+          "https://data.kleintools.com/sites/all/product_assets/hires/klein/32500hd_photo_c.jpg"
+        ],
+        "amazonGalleryCandidate": "https://m.media-amazon.com/images/I/71V22AU7qqL._AC_SL1500_.jpg",
+        "sourcePage": "https://www.kleintools.com/catalog/multi-bit-nut-drivers/impact-rated-multi-bit-screwdrivernut-driver-11-1",
+        "permissionStatus": "not-established",
+        "permissionEvidence": null,
+        "assetStatus": "source-candidate-needs-visual-and-revision-check",
+        "implementationFallback": "Clean placeholder until a documented applicable licence or permission is established. Do not infer rights from a download button, affiliate membership, a provider response or existing use."
+      },
+      "checkedDate": "2026-10-15",
+      "publicationReady": false
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import {hvacProductImages,hvacImageAliases} from './hvac-product-images';
 import {plumberProductImages,plumberImageAliases} from './plumber-product-images';
 // Product photos sourced from the linked manufacturer or retailer pages, checked October 5, 2026.
 // Never derive image URLs from Amazon listings or substitute a related model.
-export type ProductImage = { src: string; sourceUrl: string; alt: string; credit: string; unoptimized?: boolean };
+export type ProductImage = { src: string; sourceUrl: string; alt: string; credit: string; unoptimized?: boolean; contentBounds?: {x:number;y:number;width:number;height:number;imageWidth:number;imageHeight:number} };
 export const productImages: Record<string, ProductImage> = {
   "fluke-117": {
     "src": "https://media.fluke.com/e55511c8-92e6-46b2-b9ae-b108002dd7fa_product_slideshow_main.jpg",

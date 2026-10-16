@@ -27,6 +27,7 @@ export type Guide = {
   workflowSlugs?: string[];
 };
 
+import {automotiveEnabled,automotiveHub,automotiveGuides} from './automotive-catalog';
 export const hubs: Hub[] = [
   {
     slug: "electricians",
@@ -62,6 +63,8 @@ export const hubs: Hub[] = [
   },
   {slug:'carpenters',name:'Carpenters & Joiners',blurb:'Job kits for framing, trim, doors, cabinets, decking and apprentice setup. Browse layout, hand tools, saws, benches, routers, sanders and fastening tools.',image:carpenterHero},
 ];
+
+if(automotiveEnabled)hubs.push(automotiveHub);
 
 export const guides: Guide[] = [
   {
@@ -250,7 +253,7 @@ export const guides: Guide[] = [
   },
 ];
 
-guides.push(...electricianCatalogGuides, ...plumberCatalogGuides, ...hvacCatalogGuides, ...inspectorCatalogGuides,...carpenterCatalogGuides);
+guides.push(...(automotiveEnabled ? automotiveGuides : []),...electricianCatalogGuides, ...plumberCatalogGuides, ...hvacCatalogGuides, ...inspectorCatalogGuides,...carpenterCatalogGuides);
 const manifoldGuide = guides.find(g=>g.trade === "hvac" && g.slug === "best-digital-manifolds-for-hvac");
 if (manifoldGuide) {
   manifoldGuide.products.unshift(...manifoldProducts());
