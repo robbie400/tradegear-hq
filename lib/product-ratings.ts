@@ -1,3 +1,4 @@
+import automotiveRatings from './automotive-ratings.json';
 import final25Ratings from './carpenter-final25-ratings.json';
 import batch25Ratings from './carpenter-batch25-ratings.json';
 import october14Ratings from './product-ratings-oct14.json';
@@ -243,4 +244,5 @@ export const productRatings:SourceRating[]=[
   }
 ];
 productRatings.push({productId:'appion-g5twin',trade:'hvac',brand:'Appion',modelNumber:'G5Twin',value:5,count:2,source:'Appion',url:'https://appiontools.com/g5twin/',checkedDate:'2026-10-07',note:'Manufacturer-hosted rating. A small review sample; ratings can change.'});
-export function getProductRating(trade:string,brand:string,model:string){const matches=productRatings.filter(r=>r.brand===brand&&(model===r.modelNumber||model.startsWith(r.modelNumber+' ')));return matches.find(r=>r.trade===trade)||matches[0];}
+productRatings.push(...automotiveRatings);
+export function getProductRating(trade:string,brand:string,model:string){const matches=productRatings.filter(r=>r.brand===brand&&(model===r.modelNumber||model.startsWith(r.modelNumber+' ')));return matches.find(r=>r.trade===trade)||(trade==='automotive-mechanics'?undefined:matches[0]);}

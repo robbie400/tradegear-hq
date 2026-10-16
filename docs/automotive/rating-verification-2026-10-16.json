@@ -1,0 +1,1548 @@
+{
+  "checkedDate": "2026-10-16",
+  "total": 61,
+  "verified": 55,
+  "unscored": 6,
+  "method": "Manufacturer pages followed by exact-model retailer review pages; search snippets alone do not establish a publishable score. Scores are attributed to their host, never labelled Amazon. Stars and count links use the existing affiliate helper and exact verified Amazon.com ASIN. No rating prices or availability published.",
+  "products": [
+    {
+      "productId": "autel-mk900-bt",
+      "brand": "Autel",
+      "model": "MK900-BT",
+      "asin": "B098PYB8XG",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://store.autel.com/products/maxicom-mk900bt",
+          "status": 200
+        },
+        {
+          "url": "https://www.walmart.com/ip/Autel-Scanner-MaxiCOM-MK900BT-2026-MK900-BT-V2-0-Bidirectional-Diagnostic-Tool-8in-MK900-MX900-MK808S-MK808BT-MX808S-3000-Active-Tests-40-Service-CAN/19003854472",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/itm/222780228155",
+          "status": 200
+        },
+        {
+          "url": "https://www.autelsale.com/reviews/pro2568",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "autel-mk900-bt",
+        "value": 4.5,
+        "count": 11,
+        "source": "AutelSale",
+        "url": "https://www.autelsale.com/reviews/pro2568",
+        "excerpt": "4.5 out of 5; 11 product reviews"
+      }
+    },
+    {
+      "productId": "innova-5610",
+      "brand": "Innova",
+      "model": "5610",
+      "asin": "B07Z481NJM",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.innova.com/products/carscan-pro-5610",
+          "status": 200
+        },
+        {
+          "url": "https://www.oreillyauto.com/detail/c/innova/innova-obd-code-reader/inn0/5610",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "innova-5610",
+        "value": 4.2,
+        "count": 161,
+        "source": "O'Reilly Auto Parts",
+        "url": "https://www.oreillyauto.com/detail/c/innova/innova-obd-code-reader/inn0/5610",
+        "excerpt": "4.2 out of 5; 161 reviews"
+      }
+    },
+    {
+      "productId": "foxwell-nt301",
+      "brand": "FOXWELL",
+      "model": "NT301",
+      "asin": "B00UJV3E12",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.foxwelltech.us/product-detail-797.html",
+          "status": 200
+        },
+        {
+          "url": "https://www.walmart.com/reviews/product/1489461748",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "foxwell-nt301",
+        "value": 4.4,
+        "count": 47,
+        "source": "Walmart",
+        "url": "https://www.walmart.com/reviews/product/1489461748",
+        "excerpt": "4.4 out of 5; 47 ratings"
+      }
+    },
+    {
+      "productId": "fluke-88v-a-kit",
+      "brand": "Fluke",
+      "model": "88V/A Kit",
+      "asin": "B005T5G38E",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "fluke-88v-a-kit",
+        "value": 4.9,
+        "count": 12,
+        "source": "Fluke",
+        "url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-88v-a-kit",
+        "excerpt": "4.9 out of 5; 12 total reviews"
+      }
+    },
+    {
+      "productId": "clore-automotive-ba9",
+      "brand": "Clore Automotive",
+      "model": "BA9",
+      "asin": "B00IZFNJ6Y",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://cloreautomotive.com/solar-ba9-digital-battery-system-tester/",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/itm/366632671248",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/itm/287167117658",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/itm/336807318033",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "clore-automotive-ba9",
+        "value": 5,
+        "count": 8,
+        "source": "eBay",
+        "url": "https://www.ebay.com/itm/336807318033",
+        "excerpt": "5.0 out of 5; 8 product ratings"
+      }
+    },
+    {
+      "productId": "noco-gb40",
+      "brand": "NOCO",
+      "model": "GB40",
+      "asin": "B015TKUPIC",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://no.co/gb40",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/NOCO-GB40-1000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-6-Liter-Gasoline-And-3-Liter-Diesel-Engines-GB40/311961298",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/NOCO-GB40-1000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-6-Liter-Gasoline-And-3-Liter-Diesel-Engines-GB40/311961298/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "noco-gb40",
+        "value": 4.6,
+        "count": 632,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/NOCO-GB40-1000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-6-Liter-Gasoline-And-3-Liter-Diesel-Engines-GB40/311961298/1",
+        "excerpt": "4.6 out of 5; 632 product reviews"
+      }
+    },
+    {
+      "productId": "noco-genius5",
+      "brand": "NOCO",
+      "model": "GENIUS5",
+      "asin": "B07W8KJH44",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://no.co/genius5",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/NOCO-GENIUS-GENIUS5-5-Amp-Fully-Automatic-Smart-Charger-6V-12V-Battery-Charger-Maintainer-Genius5/312211504",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/NOCO-GENIUS-GENIUS5-5-Amp-Fully-Automatic-Smart-Charger-6V-12V-Battery-Charger-Maintainer-Genius5/312211504/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "noco-genius5",
+        "value": 4.6,
+        "count": 605,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/NOCO-GENIUS5-5-Amp-Fully-Automatic-Smart-Charger-6V-12V-Battery-Charger-Maintainer-Genius5/312211504/1",
+        "excerpt": "4.6 out of 5; 605 product reviews"
+      }
+    },
+    {
+      "productId": "tekton-trq50402",
+      "brand": "TEKTON",
+      "model": "TRQ50402",
+      "asin": "B0FYHGKDP9",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.tekton.com/1-4-inch-drive-dual-direction-micrometer-torque-wrench-trq50402",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/TEKTON-1-4-Inch-Drive-Dual-Direction-Micrometer-Torque-Wrench-20-200-in-lb-TRQ50402/339547064",
+          "status": 200
+        },
+        {
+          "url": "https://www.lowes.com/pd/TEKTON-1-4-Inch-Drive-90-Tooth-Dual-Direction-Micrometer-Torque-Wrench-20-200-in-lb/5017644327",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/TEKTON-1-4-Inch-Drive-Dual-Direction-Micrometer-Torque-Wrench-20-200-in-lb-TRQ50402/339547064/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "tekton-trq50402",
+        "value": 5,
+        "count": 6,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/TEKTON-1-4-Inch-Drive-Dual-Direction-Micrometer-Torque-Wrench-20-200-in-lb-TRQ50402/339547064/1",
+        "excerpt": "5.0 out of 5; 6 product reviews"
+      }
+    },
+    {
+      "productId": "tekton-trq52403",
+      "brand": "TEKTON",
+      "model": "TRQ52403",
+      "asin": "B0FYHC3J73",
+      "status": "no-verified-score",
+      "reason": "Manufacturer has no score. Acme exact-model page says No Reviews/0.0; indexed results conflict with retrieved pages. No verified positive-count score published.",
+      "sourceChecks": [
+        {
+          "url": "https://www.tekton.com/1-2-inch-drive-dual-direction-micrometer-torque-wrench-trq52403",
+          "status": 200
+        },
+        {
+          "url": "https://www.zoro.com/tekton-micrometer-torque-wrench-steel-trq52403/i/G322842477/",
+          "status": "no-usable-content"
+        },
+        {
+          "url": "https://www.acmetools.com/tekton-1-2-inch-dual-direction-micrometer-torque-wrench-40-300-ft-lb-trq52403/S0000000111771.html",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "productId": "gearwrench-80300p",
+      "brand": "GEARWRENCH",
+      "model": "80300P",
+      "asin": "B009PJPGR4",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/tool-sets/mechanics-tool-sets/80300p-51-piece-14-drive-6-point-120xptm-standard-and-deep-saemetric-mechanics-tool-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-120XP-1-4-in-Drive-6-Point-Standard-Deep-SAE-Metric-Ratchet-and-Socket-Mechanics-Tool-Set-51-Piece-80300P/302570367/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-80300p",
+        "value": 4.8,
+        "count": 104,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-120XP-1-4-in-Drive-6-Point-Standard-Deep-SAE-Metric-Ratchet-and-Socket-Mechanics-Tool-Set-51-Piece-80300P/302570367/1",
+        "excerpt": "4.8 out of 5; 104 reviews"
+      }
+    },
+    {
+      "productId": "sunex-2569",
+      "brand": "SUNEX",
+      "model": "2569",
+      "asin": "B00MPQ88RY",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "sunex-2569",
+        "value": 5,
+        "count": 15,
+        "source": "SUNEX",
+        "url": "https://sunextools.com/products/1-2-drive-metric-6-point-standard-deep-43-piece-master-impact-socket-set?bvstate=pg%3A2%2Fct%3Ar",
+        "excerpt": "5 out of 5; 15 total reviews"
+      }
+    },
+    {
+      "productId": "tekton-skt15311",
+      "brand": "TEKTON",
+      "model": "SKT15311",
+      "asin": "B07TBH736Z",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.tekton.com/3-8-inch-drive-shallow-and-deep-6-point-socket-and-ratchet-set-skt15311",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/TEKTON-3-8-in-Drive-6-Point-Socket-and-Ratchet-Set-73-Piece-1-4-1-in-6-24-mm-SKT15311/310622110/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "tekton-skt15311",
+        "value": 4.8,
+        "count": 74,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/TEKTON-3-8-in-Drive-6-Point-Socket-and-Ratchet-Set-73-Piece-1-4-1-in-6-24-mm-SKT15311/310622110/1",
+        "excerpt": "4.8 out of 5; 74 reviews"
+      }
+    },
+    {
+      "productId": "tekton-sbh00224",
+      "brand": "TEKTON",
+      "model": "SBH00224",
+      "asin": "B07GH97P36",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.tekton.com/1-2-inch-drive-x-24-inch-breaker-bar-sbh00224",
+          "status": 200
+        },
+        {
+          "url": "https://www.lowes.com/pd/TEKTON-1-2-in-Breaker-Bar/5014573943",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "tekton-sbh00224",
+        "value": 5,
+        "count": 4,
+        "source": "Lowe's",
+        "url": "https://www.lowes.com/pd/TEKTON-1-2-in-Breaker-Bar/5014573943",
+        "excerpt": "5 out of 5; 4 reviews"
+      }
+    },
+    {
+      "productId": "tekton-sha91011",
+      "brand": "TEKTON",
+      "model": "SHA91011",
+      "asin": "B0B1N9RZNZ",
+      "status": "no-verified-score",
+      "reason": "Manufacturer has no score; Lowe's exact-model page shows zero reviews.",
+      "sourceChecks": [
+        {
+          "url": "https://www.tekton.com/3-8-inch-drive-4-piece-extension-set-sha91011",
+          "status": 200
+        },
+        {
+          "url": "https://www.lowes.com/pd/TEKTON-4-Piece-3-8-in-Drive-Socket-Extension-Set/5014301805",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "productId": "gearwrench-81916",
+      "brand": "GEARWRENCH",
+      "model": "81916",
+      "asin": "B003L1ZZVY",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/wrenches/combination-wrenches/81916-22-piece-12-point-long-pattern-combination-metric-wrench-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/GEARWRENCH-12-Point-Metric-Long-Pattern-Combination-Wrench-Set-with-Roll-22-Piece-81916/204618634",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-12-Point-Metric-Long-Pattern-Combination-Wrench-Set-with-Roll-22-Piece-81916/204618634/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-81916",
+        "value": 4.8,
+        "count": 99,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-12-Point-Metric-Long-Pattern-Combination-Wrench-Set-with-Roll-22-Piece-81916/204618634/1",
+        "excerpt": "4.8 out of 5; 99 product reviews"
+      }
+    },
+    {
+      "productId": "gearwrench-81906",
+      "brand": "GEARWRENCH",
+      "model": "81906",
+      "asin": "B000NI93SE",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/wrenches/crowfoot-flare-nut-wrenches/81906-6-piece-flare-nut-metric-wrench-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/urw/GearWrench+81906+6pc+Flare+Nut+Metric+Wrench+Set/product-reviews/1511814975",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-81906",
+        "value": 5,
+        "count": 6,
+        "source": "eBay",
+        "url": "https://www.ebay.com/urw/GearWrench+81906+6pc+Flare+Nut+Metric+Wrench+Set/product-reviews/1511814975",
+        "excerpt": "5 out of 5; 6 ratings"
+      }
+    },
+    {
+      "productId": "milwaukee-2962-20",
+      "brand": "Milwaukee",
+      "model": "2962-20",
+      "asin": "B08VN7CSTJ",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "milwaukee-2962-20",
+        "value": 4.9,
+        "count": 1032,
+        "source": "Milwaukee",
+        "url": "https://www.milwaukeetool.com/Products/Automotive/2962-20",
+        "excerpt": "4.9 out of 5; 1032 total reviews"
+      }
+    },
+    {
+      "productId": "milwaukee-2567-20",
+      "brand": "Milwaukee",
+      "model": "2567-20",
+      "asin": "B09XWVC7C9",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "milwaukee-2567-20",
+        "value": 4.7,
+        "count": 578,
+        "source": "Milwaukee",
+        "url": "https://www.milwaukeetool.com/products/details/m12-fuel-3-8-high-speed-ratchet/2567-20",
+        "excerpt": "4.7 out of 5; 578 total reviews"
+      }
+    },
+    {
+      "productId": "lisle-25750",
+      "brand": "Lisle",
+      "model": "25750",
+      "asin": "B0002SQUTU",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/brakes/dual-piston-brake-caliper-compressor",
+          "status": 200
+        },
+        {
+          "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-brake-pad-spreader/lis0/25750",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-25750",
+        "value": 5,
+        "count": 6,
+        "source": "O'Reilly Auto Parts",
+        "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-brake-pad-spreader/lis0/25750",
+        "excerpt": "Part 25750; 5.0 out of 5; 6 reviews"
+      }
+    },
+    {
+      "productId": "lisle-81850",
+      "brand": "Lisle",
+      "model": "81850",
+      "asin": "B00OJG327E",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/brakes/combination-brake-lining-thickness-gauge-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-combination-brake-lining-thickness-gauge-set/lis0/81850",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-81850",
+        "value": 4.5,
+        "count": 2,
+        "source": "O'Reilly Auto Parts",
+        "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-combination-brake-lining-thickness-gauge-set/lis0/81850",
+        "excerpt": "4.5 out of 5; 2 product reviews"
+      }
+    },
+    {
+      "productId": "mityvac-mv6840",
+      "brand": "Mityvac",
+      "model": "MV6840",
+      "asin": "B005MVBFM4",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.skf.com/mityvac/products/brake-and-clutch-bleeding-equipment/pressure-bleeding/mv6840",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/urw/Mityvac+Pressure+Bleed+System+-+MV6840/product-reviews/1153139989",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "mityvac-mv6840",
+        "value": 4.8,
+        "count": 12,
+        "source": "eBay",
+        "url": "https://www.ebay.com/urw/Mityvac+Pressure+Bleed+System+-+MV6840/product-reviews/1153139989",
+        "excerpt": "4.8 out of 5; 12 ratings"
+      }
+    },
+    {
+      "productId": "arcan-a20019",
+      "brand": "Arcan",
+      "model": "A20019",
+      "asin": "B0047D2FWM",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://arcantools.com/lifting/a20019",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/Arcan-3-Ton-Lightweight-Aluminum-Floor-and-Car-Jack-with-Quick-Rise-A20018/308313509",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/Arcan-3-Ton-Lightweight-Aluminum-Floor-and-Car-Jack-with-Quick-Rise-A20018/308313509/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "arcan-a20019",
+        "value": 4.6,
+        "count": 113,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/Arcan-3-Ton-Lightweight-Aluminum-Floor-and-Car-Jack-with-Quick-Rise-A20019/308313509/1",
+        "excerpt": "4.6 out of 5; 113 product reviews"
+      }
+    },
+    {
+      "productId": "esco-10498-pair",
+      "brand": "ESCO",
+      "model": "10498-PAIR",
+      "asin": "B01J5ZB8K6",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://esco.net/product/3-ton-performance-jack-stand-pair/",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/p/815509622",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "esco-10498-pair",
+        "value": 5,
+        "count": 20,
+        "source": "eBay",
+        "url": "https://www.ebay.com/p/815509622",
+        "excerpt": "5 out of 5; 20 ratings"
+      }
+    },
+    {
+      "productId": "lisle-17922",
+      "brand": "Lisle",
+      "model": "17922",
+      "asin": "B0002SR7SS",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products/multi-drain-tub",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/urw/Drain+Pan+LISLE+17922/product-reviews/253607530",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-17922",
+        "value": 5,
+        "count": 2,
+        "source": "eBay",
+        "url": "https://www.ebay.com/urw/Drain+Pan+LISLE+17922/product-reviews/253607530",
+        "excerpt": "5 out of 5; 2 ratings"
+      }
+    },
+    {
+      "productId": "lisle-19752",
+      "brand": "Lisle",
+      "model": "19752",
+      "asin": "B005ETVOP2",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/lubrication-and-tire-products/6-qt-oil-dispenser-red-spout",
+          "status": 200
+        },
+        {
+          "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-oil-dispenser/lis0/19752",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-19752",
+        "value": 5,
+        "count": 3,
+        "source": "O'Reilly Auto Parts",
+        "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-oil-dispenser/lis0/19752",
+        "excerpt": "5 out of 5; 3 reviews"
+      }
+    },
+    {
+      "productId": "lisle-63600",
+      "brand": "Lisle",
+      "model": "63600",
+      "asin": "B0002SR4Q8",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-63600",
+        "value": 5,
+        "count": 1,
+        "source": "Lisle",
+        "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/import-car-filter-wrench",
+        "excerpt": "5 out of 5; 1 visible review",
+        "note": "Manufacturer aggregate is 5/5. One written review is visible on the source page; the displayed count describes visible feedback, not a separately published aggregate total.",
+        "countDisplay": "1 visible review"
+      }
+    },
+    {
+      "productId": "lisle-13270",
+      "brand": "Lisle",
+      "model": "13270",
+      "asin": "B07NX6MNNX",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/13270--low-profile-filter-socket-set-7pc",
+          "status": 200
+        },
+        {
+          "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-7-piece-3-8-inch-drive-6-point-metric-socket-set/lis0/13270",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-13270",
+        "value": 5,
+        "count": 1,
+        "source": "O'Reilly Auto Parts",
+        "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-7-piece-3-8-inch-drive-6-point-metric-socket-set/lis0/13270",
+        "excerpt": "5 out of 5; 1 product reviews"
+      }
+    },
+    {
+      "productId": "astro-pneumatic-3018",
+      "brand": "Astro Pneumatic",
+      "model": "3018",
+      "asin": "B002PUTC0M",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.astrotools.com/product/3-5-digital-tire-inflator-with-hose/?attachment_id=4028&download_file=v2yizqgtyvzfg",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/urw/-/product-reviews/9008798941",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/itm/128043548821",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "astro-pneumatic-3018",
+        "value": 4.9,
+        "count": 73,
+        "source": "eBay",
+        "url": "https://www.ebay.com/urw/-/product-reviews/9008798941",
+        "excerpt": "4.9 out of 5; 73 ratings"
+      }
+    },
+    {
+      "productId": "milton-s-921",
+      "brand": "Milton",
+      "model": "S-921",
+      "asin": "B0002SQYTG",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://miltonindustries.com/collections/roadtrip-ready-2024-pencil-gauges/products/s-921-tire-pencil-gauge-5-50-psi-heavy-duty-brass-tubing-corrosion-resistant?_fid=3e0537e5f&_pos=2&_ss=c",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/Milton-Passenger-Car-Tire-Gauge-S-921/301836774/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "milton-s-921",
+        "value": 4.6,
+        "count": 27,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/Milton-Passenger-Car-Tire-Gauge-S-921/301836774/1",
+        "excerpt": "4.6 out of 5; 27 product reviews"
+      }
+    },
+    {
+      "productId": "streamlight-66118",
+      "brand": "Streamlight",
+      "model": "66118",
+      "asin": "B0015UC17E",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.streamlight.com/products/detail/stylus-pro",
+          "status": 200
+        },
+        {
+          "url": "https://www.knifecenter.com/reviews/SLSTR66118/streamlight-stylus-pro-black-body-white-led-66118",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "streamlight-66118",
+        "value": 4.9,
+        "count": 10,
+        "source": "KnifeCenter",
+        "url": "https://www.knifecenter.com/reviews/SLSTR66118/streamlight-stylus-pro-black-body-white-led-66118",
+        "excerpt": "4.9 out of 5; 10 reviews",
+        "note": "Reviews can cover earlier production revisions of model 66118; not a test of the current stated lumen output."
+      }
+    },
+    {
+      "productId": "milwaukee-2125-20",
+      "brand": "Milwaukee",
+      "model": "2125-20",
+      "asin": "B06ZZYPCNL",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.milwaukeetool.com/2125-20",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "milwaukee-2125-20",
+        "value": 4.8,
+        "count": 71,
+        "source": "Milwaukee",
+        "url": "https://www.milwaukeetool.com/2125-20",
+        "excerpt": "4.8 out of 5; 71 total reviews"
+      }
+    },
+    {
+      "productId": "gearwrench-83151",
+      "brand": "GEARWRENCH",
+      "model": "83151",
+      "asin": "B0060VG188",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/83151-20-3-drawer-black-steel-tool-box",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-20-in-Black-Powder-Coated-Steel-3-Drawer-Portable-Locking-Tool-Box-83151/205593267/2",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-83151",
+        "value": 4.4,
+        "count": 97,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-20-in-Black-Powder-Coated-Steel-3-Drawer-Portable-Locking-Tool-Box-83151/205593267/2",
+        "excerpt": "4.4 out of 5; 97 reviews"
+      }
+    },
+    {
+      "productId": "dewalt-dpg94-1d",
+      "brand": "DEWALT",
+      "model": "DPG94-1D",
+      "asin": "B004EYOKU4",
+      "status": "no-verified-score",
+      "reason": "Exact industrial clear-lens variant confirmed, but no product rating retrieved. Search scores on safety retailers are not supported by their product review sections.",
+      "sourceChecks": [
+        {
+          "url": "https://www.abolox.com/dewalt-dpg94-1d-clear-safety-glasses",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "productId": "3m-peltor-x4a",
+      "brand": "3M PELTOR",
+      "model": "X4A",
+      "asin": "B00CPCHADQ",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.envirosafetyproducts.com/products/3m-peltor-x4a-over-the-head-earmuffs",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "3m-peltor-x4a",
+        "value": 5,
+        "count": 1,
+        "source": "Enviro Safety Products",
+        "url": "https://www.envirosafetyproducts.com/products/3m-peltor-x4a-over-the-head-earmuffs",
+        "excerpt": "5 out of 5; 1 reviews"
+      }
+    },
+    {
+      "productId": "maxxhaul-70472",
+      "brand": "MaxxHaul",
+      "model": "70472",
+      "asin": "B01CGU14T2",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://maxxhaul.com/product/maxxhaul-70472-solid-rubber-heavy-duty-black-wheel-chock-2-pack-8-x-4-x-6/",
+          "status": 200
+        },
+        {
+          "url": "https://business.walmart.com/reviews/product/909120192",
+          "status": 200
+        },
+        {
+          "url": "https://www.walmart.com/reviews/product/909120192",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/urw/MAXXHAUL+70472+Solid+Rubber+Heavy+Duty+Black+Wheel+Chock+2-Pack+8%22+%22+%22/product-reviews/2174234750",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "maxxhaul-70472",
+        "value": 5,
+        "count": 2,
+        "source": "eBay",
+        "url": "https://www.ebay.com/urw/MAXXHAUL+70472+Solid+Rubber+Heavy+Duty+Black+Wheel+Chock+2-Pack+8%22+%22+%22/product-reviews/2174234750",
+        "excerpt": "5.0 out of 5; 2 product ratings"
+      }
+    },
+    {
+      "productId": "gearwrench-80066h",
+      "brand": "GEARWRENCH",
+      "model": "80066H",
+      "asin": "B08KHSYKQH",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/hand-tools/screwdrivers-hex-keys/80066h-20-piece-phillipsrslottedtorxr-dual-material-screwdriver-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-20-Pc-Phillips-Slotted-Torx-Dual-Material-Screwdriver-Set-80066H/315968111/2",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-80066h",
+        "value": 4.8,
+        "count": 70,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-20-Pc-Phillips-Slotted-Torx-Dual-Material-Screwdriver-Set-80066H/315968111/2",
+        "excerpt": "4.8 out of 5; 70 product reviews"
+      }
+    },
+    {
+      "productId": "klein-d203-8",
+      "brand": "Klein Tools",
+      "model": "D203-8",
+      "asin": "B0000302WQ",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.kleintools.com/catalog/standard-side-cutting-pliers/pliers-needle-nose-side-cutters-8-inch",
+          "status": 200
+        },
+        {
+          "url": "https://www.lowes.com/pd/Klein-Tools-Pliers-Needle-Nose-Side-Cutters-8-Inch/5014374765",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "klein-d203-8",
+        "value": 4.9,
+        "count": 83,
+        "source": "Lowe's",
+        "url": "https://www.lowes.com/pd/Klein-Tools-Pliers-Needle-Nose-Side-Cutters-8-Inch/5014374765",
+        "excerpt": "4.9 out of 5; 83 reviews"
+      }
+    },
+    {
+      "productId": "klein-d228-8",
+      "brand": "Klein Tools",
+      "model": "D228-8",
+      "asin": "B0000302VW",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.kleintools.com/catalog/diagonal-cutting-pliers/diagonal-cutting-pliers-high-leverage-8-inch",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/Klein-Tools-8-in-Diagonal-Cutting-Pliers-D228-8-SEN/100352063",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/Klein-Tools-8-in-Diagonal-Cutting-Pliers-D228-8-SEN/100352063/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "klein-d228-8",
+        "value": 4.7,
+        "count": 345,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/Klein-Tools-8-in-Diagonal-Cutting-Pliers-D228-8-SEN/100352063/1",
+        "excerpt": "4.7 out of 5; 345 product reviews",
+        "note": "Retail packaging suffix -SEN; the manufacturer identifies the standard D228-8 tool."
+      }
+    },
+    {
+      "productId": "irwin-502l3",
+      "brand": "IRWIN",
+      "model": "502L3",
+      "asin": "B07M7V6B1Y",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "irwin-502l3",
+        "value": 5,
+        "count": 2,
+        "source": "IRWIN",
+        "url": "https://www.irwintools.com/product/502l3/original-curved-jaw-locking-pliers-wire-cutter",
+        "excerpt": "5 out of 5; 2 total reviews"
+      }
+    },
+    {
+      "productId": "knipex-8701250",
+      "brand": "KNIPEX",
+      "model": "87 01 250",
+      "asin": "B000X4J2H0",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.knipex-tools.com/products/pipe-wrenches-and-water-pump-pliers/water-pump-pliers/knipex-cobra-water-pump-pliers/8701250",
+          "status": 200
+        },
+        {
+          "url": "https://www.toolnut.com/products/knipex-87-01-250-sba-10-in-cobra-water-pump-pliers",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/urw/KNIPEX-8701250-Cobra-Water-Pump-Pliers/product-reviews/1320531850",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "knipex-8701250",
+        "value": 5,
+        "count": 52,
+        "source": "eBay",
+        "url": "https://www.ebay.com/urw/KNIPEX-8701250-Cobra-Water-Pump-Pliers/product-reviews/1320531850",
+        "excerpt": "5.0 out of 5; 52 product ratings"
+      }
+    },
+    {
+      "productId": "gearwrench-80742",
+      "brand": "GEARWRENCH",
+      "model": "80742",
+      "asin": "B01NA9PG8A",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80742-84-piece-14-38-12-drive-hexball-end-hextamper-proof-torxrexternal-torxrtorxr-saemetric-bit-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/GEARWRENCH-1-4-in-3-8-in-and-1-2-in-Drive-SAE-Metric-Master-Hex-and-Torx-Bit-Socket-Set-84-Piece-80742/304588745",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-1-4-in-3-8-in-and-1-2-in-Drive-SAE-Metric-Master-Hex-and-Torx-Bit-Socket-Set-84-Piece-80742/304588745/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-80742",
+        "value": 4.5,
+        "count": 115,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-1-4-in-3-8-in-and-1-2-in-Drive-SAE-Metric-Master-Hex-and-Torx-Bit-Socket-Set-84-Piece-80742/304588745/1",
+        "excerpt": "4.5 out of 5; 115 product reviews"
+      }
+    },
+    {
+      "productId": "gearwrench-80601",
+      "brand": "GEARWRENCH",
+      "model": "80601",
+      "asin": "B06XCR8RF3",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/chrome-sockets/80601-5-piece-38-drive-6-point-magnetic-swivel-spark-plug-socket-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/p/5027549749",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-80601",
+        "value": 4.6,
+        "count": 28,
+        "source": "eBay",
+        "url": "https://www.ebay.com/p/5027549749",
+        "excerpt": "4.6 out of 5; 28 ratings"
+      }
+    },
+    {
+      "productId": "lisle-68100",
+      "brand": "Lisle",
+      "model": "68100",
+      "asin": "B0009OMY9C",
+      "status": "no-verified-score",
+      "reason": "Manufacturer has zero reviews; an indexed Canadian Walmart score could not be verified on a retrieved source page.",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/deluxe-feeler-gauge",
+          "status": 200
+        },
+        {
+          "url": "https://www.walmart.ca/en/reviews/product/285LB4BVHGO3",
+          "status": "no-usable-content"
+        }
+      ]
+    },
+    {
+      "productId": "mayhew-61366",
+      "brand": "Mayhew",
+      "model": "61366",
+      "asin": "B006WZOJFE",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.walmart.com/reviews/product/22345667",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "mayhew-61366",
+        "value": 5,
+        "count": 1,
+        "source": "Walmart",
+        "url": "https://www.walmart.com/reviews/product/22345667",
+        "excerpt": "5 out of 5; 1 ratings",
+        "note": "Single incentivized review syndicated from Zoro; a very small sample."
+      }
+    },
+    {
+      "productId": "lisle-31750",
+      "brand": "Lisle",
+      "model": "31750",
+      "asin": "B089N7DSLD",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-31750",
+        "value": 5,
+        "count": 1,
+        "source": "Lisle",
+        "url": "https://www.lislecorp.com/specialty-tools/general/31750-mini-hook-pick-set-4-pc",
+        "excerpt": "5 out of 5; 1 visible review",
+        "note": "Manufacturer aggregate is 5/5. One written review is visible on the source page; the displayed count describes visible feedback, not a separately published aggregate total.",
+        "countDisplay": "1 visible review"
+      }
+    },
+    {
+      "productId": "lisle-35440",
+      "brand": "Lisle",
+      "model": "35440",
+      "asin": "B004HNNEGS",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/body/body-trim-tool-set-3-piece",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/p/1123052879",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-35440",
+        "value": 5,
+        "count": 1,
+        "source": "eBay",
+        "url": "https://www.ebay.com/p/1123052879",
+        "excerpt": "5 out of 5; 1 ratings"
+      }
+    },
+    {
+      "productId": "ullman-devices-ht-2",
+      "brand": "Ullman Devices",
+      "model": "HT-2",
+      "asin": "B004VTYG0G",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://ullmandevices.com/products/ht-2",
+          "status": 200
+        },
+        {
+          "url": "https://www.zoro.com/ullman-devices-pick-up-tool-mag-7-12-to-33-34-in-5-lb-ht-2/i/G4389077/",
+          "status": "no-usable-content"
+        },
+        {
+          "url": "https://www.ebay.com/p/1500570744",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "ullman-devices-ht-2",
+        "value": 5,
+        "count": 4,
+        "source": "eBay",
+        "url": "https://www.ebay.com/p/1500570744",
+        "excerpt": "5.0 out of 5; 4 product ratings"
+      }
+    },
+    {
+      "productId": "ullman-devices-htc-2",
+      "brand": "Ullman Devices",
+      "model": "HTC-2",
+      "asin": "B000GTR0GM",
+      "status": "no-verified-score",
+      "reason": "Indexed one-review entries could not be verified in current source content; eBay listing ended and Zoro returned no usable rating content.",
+      "sourceChecks": [
+        {
+          "url": "https://ullmandevices.com/products/htc-2",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/itm/195297065192",
+          "status": 200
+        },
+        {
+          "url": "https://www.zoro.com/ullman-devices-inspection-mirror-round-9-58-36-38-htc-2/i/G9992351/",
+          "status": "no-usable-content"
+        }
+      ]
+    },
+    {
+      "productId": "stanley-33-725",
+      "brand": "Stanley",
+      "model": "33-725",
+      "asin": "B00002PV66",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "stanley-33-725",
+        "value": 4.5,
+        "count": 386,
+        "source": "Stanley",
+        "url": "https://www.stanleytools.com/product/33-725/25-ft-fatmax-tape-measure",
+        "excerpt": "33-725; 4.5 out of 5; 386 reviews",
+        "note": "Manufacturer currently titles 33-725 as a 25-ft Classic Tape Measure while showing FATMAX model 33-725 photography. The exact product number and 25-foot configuration match; no 16-foot listing score is used."
+      }
+    },
+    {
+      "productId": "klein-32500hd",
+      "brand": "Klein Tools",
+      "model": "32500HD",
+      "asin": "B0C9V6NYZ4",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.kleintools.com/catalog/multi-bit-nut-drivers/impact-rated-multi-bit-screwdrivernut-driver-11-1",
+          "status": 200
+        },
+        {
+          "url": "https://www.lowes.com/pd/Klein-Tools-11-Piece-Plastic-Handle-Assorted-Multi-bit-Screwdriver/5014355429",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "klein-32500hd",
+        "value": 4.7,
+        "count": 72,
+        "source": "Lowe's",
+        "url": "https://www.lowes.com/pd/Klein-Tools-11-Piece-Plastic-Handle-Assorted-Multi-bit-Screwdriver/5014355429",
+        "excerpt": "4.7 out of 5; 72 reviews"
+      }
+    },
+    {
+      "productId": "autel-al519",
+      "brand": "Autel",
+      "model": "AL519",
+      "asin": "B007XE5LTG",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.ebay.com/itm/377408847576",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "autel-al519",
+        "value": 4.8,
+        "count": 11,
+        "source": "eBay",
+        "url": "https://www.ebay.com/itm/377408847576",
+        "excerpt": "4.8 out of 5; 11 ratings"
+      }
+    },
+    {
+      "productId": "noco-gb70",
+      "brand": "NOCO",
+      "model": "GB70",
+      "asin": "B016UG6PWE",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://no.co/gb70/specs",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/NOCO-GB70-2000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-8-Liter-Gasoline-And-6-Liter-Diesel-Engines-GB70/312000044",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/NOCO-GB70-2000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-8-Liter-Gasoline-And-6-Liter-Diesel-Engines-GB70/312000044/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "noco-gb70",
+        "value": 4.6,
+        "count": 622,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/NOCO-GB70-2000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-8-Liter-Gasoline-And-6-Liter-Diesel-Engines-GB70/312000044/1",
+        "excerpt": "4.6 out of 5; 622 product reviews"
+      }
+    },
+    {
+      "productId": "gearwrench-85062m",
+      "brand": "GEARWRENCH",
+      "model": "85062M",
+      "asin": "B00HQGI3VY",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/torque-products/torque-wrenches/85062m-38-drive-micrometer-torque-wrench-10-100-ftlbs",
+          "status": 200
+        },
+        {
+          "url": "https://www.acmetools.com/gearwrench-3-8in-drive-micrometer-torque-wrench-10-100-ft-lbs-85062m/099575005626.html",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-85062m",
+        "value": 1,
+        "count": 1,
+        "source": "Acme Tools",
+        "url": "https://www.acmetools.com/gearwrench-3-8in-drive-micrometer-torque-wrench-10-100-ft-lbs-85062m/099575005626.html",
+        "excerpt": "1 out of 5; 1 reviews",
+        "note": "A single one-star customer review on the exact 85062M page; this small sample is not a reliability test."
+      }
+    },
+    {
+      "productId": "gearwrench-84918n",
+      "brand": "GEARWRENCH",
+      "model": "84918N",
+      "asin": "B00UM68IQU",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/ratchets-sockets/impact-products/84918n-15-piece-38-drive-6-point-standard-universal-impact-metric-socket-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/GEARWRENCH-3-8-in-Drive-6-Point-Metric-Standard-Universal-Impact-Socket-Set-15-Piece-84918N/309927505",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-3-8-in-Drive-6-Point-Metric-Standard-Universal-Impact-Socket-Set-15-Piece-84918N/309927505/1",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-84918n",
+        "value": 4.7,
+        "count": 58,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-3-8-in-Drive-6-Point-Metric-Standard-Universal-Impact-Socket-Set-15-Piece-84918N/309927505/1",
+        "excerpt": "4.7 out of 5; 58 product reviews"
+      }
+    },
+    {
+      "productId": "gearwrench-9416",
+      "brand": "GEARWRENCH",
+      "model": "9416",
+      "asin": "B0002NYD1W",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/9416-16-piece-72-tooth-12-point-ratcheting-combination-metric-wrench-set",
+          "status": 200
+        },
+        {
+          "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-Metric-72-Tooth-Combination-Ratcheting-Wrench-Tool-Set-16-Piece-9416/204616991/2",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "gearwrench-9416",
+        "value": 4.7,
+        "count": 338,
+        "source": "The Home Depot",
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-Metric-72-Tooth-Combination-Ratcheting-Wrench-Tool-Set-16-Piece-9416/204616991/2",
+        "excerpt": "4.7 out of 5; 338 reviews"
+      }
+    },
+    {
+      "productId": "dewalt-dcf891b",
+      "brand": "DEWALT",
+      "model": "DCF891B",
+      "asin": "B09YXXFPBJ",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-12-mid-range-impact-wrench-hog-ring-anvil-tool-only",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "dewalt-dcf891b",
+        "value": 4.6,
+        "count": 39,
+        "source": "DEWALT",
+        "url": "https://www.dewalt.com/en-us/product/dcf891b/20v-max-xr-12-mid-range-impact-wrench-hog-ring-anvil-tool-only",
+        "excerpt": "4.6 out of 5; 39 total reviews"
+      }
+    },
+    {
+      "productId": "lisle-28600",
+      "brand": "Lisle",
+      "model": "28600",
+      "asin": "B0002SQUFY",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/brakes/disc-brake-piston-tool",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/urw/Disc-Brake-Caliper-Piston-Tool-LISLE-28600/product-reviews/14037533359",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-28600",
+        "value": 4.5,
+        "count": 11,
+        "source": "eBay",
+        "url": "https://www.ebay.com/urw/Disc-Brake-Caliper-Piston-Tool-LISLE-28600/product-reviews/14037533359",
+        "excerpt": "4.5 out of 5; 11 product ratings"
+      }
+    },
+    {
+      "productId": "sunex-6602lp",
+      "brand": "SUNEX",
+      "model": "6602LP",
+      "asin": "B00L1ZCN0I",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://sunextools.com/products/2-ton-low-rider-service-jack",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "sunex-6602lp",
+        "value": 4,
+        "count": 10,
+        "source": "SUNEX",
+        "url": "https://sunextools.com/products/2-ton-low-rider-service-jack",
+        "excerpt": "4 out of 5; 10 total reviews"
+      }
+    },
+    {
+      "productId": "mityvac-mv7201",
+      "brand": "Mityvac",
+      "model": "MV7201",
+      "asin": "B0002SR7TC",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.skf.com/mityvac/products/fluid-evacuation-and-dispensing-equipment-and-accessories/fluid-evacuators/mv7201",
+          "status": 200
+        },
+        {
+          "url": "https://www.ebay.com/p/2256105166",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "mityvac-mv7201",
+        "value": 5,
+        "count": 5,
+        "source": "eBay",
+        "url": "https://www.ebay.com/p/2256105166",
+        "excerpt": "5 out of 5; 5 product reviews"
+      }
+    },
+    {
+      "productId": "lisle-63250",
+      "brand": "Lisle",
+      "model": "63250",
+      "asin": "B0002SR4PY",
+      "status": "verified-source-rating",
+      "sourceChecks": [
+        {
+          "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/wide-range-filter-wrench",
+          "status": 200
+        }
+      ],
+      "selectedEvidence": {
+        "id": "lisle-63250",
+        "value": 5,
+        "count": 1,
+        "source": "Lisle",
+        "url": "https://www.lislecorp.com/specialty-tools/filter-fuel-and-oil/wide-range-filter-wrench",
+        "excerpt": "5 out of 5; 1 visible review",
+        "note": "Manufacturer aggregate is 5/5. One written review is visible on the source page; the displayed count describes visible feedback, not a separately published aggregate total.",
+        "countDisplay": "1 visible review"
+      }
+    },
+    {
+      "productId": "sunex-8057xtr",
+      "brand": "SUNEX",
+      "model": "8057XTR",
+      "asin": "B0G1SVKH46",
+      "status": "no-verified-score",
+      "reason": "Manufacturer has no rating value. Retailer Trustpilot score is store-wide; Walmart product page was unavailable.",
+      "sourceChecks": [
+        {
+          "url": "https://sunextools.com/products/8057xtr-red-premium-full-drawer-service-cart",
+          "status": 200
+        },
+        {
+          "url": "https://www.nationaltoolwarehouse.com/Premium-Full-Drawer-Service-Cart-RED-P406706.aspx",
+          "status": 200
+        },
+        {
+          "url": "https://www.walmart.com/ip/SUNEX-6-Drawer-Slide-Top-Service-Cart-Red/666726645",
+          "status": 404
+        }
+      ]
+    }
+  ],
+  "rejectedExamples": [
+    {
+      "productId": "autel-mk900-bt",
+      "url": "https://www.ebay.com/itm/222780228155",
+      "reason": "Listing headline mentions MK900-BT but linked rating catalogue is Autel AL619 (product 22034416607). Rejected."
+    },
+    {
+      "productId": "clore-automotive-ba9",
+      "url": "https://www.ebay.com/itm/366632671248",
+      "reason": "Search result was BA9S bulbs, not Clore battery tester. Rejected."
+    },
+    {
+      "productId": "sunex-8057xtr",
+      "url": "https://www.nationaltoolwarehouse.com/Premium-Full-Drawer-Service-Cart-RED-P406706.aspx",
+      "reason": "4.8/4181 is the store Trustpilot score, not a cart rating."
+    },
+    {
+      "productId": "stanley-33-725",
+      "reason": "Walmart result inconsistently says 16 ft; use the manufacturer 33-725 25-foot source instead."
+    }
+  ]
+}
