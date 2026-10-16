@@ -11,10 +11,11 @@ export function ProductFeedback({ trade, brand, model, productId, amazonUrl, sho
   const rating = showRating ? <ProductRating trade={trade} brand={brand} model={model} amazonUrl={amazonUrl} compact tone="light" /> : null;
   const feedbacks = verifiedFeedback ?? getProductFeedbacks(trade, brand, model, productId);
   if (!feedbacks.length) return rating;
+  const automotive=trade==='automotive-mechanics';
   return (
-    <>{rating}{feedbacks.map(feedback=><aside key={`${feedback.productId}/${feedback.author}`} className={styles.card} aria-label={`Customer feedback for ${brand} ${model}`} data-feedback-product={feedback.productId}>
+    <>{rating}{feedbacks.map(feedback=><aside key={`${feedback.productId}/${feedback.author}`} className={`${styles.card}${automotive ? ` ${styles.automotiveCard}` : ''}`} aria-label={`Customer feedback for ${brand} ${model}`} data-feedback-product={feedback.productId}>
       <div className={styles.heading}>
-        <span className={styles.eyebrow}>FROM THE TOOL COMMUNITY</span>
+        <span className={styles.eyebrow}>{automotive ? `${brand} ${model} · USER PERSPECTIVE` : 'FROM THE TOOL COMMUNITY'}</span>
       </div>
       <div className={styles.body}>
         <FeedbackAvatar key={feedback.productId} initials={feedback.avatar} src={feedback.portrait?.src} />
@@ -24,12 +25,13 @@ export function ProductFeedback({ trade, brand, model, productId, amazonUrl, sho
         </div>
       </div>
       <div className={styles.footer}>
-        <span className={styles.match}>{feedback.match === "Tool family" ? "Tool-family discussion" : "Product discussion"}</span>
+        {automotive ? <a className={styles.sourceLink} href={feedback.url} target="_blank" rel="noopener noreferrer">Source: {feedback.source} ↗</a> : <span className={styles.match}>{feedback.match === "Tool family" ? "Tool-family discussion" : "Product discussion"}</span>}
         <a href={affiliateUrl(amazonUrl, trade)} data-trade={trade} data-product={`${brand} ${model}`} target="_blank" rel="sponsored nofollow noopener noreferrer">View this tool on Amazon ↗</a>
       </div>
       <details className={styles.notes}>
         <summary>About this feedback</summary>
         <p>{feedback.quote ? "Short quotation of customer feedback" : "Summary of customer feedback"} from {feedback.source}. Individual experiences may differ.</p>
+        {automotive && feedback.quote && <p>{feedback.summary}</p>}
         {verifiedFeedback && <p><a href={feedback.url} target="_blank" rel="noopener noreferrer">Read the source feedback</a>. {feedback.caveat}</p>}
         {feedback.portrait && <p>Reviewer photo: <a href={feedback.portrait.sourceUrl} target="_blank" rel="noopener noreferrer">{feedback.portrait.credit}</a>.</p>}
         {feedback.match === "Tool family" && <p>This discussion concerns the tool family; the model or supplied accessories may differ from the configuration on this page.</p>}

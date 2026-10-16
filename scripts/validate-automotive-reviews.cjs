@@ -52,3 +52,20 @@ for(const p of automotiveProducts){
 const unsafe=automotiveProductSchema(automotiveProducts[0],'https://tradegearhq.com');unsafe.description='</script><script>alert(1)</script>';
 assert.ok(!serializeProductSchema(unsafe).includes('</script>'));assert.equal(JSON.parse(serializeProductSchema(unsafe)).description,unsafe.description);
 console.log('Automotive schema: 61 exact products, editorial pros/cons, visible-source parity, no imported ratings/offers, and script-safe JSON passed.');
+
+const feedbackAudit=require('../docs/automotive/owner-feedback-verification-2026-10-16.json');
+assert.equal(automotiveFeedback.length,12);assert.equal(new Set(automotiveFeedback.map(f=>f.productId)).size,9);
+const perSource=new Map();
+for(const f of automotiveFeedback){
+ const p=automotiveProducts.find(p=>p.id===f.productId);assert.ok(p);assert.equal(f.modelNumber,p.model);assert.equal(f.brand,p.brand);
+ assert.ok(f.url.startsWith('https://'));assert.ok(f.summary&&f.context&&f.caveat);assert.equal(f.sourceConfirmed,true);
+ perSource.set(f.url,(perSource.get(f.url)||0)+f.quote.split(/\s+/).length);
+ if(f.productId!=='innova-5610'){
+  const a=feedbackAudit.records.find(a=>a.productId===f.productId&&a.author===f.author);
+  assert.ok(a&&a.evidence.includes(f.quote));assert.equal(a.quote,f.quote);assert.equal(a.url,f.url);
+ }
+}
+assert.ok([...perSource.values()].every(n=>n<=25));
+const feedbackComponent=fs.readFileSync('components/ProductFeedback.tsx','utf8');assert.ok(feedbackComponent.includes('Source: {feedback.source}'));assert.ok(feedbackComponent.includes('feedback.summary'));
+assert.ok(automotiveFeedback.find(f=>f.author==='Petertwit').context.includes('Received free product'));
+console.log('Automotive feedback: 12 short attributed quotes on 9 exact products, source evidence, incentive disclosure and quote budgets passed.');
