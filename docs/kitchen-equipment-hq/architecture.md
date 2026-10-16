@@ -1,6 +1,9 @@
 # Technical architecture & URL rules
 **Target:** independent Next.js 15/React/TypeScript/Vercel US kitchen research site, modelled on the *proven UI patterns* in TradeGear HQ. Not another trade inside TradeGear HQ. No cross-domain canonical or shared Google verification; no accidental live publication.
 
+## Site boundaries and monetisation model
+The kitchen site's core product selection is intentionally **premium** ($300–$1,500+ typical, $200 floor unless justified), unlike a full kitchen catalogue. KitchenMatch is a rules-based, source-backed personal selection engine with no LLM costs in V1; **Kitchen Coach** denotes original website editorial callouts, not customer quotes or human chef endorsements. Price points refer to an editorial qualification estimate, not dynamic live retailer pricing. See `premium-positioning.md`. Professional equipment requires an independently approved supplier channel and commercial safety documentation.
+
 ## From TradeGear HQ to Kitchen Equipment HQ
 Reuse/adapt the patterns (not site credentials, analytics or brand): `components/FullProductReview.tsx` (hero, quick verdict, Our Take, pros/cons, specs, detailed sections, FAQs, sources, alternatives), `components/ProductFeedback.tsx` + `.module.css` (warm insight cards), `components/ProductPhoto`, `components/Editorial`, guide comparison-table layout from `app/[trade]/[slug]/page.tsx`, sitemap/robots logic, affiliate helper, and `scripts/validate-*.cjs`. **Remove TradeGear trade coupling** instead of hardcoding `kitchen` as a seventh trade or referencing existing tool records. No secrets copied.
 
