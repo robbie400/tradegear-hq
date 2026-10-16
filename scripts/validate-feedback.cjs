@@ -38,3 +38,13 @@ for(const f of directQuotes){assert.equal(f.sourceConfirmed,true);assert.equal(f
 const wordsBySource=new Map();
 for(const f of directQuotes)wordsBySource.set(f.url,(wordsBySource.get(f.url)||0)+f.quote.split(/\s+/).length);
 for(const [url,words] of wordsBySource)assert.ok(words<=25,`${url}: short excerpt budget`);
+
+// All numeric customer ratings currently use identified external sources.
+for(const r of productRatings){assert.notEqual(r.source.toLowerCase(),'amazon');assert.ok(!/(^|\.)amazon\.[a-z.]+$/.test(new URL(r.url).hostname),`${r.productId}: unauthorized Amazon rating source`);}
+const replacementAudit=require('../docs/external-electrical-ratings-2026-10-16.json');
+for(const expected of replacementAudit.records){
+ const actual=getProductRating('electricians',expected.brand,expected.modelNumber);
+ for(const key of ['productId','value','count','source','url','checkedDate'])assert.equal(actual[key],expected[key]);
+ assert.equal(actual.countDisplay,undefined);
+}
+console.log('External electrical ratings: Fluke 117 4.8/99, MM720 4.5/93, exact NCVT-3P 3.6/22; zero Amazon-sourced scores.');
