@@ -2,6 +2,9 @@
 **Version:** 2026-10-16 | **Status:** Proposed, not approved for live publication | **Market:** United States / Amazon.com | **Working brand:** Kitchen Equipment HQ (domain NOT purchased or verified)
 **Parent/source reference:** TradeGear HQ `app/reviews/[slug]/page.tsx`, `components/FullProductReview.tsx`, `components/ProductFeedback.tsx`, `app/[trade]/[slug]/page.tsx`, `lib/data.ts`, `lib/reviews.ts`, `lib/affiliate.ts`. This branch modifies no production application files.
 
+## Premium-only editorial scope (owner decision)
+**Core individual reviews and primary buying guides target $300–$1,500+ kitchen equipment, with approximately $200 as a general lower floor** (only honest comparison exceptions). Inexpensive accessories may appear inside genuine setups but don't get standalone review campaigns. Prioritise **premium espresso systems, heavy-use home mixers, high-end combination ovens, nugget ice makers, chamber vacuum sealers and premium prep systems**. Deprioritise inexpensive rice cookers/kettles/blenders even when keywords have volume. Use commercial equipment only in a separately qualified buyer lane; do not assume Amazon or the Kitchen commission applies. See [Premium positioning](./premium-positioning.md).
+
 ## The differentiator — KitchenMatch (signature feature proposal)
 Cook-first, not product-first. Visitor selects who is cooking (home, baker, coffee, meal prep, host, professional), what they want to make, portions/frequency, existing gear, budget, counter dimensions/clearance and practical constraints. KitchenMatch returns an evidence-backed **Kitchen Blueprint**: the right appliance type, 2–3 suitable researched models, specific why/why-not reasoning, true setup essentials, budget/space checks, plus canonical review and guide links. V1 deterministic, no artificial chef personas, no fake tests or quotes. Professional kitchen is a separate qualified commercial equipment lane. See [KitchenMatch concept](./kitchenmatch-concept.md) and [audience hubs](./audience-hubs.md).
 
@@ -49,4 +52,4 @@ Launch **six high-intent guides**, 25–35 verified canonical products, six comp
 5. Preview on **separate new Vercel project**, preview noindex, test responsive layout/performance/navigation/404s/meta/canonicals/sitemap, then explicit approval before public launch.
 6. No changes in this research branch may be merged into TradeGear HQ's production site.
 
-Read `kitchenmatch-concept.md`, `audience-hubs.md`, `keyword-map.csv`, `architecture.md`, `editorial-standard.md`, `premium-research.md`, `launch-plan.md`, and `source-register.md` before starting implementation.
+Read `premium-positioning.md`, `kitchenmatch-concept.md`, `audience-hubs.md`, `keyword-map.csv`, `architecture.md`, `editorial-standard.md`, `premium-research.md`, `launch-plan.md`, and `source-register.md` before starting implementation.
