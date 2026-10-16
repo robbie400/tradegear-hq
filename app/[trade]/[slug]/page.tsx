@@ -30,8 +30,8 @@ export async function generateMetadata({
   return {
     title: g.title.split(":")[0],
     description: g.meta,
-    openGraph: {title:g.title,description:g.meta,url:`/${trade}/${slug}/`},
-    alternates: { canonical: `/${trade}/${slug}/` },
+    openGraph: {title:g.title,description:g.meta,url:`/${trade}/${slug}`},
+    alternates: { canonical: `/${trade}/${slug}` },
   };
 }
 export default async function Guide({
