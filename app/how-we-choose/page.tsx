@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "How We Choose Tools",
   description:
     "How TradeGear HQ researches tools, verifies specifications and makes recommendations without claiming hands-on testing.",
-  alternates: { canonical: "/how-we-choose/" },
+  alternates: { canonical: "/how-we-choose" },
 };
 export default function Methodology() {
   return (
