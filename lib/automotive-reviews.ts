@@ -1,4 +1,5 @@
 import editorial from './automotive-review-editorial.json';
+import ownerFeedback from './automotive-owner-feedback.json';
 import specifications from './automotive-review-specifications.json';
 import {automotiveProducts, automotiveCategories, automotiveJobs, type AutomotiveProduct} from './automotive-catalog';
 import type {ProductReview} from './reviews';
@@ -59,4 +60,4 @@ export const automotiveFeedback = [{
  quote:'The best part about this tool is no cost for updates ever.',
  match:'Exact model' as const,permission:'pending' as const,sourceConfirmed:true,
  caveat:'Short editorial excerpt checked October 16, 2026 on the exact 5610 page. Innova attributes the original to an Amazon customer; we have not independently verified the original Amazon review, purchase or identity. This is a manufacturer-selected testimonial, not a representative review sample or an Amazon rating. Explicit republication permission is not documented.',
-}];
+},...ownerFeedback.map(f=>({...f,trade:'automotive-mechanics' as const,match:'Exact model' as const,permission:'pending' as const}))];
