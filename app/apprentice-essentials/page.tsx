@@ -7,7 +7,7 @@ import styles from './page.module.css';
 export const metadata:Metadata={
   title:'Apprentice Essentials by Trade',
   description:'Choose your trade to browse everyday apprentice essentials in the TradeGear HQ tool directories.',
-  alternates:{canonical:'/apprentice-essentials/'},
+  alternates:{canonical:'/apprentice-essentials'},
 };
 
 export default function ApprenticeEssentials(){
