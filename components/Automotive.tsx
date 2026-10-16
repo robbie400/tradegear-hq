@@ -1,11 +1,12 @@
 import {FullProductReview} from './FullProductReview';
+import {automotiveProductSchema,serializeProductSchema} from '@/lib/automotive-product-schema';
 import {getAutomotiveReview,automotiveReviewLinks,automotiveFeedback} from '@/lib/automotive-reviews';
 import Link from 'next/link';
 import {affiliateUrl} from '@/lib/affiliate';
 import {automotiveProducts as products,automotiveCategories as categories,automotiveJobs as jobs,automotiveHandGroups,automotivePhoto,automotiveTrade as trade,getAutomotiveProduct,type AutomotiveProduct} from '@/lib/automotive-catalog';
 import {ProductPhoto} from './ProductPhoto';
 import {ToolDirectorySearch} from './ToolDirectorySearch';
-import {EditorialByline,PageSchema} from './Editorial';
+import {EditorialByline,PageSchema,siteUrl} from './Editorial';
 import s from './Automotive.module.css';
 
 const root=`/${trade}`;
@@ -29,6 +30,6 @@ export function AutomotiveGuide({slug}:{slug:string}){const c=categories.find(c=
 export function AutomotiveProductPage({product:p}:{product:AutomotiveProduct}) {
  const r=getAutomotiveReview(p);
  const {alternatives,workflows}=automotiveReviewLinks(p);
- return <FullProductReview r={r} photo={automotivePhoto(p)} path={href(p)} date="2026-10-16" feedback={automotiveFeedback.filter(f=>f.productId===p.id)} alternatives={alternatives} workflows={workflows}/>;
+ return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html:serializeProductSchema(automotiveProductSchema(p,siteUrl))}}/><FullProductReview r={r} photo={automotivePhoto(p)} path={href(p)} date="2026-10-16" feedback={automotiveFeedback.filter(f=>f.productId===p.id)} alternatives={alternatives} workflows={workflows}/></>;
 }
 export function AutomotiveWorkflow({slug}:{slug:string}){const w=jobs.find(w=>w.slug===slug)!;return <><PageSchema date="2026-10-15" title={w.title} description={w.summary} path={`${root}/workflows/${slug}/`} crumbs={[{name:'Home',path:'/'},{name:'Automotive Mechanics',path:`${root}/`},{name:w.title,path:`${root}/workflows/${slug}/`}]}/><Hero title={w.title} answer={w.summary} kicker="Job kit" product={getAutomotiveProduct(w.productIds[0])!}/><section className="section light"><div className="shell"><EditorialByline date="2026-10-15"/><div className={s.copy}><h2>Plan the equipment</h2><p>{w.body}</p><h2>Check the limits</h2><p>{w.caution}</p></div><nav className="articleNav" aria-label="Equipment stages">{w.guideSlugs.map(slug=><a key={slug} href={`#stage-${slug}`}>{categories.find(c=>c.slug===slug)!.title}</a>)}</nav>{w.guideSlugs.map(slug=>{const c=categories.find(c=>c.slug===slug)!;return <section className={s.group} key={slug} id={`stage-${slug}`}><h2>{c.title}</h2><p>{c.answer}</p><Link className="detailLink" href={`${root}/${slug}/`}>Read the equipment buying guide →</Link><div className="allToolsGrid">{c.productIds.map(id=><AutomotiveCard key={id} product={getAutomotiveProduct(id)!}/>)}</div></section>;})}<Disclosure/></div></section></>;}
