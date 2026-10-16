@@ -39,3 +39,10 @@
 
 .automotiveCard{border-color:#e9dfcf;border-left:4px solid #e79034;background:linear-gradient(120deg,#fff8ed,#fff 75%);box-shadow:0 9px 26px rgba(63,44,20,.055)}
 .automotiveCard .eyebrow{color:#8a5d28}.automotiveCard .avatar{background:#193449;box-shadow:0 0 0 4px #f5e8d5}.automotiveCard .footer{border-color:#ece2d4}.automotiveCard .sourceLink{color:#607385;font-weight:600}
+.automotiveCard{margin:12px 0;padding:12px 16px;border-radius:12px}
+.automotiveCard .heading{margin-bottom:7px}.automotiveCard .eyebrow{font-size:9px;letter-spacing:.08em}
+.automotiveCard .body{gap:10px}.automotiveCard .avatar{flex:0 0 32px;width:32px;height:32px;font-size:10px;box-shadow:none}
+.automotiveCard .pullQuote{margin:0 0 7px;padding:0 0 0 10px;font-size:16px;line-height:1.4}
+.automotiveCard .person{flex-direction:row;align-items:baseline;flex-wrap:wrap;gap:4px 8px}.automotiveCard .person strong{font-size:11px}.automotiveCard .person span{font-size:10px;line-height:1.4}
+.automotiveCard .footer{margin-top:9px;padding-top:7px;gap:6px;font-size:10px}.automotiveCard .notes{margin-top:6px;font-size:10px}
+@media(max-width:600px){.automotiveCard{padding:11px 12px;margin:10px 0}.automotiveCard .body{gap:9px}.automotiveCard .pullQuote{font-size:15px;line-height:1.4}.automotiveCard .avatar{flex-basis:28px;width:28px;height:28px}.automotiveCard .footer{gap:6px 12px}}
