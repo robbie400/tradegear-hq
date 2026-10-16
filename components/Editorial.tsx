@@ -1,4 +1,6 @@
 import Link from "next/link";
+// Match the URL Google has already selected and indexed (except the homepage).
+export const canonicalPath = (path: string): string => path === "/" ? path : path.replace(/\/+$/, "");
 export const reviewedDate = "2026-10-04";
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://tradegear-hq.vercel.app";
@@ -32,12 +34,12 @@ export function PageSchema({
         "@type": kind,
         headline: title,
         description,
-        url: siteUrl + path,
+        url: siteUrl + canonicalPath(path),
         dateModified: date,
         author: {
           "@type": "Organization",
           name: "TradeGear HQ editorial desk",
-          url: siteUrl + "/how-we-choose/",
+          url: siteUrl + canonicalPath("/how-we-choose/"),
         },
         publisher: {
           "@type": "Organization",
@@ -51,7 +53,7 @@ export function PageSchema({
           "@type": "ListItem",
           position: i + 1,
           name: c.name,
-          item: siteUrl + c.path,
+          item: siteUrl + canonicalPath(c.path),
         })),
       },
     ],
