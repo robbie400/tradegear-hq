@@ -17,7 +17,7 @@ export async function generateMetadata({params}:{params:Promise<{trade:string}>}
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)return {};
   const title=`${titles[trade]}: Browse Reviews & Buying Advice`;
   const description=`Browse ${directory.products.length} reviewed and compared tools plus ${directory.essentials.length} apprentice essentials for ${directory.hub.name.toLowerCase()}. Search by tool, brand or model.`;
-  return {title,description,alternates:{canonical:`/${trade}/tools/`},openGraph:{title,description,url:`/${trade}/tools/`}};
+  return {title,description,alternates:{canonical:`/${trade}/tools`},openGraph:{title,description,url:`/${trade}/tools`}};
 }
 export default async function TradeTools({params}:{params:Promise<{trade:string}>}){
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)notFound();
@@ -29,7 +29,7 @@ export default async function TradeTools({params}:{params:Promise<{trade:string}
     <ProductRating trade={trade} brand={p.brand} model={p.model} amazonUrl={p.amazonUrl} compact tone="light"/><p className="toolCardFit">{p.role}</p>{p.intro && <p>{p.intro}</p>}<Link href={p.detailHref} className="detailLink">{p.detailLabel}</Link>
   </article>}));
   return <>
-    <PageSchema kind="CollectionPage" title={titles[trade]} description={description} path={`/${trade}/tools/`} date="2026-10-15" crumbs={[{name:'Home',path:'/'},{name:hub.name,path:`/${trade}/`},{name:'All tools',path:`/${trade}/tools/`}]}/>
+    <PageSchema kind="CollectionPage" title={titles[trade]} description={description} path={`/${trade}/tools`} date="2026-10-15" crumbs={[{name:'Home',path:'/'},{name:hub.name,path:`/${trade}/`},{name:'All tools',path:`/${trade}/tools`}]}/>
     <section className={`section light ${styles.directory}`}><div className="shell">
       <div className={`crumb ${styles.crumb}`}><Link href="/">Home</Link> / <Link href={`/${trade}/`}>{hub.name}</Link> / All tools</div>
       <h1>{titles[trade]}</h1>

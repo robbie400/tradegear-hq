@@ -2,6 +2,11 @@ import Link from "next/link";
 export const reviewedDate = "2026-10-04";
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://tradegear-hq.vercel.app";
+/** Match Next.js production routing: only "/" ends with a slash. */
+export function canonicalAbsoluteUrl(path: string): string {
+  const cleaned = path === "/" ? "/" : path.replace(/\/+$/, "");
+  return siteUrl.replace(/\/$/, "") + cleaned;
+}
 export function EditorialByline({date = reviewedDate, showMethodology=true}:{date?:string;showMethodology?:boolean} = {}) {
   return (
     <p className="editorialByline">
@@ -32,17 +37,17 @@ export function PageSchema({
         "@type": kind,
         headline: title,
         description,
-        url: siteUrl + path,
+        url: canonicalAbsoluteUrl(path),
         dateModified: date,
         author: {
           "@type": "Organization",
           name: "TradeGear HQ editorial desk",
-          url: siteUrl + "/how-we-choose/",
+          url: canonicalAbsoluteUrl("/how-we-choose"),
         },
         publisher: {
           "@type": "Organization",
           name: "TradeGear HQ",
-          url: siteUrl,
+          url: canonicalAbsoluteUrl("/"),
         },
       },
       {
@@ -51,7 +56,7 @@ export function PageSchema({
           "@type": "ListItem",
           position: i + 1,
           name: c.name,
-          item: siteUrl + c.path,
+          item: canonicalAbsoluteUrl(c.path),
         })),
       },
     ],

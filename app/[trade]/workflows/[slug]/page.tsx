@@ -24,12 +24,12 @@ export async function generateMetadata({
   return {
     title: w.title.split(":")[0],
     description: w.meta,
-    openGraph: {title:w.title,description:w.meta,url:`/${trade}/workflows/${slug}/`},
+    openGraph: {title:w.title,description:w.meta,url:`/${trade}/workflows/${slug}`},
     robots:
       process.env.NEXT_PUBLIC_INDEX_SITE === "true"
         ? { index: true, follow: true }
         : { index: false, follow: false },
-    alternates: { canonical: `/${trade}/workflows/${slug}/` },
+    alternates: { canonical: `/${trade}/workflows/${slug}` },
   };
 }
 
@@ -44,7 +44,7 @@ export default async function WorkflowPage({
   if(trade === "automotive-mechanics")return <AutomotiveWorkflow slug={slug}/>;
   return (
     <>
-      <PageSchema date={trade === "carpenters" ? "2026-10-12" : undefined} title={w.title} description={w.meta} path={`/${trade}/workflows/${slug}/`} crumbs={[{name:"Home",path:"/"},{name:w.tradeName,path:`/${trade}/`},{name:w.title,path:`/${trade}/workflows/${slug}/`}]}/>
+      <PageSchema date={trade === "carpenters" ? "2026-10-12" : undefined} title={w.title} description={w.meta} path={`/${trade}/workflows/${slug}`} crumbs={[{name:"Home",path:"/"},{name:w.tradeName,path:`/${trade}/`},{name:w.title,path:`/${trade}/workflows/${slug}`}]}/>
       <section className="workflowHero">
         <img src={w.heroImage} alt={`${w.tradeName} service work`} />
         <div className="tradeHeroShade" />

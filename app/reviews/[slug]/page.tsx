@@ -19,8 +19,8 @@ export async function generateMetadata({
   return {
     title: r.title,
     description: r.meta,
-    openGraph: {title:r.title,description:r.meta,url:`/reviews/${slug}/`},
-    alternates: { canonical: `/reviews/${slug}/` },
+    openGraph: {title:r.title,description:r.meta,url:`/reviews/${slug}`},
+    alternates: { canonical: `/reviews/${slug}` },
   };
 }
 export default async function ReviewPage({
@@ -36,5 +36,5 @@ export default async function ReviewPage({
     (x) => x.trade === r.trade && x.guideSlug === r.guideSlug && x.slug !== r.slug,
   );
   const workflows = getTradeWorkflows(r.trade).filter(w => (r.sourceNote?.includes('October 14') && getGuide(r.trade,r.guideSlug)?.workflowSlugs?.includes(w.slug)) || w.tools.some(t => t.guideUrl === `/${r.trade}/${r.guideSlug}/` || t.reviewUrl === `/reviews/${r.slug}/`));
-  return <FullProductReview r={r} photo={photo} path={`/reviews/${slug}/`} date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 14') ? '2026-10-14' : r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} alternatives={alternatives.map(a=>({url:`/reviews/${a.slug}/`,brand:a.brand,model:a.model,role:a.role}))} workflows={workflows}/>;
+  return <FullProductReview r={r} photo={photo} path={`/reviews/${slug}`} date={r.trade === 'carpenters' ? (r.sourceNote?.includes('October 14') ? '2026-10-14' : r.sourceNote?.includes('October 13') ? '2026-10-13' : '2026-10-12') : undefined} alternatives={alternatives.map(a=>({url:`/reviews/${a.slug}/`,brand:a.brand,model:a.model,role:a.role}))} workflows={workflows}/>;
 }

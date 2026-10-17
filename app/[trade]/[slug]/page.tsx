@@ -30,8 +30,8 @@ export async function generateMetadata({
   return {
     title: g.title.split(":")[0],
     description: g.meta,
-    openGraph: {title:g.title,description:g.meta,url:`/${trade}/${slug}/`},
-    alternates: { canonical: `/${trade}/${slug}/` },
+    openGraph: {title:g.title,description:g.meta,url:`/${trade}/${slug}`},
+    alternates: { canonical: `/${trade}/${slug}` },
   };
 }
 export default async function Guide({
@@ -54,11 +54,11 @@ export default async function Guide({
       <PageSchema date={trade === "carpenters" ? (carpenterFinal25Categories.some(c=>c.slug===slug) ? "2026-10-14" : "2026-10-13") : undefined}
         title={g.title}
         description={g.meta}
-        path={`/${trade}/${slug}/`}
+        path={`/${trade}/${slug}`}
         crumbs={[
           { name: "Home", path: "/" },
           { name: g.tradeName, path: `/${trade}/` },
-          { name: g.title, path: `/${trade}/${slug}/` },
+          { name: g.title, path: `/${trade}/${slug}` },
         ]}
       />
       <section className={`guideHero${guideImage ? " guideHeroWithPhoto" : ""}`} id="top">

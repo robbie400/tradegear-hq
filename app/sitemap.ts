@@ -4,7 +4,7 @@ import type { MetadataRoute } from "next";
 import { guides, hubs } from "@/lib/data";
 import { reviews } from "@/lib/reviews";
 import { workflows } from "@/lib/workflows";
-import { reviewedDate, siteUrl } from "@/components/Editorial";
+import { reviewedDate, canonicalAbsoluteUrl } from "@/components/Editorial";
 export default function sitemap(): MetadataRoute.Sitemap {
   if (process.env.NEXT_PUBLIC_INDEX_SITE !== "true") return [];
   const paths = [
@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   const updatedPaths=new Set([...hubs.flatMap(h=>[`/${h.slug}/`,`/${h.slug}/tools/`]),...carpenterFinal25Categories.map(c=>`/carpenters/${c.slug}/`),...reviews.filter(r=>r.sourceNote?.includes('October 14')).map(r=>`/reviews/${r.slug}/`)]);
   return paths.map((path) => ({
-    url: siteUrl + path,
-    lastModified: updatedPaths.has(path) ? '2026-10-14' : path.startsWith('/carpenters/') || path.startsWith('/reviews/carpenters-') ? '2026-10-13' : reviewedDate,
+    url: canonicalAbsoluteUrl(path),
+    lastModified: path.startsWith('/automotive-mechanics/') ? '2026-10-16' : updatedPaths.has(path) ? '2026-10-14' : path.startsWith('/carpenters/') || path.startsWith('/reviews/carpenters-') ? '2026-10-13' : reviewedDate,
   }));
 }
