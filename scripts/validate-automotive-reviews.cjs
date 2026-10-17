@@ -31,7 +31,7 @@ const shared=fs.readFileSync('components/FullProductReview.tsx','utf8');
 for(const feature of ['reviewHero','ProductRating','ProductFeedback','EditorialByline','QUICK VERDICT','prosCons','specSection','articleBody','sourceBox','reviewCta','faq','relatedBox'])assert.ok(shared.includes(feature));
 assert.ok(fs.readFileSync('app/reviews/[slug]/page.tsx','utf8').includes('<FullProductReview'));
 assert.ok(fs.readFileSync('components/Automotive.tsx','utf8').includes('<FullProductReview'));
-console.log('Automotive reviews: 61 complete records, distinct analysis, shared template, sourced specs/feedback, exact affiliate destinations and comparison links passed.');
+console.log('Automotive reviews: 100 complete records, distinct analysis, shared template, sourced specs/feedback, exact affiliate destinations and comparison links passed.');
 
 const {automotiveProductSchema,serializeProductSchema}=require('../lib/automotive-product-schema.ts');
 for(const p of automotiveProducts){
@@ -51,10 +51,12 @@ for(const p of automotiveProducts){
 }
 const unsafe=automotiveProductSchema(automotiveProducts[0],'https://tradegearhq.com');unsafe.description='</script><script>alert(1)</script>';
 assert.ok(!serializeProductSchema(unsafe).includes('</script>'));assert.equal(JSON.parse(serializeProductSchema(unsafe)).description,unsafe.description);
-console.log('Automotive schema: 61 exact products, editorial pros/cons, visible-source parity, no imported ratings/offers, and script-safe JSON passed.');
+console.log('Automotive schema: 100 exact products, editorial pros/cons, visible-source parity, no imported ratings/offers, and script-safe JSON passed.');
 
-const feedbackAudit=require('../docs/automotive/owner-feedback-verification-2026-10-16.json');
-assert.equal(automotiveFeedback.length,12);assert.equal(new Set(automotiveFeedback.map(f=>f.productId)).size,9);
+const oldFeedbackAudit=require('../docs/automotive/owner-feedback-verification-2026-10-16.json');
+const newFeedbackAudit=require('../docs/automotive/owner-feedback-verification-2026-10-17.json');
+const feedbackAudit={records:[...oldFeedbackAudit.records,...newFeedbackAudit.records]};
+assert.equal(automotiveFeedback.length,12+newFeedbackAudit.records.length);assert.ok(new Set(automotiveFeedback.map(f=>f.productId)).size>=9);
 const perSource=new Map();
 for(const f of automotiveFeedback){
  const p=automotiveProducts.find(p=>p.id===f.productId);assert.ok(p);assert.equal(f.modelNumber,p.model);assert.equal(f.brand,p.brand);
@@ -68,4 +70,4 @@ for(const f of automotiveFeedback){
 assert.ok([...perSource.values()].every(n=>n<=25));
 const feedbackComponent=fs.readFileSync('components/ProductFeedback.tsx','utf8');assert.ok(feedbackComponent.includes('Source: {feedback.source}'));assert.ok(feedbackComponent.includes('feedback.summary'));
 assert.ok(automotiveFeedback.find(f=>f.author==='Petertwit').context.includes('Received free product'));
-console.log('Automotive feedback: 12 short attributed quotes on 9 exact products, source evidence, incentive disclosure and quote budgets passed.');
+console.log('Automotive feedback: '+automotiveFeedback.length+' short attributed quotes, exact source evidence, incentive disclosure and quote budgets passed.');

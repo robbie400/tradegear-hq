@@ -10,7 +10,8 @@
       "foxwell-nt301",
       "autel-al519",
       "innova-5610",
-      "autel-mk900-bt"
+      "autel-mk900-bt",
+      "bluedriver-lsb2"
     ]
   },
   {
@@ -34,7 +35,8 @@
     "caution": "Match battery chemistry and starting ratings to the tester. On a meter, consider leads, protective ratings and training together. This guide does not qualify a reader to work on EV high-voltage systems.",
     "productIds": [
       "fluke-88v-a-kit",
-      "clore-automotive-ba9"
+      "clore-automotive-ba9",
+      "power-probe-pp3ls01"
     ]
   },
   {
@@ -60,7 +62,8 @@
     "productIds": [
       "tekton-trq50402",
       "tekton-trq52403",
-      "gearwrench-85062m"
+      "gearwrench-85062m",
+      "gearwrench-85077"
     ]
   },
   {
@@ -97,7 +100,9 @@
       "lisle-31750",
       "lisle-35440",
       "klein-32500hd",
-      "stanley-33-725"
+      "stanley-33-725",
+      "gearwrench-81206t",
+      "gearwrench-81212xp"
     ]
   },
   {
@@ -110,7 +115,8 @@
     "productIds": [
       "gearwrench-81916",
       "gearwrench-81906",
-      "gearwrench-9416"
+      "gearwrench-9416",
+      "gearwrench-9533n"
     ]
   },
   {
@@ -123,7 +129,9 @@
     "productIds": [
       "milwaukee-2962-20",
       "milwaukee-2567-20",
-      "dewalt-dcf891b"
+      "dewalt-dcf891b",
+      "milwaukee-2562-20",
+      "dewalt-dcf900b"
     ]
   },
   {
@@ -137,7 +145,25 @@
       "lisle-25750",
       "lisle-81850",
       "mityvac-mv6840",
-      "lisle-28600"
+      "lisle-28600",
+      "mityvac-mv6830"
+    ]
+  },
+  {
+    "id": "C11",
+    "slug": "mechanical-pullers-suspension-tools",
+    "title": "Mechanical pullers & suspension service tools",
+    "answer": "Match the loading method to the component, then check the adapters.",
+    "body": "A ball-joint press, tapered-stud separator, hub service kit and slide hammer solve different mechanical problems. The OTC 7249 supplies a C-frame and receivers for compatible press-fit parts; the 6297 separates a compatible ball joint from its support arm. The 6295 set already includes that separator, so choose the set for its broader jobs rather than automatically buying both. For supported wheel hubs and bearings, the 6575 uses its own application guide and adapter arrangements. The 4579 provides slide-hammer configurations where the vehicle procedure permits that method. The 6007 is a lower-control-arm pry-bar attachment, while the Lisle 51450 is an engine harmonic-damper puller. They belong in separate task groups, not a single strongest-tool ranking. Confirm the expected vehicles and operations before paying for a complete specialist case.",
+    "caution": "Use the service procedure and the appropriate adapter drawings before applying force. Frame clearance, receiving surfaces, pressing direction and retention details all matter. A suspension category label does not qualify a tool for coil-spring or strut disassembly. The Hub Grappler guide described by OTC reaches model year 2018; confirm later applications separately. Vehicle support and stored-energy control remain independent requirements.",
+    "productIds": [
+      "otc-7249",
+      "otc-6295",
+      "otc-6297",
+      "otc-6575",
+      "otc-4579",
+      "otc-6007",
+      "lisle-51450"
     ]
   },
   {
@@ -163,7 +189,10 @@
     "productIds": [
       "lisle-17922",
       "lisle-19752",
-      "mityvac-mv7201"
+      "mityvac-mv7201",
+      "mityvac-mv7300",
+      "mityvac-mv6412a",
+      "lisle-19722"
     ]
   },
   {
@@ -176,7 +205,24 @@
     "productIds": [
       "lisle-63600",
       "lisle-13270",
-      "lisle-63250"
+      "lisle-63250",
+      "motivx-tools-mx2320",
+      "motivx-tools-mx2326"
+    ]
+  },
+  {
+    "id": "C15",
+    "slug": "cooling-system-service-tools",
+    "title": "Cooling-system testing, refill & flushing tools",
+    "answer": "Pressure diagnosis, vacuum refill and backflushing are separate equipment choices.",
+    "body": "Start with whether the job is finding a leak, checking a cap, refilling a drained system or addressing a restricted heater core. Mityvac MV4560 uses a hand pump and adapters for suitable pressure and cap tests. OTC 7991 offers a universal-fit approach but has explicit vehicle exclusions. Mityvac MV4533 uses compressed air to create vacuum and draw coolant into a suitable system; Lisle 24980 instead provides a filling funnel and a 19-piece connection kit. Lisle 60900 is a water-powered heater-hose backflush attachment, not another leak tester. These roles can complement one another, but a vacuum-hold observation alone does not replace every required pressure check. Choose against the filler connection, vehicle procedure, compressor access and planned work rather than buying every tool shown.",
+    "caution": "Work only under the temperature and pressure conditions specified by the vehicle and tool instructions. Never open a hot pressurized system to fit these tools. Adapter fit, seals, coolant compatibility and collection arrangements must be checked. A universal adapter description is not universal vehicle coverage; OTC excludes Saturn, Kia and Jeep plastic-reservoir applications for the 7991.",
+    "productIds": [
+      "lisle-24980",
+      "mityvac-mv4560",
+      "mityvac-mv4533",
+      "otc-7991",
+      "lisle-60900"
     ]
   },
   {
@@ -188,7 +234,10 @@
     "caution": "Astro’s 0.1 psi display resolution is not its accuracy: the manual gives wider tolerances. Use the vehicle cold-pressure specification rather than the tyre sidewall maximum. Check the chuck and hose condition before use.",
     "productIds": [
       "astro-pneumatic-3018",
-      "milton-s-921"
+      "milton-s-921",
+      "milton-s-506",
+      "autel-ts508wf",
+      "lisle-18810"
     ]
   },
   {
@@ -200,7 +249,11 @@
     "caution": "The socket set does not supply 13/16-inch or exact 14 mm coverage, and 9/16 inch is not identical to 14 mm. The feeler set ends at 0.035 inch; a course or procedure requiring 0.040 inch needs further coverage.",
     "productIds": [
       "gearwrench-80601",
-      "lisle-68100"
+      "lisle-68100",
+      "otc-5606",
+      "otc-5609",
+      "otc-5613",
+      "otc-5630"
     ]
   },
   {
@@ -214,7 +267,9 @@
       "streamlight-66118",
       "milwaukee-2125-20",
       "ullman-devices-ht-2",
-      "ullman-devices-htc-2"
+      "ullman-devices-htc-2",
+      "streamlight-68750",
+      "bosch-gic5-27c"
     ]
   },
   {
@@ -226,7 +281,10 @@
     "caution": "A cart is not a carry box. Check freight delivery, assembly, floor space and the manufacturer’s cart and drawer load limits before buying rolling storage. Secure tools for transport and lock casters for stationary work.",
     "productIds": [
       "gearwrench-83151",
-      "sunex-8057xtr"
+      "sunex-8057xtr",
+      "gearwrench-83169",
+      "sunex-8019b",
+      "gearwrench-gwmp100"
     ]
   },
   {
@@ -239,7 +297,8 @@
     "productIds": [
       "dewalt-dpg94-1d",
       "3m-peltor-x4a",
-      "maxxhaul-70472"
+      "maxxhaul-70472",
+      "first-alert-pro5"
     ]
   }
 ]

@@ -1,0 +1,3180 @@
+[
+  {
+    "id": "power-probe-pp3ls01",
+    "brand": "Power Probe",
+    "model": "PP3LS01",
+    "trackerModel": "PP3LS01",
+    "name": "Power Probe III circuit tester and lead kit",
+    "category": "Electrical",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "powered-circuit-tester"
+    ],
+    "comparisonIds": [
+      "C03"
+    ],
+    "workflowIds": [
+      "W02",
+      "W03",
+      "W09",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The PP3LS01 combines a Power Probe III with the lead accessories needed to reach and test suitable vehicle circuits. Its powered testing makes it useful for trained electrical diagnosis, but applying battery voltage to an unsuitable module or signal circuit can cause damage.",
+    "advice": "Power injection can damage modules; circuit limits and training matter",
+    "specifications": [
+      {
+        "label": "Operating supply",
+        "value": "12\u201324 V DC"
+      },
+      {
+        "label": "DC voltmeter",
+        "value": "0 to +70 V +1 digit"
+      },
+      {
+        "label": "Circuit breaker",
+        "value": "8 A thermal, manual reset"
+      },
+      {
+        "label": "Standard power cable",
+        "value": "20 ft (approximately 6 m)"
+      },
+      {
+        "label": "Included extension cable",
+        "value": "20 ft (approximately 6 m)"
+      },
+      {
+        "label": "Gold Series lead lengths",
+        "value": "1 / 3 / 6 ft (approximately 0.30 / 0.91 / 1.83 m)"
+      }
+    ],
+    "sourceUrl": "https://store.powerprobe.com/products/power-probe-pp3ls01-circuit-tester-with-test-leads",
+    "amazonUrl": "https://www.amazon.com/dp/B007QV0R7W?tag=robbieom0e-20",
+    "asin": "B007QV0R7W",
+    "amazonCheckedAt": "2026-10-17T08:33:38.711Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/power-probe-pp3ls01.webp",
+      "alt": "Power Probe PP3LS01 product photograph",
+      "sourceUrl": "https://store.powerprobe.com/products/power-probe-pp3ls01-circuit-tester-with-test-leads",
+      "width": 1946,
+      "height": 1946
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 317.01,
+      "observedAt": "2026-10-17T08:33:38.711Z",
+      "sourceUrl": "https://www.amazon.com/dp/B007QV0R7W",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Power injection can damage modules; circuit limits and training matter"
+    ]
+  },
+  {
+    "id": "gearwrench-85077",
+    "brand": "GEARWRENCH",
+    "model": "85077",
+    "trackerModel": "85077",
+    "name": "1/2-inch electronic torque wrench",
+    "category": "Torque",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "electronic-torque-wrench"
+    ],
+    "comparisonIds": [
+      "C05"
+    ],
+    "workflowIds": [
+      "W01",
+      "W04",
+      "W05",
+      "W06",
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 85077 covers 25\u2013250 ft-lb through a 1/2-inch drive, with electronic feedback for approaching the selected torque. It suits general service and wheel fasteners within that range; it is not a documented torque-angle wrench and cannot replace the vehicle's tightening procedure.",
+    "advice": "Do not claim torque-angle capability without documentation",
+    "specifications": [
+      {
+        "label": "Drive tang size",
+        "value": "1/2 in"
+      },
+      {
+        "label": "Minimum torque (primary scale)",
+        "value": "25 ft/lb"
+      },
+      {
+        "label": "Maximum torque (primary scale)",
+        "value": "250 ft/lb"
+      },
+      {
+        "label": "Torque accuracy",
+        "value": "\u00b12% CW and \u00b13% CCW between 20% and 100% of wrench scale"
+      },
+      {
+        "label": "Torque measurement units",
+        "value": "ft-lbs, in-lbs, Nm, kg-m, kg-cm"
+      },
+      {
+        "label": "Overall length",
+        "value": "25.75 in"
+      }
+    ],
+    "sourceUrl": "https://www.gearwrench.com/all-tools/torque-products/torque-wrenches/85077-12-drive-electronic-torque-wrench-25-250-ftlbs",
+    "amazonUrl": "https://www.amazon.com/dp/B01AY0JG0U?tag=robbieom0e-20",
+    "asin": "B01AY0JG0U",
+    "amazonCheckedAt": "2026-10-17T08:35:20.879Z",
+    "verificationNote": "Model and part number are 85077. Manufacturer specifications take precedence over Amazon's generic flex-head attribute; no torque-angle capability is claimed.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/gearwrench-85077.webp",
+      "alt": "GEARWRENCH 85077 product photograph",
+      "sourceUrl": "https://www.gearwrench.com/all-tools/torque-products/torque-wrenches/85077-12-drive-electronic-torque-wrench-25-250-ftlbs",
+      "width": 2000,
+      "height": 1333
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 189,
+      "observedAt": "2026-10-17T08:35:20.879Z",
+      "sourceUrl": "https://www.amazon.com/dp/B01AY0JG0U",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Do not claim torque-angle capability without documentation"
+    ]
+  },
+  {
+    "id": "gearwrench-81206t",
+    "brand": "GEARWRENCH",
+    "model": "81206T",
+    "trackerModel": "81206T",
+    "name": "Three-piece 90-tooth ratchet set",
+    "category": "Ratchets",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "hand-ratchet"
+    ],
+    "comparisonIds": [
+      "C07"
+    ],
+    "workflowIds": [
+      "W01",
+      "W04",
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "This three-ratchet set provides 1/4-, 3/8- and 1/2-inch drives with 90-tooth mechanisms and a 4-degree working arc. It is a broad hand-ratchet foundation for an apprentice kit, while sockets and specialist access tools remain separate purchases.",
+    "advice": "T series distinct from P and XP sets",
+    "specifications": [
+      {
+        "label": "Drive tang size",
+        "value": "1/4 in, 3/8 in, 1/2 in"
+      },
+      {
+        "label": "Set size",
+        "value": "1/4 in Drive x 5 in; 3/8 in Drive x 8 in; 1/2 in Drive x 11 in"
+      },
+      {
+        "label": "Set piece count",
+        "value": "3"
+      },
+      {
+        "label": "Tooth count",
+        "value": "90"
+      },
+      {
+        "label": "Swing arc",
+        "value": "4\u00b0"
+      },
+      {
+        "label": "Finish",
+        "value": "Full Polish Chrome"
+      }
+    ],
+    "sourceUrl": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81206t-3-piece-14-38-12-drive-90-tooth-teardrop-ratchet-set",
+    "amazonUrl": "https://www.amazon.com/dp/B07SQHCS53?tag=robbieom0e-20",
+    "asin": "B07SQHCS53",
+    "amazonCheckedAt": "2026-10-17T08:33:37.607Z",
+    "verificationNote": "Title, manufacturer part number and UPC identify 81206T. Amazon's separate model-number field says 81298T; confirm selected seller supplies the complete 3-piece 81206T set.",
+    "listingStatus": "matched-identifiers-with-package-caveat",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/gearwrench-81206t.webp",
+      "alt": "GEARWRENCH 81206T product photograph",
+      "sourceUrl": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81206t-3-piece-14-38-12-drive-90-tooth-teardrop-ratchet-set",
+      "width": 2000,
+      "height": 2000
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 89,
+      "observedAt": "2026-10-17T08:33:37.607Z",
+      "sourceUrl": "https://www.amazon.com/dp/B07SQHCS53",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "T series distinct from P and XP sets"
+    ]
+  },
+  {
+    "id": "gearwrench-81212xp",
+    "brand": "GEARWRENCH",
+    "model": "81212XP",
+    "trackerModel": "81212XP",
+    "name": "3/8-inch stubby flex-head 120XP ratchet",
+    "category": "Ratchets",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "stubby-flex-ratchet"
+    ],
+    "comparisonIds": [
+      "C07"
+    ],
+    "workflowIds": [
+      "W01",
+      "W04",
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 81212XP pairs a short 4.74-inch body with a flex head and 3-degree working arc for fasteners with limited handle clearance. Choose it for access around obstructions rather than leverage on heavily seized hardware.",
+    "advice": "XP generation distinct from older P model",
+    "specifications": [
+      {
+        "label": "Drive tang size",
+        "value": "3/8 in"
+      },
+      {
+        "label": "Overall length",
+        "value": "4.74 in"
+      },
+      {
+        "label": "Head width",
+        "value": "1.09 in"
+      },
+      {
+        "label": "Tooth count",
+        "value": "120"
+      },
+      {
+        "label": "Swing arc",
+        "value": "3\u00b0"
+      },
+      {
+        "label": "Ratchet handle type",
+        "value": "Stubby Flex"
+      }
+    ],
+    "sourceUrl": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81212xp-38-drive-120xptm-full-polish-chrome-stubby-flex-head-teardrop-ratchet-4-34",
+    "amazonUrl": "https://www.amazon.com/dp/B0CYMXVVZ8?tag=robbieom0e-20",
+    "asin": "B0CYMXVVZ8",
+    "amazonCheckedAt": "2026-10-17T08:33:37.983Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/gearwrench-81212xp.webp",
+      "alt": "GEARWRENCH 81212XP product photograph",
+      "sourceUrl": "https://www.gearwrench.com/all-tools/ratchets-sockets/ratchets-drive-tools/81212xp-38-drive-120xptm-full-polish-chrome-stubby-flex-head-teardrop-ratchet-4-34",
+      "width": 2000,
+      "height": 2000
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 46.99,
+      "observedAt": "2026-10-17T08:33:37.983Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0CYMXVVZ8",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "XP generation distinct from older P model"
+    ]
+  },
+  {
+    "id": "gearwrench-9533n",
+    "brand": "GEARWRENCH",
+    "model": "9533N",
+    "trackerModel": "9533N",
+    "name": "SAE reversible ratcheting wrench set",
+    "category": "Wrenches",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "sae-ratcheting-wrench-set"
+    ],
+    "comparisonIds": [
+      "C08"
+    ],
+    "workflowIds": [
+      "W01",
+      "W05"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 9533N supplies eight reversible SAE ratcheting combination wrenches from 5/16 to 3/4 inch. It complements a metric-first mechanic kit for older or SAE-equipped vehicles; it does not fill gaps in metric sizes.",
+    "advice": "Eight-piece N set not metric",
+    "specifications": [
+      {
+        "label": "Set piece count",
+        "value": "8"
+      },
+      {
+        "label": "Sizes",
+        "value": "5/16 in, 3/8 in, 7/16 in, 1/2 in, 9/16 in, 5/8 in, 11/16 in, 3/4 in"
+      },
+      {
+        "label": "SAE/Metric/Torx",
+        "value": "SAE"
+      },
+      {
+        "label": "Tooth count",
+        "value": "72"
+      },
+      {
+        "label": "End B drive type",
+        "value": "12 Point"
+      },
+      {
+        "label": "End B offset",
+        "value": "15\u00b0"
+      }
+    ],
+    "sourceUrl": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/9533n-8-piece-72-tooth-12-point-reversible-ratcheting-combination-sae-wrench-set",
+    "amazonUrl": "https://www.amazon.com/dp/B0002NYD30?tag=robbieom0e-20",
+    "asin": "B0002NYD30",
+    "amazonCheckedAt": "2026-10-17T08:33:37.679Z",
+    "verificationNote": "Title and manufacturer part number specify 9533N; a separate model field retains 9533. Select the eight-piece SAE reversible set, not metric or a single wrench.",
+    "listingStatus": "matched-identifiers-with-package-caveat",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/gearwrench-9533n.webp",
+      "alt": "GEARWRENCH 9533N product photograph",
+      "sourceUrl": "https://www.gearwrench.com/all-tools/wrenches/ratcheting-wrenches/9533n-8-piece-72-tooth-12-point-reversible-ratcheting-combination-sae-wrench-set",
+      "width": 1500,
+      "height": 1500
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 86.31,
+      "observedAt": "2026-10-17T08:33:37.679Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0002NYD30",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Eight-piece N set not metric"
+    ]
+  },
+  {
+    "id": "milwaukee-2562-20",
+    "brand": "Milwaukee",
+    "model": "2562-20",
+    "trackerModel": "2562-20",
+    "name": "M12 FUEL 3/8-inch stubby impact wrench",
+    "category": "Power tools",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "compact-impact-wrench"
+    ],
+    "comparisonIds": [
+      "C09"
+    ],
+    "workflowIds": [
+      "W04",
+      "W07",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The second-generation M12 FUEL 2562-20 puts a 3/8-inch anvil and a claimed 550 ft-lb nut-busting output into a compact bare tool. It is an access-focused option for an existing M12 user; battery choice affects performance and final fastener tightening still requires a suitable torque wrench.",
+    "advice": "Newer generation; not 2554-20 or half-inch 2563-20",
+    "specifications": [
+      {
+        "label": "Drive",
+        "value": "3/8 in"
+      },
+      {
+        "label": "Nut-busting torque",
+        "value": "Up to 550 ft-lbs"
+      },
+      {
+        "label": "Bare-tool weight",
+        "value": "2.2 lb"
+      },
+      {
+        "label": "Mode 3 speed",
+        "value": "0\u20133,000 RPM"
+      },
+      {
+        "label": "Mode 3 impact rate",
+        "value": "0\u20133,300 IPM"
+      },
+      {
+        "label": "Battery compatibility",
+        "value": "All M12 REDLITHIUM batteries and chargers"
+      }
+    ],
+    "sourceUrl": "https://www.milwaukeetool.com/2562-20",
+    "amazonUrl": "https://www.amazon.com/dp/B0DVRYG9SR?tag=robbieom0e-20",
+    "asin": "B0DVRYG9SR",
+    "amazonCheckedAt": "2026-10-17T08:35:20.981Z",
+    "verificationNote": "Product table confirms model/part 2562-20 and UPC 045242804498; reject misleading search excerpts. Bare 3/8-inch tool, not older 2554 or 1/2-inch 2563.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/milwaukee-2562-20.webp",
+      "alt": "Milwaukee 2562-20 product photograph",
+      "sourceUrl": "https://www.milwaukeetool.com/2562-20",
+      "width": 2000,
+      "height": 2000
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 168.99,
+      "observedAt": "2026-10-17T08:35:20.981Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0DVRYG9SR",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Newer generation; not 2554-20 or half-inch 2563-20"
+    ]
+  },
+  {
+    "id": "dewalt-dcf900b",
+    "brand": "DEWALT",
+    "model": "DCF900B",
+    "trackerModel": "DCF900B",
+    "name": "20V MAX XR 1/2-inch high-torque impact wrench",
+    "category": "Power tools",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "high-torque-impact-wrench"
+    ],
+    "comparisonIds": [
+      "C09"
+    ],
+    "workflowIds": [
+      "W04",
+      "W07",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The DCF900B is a larger 1/2-inch hog-ring impact intended for demanding removal work, with separate fastening and breakaway claims. It makes sense for stubborn fasteners where its body fits, but its power and size are excessive for delicate or confined work and the bare tool includes no battery or charger.",
+    "advice": "US B bare tool; compare loaded weight and access",
+    "specifications": [
+      {
+        "label": "Voltage",
+        "value": "20V (maximum initial battery voltage; nominal 18V)"
+      },
+      {
+        "label": "Drive/anvil",
+        "value": "1/2-in hog ring anvil"
+      },
+      {
+        "label": "Motor type",
+        "value": "Brushless"
+      },
+      {
+        "label": "Maximum fastening torque",
+        "value": "1,030 ft-lbs"
+      },
+      {
+        "label": "Maximum breakaway torque",
+        "value": "1,400 ft-lbs"
+      },
+      {
+        "label": "Speed control",
+        "value": "4-mode speed settings with variable-speed trigger"
+      }
+    ],
+    "sourceUrl": "https://www.dewalt.com/en-us/product/dcf900b/20v-max-xr-12-high-torque-impact-wrench-hog-ring-anvil-tool-only",
+    "amazonUrl": "https://www.amazon.com/dp/B0B9T68W3B?tag=robbieom0e-20",
+    "asin": "B0B9T68W3B",
+    "amazonCheckedAt": "2026-10-17T08:33:37.685Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/dewalt-dcf900b.webp",
+      "alt": "DEWALT DCF900B product photograph",
+      "sourceUrl": "https://www.dewalt.com/en-us/product/dcf900b/20v-max-xr-12-high-torque-impact-wrench-hog-ring-anvil-tool-only",
+      "width": 1680,
+      "height": 1680
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 196.25,
+      "observedAt": "2026-10-17T08:33:37.685Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0B9T68W3B",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "US B bare tool; compare loaded weight and access"
+    ]
+  },
+  {
+    "id": "mityvac-mv6830",
+    "brand": "Mityvac",
+    "model": "MV6830",
+    "trackerModel": "MV6830",
+    "name": "Pneumatic vacuum brake bleeder",
+    "category": "Brake tools",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "vacuum-brake-bleeder"
+    ],
+    "comparisonIds": [
+      "C10"
+    ],
+    "workflowIds": [
+      "W05"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The MV6830 uses shop air to draw brake or hydraulic-clutch fluid into a 1.8-litre reservoir. It suits repeat bleeding jobs where an adequate compressor is available; it does not remove the need for a vehicle-specific sequence or any required ABS service function.",
+    "advice": "Air supply required; apparent bubbles may arise at bleeder threads",
+    "specifications": [
+      {
+        "label": "Working pressure",
+        "value": "60\u2013150 psi (4.1\u201310.3 bar)"
+      },
+      {
+        "label": "Reservoir capacity",
+        "value": "1.9 quart (1.8 liter)"
+      },
+      {
+        "label": "Vacuum at 90 psi",
+        "value": "26 in. Hg (88 kPa)"
+      },
+      {
+        "label": "Air consumption at 90 psi",
+        "value": "4.3 cfm (2.0 l/s)"
+      },
+      {
+        "label": "Flow rate",
+        "value": "50 oz/min (1460 ml/min) at 60 psi; 70 oz/min (2100 ml/min) at 90 and 150 psi"
+      },
+      {
+        "label": "Inlet thread size",
+        "value": "1/4 in NPT"
+      }
+    ],
+    "sourceUrl": "https://cdn.skfmediahub.skf.com/api/public/0901d1968095c3aa/pdf_preview_medium/0901d1968095c3aa_pdf_preview_medium.pdf",
+    "amazonUrl": "https://www.amazon.com/dp/B000JFN9WC?tag=robbieom0e-20",
+    "asin": "B000JFN9WC",
+    "amazonCheckedAt": "2026-10-17T08:33:37.878Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/mityvac-mv6830.webp",
+      "alt": "Mityvac MV6830 product photograph",
+      "sourceUrl": "https://www.partdeal.com/mityvac-vacuum-brake-bleeder-mv6830-by-lincoln.html",
+      "width": 1500,
+      "height": 1415
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 184.06,
+      "observedAt": "2026-10-17T08:33:37.878Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000JFN9WC",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Air supply required; apparent bubbles may arise at bleeder threads"
+    ]
+  },
+  {
+    "id": "otc-7249",
+    "brand": "OTC",
+    "model": "7249",
+    "trackerModel": "7249",
+    "name": "Ball joint service kit",
+    "category": "Suspension",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "ball-joint-press"
+    ],
+    "comparisonIds": [
+      "C11"
+    ],
+    "workflowIds": [
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 7249 starter kit combines a C-frame press with five adapters for compatible ball joints, U-joints and anchor pins. It is a mechanical pressing kit rather than a universal vehicle kit, so confirm the joint, receiving adapter and supporting surfaces before purchase.",
+    "advice": "Press and adapter compatibility; not a coil-spring compressor",
+    "specifications": [
+      {
+        "label": "Product type",
+        "value": "Ball Joint Starter Service Kit"
+      },
+      {
+        "label": "Included adapters",
+        "value": "5"
+      },
+      {
+        "label": "Included frame",
+        "value": "C-Frame"
+      },
+      {
+        "label": "Stated applications",
+        "value": "Ball joints, U-joints, anchor pins and many other general pressing operations"
+      },
+      {
+        "label": "Storage",
+        "value": "Provided in a case"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/products/ball-joint-service-kit",
+    "amazonUrl": "https://www.amazon.com/dp/B0002SRGXY?tag=robbieom0e-20",
+    "asin": "B0002SRGXY",
+    "amazonCheckedAt": "2026-10-17T08:33:39.558Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-7249.webp",
+      "alt": "OTC 7249 product photograph",
+      "sourceUrl": "https://otctools.com/products/popular.php?page=1",
+      "width": 2000,
+      "height": 1258
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 208.99,
+      "observedAt": "2026-10-17T08:33:39.558Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0002SRGXY",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Press and adapter compatibility; not a coil-spring compressor"
+    ]
+  },
+  {
+    "id": "otc-6295",
+    "brand": "OTC",
+    "model": "6295",
+    "trackerModel": "6295",
+    "name": "Front-end service set",
+    "category": "Suspension",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "front-end-separator-set"
+    ],
+    "comparisonIds": [
+      "C11"
+    ],
+    "workflowIds": [
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 6295 gathers five pullers and separators for different front-end joints into one case. It offers wider task coverage than buying the 6297 alone, but the included 6297 would duplicate that standalone purchase and each tool still needs adequate clearance.",
+    "advice": "Check puller size and joint application",
+    "specifications": [
+      {
+        "label": "Product dimensions",
+        "value": "17.6 \u00d7 12.5 \u00d7 4.2 in"
+      },
+      {
+        "label": "Shipping weight",
+        "value": "12.3 lb"
+      },
+      {
+        "label": "Service coverage stated by catalog",
+        "value": "Pitman arms, ball joints and tie rods on most vehicles"
+      },
+      {
+        "label": "Included tool",
+        "value": "7314A \u2013 Pitman arm puller"
+      },
+      {
+        "label": "Included tool",
+        "value": "7315A \u2013 Tie rod end remover"
+      },
+      {
+        "label": "Included tool",
+        "value": "7503 \u2013 Outer tie rod remover/ball joint separator; 6296 \u2013 Pitman arm/tie rod end puller; 6297 \u2013 ball joint separator"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/front-end-service-set",
+    "amazonUrl": "https://www.amazon.com/dp/B0002SRH7O?tag=robbieom0e-20",
+    "asin": "B0002SRH7O",
+    "amazonCheckedAt": "2026-10-17T08:33:37.754Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-6295.webp",
+      "alt": "OTC 6295 product photograph",
+      "sourceUrl": "https://otctools.com/products/front-end-service-set",
+      "width": 825,
+      "height": 510
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 194.99,
+      "observedAt": "2026-10-17T08:33:37.754Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0002SRH7O",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-800-to-999px",
+    "publicationChecks": [
+      "Check puller size and joint application"
+    ]
+  },
+  {
+    "id": "otc-6297",
+    "brand": "OTC",
+    "model": "6297",
+    "trackerModel": "6297",
+    "name": "Ball joint separator",
+    "category": "Suspension",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "ball-joint-separator"
+    ],
+    "comparisonIds": [
+      "C11"
+    ],
+    "workflowIds": [
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The adjustable 6297 separates a compatible ball joint from its spindle support arm using mechanical force. It is useful when only that operation is needed, rather than the entire 6295 set; jaw fit, boot clearance and vehicle procedure determine suitability.",
+    "advice": "Jaw opening and clearance; protect threads and boots",
+    "specifications": [
+      {
+        "label": "Adjustment",
+        "value": "Up to 2 inches"
+      },
+      {
+        "label": "Application",
+        "value": "Separates ball joint from spindle support arm"
+      },
+      {
+        "label": "Manufacturer coverage description",
+        "value": "Many domestic and import front-wheel-drive vehicles; application check required"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/ball-joint-separator",
+    "amazonUrl": "https://www.amazon.com/dp/B0015PN010?tag=robbieom0e-20",
+    "asin": "B0015PN010",
+    "amazonCheckedAt": "2026-10-17T08:33:37.818Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-6297.webp",
+      "alt": "OTC 6297 product photograph",
+      "sourceUrl": "https://otctools.com/products/ball-joint-separator",
+      "width": 824,
+      "height": 750
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 80.5,
+      "observedAt": "2026-10-17T08:33:37.818Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0015PN010",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-800-to-999px",
+    "publicationChecks": [
+      "Jaw opening and clearance; protect threads and boots"
+    ]
+  },
+  {
+    "id": "otc-6575",
+    "brand": "OTC",
+    "model": "6575",
+    "trackerModel": "6575",
+    "name": "Hub Grappler kit",
+    "category": "Suspension",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "wheel-hub-bearing-tool"
+    ],
+    "comparisonIds": [
+      "C11"
+    ],
+    "workflowIds": [
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The Hub Grappler 6575 is a substantial hub-service investment with application adapters, a dedicated drive screw and additional installation tools. Its value is strongest for workshops doing compatible hub and bearing jobs repeatedly; check the application chart before assuming it covers a particular vehicle.",
+    "advice": "Vehicle/application chart and supplied adapters must match",
+    "specifications": [
+      {
+        "label": "Product type",
+        "value": "Hub Grappler Kit"
+      },
+      {
+        "label": "Drive screw",
+        "value": "3/4 in custom drive screw with special equalizer washer"
+      },
+      {
+        "label": "Adapters",
+        "value": "Six adapters"
+      },
+      {
+        "label": "Included additional tool",
+        "value": "Tie rod/ball joint tool"
+      },
+      {
+        "label": "Included additional installers",
+        "value": "Two Ford axle installers"
+      },
+      {
+        "label": "Jaws",
+        "value": "Designed and sized to properly fit hub applications"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/products/otc-hub-grappler%E2%84%A2",
+    "amazonUrl": "https://www.amazon.com/dp/B004ZG69D2?tag=robbieom0e-20",
+    "asin": "B004ZG69D2",
+    "amazonCheckedAt": "2026-10-17T08:33:43.308Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-6575.webp",
+      "alt": "OTC 6575 product photograph",
+      "sourceUrl": "https://otctools.com/products/popular.php?page=1",
+      "width": 2000,
+      "height": 1355
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 795,
+      "observedAt": "2026-10-17T08:33:43.308Z",
+      "sourceUrl": "https://www.amazon.com/dp/B004ZG69D2",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Vehicle/application chart and supplied adapters must match"
+    ]
+  },
+  {
+    "id": "otc-4579",
+    "brand": "OTC",
+    "model": "4579",
+    "trackerModel": "4579",
+    "name": "Nine-way slide hammer puller set",
+    "category": "Suspension",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "slide-hammer-puller"
+    ],
+    "comparisonIds": [
+      "C11"
+    ],
+    "workflowIds": [
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 4579 combines a 5-pound slide hammer with internal and external pulling arrangements, hub and axle attachments, and a storage case. It provides several mechanical extraction options, but use it only where the component and service procedure permit slide-hammer loading.",
+    "advice": "Not every hub or axle supports this method",
+    "specifications": [
+      {
+        "label": "Hammer mass",
+        "value": "5 lb"
+      },
+      {
+        "label": "Puller arrangements",
+        "value": "Internal/external; two- and three-jaw configurations"
+      },
+      {
+        "label": "Attachment thread",
+        "value": "5/8-inch\u201318"
+      },
+      {
+        "label": "Included accessories",
+        "value": "Front hub and rear axle pullers; grip-wrench and dent-puller attachments"
+      },
+      {
+        "label": "Storage",
+        "value": "Blow-molded case"
+      },
+      {
+        "label": "Kit weight",
+        "value": "17.2 lb"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/9-way-slide-hammer-puller-set",
+    "amazonUrl": "https://www.amazon.com/dp/B0015DMNIS?tag=robbieom0e-20",
+    "asin": "B0015DMNIS",
+    "amazonCheckedAt": "2026-10-17T08:33:43.884Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-4579.webp",
+      "alt": "OTC 4579 product photograph",
+      "sourceUrl": "https://otctools.com/products/popular.php?page=1",
+      "width": 2000,
+      "height": 1255
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 156.99,
+      "observedAt": "2026-10-17T08:33:43.884Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0015DMNIS",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Not every hub or axle supports this method"
+    ]
+  },
+  {
+    "id": "otc-6007",
+    "brand": "OTC",
+    "model": "6007",
+    "trackerModel": "6007",
+    "name": "Lower control arm prying tool",
+    "category": "Suspension",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "control-arm-tool"
+    ],
+    "comparisonIds": [
+      "C11"
+    ],
+    "workflowIds": [
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 6007 attaches to a suitable 7/8-inch pry bar to help move a lower control arm during ball-joint work. It is a small supporting tool rather than a complete suspension kit, and the stored forces in the suspension must be managed through the vehicle's procedure.",
+    "advice": "Requires specified pry-bar interface; manage stored forces",
+    "specifications": [
+      {
+        "label": "SKU",
+        "value": "6007"
+      },
+      {
+        "label": "Application",
+        "value": "Installing a ball joint on a lower control arm"
+      },
+      {
+        "label": "Specified pry-bar interface",
+        "value": "OTC No. 7420 or 7421 pry bar, or any 7/8 in. diameter pry bar"
+      },
+      {
+        "label": "Product dimensions",
+        "value": "5.2 \u00d7 5.5 \u00d7 0.2 in"
+      },
+      {
+        "label": "Shipping weight",
+        "value": "0.7 lb"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/lower-control-arm-prying-tool",
+    "amazonUrl": "https://www.amazon.com/dp/B000R5BLW4?tag=robbieom0e-20",
+    "asin": "B000R5BLW4",
+    "amazonCheckedAt": "2026-10-17T08:33:43.656Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-6007.webp",
+      "alt": "OTC 6007 product photograph",
+      "sourceUrl": "https://otctools.com/products/lower-control-arm-prying-tool",
+      "width": 453,
+      "height": 450
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 33.79,
+      "observedAt": "2026-10-17T08:33:43.656Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000R5BLW4",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "higher-resolution-replacement-needed",
+    "publicationChecks": [
+      "Requires specified pry-bar interface; manage stored forces"
+    ]
+  },
+  {
+    "id": "mityvac-mv7300",
+    "brand": "Mityvac",
+    "model": "MV7300",
+    "trackerModel": "MV7300",
+    "name": "Pneumatic fluid evacuator",
+    "category": "Fluids",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "pneumatic-fluid-extractor"
+    ],
+    "comparisonIds": [
+      "C13"
+    ],
+    "workflowIds": [
+      "W06",
+      "W08",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The MV7300 is an 8.8-litre pneumatic extractor for compatible fluids, with tubes for access through suitable dipstick openings. It suits repeat servicing where compressed air is available; confirm that extraction is permitted for the vehicle and that the fluid and temperature are within the instructions.",
+    "advice": "Air supply tube access and fluid restrictions",
+    "specifications": [
+      {
+        "label": "Operation",
+        "value": "Compressed air creates a venturi vacuum for draining fluids"
+      },
+      {
+        "label": "Reservoir capacity",
+        "value": "2.3 gal (8.8 l)"
+      },
+      {
+        "label": "Maximum operating temperature",
+        "value": "175\u00b0F (80\u00b0C)"
+      },
+      {
+        "label": "Compressed-air inlet",
+        "value": "1/4 in. NPT"
+      },
+      {
+        "label": "Packaged weight",
+        "value": "7.5 lbs (3.4 kg)"
+      },
+      {
+        "label": "Size (tall \u00d7 wide \u00d7 deep)",
+        "value": "24 \u00d7 12.4 \u00d7 9.3 in. (610 \u00d7 315 \u00d7 235 mm)"
+      }
+    ],
+    "sourceUrl": "https://cdn.skfmediahub.skf.com/api/public/0901d196802e86fd/pdf_preview_medium/0901d196802e86fd_pdf_preview_medium.pdf",
+    "amazonUrl": "https://www.amazon.com/dp/B000JFN9WW?tag=robbieom0e-20",
+    "asin": "B000JFN9WW",
+    "amazonCheckedAt": "2026-10-17T08:34:48.565Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/mityvac-mv7300.webp",
+      "alt": "Mityvac MV7300 product photograph",
+      "sourceUrl": "https://www.jbtools.com/mityvac-mv7300-pneumativac-fluid-evacuator/",
+      "width": 1288,
+      "height": 1498
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": null,
+      "observedAt": "2026-10-17T08:34:48.565Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000JFN9WW",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Air supply tube access and fluid restrictions"
+    ]
+  },
+  {
+    "id": "mityvac-mv6412a",
+    "brand": "Mityvac",
+    "model": "MV6412A",
+    "trackerModel": "MV6412A",
+    "name": "ATF refill system",
+    "category": "Fluids",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "transmission-fill-system"
+    ],
+    "comparisonIds": [
+      "C13"
+    ],
+    "workflowIds": [
+      "W06",
+      "W08",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The MV6412A combines a 10-litre dispensing reservoir with the MVA5800A adapter kit for supported sealed-transmission filling jobs. Its usefulness depends on the exact transmission connection and fluid-level procedure; pressure, fluid temperature and adapter selection must follow the documentation.",
+    "advice": "A suffix adapter contents and vehicle fluid-level procedure",
+    "specifications": [
+      {
+        "label": "Application",
+        "value": "Refilling or topping off sealed automatic transmissions"
+      },
+      {
+        "label": "Reservoir capacity",
+        "value": "2.5 gal (10 l)"
+      },
+      {
+        "label": "Adapter contents",
+        "value": "MVA5800A ATF adapter kit with 13 adapters (MVA580 through MVA592)"
+      },
+      {
+        "label": "Maximum pressure",
+        "value": "20 psi (1.4 bar)"
+      },
+      {
+        "label": "Packaged weight",
+        "value": "8 lbs (3.6 kg)"
+      },
+      {
+        "label": "Size (tall \u00d7 wide \u00d7 deep)",
+        "value": "8.5 \u00d7 12.3 \u00d7 22.2 in. (215 \u00d7 310 \u00d7 565 mm)"
+      }
+    ],
+    "sourceUrl": "https://cdn.skfmediahub.skf.com/api/public/0901d196809a1d86/pdf_preview_medium/Mityvac_catalog_pdf_preview_medium.pdf",
+    "amazonUrl": "https://www.amazon.com/dp/B09WFBKV9C?tag=robbieom0e-20",
+    "asin": "B09WFBKV9C",
+    "amazonCheckedAt": "2026-10-17T08:33:43.294Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/mityvac-mv6412a.webp",
+      "alt": "Mityvac MV6412A product photograph",
+      "sourceUrl": "https://www.globaltestsupply.com/product/mityvac-mv6412a-pneumatic-atf-refill-kit",
+      "width": 270,
+      "height": 270,
+      "higherResolutionCandidate": {
+        "url": "https://images-prod.oreillyauto.com/parts/img/extralarge/mtv/mv6412a.jpg",
+        "sourceUrl": "https://www.oreillyauto.com/detail/c/mityvac/mityvac-atf-kit/mtv0/mv6412a",
+        "width": 1357,
+        "height": 1500,
+        "status": "exact-model source located; binary retrieval returned HTTP 403; not locally staged"
+      }
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 337.56,
+      "observedAt": "2026-10-17T08:33:43.294Z",
+      "sourceUrl": "https://www.amazon.com/dp/B09WFBKV9C",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "higher-resolution-replacement-needed",
+    "publicationChecks": [
+      "A suffix adapter contents and vehicle fluid-level procedure"
+    ]
+  },
+  {
+    "id": "lisle-19722",
+    "brand": "Lisle",
+    "model": "19722",
+    "trackerModel": "19722",
+    "name": "Catch-All drip pan",
+    "category": "Fluids",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "drip-pan"
+    ],
+    "comparisonIds": [
+      "C13"
+    ],
+    "workflowIds": [
+      "W06",
+      "W08",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 19722 is a Catch-All pan for protecting the area beneath equipment from incidental drips. It is useful around a work bay or parked vehicle, but its listing does not establish the capacity needed for a complete oil drain.",
+    "advice": "Not a substitute for a sufficiently sized drain container",
+    "specifications": [
+      {
+        "label": "Product type",
+        "value": "Catch-All Drip Pan"
+      },
+      {
+        "label": "Suggested locations",
+        "value": "Showroom floors, garages, carports, or under equipment"
+      }
+    ],
+    "sourceUrl": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products?recordsPerPage=36&sortBy=name&view=thumbnails",
+    "amazonUrl": "https://www.amazon.com/dp/B000VHZHOQ?tag=robbieom0e-20",
+    "asin": "B000VHZHOQ",
+    "amazonCheckedAt": "2026-10-17T08:33:43.764Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/lisle-19722.webp",
+      "alt": "Lisle 19722 product photograph",
+      "sourceUrl": "https://www.lislecorp.com/lubrication-and-tire-products/lubrication-and-tire-products?recordsPerPage=36&sortBy=name&view=thumbnails",
+      "width": 2000,
+      "height": 1074
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 42.13,
+      "observedAt": "2026-10-17T08:33:43.764Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000VHZHOQ",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Not a substitute for a sufficiently sized drain container"
+    ]
+  },
+  {
+    "id": "motivx-tools-mx2320",
+    "brand": "Motivx Tools",
+    "model": "MX2320-US",
+    "trackerModel": "MX2320",
+    "name": "Toyota Lexus Scion cartridge filter wrench",
+    "category": "Oil filters",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "cartridge-filter-wrench"
+    ],
+    "comparisonIds": [
+      "C14"
+    ],
+    "workflowIds": [
+      "W06"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The current MX2320-US is a machined 64.3 mm, 14-flute wrench for the filter caps and canisters identified in Motivx's fitment information. Its square-drive and external-hex options help with access, but Toyota branding alone is not a fitment check.",
+    "advice": "Exact engine/cap fit; current design differs from older tools",
+    "specifications": [
+      {
+        "label": "Current model",
+        "value": "MX2320-US"
+      },
+      {
+        "label": "Filter interface",
+        "value": "64.3 mm; 14 flutes"
+      },
+      {
+        "label": "Drive options",
+        "value": "3/8-inch square or 24 mm / 15/16-inch hex"
+      },
+      {
+        "label": "Body material",
+        "value": "CNC-machined 6061-T6 aluminum"
+      },
+      {
+        "label": "Drive hub material",
+        "value": "7075-T6 aluminum"
+      }
+    ],
+    "sourceUrl": "https://www.motivxtools.com/products/toyota-2-5l-5-7l-oil-filter-wrench",
+    "amazonUrl": "https://www.amazon.com/dp/B00XTAGHU0?tag=robbieom0e-20",
+    "asin": "B00XTAGHU0",
+    "amazonCheckedAt": "2026-10-17T08:33:43.237Z",
+    "verificationNote": "Amazon's part number is MX2320; CNC/notchless feature description corresponds to current manufacturer MX2320-US. Current 64.3 mm variant requires approval and final package confirmation.",
+    "listingStatus": "current-variant-approval-required",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/motivx-tools-mx2320.webp",
+      "alt": "Motivx Tools MX2320 product photograph",
+      "sourceUrl": "https://www.motivxtools.com/pages/toyota_lexus_scion_oil_service_guide",
+      "width": 1000,
+      "height": 1000
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 29.95,
+      "observedAt": "2026-10-17T08:33:43.237Z",
+      "sourceUrl": "https://www.amazon.com/dp/B00XTAGHU0",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Exact engine/cap fit; current design differs from older tools",
+      "Owner approval required for current US-made variant; preserve stable tracker ID."
+    ]
+  },
+  {
+    "id": "motivx-tools-mx2326",
+    "brand": "Motivx Tools",
+    "model": "MX2326-US",
+    "trackerModel": "MX2326",
+    "name": "BMW cartridge filter wrench",
+    "category": "Oil filters",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "cartridge-filter-wrench"
+    ],
+    "comparisonIds": [
+      "C14"
+    ],
+    "workflowIds": [
+      "W06"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The current MX2326-US is an 86.6 mm, 16-flute wrench for compatible smooth-top BMW and Volvo filter caps. This is a documented update from the older tracker description; verify the exact cap and approve the current variant before adding a live card.",
+    "advice": "86.4mm fit and exact cap application; not generic BMW compatibility",
+    "specifications": [
+      {
+        "label": "Current model",
+        "value": "MX2326-US"
+      },
+      {
+        "label": "Filter interface",
+        "value": "86.6 mm; 16 flutes"
+      },
+      {
+        "label": "Drive options",
+        "value": "3/8-inch square or 24 mm / 15/16-inch hex"
+      },
+      {
+        "label": "Body material",
+        "value": "CNC-machined 6061-T6 aluminum"
+      },
+      {
+        "label": "Drive hub material",
+        "value": "7075-T6 aluminum"
+      }
+    ],
+    "sourceUrl": "https://www.motivxtools.com/products/bmw-86-6mm-oil-filter-wrench",
+    "amazonUrl": "https://www.amazon.com/dp/B01N54IT33?tag=robbieom0e-20",
+    "asin": "B01N54IT33",
+    "amazonCheckedAt": "2026-10-17T08:33:43.525Z",
+    "verificationNote": "Amazon title/model identify MX2326-US 86.6 mm. Current manufacturer agrees; the previous 86.4 mm tracker description is superseded only if this current variant is approved.",
+    "listingStatus": "current-variant-approval-required",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/motivx-tools-mx2326.webp",
+      "alt": "Motivx Tools MX2326 product photograph",
+      "sourceUrl": "https://www.motivxtools.com/products/bmw-86-6mm-oil-filter-wrench",
+      "width": 1000,
+      "height": 1000
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 39.95,
+      "observedAt": "2026-10-17T08:33:43.525Z",
+      "sourceUrl": "https://www.amazon.com/dp/B01N54IT33",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "86.4mm fit and exact cap application; not generic BMW compatibility",
+      "Owner approval required for current US-made variant; preserve stable tracker ID."
+    ]
+  },
+  {
+    "id": "lisle-24980",
+    "brand": "Lisle",
+    "model": "24980",
+    "trackerModel": "24980",
+    "name": "Nineteen-piece Spill-Free funnel kit",
+    "category": "Cooling",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "coolant-funnel"
+    ],
+    "comparisonIds": [
+      "C15"
+    ],
+    "workflowIds": [
+      "W08"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 24980 is Lisle's 19-piece coolant-filling funnel kit, including the newer Toyota/Lexus V35A threaded adapter. Its extensions and elbows help reach angled filler openings, while the selected adapter and the vehicle's bleeding procedure remain essential.",
+    "advice": "Newer kit; distinguish older 24680 and heavy-duty 24990",
+    "specifications": [
+      {
+        "label": "Kit size",
+        "value": "19 pieces"
+      },
+      {
+        "label": "Radiator connections",
+        "value": "Six colored adapters and six caps"
+      },
+      {
+        "label": "Access extensions",
+        "value": "Two straight extensions and two 45-degree elbows"
+      },
+      {
+        "label": "Updated adapter",
+        "value": "Threaded connection for 2017-and-newer Toyota/Lexus V35A applications; verify vehicle fit"
+      },
+      {
+        "label": "UPC",
+        "value": "083045249801"
+      }
+    ],
+    "sourceUrl": "https://www.lislecorp.com/specialty-tools/24980-spill-free-funnel-19-pc",
+    "amazonUrl": "https://www.amazon.com/dp/B0H3QSVCFZ?tag=robbieom0e-20",
+    "asin": "B0H3QSVCFZ",
+    "amazonCheckedAt": "2026-10-17T08:33:43.752Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/lisle-24980.webp",
+      "alt": "Lisle 24980 product photograph",
+      "sourceUrl": "https://www.lislecorp.com/specialty-tools/24980-spill-free-funnel-19-pc",
+      "width": 2000,
+      "height": 1483
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 49.39,
+      "observedAt": "2026-10-17T08:33:43.752Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0H3QSVCFZ",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Newer kit; distinguish older 24680 and heavy-duty 24990"
+    ]
+  },
+  {
+    "id": "mityvac-mv4560",
+    "brand": "Mityvac",
+    "model": "MV4560",
+    "trackerModel": "MV4560",
+    "name": "Cooling-system pressure test kit",
+    "category": "Cooling",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "cooling-pressure-tester"
+    ],
+    "comparisonIds": [
+      "C15"
+    ],
+    "workflowIds": [
+      "W08"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The MV4560 uses a hand pump and interchangeable adapters for cooling-system and cap pressure checks. It offers a different job function from a vacuum refill kit; its older application chart needs checking against the actual filler neck or reservoir.",
+    "advice": "Older application chart requires current vehicle fit confirmation",
+    "specifications": [
+      {
+        "label": "Kit contents",
+        "value": "Selectline hand pressure pump with 2 in. (50 mm) gauge; four cooling-system test adapters; two cap-test adapters; connection hose; compression nut; user manual"
+      },
+      {
+        "label": "Gauge units",
+        "value": "psi and kPa"
+      },
+      {
+        "label": "Packaged weight",
+        "value": "2.5 lbs (1.1 kg)"
+      },
+      {
+        "label": "Packaged size (wide \u00d7 deep \u00d7 tall)",
+        "value": "13.3 \u00d7 12 \u00d7 2.8 in. (335 \u00d7 305 \u00d7 70 mm)"
+      },
+      {
+        "label": "Stated coverage",
+        "value": "Most US and Asian cars/light trucks and many European vehicles"
+      },
+      {
+        "label": "Named application exceptions",
+        "value": "Examples include Ford except Contour/Focus/Mondeo, Lexus except GS 460/IS F/LS 460/LS 600H, and Toyota except 2000\u20132005 Celica, 200\u20132005 MR2 Spyder, and 2006\u20132009 RAV4"
+      }
+    ],
+    "sourceUrl": "https://cdn.skfmediahub.skf.com/api/public/0901d1968095f2d2/pdf_preview_medium/444045_MV4560_pdf_preview_medium.pdf",
+    "amazonUrl": "https://www.amazon.com/dp/B003V9L05G?tag=robbieom0e-20",
+    "asin": "B003V9L05G",
+    "amazonCheckedAt": "2026-10-17T08:33:43.651Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/mityvac-mv4560.webp",
+      "alt": "Mityvac MV4560 product photograph",
+      "sourceUrl": "https://www.partdeal.com/mityvac-cooling-system-airevac-kit-mv4533-by-lincoln.html",
+      "width": 1425,
+      "height": 1500
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 72.62,
+      "observedAt": "2026-10-17T08:33:43.651Z",
+      "sourceUrl": "https://www.amazon.com/dp/B003V9L05G",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Older application chart requires current vehicle fit confirmation"
+    ]
+  },
+  {
+    "id": "mityvac-mv4533",
+    "brand": "Mityvac",
+    "model": "MV4533",
+    "trackerModel": "MV4533",
+    "name": "AirEvac cooling-system refill kit",
+    "category": "Cooling",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "cooling-vacuum-refill-tool"
+    ],
+    "comparisonIds": [
+      "C15"
+    ],
+    "workflowIds": [
+      "W08"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The MV4533 uses compressed air to evacuate an empty cooling system and draw in replacement coolant. It is an air-assisted refill option for a workshop, while a separate pressure-test method may still be needed to investigate a fault.",
+    "advice": "Shop-air requirement sealing and adapter fit",
+    "specifications": [
+      {
+        "label": "Operating principle",
+        "value": "Compressed-air-operated venturi vacuum evacuates air from an empty cooling system and draws in coolant"
+      },
+      {
+        "label": "Adapter coverage claim",
+        "value": "Universal cooling-system adapter replaces more than 20 individual adapters for cars, vans, and light- and heavy-duty trucks"
+      },
+      {
+        "label": "Gauge",
+        "value": "2.5 in. (63.5 mm) diameter with pressure-test zones"
+      },
+      {
+        "label": "Kit includes",
+        "value": "Universal radiator test adapter, custom-molded case, and user manual in English, Spanish, and French"
+      },
+      {
+        "label": "Packaged weight",
+        "value": "5.0 lbs (2.3 kg)"
+      },
+      {
+        "label": "Packaged size (wide \u00d7 deep \u00d7 tall)",
+        "value": "15.1 \u00d7 3.5 \u00d7 11.8 in. (385 \u00d7 90 \u00d7 300 mm)"
+      }
+    ],
+    "sourceUrl": "https://cdn.skfmediahub.skf.com/api/public/0901d196809b148c/pdf_preview_medium/0901d196809b148c_pdf_preview_medium.pdf",
+    "amazonUrl": "https://www.amazon.com/dp/B00UBIPE4S?tag=robbieom0e-20",
+    "asin": "B00UBIPE4S",
+    "amazonCheckedAt": "2026-10-17T08:33:49.058Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/mityvac-mv4533.webp",
+      "alt": "Mityvac MV4533 product photograph",
+      "sourceUrl": "https://www.partdeal.com/mityvac-cooling-system-airevac-kit-mv4533-by-lincoln.html",
+      "width": 2000,
+      "height": 1788
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "mid-range",
+    "researchPrice": {
+      "amountUSD": 128.16,
+      "observedAt": "2026-10-17T08:33:49.058Z",
+      "sourceUrl": "https://www.amazon.com/dp/B00UBIPE4S",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Shop-air requirement sealing and adapter fit"
+    ]
+  },
+  {
+    "id": "otc-7991",
+    "brand": "OTC",
+    "model": "7991",
+    "trackerModel": "7991",
+    "name": "Cooling-system pressure tester",
+    "category": "Cooling",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "cooling-pressure-tester"
+    ],
+    "comparisonIds": [
+      "C15"
+    ],
+    "workflowIds": [
+      "W08"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 7991 is a cooling-system pressure tester using a universal-fit connection in place of a large adapter collection. OTC explicitly excludes Saturn, Kia and Jeep plastic-reservoir applications, so its universal description should not be read as universal fitment.",
+    "advice": "Exact included adapters current service status and vehicle limits",
+    "specifications": [
+      {
+        "label": "Product type",
+        "value": "Cooling System Pressure Tester"
+      },
+      {
+        "label": "Stated applications",
+        "value": "Most cars, light commercial trucks, motorcycles, and marine applications"
+      },
+      {
+        "label": "Fit design",
+        "value": "Universal fit intended to eliminate the need for multiple adapters"
+      },
+      {
+        "label": "Exclusions stated by OTC",
+        "value": "Will not work on Saturn and Kia cars or Jeep with the plastic reservoir"
+      },
+      {
+        "label": "Listed service parts",
+        "value": "7991-2 O-ring repair kit; 7991-3 pump parts kit; 7991-4 gauge spare parts; 7991-7 main body repair kit"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/cooling-system-pressure-tester",
+    "amazonUrl": "https://www.amazon.com/dp/B000XSJKH8?tag=robbieom0e-20",
+    "asin": "B000XSJKH8",
+    "amazonCheckedAt": "2026-10-17T08:33:48.898Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-7991.webp",
+      "alt": "OTC 7991 product photograph",
+      "sourceUrl": "https://otctools.com/products/cooling-system-pressure-tester",
+      "width": 2000,
+      "height": 1655
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 208.39,
+      "observedAt": "2026-10-17T08:33:48.898Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000XSJKH8",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Exact included adapters current service status and vehicle limits"
+    ]
+  },
+  {
+    "id": "lisle-60900",
+    "brand": "Lisle",
+    "model": "60900",
+    "trackerModel": "60900",
+    "name": "Heater-core backflush tool",
+    "category": "Cooling",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "heater-core-flush-tool"
+    ],
+    "comparisonIds": [
+      "C15"
+    ],
+    "workflowIds": [
+      "W08"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 60900 connects a garden hose to compatible 1/2-, 5/8- and 3/4-inch heater hoses for controlled backflushing. It is intended for an isolated service operation rather than unrestricted full-system pressure, with coolant capture and the heater-core procedure determining safe use.",
+    "advice": "Vehicle restrictions and coolant capture; not chemical-proof by assumption",
+    "specifications": [
+      {
+        "label": "SKU",
+        "value": "60900"
+      },
+      {
+        "label": "UPC",
+        "value": "083045609001"
+      },
+      {
+        "label": "Shipping weight",
+        "value": "0.9 lbs"
+      },
+      {
+        "label": "Stepped-tip hose fittings",
+        "value": "1/2 in., 5/8 in., and 3/4 in."
+      },
+      {
+        "label": "Water connection",
+        "value": "Standard garden hose"
+      },
+      {
+        "label": "Control/protection",
+        "value": "One-hand adjustable water pressure; insulated handle for hot-water cooling-system flushing"
+      }
+    ],
+    "sourceUrl": "https://www.lislecorp.com/specialty-tools/heater-core-backflush-tool",
+    "amazonUrl": "https://www.amazon.com/dp/B00HZNT9AW?tag=robbieom0e-20",
+    "asin": "B00HZNT9AW",
+    "amazonCheckedAt": "2026-10-17T08:33:49.481Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/lisle-60900.webp",
+      "alt": "Lisle 60900 product photograph",
+      "sourceUrl": "https://www.lislecorp.com/specialty-tools/heater-core-backflush-tool",
+      "width": 934,
+      "height": 608
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 37.78,
+      "observedAt": "2026-10-17T08:33:49.481Z",
+      "sourceUrl": "https://www.amazon.com/dp/B00HZNT9AW",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-800-to-999px",
+    "publicationChecks": [
+      "Vehicle restrictions and coolant capture; not chemical-proof by assumption"
+    ]
+  },
+  {
+    "id": "milton-s-506",
+    "brand": "Milton",
+    "model": "S-506",
+    "trackerModel": "S-506",
+    "name": "Dual-head chuck tire inflator gauge",
+    "category": "Tyres and wheels",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "tire-inflator"
+    ],
+    "comparisonIds": [
+      "C16"
+    ],
+    "workflowIds": [
+      "W01",
+      "W04"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The original S-506 pairs a dual-head chuck with a 15-inch hose and a 10\u2013160 psi mechanical gauge. It serves workshop inflation and pressure checks; Milton warns that this dual-head arrangement cannot inflate a completely flat, zero-pressure tyre.",
+    "advice": "Original S-506 versus updated S-506D; exact hose and range",
+    "specifications": [
+      {
+        "label": "Exact original model",
+        "value": "S-506"
+      },
+      {
+        "label": "Pressure range",
+        "value": "10\u2013160 psi"
+      },
+      {
+        "label": "Gauge scale increments",
+        "value": "2 psi"
+      },
+      {
+        "label": "Hose length",
+        "value": "15 inches"
+      },
+      {
+        "label": "Air inlet",
+        "value": "1/4-inch NPT"
+      },
+      {
+        "label": "Chuck",
+        "value": "Dual head"
+      }
+    ],
+    "sourceUrl": "https://www.miltonbrands.com/products/original-service-station-tire-inflator-and-air-pressure-gauge-dual-head-chuck-15-rubber-hose-1-4-npt-10-160-psi",
+    "amazonUrl": "https://www.amazon.com/dp/B0002SRL20?tag=robbieom0e-20",
+    "asin": "B0002SRL20",
+    "amazonCheckedAt": "2026-10-17T08:33:49.694Z",
+    "verificationNote": "Amazon part S-506 and UPC 030937005069 correspond to Milton's original S-506 page. Do not substitute a current S-506W/S-506D package based on a similar title.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/milton-s-506.webp",
+      "alt": "Milton S-506 product photograph",
+      "sourceUrl": "https://www.miltonbrands.com/products/original-service-station-tire-inflator-and-air-pressure-gauge-dual-head-chuck-15-rubber-hose-1-4-npt-10-160-psi",
+      "width": 800,
+      "height": 1200
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 52.8,
+      "observedAt": "2026-10-17T08:33:49.694Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0002SRL20",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Original S-506 versus updated S-506D; exact hose and range"
+    ]
+  },
+  {
+    "id": "autel-ts508wf",
+    "brand": "Autel",
+    "model": "TS508WF",
+    "trackerModel": "TS508WF",
+    "name": "MaxiTPMS diagnostic and relearn tool",
+    "category": "Tyres and wheels",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "tpms-service-tool"
+    ],
+    "comparisonIds": [
+      "C16"
+    ],
+    "workflowIds": [
+      "W01",
+      "W04"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The TS508WF is a dedicated TPMS tool for supported activation, diagnosis, relearn and Autel MX-Sensor programming tasks. It complements a general scan tool, but sensor programming capability and OBD relearn coverage must be checked for the exact vehicle and sensor.",
+    "advice": "US coverage WiFi model and tool-only versus sensor kit",
+    "specifications": [
+      {
+        "label": "Quick Mode sensor functions",
+        "value": "Activate all known TPMS sensors; read sensor ID, temperature, pressure, and battery condition; view OE sensor information"
+      },
+      {
+        "label": "MX-Sensor programming",
+        "value": "Three programming options; batch-program 1\u201316 MX-Sensors"
+      },
+      {
+        "label": "Complete-mode diagnostics",
+        "value": "View TPMS system faults; read and clear TPMS DTCs; view on-tool DTC descriptions"
+      },
+      {
+        "label": "Relearn/coverage functions",
+        "value": "On-tool relearn procedure guide; widest vehicle coverage for OBD relearn; tire-pressure placard value reset"
+      },
+      {
+        "label": "Vehicle selection workflow",
+        "value": "Select vehicle make, model, and year"
+      },
+      {
+        "label": "Update methods",
+        "value": "USB with Maxi PC Suite or Wi-Fi"
+      }
+    ],
+    "sourceUrl": "https://autel.com/us/wp-content/uploads/MaxiTPMS_TS508WF_Quick_Start_Guide.pdf",
+    "amazonUrl": "https://www.amazon.com/dp/B0895R2YMM?tag=robbieom0e-20",
+    "asin": "B0895R2YMM",
+    "amazonCheckedAt": "2026-10-17T08:33:48.843Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/autel-ts508wf.webp",
+      "alt": "Autel TS508WF product photograph",
+      "sourceUrl": "https://www.jbtools.com/autel-700010-maxitpms-ts508wf-advanced-tpms-service-tool-with-wi-fi-updates/",
+      "width": 1500,
+      "height": 1500
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 189.99,
+      "observedAt": "2026-10-17T08:33:48.843Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0895R2YMM",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "US coverage WiFi model and tool-only versus sensor kit"
+    ]
+  },
+  {
+    "id": "lisle-18810",
+    "brand": "Lisle",
+    "model": "18810",
+    "trackerModel": "18810",
+    "name": "Valve core torque tool",
+    "category": "Tyres and wheels",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "valve-core-torque-tool"
+    ],
+    "comparisonIds": [
+      "C16"
+    ],
+    "workflowIds": [
+      "W01",
+      "W04"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 18810 is a slim valve-core tool preset to 4 inch-pounds, intended to limit tightening on compatible cores. It is a specialist tyre-service accessory, with a very different purpose and range from a wheel-lug torque wrench.",
+    "advice": "Exact valve and torque requirement; not a wheel torque wrench",
+    "specifications": [
+      {
+        "label": "Preset torque",
+        "value": "4 inch-pounds"
+      },
+      {
+        "label": "Use",
+        "value": "Installs and removes valve cores, including late-model vehicles with TPMS"
+      },
+      {
+        "label": "Design",
+        "value": "Slim design for access in tight spots"
+      },
+      {
+        "label": "Shipping weight",
+        "value": "0.25 lb"
+      },
+      {
+        "label": "UPC",
+        "value": "083045188100"
+      }
+    ],
+    "sourceUrl": "https://www.lislecorp.com/specialty-tools/general/valve-core-torque-tool",
+    "amazonUrl": "https://www.amazon.com/dp/B0014DGRFE?tag=robbieom0e-20",
+    "asin": "B0014DGRFE",
+    "amazonCheckedAt": "2026-10-17T08:34:54.079Z",
+    "verificationNote": "Amazon's generic title is unhelpful; exact model/part 18810 and UPC 083045188100 identify the preset valve-core tool.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/lisle-18810.webp",
+      "alt": "Lisle 18810 product photograph",
+      "sourceUrl": "https://www.lislecorp.com/specialty-tools/general/valve-core-torque-tool",
+      "width": 2000,
+      "height": 877
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 24.95,
+      "observedAt": "2026-10-17T08:34:54.079Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0014DGRFE",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Exact valve and torque requirement; not a wheel torque wrench"
+    ]
+  },
+  {
+    "id": "otc-5606",
+    "brand": "OTC",
+    "model": "5606",
+    "trackerModel": "5606",
+    "name": "Compression tester kit",
+    "category": "Engine service",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "compression-tester"
+    ],
+    "comparisonIds": [
+      "C17"
+    ],
+    "workflowIds": [
+      "W01",
+      "W09"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 5606 provides a 0\u2013300 psi compression gauge, hose and thread adapters for compatible gasoline-engine spark-plug openings. It supports cylinder-to-cylinder testing, but it is not a diesel tester and results must be interpreted using the engine's test conditions and specifications.",
+    "advice": "Gasoline adapter coverage; not 5606-DG or diesel high-pressure testing",
+    "specifications": [
+      {
+        "label": "Intended engines",
+        "value": "Gasoline engines; domestic, import, motorcycle, marine and small engines"
+      },
+      {
+        "label": "Gauge range",
+        "value": "0-300 psi / 0-2100 kPa"
+      },
+      {
+        "label": "Hose",
+        "value": "26-inch flexible hose gauge assembly with quick coupler"
+      },
+      {
+        "label": "Adapters",
+        "value": "10 mm, 12 mm and 18 mm thread adapters; 12-inch 14 mm standard- and long-reach flex adapters"
+      },
+      {
+        "label": "Product dimensions",
+        "value": "14.9 x 9.5 x 3.4 in"
+      },
+      {
+        "label": "Shipping weight",
+        "value": "3.8 lb"
+      }
+    ],
+    "sourceUrl": "https://www.otctools.com/products/compression-tester-kit",
+    "amazonUrl": "https://www.amazon.com/dp/B000R5CPAQ?tag=robbieom0e-20",
+    "asin": "B000R5CPAQ",
+    "amazonCheckedAt": "2026-10-17T08:33:49.079Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-5606.webp",
+      "alt": "OTC 5606 product photograph",
+      "sourceUrl": "https://www.otctools.com/products/compression-tester-kit",
+      "width": 960,
+      "height": 1031
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "mid-range",
+    "researchPrice": {
+      "amountUSD": 107.99,
+      "observedAt": "2026-10-17T08:33:49.079Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000R5CPAQ",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Gasoline adapter coverage; not 5606-DG or diesel high-pressure testing"
+    ]
+  },
+  {
+    "id": "otc-5609",
+    "brand": "OTC",
+    "model": "5609",
+    "trackerModel": "5609",
+    "name": "Cylinder leakage tester kit",
+    "category": "Engine service",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "cylinder-leakdown-tester"
+    ],
+    "comparisonIds": [
+      "C17"
+    ],
+    "workflowIds": [
+      "W01",
+      "W09"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 5609 applies regulated compressed air through compatible spark-plug adapters to investigate cylinder leakage. It complements compression testing by helping locate a leak path; correct piston position and control of engine rotation are part of the required procedure.",
+    "advice": "Requires compressed air and correct engine positioning",
+    "specifications": [
+      {
+        "label": "Use",
+        "value": "Diagnoses internal engine problems such as bad rings, valves and leaking head gaskets"
+      },
+      {
+        "label": "Gauge scales",
+        "value": "0-100 psi / 0-700 kPa"
+      },
+      {
+        "label": "Hose",
+        "value": "24-inch flexible 14 mm hose"
+      },
+      {
+        "label": "Adapters",
+        "value": "10 mm, 12 mm and 18 mm thread adapters"
+      },
+      {
+        "label": "Manifold",
+        "value": "Pressure-regulated manifold with quick couplers"
+      },
+      {
+        "label": "Product dimensions",
+        "value": "10.25 x 8.75 x 3.8 in"
+      }
+    ],
+    "sourceUrl": "https://www.otctools.com/products/cylinder-leakage-tester-kit",
+    "amazonUrl": "https://www.amazon.com/dp/B0030EVL60?tag=robbieom0e-20",
+    "asin": "B0030EVL60",
+    "amazonCheckedAt": "2026-10-17T08:33:49.515Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-5609.webp",
+      "alt": "OTC 5609 product photograph",
+      "sourceUrl": "https://www.otctools.com/products/cylinder-leakage-tester-kit",
+      "width": 869,
+      "height": 1129
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "mid-range",
+    "researchPrice": {
+      "amountUSD": 123.99,
+      "observedAt": "2026-10-17T08:33:49.515Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0030EVL60",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Requires compressed air and correct engine positioning"
+    ]
+  },
+  {
+    "id": "otc-5613",
+    "brand": "OTC",
+    "model": "5613",
+    "trackerModel": "5613",
+    "name": "Vacuum and low-pressure gauge kit",
+    "category": "Engine service",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "vacuum-pressure-gauge"
+    ],
+    "comparisonIds": [
+      "C17"
+    ],
+    "workflowIds": [
+      "W01",
+      "W09"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 5613 reads manifold vacuum and low fuel pressure on separate scales in one gauge. It suits appropriate vacuum and low-pressure diagnostic work, not modern high-pressure direct-injection or diesel rails.",
+    "advice": "Not direct-injection fuel-rail or common-rail diesel testing",
+    "specifications": [
+      {
+        "label": "Gauge size",
+        "value": "3-1/2-inch gauge with chrome bezel and protective outer boot"
+      },
+      {
+        "label": "Vacuum scale",
+        "value": "0-30 in. Hg vacuum and 0-70 cm Hg"
+      },
+      {
+        "label": "Pressure scale",
+        "value": "0-15 psi and 0-100 kPa"
+      },
+      {
+        "label": "Intended systems",
+        "value": "Vacuum lines/components and low-pressure fuel systems"
+      },
+      {
+        "label": "Included storage",
+        "value": "Blow-molded hard case with removable lid"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/vacuumpressure-gauge-kit",
+    "amazonUrl": "https://www.amazon.com/dp/B0050SG9KW?tag=robbieom0e-20",
+    "asin": "B0050SG9KW",
+    "amazonCheckedAt": "2026-10-17T08:33:49.106Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-5613.webp",
+      "alt": "OTC 5613 product photograph",
+      "sourceUrl": "https://otctools.com/products/vacuumpressure-gauge-kit",
+      "width": 925,
+      "height": 1297
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 57.81,
+      "observedAt": "2026-10-17T08:33:49.106Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0050SG9KW",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Not direct-injection fuel-rail or common-rail diesel testing"
+    ]
+  },
+  {
+    "id": "otc-5630",
+    "brand": "OTC",
+    "model": "5630",
+    "trackerModel": "5630",
+    "name": "Fuel pressure tester kit",
+    "category": "Engine service",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "fuel-pressure-tester"
+    ],
+    "comparisonIds": [
+      "C17"
+    ],
+    "workflowIds": [
+      "W01",
+      "W09"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 5630 provides a 0\u2013100 psi fuel-pressure gauge with brass fittings and a pressure-relief valve. Choose it only for systems and connections covered by its instructions; its range does not establish compatibility with high-pressure direct injection.",
+    "advice": "Never infer direct-injection high-pressure compatibility",
+    "specifications": [
+      {
+        "label": "Gauge range",
+        "value": "0-100 psi / 0-700 kPa"
+      },
+      {
+        "label": "Fittings",
+        "value": "Solid brass fittings"
+      },
+      {
+        "label": "Safety feature",
+        "value": "Pressure relief valve for safe, clean testing"
+      },
+      {
+        "label": "Intended diagnosis",
+        "value": "Fuel filters, pressure regulators, fuel lines and fuel pumps"
+      }
+    ],
+    "sourceUrl": "https://otctools.com/products/fuel-pressure-tester-kit",
+    "amazonUrl": "https://www.amazon.com/dp/B000R5IASC?tag=robbieom0e-20",
+    "asin": "B000R5IASC",
+    "amazonCheckedAt": "2026-10-17T08:33:50.014Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/otc-5630.webp",
+      "alt": "OTC 5630 product photograph",
+      "sourceUrl": "https://otctools.com/products/fuel-pressure-tester-kit",
+      "width": 987,
+      "height": 1125
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 69.58,
+      "observedAt": "2026-10-17T08:33:50.014Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000R5IASC",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Never infer direct-injection high-pressure compatibility"
+    ]
+  },
+  {
+    "id": "lisle-51450",
+    "brand": "Lisle",
+    "model": "51450",
+    "trackerModel": "51450",
+    "name": "Harmonic damper pulley puller",
+    "category": "Mechanical service and pullers",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "harmonic-balancer-puller"
+    ],
+    "comparisonIds": [
+      "C11"
+    ],
+    "workflowIds": [
+      "W07"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 51450 is a compact mechanical harmonic-damper pulley puller with application-specific jaws, spacers and rods. It belongs with pullers and engine mechanical service, rather than diagnostic test gauges, and its fit must be checked for the engine.",
+    "advice": "Application-specific jaws rods and updated fitment",
+    "specifications": [
+      {
+        "label": "Applications",
+        "value": "Chrysler, GM, GM LS, Mitsubishi and Dodge"
+      },
+      {
+        "label": "Design",
+        "value": "Low-profile design for confined spaces; eliminates radiator removal"
+      },
+      {
+        "label": "Fitment examples",
+        "value": "5.9L Dodge; 4.2L Trailblazer/Envoy/Bravada; 4.2L Buick Rainier; 3.5L and 2.8L Colorado/Canyon; Hummer H3; GM LS"
+      },
+      {
+        "label": "Jaw/rod update",
+        "value": "New jaw geometry, slimmer magnetic spacers and a fourth rod"
+      },
+      {
+        "label": "Shipping weight",
+        "value": "2.6 lb"
+      }
+    ],
+    "sourceUrl": "https://www.lislecorp.com/specialty-tools/harmonic-damper-pulley-puller-537",
+    "amazonUrl": "https://www.amazon.com/dp/B0015PBHGK?tag=robbieom0e-20",
+    "asin": "B0015PBHGK",
+    "amazonCheckedAt": "2026-10-17T08:33:55.092Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/lisle-51450.webp",
+      "alt": "Lisle 51450 product photograph",
+      "sourceUrl": "https://www.lislecorp.com/specialty-tools/harmonic-damper-pulley-puller-537",
+      "width": 2000,
+      "height": 1267
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 85.78,
+      "observedAt": "2026-10-17T08:33:55.092Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0015PBHGK",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Application-specific jaws rods and updated fitment"
+    ]
+  },
+  {
+    "id": "streamlight-68750",
+    "brand": "Streamlight",
+    "model": "68750",
+    "trackerModel": "68750",
+    "name": "Yellow Dualie 3AA with alkaline batteries",
+    "category": "Inspection",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "inspection-flashlight"
+    ],
+    "comparisonIds": [
+      "C18"
+    ],
+    "workflowIds": [
+      "W01",
+      "W02",
+      "W03",
+      "W05",
+      "W06",
+      "W08",
+      "W09",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The yellow 68750 Dualie 3AA package combines separate spot and flood beams with three alkaline batteries. Its hazardous-location certification is conditional on the stated configuration and instructions; it should not be substituted with a magnetic-clip or different battery variant without checking that approval.",
+    "advice": "Yellow battery-included package; hazardous-location conditions are specific",
+    "specifications": [
+      {
+        "label": "Exact package",
+        "value": "Yellow Dualie 3AA; includes three AA alkaline batteries; item 68750"
+      },
+      {
+        "label": "Modes/output",
+        "value": "Spot 140 lumens; flood 140 lumens; spot/flood combo 245 lumens"
+      },
+      {
+        "label": "Run time",
+        "value": "18 hours spot; 18 hours flood; 9 hours spot/flood combo"
+      },
+      {
+        "label": "Size/weight",
+        "value": "7 in (17.78 cm); 6.8 oz (193 g) with alkaline batteries; non-magnetic clip model"
+      },
+      {
+        "label": "Ingress/impact",
+        "value": "IP67; waterproof to 1 m for 30 minutes; 2 m impact resistance tested"
+      },
+      {
+        "label": "Hazardous-location rating",
+        "value": "Class I/II Div. 1 Groups A-G; Class III; Class I Zone 0 IIC; T4 Exia"
+      }
+    ],
+    "sourceUrl": "https://www.streamlight.com/products/detail/dualie-3aa",
+    "amazonUrl": "https://www.amazon.com/dp/B016P919RC?tag=robbieom0e-20",
+    "asin": "B016P919RC",
+    "amazonCheckedAt": "2026-10-17T08:33:55.221Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/streamlight-68750.webp",
+      "alt": "Streamlight 68750 product photograph",
+      "sourceUrl": "https://www.ballardindustrial.com/flashlight-dualie-3-aa-yellow-stm-68750/",
+      "width": 600,
+      "height": 600
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": 32.42,
+      "observedAt": "2026-10-17T08:33:55.221Z",
+      "sourceUrl": "https://www.amazon.com/dp/B016P919RC",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "higher-resolution-replacement-needed",
+    "publicationChecks": [
+      "Yellow battery-included package; hazardous-location conditions are specific"
+    ]
+  },
+  {
+    "id": "bosch-gic5-27c",
+    "brand": "Bosch",
+    "model": "GIC5-27C",
+    "trackerModel": "GIC5-27C",
+    "name": "12V Max connected inspection camera",
+    "category": "Inspection",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "inspection-camera"
+    ],
+    "comparisonIds": [
+      "C18"
+    ],
+    "workflowIds": [
+      "W01",
+      "W02",
+      "W03",
+      "W05",
+      "W06",
+      "W08",
+      "W09",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The GIC5-27C kit combines a 5-inch display with an 11.5-foot camera cable, recording storage and a 12V battery and charger. It is useful for documenting accessible inspection spaces, but its 8.3 mm head must fit the opening and the cable's IP67 rating does not apply to the entire tool.",
+    "advice": "US battery/charger package probe size bend and fluids limits",
+    "specifications": [
+      {
+        "label": "Camera cable",
+        "value": "11.5 ft"
+      },
+      {
+        "label": "Camera-head diameter",
+        "value": "8.3 mm"
+      },
+      {
+        "label": "Display",
+        "value": "5-inch high-resolution display; captures photos and video"
+      },
+      {
+        "label": "Protection",
+        "value": "IP67 camera cable; IP54 tool (battery and battery compartment excluded)"
+      },
+      {
+        "label": "Tool dimensions/weight",
+        "value": "5.51 in length x 2.6 in width x 9.52 in height; 1.61 lb"
+      },
+      {
+        "label": "US package includes",
+        "value": "GIC5-27C camera, 11.5 ft cable, BAT414 12V Max 2.0 Ah battery, GAL12V-20 charger, USB-A to USB-C cable and 32 GB Micro SD card"
+      }
+    ],
+    "sourceUrl": "https://www.boschtools.com/us/en/products/gic5-27c-0601241410",
+    "amazonUrl": "https://www.amazon.com/dp/B0CPN7VC6D?tag=robbieom0e-20",
+    "asin": "B0CPN7VC6D",
+    "amazonCheckedAt": "2026-10-17T08:33:54.911Z",
+    "verificationNote": "Amazon model/part GIC5-27C match the US kit; manufacturer lists BAT414 battery, GAL12V-20 charger, cable and storage card. Confirm full kit at checkout.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/bosch-gic5-27c.webp",
+      "alt": "Bosch GIC5-27C product photograph",
+      "sourceUrl": "https://www.lowes.com/pd/Bosch-12V-Max-Connected-11-Foot-Handheld-Inspection-Camera/5015239447",
+      "width": 1800,
+      "height": 1800
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 529.74,
+      "observedAt": "2026-10-17T08:33:54.911Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0CPN7VC6D",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "US battery/charger package probe size bend and fluids limits"
+    ]
+  },
+  {
+    "id": "gearwrench-83169",
+    "brand": "GEARWRENCH",
+    "model": "83169",
+    "trackerModel": "83169",
+    "name": "Forty-two-inch eleven-drawer mobile workstation",
+    "category": "Storage",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "rolling-tool-cabinet"
+    ],
+    "comparisonIds": [
+      "C19"
+    ],
+    "workflowIds": [
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The 83169 is an 11-drawer mobile workstation for workshops needing substantial organised storage and a working surface. Its 2,000-pound total rating does not override the 100-pound drawer limit, and its weight and delivery footprint deserve checking before ordering.",
+    "advice": "Freight package load ratings and shop footprint",
+    "specifications": [
+      {
+        "label": "Storage volume",
+        "value": "19,000 in\u00b3"
+      },
+      {
+        "label": "Total load capacity",
+        "value": "2,000 lb / 1 ton"
+      },
+      {
+        "label": "Drawer load",
+        "value": "100 lb maximum per drawer; 11 ball-bearing slide drawers"
+      },
+      {
+        "label": "Overall dimensions",
+        "value": "45.5 in W x 25.4 in D x 41 in H"
+      },
+      {
+        "label": "Weight",
+        "value": "317 lb catalog weight"
+      },
+      {
+        "label": "Casters",
+        "value": "6 x 2 in polyurethane locking casters; 850 lb capacity each"
+      }
+    ],
+    "sourceUrl": "https://www.gearwrench.com/all-tools/tool-storage/carts-workstations/83169-42-11-drawer-black-orange-mobile-work-station",
+    "amazonUrl": "https://www.amazon.com/dp/B07HK86NBQ?tag=robbieom0e-20",
+    "asin": "B07HK86NBQ",
+    "amazonCheckedAt": "2026-10-17T08:32:59.430Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/gearwrench-83169.webp",
+      "alt": "GEARWRENCH 83169 product photograph",
+      "sourceUrl": "https://www.gearwrench.com/all-tools/tool-storage/carts-workstations/83169-42-11-drawer-black-orange-mobile-work-station",
+      "width": 1948,
+      "height": 2000
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 1999,
+      "observedAt": "2026-10-17T08:32:59.430Z",
+      "sourceUrl": "https://www.amazon.com/dp/B07HK86NBQ",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Freight package load ratings and shop footprint"
+    ]
+  },
+  {
+    "id": "sunex-8019b",
+    "brand": "SUNEX",
+    "model": "8019B",
+    "trackerModel": "8019B",
+    "name": "Adjustable work table with drawer",
+    "category": "Storage",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "mechanic-work-table"
+    ],
+    "comparisonIds": [
+      "C19"
+    ],
+    "workflowIds": [
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The black 8019B is a height-adjustable service table with a shallow drawer and partitioned work surface. It brings tools and parts beside a job within its 220-pound load rating; it is not vehicle lifting or support equipment.",
+    "advice": "B suffix load height and stability; not a vehicle support",
+    "specifications": [
+      {
+        "label": "Load capacity",
+        "value": "220 lb"
+      },
+      {
+        "label": "Adjustable height",
+        "value": "34 in-47.75 in"
+      },
+      {
+        "label": "Drawer",
+        "value": "2 in deep slide-out drawer"
+      },
+      {
+        "label": "Tray sections",
+        "value": "Three 1 in deep tray sections"
+      },
+      {
+        "label": "Mobility",
+        "value": "Four smooth-rolling casters"
+      },
+      {
+        "label": "Work-surface protection",
+        "value": "Rubber work-surface mats and protective rubber corner bumpers"
+      }
+    ],
+    "sourceUrl": "https://sunextools.com/products/deluxe-adjustable-work-table-with-drawer-black",
+    "amazonUrl": "https://www.amazon.com/dp/B0GZLGFTR4?tag=robbieom0e-20",
+    "asin": "B0GZLGFTR4",
+    "amazonCheckedAt": "2026-10-17T08:33:55.160Z",
+    "verificationNote": "Amazon model/part 8019B and UPC 613364291931 confirm the black table. Do not substitute the red 8019.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/sunex-8019b.webp",
+      "alt": "SUNEX 8019B product photograph",
+      "sourceUrl": "https://sunextools.com/products/deluxe-adjustable-work-table-with-drawer-black",
+      "width": 1445,
+      "height": 1445
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "mid-range",
+    "researchPrice": {
+      "amountUSD": 134.48,
+      "observedAt": "2026-10-17T08:33:55.160Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0GZLGFTR4",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "B suffix load height and stability; not a vehicle support"
+    ]
+  },
+  {
+    "id": "gearwrench-gwmp100",
+    "brand": "GEARWRENCH",
+    "model": "GWMP100",
+    "trackerModel": "GWMP100",
+    "name": "Heavy-duty portable rolling tool case",
+    "category": "Storage",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "rolling-tool-case"
+    ],
+    "comparisonIds": [
+      "C19"
+    ],
+    "workflowIds": [
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The GWMP100 is an empty rolling tool case with four protected trays for organising a mobile kit. It suits technicians carrying their existing tools between jobs; neither a tool assortment nor a maximum payload should be inferred from the wheel endurance test.",
+    "advice": "Empty case versus bundled tool kit and actual carrying limits",
+    "specifications": [
+      {
+        "label": "Case type",
+        "value": "Portable rolling tool case"
+      },
+      {
+        "label": "Dimensions",
+        "value": "24.69 in L x 18.69 in W x 11.5 in H"
+      },
+      {
+        "label": "Weight",
+        "value": "30.50 lb catalog weight"
+      },
+      {
+        "label": "Storage volume",
+        "value": "3,313.8 in\u00b3"
+      },
+      {
+        "label": "Organization",
+        "value": "4 durable trays with built-in foam protection; trays 20-1/4 x 13-1/2 in"
+      },
+      {
+        "label": "Carrying/load test",
+        "value": "Self-oiling wheels tested to exceed 62 miles with a 132-lb load"
+      }
+    ],
+    "sourceUrl": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/gwmp100-heavy-duty-portable-rolling-tool-case",
+    "amazonUrl": "https://www.amazon.com/dp/B0CNS41SJR?tag=robbieom0e-20",
+    "asin": "B0CNS41SJR",
+    "amazonCheckedAt": "2026-10-17T08:33:54.888Z",
+    "verificationNote": "Amazon product identity fields match the manufacturer's model and product type. Recheck selected seller, included accessories and exact variant immediately before publication.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/gearwrench-gwmp100.webp",
+      "alt": "GEARWRENCH GWMP100 product photograph",
+      "sourceUrl": "https://www.gearwrench.com/all-tools/tool-storage/portable-storage/gwmp100-heavy-duty-portable-rolling-tool-case",
+      "width": 1280,
+      "height": 1280
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "higher-ticket",
+    "researchPrice": {
+      "amountUSD": 419.1,
+      "observedAt": "2026-10-17T08:33:54.888Z",
+      "sourceUrl": "https://www.amazon.com/dp/B0CNS41SJR",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Empty case versus bundled tool kit and actual carrying limits"
+    ]
+  },
+  {
+    "id": "first-alert-pro5",
+    "brand": "First Alert",
+    "model": "PRO5",
+    "trackerModel": "PRO5",
+    "name": "Rechargeable multipurpose extinguisher",
+    "category": "Workshop safety",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "fire-extinguisher"
+    ],
+    "comparisonIds": [
+      "C20"
+    ],
+    "workflowIds": [
+      "W01",
+      "W04",
+      "W05",
+      "W06",
+      "W07",
+      "W08",
+      "W10"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The PRO5 is a rechargeable dry-chemical extinguisher with a 3-A:40-B:C classification, identified by First Alert as FE3A40GR/SKU 1039896. Suitability depends on the workshop's assessed hazards, placement and servicing requirements; the product cannot substitute for an escape plan or trained use.",
+    "advice": "Exact current model rating recall check mounting and trained use",
+    "specifications": [
+      {
+        "label": "Underlying model",
+        "value": "FE3A40GR; Cat. No. PRO5"
+      },
+      {
+        "label": "Agent",
+        "value": "Monoammonium phosphate dry powder"
+      },
+      {
+        "label": "Rating",
+        "value": "3-A:40-B:C"
+      },
+      {
+        "label": "Dimensions",
+        "value": "4.6 in diameter x 16.0 in H"
+      },
+      {
+        "label": "Weight",
+        "value": "9.6 lb unit weight"
+      },
+      {
+        "label": "Operating range/pressure",
+        "value": "-40\u00b0F to 120\u00b0F; pressurized to 195 psi; tested to 585 psi"
+      }
+    ],
+    "sourceUrl": "https://www.firstalert.com/products/heavy-duty-fire-extinguisher-ul-rated-3-a-40-b-c",
+    "amazonUrl": "https://www.amazon.com/dp/B000M2QR8U?tag=robbieom0e-20",
+    "asin": "B000M2QR8U",
+    "amazonCheckedAt": "2026-10-17T08:33:56.509Z",
+    "verificationNote": "Amazon PRO5 style, SKU/model 1039896 and part FE3A40GR match the current manufacturer's PRO5 identification.",
+    "listingStatus": "exact-identifiers-matched",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/first-alert-pro5.webp",
+      "alt": "First Alert PRO5 product photograph",
+      "sourceUrl": "https://www.firstalert.com/products/heavy-duty-fire-extinguisher-ul-rated-3-a-40-b-c",
+      "width": 1214,
+      "height": 1214
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "supporting-essential",
+    "researchPrice": {
+      "amountUSD": null,
+      "observedAt": "2026-10-17T08:33:56.509Z",
+      "sourceUrl": "https://www.amazon.com/dp/B000M2QR8U",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "concise-essential-or-review-to-be-decided",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Exact current model rating recall check mounting and trained use",
+      "Check current service/recall notices before publication; no clearance is asserted."
+    ]
+  },
+  {
+    "id": "bluedriver-lsb2",
+    "brand": "BlueDriver",
+    "model": "LSB2",
+    "trackerModel": "LSB2",
+    "name": "Bluetooth Pro OBDII scan tool",
+    "category": "Diagnostics",
+    "tradeIds": [
+      "automotive-mechanics"
+    ],
+    "familyIds": [
+      "app-obd2-scanner"
+    ],
+    "comparisonIds": [
+      "C01"
+    ],
+    "workflowIds": [
+      "W02",
+      "W09"
+    ],
+    "existingCanonicalId": null,
+    "intro": "The LSB2 connects a compatible phone to supported OBD2 functions through the BlueDriver app. It is a phone-based diagnostic option rather than a bidirectional workshop tablet; enhanced-system access varies by vehicle and this record must remain distinct from NextGen hardware.",
+    "advice": "Confirm exact LSB2 generation, supported vehicles and app requirements; do not silently substitute Pro NextGen.",
+    "specifications": [
+      {
+        "label": "Vehicle coverage stated on page",
+        "value": "1996 and newer cars, SUVs and light trucks sold in North America; all major OBD2 protocols"
+      },
+      {
+        "label": "Connectivity",
+        "value": "Bluetooth to iOS and Android devices; no cables or subscriptions"
+      },
+      {
+        "label": "Diagnostics",
+        "value": "Reads/clears codes, Repair Reports, Mode 6, Freeze Frame, Live Data and Smog Check"
+      },
+      {
+        "label": "Enhanced diagnostics",
+        "value": "ABS, Airbag/SRS, TPMS and other enhanced diagnostics on a range of supported manufacturers"
+      }
+    ],
+    "sourceUrl": "https://us.bluedriver.com/products/bluedriver-pro-scan-tool",
+    "amazonUrl": "https://www.amazon.com/dp/B00652G4TS?tag=robbieom0e-20",
+    "asin": "B00652G4TS",
+    "amazonCheckedAt": "2026-10-17T08:33:54.940Z",
+    "verificationNote": "Amazon model/part are LSB2. Manufacturer's current Pro page is not hardware-generation proof; match package to LSB2 and keep NextGen distinct.",
+    "listingStatus": "matched-identifiers-with-package-caveat",
+    "image": {
+      "src": "docs/automotive/remaining-batch/images/bluedriver-lsb2.webp",
+      "alt": "BlueDriver LSB2 product photograph",
+      "sourceUrl": "https://us.bluedriver.com/products/bluedriver-pro-scan-tool",
+      "width": 1024,
+      "height": 700
+    },
+    "imageRights": {
+      "status": "reuse-permission-unconfirmed",
+      "permissionEvidence": null
+    },
+    "researchPriority": "mid-range",
+    "researchPrice": {
+      "amountUSD": 139.95,
+      "observedAt": "2026-10-17T08:33:54.940Z",
+      "sourceUrl": "https://www.amazon.com/dp/B00652G4TS",
+      "publicDisplayAllowed": false,
+      "note": "Dated internal prioritization observation; not a current public price or offer."
+    },
+    "rating": null,
+    "feedback": [],
+    "publicationStatus": "staged-not-for-runtime",
+    "fullReviewStatus": "substantive-research-review-required",
+    "imageQuality": "source-at-least-1000px",
+    "publicationChecks": [
+      "Confirm exact LSB2 generation, supported vehicles and app requirements; do not silently substitute Pro NextGen."
+    ]
+  }
+]

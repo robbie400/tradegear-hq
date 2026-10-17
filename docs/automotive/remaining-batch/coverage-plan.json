@@ -1,0 +1,548 @@
+{
+  "checkedAt": "2026-10-17",
+  "targetProducts": 100,
+  "liveProducts": 61,
+  "stagedProducts": 39,
+  "comparisons": [
+    {
+      "id": "C01",
+      "title": "OBD2 code readers and phone-based diagnosis: coverage, access and limits",
+      "existing": true,
+      "criteria": "Engine/emissions reader versus phone-assisted enhanced diagnosis; verify exact generation, app and vehicle coverage. Different capabilities are not interchangeable.",
+      "productIds": [
+        "foxwell-nt301",
+        "autel-al519",
+        "innova-5610",
+        "autel-mk900-bt",
+        "bluedriver-lsb2"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "Scan tools: supported bidirectional functions, four-system access and wireless tablets",
+      "existing": true,
+      "criteria": "VIN-level active tests, subscription terms, region, secure gateway, CAN FD and DoIP",
+      "productIds": [
+        "autel-mk900-bt",
+        "innova-5610"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "Automotive electrical test tools: meter, powered probe or battery tester",
+      "existing": true,
+      "criteria": "complementary diagnostic roles; never present these as equivalent substitutes",
+      "productIds": [
+        "fluke-88v-a-kit",
+        "clore-automotive-ba9",
+        "power-probe-pp3ls01"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "Jump starter versus battery charger: choose for the fault",
+      "existing": true,
+      "criteria": "starting support versus recharging; battery chemistry, voltage, environment and package",
+      "productIds": [
+        "noco-gb40",
+        "noco-genius5",
+        "noco-gb70"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "Mechanic torque wrenches: inch-pound, service and wheel ranges",
+      "existing": true,
+      "criteria": "split recommendations by range, direction and fastener; no universal wheel-torque setting",
+      "productIds": [
+        "tekton-trq50402",
+        "tekton-trq52403",
+        "gearwrench-85062m",
+        "gearwrench-85077"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "Mechanic socket sets: hand drive, impact and universal access",
+      "existing": true,
+      "criteria": "subtables for hand-drive and impact sockets; exact kit contents, skips, drive and reach",
+      "productIds": [
+        "gearwrench-80300p",
+        "sunex-2569",
+        "tekton-skt15311",
+        "gearwrench-84918n"
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "Mechanic hand tools and access kits: starter essentials versus optional upgrades",
+      "existing": true,
+      "criteria": "Separate subgroups for drivers, pliers, bit sockets, pry/pick/trim tools and ratchet access; identify existing kit overlap, hand-only sockets and optional upgrades. Do not rank dissimilar tools as equivalent alternatives.",
+      "productIds": [
+        "tekton-sbh00224",
+        "tekton-sha91011",
+        "gearwrench-80066h",
+        "klein-d203-8",
+        "klein-d228-8",
+        "irwin-502l3",
+        "knipex-8701250",
+        "gearwrench-80742",
+        "mayhew-61366",
+        "lisle-31750",
+        "lisle-35440",
+        "klein-32500hd",
+        "stanley-33-725",
+        "gearwrench-81206t",
+        "gearwrench-81212xp"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "Mechanic wrench sets: metric, SAE, flare-nut and long reach",
+      "existing": true,
+      "criteria": "do not label SAE sets suitable for metric fittings; compare within role",
+      "productIds": [
+        "gearwrench-81916",
+        "gearwrench-81906",
+        "gearwrench-9416",
+        "gearwrench-9533n"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "Cordless mechanic tools: stubby, mid/high torque and powered ratchets",
+      "existing": true,
+      "criteria": "separate tool classes and battery platforms; complete usable kit cost rather than bare-tool price",
+      "productIds": [
+        "milwaukee-2962-20",
+        "milwaukee-2567-20",
+        "dewalt-dcf891b",
+        "milwaukee-2562-20",
+        "dewalt-dcf900b"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "Brake service tools: piston retraction, lining checks and bleeding",
+      "existing": true,
+      "criteria": "task-led groups; EPB procedure and ABS bleeding support separate",
+      "productIds": [
+        "lisle-25750",
+        "lisle-81850",
+        "mityvac-mv6840",
+        "lisle-28600",
+        "mityvac-mv6830"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "Mechanical pullers and suspension/steering tools by service operation",
+      "existing": false,
+      "criteria": "vehicle and adapter compatibility, press versus separator versus puller; exclude generic spring-compressor advice",
+      "productIds": [
+        "otc-7249",
+        "otc-6295",
+        "otc-6297",
+        "otc-6575",
+        "otc-4579",
+        "otc-6007",
+        "lisle-51450"
+      ]
+    },
+    {
+      "id": "C12",
+      "title": "Floor jacks and jack stands: clearance, support and capacity basis",
+      "existing": true,
+      "criteria": "separate lifting from supporting; exact manual, pair/individual capacity, saddle and recall check",
+      "productIds": [
+        "arcan-a20019",
+        "esco-10498-pair",
+        "sunex-6602lp"
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "Fluid service equipment: extraction, filling and containment",
+      "existing": true,
+      "criteria": "fluid-specific materials, temperatures, contamination control and exact adapters",
+      "productIds": [
+        "lisle-17922",
+        "lisle-19752",
+        "mityvac-mv7201",
+        "mityvac-mv7300",
+        "mityvac-mv6412a",
+        "lisle-19722"
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "Oil filter tools: spin-on wrenches versus cartridge cap tools",
+      "existing": true,
+      "criteria": "filter diameter, cap geometry, engine and socket size; current design versus old reviews",
+      "productIds": [
+        "lisle-63600",
+        "lisle-13270",
+        "lisle-63250",
+        "motivx-tools-mx2320",
+        "motivx-tools-mx2326"
+      ]
+    },
+    {
+      "id": "C15",
+      "title": "Cooling-system tools: pressure test, vacuum refill and controlled flushing",
+      "existing": false,
+      "criteria": "pressure limits and adapters; distinguish finding a fault from filling a system",
+      "productIds": [
+        "lisle-24980",
+        "mityvac-mv4560",
+        "mityvac-mv4533",
+        "otc-7991",
+        "lisle-60900"
+      ]
+    },
+    {
+      "id": "C16",
+      "title": "Tyre and wheel service tools: pressure, valve cores and TPMS",
+      "existing": true,
+      "criteria": "gauge resolution versus accuracy; exact pressure range and TPMS vehicle coverage",
+      "productIds": [
+        "astro-pneumatic-3018",
+        "milton-s-921",
+        "milton-s-506",
+        "autel-ts508wf",
+        "lisle-18810"
+      ]
+    },
+    {
+      "id": "C17",
+      "title": "Engine testing and ignition-service tools: choose for the operation",
+      "existing": true,
+      "criteria": "Separate compression/leakage/vacuum/fuel-pressure diagnosis from spark-plug access and gap measurement. Exact engine, plug size and adapters govern suitability; no low-pressure fuel kit for GDI/diesel.",
+      "productIds": [
+        "gearwrench-80601",
+        "lisle-68100",
+        "otc-5606",
+        "otc-5609",
+        "otc-5613",
+        "otc-5630"
+      ]
+    },
+    {
+      "id": "C18",
+      "title": "Inspection access: penlights, underhood lights, cameras, mirrors and pickup tools",
+      "existing": true,
+      "criteria": "penlight, hazardous-location flashlight, rechargeable light, underhood bar and camera are distinct roles",
+      "productIds": [
+        "streamlight-66118",
+        "milwaukee-2125-20",
+        "ullman-devices-ht-2",
+        "ullman-devices-htc-2",
+        "streamlight-68750",
+        "bosch-gic5-27c"
+      ]
+    },
+    {
+      "id": "C19",
+      "title": "Mechanic storage: portable box, service cart or rolling workstation",
+      "existing": true,
+      "criteria": "weight, tool retention, drawer loads, footprint, mobility and delivered package",
+      "productIds": [
+        "gearwrench-83151",
+        "sunex-8057xtr",
+        "gearwrench-83169",
+        "sunex-8019b",
+        "gearwrench-gwmp100"
+      ]
+    },
+    {
+      "id": "C20",
+      "title": "Workshop safety equipment: select for the assessed hazard",
+      "existing": true,
+      "criteria": "task-specific protection, US markings, fit, extinguisher siting and chock limits; no kit makes all work safe",
+      "productIds": [
+        "dewalt-dpg94-1d",
+        "3m-peltor-x4a",
+        "maxxhaul-70472",
+        "first-alert-pro5"
+      ]
+    }
+  ],
+  "workflows": [
+    {
+      "id": "W01",
+      "title": "Automotive apprentice starter toolkit",
+      "existing": true,
+      "originalValue": "Stage purchases against employer requirements and tools already owned. Mark alternatives and optional upgrades; do not recommend buying every listed model.",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C18",
+        "C20",
+        "C16",
+        "C17"
+      ],
+      "stagedProductIds": [
+        "gearwrench-85077",
+        "gearwrench-81206t",
+        "gearwrench-81212xp",
+        "gearwrench-9533n",
+        "milton-s-506",
+        "autel-ts508wf",
+        "lisle-18810",
+        "otc-5606",
+        "otc-5609",
+        "otc-5613",
+        "otc-5630",
+        "streamlight-68750",
+        "bosch-gic5-27c",
+        "first-alert-pro5"
+      ]
+    },
+    {
+      "id": "W02",
+      "title": "Vehicle diagnostics buying plan",
+      "existing": true,
+      "originalValue": "Choose functions against the vehicles serviced; include live-data interpretation, service-information access and update costs.",
+      "comparisonIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C18"
+      ],
+      "stagedProductIds": [
+        "power-probe-pp3ls01",
+        "streamlight-68750",
+        "bosch-gic5-27c",
+        "bluedriver-lsb2"
+      ]
+    },
+    {
+      "id": "W03",
+      "title": "Battery and no-start electrical diagnosis",
+      "existing": true,
+      "originalValue": "Distinguish testing, starting support, charging and fault diagnosis. Restrict to documented conventional low-voltage applications.",
+      "comparisonIds": [
+        "C03",
+        "C04",
+        "C18"
+      ],
+      "stagedProductIds": [
+        "power-probe-pp3ls01",
+        "streamlight-68750",
+        "bosch-gic5-27c"
+      ]
+    },
+    {
+      "id": "W04",
+      "title": "Wheel removal and refitting equipment plan",
+      "existing": true,
+      "originalValue": "Lifting/support and vehicle torque requirements remain prerequisites. Do not claim impact settings establish final wheel torque.",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C07",
+        "C09",
+        "C12",
+        "C16",
+        "C20"
+      ],
+      "stagedProductIds": [
+        "gearwrench-85077",
+        "gearwrench-81206t",
+        "gearwrench-81212xp",
+        "milwaukee-2562-20",
+        "dewalt-dcf900b",
+        "milton-s-506",
+        "autel-ts508wf",
+        "lisle-18810",
+        "first-alert-pro5"
+      ]
+    },
+    {
+      "id": "W05",
+      "title": "Brake service toolkit",
+      "existing": true,
+      "originalValue": "Separate push-back, screw-in and EPB calipers; match bleeding method and adapters. Manufacturer procedures remain authoritative.",
+      "comparisonIds": [
+        "C02",
+        "C05",
+        "C06",
+        "C08",
+        "C10",
+        "C12",
+        "C18",
+        "C20"
+      ],
+      "stagedProductIds": [
+        "gearwrench-85077",
+        "gearwrench-9533n",
+        "mityvac-mv6830",
+        "streamlight-68750",
+        "bosch-gic5-27c",
+        "first-alert-pro5"
+      ]
+    },
+    {
+      "id": "W06",
+      "title": "Routine servicing and oil-change toolkit",
+      "existing": true,
+      "originalValue": "Engine/filter-specific tools, clean filling, capture and disposal. Clearly distinguish filter wrench types and clean/used fluid containers.",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C12",
+        "C13",
+        "C14",
+        "C18",
+        "C20"
+      ],
+      "stagedProductIds": [
+        "gearwrench-85077",
+        "mityvac-mv7300",
+        "mityvac-mv6412a",
+        "lisle-19722",
+        "motivx-tools-mx2320",
+        "motivx-tools-mx2326",
+        "streamlight-68750",
+        "bosch-gic5-27c",
+        "first-alert-pro5"
+      ]
+    },
+    {
+      "id": "W07",
+      "title": "Suspension and steering service equipment",
+      "existing": false,
+      "originalValue": "Vehicle adapter coverage and stored-energy hazards; no generic coil-spring or strut-disassembly instructions.",
+      "comparisonIds": [
+        "C05",
+        "C06",
+        "C07",
+        "C09",
+        "C11",
+        "C12",
+        "C20"
+      ],
+      "stagedProductIds": [
+        "gearwrench-85077",
+        "gearwrench-81206t",
+        "gearwrench-81212xp",
+        "milwaukee-2562-20",
+        "dewalt-dcf900b",
+        "otc-7249",
+        "otc-6295",
+        "otc-6297",
+        "otc-6575",
+        "otc-4579",
+        "otc-6007",
+        "lisle-51450",
+        "first-alert-pro5"
+      ]
+    },
+    {
+      "id": "W08",
+      "title": "Cooling-system diagnosis and refill toolkit",
+      "existing": false,
+      "originalValue": "Separate pressure testing, leak investigation, flushing and vacuum refill; use cool-system and vehicle-specific procedures.",
+      "comparisonIds": [
+        "C13",
+        "C15",
+        "C18",
+        "C20"
+      ],
+      "stagedProductIds": [
+        "mityvac-mv7300",
+        "mityvac-mv6412a",
+        "lisle-19722",
+        "lisle-24980",
+        "mityvac-mv4560",
+        "mityvac-mv4533",
+        "otc-7991",
+        "lisle-60900",
+        "streamlight-68750",
+        "bosch-gic5-27c",
+        "first-alert-pro5"
+      ]
+    },
+    {
+      "id": "W09",
+      "title": "Engine mechanical diagnosis toolkit",
+      "existing": false,
+      "originalValue": "Select tests by the diagnostic question, engine type and adapters; state what results do and do not establish.",
+      "comparisonIds": [
+        "C01",
+        "C02",
+        "C03",
+        "C17",
+        "C18"
+      ],
+      "stagedProductIds": [
+        "power-probe-pp3ls01",
+        "otc-5606",
+        "otc-5609",
+        "otc-5613",
+        "otc-5630",
+        "streamlight-68750",
+        "bosch-gic5-27c",
+        "bluedriver-lsb2"
+      ]
+    },
+    {
+      "id": "W10",
+      "title": "Workshop and mobile-mechanic setup",
+      "existing": true,
+      "originalValue": "Compare existing shop infrastructure with mobile requirements: power, air, lighting, secure transport, surfaces and storage.",
+      "comparisonIds": [
+        "C03",
+        "C04",
+        "C09",
+        "C12",
+        "C13",
+        "C18",
+        "C19",
+        "C20"
+      ],
+      "stagedProductIds": [
+        "power-probe-pp3ls01",
+        "milwaukee-2562-20",
+        "dewalt-dcf900b",
+        "mityvac-mv7300",
+        "mityvac-mv6412a",
+        "lisle-19722",
+        "streamlight-68750",
+        "bosch-gic5-27c",
+        "gearwrench-83169",
+        "sunex-8019b",
+        "gearwrench-gwmp100",
+        "first-alert-pro5"
+      ]
+    }
+  ],
+  "editorialRules": [
+    "Preserve the current full-review presentation and reuse its components. Stage notes are not finished reviews.",
+    "For substantial equipment research model-specific capabilities, limits, compatibility, ownership and alternatives before writing the full review.",
+    "Group distinct mechanical operations; do not rank ball-joint separators, hub kits and pulley pullers as interchangeable tools.",
+    "OTC 6295 contains 6297: explain the standalone versus set choice.",
+    "Keep tool-only impacts distinct from battery/charger kits, and GWMP100 empty case distinct from populated tool kits.",
+    "No new Amazon ratings, quotations or review counts have been copied. Source-approved external ratings and attributable feedback require a separate check.",
+    "Apply the existing affiliateUrl helper at rendering time; retain the approved tag and trade-specific environment override.",
+    "Do not import this staged data into runtime until the owner approves implementation and its publication checks are completed."
+  ],
+  "proposedVariantUpdates": [
+    {
+      "id": "motivx-tools-mx2320",
+      "trackerModel": "MX2320",
+      "currentModel": "MX2320-US",
+      "change": "Current 64.3mm 14-flute USA-made CNC design; manufacturer suffix differs from Amazon legacy part field.",
+      "approvalRequired": true
+    },
+    {
+      "id": "motivx-tools-mx2326",
+      "trackerModel": "MX2326",
+      "currentModel": "MX2326-US",
+      "change": "Current 86.6mm 16-flute USA-made CNC design replaces older 86.4mm tracker description.",
+      "approvalRequired": true
+    }
+  ]
+}

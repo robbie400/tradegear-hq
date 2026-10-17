@@ -1,0 +1,291 @@
+{
+  "checkedDate": "2026-10-17",
+  "records": [
+    {
+      "productId": "power-probe-pp3ls01",
+      "model": "PP3LS01",
+      "author": "Daniel Triplett",
+      "quote": "I was able to use the power probe to run the window motor up",
+      "url": "https://store.powerprobe.com/products/power-probe-pp3ls01-circuit-tester-with-test-leads",
+      "evidence": "I was able to use the power probe to run the window motor up",
+      "modelEvidence": "The page labels the item PP3LS01 and displays the reviewer, date and review under this product.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "gearwrench-85077",
+      "model": "85077",
+      "author": "NosBoss",
+      "quote": "The setting are quite easy to setup.",
+      "url": "https://www.acmetools.com/gearwrench-1-2in-drive-electronic-torque-wrench-30-340-nm-85077/099575850776.html",
+      "evidence": "The setting are quite easy to setup.",
+      "modelEvidence": "The fetched Acme page identifies the product as GEARWRENCH 1/2in Drive Electronic Torque Wrench 30-340 Nm 85077 and displays the review under Customer Reviews.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "gearwrench-85077",
+      "model": "85077",
+      "author": "powerstud82",
+      "quote": "The large lcd display is easy to see and read.",
+      "url": "https://www.acmetools.com/gearwrench-1-2in-drive-electronic-torque-wrench-30-340-nm-85077/099575850776.html",
+      "evidence": "The large lcd display is easy to see and read.",
+      "modelEvidence": "The fetched Acme page identifies model 85077 and displays this review in its Customer Reviews section.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "gearwrench-81206t",
+      "model": "81206T",
+      "author": "Big Dawg",
+      "quote": "the 90 tooth gearwrench ratchets are the smoothest ratchets i ever felt.",
+      "url": "https://www.autozone.com/p/reviews/gearwrench-socket-wrench-81206t/1579229",
+      "evidence": "the 90 tooth gearwrench ratchets are the smoothest ratchets i ever felt.",
+      "modelEvidence": "The URL contains 81206T; the fetched page displays the 81206T rating and the review describes the 90-tooth Gearwrench ratchets as a set.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "gearwrench-81206t",
+      "model": "81206T",
+      "author": "RushFan",
+      "quote": "The 1/4” drive works great in tight spaces",
+      "url": "https://www.autozone.com/p/reviews/gearwrench-socket-wrench-81206t/1579229",
+      "evidence": "The 1/4” drive works great in tight spaces",
+      "modelEvidence": "The fetched page is the 81206T review URL and the surrounding review text identifies the product as a three-piece set with 1/4, 3/8 and 1/2-inch drives.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "gearwrench-9533n",
+      "model": "9533N",
+      "author": "saucy_leo",
+      "quote": "Cant go wrong with gearwrench.",
+      "url": "https://www.ebay.com/p/5012042231",
+      "evidence": "Cant go wrong with gearwrench.",
+      "modelEvidence": "The same page identifies the product as GearWrench 9533N Reversible Combination Ratcheting Wrench Set SAE 8pc and lists MPN 9533N.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "gearwrench-9533n",
+      "model": "9533N",
+      "author": "kens_mobile",
+      "quote": "A very good set of tools for the dollar spent, highly recommend!",
+      "url": "https://www.ebay.com/p/5012042231",
+      "evidence": "A very good set of tools for the dollar spent, highly recommend!",
+      "modelEvidence": "The same page identifies the product as GearWrench 9533N Reversible Combination Ratcheting Wrench Set SAE 8pc and lists MPN 9533N.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "dewalt-dcf900b",
+      "model": "DCF900B",
+      "author": "Jeff the DeWalt Guy",
+      "quote": "This is the only cordless gun that has truly left me speechless.",
+      "url": "https://www.dewalt.com/en-us/product/dcf900b/20v-max-xr-12-high-torque-impact-wrench-hog-ring-anvil-tool-only",
+      "evidence": "This is the only cordless gun that has truly left me speechless.",
+      "modelEvidence": "The review appears within the page’s DCF900B review block, and the reviewer context identifies an automotive use and 5/5 score.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "dewalt-dcf900b",
+      "model": "DCF900B",
+      "author": "Was a dewalt tool buyer",
+      "quote": "Junk after 2 yrs",
+      "url": "https://www.dewalt.com/en-us/product/dcf900b/20v-max-xr-12-high-torque-impact-wrench-hog-ring-anvil-tool-only",
+      "evidence": "Junk after 2 yrs",
+      "modelEvidence": "The review is displayed on the exact DCF900B page and its title/body identifies the DCF900B context.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "mityvac-mv6830",
+      "model": "MV6830",
+      "author": "ASHLEY",
+      "quote": "It worked great. It pulled 27 in. HG at 120 psi.",
+      "url": "https://www.summitracing.com/parts/mva-mv6830/reviews",
+      "evidence": "It worked great. It pulled 27 in. HG at 120 psi.",
+      "modelEvidence": "The review appears under the exact page heading 'Mityvac Vacuum Brake Bleeders MV6830' and part number 'MVA-MV6830'.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "mityvac-mv6830",
+      "model": "MV6830",
+      "author": "STEVEN",
+      "quote": "In a matter of minutes all brakes were bled with one person.",
+      "url": "https://www.summitracing.com/parts/mva-mv6830/reviews",
+      "evidence": "In a matter of minutes all brakes were bled with one person.",
+      "modelEvidence": "The review appears under the exact page heading 'Mityvac Vacuum Brake Bleeders MV6830' and part number 'MVA-MV6830'.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "otc-6295",
+      "model": "6295",
+      "author": "JOHN",
+      "quote": "I was able to pop the stubbon bottom ball joint of the one spindle",
+      "url": "https://www.summitracing.com/parts/otc-6295/reviews",
+      "evidence": "I was able to pop the stubbon bottom ball joint of the one spindle",
+      "modelEvidence": "The page identifies the reviewed item as ‘OTC Front-End Service Sets 6295’ and shows the exact part review URL.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "otc-6297",
+      "model": "6297",
+      "author": "NEIL",
+      "quote": "This ball joint separator worked perfectly on both of these different size ball joints",
+      "url": "https://www.summitracing.com/parts/otc-6297/reviews",
+      "evidence": "This ball joint separator worked perfectly on both of these different size ball joints",
+      "modelEvidence": "The page identifies the item as ‘OTC Ball Joint Separators 6297’ and links the exact 6297 product.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "otc-4579",
+      "model": "4579",
+      "author": "WAYNE",
+      "quote": "The slide hammer is designed so the hammer at full extension does not hit your knuckles",
+      "url": "https://www.summitracing.com/parts/otc-4579/reviews",
+      "evidence": "The slide hammer is designed so the hammer at full extension does not hit your knuckles",
+      "modelEvidence": "The page identifies the item as ‘OTC 9-Way Slide Hammer Pullers 4579’ and links the exact 4579 product.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "motivx-tools-mx2320",
+      "model": "MX2320-US",
+      "author": "Jorge",
+      "quote": "This wrench did not slip once",
+      "url": "https://www.motivxtools.com/products/toyota-2-5l-5-7l-oil-filter-wrench",
+      "evidence": "This wrench did not slip once",
+      "modelEvidence": "The review is displayed under the 64.3mm 14 Flute Oil Filter Wrench page and names MX2320 in its title.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "motivx-tools-mx2320",
+      "model": "MX2320-US",
+      "author": "Chase",
+      "quote": "stubborn housing on my 4Runner",
+      "url": "https://www.motivxtools.com/products/toyota-2-5l-5-7l-oil-filter-wrench",
+      "evidence": "stubborn housing on my 4Runner",
+      "modelEvidence": "The review is displayed on the MX2320-US page and links back to the 64.3mm Toyota/Lexus/Honda product.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "motivx-tools-mx2326",
+      "model": "MX2326-US",
+      "author": "Kevin",
+      "quote": "Perfect fit on N-series engines’ oil filter caps",
+      "url": "https://www.motivxtools.com/products/bmw-86-6mm-oil-filter-wrench",
+      "evidence": "Perfect fit on N-series engines’ oil filter caps",
+      "modelEvidence": "The review appears under the 86.6mm 16 Flute Oil Filter Wrench page identified as MX2326-US.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "motivx-tools-mx2326",
+      "model": "MX2326-US",
+      "author": "Robert G.",
+      "quote": "Fits the S55 engine perfectly",
+      "url": "https://www.motivxtools.com/products/bmw-86-6mm-oil-filter-wrench",
+      "evidence": "Fits the S55 engine perfectly",
+      "modelEvidence": "The review is displayed on the MX2326-US product page and names the S55 engine in its title/body.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "lisle-60900",
+      "model": "60900",
+      "author": "Ehyeseph",
+      "quote": "Perfect fit for 3 sizes and the pressure sensitivity is great!",
+      "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-coolant-system-flusher-nozzle/lis0/60900",
+      "evidence": "Perfect fit for 3 sizes and the pressure sensitivity is great!",
+      "modelEvidence": "The same fetched page is headed 'Lisle Coolant System Flusher Nozzle - 60900' and the review widget is keyed to LIS0-60900.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "otc-5606",
+      "model": "5606",
+      "author": "TROY",
+      "quote": "I like the longer hose because it's easy to put it in a position to read",
+      "url": "https://www.summitracing.com/parts/otc-5606/reviews",
+      "evidence": "I like the longer hose because it's easy to put it in a position to read",
+      "modelEvidence": "The review appears on the page identified as OTC Compression Tester Kits 5606 / OTC-5606, the same page showing 18 reviews.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "otc-5609",
+      "model": "5609",
+      "author": "JOSE",
+      "quote": "This tool is the best your money can buy when you are on a tight budget.",
+      "url": "https://www.summitracing.com/parts/otc-5609/reviews",
+      "evidence": "This tool is the best your money can buy when you are on a tight budget.",
+      "modelEvidence": "The review appears on the page identified as OTC Cylinder Leakage Tester Kits 5609 / OTC-5609, the same page showing 67 reviews.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "lisle-51450",
+      "model": "51450",
+      "author": "Larry Hendrickson",
+      "quote": "Well made tool.",
+      "url": "https://www.lislecorp.com/specialty-tools/harmonic-damper-pulley-puller-537",
+      "evidence": "Well made tool.",
+      "modelEvidence": "The review is embedded on the page headed “51450 Harmonic Damper Pulley Puller.”",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "bosch-gic5-27c",
+      "model": "GIC5-27C",
+      "author": "oddthomas2113",
+      "quote": "It’s super easy to use. The camera quality is fantastic.",
+      "url": "https://www.boschtools.com/us/en/products/gic5-27c-0601241410",
+      "evidence": "It’s super easy to use. The camera quality is fantastic.",
+      "modelEvidence": "The review appears under the GIC5-27C page and names the 12V Max connected 11 ft handheld camera.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "bosch-gic5-27c",
+      "model": "GIC5-27C",
+      "author": "UnhappyCustomer",
+      "quote": "the camera cable inside was only 4 feet long.",
+      "url": "https://www.boschtools.com/us/en/products/gic5-27c-0601241410",
+      "evidence": "the camera cable inside was only 4 feet long.",
+      "modelEvidence": "The review is displayed in the GIC5-27C page’s 2-review section and discusses the camera cable.",
+      "checkedDate": "2026-10-17",
+      "verification": "Direct source page retrieved and exact excerpt found"
+    },
+    {
+      "productId": "gearwrench-83169",
+      "model": "83169",
+      "author": "Rob137",
+      "quote": "Solid box with a high price tag.",
+      "url": "https://www.acmetools.com/gearwrench-42in-industrial-mobile-work-station-with-11-drawers-83169/099575831690.html",
+      "evidence": "Solid box with a high price tag.",
+      "modelEvidence": "The review is in the customer-review section of the exact 83169 page titled GEARWRENCH 42in INDUSTRIAL MOBILE WORK STATION WITH 11 DRAWERS.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    },
+    {
+      "productId": "first-alert-pro5",
+      "model": "PRO5",
+      "author": "Bruce",
+      "quote": "Put out the small fire on the engine.",
+      "url": "https://www.lowes.com/reviews/first-alert-pro5-fire-extinguishers/3057079",
+      "evidence": "Put out the small fire on the engine.",
+      "modelEvidence": "The review URL is the exact PRO5 review page for First Alert PRO5 Fire Extinguishers / product 3057079.",
+      "checkedDate": "2026-10-17",
+      "verification": "Completed multi-source research job retrieved exact-model feedback; independent follow-up page retrieval was limited"
+    }
+  ]
+}
