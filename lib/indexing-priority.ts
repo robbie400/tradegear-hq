@@ -20,6 +20,6 @@ export const indexingPriorityPaths = new Set<string>([
  *  For every other URL keep existing output unchanged.
  */
 export function indexingPriorityCanonicalPath(path:string):string {
- const candidate=path==='/' ? '/' : path.replace(/\\/+$/, '');
+ const candidate=path==='/' ? '/' : path.replace(/[/]+$/, '');
  return indexingPriorityPaths.has(candidate) ? candidate : path;
 }
