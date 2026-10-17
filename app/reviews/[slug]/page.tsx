@@ -1,3 +1,4 @@
+import {indexingPriorityCanonicalPath} from '@/lib/indexing-priority';
 import {FullProductReview} from '@/components/FullProductReview';
 import {getGuide} from '@/lib/data';
 import { getProductImage } from "@/lib/product-images";
@@ -19,8 +20,8 @@ export async function generateMetadata({
   return {
     title: r.title,
     description: r.meta,
-    openGraph: {title:r.title,description:r.meta,url:`/reviews/${slug}/`},
-    alternates: { canonical: `/reviews/${slug}/` },
+    openGraph: {title:r.title,description:r.meta,url:indexingPriorityCanonicalPath(`/reviews/${slug}/`)},
+    alternates: { canonical: indexingPriorityCanonicalPath(`/reviews/${slug}/`) },
   };
 }
 export default async function ReviewPage({

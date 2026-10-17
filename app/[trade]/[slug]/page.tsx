@@ -1,3 +1,4 @@
+import {indexingPriorityCanonicalPath} from '@/lib/indexing-priority';
 import {AutomotiveGuide} from '@/components/Automotive';
 import {carpenterFinal25Categories} from '@/lib/carpenter-final25';
 import { affiliateUrl } from "@/lib/affiliate";
@@ -30,8 +31,8 @@ export async function generateMetadata({
   return {
     title: g.title.split(":")[0],
     description: g.meta,
-    openGraph: {title:g.title,description:g.meta,url:`/${trade}/${slug}/`},
-    alternates: { canonical: `/${trade}/${slug}/` },
+    openGraph: {title:g.title,description:g.meta,url:indexingPriorityCanonicalPath(`/${trade}/${slug}/`)},
+    alternates: { canonical: indexingPriorityCanonicalPath(`/${trade}/${slug}/`) },
   };
 }
 export default async function Guide({
