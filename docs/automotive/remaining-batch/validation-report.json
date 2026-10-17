@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-17",
+  "stagedProducts": 39,
+  "liveProducts": 61,
+  "totalPlanned": 100,
+  "exactAsinDestinations": 39,
+  "imagesDecodedSeparately": 39,
+  "sourceImagesAtLeast1000px": 33,
+  "largerPhotoReplacements": [
+    "otc-6007",
+    "mityvac-mv6412a",
+    "streamlight-68750"
+  ],
+  "imagePermissionsEstablished": 0,
+  "higherTicketAtLeast150USD": 15,
+  "observedPriceAtLeast100USD": 20,
+  "variantApprovals": [
+    "motivx-tools-mx2320",
+    "motivx-tools-mx2326"
+  ],
+  "runtimeCanonicalCount": 399,
+  "status": "preparation validated; not publication clearance"
+}

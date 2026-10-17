@@ -1160,5 +1160,895 @@
       "label": "Construction and casters",
       "value": "18-gauge steel; four swivel casters, two locking"
     }
+  ],
+  "power-probe-pp3ls01": [
+    {
+      "label": "Operating supply",
+      "value": "12–24 V DC"
+    },
+    {
+      "label": "DC voltmeter",
+      "value": "0 to +70 V +1 digit"
+    },
+    {
+      "label": "Circuit breaker",
+      "value": "8 A thermal, manual reset"
+    },
+    {
+      "label": "Cable reach",
+      "value": "20 ft standard cable plus 20 ft extension; approximately 12 m combined"
+    },
+    {
+      "label": "Gold Series leads",
+      "value": "1 / 3 / 6 ft"
+    }
+  ],
+  "gearwrench-85077": [
+    {
+      "label": "Drive tang",
+      "value": "1/2 in"
+    },
+    {
+      "label": "Primary torque range",
+      "value": "25–250 ft-lb"
+    },
+    {
+      "label": "Accuracy",
+      "value": "±2% CW and ±3% CCW between 20% and 100% of wrench scale"
+    },
+    {
+      "label": "Measurement units",
+      "value": "ft-lb, in-lb, Nm, kg-m, kg-cm"
+    },
+    {
+      "label": "Overall length",
+      "value": "25.75 in"
+    }
+  ],
+  "gearwrench-81206t": [
+    {
+      "label": "Drive sizes",
+      "value": "1/4 in, 3/8 in and 1/2 in"
+    },
+    {
+      "label": "Individual lengths",
+      "value": "5 in; 8 in; 11 in"
+    },
+    {
+      "label": "Tooth count",
+      "value": "90"
+    },
+    {
+      "label": "Swing arc",
+      "value": "4°"
+    },
+    {
+      "label": "Set piece count",
+      "value": "3"
+    }
+  ],
+  "gearwrench-81212xp": [
+    {
+      "label": "Drive",
+      "value": "3/8 in"
+    },
+    {
+      "label": "Overall length",
+      "value": "4.74 in"
+    },
+    {
+      "label": "Tooth count",
+      "value": "120"
+    },
+    {
+      "label": "Swing arc",
+      "value": "3°"
+    },
+    {
+      "label": "Head width",
+      "value": "1.09 in"
+    }
+  ],
+  "gearwrench-9533n": [
+    {
+      "label": "Set size",
+      "value": "8 pieces"
+    },
+    {
+      "label": "Sizes",
+      "value": "5/16, 3/8, 7/16, 1/2, 9/16, 5/8, 11/16, 3/4 in"
+    },
+    {
+      "label": "Tooth count",
+      "value": "72"
+    },
+    {
+      "label": "Box-end drive type",
+      "value": "12 Point"
+    },
+    {
+      "label": "Offset",
+      "value": "15°"
+    }
+  ],
+  "milwaukee-2562-20": [
+    {
+      "label": "Drive",
+      "value": "3/8 in"
+    },
+    {
+      "label": "Nut-busting torque",
+      "value": "Up to 550 ft-lb"
+    },
+    {
+      "label": "Bare-tool weight",
+      "value": "2.2 lb"
+    },
+    {
+      "label": "Mode 3 speed",
+      "value": "0–3,000 RPM"
+    },
+    {
+      "label": "Mode 3 impact rate",
+      "value": "0–3,300 IPM"
+    }
+  ],
+  "dewalt-dcf900b": [
+    {
+      "label": "Voltage",
+      "value": "20V maximum initial battery voltage; 18V nominal"
+    },
+    {
+      "label": "Drive/anvil",
+      "value": "1/2-in hog ring anvil"
+    },
+    {
+      "label": "Motor",
+      "value": "Brushless"
+    },
+    {
+      "label": "Maximum fastening torque",
+      "value": "1,030 ft-lb"
+    },
+    {
+      "label": "Maximum breakaway torque",
+      "value": "1,400 ft-lb"
+    }
+  ],
+  "mityvac-mv6830": [
+    {
+      "label": "Working pressure",
+      "value": "60–150 psi (4.1–10.3 bar)"
+    },
+    {
+      "label": "Reservoir capacity",
+      "value": "1.9 quart (1.8 liter)"
+    },
+    {
+      "label": "Vacuum at 90 psi",
+      "value": "26 in. Hg (88 kPa)"
+    },
+    {
+      "label": "Air consumption at 90 psi",
+      "value": "4.3 cfm (2.0 l/s)"
+    },
+    {
+      "label": "Flow rate",
+      "value": "50 oz/min at 60 psi; 70 oz/min at 90 and 150 psi"
+    },
+    {
+      "label": "Inlet thread size",
+      "value": "1/4 in NPT"
+    }
+  ],
+  "otc-7249": [
+    {
+      "label": "Receiver tube dimensions",
+      "value": "I.D. × O.D.: 2-3/4 × 3; 2-1/4 × 2-1/2; 1-3/4 × 2 inches"
+    },
+    {
+      "label": "Listed receivers",
+      "value": "29503, 29504 and 29505"
+    },
+    {
+      "label": "Listed removing adapters",
+      "value": "305227 and 305228"
+    },
+    {
+      "label": "Package dimensions",
+      "value": "16.1 × 16 × 5.7 inches"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "16.55 lb"
+    },
+    {
+      "label": "Documented tasks",
+      "value": "Compatible press-fit ball joints, universal joints and truck brake anchor pins"
+    }
+  ],
+  "otc-6295": [
+    {
+      "label": "Product dimensions",
+      "value": "17.6 × 12.5 × 4.2 in"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "12.3 lb"
+    },
+    {
+      "label": "Stated service coverage",
+      "value": "Pitman arms, ball joints, and tie rods on most vehicles"
+    },
+    {
+      "label": "Included tool identifiers",
+      "value": "7314A, 7315A, 7503, 6296 and 6297"
+    }
+  ],
+  "otc-6297": [
+    {
+      "label": "Adjustment",
+      "value": "Up to 2 in"
+    },
+    {
+      "label": "Application",
+      "value": "Separates ball joint from spindle support arm"
+    },
+    {
+      "label": "Manufacturer coverage",
+      "value": "Many domestic and import front-wheel-drive vehicles; application check required"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "5.6 × 11 × 1.3 in"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "2.85 lb"
+    }
+  ],
+  "otc-6575": [
+    {
+      "label": "Drive screw",
+      "value": "3/4 inch, with equalizer washer"
+    },
+    {
+      "label": "Application guide described",
+      "value": "Coverage through model year 2018; verify later vehicles separately"
+    },
+    {
+      "label": "Additional coverage adapters",
+      "value": "Six adapters described by OTC"
+    },
+    {
+      "label": "Related included tools",
+      "value": "Tie-rod/ball-joint tool and two Ford axle installers"
+    },
+    {
+      "label": "Package dimensions",
+      "value": "26 × 15 × 8 inches"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "54 lb"
+    }
+  ],
+  "otc-4579": [
+    {
+      "label": "Hammer mass",
+      "value": "5 lb"
+    },
+    {
+      "label": "Puller arrangements",
+      "value": "Internal/external; two- and three-jaw configurations"
+    },
+    {
+      "label": "Attachment thread",
+      "value": "5/8 in–18"
+    },
+    {
+      "label": "Included accessories",
+      "value": "Front hub and rear axle pullers; grip-wrench and dent-puller attachments"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "24 × 9.5 × 4.5 in"
+    },
+    {
+      "label": "Product weight",
+      "value": "17.2 lb"
+    }
+  ],
+  "otc-6007": [
+    {
+      "label": "SKU",
+      "value": "6007"
+    },
+    {
+      "label": "Application",
+      "value": "Installing a ball joint on a lower control arm"
+    },
+    {
+      "label": "Pry-bar interface",
+      "value": "OTC 7420 or 7421, or any 7/8 in. diameter pry bar"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "5.2 × 5.5 × 0.2 in"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "0.7 lb"
+    }
+  ],
+  "mityvac-mv7300": [
+    {
+      "label": "Operation",
+      "value": "Standard compressed shop air drives a venturi vacuum for fluid evacuation"
+    },
+    {
+      "label": "Reservoir capacity",
+      "value": "2.3 gal. (8.8 l)"
+    },
+    {
+      "label": "Weight",
+      "value": "7.5 lbs. (3.4 kg)"
+    },
+    {
+      "label": "Size",
+      "value": "25.6 × 13 × 9.5 in. (650 × 330 × 240 mm), tall × wide × deep"
+    }
+  ],
+  "mityvac-mv6412a": [
+    {
+      "label": "Application",
+      "value": "Refilling or topping off sealed automatic transmissions"
+    },
+    {
+      "label": "Reservoir capacity",
+      "value": "2.5 gal. (10 l)"
+    },
+    {
+      "label": "Maximum pressure",
+      "value": "20 psi (1.4 bar)"
+    },
+    {
+      "label": "Adapter kit",
+      "value": "MVA5800A with 13 adapters, MVA580 through MVA592"
+    },
+    {
+      "label": "Hose and controls",
+      "value": "5 ft. dispensing hose with flow control and auto-shutoff valves"
+    },
+    {
+      "label": "Packaged size and weight",
+      "value": "8.5 × 12.3 × 22.2 in. and 8 lbs. (3.6 kg)"
+    }
+  ],
+  "lisle-19722": [
+    {
+      "label": "Capacity",
+      "value": "8 US quarts"
+    },
+    {
+      "label": "Dimensions",
+      "value": "24 × 36 × 1.5 inches"
+    },
+    {
+      "label": "Material",
+      "value": "Polyethylene"
+    },
+    {
+      "label": "UPC",
+      "value": "083045197225"
+    }
+  ],
+  "motivx-tools-mx2320": [
+    {
+      "label": "Current model",
+      "value": "MX2320-US"
+    },
+    {
+      "label": "Filter interface",
+      "value": "64.3mm; 14 flutes"
+    },
+    {
+      "label": "Drive options",
+      "value": "3/8-inch ratchet or 24mm / 15/16-inch socket or wrench"
+    },
+    {
+      "label": "Body and drive hub",
+      "value": "CNC-machined 6061-T6 aluminum body; 7075-T6 aluminum drive hub"
+    },
+    {
+      "label": "Stated fitment",
+      "value": "Toyota, Lexus, Scion cartridge systems with plastic or aluminum OEM Toyota caps; matching spin-on examples include Toyota 90915-YZZN1 and Honda 15400-PLM-A02"
+    }
+  ],
+  "motivx-tools-mx2326": [
+    {
+      "label": "Current model",
+      "value": "MX2326-US"
+    },
+    {
+      "label": "Filter interface",
+      "value": "86.6mm; 16 flutes"
+    },
+    {
+      "label": "Drive options",
+      "value": "3/8-inch ratchet or 24mm / 15/16-inch socket or wrench"
+    },
+    {
+      "label": "Body and drive hub",
+      "value": "CNC-machined 6061-T6 aluminum body; 7075-T6 aluminum drive hub"
+    },
+    {
+      "label": "Stated fitment",
+      "value": "BMW smooth-top oil-filter caps and most Volvo smooth-top oil-filter caps"
+    }
+  ],
+  "lisle-24980": [
+    {
+      "label": "Kit size",
+      "value": "19 pieces"
+    },
+    {
+      "label": "Radiator connections",
+      "value": "Six colored adapters and six caps"
+    },
+    {
+      "label": "Access extensions",
+      "value": "Two straight extensions and two 45-degree elbows"
+    },
+    {
+      "label": "Updated adapter",
+      "value": "Threaded connection for 2017-and-newer Toyota/Lexus V35A applications; verify vehicle fit"
+    },
+    {
+      "label": "UPC and shipping weight",
+      "value": "083045249801; 1.24 lbs. shipping weight"
+    }
+  ],
+  "mityvac-mv4560": [
+    {
+      "label": "Kit contents",
+      "value": "Selectline hand pressure pump with 2 in. (50 mm) gauge; four cooling-system test adapters; two cap-test adapters; hose; compression nut; user manual"
+    },
+    {
+      "label": "Gauge units",
+      "value": "psi and kPa"
+    },
+    {
+      "label": "Packaged weight",
+      "value": "2.5 lbs. (1.1 kg)"
+    },
+    {
+      "label": "Packaged size",
+      "value": "13.3 × 12 × 2.8 in. (335 × 305 × 70 mm), wide × deep × tall"
+    },
+    {
+      "label": "Stated coverage",
+      "value": "Most US and Asian cars/light trucks and many European vehicles"
+    }
+  ],
+  "mityvac-mv4533": [
+    {
+      "label": "Model",
+      "value": "MV4533"
+    },
+    {
+      "label": "Vacuum target",
+      "value": "Approximately 23 inches of mercury"
+    },
+    {
+      "label": "Hold check",
+      "value": "No gauge change for 30 seconds before refill"
+    },
+    {
+      "label": "Service parts",
+      "value": "Vacuum pump 801957; coolant hose 823485; vacuum gauge MVA6172"
+    },
+    {
+      "label": "Air connector",
+      "value": "Not included"
+    }
+  ],
+  "otc-7991": [
+    {
+      "label": "Product type",
+      "value": "Cooling System Pressure Tester"
+    },
+    {
+      "label": "Stated applications",
+      "value": "Most cars, light commercial trucks, motorcycles, and marine applications"
+    },
+    {
+      "label": "Fit design",
+      "value": "Universal fit intended to eliminate the need for multiple adapters"
+    },
+    {
+      "label": "Explicit exclusions",
+      "value": "Saturn and Kia cars; Jeep with the plastic reservoir"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "12.4 × 8.9 × 4.1 in"
+    }
+  ],
+  "lisle-60900": [
+    {
+      "label": "SKU",
+      "value": "60900"
+    },
+    {
+      "label": "Stepped-tip sizes",
+      "value": "1/2 in., 5/8 in., and 3/4 in."
+    },
+    {
+      "label": "Water connection",
+      "value": "Standard garden hose"
+    },
+    {
+      "label": "Control",
+      "value": "One-hand adjustable water pressure via spray-gun handle"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "0.9 lbs"
+    }
+  ],
+  "milton-s-506": [
+    {
+      "label": "Exact package identifier",
+      "value": "S-506; UPC 030937005069"
+    },
+    {
+      "label": "Pressure range",
+      "value": "10–160 psi"
+    },
+    {
+      "label": "Scale graduations",
+      "value": "2 psi"
+    },
+    {
+      "label": "Hose length",
+      "value": "15 inches"
+    },
+    {
+      "label": "Air inlet",
+      "value": "1/4-inch NPT, per exact S-506 retailer record"
+    },
+    {
+      "label": "Chuck",
+      "value": "Dual-head design"
+    }
+  ],
+  "autel-ts508wf": [
+    {
+      "label": "Quick Mode data",
+      "value": "Sensor ID, temperature, pressure, battery condition, and OE sensor information"
+    },
+    {
+      "label": "MX-Sensor programming",
+      "value": "Three options in summary; Advanced Mode shows Copy by OBD, Activation, Manual Input, and Auto Create 1–16"
+    },
+    {
+      "label": "TPMS diagnostics",
+      "value": "View system faults; read and clear TPMS DTCs; on-tool DTC descriptions"
+    },
+    {
+      "label": "Relearn",
+      "value": "On-tool relearn procedure guide and OBD relearn coverage where available"
+    },
+    {
+      "label": "Updates",
+      "value": "USB with Maxi PC Suite or Wi-Fi"
+    }
+  ],
+  "lisle-18810": [
+    {
+      "label": "Preset torque",
+      "value": "4 inch-pounds"
+    },
+    {
+      "label": "Use",
+      "value": "Installs and removes valve cores, including late-model TPMS vehicles"
+    },
+    {
+      "label": "Design",
+      "value": "Slim design for access in tight spots"
+    },
+    {
+      "label": "SKU/UPC",
+      "value": "18810 / 083045188100"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "0.25 lbs"
+    }
+  ],
+  "otc-5606": [
+    {
+      "label": "Intended engines",
+      "value": "Gasoline engines: domestic, import, motorcycle, marine, and small engines"
+    },
+    {
+      "label": "Gauge range",
+      "value": "0–300 psi / 0–2100 kPa"
+    },
+    {
+      "label": "Hose",
+      "value": "26-inch flexible hose gauge assembly with quick coupler"
+    },
+    {
+      "label": "Adapters",
+      "value": "10 mm, 12 mm, 18 mm; 12-inch flexible 14 mm standard- and long-reach"
+    },
+    {
+      "label": "Seat compatibility",
+      "value": "Adapters work on flat and tapered seat plugs"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "14.9 × 9.5 × 3.4 in"
+    }
+  ],
+  "otc-5609": [
+    {
+      "label": "Gauge scale",
+      "value": "0–100 psi / 0–700 kPa"
+    },
+    {
+      "label": "Hose",
+      "value": "24-inch flexible 14 mm hose"
+    },
+    {
+      "label": "Adapters",
+      "value": "10 mm, 12 mm and 18 mm thread adapters"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "10.25 × 8.75 × 3.8 in"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "4 lb"
+    }
+  ],
+  "otc-5613": [
+    {
+      "label": "Gauge size",
+      "value": "3-1/2 inches with chrome bezel and protective outer boot"
+    },
+    {
+      "label": "Vacuum scale",
+      "value": "0–30 in. Hg and 0–70 cm Hg"
+    },
+    {
+      "label": "Pressure scale",
+      "value": "0–15 psi and 0–100 kPa"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "10.3 × 8.9 × 3.9 in"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "2.5 lb"
+    }
+  ],
+  "otc-5630": [
+    {
+      "label": "Gauge range",
+      "value": "0–100 psi / 0–700 kPa"
+    },
+    {
+      "label": "Fittings",
+      "value": "Solid brass fittings"
+    },
+    {
+      "label": "Safety feature",
+      "value": "Pressure-relief valve for safe, clean testing"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "11.7 × 4.7 × 1.7 in"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "1.05 lb"
+    }
+  ],
+  "lisle-51450": [
+    {
+      "label": "Named applications",
+      "value": "Chrysler, GM, GM LS, Mitsubishi and Dodge"
+    },
+    {
+      "label": "Shipping weight",
+      "value": "2.6 lb"
+    },
+    {
+      "label": "Jaw retention",
+      "value": "Clevis pin; jaws can be removed and replaced"
+    },
+    {
+      "label": "Listed rods",
+      "value": "4 in, 5-3/8 in, 6-1/2 in and 7-3/8 in"
+    },
+    {
+      "label": "Fitment examples",
+      "value": "5.9L Dodge; 4.2L Trailblazer/Envoy/Bravada; 4.2L Rainier; 3.5L/2.8L Colorado/Canyon; H3; GM LS"
+    }
+  ],
+  "streamlight-68750": [
+    {
+      "label": "Modes/output",
+      "value": "Spot 140 lm; flood 140 lm; spot/flood 245 lm"
+    },
+    {
+      "label": "Runtime",
+      "value": "18 h spot; 18 h flood; 9 h spot/flood"
+    },
+    {
+      "label": "Non-magnetic size/weight",
+      "value": "7.0 in; 6.8 oz with AA alkaline batteries"
+    },
+    {
+      "label": "Protection",
+      "value": "IP67; waterproof to 1 m for 30 minutes; 2 m impact resistance tested"
+    },
+    {
+      "label": "Beam distance",
+      "value": "171 m spot; 8 m flood"
+    }
+  ],
+  "bosch-gic5-27c": [
+    {
+      "label": "Camera cable",
+      "value": "11.5 ft"
+    },
+    {
+      "label": "Camera-head diameter",
+      "value": "8.3 mm"
+    },
+    {
+      "label": "Display",
+      "value": "5-inch high-resolution display with photo/video capture"
+    },
+    {
+      "label": "Protection",
+      "value": "IP67 camera cable; IP54 tool, excluding battery and battery compartment"
+    },
+    {
+      "label": "US package",
+      "value": "BAT414 12V Max 2.0 Ah battery, GAL12V-20 charger, USB cable, 32 GB Micro SD card and accessories"
+    }
+  ],
+  "gearwrench-83169": [
+    {
+      "label": "Storage volume",
+      "value": "19,000 in³"
+    },
+    {
+      "label": "Total load capacity",
+      "value": "2,000 lb"
+    },
+    {
+      "label": "Drawer load",
+      "value": "100 lb maximum per drawer; 11 ball-bearing slide drawers"
+    },
+    {
+      "label": "Overall dimensions",
+      "value": "45.5 in W × 25.4 in D × 41 in H"
+    },
+    {
+      "label": "Catalog weight",
+      "value": "317 lb"
+    },
+    {
+      "label": "Caster size/material",
+      "value": "6 in × 2 in polyurethane casters"
+    }
+  ],
+  "sunex-8019b": [
+    {
+      "label": "Model",
+      "value": "8019B, Deluxe Adjustable Work Table with Drawer — black"
+    },
+    {
+      "label": "Rated load capacity",
+      "value": "220 lb"
+    },
+    {
+      "label": "Adjustable height",
+      "value": "34 in to 47.75 in"
+    },
+    {
+      "label": "Tray construction",
+      "value": "1.5 mm gauge steel"
+    },
+    {
+      "label": "Tray dimensions",
+      "value": "28-7/8 x 19-7/8 x 1 in overall; 28-1/2 x 16-7/8 x 1 in main area"
+    },
+    {
+      "label": "Overall footprint and shipping weight",
+      "value": "32-3/4 in L x 20-3/8 in W; 39.7 lb shipping weight"
+    }
+  ],
+  "gearwrench-gwmp100": [
+    {
+      "label": "Model/type",
+      "value": "GWMP100 portable rolling tool case; empty case record"
+    },
+    {
+      "label": "Overall dimensions",
+      "value": "24.69 in L x 18.69 in W x 11.5 in H"
+    },
+    {
+      "label": "Catalog weight",
+      "value": "30.50 lb"
+    },
+    {
+      "label": "Storage volume",
+      "value": "3,313.8 in³"
+    },
+    {
+      "label": "Tray system",
+      "value": "4 trays; each 20-1/4 x 13-1/2 in; built-in foam protection plus 2 extra foam pieces"
+    },
+    {
+      "label": "Shell and environmental claims",
+      "value": "Copolymer polypropylene; IP67; stated resistance to chemicals, dust, humidity, and -33°C/+90°C temperatures"
+    }
+  ],
+  "first-alert-pro5": [
+    {
+      "label": "Exact model identity",
+      "value": "PRO5; underlying model FE3A40GR; current product option SKU 1039896"
+    },
+    {
+      "label": "Fire class",
+      "value": "UL rated 3-A:40-B:C"
+    },
+    {
+      "label": "Agent/type",
+      "value": "Rechargeable dry-powder ABC fire extinguisher; manual describes dry powder"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "16.2 in H x 6 in L x 4.8 in W"
+    },
+    {
+      "label": "Product weight",
+      "value": "10.2 lb"
+    },
+    {
+      "label": "Mounting and warranty",
+      "value": "Heavy-duty wall bracket included on product page; 12-year limited warranty listed"
+    }
+  ],
+  "bluedriver-lsb2": [
+    {
+      "label": "Vehicle coverage baseline",
+      "value": "1996 and newer cars, SUVs, and light trucks sold in North America; exact support is vehicle-dependent"
+    },
+    {
+      "label": "Connectivity",
+      "value": "Bluetooth to iOS and Android devices; no cables or subscriptions stated"
+    },
+    {
+      "label": "Core diagnostic features",
+      "value": "Read/clear codes, Repair Reports, Freeze Frame, Live Data, Mode 6, and Smog Check"
+    },
+    {
+      "label": "Enhanced diagnostics",
+      "value": "ABS, Airbag/SRS, TPMS and other enhanced systems on a range of supported manufacturers"
+    },
+    {
+      "label": "Compatibility method",
+      "value": "Checker asks country of original sale, year, make, model, and engine, then reports supported systems/features"
+    }
   ]
 }

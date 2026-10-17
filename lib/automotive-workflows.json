@@ -50,7 +50,21 @@
       "maxxhaul-70472",
       "gearwrench-85062m",
       "gearwrench-84918n",
-      "gearwrench-9416"
+      "gearwrench-9416",
+      "gearwrench-85077",
+      "gearwrench-81206t",
+      "gearwrench-81212xp",
+      "gearwrench-9533n",
+      "milton-s-506",
+      "autel-ts508wf",
+      "lisle-18810",
+      "otc-5606",
+      "otc-5609",
+      "otc-5613",
+      "otc-5630",
+      "streamlight-68750",
+      "bosch-gic5-27c",
+      "first-alert-pro5"
     ]
   },
   {
@@ -76,7 +90,11 @@
       "milwaukee-2125-20",
       "ullman-devices-ht-2",
       "ullman-devices-htc-2",
-      "autel-al519"
+      "autel-al519",
+      "power-probe-pp3ls01",
+      "streamlight-68750",
+      "bosch-gic5-27c",
+      "bluedriver-lsb2"
     ]
   },
   {
@@ -100,7 +118,10 @@
       "milwaukee-2125-20",
       "ullman-devices-ht-2",
       "ullman-devices-htc-2",
-      "noco-gb70"
+      "noco-gb70",
+      "power-probe-pp3ls01",
+      "streamlight-68750",
+      "bosch-gic5-27c"
     ]
   },
   {
@@ -150,7 +171,16 @@
       "gearwrench-85062m",
       "gearwrench-84918n",
       "dewalt-dcf891b",
-      "sunex-6602lp"
+      "sunex-6602lp",
+      "gearwrench-85077",
+      "gearwrench-81206t",
+      "gearwrench-81212xp",
+      "milwaukee-2562-20",
+      "dewalt-dcf900b",
+      "milton-s-506",
+      "autel-ts508wf",
+      "lisle-18810",
+      "first-alert-pro5"
     ]
   },
   {
@@ -196,7 +226,13 @@
       "gearwrench-84918n",
       "gearwrench-9416",
       "lisle-28600",
-      "sunex-6602lp"
+      "sunex-6602lp",
+      "gearwrench-85077",
+      "gearwrench-9533n",
+      "mityvac-mv6830",
+      "streamlight-68750",
+      "bosch-gic5-27c",
+      "first-alert-pro5"
     ]
   },
   {
@@ -238,7 +274,151 @@
       "gearwrench-84918n",
       "sunex-6602lp",
       "mityvac-mv7201",
-      "lisle-63250"
+      "lisle-63250",
+      "gearwrench-85077",
+      "mityvac-mv7300",
+      "mityvac-mv6412a",
+      "lisle-19722",
+      "motivx-tools-mx2320",
+      "motivx-tools-mx2326",
+      "streamlight-68750",
+      "bosch-gic5-27c",
+      "first-alert-pro5"
+    ]
+  },
+  {
+    "id": "W07",
+    "slug": "suspension-steering-service-equipment",
+    "title": "Suspension and steering service equipment",
+    "summary": "Choose separators, pressing equipment and support for the actual assembly.",
+    "body": "Begin with the vehicle service information and identify whether the operation is separating a tapered stud, pressing a joint, servicing a hub or gaining control-arm access. Check the required adapters and frame clearance before choosing a kit. The OTC 6295 set includes the 6297 separator; they are a set-versus-standalone decision. Use the 7249 for supported pressing arrangements and consult the 6575 application guide for hub work. Include appropriate vehicle support, hand tools and final torque equipment in the plan, and retain suitable workshop equipment already available. A powerful impact wrench is an optional removal aid where the tool instructions permit it, not a substitute for a compatible receiver or a specified tightening procedure.",
+    "caution": "This is an equipment buying plan, not coil-spring or strut-disassembly instruction. Stored suspension forces, loaded joints and vehicle support require the proper vehicle procedure and competence. Do not apply impact loading to a tool unless its own instructions allow it. Check Hub Grappler coverage beyond its published guide years.",
+    "guideSlugs": [
+      "mechanic-torque-wrenches",
+      "mechanic-socket-sets",
+      "mechanic-hand-tools",
+      "cordless-mechanic-tools",
+      "mechanical-pullers-suspension-tools",
+      "floor-jacks-jack-stands",
+      "workshop-protective-equipment"
+    ],
+    "productIds": [
+      "gearwrench-85077",
+      "gearwrench-81206t",
+      "gearwrench-81212xp",
+      "milwaukee-2562-20",
+      "dewalt-dcf900b",
+      "otc-7249",
+      "otc-6295",
+      "otc-6297",
+      "otc-6575",
+      "otc-4579",
+      "otc-6007",
+      "first-alert-pro5",
+      "tekton-trq50402",
+      "tekton-trq52403",
+      "gearwrench-85062m",
+      "gearwrench-80300p",
+      "sunex-2569",
+      "tekton-skt15311",
+      "gearwrench-84918n",
+      "tekton-sbh00224",
+      "tekton-sha91011",
+      "gearwrench-80066h",
+      "klein-d203-8",
+      "klein-d228-8",
+      "irwin-502l3",
+      "knipex-8701250",
+      "gearwrench-80742",
+      "mayhew-61366",
+      "lisle-31750",
+      "lisle-35440",
+      "klein-32500hd",
+      "stanley-33-725",
+      "milwaukee-2962-20",
+      "milwaukee-2567-20",
+      "dewalt-dcf891b",
+      "arcan-a20019",
+      "esco-10498-pair",
+      "sunex-6602lp",
+      "dewalt-dpg94-1d",
+      "3m-peltor-x4a",
+      "maxxhaul-70472"
+    ]
+  },
+  {
+    "id": "W08",
+    "slug": "cooling-system-diagnosis-refill-toolkit",
+    "title": "Cooling-system diagnosis and refill toolkit",
+    "summary": "Plan pressure checks, containment, filling and any specific flushing operation.",
+    "body": "Separate diagnosis from replacing coolant. For pressure checks, choose between a suitable adapter-based tester and a verified universal-fit connection. For refilling, decide whether the vehicle procedure calls for a funnel-based bleeding arrangement or supports a vacuum-assisted refill tool. MV4533 requires shop air; the MV4560 pressure tester uses a hand pump. The updated 24980 funnel kit adds a specific Toyota/Lexus V35A connection but still needs an exact fit check. A backflush tool is only relevant when that separate service operation is appropriate. Add inspection lighting and adequate collection containers, and keep incompatible transmission-fill equipment out of the cooling-system plan.",
+    "caution": "Follow cool-system temperature and pressure requirements and capture coolant appropriately. Do not treat an 8.8-litre extractor or shallow drip pan as automatic proof of adequate drain capacity. Confirm fluid compatibility and adapter sealing. Vacuum refill and vacuum-hold observations do not establish that every cooling-system fault has been diagnosed.",
+    "guideSlugs": [
+      "oil-drain-filling-equipment",
+      "cooling-system-service-tools",
+      "mechanic-inspection-tools",
+      "workshop-protective-equipment"
+    ],
+    "productIds": [
+      "mityvac-mv7300",
+      "lisle-19722",
+      "lisle-24980",
+      "mityvac-mv4560",
+      "mityvac-mv4533",
+      "otc-7991",
+      "lisle-60900",
+      "streamlight-68750",
+      "bosch-gic5-27c",
+      "first-alert-pro5",
+      "lisle-17922",
+      "lisle-19752",
+      "mityvac-mv7201",
+      "streamlight-66118",
+      "milwaukee-2125-20",
+      "ullman-devices-ht-2",
+      "ullman-devices-htc-2",
+      "dewalt-dpg94-1d",
+      "3m-peltor-x4a",
+      "maxxhaul-70472"
+    ]
+  },
+  {
+    "id": "W09",
+    "slug": "engine-mechanical-diagnosis-toolkit",
+    "title": "Engine mechanical diagnosis and service toolkit",
+    "summary": "Match the diagnostic question to the gauge, then keep repair tools in a separate role.",
+    "body": "Start with the fault evidence and engine service information. A compression tester compares suitable gasoline-engine cylinders under the required test conditions. A leak-down tester instead uses regulated air and correct engine positioning to help investigate leakage paths. Vacuum and low-pressure gauges answer other questions, while a fuel-pressure kit must match the connection and specified pressure range. Code readers, electrical instruments and inspection cameras can provide supporting evidence. The Lisle 51450 is included only as an optional mechanical repair tool when an appropriate harmonic-damper operation follows diagnosis; it does not perform an engine test. Select the relevant equipment rather than treating all these methods as interchangeable.",
+    "caution": "These gasoline and low-pressure instruments do not establish compatibility with diesel common rail or high-pressure direct injection. Leak-down testing can turn an engine if the setup is wrong; use the vehicle and tester procedures. Match spark-plug thread adapters, ignition/fuel disabling requirements and expected values to the engine. The presence of a code or one abnormal reading does not by itself identify a failed component.",
+    "guideSlugs": [
+      "obd2-code-readers",
+      "diagnostic-scan-tools",
+      "battery-electrical-test-tools",
+      "spark-plug-clearance-tools",
+      "mechanic-inspection-tools",
+      "mechanical-pullers-suspension-tools"
+    ],
+    "productIds": [
+      "power-probe-pp3ls01",
+      "otc-5606",
+      "otc-5609",
+      "otc-5613",
+      "otc-5630",
+      "streamlight-68750",
+      "bosch-gic5-27c",
+      "bluedriver-lsb2",
+      "lisle-51450",
+      "foxwell-nt301",
+      "autel-al519",
+      "innova-5610",
+      "autel-mk900-bt",
+      "fluke-88v-a-kit",
+      "clore-automotive-ba9",
+      "gearwrench-80601",
+      "lisle-68100",
+      "streamlight-66118",
+      "milwaukee-2125-20",
+      "ullman-devices-ht-2",
+      "ullman-devices-htc-2"
     ]
   },
   {
@@ -281,7 +461,19 @@
       "dewalt-dcf891b",
       "sunex-6602lp",
       "mityvac-mv7201",
-      "sunex-8057xtr"
+      "sunex-8057xtr",
+      "power-probe-pp3ls01",
+      "milwaukee-2562-20",
+      "dewalt-dcf900b",
+      "mityvac-mv7300",
+      "mityvac-mv6412a",
+      "lisle-19722",
+      "streamlight-68750",
+      "bosch-gic5-27c",
+      "gearwrench-83169",
+      "sunex-8019b",
+      "gearwrench-gwmp100",
+      "first-alert-pro5"
     ]
   }
 ]

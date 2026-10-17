@@ -4,8 +4,8 @@ const fs=require('node:fs');
 const {automotiveProducts}=require('../lib/automotive-catalog.ts');
 const {getProductRating}=require('../lib/product-ratings.ts');
 const {affiliateUrl}=require('../lib/affiliate.ts');
-const scores=require('../lib/automotive-ratings.json');
-const audit=require('../docs/automotive/rating-verification-2026-10-16.json');
+const scores=[...require('../lib/automotive-ratings.json'),...require('../lib/automotive-rating-additions.json')];
+const audit=require('../docs/automotive/rating-verification-2026-10-17.json');
 assert.equal(audit.total,automotiveProducts.length);
 assert.equal(audit.verified,scores.length);
 assert.equal(audit.unscored,audit.total-audit.verified);
@@ -18,7 +18,7 @@ for(const p of automotiveProducts){
   assert.ok(r.value>0&&r.value<=5&&Number.isInteger(r.count)&&r.count>0);
   assert.equal(r.modelNumber,p.model);assert.equal(r.brand,p.brand);
   assert.ok(!/amazon/i.test(r.source));assert.ok(!new URL(r.url).hostname.includes('amazon.'));
-  assert.equal(r.checkedDate,audit.checkedDate);
+  assert.equal(r.checkedDate,audit.products.find(x=>x.productId===p.id).checkedDate);
   const evidence=audit.products.find(x=>x.productId===p.id).selectedEvidence;
   assert.equal(evidence.value,r.value);assert.equal(evidence.count,r.count);assert.equal(evidence.url,r.url);
  }
@@ -29,4 +29,4 @@ const component=fs.readFileSync('components/ProductRating.tsx','utf8');
 assert.ok(component.includes('className={styles.ratingStarsLink} href={affiliateUrl(amazonUrl,trade)}'));
 assert.ok(component.includes('Rating source: ${r.source}'));
 assert.ok(component.includes("trade !== 'automotive-mechanics' &&"));
-console.log(`Automotive ratings: ${scores.length} verified non-Amazon source scores; ${audit.unscored} explicit gaps; 61 exact tagged Amazon destinations and linked stars passed.`);
+console.log(`Automotive ratings: ${scores.length} verified non-Amazon source scores; ${audit.unscored} explicit gaps; 100 exact tagged Amazon destinations and linked stars passed.`);

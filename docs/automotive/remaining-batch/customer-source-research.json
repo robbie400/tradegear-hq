@@ -1,0 +1,548 @@
+{
+  "checkedDate": "2026-10-17",
+  "method": "Completed research jobs plus direct source checks. Original S-506D feedback rejected; pooled GEARWRENCH torque-wrench score rejected. Source excerpts remain short and attributed.",
+  "products": [
+    {
+      "id": "gearwrench-85077",
+      "rating": {
+        "value": 4.5,
+        "count": 147,
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-1-2-in-Drive-25-250-ft-lbs-Electronic-Torque-Wrench-85077/309919002/1",
+        "source": "The Home Depot",
+        "modelEvidence": "The fetched page heading is ‘Customer Reviews for GEARWRENCH 1/2 in. Drive 25-250 ft./lbs. Electronic Torque Wrench’; its rating link displays 4.5 out of 5 and (147), and the URL contains model 85077.",
+        "groupingCaveat": "The page is the exact 85077 review URL; no pooled generations, colors, sets, or packages were indicated."
+      },
+      "quotes": [
+        {
+          "author": "NosBoss",
+          "quote": "The setting are quite easy to setup.",
+          "context": "Verified Buyer/Verified Reviewer; submitted as part of a sweepstakes entry; Submitted 4 years ago; From Central, PA.",
+          "url": "https://www.acmetools.com/gearwrench-1-2in-drive-electronic-torque-wrench-30-340-nm-85077/099575850776.html",
+          "source": "Acme Tools",
+          "exactModelEvidence": "The fetched Acme page identifies the product as GEARWRENCH 1/2in Drive Electronic Torque Wrench 30-340 Nm 85077 and displays the review under Customer Reviews.",
+          "summary": "Reviewer found setup easy.",
+          "caveat": "The review is marked as submitted as part of a sweepstakes entry; the displayed date is relative."
+        },
+        {
+          "author": "powerstud82",
+          "quote": "The large lcd display is easy to see and read.",
+          "context": "Most Liked Negative Review; Submitted 3 years ago; Verified Buyer; From caintuckee.",
+          "url": "https://www.acmetools.com/gearwrench-1-2in-drive-electronic-torque-wrench-30-340-nm-85077/099575850776.html",
+          "source": "Acme Tools",
+          "exactModelEvidence": "The fetched Acme page identifies model 85077 and displays this review in its Customer Reviews section.",
+          "summary": "Reviewer praised display readability while describing other limitations.",
+          "caveat": "This is labeled Most Liked Negative Review; the displayed date is relative and no incentive is shown for this review."
+        }
+      ],
+      "reason": "Exact-model rating and review evidence were directly visible on fetched retailer pages."
+    },
+    {
+      "id": "gearwrench-81206t",
+      "rating": {
+        "value": 4.7,
+        "count": 21,
+        "url": "https://www.autozone.com/p/reviews/gearwrench-socket-wrench-81206t/1579229",
+        "source": "AutoZone",
+        "modelEvidence": "The fetched review URL contains 81206T; the page displays 4.7 (21 Reviews), and its review text explicitly refers to the ‘Gearwrench 3-piece 90-tooth ratchet set’. The manufacturer page fetched separately identifies 81206T as the 3-piece 1/4, 3/8 and 1/2 drive 90-tooth set.",
+        "groupingCaveat": "The AutoZone page heading is generic (‘Reviews for Gearwrench Socket Wrench’), but the exact 81206T appears in the URL and the reviews explicitly identify the three-piece 90-tooth set; no pooled generations, colors, or packages were indicated."
+      },
+      "quotes": [
+        {
+          "author": "Big Dawg",
+          "quote": "the 90 tooth gearwrench ratchets are the smoothest ratchets i ever felt.",
+          "context": "Sweepstakes Entry; Recommends this product? Yes; 5 years ago.",
+          "url": "https://www.autozone.com/p/reviews/gearwrench-socket-wrench-81206t/1579229",
+          "source": "AutoZone",
+          "exactModelEvidence": "The URL contains 81206T; the fetched page displays the 81206T rating and the review describes the 90-tooth Gearwrench ratchets as a set.",
+          "summary": "Reviewer praised smooth ratcheting.",
+          "caveat": "AutoZone displays this as a promotional/sweepstakes-entry review; author and relative date are exactly as displayed."
+        },
+        {
+          "author": "RushFan",
+          "quote": "The 1/4” drive works great in tight spaces",
+          "context": "Sweepstakes Entry; 5 years ago.",
+          "url": "https://www.autozone.com/p/reviews/gearwrench-socket-wrench-81206t/1579229",
+          "source": "AutoZone",
+          "exactModelEvidence": "The fetched page is the 81206T review URL and the surrounding review text identifies the product as a three-piece set with 1/4, 3/8 and 1/2-inch drives.",
+          "summary": "Reviewer noted tight-space usefulness of the smallest ratchet.",
+          "caveat": "AutoZone displays this as a promotional/sweepstakes-entry review; author and relative date are exactly as displayed."
+        }
+      ],
+      "reason": "AutoZone directly displayed an overall score and count on the exact 81206T review URL, with model-specific set reviews."
+    },
+    {
+      "id": "gearwrench-81212xp",
+      "rating": {
+        "value": 4.9,
+        "count": 15,
+        "url": "https://www.homedepot.com/p/reviews/GEARWRENCH-3-8-in-Drive-120XP-Full-Polish-Chrome-Stubby-Flex-Head-Teardrop-Ratchet-81212XP/330640152/1",
+        "source": "The Home Depot",
+        "modelEvidence": "The fetched page heading is ‘Customer Reviews for GEARWRENCH 3/8 in. Drive 120XP Full Polish Chrome Stubby Flex Head Teardrop Ratchet’; its rating link displays 4.9 out of 5 and (15), and the URL contains 81212XP.",
+        "groupingCaveat": "The page is the exact 81212XP review URL; no pooled generations, colors, sets, or packages were indicated."
+      },
+      "quotes": [],
+      "reason": "An exact-model numeric rating and count were directly visible on Home Depot, but no review excerpt with author/date/context was visible in the fetched page; therefore quotes are empty."
+    },
+    {
+      "id": "gearwrench-9533n",
+      "rating": {
+        "value": 4.6,
+        "count": 10,
+        "url": "https://www.ebay.com/p/5012042231",
+        "source": "eBay",
+        "modelEvidence": "Exact product page title: 'GearWrench 9533N Reversible Combination Ratcheting Wrench Set SAE 8pc'; product details show MPN 9533N and Model GearWrench 9533N. The page visibly states '4.6 out of 5 stars based on 10 product ratings.'",
+        "groupingCaveat": "The eBay page is the exact GearWrench 9533N product page and visibly identifies MPN/model 9533N; it is a marketplace product page, so seller-level variation is not represented, and no pooled generations or alternate packages were indicated."
+      },
+      "quotes": [
+        {
+          "author": "saucy_leo",
+          "quote": "Cant go wrong with gearwrench.",
+          "context": "Jul 02, 2020; Verified purchase: Yes; Condition: New; review title: Great for hard to reach angles.",
+          "url": "https://www.ebay.com/p/5012042231",
+          "source": "eBay",
+          "exactModelEvidence": "The same page identifies the product as GearWrench 9533N Reversible Combination Ratcheting Wrench Set SAE 8pc and lists MPN 9533N.",
+          "summary": "Brief positive ownership/use comment; the review title specifically references hard-to-reach angles.",
+          "caveat": "The displayed review excerpt is short and does not provide detailed setup, durability, or limitation evidence."
+        },
+        {
+          "author": "kens_mobile",
+          "quote": "A very good set of tools for the dollar spent, highly recommend!",
+          "context": "Dec 18, 2023; Verified purchase: Yes; Condition: New; review title: Groovy Baby.",
+          "url": "https://www.ebay.com/p/5012042231",
+          "source": "eBay",
+          "exactModelEvidence": "The same page identifies the product as GearWrench 9533N Reversible Combination Ratcheting Wrench Set SAE 8pc and lists MPN 9533N.",
+          "summary": "Positive value assessment from a verified-purchase review.",
+          "caveat": "The review gives no specific handling, setup, durability, or limitation details beyond value and recommendation."
+        }
+      ],
+      "reason": "The exact 9533N eBay product page directly displayed an overall score and count with model-specific customer reviews. Acme’s exact 9533N page showed 0.0 and No Reviews, so it was not used as positive evidence."
+    },
+    {
+      "id": "milwaukee-2562-20",
+      "rating": {
+        "value": 4.7,
+        "count": 147,
+        "url": "https://www.acmetools.com/milwaukee-m12-fuel-stubby-3-8-inch-impact-wrench-bare-tool-2562-20/S0000000015021.html",
+        "source": "Acme Tools",
+        "modelEvidence": "The exact product page title is 'Milwaukee M12 FUEL Stubby 3/8 Inch Impact Wrench (Bare Tool)' and it displays 'SKU# 2562-20', 'Rated 4.7 out of 5 stars', and '147 Reviews'.",
+        "groupingCaveat": "The rating is displayed on the exact bare-tool SKU 2562-20 page; the page separately lists 2562-21 and 2562-22 kits, so those are not included in this rating."
+      },
+      "quotes": [],
+      "reason": "A qualifying exact-model numeric rating and count were directly visible on Acme Tools. No qualifying review excerpt was visible on the fetched exact-model page, and the manufacturer page displayed no review text or overall numeric rating."
+    },
+    {
+      "id": "mityvac-mv6830",
+      "rating": {
+        "value": 5,
+        "count": 3,
+        "url": "https://www.summitracing.com/parts/mva-mv6830/reviews",
+        "source": "Summit Racing",
+        "modelEvidence": "The page heading is 'Mityvac Vacuum Brake Bleeders MV6830', the part number is 'MVA-MV6830', and it displays '5 out of 5 stars' and '3 Reviews'.",
+        "groupingCaveat": "The rating is displayed on the exact MV6830 review page for part MVA-MV6830; no pooled generations, sets, colors, or packages are identified on the page."
+      },
+      "quotes": [
+        {
+          "author": "ASHLEY",
+          "quote": "It worked great. It pulled 27 in. HG at 120 psi.",
+          "context": "Review title: 'Mityvac MV6830 Brake Bleeder'; displayed date: '2 years ago'; displayed rating: '5 out of 5 stars.'",
+          "url": "https://www.summitracing.com/parts/mva-mv6830/reviews",
+          "source": "Summit Racing",
+          "exactModelEvidence": "The review appears under the exact page heading 'Mityvac Vacuum Brake Bleeders MV6830' and part number 'MVA-MV6830'.",
+          "summary": "Reports strong vacuum performance at 120 psi.",
+          "caveat": "No incentive disclosure is displayed."
+        },
+        {
+          "author": "STEVEN",
+          "quote": "In a matter of minutes all brakes were bled with one person.",
+          "context": "Review title: 'Huge Time Saver!!!!!!'; displayed date: 'a year ago'; displayed rating: '5 out of 5 stars.'",
+          "url": "https://www.summitracing.com/parts/mva-mv6830/reviews",
+          "source": "Summit Racing",
+          "exactModelEvidence": "The review appears under the exact page heading 'Mityvac Vacuum Brake Bleeders MV6830' and part number 'MVA-MV6830'.",
+          "summary": "Describes one-person setup and quick brake bleeding after connecting an air line and hose.",
+          "caveat": "No incentive disclosure is displayed."
+        }
+      ],
+      "reason": "Summit Racing directly displayed an exact MV6830 product rating of 5.0 from 3 reviews and provided three exact-model reviews; two short excerpts are included within the per-URL quote-word limit."
+    },
+    {
+      "id": "otc-7249",
+      "rating": {
+        "value": 4.75,
+        "count": 38,
+        "url": "https://www.summitracing.com/parts/otc-7249",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact product page identifies ‘OTC Ball Joint Service Tool Kits 7249’ and ‘Part Number: OTC-7249’; it visibly reports ‘4.75 out of 5 stars (38)’. ",
+        "groupingCaveat": "Exact 7249 product page; rating is not presented as a pooled generation, color, package, or category rating."
+      },
+      "quotes": [],
+      "reason": "Exact-model Summit page supplied a visible numeric overall rating and count plus a directly associated customer review."
+    },
+    {
+      "id": "otc-6295",
+      "rating": {
+        "value": 4.75,
+        "count": 19,
+        "url": "https://www.summitracing.com/parts/otc-6295",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact product page identifies ‘OTC Front-End Service Sets 6295’ and visibly reports ‘4.75 out of 5 stars (19)’ for part 6295.",
+        "groupingCaveat": "Exact 6295 product page; no pooled generation, color, package, set family, or category rating was used."
+      },
+      "quotes": [
+        {
+          "author": "JOHN",
+          "quote": "I was able to pop the stubbon bottom ball joint of the one spindle",
+          "context": "5 out of 5 stars; review title ‘Great Kit’; JOHN; 5 years ago; no incentive disclosure displayed.",
+          "url": "https://www.summitracing.com/parts/otc-6295/reviews",
+          "source": "Summit Racing",
+          "exactModelEvidence": "The page identifies the reviewed item as ‘OTC Front-End Service Sets 6295’ and shows the exact part review URL.",
+          "summary": "Reviewer describes successful removal of stubborn ball joints using the kit.",
+          "caveat": "The retailer displays the author and relative date but no incentive disclosure; spelling ‘stubbon’ is preserved verbatim and the excerpt is truncated to the requested length."
+        }
+      ],
+      "reason": "Exact-model Summit page supplied a visible numeric overall rating and count and review text about use and effectiveness."
+    },
+    {
+      "id": "otc-6297",
+      "rating": {
+        "value": 4.75,
+        "count": 11,
+        "url": "https://www.summitracing.com/parts/otc-6297",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact product page identifies ‘OTC Ball Joint Separators 6297’ and visibly reports ‘4.75 out of 5 stars (11)’. ",
+        "groupingCaveat": "Exact 6297 product page; rating is not taken from a pooled category, generation, color, package, or set."
+      },
+      "quotes": [
+        {
+          "author": "NEIL",
+          "quote": "This ball joint separator worked perfectly on both of these different size ball joints",
+          "context": "5 out of 5 stars; review title ‘Ball Joint Separator works great’; NEIL; 2 years ago; verified-purchaser badge displayed; no other incentive disclosure.",
+          "url": "https://www.summitracing.com/parts/otc-6297/reviews",
+          "source": "Summit Racing",
+          "exactModelEvidence": "The page identifies the item as ‘OTC Ball Joint Separators 6297’ and links the exact 6297 product.",
+          "summary": "Reviewer reports easy, successful use across different ball-joint sizes.",
+          "caveat": "The retailer displays the author, relative date, and verified-purchaser badge; excerpt is truncated to the requested length."
+        }
+      ],
+      "reason": "Exact-model Summit page supplied a visible numeric overall rating and count and a directly associated handling/use review."
+    },
+    {
+      "id": "otc-6575",
+      "rating": {
+        "value": 3.75,
+        "count": 3,
+        "url": "https://www.summitracing.com/parts/otc-6575",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact product page identifies ‘OTC Hub Grappler Kits 6575’ and visibly reports ‘3.75 out of 5 stars (3)’. ",
+        "groupingCaveat": "Exact 6575 product page; not a pooled rating for 6575-1 or another hub-puller model, generation, color, package, or category."
+      },
+      "quotes": [],
+      "reason": "Exact-model Summit page supplied a visible numeric rating and count, but the fetched review listing exposed no customer-review prose suitable for a verbatim quote."
+    },
+    {
+      "id": "otc-4579",
+      "rating": {
+        "value": 4.75,
+        "count": 35,
+        "url": "https://www.summitracing.com/parts/otc-4579",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact product page identifies the 4579 slide-hammer set and visibly reports ‘4.75 out of 5 stars (35)’ at the product rating link.",
+        "groupingCaveat": "Exact 4579 product page; no pooled rating for another slide-hammer model, color, package, or category was used. The fetched review view also displays 36 reviews in its overall section, while the 4.75 header pairs with 35; the paired header figures are reported here."
+      },
+      "quotes": [
+        {
+          "author": "WAYNE",
+          "quote": "The slide hammer is designed so the hammer at full extension does not hit your knuckles",
+          "context": "5 out of 5 stars; review title ‘Huge variety of options’; WAYNE; a year ago; no incentive disclosure displayed.",
+          "url": "https://www.summitracing.com/parts/otc-4579/reviews",
+          "source": "Summit Racing",
+          "exactModelEvidence": "The page identifies the item as ‘OTC 9-Way Slide Hammer Pullers 4579’ and links the exact 4579 product.",
+          "summary": "Reviewer highlights a handling/safety feature of the slide hammer during use.",
+          "caveat": "Author and date are not displayed; excerpt is customer opinion and does not represent a controlled safety assessment."
+        }
+      ],
+      "reason": "Exact-model Summit page supplied a visible numeric rating and count plus a review describing handling and a limitation/safety consideration."
+    },
+    {
+      "id": "otc-6007",
+      "rating": null,
+      "quotes": [],
+      "reason": "No usable rating verified. The exact JB Tools page identifies the product as OTC Lower Control Arm Prying Tool (6007) and displays a review area, but the fetched page did not visibly provide an overall numeric score together with the exact product's review count. Global Test Supply search results exposed rating/review text that appeared inconsistent with the product page and were not used. URL checked: https://www.jbtools.com/otc-6007-tool-lower-control-arm/"
+    },
+    {
+      "id": "mityvac-mv7300",
+      "rating": null,
+      "quotes": [],
+      "reason": "No usable rating verified. The exact JB Tools page identifies Mityvac MV7300 PneumatiVac Fluid Evacuator and displays 12 Reviews, but the fetched exact page did not visibly provide the required overall numeric score. Search-result text was not used because snippets are excluded. URL checked: https://www.jbtools.com/mityvac-mv7300-pneumativac-fluid-evacuator/"
+    },
+    {
+      "id": "mityvac-mv6412a",
+      "rating": null,
+      "quotes": [],
+      "reason": "No usable rating verified under the strict rule. The fetched Home Depot exact-model reviews page visibly identifies Model # MITMV6412A and shows 5.0 out of 5, but the fetched page did not visibly show the review count alongside that score. DK Hardware's exact MV6412A page visibly shows 4.8 out of 5, but its fetched page did not visibly show a numeric review count. URLs checked: https://www.homedepot.com/p/reviews/Mityvac-ATF-Pneumatic-Refill-System-Air-Operated-Services-Sealed-Automatic-Transmissions-with-up-to-2-5-Gal-of-Fluid-MITMV6412A/320787610/1 ; https://www.dkhardware.com/mighty-vac-mv6412a-mityvac-mv6412a-atf-refill-kit-10l-product-9998041.html"
+    },
+    {
+      "id": "lisle-19722",
+      "rating": {
+        "value": 5,
+        "count": 2,
+        "url": "https://www.homedepot.com/p/reviews/Lisle-8-Qt-Drip-Pan-LIS19722/206997071/1",
+        "source": "The Home Depot (US product-review page)",
+        "modelEvidence": "Fetched page identifies the product as 'Lisle 8 Qt. Drip Pan' and explicitly shows 'Model # LIS19722'; the review page title also names the same product.",
+        "groupingCaveat": "No generation, color, package, or set grouping is shown; the fetched review page displays 5.0 out of 5 and (2) for this exact LIS19722 product."
+      },
+      "quotes": [],
+      "reason": "Verified exact-model rating on The Home Depot review page. The fetched page exposed the numeric score and count, but no individual review text/author was visibly available in the retrieved content, so quotes are empty."
+    },
+    {
+      "id": "lisle-24980",
+      "rating": null,
+      "quotes": [],
+      "reason": "No qualifying current rating verified. The fetched manufacturer page is explicitly '24980 Spill-Free Funnel, 19 pc.' and shows the product, but no overall numeric customer score and review count. Ratings found for 24680 or obsolete/superseded 24780 were not used because they are different models; marketplace/seller-feedback results were also excluded."
+    },
+    {
+      "id": "mityvac-mv4560",
+      "rating": {
+        "value": 4,
+        "count": 4,
+        "url": "https://www.walmart.com/ip/Mityvac-MV4560-Radiator-Cooling-System-Pressure-Test-Kit/26779736",
+        "source": "Walmart product page",
+        "modelEvidence": "The fetched page title is ‘Mityvac MV4560 Radiator/ Cooling System Pressure Test Kit’ and its product heading uses the same exact model; the rating block says ‘4 out of 5 stars rating, 4 ratings.’",
+        "groupingCaveat": "The page is for the exact MV4560 product, not a set, color, package, or pooled generation; no grouping caveat was shown."
+      },
+      "quotes": [],
+      "reason": "Verified current numeric rating and count on the exact Walmart MV4560 product page. No review excerpt was used because an attributable, displayed user-review body was not verified in the fetched page."
+    },
+    {
+      "id": "mityvac-mv4533",
+      "rating": {
+        "value": 1,
+        "count": 1,
+        "url": "https://www.oreillyauto.com/detail/c/mityvac/tools---equipment/mechanics-tools/cooling-system-tools/b83834068644/mityvac-coolant-system-pressure-test-kit/mtv0/mv4533/v/a/3123/automotive-car-1986-chevrolet-caprice",
+        "source": "O'Reilly Auto Parts product page",
+        "modelEvidence": "The fetched page heading is ‘Mityvac Coolant System Pressure Test Kit - MV4533’ and the page lists Part #MV4533; its Ratings & Reviews section shows Overall Rating 1.0 and 1 Review.",
+        "groupingCaveat": "The product page is vehicle-fitment-contextualized for a 1986 Chevrolet Caprice, but the displayed part number is the exact MV4533; no pooled generation or package was indicated."
+      },
+      "quotes": [],
+      "reason": "Verified exact MV4533 model, overall score, and review count on the fetched O'Reilly page. The fetched page did not expose an attributable review body suitable for a verbatim excerpt."
+    },
+    {
+      "id": "otc-7991",
+      "rating": null,
+      "quotes": [],
+      "reason": "No usable rating verified. Global Test Supply's fetched page did not yield a reliable exact-product numeric score and review count; its search-result text contained inconsistent review/rating numbers that could not be confirmed as the exact product's customer rating. URL checked: https://www.globaltestsupply.com/product/otc-7991-cooling-system-pressure-tester"
+    },
+    {
+      "id": "lisle-60900",
+      "rating": {
+        "value": 5,
+        "count": 3,
+        "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-coolant-system-flusher-nozzle/lis0/60900",
+        "source": "O'Reilly Auto Parts (US product page)",
+        "modelEvidence": "Fetched page heading is 'Lisle Coolant System Flusher Nozzle - 60900'; the page's review widget uses product ID LIS0-60900 and identifies the line/item as 60900.",
+        "groupingCaveat": "The fetched widget ties the 5.0 score and 3 reviews to LIS0-60900; no pooled generation, set, color, or package grouping is shown."
+      },
+      "quotes": [
+        {
+          "author": "Ehyeseph",
+          "quote": "Perfect fit for 3 sizes and the pressure sensitivity is great!",
+          "context": "Verified Purchaser; displayed recommendation: Yes, I recommend this product.",
+          "url": "https://www.oreillyauto.com/detail/c/lisle/lisle-coolant-system-flusher-nozzle/lis0/60900",
+          "source": "O'Reilly Auto Parts product-review widget",
+          "exactModelEvidence": "The same fetched page is headed 'Lisle Coolant System Flusher Nozzle - 60900' and the review widget is keyed to LIS0-60900.",
+          "summary": "Reviewer praises the fit across three sizes and the pressure sensitivity.",
+          "caveat": "No review date or incentive disclosure was visibly displayed in the fetched page content."
+        }
+      ],
+      "reason": "O'Reilly's fetched exact-product page visibly reports 5.0 and 3 reviews, and its individual review cards identify verified purchasers and provide short review text."
+    },
+    {
+      "id": "milton-s-506",
+      "rating": null,
+      "quotes": [],
+      "reason": "Rejected S-506D feedback/rating: requested original S-506 has a different suffix; no transfer."
+    },
+    {
+      "id": "autel-ts508wf",
+      "rating": {
+        "value": 5,
+        "count": 4,
+        "url": "https://www.autelshop.us/products/autel-maxitpms-ts508wf-tpms-diagnostic-tool",
+        "source": "AutelShop.us product page",
+        "modelEvidence": "The fetched page product title is ‘(US Ship)Autel MaxiTPMS TS508WF (NEW)TPMS diagnostic & service tool’; its review badge reports data-average-rating 5.00, data-number-of-reviews 4, and displays ‘4 reviews.’",
+        "groupingCaveat": "The exact TS508WF product page is used; the title says NEW, but no kit, sensors, set, color, or pooled-generation grouping was displayed."
+      },
+      "quotes": [
+        {
+          "author": "Dennis Doll",
+          "quote": "Good",
+          "context": "Displayed review date: 02/07/2024; verified-buyer flag displayed; no incentive disclosure displayed.",
+          "url": "https://www.autelshop.us/products/autel-maxitpms-ts508wf-tpms-diagnostic-tool",
+          "source": "AutelShop.us product page review",
+          "exactModelEvidence": "The fetched review element identifies data-product-title as ‘Autel MaxiTPMS TS508WF (NEW)TPMS diagnostic & service tool’ and shows a 5-star review.",
+          "summary": "Reviewer gives a brief positive assessment.",
+          "caveat": "The displayed review contains only the one-word body ‘Good’; no incentive statement was displayed."
+        }
+      ],
+      "reason": "Verified exact TS508WF product title, numeric overall score, review count, and one attributable dated review on the fetched product page."
+    },
+    {
+      "id": "lisle-18810",
+      "rating": null,
+      "quotes": [],
+      "reason": "No valid exact-model customer rating was verified. The manufacturer page identifies model 18810 but exposes an average of 0 stars out of 5 without a review count; the retailer evidence checked was company-shopping feedback rather than an exact-product review aggregate."
+    },
+    {
+      "id": "otc-5606",
+      "rating": {
+        "value": 4.5,
+        "count": 18,
+        "url": "https://www.summitracing.com/parts/otc-5606/reviews",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact page identifies OTC Compression Tester Kits 5606, OTC-5606, and Part Number OTC-5606; it visibly shows 4.5 out of 5 stars (18), with 18 Reviews in the review section.",
+        "groupingCaveat": "This is the exact OTC-5606 part-number page; no pooled generation, color, set, or package grouping is indicated."
+      },
+      "quotes": [
+        {
+          "author": "TROY",
+          "quote": "I like the longer hose because it's easy to put it in a position to read",
+          "context": "5 out of 5 stars; displayed date: 10 years ago; no incentive disclosure displayed.",
+          "url": "https://www.summitracing.com/parts/otc-5606/reviews",
+          "source": "Summit Racing",
+          "exactModelEvidence": "The review appears on the page identified as OTC Compression Tester Kits 5606 / OTC-5606, the same page showing 18 reviews.",
+          "summary": "The reviewer highlights hose length and readability while testing.",
+          "caveat": "Verbatim 15-word excerpt; the displayed date is relative and the page showed no incentive disclosure."
+        }
+      ],
+      "reason": "A current exact-model Summit Racing rating and one accessible exact-model customer quotation were directly verified."
+    },
+    {
+      "id": "otc-5609",
+      "rating": {
+        "value": 4.5,
+        "count": 67,
+        "url": "https://www.summitracing.com/parts/otc-5609/reviews",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact page identifies OTC Cylinder Leakage Tester Kits 5609, OTC-5609, and Part Number OTC-5609; it visibly shows 4.5 out of 5 stars (67), with 67 Reviews in the review section.",
+        "groupingCaveat": "This is the exact OTC-5609 part-number page; no pooled generation, color, set, or package grouping is indicated."
+      },
+      "quotes": [
+        {
+          "author": "JOSE",
+          "quote": "This tool is the best your money can buy when you are on a tight budget.",
+          "context": "4 out of 5 stars; displayed date: 8 years ago; no incentive disclosure displayed.",
+          "url": "https://www.summitracing.com/parts/otc-5609/reviews",
+          "source": "Summit Racing",
+          "exactModelEvidence": "The review appears on the page identified as OTC Cylinder Leakage Tester Kits 5609 / OTC-5609, the same page showing 67 reviews.",
+          "summary": "The reviewer describes the tester as good value for a budget-conscious buyer.",
+          "caveat": "Verbatim 15-word excerpt; the displayed date is relative and the page showed no incentive disclosure."
+        }
+      ],
+      "reason": "A current exact-model Summit Racing rating and one accessible exact-model customer quotation were directly verified."
+    },
+    {
+      "id": "otc-5613",
+      "rating": {
+        "value": 4.75,
+        "count": 45,
+        "url": "https://www.summitracing.com/parts/otc-5613",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact product page identifies OTC Vacuum/Pressure Gauge Kits 5613 and Part Number OTC-5613; it visibly shows 4.75 out of 5 stars (45) and links to the 45-review page.",
+        "groupingCaveat": "The score is shown on the exact OTC-5613 product page; no pooled generation, color, set, or package grouping is indicated."
+      },
+      "quotes": [],
+      "reason": "An exact-model numeric rating and count were directly verified on Summit Racing. No accessible exact-model review body with the requested author/date/context metadata was verified from the fetched source page."
+    },
+    {
+      "id": "otc-5630",
+      "rating": {
+        "value": 4.5,
+        "count": 13,
+        "url": "https://www.summitracing.com/parts/otc-5630",
+        "source": "Summit Racing",
+        "modelEvidence": "The exact product page identifies OTC Fuel Pressure Testers 5630 and Part Number OTC-5630; it visibly shows 4.5 out of 5 stars (13) and links to the 13-review page.",
+        "groupingCaveat": "The score is shown on the exact OTC-5630 product page; no pooled generation, color, set, or package grouping is indicated."
+      },
+      "quotes": [],
+      "reason": "An exact-model numeric rating and count were directly verified on Summit Racing. No accessible exact-model review body with the requested author/date/context metadata was verified from the fetched source page."
+    },
+    {
+      "id": "lisle-51450",
+      "rating": null,
+      "quotes": [],
+      "reason": "The exact JB Tools 51450 page identifies the model, but its directly rendered page did not visibly expose an overall numeric score and count; a search-result snippet was not used. A manufacturer-hosted exact-model review quotation was verified separately."
+    },
+    {
+      "id": "streamlight-68750",
+      "rating": {
+        "value": 5,
+        "count": 5,
+        "url": "https://www.zoro.com/streamlight-dualie-3aa-flashlight-yellow-handheld-flashlight-245-lm-68750/i/G4287958/",
+        "source": "Zoro",
+        "modelEvidence": "The exact Zoro listing is titled Dualie 3AA Flashlight, Yellow Handheld Flashlight, 245 lm and uses model 68750 in the URL; it visibly reports Rating 5.0 (5).",
+        "groupingCaveat": "Only the single yellow model 68750 listing was used; no pooled generation, set, or alternate package rating was used."
+      },
+      "quotes": [],
+      "reason": "A current exact-model Zoro rating with numeric score and count was directly verified. No review text with the required displayed author/date/context metadata was accessible on the fetched exact-model listing."
+    },
+    {
+      "id": "gearwrench-83169",
+      "rating": {
+        "value": 4,
+        "count": 3,
+        "url": "https://www.acmetools.com/gearwrench-42in-industrial-mobile-work-station-with-11-drawers-83169/099575831690.html",
+        "source": "Acme Tools",
+        "modelEvidence": "The exact Acme page is GEARWRENCH 42in INDUSTRIAL MOBILE WORK STATION WITH 11 DRAWERS and identifies 83169; its review section visibly shows Rated 4.0 out of 5 stars and 3 Reviews.",
+        "groupingCaveat": "The score is from the exact 83169 page, not a related workstation, cabinet, set, color, or package."
+      },
+      "quotes": [
+        {
+          "author": "Rob137",
+          "quote": "Solid box with a high price tag.",
+          "context": "Submitted 3 years ago; From Benton, KY; Verified Buyer; no incentive disclosure displayed.",
+          "url": "https://www.acmetools.com/gearwrench-42in-industrial-mobile-work-station-with-11-drawers-83169/099575831690.html",
+          "source": "Acme Tools",
+          "exactModelEvidence": "The review is in the customer-review section of the exact 83169 page titled GEARWRENCH 42in INDUSTRIAL MOBILE WORK STATION WITH 11 DRAWERS.",
+          "summary": "Verified buyer Rob137 describes the workstation as solid but expensive.",
+          "caveat": "Verbatim seven-word excerpt; the displayed date is relative."
+        }
+      ],
+      "reason": "A current exact-model Acme rating and two short, verbatim customer quotations were directly verified on the same 83169 page."
+    },
+    {
+      "id": "gearwrench-gwmp100",
+      "rating": null,
+      "quotes": [],
+      "reason": "The exact Acme listing identifies GWMP100 but visibly reports 0.0 out of 5 stars and No Reviews; therefore no valid customer rating or quotation is available."
+    },
+    {
+      "id": "first-alert-pro5",
+      "rating": {
+        "value": 4.8,
+        "count": 135,
+        "url": "https://www.lowes.com/pd/First-Alert-Heavy-Duty-Plus-Fire-Extinguisher-Rechargeable/3057079",
+        "source": "Lowe's",
+        "modelEvidence": "The exact Lowe's page identifies First Alert PRO5 (Model #PRO5) and visibly reports 4.8 (135) in its Reviews section.",
+        "groupingCaveat": "The rating is from the exact PRO5 product page; no pooled generation, color, set, or package was used."
+      },
+      "quotes": [
+        {
+          "author": "Bruce",
+          "quote": "Put out the small fire on the engine.",
+          "context": "Lowe's review; May 6, 2026; 5 out of 5 stars; Verified Purchaser; no incentive disclosure displayed.",
+          "url": "https://www.lowes.com/reviews/first-alert-pro5-fire-extinguishers/3057079",
+          "source": "Lowe's",
+          "exactModelEvidence": "The review URL is the exact PRO5 review page for First Alert PRO5 Fire Extinguishers / product 3057079.",
+          "summary": "The reviewer says the extinguisher put out a small engine fire after replacing the same extinguisher.",
+          "caveat": "Verbatim 18-word excerpt; this is an individual customer account and not an independent performance test."
+        }
+      ],
+      "reason": "A current exact-model Lowe's rating and one accessible exact-model customer quotation were directly verified."
+    },
+    {
+      "id": "bluedriver-lsb2",
+      "rating": null,
+      "quotes": [],
+      "reason": "The manufacturer listing identifies the BlueDriver Pro OBD2 Scanner represented by LSB2 and shows a broad '60,000+ customer reviews' marketing statement, but no exact-model overall numeric score and count were directly visible on the exact product page; editorial-style testimonials were not used as customer quotations."
+    }
+  ]
+}

@@ -1,12 +1,16 @@
 import editorial from './automotive-review-editorial.json';
 import ownerFeedback from './automotive-owner-feedback.json';
+import addedFeedback from './automotive-owner-feedback-additions.json';
 import specifications from './automotive-review-specifications.json';
+import additionSources from './automotive-review-additions-sources.json';
 import {automotiveProducts, automotiveCategories, automotiveJobs, type AutomotiveProduct} from './automotive-catalog';
 import type {ProductReview} from './reviews';
 
 type EditorialRecord = typeof editorial[keyof typeof editorial];
 const entries:Record<string,EditorialRecord> = editorial;
 const specs:Record<string,{label:string;value:string}[]> = specifications;
+const addedSources:Record<string,{label:string;url:string}[]> = additionSources;
+export const automotiveReviewDate=(p:AutomotiveProduct)=>addedSources[p.id] ? '2026-10-17' : '2026-10-16';
 const extraSources:Record<string,{label:string;url:string}[]> = {
  'autel-mk900-bt':[
   {label:'Autel MK900 series operating manual',url:'https://www.autel.com/u/cms/www/202402/26082614tk3o.pdf'},
@@ -25,15 +29,17 @@ const extraSources:Record<string,{label:string;url:string}[]> = {
 export function getAutomotiveReview(p:AutomotiveProduct):ProductReview {
  const e=entries[p.id];
  const guide=automotiveCategories.find(c=>c.productIds.includes(p.id))!;
+ const newMeta=`${p.brand} ${p.model} review: ${e.headline}. Specifications, suitability and buying advice.`;
+ const conciseMeta=newMeta.length<=160?newMeta:newMeta.slice(0,157).replace(/\s+\S*$/,'')+'…';
  return {
   productId:p.existingCanonicalId || p.id,slug:p.id,trade:'automotive-mechanics',tradeName:'Automotive Mechanics',
   guideSlug:guide.slug,guideTitle:guide.title,brand:p.brand,model:p.model,
-  title:`${p.brand} ${p.model} Review: ${e.headline}`,meta:`${p.brand} ${p.model}: ${e.headline}. ${p.intro}`,
+  title:`${p.brand} ${p.model} Review: ${e.headline}`,meta:addedSources[p.id] ? conciseMeta : `${p.brand} ${p.model}: ${e.headline}. ${p.intro}`,
   role:p.name,amazonUrl:p.amazonUrl,sourceUrl:p.sourceUrl,intro:p.intro,
   verdict:e.verdict,bestFor:e.bestFor,avoidIf:e.avoidIf,pros:e.pros,cons:e.cons,
   specs:specs[p.id],sections:e.sections,faqs:e.faqs,
-  sourceNote:'Reviewed October 16, 2026 using the linked manufacturer product information and available operating documentation, together with the exact-model listing research. Technical figures are manufacturer claims; job suitability and comparisons are TradeGear HQ editorial analysis of those documented features. We have not verified every vehicle application, measured accuracy, tested load capacity or assessed long-term durability. Open the current manual and vehicle service information before use. Customer feedback and numeric ratings are displayed only when a verified record is available; their absence is not a negative rating.',
-  extraSources:extraSources[p.id],
+  sourceNote:`Reviewed October ${addedSources[p.id] ? '17' : '16'}, 2026 using the linked manufacturer product information and available operating documentation, together with the exact-model listing research. Technical figures are manufacturer claims; job suitability and comparisons are TradeGear HQ editorial analysis of those documented features. We have not verified every vehicle application, measured accuracy, tested load capacity or assessed long-term durability. Open the current manual and vehicle service information before use. Customer feedback and numeric ratings are displayed only when a verified record is available; their absence is not a negative rating.`,
+  extraSources:addedSources[p.id] || extraSources[p.id],
  };
 }
 
@@ -60,4 +66,4 @@ export const automotiveFeedback = [{
  quote:'The best part about this tool is no cost for updates ever.',
  match:'Exact model' as const,permission:'pending' as const,sourceConfirmed:true,
  caveat:'Short editorial excerpt checked October 16, 2026 on the exact 5610 page. Innova attributes the original to an Amazon customer; we have not independently verified the original Amazon review, purchase or identity. This is a manufacturer-selected testimonial, not a representative review sample or an Amazon rating. Explicit republication permission is not documented.',
-},...ownerFeedback.map(f=>({...f,trade:'automotive-mechanics' as const,match:'Exact model' as const,permission:'pending' as const}))];
+},...[...ownerFeedback,...addedFeedback].map(f=>({...f,trade:'automotive-mechanics' as const,match:'Exact model' as const,permission:'pending' as const}))];

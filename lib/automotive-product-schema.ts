@@ -1,5 +1,5 @@
 import type {AutomotiveProduct} from './automotive-catalog';
-import {getAutomotiveReview} from './automotive-reviews';
+import {getAutomotiveReview,automotiveReviewDate} from './automotive-reviews';
 
 // Google's editorial pros/cons pattern does not require inventing a numeric score.
 // Retailer customer ratings are deliberately outside this editorial Review.
@@ -28,7 +28,7 @@ export function automotiveProductSchema(p:AutomotiveProduct,siteUrl:string) {
    name:r.title,
    inLanguage:'en-US',
    author:{'@type':'Organization',name:'TradeGear HQ editorial desk',url:new URL('/how-we-choose/',siteUrl).href},
-   dateModified:'2026-10-16',
+   dateModified:automotiveReviewDate(p),
    reviewBody:`${r.intro}\n\n${r.verdict}\n\n${r.sourceNote}`,
    positiveNotes:notes(r.pros),
    negativeNotes:notes(r.cons),
