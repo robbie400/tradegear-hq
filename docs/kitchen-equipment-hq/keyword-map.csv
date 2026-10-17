@@ -1,0 +1,50 @@
+source,cluster,keyword,us_avg_monthly_searches_oct25_sep26,google_ads_competition,priority,intended_page_type,research_note
+GKP,coffee-espresso,best espresso machine under 500,1K-10K,Medium,P0,guide,High ticket; compare machine-only vs full setup total
+GKP,coffee-espresso,best espresso machine for beginners,1K-10K,High,P1,guide,Cannibalization rule: beginners intent vs fixed $500 budget
+GKP,coffee-espresso,best espresso machine for small kitchen,10-100,High,P2,guide,Countertop dimensions & clearance
+EXPAND,coffee-espresso,best espresso machine under 1000,UNMEASURED,UNMEASURED,P1,guide,New premium candidate; Google Planner volume required
+EXPAND,coffee-espresso,best espresso grinder for beginners,UNMEASURED,UNMEASURED,P1,guide,Critical paired basket; prevent budget omissions
+EXPAND,coffee-espresso,best espresso machine with grinder,UNMEASURED,UNMEASURED,P2,guide,All-in-one vs separate grinders
+EXPAND,coffee-espresso,best automatic espresso machine under 1000,UNMEASURED,UNMEASURED,P2,guide,High price; confirm US support
+EXPAND,coffee-espresso,breville bambino vs bambino plus,UNMEASURED,UNMEASURED,P1,comparison,Current exact variant and US package required
+EXPAND,coffee-espresso,espresso machine vs coffee machine,UNMEASURED,UNMEASURED,P3,explainer,Strong informational overlap risks; not core monetization
+GKP,air-fryers-ovens,best air fryer toaster oven combo,1K-10K,High,P0,guide,Basket vs oven practical trade-offs
+GKP,air-fryers-ovens,best air fryer for two people,100-1K,High,P2,guide,"Only a premium compact use case, avoid $70 basket reviews"
+GKP,air-fryers-ovens,best air fryer for small kitchen,10-100,Medium,P2,guide,Clearance/footprint vs internal volume
+GKP,air-fryers-ovens,best air fryer without teflon,100-1K,High,P2,guide,Materials/coatings claims: require manufacturer proof
+EXPAND,air-fryers-ovens,air fryer vs air fryer toaster oven,UNMEASURED,UNMEASURED,P1,comparison,"Different cooking workflows, texture research vs claims"
+EXPAND,air-fryers-ovens,best large capacity air fryer toaster oven,UNMEASURED,UNMEASURED,P2,guide,Compare useable pan/rack sizes
+EXPAND,air-fryers-ovens,best air fryer toaster oven for baking,UNMEASURED,UNMEASURED,P2,guide,Unique use case only if manufacturer evidence
+GKP,blenders-processors,best blender for protein shakes,1K-10K,Medium,P2,guide,DEPRIORITISE: common low-AOV intent; only if premium SERP validates
+GKP,blenders-processors,best blender for frozen fruit,100-1K,High,P2,guide,"Only premium blender models, verify higher-value SERP intent"
+GKP,blenders-processors,best blender under 100,100-1K,High,P3,guide,OUT OF SCOPE: under-$100 budget intent
+GKP,blenders-processors,best quiet blender,100-1K,High,P1,guide,Do not invent measured dB
+GKP,blenders-processors,best mini food processor,1K-10K,High,P3,guide,OUT OF SCOPE: generally low-ticket; setup accessory only
+GKP,blenders-processors,best food processor for chopping vegetables,100-1K,High,P2,guide,Capacity and attachment compatibility
+GKP,blenders-processors,best food processor for dough,10-100,High,P3,guide,Substantiate dough capacity
+EXPAND,blenders-processors,vitamix vs blendtec for smoothies,UNMEASURED,UNMEASURED,P2,comparison,Premium equipment; current models only
+GKP,mixers-baking,best stand mixer for bread dough,1K-10K,High,P0,guide,Dough capacity and mixer geometry; higher ticket
+GKP,mixers-baking,best hand mixer for baking,100-1K,High,P2,guide,Lower ticket supporting cluster
+EXPAND,mixers-baking,best stand mixer for large batches,UNMEASURED,UNMEASURED,P1,guide,Capacity based on manufacturer dough limits
+EXPAND,mixers-baking,kitchenaid artisan vs bowl lift,UNMEASURED,UNMEASURED,P1,comparison,Exact model family; no hand-wavy motor metrics
+EXPAND,mixers-baking,bosch universal plus vs kitchenaid mixer,UNMEASURED,UNMEASURED,P2,comparison,Ideal dough-baker comparison
+GKP,preservation,best vacuum sealer for meat,1K-10K,High,P0,guide,"Wet foods, bag cost, realistic volume"
+GKP,preservation,best chamber vacuum sealer for home use,100-1K,High,P1,guide,"PREMIUM PRIORITY: chamber vs edge, chamber dimensions and service"
+EXPAND,preservation,chamber vacuum sealer vs edge sealer,UNMEASURED,UNMEASURED,P1,comparison,Educational buying decision
+EXPAND,preservation,best vacuum sealer for sous vide,UNMEASURED,UNMEASURED,P2,guide,Crosslinks to bags and sous vide cookers
+EXPAND,preservation,best home food dehydrator for jerky,UNMEASURED,UNMEASURED,P2,guide,Higher AOV variant; temperature + cleaning
+GKP,ice-makers-bar,best countertop nugget ice maker,1K-10K,High,P0,guide,"PREMIUM CORE: water maintenance, cleaning, countertop fit"
+GKP,ice-makers-bar,best ice maker for home bar,100-1K,High,P1,guide,Differentiated use cases
+EXPAND,ice-makers-bar,countertop nugget ice maker vs bullet ice maker,UNMEASURED,UNMEASURED,P1,comparison,Define ice texture and melting
+EXPAND,ice-makers-bar,best ice maker with water line,UNMEASURED,UNMEASURED,P2,guide,Installation and sanitation
+GKP,rice-kettles,best small rice cooker,1K-10K,High,P3,guide,DEPRIORITISE: only consider premium rice systems with proof
+GKP,rice-kettles,best rice cooker for brown rice,100-1K,High,P2,guide,Modes vs claimed results
+GKP,rice-kettles,best rice cooker for one person,100-1K,High,P3,guide,"OUT OF SCOPE: cheap products, cannibalization"
+GKP,rice-kettles,best electric kettle for tea,1K-10K,High,P3,guide,DEPRIORITISE: usually low-ticket vs premium policy
+GKP,rice-kettles,best electric kettle without plastic,100-1K,High,P1,guide,Strict scope of plastic-contact claims
+GKP,rice-kettles,best gooseneck kettle for pour over,100-1K,High,P2,guide,Design and pour workflow
+EXPAND,premium-specialty,best pizza oven for home outdoor kitchen,UNMEASURED,UNMEASURED,P2,guide,Check if item is Outdoors not Kitchen => 3%
+EXPAND,premium-specialty,best countertop induction cooktop,UNMEASURED,UNMEASURED,P2,guide,Voltage/cookware/temperature control
+EXPAND,premium-specialty,best home freeze dryer,UNMEASURED,UNMEASURED,P3,guide,High AOV but heavy support/merchant/category risk
+EXPAND,premium-specialty,best commercial blender for home kitchen,UNMEASURED,UNMEASURED,P2,guide,"High ticket, likely ambiguous commercial intent"
+EXPAND,premium-specialty,best premium espresso machine for home,UNMEASURED,UNMEASURED,P2,guide,Separate from under-$1000 when SERP validated
