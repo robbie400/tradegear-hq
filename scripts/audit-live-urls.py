@@ -44,4 +44,4 @@ if __name__=='__main__':
   for result in ex.map(scan,urls):
    results.append(result);f.write(json.dumps(result)+'\n');f.flush()
    if len(results)%50==0:print('Checked',len(results),'of',len(urls),flush=True)
- print(json.dumps({'pages':len(results),'errors':sum('error'in r for r in results),'redirects':sum(r.get('final')!=r['url'] for r in results if 'error'not in r),'canonicalMismatch':sum(r.get('canonical')!=[r.get('final')] for r in results if 'error'not in r),'output':OUT}),flush=True)
+ print(json.dumps({'pages':len(results),'errors':sum('error'in r for r in results),'redirects':sum(r.get('final')!=r['url'] for r in results if 'error'not in r),'canonicalMismatch':sum(r.get('canonical')!=[r.get('final')] and not (r.get('final')==BASE+'/' and r.get('canonical')==[BASE]) for r in results if 'error'not in r),'output':OUT}),flush=True)
