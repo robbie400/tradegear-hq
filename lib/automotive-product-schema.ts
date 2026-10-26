@@ -1,3 +1,4 @@
+import {canonicalPath} from './site-urls';
 import type {AutomotiveProduct} from './automotive-catalog';
 import {getAutomotiveReview,automotiveReviewDate} from './automotive-reviews';
 
@@ -5,7 +6,7 @@ import {getAutomotiveReview,automotiveReviewDate} from './automotive-reviews';
 // Retailer customer ratings are deliberately outside this editorial Review.
 export function automotiveProductSchema(p:AutomotiveProduct,siteUrl:string) {
  const r=getAutomotiveReview(p);
- const url=new URL(`/automotive-mechanics/products/${p.id}/`,siteUrl).href;
+ const url=new URL(canonicalPath(`/automotive-mechanics/products/${p.id}/`),siteUrl).href;
  const notes=(items:string[])=>({
   '@type':'ItemList',
   itemListElement:items.map((name,i)=>({'@type':'ListItem',position:i+1,name})),
@@ -27,7 +28,7 @@ export function automotiveProductSchema(p:AutomotiveProduct,siteUrl:string) {
    url,
    name:r.title,
    inLanguage:'en-US',
-   author:{'@type':'Organization',name:'TradeGear HQ editorial desk',url:new URL('/how-we-choose/',siteUrl).href},
+   author:{'@type':'Organization',name:'TradeGear HQ editorial desk',url:new URL(canonicalPath('/how-we-choose/'),siteUrl).href},
    dateModified:automotiveReviewDate(p),
    reviewBody:`${r.intro}\n\n${r.verdict}\n\n${r.sourceNote}`,
    positiveNotes:notes(r.pros),

@@ -4,7 +4,7 @@ import { affiliateUrl } from "@/lib/affiliate";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { notFound } from "next/navigation";
 import { getWorkflow, workflows } from "@/lib/workflows";
 import { guides } from "@/lib/data";

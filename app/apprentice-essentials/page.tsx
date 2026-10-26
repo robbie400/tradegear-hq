@@ -1,5 +1,6 @@
+import {canonicalPath} from '@/lib/site-urls';
 import type {Metadata} from 'next';
-import Link from 'next/link';
+import Link from '@/components/SiteLink';
 import {hubs} from '@/lib/data';
 import {getApprenticeEssentialsForTrade} from '@/lib/apprentice-essentials';
 import styles from './page.module.css';
@@ -7,7 +8,7 @@ import styles from './page.module.css';
 export const metadata:Metadata={
   title:'Apprentice Essentials by Trade',
   description:'Choose your trade to browse everyday apprentice essentials in the TradeGear HQ tool directories.',
-  alternates:{canonical:'/apprentice-essentials/'},
+  alternates:{canonical:canonicalPath('/apprentice-essentials/')},
 };
 
 export default function ApprenticeEssentials(){

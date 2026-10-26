@@ -1,7 +1,8 @@
+import {canonicalPath} from '@/lib/site-urls';
 import {AutomotiveDirectory} from '@/components/Automotive';
 import styles from './ToolDirectory.module.css';
 import type {Metadata} from 'next';
-import Link from 'next/link';
+import Link from '@/components/SiteLink';
 import {notFound} from 'next/navigation';
 import {hubs} from '@/lib/data';
 import {getToolDirectory} from '@/lib/tool-directory';
@@ -17,7 +18,7 @@ export async function generateMetadata({params}:{params:Promise<{trade:string}>}
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)return {};
   const title=`${titles[trade]}: Browse Reviews & Buying Advice`;
   const description=`Browse ${directory.products.length} reviewed and compared tools plus ${directory.essentials.length} apprentice essentials for ${directory.hub.name.toLowerCase()}. Search by tool, brand or model.`;
-  return {title,description,alternates:{canonical:`/${trade}/tools/`},openGraph:{title,description,url:`/${trade}/tools/`}};
+  return {title,description,alternates:{canonical:canonicalPath(`/${trade}/tools/`)},openGraph:{title,description,url:canonicalPath(`/${trade}/tools/`)}};
 }
 export default async function TradeTools({params}:{params:Promise<{trade:string}>}){
   const {trade}=await params;const directory=getToolDirectory(trade);if(!directory)notFound();

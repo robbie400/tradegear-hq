@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/SiteLink';
 import {affiliateUrl} from '@/lib/affiliate';
 import type {ProductFeedback as FeedbackRecord} from '@/lib/product-feedback';
 import type {ProductReview} from '@/lib/reviews';

@@ -37,7 +37,7 @@ const {automotiveProductSchema,serializeProductSchema}=require('../lib/automotiv
 for(const p of automotiveProducts){
  const r=getAutomotiveReview(p),s=automotiveProductSchema(p,'https://tradegearhq.com');
  assert.equal(s['@type'],'Product');assert.equal(s.model,p.model);assert.equal(s.brand.name,p.brand);
- assert.equal(s.url,`https://tradegearhq.com/automotive-mechanics/products/${p.id}/`);
+ assert.equal(s.url,`https://tradegearhq.com/automotive-mechanics/products/${p.id}`);
  assert.equal(s.image[0],`https://tradegearhq.com${p.image.src}`);
  assert.equal(s.review['@type'],'Review');assert.equal(s.review.author.name,'TradeGear HQ editorial desk');
  assert.ok(s.review.reviewBody.includes(r.verdict)&&s.review.reviewBody.includes(r.sourceNote));

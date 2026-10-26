@@ -1,10 +1,11 @@
+import {canonicalPath} from '@/lib/site-urls';
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 export const metadata: Metadata = {
   title: "How We Choose Tools",
   description:
     "How TradeGear HQ researches tools, verifies specifications and makes recommendations without claiming hands-on testing.",
-  alternates: { canonical: "/how-we-choose/" },
+  alternates: { canonical: canonicalPath("/how-we-choose/") },
 };
 export default function Methodology() {
   return (
