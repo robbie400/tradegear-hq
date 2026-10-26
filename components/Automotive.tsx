@@ -1,7 +1,7 @@
 import {FullProductReview} from './FullProductReview';
 import {automotiveProductSchema,serializeProductSchema} from '@/lib/automotive-product-schema';
 import {getAutomotiveReview,automotiveReviewLinks,automotiveFeedback,automotiveReviewDate} from '@/lib/automotive-reviews';
-import Link from 'next/link';
+import Link from '@/components/SiteLink';
 import {affiliateUrl} from '@/lib/affiliate';
 import {automotiveProducts as products,automotiveCategories as categories,automotiveJobs as jobs,automotiveHandGroups,automotiveGuideGroups,automotivePhoto,automotiveTrade as trade,getAutomotiveProduct,type AutomotiveProduct} from '@/lib/automotive-catalog';
 import {ProductPhoto} from './ProductPhoto';

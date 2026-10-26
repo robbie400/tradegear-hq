@@ -1,7 +1,7 @@
 "use client";
 
 import {useState} from 'react';
-import Link from 'next/link';
+import Link from '@/components/SiteLink';
 import type {GlobalToolSearchItem} from '@/lib/tool-directory';
 import {matchesToolSearch} from '@/lib/tool-search';
 import styles from './GlobalToolSearch.module.css';

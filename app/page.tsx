@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { guides,hubs,getHub } from "@/lib/data";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getGuideImage } from "@/lib/guide-images";

@@ -1,8 +1,9 @@
+import {canonicalPath} from '@/lib/site-urls';
 import {AutomotiveHub} from '@/components/Automotive';
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { getProductImage } from "@/lib/product-images";
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { notFound } from "next/navigation";
 import { getHub, guides, hubs } from "@/lib/data";
 import {PageSchema} from "@/components/Editorial";
@@ -22,7 +23,7 @@ export async function generateMetadata({
     ? {
         title: trade === "carpenters" ? "Carpenter & Joiner Tools: Reviews, Buying Guides and Job Kits" : trade === "electricians" ? "Electrician Tools: Job Kits, Buying Guides and Reviews" : trade === "plumbers" ? "Plumbing Tools: Job Kits, Buying Guides and Reviews" : trade === "hvac" ? "HVAC Tools: Service Kits, Buying Guides and Reviews" : trade === "home-inspectors" ? "Home Inspector Tools: Inspection Kits, Buying Guides and Reviews" : `Tools & Gear for ${h.name}`,
         description: trade === "carpenters" ? "Build carpenter and joiner kits for framing, trim, doors, cabinets and decking. Compare 100 tools for layout, cutting, trim fixing, clamping, joinery, air supply, workshop work and dust extraction." : trade === "electricians" ? "Find electrician tools by job: service calls, house rewires, panel work and apprentice kits. Compare meters, hand tools, drills, cable tools, lighting and storage." : trade === "plumbers" ? "Choose plumbing tools by job: service calls, leak diagnosis, bathroom installs and drain clearing. Compare hand tools, press tools, cameras, pumps and cleanup gear." : trade === "hvac" ? "Build HVAC job kits for service, heat-pump commissioning, evacuation, recovery and airside diagnosis. Compare instruments, refrigerant tools and carrying options." : trade === "home-inspectors" ? "Build home inspection kits for pre-purchase visits, moisture investigations and accessible system observations. Compare cameras, meters, lighting, access and reporting tools." : h.blurb,
-        alternates: { canonical: `/${trade}/` },
+        alternates: { canonical: canonicalPath(`/${trade}/`) },
       }
     : {};
 }

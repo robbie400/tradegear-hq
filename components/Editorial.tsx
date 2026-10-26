@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import {indexingPriorityCanonicalPath} from '@/lib/indexing-priority';
 export const reviewedDate = "2026-10-04";
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://tradegear-hq.vercel.app";
+  (process.env.NEXT_PUBLIC_SITE_URL || "https://tradegearhq.com").replace(/\/+$/, "");
 export function EditorialByline({date = reviewedDate, showMethodology=true}:{date?:string;showMethodology?:boolean} = {}) {
   return (
     <p className="editorialByline">
@@ -38,7 +38,7 @@ export function PageSchema({
         author: {
           "@type": "Organization",
           name: "TradeGear HQ editorial desk",
-          url: siteUrl + "/how-we-choose/",
+          url: siteUrl + indexingPriorityCanonicalPath("/how-we-choose/"),
         },
         publisher: {
           "@type": "Organization",

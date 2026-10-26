@@ -7,7 +7,7 @@ import { ProductFeedback } from "@/components/ProductFeedback";
 import { getProductImage } from "@/lib/product-images";
 import { getGuideImage } from "@/lib/guide-images";
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { notFound } from "next/navigation";
 import { getGuide, getHub, guides } from "@/lib/data";
 import { getReview } from "@/lib/reviews";
