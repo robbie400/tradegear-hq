@@ -8,6 +8,7 @@ import { siteUrl } from "@/components/Editorial";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   verification: {
+    other: { "msvalidate.01": "86970B471119600931D3E495108BDD60" },
     google: [
       "IPdO16LiJR85WxqMoupZxho95WHPmfQSgjyvSTJpqNU",
       "m5Og1SxQsT9if0Som7jfKiE8d2cI_xTvbzCTk1wPQw0",
