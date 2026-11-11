@@ -4,6 +4,7 @@ import { ProductPhoto } from "@/components/ProductPhoto";
 import { getGuideImage } from "@/lib/guide-images";
 import { GlobalToolSearch } from "@/components/GlobalToolSearch";
 import { getGlobalToolSearchItems } from "@/lib/tool-directory";
+import { SiteSchema } from "@/components/Editorial";
 
 // Editorial selection: one useful entry point per trade, independent of traffic.
 const featuredSlugs = [
@@ -14,6 +15,7 @@ const featuredSlugs = [
 const featuredGuides = featuredSlugs.flatMap(slug => guides.filter(g => g.slug === slug));
 export default function Home(){
   return <>
+    <SiteSchema />
     <section className="hero">
       <div className="shell heroGrid">
         <div className="heroCopy">
