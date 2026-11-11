@@ -1,0 +1,18 @@
+# TradeGear HQ
+
+> Tool buying guides, comparisons and job-specific workflows for tradespeople in the United States. The guides explain what to look for, where each tool fits and the trade-offs that matter.
+
+## Trade guides
+
+- [Electricians](https://tradegearhq.com/electricians)
+- [Plumbers](https://tradegearhq.com/plumbers)
+- [HVAC technicians](https://tradegearhq.com/hvac)
+- [Home inspectors](https://tradegearhq.com/home-inspectors)
+- [Carpenters and joiners](https://tradegearhq.com/carpenters)
+- [Automotive mechanics](https://tradegearhq.com/automotive-mechanics)
+
+## Editorial information
+
+- [How we choose tools](https://tradegearhq.com/how-we-choose)
+- [Apprentice essentials](https://tradegearhq.com/apprentice-essentials)
+- [Sitemap](https://tradegearhq.com/sitemap.xml)
