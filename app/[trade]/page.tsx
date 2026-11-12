@@ -8,6 +8,29 @@ import { notFound } from "next/navigation";
 import { getHub, guides, hubs } from "@/lib/data";
 import {PageSchema} from "@/components/Editorial";
 import { getTradeWorkflows } from "@/lib/workflows";
+import { job as plumberJobs } from "@/lib/plumber-catalog-types";
+import { hvacJobs } from "@/lib/hvac-catalog";
+
+const starterKits = {
+  plumbers: {
+    title: "What tools should a plumber carry?",
+    intro: "Start with a compact service bag. Keep drain machines and pipe joining equipment in separate kits so you can bring the right setup for the call.",
+    kits: [
+      { slug: plumberJobs.service, name: "Everyday plumbing service", tools: "Carry two pairs of tongue-and-groove pliers, an adjustable wrench, a basin wrench, a compact pipe cutter, a headlamp and a small bucket. Two gripping tools let you hold a fitting steady while turning the nut." },
+      { slug: plumberJobs.drain, name: "Drain clearing", tools: "Choose a closet auger for toilets or a small drain snake for suitable sink lines. Add a camera when you need to locate or identify a recurring blockage before choosing equipment." },
+      { slug: plumberJobs.pipe, name: "Pipe repair and joining", tools: "Match the cutter, prep tools and joining system to the pipe material. If you use a press tool, check that its jaws match the fitting system and can reach the joint." },
+    ],
+  },
+  hvac: {
+    title: "What tools should an HVAC technician carry?",
+    intro: "Build a service bag around electrical and airside diagnosis. Add refrigerant equipment for the systems and work you handle.",
+    kits: [
+      { slug: hvacJobs.service, name: "Everyday HVAC service", tools: "Start with a suitably rated clamp meter, temperature probes, nut drivers, insulated hand tools and a headlamp. Check whether your meter supports capacitance if you regularly diagnose run capacitors." },
+      { slug: hvacJobs.airflow, name: "Airflow and static pressure", tools: "Use a differential manometer with static-pressure probes and tubing. Add an anemometer for air-velocity measurements where the grille or duct and your test method call for it." },
+      { slug: hvacJobs.evacuation, name: "Evacuation and commissioning", tools: "Pair a suitable vacuum pump with vacuum-rated hoses and a separate micron gauge. Choose compatible fittings and a setup that lets you isolate the pump for the system manufacturer’s verification procedure." },
+    ],
+  },
+};
 
 export function generateStaticParams() {
   return hubs.map((h) => ({ trade: h.slug }));
@@ -40,6 +63,7 @@ export default async function TradePage({
   const items = guides.filter((g) => g.trade === trade);
   const workflows = getTradeWorkflows(trade);
   const clusters = [...new Set(items.map(g=>g.cluster))];
+  const starter = trade === "plumbers" || trade === "hvac" ? starterKits[trade] : undefined;
   return (
     <>
       <PageSchema date={trade === "carpenters" ? "2026-10-14" : undefined} kind="CollectionPage" title={`Tools & Gear for ${hub.name}`} description={hub.blurb} path={`/${trade}/`} crumbs={[{name:"Home",path:"/"},{name:hub.name,path:`/${trade}/`}]}/>
@@ -53,6 +77,26 @@ export default async function TradePage({
           <nav className="heroActions" aria-label="Browse this trade"><Link className="orangeBtn" href={`/${trade}/tools/`}>Browse all {items.reduce((n,g)=>n+g.products.length,0)} tools →</Link>{workflows.length > 0 && <a className="orangeBtn" href="#job-kits">Find a job kit</a>}<a className="ghostBtn" href="#tool-guides">Compare tool categories</a></nav>
         </div>
       </section>
+
+      {starter && (
+        <section className="section light" aria-labelledby="starter-kit-heading">
+          <div className="shell">
+            <div className="sectionHeading">
+              <h2 id="starter-kit-heading">{starter.title}</h2>
+              <p>{starter.intro}</p>
+            </div>
+            <div className="hubGuideGrid">
+              {starter.kits.map((kit) => (
+                <Link key={kit.slug} className="hubGuideCard" href={`/${trade}/workflows/${kit.slug}/`}>
+                  <h3>{kit.name}</h3>
+                  <p>{kit.tools}</p>
+                  <b>See the full tool kit →</b>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {trade === "carpenters" && <section className="carpenterDirectoryBand"><div className="shell directoryBandInner"><div><span className="eyebrow orange">THE COMPLETE TOOL DIRECTORY</span><h2>Know the tool you need? Start here.</h2><p>Browse {items.reduce((n,g)=>n+g.products.length,0)} carpenter tools by type, open a full review and compare alternatives for your budget.</p></div><Link className="orangeBtn" href="/carpenters/tools/">Explore all {items.reduce((n,g)=>n+g.products.length,0)} tools →</Link></div></section>}
 
