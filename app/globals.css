@@ -13,3 +13,13 @@
 .carpenterDirectoryBand{background:#fff;border-bottom:1px solid #e2e8ed;padding:32px 0}.directoryBandInner{display:flex;align-items:center;justify-content:space-between;gap:28px}.directoryBandInner h2{font-size:clamp(1.4rem,2.5vw,2rem);margin:8px 0}.directoryBandInner p{color:#596674;max-width:680px;margin:0}.directoryBandInner .orangeBtn{flex-shrink:0}@media(max-width:700px){.directoryBandInner{align-items:flex-start;flex-direction:column}.directoryBandInner .orangeBtn{width:100%;text-align:center}}
 
 .headerInner nav{min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}.headerInner .brand,.headerCta{flex-shrink:0}
+
+.guideBuyingNote{margin:16px 0 25px}
+.guideBuyingNote h2{font-size:clamp(23px,3vw,31px);margin:3px 0 12px}
+.guideBuyingNote p{margin:0 0 12px}
+.guideBuyingNote dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 18px;margin:14px 0}
+.guideBuyingNote dt{font-weight:750;color:var(--navy)}
+.guideBuyingNote dd{margin:0;font-size:.9em}
+.guideBuyingNote ul{display:flex;flex-wrap:wrap;gap:3px 16px;list-style:none;margin:10px 0 0;padding:0;font-size:.85em}
+.guideBuyingNote li a{color:#1c5d3c;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:600px){.guideBuyingNote dl{grid-template-columns:1fr}}

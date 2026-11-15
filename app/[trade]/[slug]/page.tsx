@@ -12,6 +12,7 @@ import { notFound } from "next/navigation";
 import { getGuide, getHub, guides } from "@/lib/data";
 import { getReview } from "@/lib/reviews";
 import { guideEditorial } from "@/lib/guide-editorial";
+import { guideBuyingNotes } from "@/lib/guide-buying-notes";
 import { getTradeWorkflows } from "@/lib/workflows";
 import {
   EditorialByline,
@@ -46,6 +47,7 @@ export default async function Guide({
   if (trade === "automotive-mechanics") return <AutomotiveGuide slug={slug}/>;
   const hub = getHub(trade);
   const guideImage = getGuideImage(g);
+  const buyingNote = guideBuyingNotes[`${trade}/${slug}`];
   const e = guideEditorial[slug] || guideEditorial[trade];
   const workflows = getTradeWorkflows(trade).filter(w => !g.workflowSlugs || g.workflowSlugs.includes(w.slug));
   const fullReviewCount = g.products.filter(p => p.reviewSlug && getReview(p.reviewSlug)).length;
@@ -90,6 +92,25 @@ export default async function Guide({
       <section className="section">
         <div className="shell guideShell">
           <EditorialByline date={trade === "carpenters" ? (carpenterFinal25Categories.some(c=>c.slug===slug) ? "2026-10-14" : "2026-10-13") : undefined} />
+          {buyingNote && (
+            <section className="verdictBox guideBuyingNote" aria-labelledby="buying-note-heading">
+              <h2 id="buying-note-heading">{buyingNote.heading}</h2>
+              {buyingNote.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+              <dl>
+                {buyingNote.checks.map(({ choice, check }) => (
+                  <div key={choice}>
+                    <dt>{choice}</dt>
+                    <dd>{check}</dd>
+                  </div>
+                ))}
+              </dl>
+              <ul aria-label="Manufacturer sources">
+                {buyingNote.sources.map(({ label, href }) => (
+                  <li key={href}><a href={href}>{label}</a></li>
+                ))}
+              </ul>
+            </section>
+          )}
           <nav className="articleNav" aria-label="On this page">
             <a href="#quick-picks">Quick picks</a>
             <a href="#choosing">How to choose</a>
