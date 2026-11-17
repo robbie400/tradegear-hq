@@ -1,3 +1,4 @@
+import { MarketSwitch } from "@/components/MarketSwitch";
 import type {Metadata} from "next";
 import {notFound} from "next/navigation";
 import Link from "@/components/SiteLink";
@@ -15,6 +16,7 @@ export default async function UKGuide({params}:Props){
   const g=ukGuides.find(x=>x.slug===slug);
   if(!g) notFound();
   return <article lang="en-GB" className="section"><div className="shell guideShell">
+    <MarketSwitch />
     <Link href="/uk">← UK tool guides</Link>
     <h1>{g.title}</h1><p className="leadCopy">{g.intro}</p>
     <div className="verdictBox"><b>What to check before buying</b><p>{g.note}</p></div>

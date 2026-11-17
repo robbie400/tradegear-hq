@@ -1,3 +1,4 @@
+import { MarketSwitch } from "@/components/MarketSwitch";
 import {indexingPriorityCanonicalPath} from '@/lib/indexing-priority';
 import {AutomotiveGuide} from '@/components/Automotive';
 import {carpenterFinal25Categories} from '@/lib/carpenter-final25';
@@ -91,6 +92,7 @@ export default async function Guide({
       </section>
       <section className="section">
         <div className="shell guideShell">
+          <MarketSwitch />
           <EditorialByline date={trade === "carpenters" ? (carpenterFinal25Categories.some(c=>c.slug===slug) ? "2026-10-14" : "2026-10-13") : undefined} />
           {buyingNote && (
             <section className="verdictBox guideBuyingNote" aria-labelledby="buying-note-heading">
