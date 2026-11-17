@@ -1,0 +1,10 @@
+.switch{display:flex;align-items:center;gap:6px;margin-left:auto;white-space:nowrap}
+.hint{color:#dbe4ec;font-size:11px;font-weight:750}
+.button{display:grid;place-content:center;text-align:center;line-height:1.05;width:45px;height:45px;border-radius:50%;border:3px solid #647382;background:linear-gradient(#344e67,#142839);box-shadow:0 3px 0 #060e17,inset 0 1px 2px #ffffff40;color:#fff;font-size:10px;font-weight:900}
+.button span{font-size:16px}
+.button[aria-current],.button:hover{border-color:#f28c28}
+.button:active{transform:translateY(2px);box-shadow:0 1px 0 #060e17}
+.button:focus-visible{outline:2px solid white;outline-offset:2px}
+@media(max-width:1200px){.header nav{display:none}}
+@media(max-width:520px){.hint{display:none}}
+@media(max-width:390px){.header :global(.headerCta){display:none}}
