@@ -23,3 +23,9 @@
 .guideBuyingNote ul{display:flex;flex-wrap:wrap;gap:3px 16px;list-style:none;margin:10px 0 0;padding:0;font-size:.85em}
 .guideBuyingNote li a{color:#1c5d3c;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:600px){.guideBuyingNote dl{grid-template-columns:1fr}}
+.ukComparison{margin:36px 0;scroll-margin-top:100px}
+.ukTableWrap{overflow:auto;border:1px solid var(--border);border-radius:14px}
+.ukTableWrap table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:14px}
+.ukTableWrap caption{text-align:left;padding:12px;font-weight:700}
+.ukTableWrap th,.ukTableWrap td{text-align:left;vertical-align:top;padding:clamp(7px,2vw,15px);border-top:1px solid var(--border);overflow-wrap:anywhere}
+.ukTableWrap thead,.ukTableWrap tbody th{background:var(--bg)}

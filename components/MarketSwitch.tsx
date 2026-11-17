@@ -16,7 +16,7 @@ export function MarketSwitch(){
   const [us, counterpart] = pair;
   return <div className={styles.switch} role="group" aria-label="Tool marketplace">
     <span className={styles.hint}>Click for {uk ? "US" : "UK"} tools</span>
-    <Link href={us} className={styles.button} aria-label="US tools" aria-current={!uk ? "true" : undefined}><span aria-hidden="true">🇺🇸</span> US</Link>
-    <Link href={counterpart} className={styles.button} aria-label="UK tools" aria-current={uk ? "true" : undefined}><span aria-hidden="true">🇬🇧</span> UK</Link>
+    <Link href={us} className={`${styles.button} ${styles.us}`} aria-label="US tools" aria-current={!uk ? "true" : undefined}>US</Link>
+    <Link href={counterpart} className={`${styles.button} ${styles.uk}`} aria-label="UK tools" aria-current={uk ? "true" : undefined}>UK</Link>
   </div>;
 }
