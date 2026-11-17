@@ -53,7 +53,7 @@ export default async function UKGuide({params}:Props){
       <div className="sectionHeading" id="detailed-picks"><h2>Detailed picks</h2></div>
       <div className="productStack">{g.picks.map(([model,asin],i)=><section className="product" id={`pick-${i+1}`} key={asin}>
         <div className={`rankPanel${photo(i) ? " rankPanelWithPhoto" : ""}`}>{photo(i) ? <ProductPhoto photo={photo(i)} credit /> : <><span>UK PICK</span><b>0{i+1}</b></>}</div>
-        <div><span className="badge">{e.detail[i][0]}</span><h3>{model}</h3><p>{e.detail[i][1]}</p><p className="tradeoff">{e.detail[i][2]}</p><div className="productActions"><a className="amazonBtn" rel="sponsored noreferrer" href={ukAmazonProduct(asin)}>View on Amazon UK</a><small>Paid link</small></div></div>
+        <div><span className="badge">{e.detail[i][0]}</span><h3>{model}</h3><p>{e.detail[i][1]}</p><p className="tradeoff">{e.detail[i][2]}</p><div className="productActions"><a className="amazonBtn" rel="sponsored noreferrer" href={ukAmazonProduct(asin)}>View on Amazon UK</a></div></div>
       </section>)}</div>
       <section className="faq" id="questions"><h2>Buying questions</h2>{e.faq.map(([q,a])=><details key={q}><summary>{q}</summary><p>{a}</p></details>)}</section>
       <section className="sourceBox"><h2>Sources and methodology</h2><p>We compare documented capabilities, exact UK listing variants and likely fit for the job. TradeGear HQ has not hands-on tested these picks.</p><p><a href={g.source}>{g.sourceLabel}</a></p></section>
