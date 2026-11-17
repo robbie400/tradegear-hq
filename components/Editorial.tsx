@@ -54,6 +54,7 @@ export function PageSchema({
   crumbs,
   kind = "Article",
   date = reviewedDate,
+  language = "en-US",
 }: {
   title: string;
   path: string;
@@ -61,6 +62,7 @@ export function PageSchema({
   crumbs: { name: string; path: string }[];
   kind?: "Article" | "CollectionPage";
   date?: string;
+  language?: "en-US" | "en-GB";
 }) {
   const url = siteUrl + indexingPriorityCanonicalPath(path);
   const data = {
@@ -72,7 +74,7 @@ export function PageSchema({
         name: title,
         description,
         url,
-        inLanguage: "en-US",
+        inLanguage: language,
         isPartOf: { "@id": websiteId },
         publisher: organization,
         ...(kind === "Article" ? {
